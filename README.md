@@ -17,3 +17,7 @@
 * You are free to modify these, using the build steps/logic you deem necessesary.
     * e.g., the `build.sh` script is just an example of a build step.
 * Once published, the final result is available on [docs.neptune-software.com](https://docs.neptune-software.com)
+
+## Antora
+* The HTML output of the static website is generated from the AsciiDoc sources using [Antora](https://docs.antora.org/antora/2.3/install/install-antora/).
+* The [output directory](https://docs.antora.org/antora/2.3/playbook/output-dir/) must be set in the Antora playbook to match the above requirements.
