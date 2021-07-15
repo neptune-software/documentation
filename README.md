@@ -21,3 +21,4 @@
 ## Antora
 * The HTML output of the static website is generated from the AsciiDoc sources using [Antora](https://docs.antora.org/antora/2.3/install/install-antora/).
 * The [output directory](https://docs.antora.org/antora/2.3/playbook/output-dir/) must be set in the Antora playbook to match the above requirements.
+* We should think about where to store the [Neptune UI for Antora](https://docs.antora.org/antora-ui-default/). 
