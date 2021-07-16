@@ -14,8 +14,7 @@
 ### Setup 
 * The GitHub workflow is defined in [publish.yml](https://github.com/neptune-software/documentation/blob/master/.github/workflows/publish.yml)
 * [Specific settings for Azure Static Web App](https://aka.ms/swaworkflowconfig)
-* Notice the `app_location` key, which sets your "working directory". You can [directly publish from this folder](https://docs.microsoft.com/en-us/azure/static-web-apps/github-actions-workflow#skip-building-front-end-app).
-* All content from the `app_location` folder that is defined in [publish.yml](https://github.com/neptune-software/documentation/blob/master/.github/workflows/publish.yml) is uploaded to the static Azure site.
+* The `app_location` key sets your "working directory". You can [publish directly from this folder](https://docs.microsoft.com/en-us/azure/static-web-apps/github-actions-workflow#skip-building-front-end-app).
     
 ### Additional build steps
 * The `app_build_command` key specifies to run `./build.sh` which is an example of a "build step". This step right now creates a folder `tempdir` and copies the example `index.html` from the root folder into it.
