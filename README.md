@@ -8,10 +8,10 @@
 ## Deploy process
 
 * On each push to the **master** branch the GitHub Action Workflow [Publish](https://github.com/neptune-software/documentation/actions/workflows/publish.yml) is triggered.
-*. All content from the `app_location` folder that is defined in [publish.yml](https://github.com/neptune-software/documentation/blob/master/.github/workflows/publish.yml) is uploaded to the static Azure site.
+* All content from the `app_location` folder that is defined in [publish.yml](https://github.com/neptune-software/documentation/blob/master/.github/workflows/publish.yml) is uploaded to the static Azure site.
 * The GitHub workflow is defined in [publish.yml](https://github.com/neptune-software/documentation/blob/master/.github/workflows/publish.yml)
 * [Specific settings for Azure Static Web App](https://aka.ms/swaworkflowconfig)
-* Notice the `app_location` key, which sets your "working directory".
+* Notice the `app_location` key, which sets your "working directory". You can [directly publish from this folder](https://docs.microsoft.com/en-us/azure/static-web-apps/github-actions-workflow#skip-building-front-end-app).
 * We have an example `index.html` file in the root folder of this repo.
     
 ### Additional build steps
