@@ -22,6 +22,6 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_DEPLOY_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"
+          app_location: "antora/html-output"
           app_build_command: "./build.sh"
-          output_location: "./antora/html-output"
+          output_location: "antora/html-output"
