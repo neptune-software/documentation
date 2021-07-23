@@ -8,8 +8,8 @@
 ## Deploy process
 
 ### Publishing
-* On each push to the **master** branch the GitHub Action Workflow [Publish](https://github.com/neptune-software/documentation/actions/workflows/publish.yml) is triggered.
-* All content from the `app_location` folder is uploaded to the static Azure site. The URL is [docs.neptune-software.com](https://docs.neptune-software.com).
+* Each push to the **master** branch triggers the GitHub Action Workflow [Publish](https://github.com/neptune-software/documentation/actions/workflows/publish.yml).
+* All content from the `app_location` folder is uploaded to the [static Azure site](https://docs.neptune-software.com).
   
 ### Setup 
 * The GitHub workflow is defined in [publish.yml](https://github.com/neptune-software/documentation/blob/master/.github/workflows/publish.yml)
@@ -20,6 +20,33 @@
 * The `app_build_command` key specifies to run `./build.sh` which is an example of a "build step". This step right now creates a folder `tempdir` and copies the example `index.html` from the root folder into it.
 * You are free to modify these, using the build steps/logic you deem necessary.
 
-## Antora
-* The HTML output of the static website is generated from the AsciiDoc sources using [Antora](https://docs.antora.org/antora/2.3/install/install-antora/).
-* We should think about where to store the [Neptune UI for Antora](https://docs.antora.org/antora-ui-default/). 
+## Branches
+The complete PoC is hosted here on Neptune GitHub. The components of the PoC are stored in separate branches.
+Antora pulls the content directly from the Git branches, see [Repositories and Content Source Roots](https://docs.antora.org/antora/2.3/content-source-repositories/).
+
+### master
+
+#### Configuration files for deploy process
+- _.github/workflows/publish.yml_: Settings for publishing as Azure Static Web App
+- _build.sh_: Optional build steps
+
+#### Antora-related files
+- _antora/html-output_: Generated HTML output
+- _antora/neptune-ui/ui-bundle.zip_: Customized UI bundle
+- _antora/antora-poc-playbook_neptune.yml_: Antora playbook file
+
+### poc/v1.0 and poc/v2.0
+* Sample documentation source files in AsciiDoc for two versions of the Neptune DXP documentation and the style guide.
+
+### poc/neptune-ui
+* Source files for the Antora Neptune UI.
+
+## Antora 
+
+### Resources
+* [Install and Run Antora Quickstart](https://docs.antora.org/antora/2.3/install-and-run-quickstart/)
+* [Antora Default UI](https://docs.antora.org/antora-ui-default/) 
+
+### Build the PoC with Antora
+Run the following command to generate the HTML output locally: 
+`$ antora generate antora-poc-playbook_neptune.yml`
