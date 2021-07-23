@@ -1,4 +1,4 @@
-# Documentation PoC
+# Proof of concept (PoC) for Neptune DXP documentation
 
 ## Hosting
 
