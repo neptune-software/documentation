@@ -27,13 +27,13 @@ Antora pulls the content directly from the Git branches, see [Repositories and C
 ### master
 
 #### Configuration files for deploy process
-- _.github/workflows/publish.yml_: Settings for publishing as Azure Static Web App
-- _build.sh_: Optional build steps
+- _.github/workflows/[publish.yml](https://github.com/neptune-software/documentation/blob/master/.github/workflows/publish.yml)_: Settings for publishing as Azure Static Web App
+- _[build.sh](https://github.com/neptune-software/documentation/blob/master/build.sh)_: Optional build steps
 
 #### Antora-related files
 - _antora/html-output_: Generated HTML output
 - _antora/neptune-ui/ui-bundle.zip_: Customized UI bundle
-- _antora/antora-poc-playbook_neptune.yml_: Antora playbook file
+- _antora/[antora-poc-playbook_neptune.yml](https://github.com/neptune-software/documentation/blob/master/antora/antora-poc-playbook_neptune.yml)_: Antora playbook file
 
 ### poc/v1.0 and poc/v2.0
 * Sample documentation source files in AsciiDoc for two versions of the Neptune DXP documentation and the style guide.
