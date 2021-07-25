@@ -13,15 +13,18 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: true
-      - run: |
-          mkdir output-dir
-      - name: Build And Deploy
+      - name: Install Antora
+        run: |
+          npm install @antora/cli @antora/site-generator-default asciidoctor-plantuml
+      - name: Render Static Site
+        run: |
+          antora --fetch ./antora/antora-poc-playbook_neptune.yml
+      - name: Deploy Static Site
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_DEPLOY_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "antora/html-output"
-          app_build_command: "./build.sh"
+          app_location: "antora/github-poc"
           output_location: ""
