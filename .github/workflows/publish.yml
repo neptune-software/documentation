@@ -8,7 +8,7 @@ on:
 jobs:
   build_and_deploy_job:
     runs-on: ubuntu-latest
-    name: Publish Docs
+    name: Render & Publish Docs
     steps:
       - uses: actions/checkout@v2
         with:
@@ -18,7 +18,6 @@ jobs:
           npm install @antora/cli @antora/site-generator-default asciidoctor-plantuml
       - name: Render Static Site
         run: |
-          ls
           ./node_modules/.bin/antora --fetch ./antora/antora-poc-playbook_neptune.yml
       - name: Deploy Static Site
         id: builddeploy
