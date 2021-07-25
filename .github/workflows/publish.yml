@@ -18,7 +18,8 @@ jobs:
           npm install @antora/cli @antora/site-generator-default asciidoctor-plantuml
       - name: Render Static Site
         run: |
-          antora --fetch ./antora/antora-poc-playbook_neptune.yml
+          ls
+          ./node_modules/.bin/antora --fetch ./antora/antora-poc-playbook_neptune.yml
       - name: Deploy Static Site
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
