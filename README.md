@@ -3,13 +3,13 @@
 ## Hosting
 
 * The static site is hosted using [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/).
-* URL: [docs.neptune-software.com](https://docs.neptune-software.com).
+* URL: [docs.neptune-software.com](https://docs-poc.neptune-software.com).
 
 ## Deploy process
 
 ### Publishing
 * Each push to the **master** branch triggers the GitHub Action Workflow [Publish](https://github.com/neptune-software/documentation/actions/workflows/publish.yml).
-* All content from the `app_location` folder is uploaded to the [static Azure site](https://docs.neptune-software.com).
+* All content from the `app_location` folder is uploaded to the [static Azure site](https://docs-poc.neptune-software.com).
   
 ### Setup 
 * The GitHub workflow is defined in [publish.yml](https://github.com/neptune-software/documentation/blob/master/.github/workflows/publish.yml)
