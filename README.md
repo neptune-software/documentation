@@ -3,7 +3,7 @@
 ## Hosting
 
 * The static site is hosted using [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/).
-* URL: [docs.neptune-software.com](https://docs-poc.neptune-software.com).
+* URL: [docs-poc.neptune-software.com](https://docs-poc.neptune-software.com).
 
 ## Deploy process
 
