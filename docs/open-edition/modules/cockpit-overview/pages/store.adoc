@@ -1,0 +1,7 @@
+= Store
+
+The _Store_ is a portal to download or publish applications.
+The _Store_ provides free building blocks, templates, and APIs for your instance.
+Any item you download is ready to use or modify in your instance.
+You can publish new applications to the store, or you can use the available applications from the _Store_.
+The tools _API Designer_ and _App Designer_ use the _Store_ to publish or download APIs or applications.

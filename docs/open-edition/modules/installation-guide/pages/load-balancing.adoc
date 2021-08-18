@@ -1,0 +1,18 @@
+= Load balancing
+
+Neptune DXP - Open Edition supports load balancing and high availability set up.
+This is achieved by having multiple Neptune DXP - Open Edition instances configured with the same database.
+These Neptune DXP - Open Edition instances can be located behind a load balancer.
+By locating the Neptune DXP - Open Edition instances on hosts which are in different availability zones you can achieve high availability.
+This is illustrated in xref:0.1@neptune-dxp-open-edition:installation-guide:load-balancing.adoc#bc67aae8-7e0f-422d-87e5-149806029ff8[below].
+
+[[bc67aae8-7e0f-422d-87e5-149806029ff8]]
+.Load Balancing
+image::installation-guide:load_balancing_overview.png[Load Balancing]
+
+== Limitations to load balancing
+
+There are currently some limitations to the usage of high availability. We're actively working on solutions to resolve these limitations in future releases. Based on your individual setup (virtual machines, Kubernetes, ...) other solutions might be suitable.
+
+
+

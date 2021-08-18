@@ -1,0 +1,47 @@
+= Set up a database in the AWS instance
+
+== Prerequisite
+* You created an instance on the AWS console.
+* You launched the AWS instance.
+* You connected your AWS instance to the Neptune DXP - Open Edition.
+
+== Procedure
+. In the _AWS_ window, open the *Services* menu.
+. Under *Database*, click *RDS*.
++
+image::aws-database-rds.png[width=600]
+
+. Under *Resources*, click *DB Instances*.
+//Helle: needs to be checked.
++
+image::aws-database-resources.png[width=600]
++
+. Click *Create database*.
++
+image::aws-database-create-database.png[width=600]
+//Helle: images need to be reworked.
+
+. Select *PostgreSQL* as the database engine.
+. Click *Next*.
+//Helle: *Next* needs to be checked. Are there more *Next* buttons?
+. Select a *Use Case* according to your needs.
+. Select ...
+. ...
+//Helle: input needed. Documentation might not be up-to-date with the current aws database creation work flow.
+. Click *Create database*.
++
+image::aws-database-db-being-created.png[width=600]
++
+Your database details have been sent to AWS. AWS need to launch your database. This can take 10-15 minutes.
+. To watch the current status of your database, open the *Services* menu.
+. Under *Database*, click *RDS*.
+. Under *Resources*, click *DB Instances*.
+//Helle: Resources > DB Instances, needs to be checked.
+. To see the details of your database, click on the *DB identifier* of your database.
+
+NOTE: Leave this tab open. You need this information in the next steps.
+
+You created your database. Once AWS have launched your database, its *Status* switches from "in Progress" to "Available".
+
+== Next steps
+Connect the AWS database to your Neptune DXP - Open Edition.

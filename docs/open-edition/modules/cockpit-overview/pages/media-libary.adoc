@@ -1,0 +1,5 @@
+= Media Library
+
+The _Media Library_ is where you store all media files you want to use within your application.
+This can be images, audio files and videos.
+When designing applications in the _App Designer_, you can bind components to any file you store here.

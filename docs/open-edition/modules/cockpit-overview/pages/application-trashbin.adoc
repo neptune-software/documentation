@@ -1,0 +1,5 @@
+= Application Trashbin
+
+_Application Trashbin_ provides an overview of your deleted applications.
+In the overview, you can click the application to restore it or to delete it permanently.
+//screenshot

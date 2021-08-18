@@ -1,0 +1,9 @@
+= Basic setup of the Neptune DXP - Open Edition
+
+Before installing the Neptune DXP - Open Edition, you need to consider the following:
+
+* Install npm and the corresponding node.js files (see xref:npm-module.adoc[Install npm modules]).
+* You need a database to work with the Neptune DXP - Open Edition.  xref:configuring-database.adoc[Configure your database] explains which databases are available and how you can configure them.
+* You need to consider the load balancing before the installation. This is explained in xref:load-balancing.adoc[Load balancing].
+
+After being sure about the basic setup, you can download and install the Neptune DXP - Open Edition from the xref:installation-guide.adoc[Installation guide].

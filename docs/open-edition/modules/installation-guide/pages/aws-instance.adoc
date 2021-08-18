@@ -1,0 +1,42 @@
+= Create an instance on the AWS console
+
+An instance is a virtual server in the AWS cloud.
+
+== Prerequisites
+
+* You have an account at the AWS platform.
+
+== Procedure
+
+. Type the following URL: https://console.aws.amazon.com.
+. Login to the AWS Management Console.
+. Open *Services*.
++
+image::aws-console-management.png[]
++
+. Select *EC2*.
++
+image::aws-console-ec2.png[]
++
+. Click *Resources*.
+. Click *Key Pairs*.
++
+image::aws-key-pairs.png[]
++
+The key pair is used later for launching the instance.
++
+. Create a Key Pair as a new key for the instance.
++
+image::aws-key-pair-2.png[]
++
+. Save the key pair details.
+. Click *Launch Instance* to create an instance.
++
+image::aws-launch-instance.png[]
++
+You have created the instance and you can work with it.
+
+== Next steps
+After creating the instance, you must launch it and connect to your AWS instance.
+
+

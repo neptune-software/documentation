@@ -1,0 +1,4 @@
+= NPM Modules
+
+In _NPM Modules_ you install the NPM package to your Neptune DXP - Open Edition instance so that you can use it later in _App Editor_.
+You can search for particular NPM modules and install them.

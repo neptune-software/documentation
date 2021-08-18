@@ -1,0 +1,26 @@
+= Configure the connection to the AWS database in the cockpit
+
+== Prerequisite
+* You created an instance on the AWS console.
+* You launched the AWS instance.
+* You connected your AWS instance to the Neptune DXP - Open Edition.
+* You created your database in AWS.
+
+== Procedure
+. Open the Neptune DXP - Open Edition cockpit.
+. Under *Settings*, click *System*.
++
+image::cockpit-setting-system-database.png[width=600]
+//Helle: needs to be updated for new cockpit.
+
+. Switch to the *Database* tab.
+. From the *Type* drop-down menu, select *PostgreSQL (9.6 or later)*.
+. If you want to establish a secure SSL connection with the database server, check the *Use SSL* box.
+//Helle: What happens if I do, what if I don't?
+.. If you checked the *Use SSL* box, enter the URI in the *URI* field.
+//Helle: what URI? Where do I get it?
+.. If you did not check the *Use SSL* box, enter either the URI in the *URI* field or the hostname in the *Host* field.
+//Helle: where do I get the hostname?
+
+
+== Next steps

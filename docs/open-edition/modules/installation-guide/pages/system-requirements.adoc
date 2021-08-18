@@ -1,0 +1,36 @@
+= System requirements
+
+The system requirements for Neptune DXP - Open Edition are moderate. Mainly, it depends on the number of users working with the Neptune DXP - Open Edition.
+You can adjust the servers as the load grows, or consider server capacity beforehand.
+For example, if you have around 50 users, you can start with 2 servers:
+One Neptune DXP - Open Edition frontend server and one Neptune DXP - Open Edition database server with 8 GB RAM each.
+
+== Servers
+Neptune DXP - Open Edition can be installed on the following servers:
+
+* Linux
+* OSX
+* Windows
+* Raspberry Pi
+
+== Client browser
+Neptune DXP - Open Edition runs in following browsers:
+
+* Microsoft Internet Explorer 11
+//Microsoft Edge?
+* Google Chrome: latest version
+* Mozilla Firefox: latest version
+
+== Client mobile app
+Neptune DXP - Open Edition runs on the following mobile operating systems:
+
+* iOS, version 7 or higher
+* Android, version 4.3 or higher
+* Windows phone is supported as of Windows 10 mobile
+* Windows is supported as of Windows 10
+
+== Network
+
+* EDGE is the minimum requirement.
+* If the client allows it, compression is used. The Neptune server will compress 50 MB to 1 MB physically transferred (for 100% JSON text data).
+

@@ -1,0 +1,20 @@
+= App Designer
+
+_App Designer_ is the starting point for the following actions:
+
+* Updating the existing UI
+* Creating new HTML5 UIs
+* Building mobile and desktop applications
+
+_App Designer_ is a low code building environment suitable for most requirements and levels of complexity.
+//Input needed - does it mean: _App Designer_ is a low code building environment that meets the requirements for programming apps of almost any level of complexity.
+
+_App Designer_ provides you with a drag drop elements functionality for creating applications with the following features:
+
+* Multiple pages
+
+* Support version management
+
+* Language translation
+
+* High charts

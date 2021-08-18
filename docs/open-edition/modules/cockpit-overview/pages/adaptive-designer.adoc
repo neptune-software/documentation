@@ -1,0 +1,16 @@
+= Adaptive Designer
+
+In _Adaptive Designer_ you configure adaptive frameworks.
+Developers can build these adaptive frameworks to provide a flexible, customizable, no-code way for business users.
+This means that they are able to create and customize applications to fulfill their specific requirements.
+The users use the drag and drop functionality together with pre-defined input fields.
+
+Neptune currently provides the following application template types.
+They allow business users to create and customize applications easily:
+
+image:adaptive-templ-types.png[Adaptive Template Types 640, 340]
+
+* Business Intelligence
+* List
+* Detail
+* Tiles

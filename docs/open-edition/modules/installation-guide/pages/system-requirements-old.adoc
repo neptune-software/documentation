@@ -1,0 +1,25 @@
+= System requirements
+
+Neptune - DXP Open Edition runs on the following systems:
+
+* Linux
+* OSX
+* Windows
+* Raspberry Pi
+
+Neptune - DXP Open Edition supports the following client mobile apps:
+
+* iOS, from version 7
+* Android, from version 4.3
+* Windows Phone
+
+There are the following requirements to the network:
+
+* EDGE is the minimal requirement
+* If the client allows it, data compression is used. Neptune server will compress 50 Mb to 1 Mb that is physically transferred (for 100% JSON text data).
+
+Technical requirements:
+
+* (...)
+
+Necessary tools:

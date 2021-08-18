@@ -1,0 +1,79 @@
+= _App Designer_ interface at a glance
+
+The _App Designer_ interface consists of the following elements:
+
+* Menu
+* Toolbar
+* Editor tools
+* UI object panel
+* Component properties panel
+* Application component panel
+* Application preview panel
+* Open UI5
+* Neptune community
+* Reusable component panel
+
+image:appdesigner-interface.png["appdesigner-interface",width=800,link="app designer-interface.png"]
+
+== Menu
+The *Menu* includes the following items:
+
+* *Settings*: Configure the UI5 version and application properties.
+* *Designer*: Design your application.
+* *Translation*: Translate the text of screen objects.
+* *Version Management*: Manage different versions of your files.
+
+Toggle the items by clicking the *Menu* icon.
+
+== Toolbar
+The *Toolbar* includes the following items:
+
+
+* *Application*: Open, create, delete, or copy applications. Export and import applications, run a global search to find javascript code across all applications, generate a version, and refresh the master data.
+* *Display/Edit*: Click to toggle to Edit or Display mode.
+* *Save*: Save your application.
+* *Activate*: Activate your application.
+* *Run*: Run the application in a separate browser tab.
+* *Screen views*: Switch panel views and switch between a one-column and two-column view. The one-column view hides the *UI object panel*.
+
+== Editor tools
+The *Editor tools* includes the following tabs:
+
+
+* *Expand/Collapse*: Expand and collapse groups of the component panel.
+* *Undo*: Undo changes.
+* *Run*: Run the application in the _App Designer_.
+* *Header*: The header editor
+* *Stylesheet*: The stylesheet editor
+* *Web App Manifest* editor
+//Input needed
+* *Script search*: Search for scripts.
+* *ToDo*:
+//Input needed
+* *Display Data Flow*: Display data flows for APIs and UI5 models.
+
+Easily switch between opened tabs. Click *Close all tabs* to close all open tabs.
+
+== UI object panel
+The *UI object panel* lets you define the component name and enter a corresponding description.
+Depending on the selected component in the *Application component panel*, you also can enter a model source and a model path.
+
+== Component properties panel
+The *Component properties panel* shows the attributes of a component. You can define properties or events to change the layout and behavior of a component.
+
+== Application preview panel
+The *Application preview panel* shows a preview of your application.
+
+== Application component panel
+The *Application component panel* shows all the components that you can use for building your application.
+Components are user-interface elements that you can drag and drop into the upper application component panel to build your application.
+
+== Open UI5
+*Open UI5* opens a website providing UI5 resources, such as documentation, API reference, and samples.
+
+== Neptune Community
+*Neptune Community* opens the community website giving you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
+
+== Reusable component panel
+The *Reusable component panel* shows the components that you selected for building your application.
+You can delete, modify and change the position of these components to modify your application.
