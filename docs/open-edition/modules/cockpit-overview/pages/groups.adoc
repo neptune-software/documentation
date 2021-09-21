@@ -1,0 +1,17 @@
+= Groups
+//parson: Icon not in the icon library
+
+A group holds some or all the resources that you need for a solution.
+Groups help you maintain an overview of all the different APIs and the OData for a solution.
+You can create several groups.
+
+Groups also help you in the https://community.neptune-software.com/documentation/deployment-2[deployment] process.
+
+You can add APIs and OData to a group in the API Designer or the OData source.
+
+== Related topics
+* https://community.neptune-software.com/documentation/group#Create%20a%20group[Create a group]
+* https://community.neptune-software.com/documentation/group#Adding%20API%20to%20Group[Add an API to a group]
+* https://community.neptune-software.com/documentation/group#Adding%20OData%20to%20group[Add OData to a group]
+* https://community.neptune-software.com/documentation/group#API%20Group%20while%20Deployment[Groups during deployment]
+

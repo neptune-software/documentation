@@ -1,0 +1,15 @@
+= image:odata-icon.png[width=100,link="swagger-odata-icon.png"] OData Source
+
+With __OData Source__, you manage all your OData sources.
+__OData Source__ consumes data from an OData service.
+
+OData (Open Data Protocol) is a REST-based, open web protocol for sharing data in a standardized format.
+OData can be easily consumed by other systems.
+OData uses well-known web technologies like HTTP and JSON.
+
+== Related topics
+* https://community.neptune-software.com/documentation/o-data-source[OData Source]
+* https://community.neptune-software.com/documentation/getting-started-with-o-data[Getting started with OData]
+* https://community.neptune-software.com/documentation/o-data-mockdata[OData mock data]
+
+

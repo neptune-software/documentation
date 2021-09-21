@@ -1,201 +1,142 @@
-=== Cockpit Tools Overview
-image:neptune-dxp-open-edition:Cockpit-Overview:../images/cockpit-overview.png[Cockpit Overview Section Development]
+= Neptune DXP - Open Edition Cockpit: Tool overview
 
-.Developement
-[cols=2*,options=header]
-|===
-|Name
-|Description
+The Cockpit is the starting point where you create your applications.
+The different sections include the tools and services that you need for creating, running, testing, and maintaining applications.
 
-|Store
-|The Store provides free building blocks, templates, and APIs for your instance.
-Any item you download is ready to use or modify in your instance. APIs appear in the API Designer.
+image::cockpit-overview.png[Cockpit Overview, 800 px]
 
-|Development Package
-|Here, you organize and group artifacts.
+== Development
+In the *Development* section, you find the tools you need to build your own applications.
 
-|App Designer
-|The App Designer is a low code building environment suitable for most requirements and levels of complexity.
-The App Designer allows you to drag and drop components to create applications with multiple pages.
+image::cockpit-overv-development.png[Cockpit overview section development, 400 px]
 
-|App Editor
-|The App Editor is a coding environment using the react and vue frameworks.
-You can use the App Editor for creating fully customizable applications.
 
-|Script Editor
-|In the Script Editor, you can create server-side scripts to extend your instance beyond the standard configurations.
-You can automate processes, add functionality to your applications, or integrate your instance in an application built outside the Neptune DXP Open Edition.
+The following tools are available:
 
-|Code Snippets
-|In Code Snippets, you configure java code snippets that you can use in the App Designer and the Script Editor.
-
-|Documentation
-|In Documentation, you create the application documentation or context-sensitive help for your applications.
-
-|Media Library
-|The Media Library is where you store all media files you want to use within your application.
-This can be images, audio files, videos, and more. When designing applications in the App Designer, you can bind components to any file stored in the Media Library.
-
-|NPM Modules
-|Download, install, and update any Node Package Modules that can be used by server scripts created in the Script Editor or within the App Editor. 
-
-|Application Trashbin
-|Here, you find applications you have deleted. You can restore them or delete them permanently.
-|===
+* xref:store.adoc[_Store_]: Download and share application building blocks.
+* xref:development-package.adoc[_Development Package_]: Organize and group artifacts.
+* xref:adaptive-designer.adoc[_Adaptive Designer_]: Create adaptive applications.
+* xref:app-designer.adoc[_App Designer_]: Create UI5 applications with low-code designer.
+* xref:app-editor.adoc[_App Editor_]: Create fully customizable applications.
+* xref:script-editor.adoc[_Script Editor_]: Code server-side scripts and use them as microservices.
+* xref:code-snippets.adoc[_Code Snippets_]: Configure code snippets for _App Designer_ and _Script Editor_.
+* xref:app-documentation.adoc[_Documentation_]: Create application documentation or context-sensitive help.
+* xref:media-libary.adoc[_Media Library_]: Store the media files you want to use within your application.
+* xref:npm-modules.adoc[_NPM Modules_]: Install and update node package manager modules.
+* xref:application-trashbin.adoc[_Application Trashbin_]: Restore or delete applications permanently.
 
 == Design
+image::cockpit-overv-design.png[Cockpit overview section design, 600]
+In the *Design* section, you find the tools you need to give your application the right look.
 
-[cols=2*,options=header]
-|===
-|Name
-|Description
+The following tools are available:
 
-|PDF Designer
-|The PDF Designer offers a drag and drop environment to create templates for custom PDFs.
-PDFs you created here can be triggered from anywhere in the platform.
+* _PDF Designer_: The _PDF Designer_ offers a drag and drop environment to create templates for custom PDFs.
+PDFs you create here can be triggered from anywhere in the platform.
 
-|Theme Designer
-|Define custom CSS for the use in the Launchpad and the App Designer.
+* _Theme Designer_: Define custom CSS for the use in the Launchpad and the _App Designer_.
 
-|Theme Import
-|Import themes from SAP UI Theme Designer.
+* _Theme Import_: Import themes from SAP UI Theme Designer.
 
-|Email Template
-|Create e-mail templates.
-|===
+* _Email Template_: Create e-mail templates.
 
-.Connectivity
-[cols=2*,options=header]
-|===
-|Name
-|Description
+== Connectivity
+image:cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
 
-|Group
-|Here, you group your APIs and OData (Open Data Protocol) according to their usage. 
+In the *Connectivity* section, you group your APIs and OData (Open Data Protocol) according to their usage.
 
-|API Designer
-|The API Designer is a graphical user interface, you can create and configure Rest API definitions with it.
-You can define and update Rest APIs at any stage and reuse them over different applications. 
-Here, you import APIs from Planet 9 files, OAS/Swagger, table definitions and API Discovery. 
+The following tools are available:
 
-|API Client
-|The API Client is where you test the response of APIs you created in the API Designer. Use API Client to send calls to the API server, get a response and log the system response in API Trace. 
+* _API Designer_: The _API Designer_ is a graphical user interface, you can create and configure Rest API definitions with it.
+You can define and update Rest APIs at any stage and reuse them over different applications.
+Here, you import APIs from Neptune DXP - Open Edition files, OAS/Swagger, table definitions, and API Discovery.
 
-|API Trace
-|The API Trace tool shows how many API calls have been made by apps to the server.
+* _API Client_: The _API Client_ is where you test the response of APIs you created in the API Designer. Use API Client to send calls to the API server, get a response and log the system response in API Trace.
+
+* _API Trace_: The _API Trace_ tool shows how many API calls have been made by apps to the server.
 You can also see when they were run and who ran them.
-API Trace makes it easier to maintain the logs for the applications' APIs. 
+_API Trace_ makes it easier to maintain the logs for the applications' APIs.
 
-|Swagger UI
-|The Swagger UI visualizes an API you created in the API Designer.
+* _Swagger UI_: The _Swagger UI_ visualizes an API you created in the _API Designer_.
 This allows you to interact with it and get a feel for its functionality without having any of the implementation logic figured out yet.
 
-|OData Source
-|Add new OData sources to a coordination package. You always can change properties on the OData. Also, find an overview where the OData is used.
+* _OData Source_: Add new OData sources to a coordination package. You always can change properties on the OData.
+Also, find an overview where the OData is used.
 
-|OData Mock Data
-|Add and update mock data. 
-|===
+* _OData Mock Data_: Add and update mock data.
 
-.Administration
+== Administration
+image:cockpit-overv-administration.png[Cockpit overview section administration, 600]
+
+In the *Administration* section, you ...
+
+The following tools are available:
+
+* _Application Management_: Overview of the available applications in your system.
+
+* _Tile_: Create and configure tiles and allocate them to launchpads.
+Tiles serve as navigation links to Planet applications, external URLs and through policy allocation, they also control application access.
+
+* _Tile Group_: Create and configure tile groups to ensure that related apps are organized and visible to users in Neptune NXP Open - Edition launchpads.
+
+* _Launchpad_: Create, configure, and maintain launchpads.
+
+* _Mobile Client_: Create, configure, and download a Cordova Mobile Client ZIP build.
+
+* _Mobile Debug_: Enable mobile debugging and view logs for applications and users.
+
+* _Tile Blackout_: Deactivate tiles. _Tile Blackout_ informs users that the underlying app or URL on the tile is under maintenance/unreachable.
+
+* _Favorite Management_: Add tiles to the users' launchpad favorite tiles.
+
+* _Translation_: Translate artifacts, tiles, and tile groups.
+
+
+== Monitoring
 [cols=2*,options=header]
-|===
-|Name
-|Description
 
-|Application Management
-|Overview of the available applications in your system.
 
-|Tile
-|Create and configure tiles and allocate them to launchpads. Tiles serve as navigation links to Planet applications, external URLs and through policy allocation, they also control application access. 
+* _System Processes_:
 
-|Tile Group
-|Create and configure tile groups to ensure that related apps are organized and visible to users in Planet 9 launchpads.
+* _Lock Entries_: Overview of active locks in the system.
 
-|Launchpad
-|Create, configure, and maintain launchpads.
+* _Houskeeping_: Delete logs from across the system and define the retention time for different log types.
 
-|Mobile Client
-|Create, configure, and download a Cordova Mobile Client ZIP build.
+* _SMTP Log_: View a log of all e-mails and their sent status. You can filter for utime and status.
 
-|Mobile Debug
-|Enable mobile debugging and view logs for applications and users.
+* _System Logs_:
 
-|Tile Blackout
-|Deactivate tiles. Tile Blackout informs users that the underlying app or URL on the tile is under maintenance/unreachable.
+* _User Sessions_:
 
-|Favorite Management
-|Add tiles to the users' launchpad favorite tiles.
+* _Application Log_:
 
-|Translation
-|Translate artifacts, tiles, and tile groups.
-|===
+* _Launchpad Trace_:
 
-.Monitoring
-[cols=2*,options=header]
-|===
-|Name
-|Description
+* _Push Notification Users_:
 
-|System Processes
-|
+*_Load Test_:
 
-|Lock Entries
-|Overview of active locks in the system.
 
-|Houskeeping
-|Delete logs from across the system and define the retention time for different log types.
+== Tools
 
-|SMTP Log
-|View a log of all e-mails and their sent status. You can filter for utime and status.
+* _Job Manage_
 
-|System Logs
-|
 
-|User Sessions
-|
+* _Job Log_
 
-|Application Log
-|
-
-|Launchpad Trace
-|
-
-|Push Notification Users
-|
-
-|Load Test
-|
-|===
-
-.Tools
-[cols=2*,options=header]
-|===
-|Name
-|Description
-
-|Job Manage
-|
-
-|Job Log
-|
-
-|Table Definition
-|With the Table Definition tool you create and maintain the databases for you apps.
+* _Table Definition_: With the Table Definition tool you create and maintain the databases for you apps.
 The Table Definition tool provides a schema definition and metadata for the databases.
-You can import schemas and automatically or manually define them with the Table Definition tool. 
+You can import schemas and automatically or manually define them with the Table Definition tool.
 
-|Table Browser
-|The Table Browser tool shows the table data.
+* _Table Browser_: The Table Browser tool shows the table data.
 You can add, delete, and update data records here.
 To connect the data to your application, use the API Designer.
 
-|Tracking List
-|
+* _Tracking List_:
 
-|Tracking Settings
-|
-|===
+
+* _Tracking Settings_:
+
 
 .Testing
 [cols=2*,options=header]
@@ -262,40 +203,5 @@ If you want to adjust the roles of more users at once, go to the Group tool.
 |
 
 |Certificates
-|
-|===
-
-.Workflow
-[cols=2*,options=header]
-|===
-|Name
-|Description
-
-|Overview
-|
-
-|Definition
-|
-
-|Task Action
-|
-
-|Approvers
-|
-
-|Substitutions
-|
-|===
-
-.Settings
-[cols=2*,options=header]
-|===
-|Name
-|Description
-
-|System Settings
-|
-
-|Custom Settings
 |
 |===

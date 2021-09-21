@@ -1,0 +1,11 @@
+= image:pdf-designer-icon.png[width=100,link="pdf-designer-icon.png"] PDF Designer
+
+
+With the __PDF Designer__ of Neptune DXP - Open Edition you design your own PDF documents.
+You can add images, watermarks, QR codes, tables, headers and footers, and apply your own styles to PDF documents.
+
+== Related topics
+* https://community.neptune-software.com/documentation/pdf-designer[PDF Designer]
+
+
+

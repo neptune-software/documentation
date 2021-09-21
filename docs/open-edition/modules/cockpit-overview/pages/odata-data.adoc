@@ -1,0 +1,14 @@
+= image:odata-mockdata-icon.png[width=100,link="odata-mockdata-icon.png"] OData mock data
+
+Mock data simulates the behaviour of real data in a controlled way.
+
+When you develop a Neptune DXP - Open Edition application with an OData backend, mock data comes in handy.
+
+== Possible use cases for working with OData mock data
+* The backend is not up-to-date. Instead of updating the data in the backend, you can work with mock data that is up-to-date.
+* You want to present an application to a customer using mock data to display the customer's product or brand name.
+* You want to test your application with certain data, for example, very long names or big numbers.
+
+== Related topics
+* https://community.neptune-software.com/documentation/o-data-mock-data[OData mock data]
+* https://community.neptune-software.com/documentation/o-data[OData]

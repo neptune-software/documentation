@@ -1,0 +1,12 @@
+= image:api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
+
+With the __API Designer__ you create and configure API definitions.
+You can easily define and update APIs at any stage of designing.
+
+The __API Designer__ makes APIs reusable for many applications by just adding that API to the application attributes.
+
+== Related topics
+* https://community.neptune-software.com/documentation/overview-sdbhog8y#Basics%20of%20API%20Designer[Basics of API Designer]
+* https://community.neptune-software.com/documentation/getting-started-with-api-designer-p8[Getting Started with API Designer]
+
+

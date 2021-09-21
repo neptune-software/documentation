@@ -2,7 +2,5 @@ name: neptune-dxp-open-edition
 title: Neptune DXP Open Edition
 version: '0.1'
 nav:
-- modules/ROOT/nav.adoc
-- modules/cockpit-overview/nav.adoc
-- modules/installation-guide/nav.adoc
+- modules/getting-started-guide/nav.adoc
 

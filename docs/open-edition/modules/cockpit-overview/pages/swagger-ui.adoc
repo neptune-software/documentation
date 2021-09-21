@@ -1,0 +1,18 @@
+= image:swagger-ui-icon.png[width=100,link="swagger-ui-icon.png"] Swagger UI
+
+__Swagger UI__ lets you visualize and interact with the resources of APIs without the implementation logic and makes back-end implementation and client-side consumption easy.
+
+You can use __Swagger UI__ to quickly review the REST API.
+
+__Swagger UI__ provides the format for defining the operations of your API in a human and machine-readable way and visualizes these operations to let consumers interact with the different endpoints of the API.
+
+== Features
+* Independent: Host your Swagger UI in any environment.
+* Human-friendly: Allow developers to effortlessly interact and try out every single operation that your API exposes for easy consumption.
+* Easy to navigate: Quickly find and work with resources and endpoints with neatly categorized documentation.
+* All-browser support: Cater to every possible scenario with __Swagger UI__ working in all major browsers.
+
+== Related topics
+* https://community.neptune-software.com/documentation/swagger-ui-2[Swagger UI]
+* https://community.neptune-software.com/documentation/swagger-ui-2#Getting%20started%20with%20swagger%20UI[Getting started with Swagger UI]
+

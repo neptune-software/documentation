@@ -1,2 +1,12 @@
-= Install Neptune DXP Open Edition on SAP BTP
+= Install Neptune DXP - Open Edition on SAP BTP
 
+//Helle: source: https://community.neptune-software.com/documentation/install-planet-9-on-s-c-p#-create-space
+
+Installing Neptune DXP - Open Edition on SAP BTP includes the following tasks:
+
+. xref:sap-trial-account.adoc[Set up your SAP Cloud trial account]
+. xref:sap-subaccount.adoc[Set up your subaccount]
+. xref:sap-cloud-foundry.adoc[Enable Cloud Foundry]
+. xref:sap-space.adoc[Create a Space]
+. xref:sap-quota-plan.adoc[Add a new quota plan to your organizational space]
+. xref:sap-deploy-oe-docker-image.adoc[Deploy an application using Docker Image]

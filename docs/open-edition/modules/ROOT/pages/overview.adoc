@@ -1,5 +1,4 @@
-= Overview of Neptune DXP - Open Edition
-
+=  Neptune DXP - Open Edition
 
 == Main components
 The Neptune DXP - Open Edition comprises the following main components:
