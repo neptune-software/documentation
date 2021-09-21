@@ -1,6 +1,6 @@
 = Welcome to the Neptune DXP documentation!
 
-The Neptune DXP - Open Edition is one of the two main modules of the Neptune DX Platform. Neptune DXP is a platform-independent solution for developing applications.
+The Neptune DXP - Open Edition is one of the two main modules of the Neptune DX Platform. Neptune DXP is a platform-independent solution for developing applications in a rapid development fashion.
 
 The other main module of Neptune DX Platform is the Neptune DXP - SAP Edition.
 
