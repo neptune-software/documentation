@@ -3,7 +3,7 @@ name: Publish
 on:
   push:
     branches:
-      - master
+      - neptune-docs
 
 jobs:
   build_and_deploy_job:
