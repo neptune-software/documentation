@@ -1,6 +1,6 @@
 name: neptune-dxp-open-edition
-title: Neptune DXP Open Edition
-version: '0.1'
+title: Neptune DXP - Open Edition
+version: '21'
 nav:
 - modules/getting-started-guide/nav.adoc
 
