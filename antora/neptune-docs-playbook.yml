@@ -11,8 +11,8 @@ output:
   dir:           ./neptune-docs
 ui:
   bundle:
-    url:        https://github.com/neptune-software/documentation/raw/master/antora/neptune-ui/ui-bundle.zip
-    snapshot:    true
+    url:        https://github.com/neptune-software/documentation/raw/neptune-docs/antora/neptune-ui/ui-bundle.zip
+    snapshot:   true
   output_dir:    _ui-files
 runtime:
   fetch:            true
