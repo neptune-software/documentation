@@ -17,6 +17,8 @@ jobs:
         run: |
           npm install @antora/cli @antora/site-generator-default asciidoctor-plantuml
       - name: Render Static Site
+        env:
+          GIT_CREDENTIALS: https://${{ secrets.ACTIONS_GITHUB_PAN_PUB }}:@github.com
         run: |
           ./node_modules/.bin/antora generate ./antora/neptune-docs-playbook.yml
       - name: Deploy Static Site
