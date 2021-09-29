@@ -7,6 +7,9 @@ content:
   - url:         https://github.com/neptune-software/documentation.git
     branches:    [neptune-docs]
     start_paths: [docs/open-edition]
+  - url:         https://github.com/neptune-software/px-infra-main
+    branches:    [master]
+    start_paths: [docs-public]
 output:
   dir:           ./neptune-docs
 ui:
