@@ -1,6 +1,6 @@
 # Playbook for building the Antora docs from the remote Neptune GitHub repository
 site:
-  title:         Neptune DXP - Open Edition Documentation
+  title:         Neptune DXP Documentation
   start_page:    neptune-dxp-open-edition::index.adoc
 content:
   sources:
