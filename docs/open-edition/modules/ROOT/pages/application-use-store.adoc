@@ -1,0 +1,44 @@
+= Use an application from the store
+
+Neptune Store is a portal to publish or download applications.
+Neptune provides a collection of applications that can be downloaded by users.
+For more information, see <<add_link>>.
+
+== Prerequisites
+
+//FaKo: Haben wir schon eine Seite wie man Zugriff bekommt auf den Store?
+* You have access to the Store. See <<here>> how to get access.
+* You have installed your Neptune DXP - Open Edition.
+* You have the developer role assigned.
+
+== Procedure
+
+. Open the *Cockpit*.
+. Click *Development* > *Store*.
++
+The Store opens in a new window.
++
+image::appdesigner-store.png[]
+. A list with all available applications opens. You have the following options to structure the list.
+.. Change *Display* mode.
+List:: List all apps.
+Cards:: Show the apps as cards.
+.. Sort apps by category.
+All:: Show all apps available on the store.
+Featured:: Show all featured apps available on the store.
+Trending:: Show apps that are most successful recently.
+Recent:: Shows the most recently published apps.
+//Review Fabian: Input needed what "private" applications show.
+Private:: (...)
+. Click the application you want to install.
+. Click *Download* to download the app.
++
+image::store-download.png[]
+
+*Result*: You downloaded your application and can use it now.
+
+There are three places your app might appear:
+
+* Application list: *Run* > *Applications*
+* API’s list: *Connectivity* > *API Designer*
+* Themes list: *Development* > *Theme Designer*

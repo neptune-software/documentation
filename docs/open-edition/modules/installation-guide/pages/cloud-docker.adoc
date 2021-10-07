@@ -20,6 +20,7 @@ docker pull neptunesoftware/planet9
 +
 . Read the documentation that is provided on the page. It guides you through the installation and configuration.
 
-== Docker-Compose examples
+== Result
+You installed Neptune DXP - Open Edition using Docker.
 
-We have a GitHub repo with https://github.com/neptune-software/dxp-open-edition-docker-compose-examples[Docker Compose Examples]
+

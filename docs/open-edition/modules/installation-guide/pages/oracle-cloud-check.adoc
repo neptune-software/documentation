@@ -1,4 +1,4 @@
-= Check for the Neptune DXP - Open Edition on the Oracle Cloud platform
+= Check for Neptune DXP - Open Edition on the Oracle Cloud platform
 
 == Prerequisites
 
@@ -23,7 +23,7 @@ image::oracle_service_console_overview.png[]
 +
 A list with the currently available instances opens.
 +
-. Click the Neptune DXP - Open Edition instance to check for details and the public IP address.
+. Click Neptune DXP - Open Edition instance to check for details and the public IP address.
 +
 image::oracle_neptune_instance.png[]
 //screenshot says "Planet_9", needs to be updated

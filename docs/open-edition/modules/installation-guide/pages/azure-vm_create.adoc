@@ -1,0 +1,62 @@
+= Create Azure virtual machines on the Azure portal
+
+This section describes how you create a virtual machine in Azure.
+
+== Prerequisites
+
+* A SSH key pair. See https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows#create-an-ssh-key-pair[here] for more information.
+
+* A valid Microsoft Azure account.
+
+== Procedure
+
+. Log in to the https://portal.azure.com/[Microsoft Azure portal].
+
+. Click *Create a resource*.
++
+image::azure_vm_resource.png[width=800]
++
+. Click *Ubuntu Server*. The free trial page opens. You can select a free trial for 30 days or a subscription.
+. Click *Project details* > *Basics*. Make sure to select the correct subscription.
++
+image::azure_resource_group.png[width=400]
+. Click *Resource group* > *Create new*. A new window opens.
++
+. Configure the virtual machine.
+Add a name for the resource group.
+Click *OK*.
+. Click *Instance details*.
+.. Add the name for the virtual machine.
+.. Select the region closest to your users.
+.. Set the memory and CPU size according to your requirements.
+The minimum requirement for Neptune DXP - Open Edition is _2vcpus_ with 4 GB memory.
+.. You can leave the other parameters at default value.
++
+image::azure_instance_details.png[width=400]
+. Click *Administrator Account*.
+.. As *Authentication type*, select *SSH public key*.
+.. Enter your username.
+.. Paste your public SSH key into the text box.
++
+NOTE: Remove any leading or trailing white space in your public key.
++
+image::administrator_account_azure.png[width=400]
+. Click *Inbound Port Rules*.
+.. In *Public inbound ports*, select *Allow selected ports*.
+.. In *Select inbound ports*, select SSH (22) and HTTP (80).
++
+image::inbound-port-rules.png[width=400]
+. Leave the remaining entries to their default values.
+Click  *Review + create*  at the bottom of the page.
+. Click *Create a virtual machine*.
+.. Check the configurations of your virtual machine.
+.. Click *Create*.
+
+== Result
+* You have created your virtual machine.
+This process may take a few minutes.
+
+== Next steps
+* xref:azure_connect.adoc[Configure a connection to the virtual machine]
+//Uta: Made it bullet list and deleted full stop
+//FaKo: Layout of "next steps" section has to be discussed and specified in the style guide

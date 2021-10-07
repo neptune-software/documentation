@@ -1,0 +1,19 @@
+= Connect to the virtual machine and install Neptune DXP - Open Edition
+
+== Prerequisites
+
+* You have xref:azure-vm_create.adoc[created a virtual machine].
+* You have a valid SSH key pair.
+
+== Procedure
+
+. Connect to your virtual machine using PuTTY. The procedure is explained in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows#connect-to-your-vm[here].
+. Install Neptune DXP - Open Edition on your virtual machine. The steps are explained in the xref:installation_premise.adoc[Installation guide].
+
+NOTE: Neptune DXP - Open Edition runs on port 8080 by default. This means that the virtual machine should be configured on port 80.
+
+== Result
+You have installed Neptune DXP - Open Edition on your Azure virtual machine.
+
+== Next steps
+* xref:azure-create-database.adoc[Create an Azure database resource]

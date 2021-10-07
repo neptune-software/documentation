@@ -1,6 +1,6 @@
-= Download the Neptune DXP - Open Edition to the instance
+= Download Neptune DXP - Open Edition to the instance
 
-== Prerequisite
+== Prerequisites
 * You created an instance on the AWS console.
 * You launched the AWS instance.
 
@@ -15,11 +15,10 @@ A connection guide opens.
 . Follow the steps in the guide.
 //Helle: move everything above to the aws-launch task?
 . Download Neptune DXP - Open Edition to your server from our link:https://www.neptune-software.com/free-trial/?utm_source=Community&utm_medium=Website&utm_campaign=Download&utm_content=Link#[community] website.
-. Follow the steps in the Download installation guide.
-//Helle: ref to installation-guide.adoc?
+. Follow the steps in the xref:installation-guide.adoc[Installation guide].
 
 Your Neptune DXP - Open Edition is downloaded to the AWS instance.
 
 == Next steps
-Now that you connected your AWS instance to the Neptune DXP - Open Edition you set up the database.
+Now that you connected your AWS instance to Neptune DXP - Open Edition you set up the database.
 //Helle: purpose?

@@ -1,31 +1,33 @@
 = Deploy your application to the SAP Cloud Foundry Space with Docker Image
 
-You have defined all configurations on the SAP Cloud Platform. Now you connect the subaccount you created with the Neptune DXP - Open Edition.
+You have defined all configurations on the SAP Cloud Platform. Now you connect the subaccount you created with Neptune DXP - Open Edition.
 
 == Prerequisites
-* You have created a trial account on SAP Cloud.
-* You have created a subaccount on SAP Cloud with four memory units assigned.
-* You have enabled Cloud Foundry.
-* You have created a space in your subaccount.
-* You have added a quota plan to the space of your subaccount.
+* You created a trial account on SAP Cloud.
+* You created a subaccount on SAP Cloud with four memory units assigned.
+* You enabled Cloud Foundry.
+* You created a space in your subaccount.
+* You added a quota plan to the space of your subaccount.
 
 == Procedure
 . Install the Command Line Interface (CLI) for Cloud Foundry (cf).
 +
 NOTE: You can find the installation file for macOS, Windows, and Linux here: https://github.com/cloudfoundry/cli#downloads[Downloads].
-. Follow the installation guide: https://docs.cloudfoundry.org/cf-cli/install-go-cli.html[Installing the cf CLI].
+. Follow the installation guide: https://docs.cloudfoundry.org/cf-cli/install-go-cli.html[here].
 //Helle@Neptune: New version available since December 2020. Can version v7 and v6 be used?
-. Go to the SAP Cloud Platform, and in *Quota Plans* of your subaccount, copy the *API Endpoint* link.
+. Go to the SAP Cloud Platform.
+. Click *Quota Plans* of your subaccount.
+. Copy the *API Endpoint* link.
 +
 image::sap-cloud-foundry-api-endpoint.png[width=600]
-. Open the command prompt (Windows) or terminal (macOS or Linux), enter the following command, and replace "API Endpoint" with the link you copied:
+. Open the command prompt (Windows) or terminal (macOS or Linux). Enter the following command and replace "_API Endpoint_ with the link you copied:
 +
 ----
 cf login -a API Endpoint
 ----
 
-. Enter your login credentials to the SAP Cloud Platform and check if the Org name and Space name match with the details of you SAP subaccount.
-. Enter the following command and replace "App Name" with the name of your app in Neptune DXP - Open Edition:
+. Enter your login credentials to the SAP Cloud Platform. Check if the _Org name_ and _Space name_ match with the details of your SAP subaccount.
+. Enter the following command and replace _App Name_ with the name of your app in Neptune DXP - Open Edition:
 //Helle@Neptune: documentation says: "cf push <any app name>  -m 4096M --docker-image ...", does "any app name" refer to an app already built in Open Edition by the user?
 +
 ----
@@ -34,14 +36,14 @@ cf push App Name -m 4096 --docker-image docker.io/neptunesoftware/planet9:latest
 +
 NOTE: While deploying, your command prompt or terminal shows an error message. You can ignore this error and continue following the steps. If your command prompt or terminal stays in a loop, press Ctrl+C to break it.
 //Helle@Neptune: has this been solved?
-. On the SAP Cloud Platform, click *Cloud Foundry* > *Spaces* on the menu and click on the name of your space. The application overview of you space opens.
-
+. On the SAP Cloud Platform, click *Cloud Foundry* > *Spaces*. Click on the name of your space. The application overview of your space opens.
 +
 image::sap-cloud-foundry-spaces.png[width=600]
-. In the *Name* row, click on the name of your application, and in *Quota Information*, click *Change Quota*.
-. Set the *Disk Quota (MB)* to 4096 and click *Save*.
-. On the menu, open the *User-Provided Variables* submenu and click *Add*.
-. In the *Key* field, enter "PLANET9_IP", and in the *Value* field, enter "0.0.0.0".
+.. In the *Name* row, click on the name of your application, and in *Quota Information*, click *Change Quota*.
+.. Set the *Disk Quota (MB)* to 4096 and click *Save*.
+. Click *User-Provided Variables* > *Add*.
+.. In the *Key* field, type "PLANET9_IP".
+.. In the *Value* field, type "0.0.0.0".
 //Helle@Neptune: Needs to be updated according to name changes?
 . Click *Save*.
 +
@@ -52,9 +54,9 @@ cf set-env
 APP_NAME ENV_VAR_NAME ENV_VAR_VALUE
 ----
 //Helle@Neptune: Do you execute the commands separately?
-. On the menu, click *Overview*, and on the *Overview* page, click the *Restart* (or *Start*) button. After a few minutes, the indicator above the *Restart* button switches from "Starting" to "Started".
+. Click *Overview* > *Restart* (or *Start*). After a few minutes, the indicator above the *Restart* button switches from "Starting" to "Started".
 . In *Application Routes*, click on the link. You are forwarded to the login page of Neptune DXP - Open Edition.
-. Log in with the *Username* "admin" and the *Password* "admin".
+. Log in with the *Username* _admin_ and the *Password* _admin_.
 
 == Result
 * You have set up the SAP Cloud subaccount and connected to Neptune DXP - Open Edition.

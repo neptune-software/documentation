@@ -1,9 +1,9 @@
 = Set up a database in the AWS instance
 
-== Prerequisite
+== Prerequisites
 * You created an instance on the AWS console.
 * You launched the AWS instance.
-* You connected your AWS instance to the Neptune DXP - Open Edition.
+* You connected your AWS instance to Neptune DXP - Open Edition.
 
 == Procedure
 . In the _AWS_ window, open the *Services* menu.

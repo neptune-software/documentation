@@ -1,11 +1,11 @@
 = Install Neptune DXP - Open Edition into the Oracle Cloud instance
 
-You want to install the Neptune DXP - Open Edition into the Oracle Cloud instance of Neptune. The following manual explains the necessary steps for Linux.
+You want to install Neptune DXP - Open Edition into the Oracle Cloud instance of Neptune. The following manual explains the necessary steps for Linux.
 
 == Prerequisites
 
-. You have access to the Oracle Cloud instance of Neptune.
-. You have a valid SSH key.
+* You have access to the Oracle Cloud instance of Neptune.
+* You have a valid SSH key.
 
 == Procedure
 
@@ -37,10 +37,10 @@ chmod +x planet9-linux
 ./planet9-linux
 ----
 
-
-The Neptune DXP - Open Edition is running.
+== Result
+Neptune DXP - Open Edition is running.
 
 == Next steps
 IMPORTANT: As soon as you disconnect from your SSH session, it stops, because the parent that started it no longer exists.
 
-You must run the Neptune DXP - Open Edition with a session manager like tmux.
+You must run Neptune DXP - Open Edition with a session manager like tmux.

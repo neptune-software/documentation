@@ -2,9 +2,6 @@
 
 In a multi-instance configuration you can use a shared file systems, for example AWS EFS, which you mount to each virtual machine.
 Make sure that the shared file system is mounted to the same folder in all the virtual machines with a Neptune DXP - Open Edition instance.
-If not, the configuration might not work. The xref:#fig-9ebe0bc8-48d7-4261-b5ff-3251dbc66cff[Figure] below shows an exemplary setup.
-//anchor to be fixed
+If not, the configuration might not work. The figure shows an exemplary setup.
 
-[[fig-9ebe0bc8-48d7-4261-b5ff-3251dbc66cff]]
-.npm modules on a virtual machine
 image::installation-guide:npm_vm_configuration.png[npm modules on a virtual machine]

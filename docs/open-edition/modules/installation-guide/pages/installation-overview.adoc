@@ -3,8 +3,8 @@
 The following section provides an overview on what you have to do to make Neptune DXP - Open Edition run on your system.
 As it runs on multiple instances, carefully asses what is valid for your system:
 
-* Check xref:0.1@neptune-dxp-open-edition:installation-guide:system-requirements.adoc[System requirements] to see if you fulfill the minimum requirements to run the Neptune DXP - Open Edition.
-* There are a few things you have to consider before installing the Neptune DXP - Open Edition.
+* Check xref:0.1@neptune-dxp-open-edition:installation-guide:system-requirements.adoc[System requirements] to see if you fulfill the minimum requirements to run Neptune DXP - Open Edition.
+* There are a few things you have to consider before installing Neptune DXP - Open Edition.
 They are described in xref:0.1@neptune-dxp-open-edition:installation-guide:basic-setup.adoc[Basic setup].
-* If you want to install the Neptune DXP - Open Edition on your local system, follow the manual in xref:0.1@neptune-dxp-open-edition:installation-guide:installation-guide.adoc[Installation guide].
-* You can also install the Neptune DXP - Open Edition using a variety of cloud solutions. These are described in xref:0.1@neptune-dxp-open-edition:installation-guide:installation-cloud.adoc[Cloud installation].
+* If you want to install Neptune DXP - Open Edition on your local system, follow the manual in xref:0.1@neptune-dxp-open-edition:installation-guide:installation-guide.adoc[Installation guide].
+* You can also install Neptune DXP - Open Edition using a variety of cloud solutions. These are described in xref:0.1@neptune-dxp-open-edition:installation-guide:installation-cloud.adoc[Cloud installation].

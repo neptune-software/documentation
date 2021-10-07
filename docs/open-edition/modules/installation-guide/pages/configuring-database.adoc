@@ -2,7 +2,7 @@
 
 // Content from installation guide
 
-All data, ranging from your configuration, apps, and application data, is kept in the Neptune DXP - Open Edition database.
+All data, ranging from your configuration, apps, and application data, is kept in Neptune DXP - Open Edition database.
 By default, the embedded SQLite database is configured and used.
 
 IMPORTANT: The data from your previously installed Neptune DXP - Open Edition database is deleted during the installation process of the new Neptune DXP - Open Edition version.
