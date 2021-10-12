@@ -6,7 +6,7 @@ This topic provides additional information on how to create virtual machines and
 
 Azure CLI:: Create and manage Azure resources from the command line or in scripts.
 Learn how to create virtual machines in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli[here].
-Azure PowerShell:: Create and manage Azure resources from the PowerShell command line or in scripts.
+Azure PowerShell:: Create and manage Azure resources from the PowerShell command line or using scripts.
 Learn how to create virtual machines through Azure PowerShell in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-powershell[here].
 Azure Portal:: Azure portal is a browser-based user interface to create virtual machines and their associated resources.
 Learn how to create virtual machines with the Azure portal in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal[here].
