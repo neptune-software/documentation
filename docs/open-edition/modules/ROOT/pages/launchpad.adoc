@@ -13,7 +13,7 @@ image::launchpad-overview.png[]
 +
 The configuration view opens.
 
-*General*
+=== General
 
 image::launchpad-general.png[]
 
@@ -28,14 +28,39 @@ Description:: Add a descriptive text for the launchpad.
 Custom Logo:: Add a logo from the media library. This logo will be visible on the top left of the launchpad. You can add your logos to the media library for later use.
 Show launchpad header:: Check weather the header of the launchpad shall be displayed in the browser or not.
 
-*Blackout*
+=== Blackout
 
-//Seems to be a new section, I cannot see a documentation.
+//Seems to be a new section. Needs to be clarified what this actually is.
 
-*Single App Launchpad*
+Enable Blackout:: You can enable *Blackout* by checking the box.
+Titel:: Assign a title to the Blackout.
+Message:: Enter a message regarding the *Blackout*.
++
+image::launchpad-blackout.png[]
 
-//Seems to be a new section, I cannot see a documentation.
+=== Single app Launchpad
 
-*Login*
+If you want to use only one app inside the *Launchpad* you can set this app as StartApp.
+That means, there will be no top menu bar.
 
-Continue here: https://community.neptune-software.com/documentation/getting-started-with-launchpad#-login-properties
+image::launchpad-singleapp.png[]
+
+=== Login
+
+Default provider:: Select the default login provider. The default login providers depend on the authentications enabled in *Cockpit* > *Settings* > *System* > *Authentication*.
+Custom Login Title:: Enter a login title.
+Custom Login Sub Title:: Enter a subtitle for the login.
+Custom Login App:: Choose the app that starts automatically when launching the _Launchpad_. You can choose an app you created with _App Designer_.
+Password Reset Email:: Enter an email address with which you want to change password.
+Hide Login Selection:: Check weather to hide the login page on mobiles while accessing the launchpad.
+Enable Anonymous access:: Check weather it shall be possible for users to login anonymously to the _Launchpad_.
++
+NOTE: You have to check _Allow Anonymous Access_ in *Settings* > *System* > *License* before.
+
+image::launchpad-login.png[]
+
+=== UI5
+Neptune DXP supports to create and use different visual designs called themes alternatively and switching between the themes allowing for the same application to have a very different look, depending on the user’s design preference, or an accessibility requirement. These are the standard themes can be used in any application
+
+
+image::launchpad-ui5.png[]
