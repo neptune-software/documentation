@@ -1,14 +1,13 @@
-= Use an application from the store
+= Use an application from the _Store_
 
-Neptune Store is a portal to publish or download applications.
+Neptune _Store_ is a portal to publish or download applications.
 Neptune provides a collection of applications that can be downloaded by users.
-For more information, see <<add_link>>.
+For more information, see xref:cockpit-overview:store.adoc[Store].
 
 == Prerequisites
 
-//FaKo: Haben wir schon eine Seite wie man Zugriff bekommt auf den Store?
-* You have access to the Store. See <<here>> how to get access.
-* You have installed your Neptune DXP - Open Edition.
+* You have access to the _Store_.
+* You have installed Neptune DXP - Open Edition.
 * You have the developer role assigned.
 
 == Procedure
@@ -24,8 +23,8 @@ image::appdesigner-store.png[]
 List:: List all apps.
 Cards:: Show the apps as cards.
 .. Sort apps by category.
-All:: Show all apps available on the store.
-Featured:: Show all featured apps available on the store.
+All:: Show all apps available in the store.
+Featured:: Show all featured apps available in the store.
 Trending:: Show apps that are most successful recently.
 Recent:: Shows the most recently published apps.
 //Review Fabian: Input needed what "private" applications show.
