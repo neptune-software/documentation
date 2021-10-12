@@ -1,6 +1,6 @@
-= Create an instance on the AWS console
+= Create a key pair for an instance on the AWS console
 
-An instance is a virtual server in the AWS cloud.
+In this topic, you create a key pair to launch an instance on the AWS console in later steps.
 
 == Prerequisites
 
@@ -10,33 +10,33 @@ An instance is a virtual server in the AWS cloud.
 
 . Type the following URL: https://console.aws.amazon.com.
 . Login to the AWS Management Console.
-. Open *Services*.
+. On the top menu, open *Services*.
 +
-image::aws-console-management.png[]
+image::aws-console-management.png[width=400]
 +
-. Select *EC2*.
+. From the *Compute* section click *EC2*.
 +
-image::aws-console-ec2.png[]
+image::aws-console-ec2.png[width=400]
 +
-. Click *Resources*.
-. Click *Key Pairs*.
+. On the *Resources* panel, click *Key Pairs*.
 +
-image::aws-key-pairs.png[]
-+
-The key pair is used later for launching the instance.
-+
-. Create a Key Pair as a new key for the instance.
+image::aws-key-pairs.png[width=400]
+
+. Click *Create key pair* to generate keys for the instance.
 +
 image::aws-key-pair-2.png[]
 +
-. Save the key pair details.
-. Click *Launch Instance* to create an instance.
+. Enter a name for the key pair.
+. Make sure that *RSA* is selected as the key pair type and *.ppk* as the private key file format.
+//Helle@parson: both preselected by default.
+. Click *Create key pair*.
 +
-image::aws-launch-instance.png[]
-+
-You have created the instance and you can work with it.
+*Result*: The newly created key pair appears in the key pairs overview with the name, type, fingerprint and ID.
+
+== Result
+You have created a key pair for an AWS instance.
 
 == Next steps
-After creating the instance, you must launch it and connect to your AWS instance.
+* xref:installation-guide:aws-launch.adoc[Launch an instance on the AWS console]
 
 

@@ -2,9 +2,9 @@
 
 You can install Neptune DXP - Open Edition on the following platforms:
 
-* xref:0.1@neptune-dxp-open-edition:installation-guide:aws-ec2.adoc[AWS EC2]
-* xref:0.1@neptune-dxp-open-edition:installation-guide:azure-vm.adoc[Azure VM]
-* xref:0.1@neptune-dxp-open-edition:installation-guide:oracle-cloud.adoc[Oracle Cloud]
-* xref:0.1@neptune-dxp-open-edition:installation-guide:sap-platform.adoc[SAP BTP]
-* xref:0.1@neptune-dxp-open-edition:installation-guide:cloud-docker.adoc[Docker]
-* xref:0.1@neptune-dxp-open-edition:installation-guide:kubernetes.adoc[Kubernetes]
+* xref:installation-guide:aws-ec2.adoc[AWS EC2]
+* xref:installation-guide:azure-vm.adoc[Azure VM]
+* xref:installation-guide:oracle-cloud.adoc[Oracle Cloud]
+* xref:installation-guide:sap-platform.adoc[SAP BTP]
+* xref:installation-guide:cloud-docker.adoc[Docker]
+* xref:installation-guide:kubernetes.adoc[Kubernetes]

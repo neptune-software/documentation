@@ -1,25 +1,48 @@
 = Launch the AWS instance
 
+In this topic, you create and launch an instance in the AWS console.
+An instance is a virtual server in the AWS cloud that you can connect to the DXP - Open Edition.
+
 == Prerequisites
 
-* You created an instance on the AWS console.
+* You have an account at the AWS platform.
+* You created a key pair in the AWS console.
 
 == Procedure
 
-. Open your newly created instance.
-. Choose one of the available Amazon Machine Images.
+. On the side menu of your AWS console, navigate to the *Instances* section and click *Instances*.
+//Helle@parson: Instances is a heading in Instances section, not the same. Clicking the section does nothing but expanding and collapsing the section. Instances is the first heading, so even if user click the section, finding the heading is easy.
+. On the *Instances* panel, click *Launch Instances*.
++
+image::aws-launch-instance.png[]
+
++
+[TIP]
+While creating the instance you will have a lot of different options. When in doubt, you can use the free tier that is preselected in each step.
+
+. Choose one of the available Amazon Machine Images from the list and click *Select* next to it.
+//Helle@Neptune: is there anything user should look out for when selecting an AMI? Same for the next steps here.
 +
 image::aws-amazon-machine.png[]
-. Choose an instance type.
-. Click *Review*.
-. Click *Launch*.
+. Select an instance type from the list and click *Review and Launch*.
++
+*Result*: You are forwarded to the *Review* step where you see a configuration summary for the instance.
 +
 image::aws-review-launch.png[]
+
+. Make sure that the configurations are correct and click *Launch*.
 +
-You need the key pair you created for that.
+*Result*: A pop-up window opens.
+Now you need the key pair you created before for this instance.
+
+. From the first drop-down menu, select *Choose an existing key pair*.
+. From the second drop-down menu, select the key pair you created for this instance.
+. Click *Launch Instances*.
 +
-. Open the instance. You can check for the details of your instance here.
-+
+*Result*: You are forwarded to the *Instances* panel where you can see your newly created instance.
+You can check the details of your instance by clicking in the instance.
+
+//Helle@Helle: this goes to next step
 . Click *Connect*.
 +
 image::aws-instance-details.png[]
@@ -28,6 +51,9 @@ The window _Connect to Your Instance_ opens. There, you can configure the connec
 +
 image::aws-connect.png[]
 
+== Result
+You have created and launched an instance on the AWS console.
+
 == Next steps
-Now that you have launched the AWS instance, you must connect it to your Neptune DXP - Open Edition.
+* xref:installation-guide:aws-download.adoc[]
 
