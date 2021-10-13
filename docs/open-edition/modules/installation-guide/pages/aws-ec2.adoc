@@ -7,6 +7,6 @@ Follow the steps below to run Neptune DXP - Open Edition on the AWS cloud.
 
 . xref:installation-guide:aws-instance.adoc[]
 . xref:installation-guide:aws-launch.adoc[Launch an instance on the AWS console]
-. xref:installation-guide:aws-download.adoc[]
+// Not in use anymore . xref:installation-guide:aws-download.adoc[]
 . xref:installation-guide:aws-database.adoc[]
 . xref:installation-guide:aws-connection.adoc[]

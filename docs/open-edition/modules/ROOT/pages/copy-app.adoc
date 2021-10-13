@@ -28,7 +28,7 @@ If you want to open an application you created before, click *Mine* to show only
 *Result*: The _App Designer_ opens the application that you want to copy.
 . In the _App Designer_, open the *Application* drop-down menu and click *Copy*.
 +
-image::appdesigner-newapp-copyapp.png[width=800]
+image::appdesigner-newapp-copyapp.png[width=400]
 +
 *Result*: The *New App* dialog opens.
 *Copy from* is prefilled with the name of the application that you opened in the _App Designer_.

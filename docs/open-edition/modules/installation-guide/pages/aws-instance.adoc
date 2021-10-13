@@ -9,12 +9,9 @@ In this topic, you create a key pair to launch an instance on the AWS console in
 == Procedure
 
 . Type the following URL: https://console.aws.amazon.com.
-. Login to the AWS Management Console.
+. Login to the AWS Console.
 . On the top menu, open *Services*.
-+
-image::aws-console-management.png[width=400]
-+
-. From the *Compute* section click *EC2*.
+. Go to the *Compute* section and click *EC2*.
 +
 image::aws-console-ec2.png[width=400]
 +
@@ -24,13 +21,13 @@ image::aws-key-pairs.png[width=400]
 
 . Click *Create key pair* to generate keys for the instance.
 +
-image::aws-key-pair-2.png[]
+image::aws-key-pair-2.png[width=400]
 +
 . Enter a name for the key pair.
 . Make sure that *RSA* is selected as the key pair type and *.ppk* as the private key file format.
 //Helle@parson: both preselected by default.
 . Click *Create key pair*.
-+
+
 *Result*: The newly created key pair appears in the key pairs overview with the name, type, fingerprint and ID.
 
 == Result

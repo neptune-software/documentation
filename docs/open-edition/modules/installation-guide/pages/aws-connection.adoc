@@ -1,4 +1,4 @@
-= Configure the connection to the AWS database in the cockpit
+= Connect the AWS database to your Neptune DXP - Open Edition
 
 == Prerequisites
 * You created an instance on the AWS console.
