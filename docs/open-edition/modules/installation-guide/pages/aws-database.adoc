@@ -41,7 +41,7 @@ Easy creation does not show the *Estimated monthly costs*.
 . Under *Resources*, click *DB Instances*.
 . To see the details of your database, click on the *DB identifier* of your database.
 
-NOTE: Leave this tab open. You need this information in the next steps.
+NOTE: Do not close this tab. You need this information in the next steps.
 
 == Result
 * You created your database. Once AWS have launched your database, its *Status* switches from "in Progress" to "Available".
