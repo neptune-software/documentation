@@ -43,7 +43,10 @@ API definition:: An API definition sets the structure of your API. In the API De
 Endpoint:: An endpoint specifies where a resource lies on a server and is therefore an important aspect of interacting with server-side web APIs. Endpoints must be static URLs to guarantee correct communication between server, API, and application. If the location of a resource changes, its endpoint needs to be updated in the API.
 //Helle@Neptune: interpretation, please confirm.
 
-Media Type:: Neptune DXP - Open Edition supports all types of files, such as images, documents, videos, audio files, and splash screens. You can store and access all media and non-media types of files
+Media type:: Neptune DXP - Open Edition supports all types of files, such as images, documents, videos, audio files, and splash screens. You can store and access all media and non-media types of files in the _Media Library_.
+//Helle@Neptune: I do not understand why this is part of the API Designer documentation. It seems to me that the field "Media type" in API Designer refers to the way app, API, and resource communicate, thus JSON or XML. In that case the information above is more confusing than helpful. Please correct if I'm wrong.
++
+When designing an API, you define a media type for transferring data. The preset default is "application/JSON".
 
 == Functionalities
 
