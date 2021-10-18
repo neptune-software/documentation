@@ -38,10 +38,14 @@ There are seven operations that you use when interacting with a resource from an
 * HEAD: Read and retrieve data without the response body. Unlike GET, HEAD retrieves the response header only.
 * OPTIONS: Read and retrieve all operations and content types that are available without retrieving specific data.
 
-API definition:: An API definition sets the structure of your API. In the API Designer, you can design custom definitions to use in your application.
+API definition:: An API definition sets the structure of your API. In the API Designer, you can write custom definitions to use in your application.
 
+Endpoint:: An endpoint specifies where a resource lies on a server and is therefore an important aspect of interacting with server-side web APIs. Endpoints must be static URLs to guarantee correct communication between server, API, and application. If the location of a resource changes, its endpoint needs to be updated in the API.
+//Helle@Neptune: interpretation, please confirm.
 
-=== Functionalities
+Media Type:: Neptune DXP - Open Edition supports all types of files, such as images, documents, videos, audio files, and splash screens. You can store and access all media and non-media types of files
+
+== Functionalities
 
 
 == Getting started with the API Designer
