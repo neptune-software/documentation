@@ -29,9 +29,10 @@ Easy creation does not show the *Estimated monthly costs*.
 ====
 +
 //Helle@parson: 1. there was no easy creation when original documentation was written. 2. Hopefully, tip and warning look better in published documentation, feedback welcome...
-
+//Fabian: A "Warning" inside a "Tip" looks a bit odd. Write the "Warning" below the "Tip".
 . In *Engine options*, select *PostgreSQL*.
 //Helle@Neptune: The PostgreSQL version is automatically set to 13.3-R1. Is this correct?
+//Fabian: The following is no step for its own but an introduction to the following steps. Maybe work with substeps for that?
 . Set the following configurations according to your needs.
 . Click *Create database*.
 +
@@ -40,7 +41,7 @@ Easy creation does not show the *Estimated monthly costs*.
 . Go to the *Database* section and click *RDS*.
 . Under *Resources*, click *DB Instances*.
 . To see the details of your database, click on the *DB identifier* of your database.
-
+//Fabian: Maybe have a screenshot for the previous steps?
 NOTE: Do not close this tab. You need this information in the next steps.
 
 == Result

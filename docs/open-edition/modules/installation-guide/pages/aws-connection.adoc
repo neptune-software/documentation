@@ -7,6 +7,7 @@
 * You created your database on the AWS console.
 
 == Procedure
+//Fabian: Not too many actions per sentence. Split sentence in shorter ones.
 . Open Neptune DXP - Open Edition cockpit, go to *Settings*, and click *System Settings*.
 +
 image::cockpit-settings-systemsettings.png[width=800]
@@ -15,7 +16,7 @@ image::cockpit-settings-systemsettings.png[width=800]
 image::cockpit-settings-system-database.png[width=400]
 . From the *Type* drop-down menu, select *PostgreSQL (9.6 or later)*.
 . If you want to establish a secure SSL connection with the database server, activate the *Use SSL* box.
-.. If you checked the *Use SSL* box, enter the URI in the *URI* field.
+.. If you checked the *Use SSL* box, enter the below URI in the *URI* field.
 .. If you did not check the *Use SSL* box, enter either the URI in the *URI* field or enter the fields *Host*, *Port*, *Username*, and *Password*.
 
 +

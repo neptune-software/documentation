@@ -1,5 +1,6 @@
 = Create a key pair for an instance on the AWS console
 
+//Fabian: How do we call sections? "Topic" (like here), "Section", "Chapter"? Do we have a rule for that? If not, we need one.
 In this topic, you create a key pair to launch an instance on the AWS console in later steps.
 
 == Prerequisites
@@ -11,7 +12,7 @@ In this topic, you create a key pair to launch an instance on the AWS console in
 . Type the following URL: https://console.aws.amazon.com.
 . Login to the AWS Console.
 . On the top menu, open *Services*.
-. Go to the *Compute* section and click *EC2*.
+. Go to the *Compute* section and click *EC2*. A new window opens.
 +
 image::aws-console-ec2.png[width=400]
 +
@@ -26,10 +27,13 @@ image::aws-key-pair-2.png[width=400]
 . Enter a name for the key pair.
 . Make sure that *RSA* is selected as the key pair type and *.ppk* as the private key file format.
 //Helle@parson: both preselected by default.
+//Fabian: Insert a screenshot here?
 . Click *Create key pair*.
 
+//Fabian: Insert Oxford comma.
 *Result*: The newly created key pair appears in the key pairs overview with the name, type, fingerprint and ID.
 
+// Fabian: I think we should call the following section "Results" as it sums up the results from the procedure-section. Otherwise, the reader could be a bit lost if there are more than one "result" sections.
 == Result
 You have created a key pair for an AWS instance.
 
