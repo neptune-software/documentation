@@ -1,5 +1,6 @@
 = Launch the AWS instance
 
+//Fabian: Topic? Section?
 In this topic, you create and launch an instance in the AWS console and connect it to your Neptune DXP - Open Edition.
 An instance is a virtual server in the AWS cloud that runs the application you create with DXP - Open Edition.
 
@@ -12,8 +13,10 @@ An instance is a virtual server in the AWS cloud that runs the application you c
 
 === Launch an instance
 . In your browser, go to the AWS Console and login.
+//Fabian: "panel"? In the previous section it was called "section". I dont know if it is already in the style guide.
 . On the *Launch instance* panel, click *Launch instance* and select *Launch instance* from the drop-down menu.
 //Helle@parson: Sadly, both the panel, button, and drop-down have the same name, see screenshot.
+//Fabian: Maybe show the "Launch instance" in the drop down menu as well to show that the same phrase is used three times here.
 +
 image::aws-launch-instance.png[width=400]
 
@@ -31,6 +34,8 @@ Now you need the key pair you created before for this instance.
 +
 image::aws-key-pair-popup.png[width=400]
 
+//Fabian: Steps start with "1" again here, was that intentional?
+//Fabian: Are there better names than "first drop-down menu" or "second drop-down menu"?
 . From the first drop-down menu, select *Choose an existing key pair*.
 . From the second drop-down menu, select the key pair you created for this instance.
 . Click *Launch Instances*.
@@ -39,6 +44,7 @@ image::aws-key-pair-popup.png[width=400]
 . Click *View instances*.
 +
 *Result*: You see the *Instances* panel with the instance you created and other instances you may have created earlier.
+//Fabian: Avoid phrases like "a lot of".
 The panel shows a lot of information, including the name, ID, and status of your instance.
 
 === Connect the instance to Neptune DXP - Open Edition
@@ -50,7 +56,9 @@ image::aws-instance-details.png[width=800]
 +
 *Result*: The *Connect to instance* dialog opens. There, you can configure the connection to the server.
 
-. On the *Connect to instance* dialog, navigate to the *SSH Client* tab and follow the steps presented to you on the tab.
+//Fabian: Write "SSH client" with small letters like in the screenshot.
+//Fabian: Again, counting restarts at "1", was that intentional?
+. On the *Connect to instance* dialog, navigate to the *SSH Client* tab and follow the steps presented to you.
 +
 image::aws-connect.png[width=800]
 +
