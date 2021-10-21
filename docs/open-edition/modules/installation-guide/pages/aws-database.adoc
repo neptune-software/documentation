@@ -21,15 +21,14 @@ image::aws-database-resources.png[width=400]
 image::aws-database-create-database.png[width=400]
 
 +
-[TIP]
+[WARNING]
 ====
 At the beginning of the *Create database* dialog, you can choose to do a standard or easy creation. Easy creation uses best-practice configurations and reduces manual configuration to a minimum. You can use the easy creation and check on the configurations at the bottom of the dialog.
-[WARNING]
+
 Easy creation does not show the *Estimated monthly costs*.
 ====
 +
-//Helle@parson: 1. there was no easy creation when original documentation was written. 2. Hopefully, tip and warning look better in published documentation, feedback welcome...
-//Fabian: A "Warning" inside a "Tip" looks a bit odd. Write the "Warning" below the "Tip".
+
 . In *Engine options*, select *PostgreSQL*.
 //Helle@Neptune: The PostgreSQL version is automatically set to 13.3-R1. Is this correct?
 //Fabian: The following is no step for its own but an introduction to the following steps. Maybe work with substeps for that?
@@ -41,10 +40,10 @@ Easy creation does not show the *Estimated monthly costs*.
 . Go to the *Database* section and click *RDS*.
 . Under *Resources*, click *DB Instances*.
 . To see the details of your database, click on the *DB identifier* of your database.
-//Fabian: Maybe have a screenshot for the previous steps?
+
 NOTE: Do not close this tab. You need this information in the next steps.
 
-== Result
+== Results
 * You created your database. Once AWS have launched your database, its *Status* switches from "in Progress" to "Available".
 
 == Next steps

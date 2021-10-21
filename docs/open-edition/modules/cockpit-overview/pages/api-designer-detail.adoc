@@ -1,24 +1,18 @@
 = image:api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
 
-//Helle@Helle: add partials>intro from api-designer.adoc
-
-//With the __API Designer__ you create and configure API definitions.
-//You can easily define and update APIs at any stage of designing.
-
-//The __API Designer__ makes APIs reusable for many applications by just adding that API to the application attributes.
-
-
-
 == Overview
 
 === Key concepts
-//Helle@parson: rename?
+//Helle@parson: reference
 
-Before diving into the functionalities of the _API Designer_, learn about the key concept of APIs.
+Before diving deeper into the _API Designer_, learn about the key concepts of APIs.
 
 REST API:: A REST API is an application program interface (API) that uses HTTP requests to GET, PUT, POST, and DELETE data.
 +
-A REST API is a defined set of operations that uses the HTTP protocol. The choice of data format depends on the type of application that is calling the API. JSON is used for web pages or applications that present a user interface. XML is used for machine-to-machine communication.
+A REST API is a defined set of operations that uses the HTTP protocol.
+The choice of data format depends on the type of application that is calling the API.
+JSON is used for web pages or applications that present a user interface.
+XML is used for machine-to-machine communication.
 +
 In Neptune DXP - Open Edition, you can call APIs with JavaScript snippets right from the _App Designer_.
 
@@ -34,21 +28,47 @@ There are seven operations that you use when interacting with a resource from an
 * PUT: Send new data to the resource.
 * POST: Update existing data in the resource.
 * DELETE: Remove data from the resource.
-* PATCH: Apply partial changes to an operation. Unlike PUT, PATCH changes only part of the data instead of replacing its entirety.
-* HEAD: Read and retrieve data without the response body. Unlike GET, HEAD retrieves the response header only.
+* PATCH: Apply partial changes to an operation.
+Unlike PUT, PATCH changes only part of the data instead of replacing its entirety.
+* HEAD: Read and retrieve data without the response body.
+Unlike GET, HEAD retrieves the response header only.
 * OPTIONS: Read and retrieve all operations and content types that are available without retrieving specific data.
 
-API definition:: An API definition sets the structure of your API. In the API Designer, you can write custom definitions to use in your application.
+API definition:: An API definition sets the structure of your API.
+With the _API Designer_, you can write custom definitions to use in your application.
 
-Endpoint:: An endpoint specifies where a resource lies on a server and is therefore an important aspect of interacting with server-side web APIs. Endpoints must be static URLs to guarantee correct communication between server, API, and application. If the location of a resource changes, its endpoint needs to be updated in the API.
+Endpoint:: An endpoint specifies where a resource lies on a server and is therefore an important aspect of interacting with server-side web APIs.
+Endpoints must be static URLs to guarantee correct communication between server, API, and application.
+If the location of a resource changes, its endpoint needs to be updated in the API.
 //Helle@Neptune: interpretation, please confirm.
 
-Media type:: Neptune DXP - Open Edition supports all types of files, such as images, documents, videos, audio files, and splash screens. You can store and access all media and non-media types of files in the _Media Library_.
+Media type:: Neptune DXP - Open Edition supports all types of files, such as images, documents, videos, audio files, and splash screens.
+You can store and access all media and non-media types of files in the _Media Library_.
 //Helle@Neptune: I do not understand why this is part of the API Designer documentation. It seems to me that the field "Media type" in API Designer refers to the way app, API, and resource communicate, thus JSON or XML. In that case the information above is more confusing than helpful. Please correct if I'm wrong.
 +
-When designing an API, you define a media type for transferring data. The preset default is "application/JSON".
+When designing an API, you define a media type for transferring data.
+The preset default is "application/JSON".
 
-== Functionalities
+Tracing:: When designing an API you can enable tracing to maintain a history of all operations performed on the API.
+You can investigate the logs for each API with tracing enabled in _API Trace_.
+
+Proxy:: When designing an API you can allow the use of a proxy.
+This is necessary for cross-domain connectivity.
+
+//Useful links for content creation:
+//https://community.neptune-software.com/documentation/add-url-parameters-in-api-operations
 
 
-== Getting started with the API Designer
+=== Create an API
+
+==== Procedure
+
+. Open Neptune DXP - Open Edition cockpit.
+. Go to *Connectivity* and click *API Designer*.
+. On the _API Designer_, click *Add*.
++
+image::api-designer-add.png[width=400]
++
+*Result*: The API configuration dialog opens.
+You start in the *General* tab.
++

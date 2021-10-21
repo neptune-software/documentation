@@ -7,8 +7,8 @@
 * You created your database on the AWS console.
 
 == Procedure
-//Fabian: Not too many actions per sentence. Split sentence in shorter ones.
-. Open Neptune DXP - Open Edition cockpit, go to *Settings*, and click *System Settings*.
+. Open Neptune DXP - Open Edition cockpit.
+. Go to *Settings* and click *System Settings*.
 +
 image::cockpit-settings-systemsettings.png[width=800]
 . Navigate to the *Database* tab and click *Edit*.
@@ -37,5 +37,5 @@ image::aws-database-details.png[width=400]
 . Copy the details either to the *URI* field or the fields *Host*, *Port*, *Username*, and *Password*.
 . Click *Save*.
 
-== Result
+== Results
 * You have connected the AWS database to DXP - Open Edition.

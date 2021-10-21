@@ -30,11 +30,9 @@ image::aws-key-pair-2.png[width=400]
 //Fabian: Insert a screenshot here?
 . Click *Create key pair*.
 
-//Fabian: Insert Oxford comma.
-*Result*: The newly created key pair appears in the key pairs overview with the name, type, fingerprint and ID.
+*Result*: The newly created key pair appears in the key pairs overview with the name, type, fingerprint, and ID.
 
-// Fabian: I think we should call the following section "Results" as it sums up the results from the procedure-section. Otherwise, the reader could be a bit lost if there are more than one "result" sections.
-== Result
+== Results
 You have created a key pair for an AWS instance.
 
 == Next steps
