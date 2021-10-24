@@ -9,17 +9,17 @@ The _API Designer_ provides a set of different functionalities all around the cr
 You can create new APIs, update existing APIs, or import and export APIs from an external source.
 
 == API types
+The _API Designer_ shows all available types of APIs. There are three types of APIs you can create with the _API Designer_:
 
-There are three types of APIs you can create with the _API Designer_: *Externals*, *Table Definitions* and *Server Scripts*.
-*External* APIs are used to reach web services outside DXP - Open Edition.
-A *Table Definition* is used to connect an application to a data table.
-A *Server Script* API is used to access one of your server scripts on DXP - Open Edition.
+* *External APIs*: To reach web services outside the DXP - Open Edition.
+* *Table Definitions*: To connect an application to a data table.
+* *Server Scripts*: To access one of your server scripts on the DXP - Open Edition.
 
-APIs of all types that are available to you are listed in the _API Designer_.
+//Uta: made this a bullet list (use bullet lists for two list items or more) and added the details to the list items. Added article "the" to DXP Open Edition.
 
 == _API Designer_ view
-
-The main view of the _API Designer_ shows a list of both publicly available APIs and your APIs with search options to sort and limit the list.
+The main view of the _API Designer_ shows a list of both publicly available APIs and your APIs with search options to sort and filter the list.
+//Uta: filter instead of sort
 
 image::api-designer-base.png[width=800]
 
@@ -27,9 +27,9 @@ You can search for an existing API, look at its configurations, and save it as a
 //Helle@Neptune: does the file extension change? Currently, it's still .planet9
 Starting from this view, you can add or import APIs in different file formats and from remote servers.
 
-
 == Related topics
 * https://community.neptune-software.com/documentation/overview-sdbhog8y#Basics%20of%20API%20Designer[Basics of API Designer]
+//Uta: What is the difference between "Basics of API Designer" and this topic?
 * https://community.neptune-software.com/documentation/getting-started-with-api-designer-p8[Getting Started with API Designer]
 //* xref::create-api.adoc[] <-- task
 //* xref::import-api.adoc[] <-- task

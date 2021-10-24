@@ -1,5 +1,10 @@
 = image:api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
 
+//Uta: Recommended structure/topics:
+//* API Designer.adoc (Overview of the component (already written)
+//* Key concepts of APIs (concept/reference topic, includes all content of the current topic except "Create an API")
+//* Create an API (task) - as started
+
 == Overview
 
 === Key concepts
@@ -9,12 +14,14 @@ Before diving deeper into the _API Designer_, learn about the key concepts of AP
 
 REST API:: A REST API is an application program interface (API) that uses HTTP requests to GET, PUT, POST, and DELETE data.
 +
-A REST API is a defined set of operations that uses the HTTP protocol.
+A REST API comprises a defined set of operations that uses the HTTP protocol.
+//Uta is > comprises (sonst sieht es aus wie eine erneute definition, die ist aber schon im satz darüber)
 The choice of data format depends on the type of application that is calling the API.
 JSON is used for web pages or applications that present a user interface.
 XML is used for machine-to-machine communication.
 +
-In Neptune DXP - Open Edition, you can call APIs with JavaScript snippets right from the _App Designer_.
+In Neptune DXP - Open Edition, you can call APIs with JavaScript snippets directly from the _App Designer_.
+//Uta: right > directly
 
 API operation:: An operation is a REST API unit that you can call. An operation consists of two parts:
 +
@@ -22,20 +29,24 @@ API operation:: An operation is a REST API unit that you can call. An operation 
 * URL: The URL path points to the data you want to perform the operation on.
 
 +
-There are seven operations that you use when interacting with a resource from an application.
+You use the following operations when interacting with a resource from an application:
+//Uta: There are seven operations > You use the following operations (the information that there are seven is not important here.
 
 * GET: Read and retrieve data from the resource.
 * PUT: Send new data to the resource.
 * POST: Update existing data in the resource.
-* DELETE: Remove data from the resource.
+* DELETE: Delete data from the resource.
+//Uta: remove > delete
 * PATCH: Apply partial changes to an operation.
-Unlike PUT, PATCH changes only part of the data instead of replacing its entirety.
+Unlike PUT, PATCH changes only part of the data instead of replacing it entirety.
+//Uta: Check. It says that PUT sends new data but does not replace it with something.
 * HEAD: Read and retrieve data without the response body.
 Unlike GET, HEAD retrieves the response header only.
 * OPTIONS: Read and retrieve all operations and content types that are available without retrieving specific data.
 
 API definition:: An API definition sets the structure of your API.
 With the _API Designer_, you can write custom definitions to use in your application.
+//Uta: Die beiden Sätze haben auf den ersten Blick keinen Zusammenhang. Bitte noch mal prüfen.
 
 Endpoint:: An endpoint specifies where a resource lies on a server and is therefore an important aspect of interacting with server-side web APIs.
 Endpoints must be static URLs to guarantee correct communication between server, API, and application.
@@ -53,7 +64,8 @@ Tracing:: When designing an API you can enable tracing to maintain a history of 
 You can investigate the logs for each API with tracing enabled in _API Trace_.
 
 Proxy:: When designing an API you can allow the use of a proxy.
-This is necessary for cross-domain connectivity.
+A proxy is necessary for cross-domain connectivity.
+//Uta: This is > A proxy is
 
 //Useful links for content creation:
 //https://community.neptune-software.com/documentation/add-url-parameters-in-api-operations
