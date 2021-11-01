@@ -1,6 +1,7 @@
-= Create an instance on the AWS console
+= Create a key pair for an instance on the AWS console
 
-An instance is a virtual server in the AWS cloud.
+//Fabian: How do we call sections? "Topic" (like here), "Section", "Chapter"? Do we have a rule for that? If not, we need one.
+In this topic, you create a key pair to launch an instance on the AWS console in later steps.
 
 == Prerequisites
 
@@ -9,34 +10,32 @@ An instance is a virtual server in the AWS cloud.
 == Procedure
 
 . Type the following URL: https://console.aws.amazon.com.
-. Login to the AWS Management Console.
-. Open *Services*.
+. Login to the AWS Console.
+. On the top menu, open *Services*.
+. Go to the *Compute* section and click *EC2*. A new window opens.
 +
-image::aws-console-management.png[]
+image::aws-console-ec2.png[width=400]
 +
-. Select *EC2*.
+. On the *Resources* panel, click *Key Pairs*.
 +
-image::aws-console-ec2.png[]
+image::aws-key-pairs.png[width=400]
+
+. Click *Create key pair* to generate keys for the instance.
 +
-. Click *Resources*.
-. Click *Key Pairs*.
+image::aws-key-pair-2.png[width=400]
 +
-image::aws-key-pairs.png[]
-+
-The key pair is used later for launching the instance.
-+
-. Create a Key Pair as a new key for the instance.
-+
-image::aws-key-pair-2.png[]
-+
-. Save the key pair details.
-. Click *Launch Instance* to create an instance.
-+
-image::aws-launch-instance.png[]
-+
-You have created the instance and you can work with it.
+. Enter a name for the key pair.
+. Make sure that *RSA* is selected as the key pair type and *.ppk* as the private key file format.
+//Helle@parson: both preselected by default.
+//Fabian: Insert a screenshot here?
+. Click *Create key pair*.
+
+*Result*: The newly created key pair appears in the key pairs overview with the name, type, fingerprint, and ID.
+
+== Results
+You have created a key pair for an AWS instance.
 
 == Next steps
-After creating the instance, you must launch it and connect to your AWS instance.
+* xref:installation-guide:aws-launch.adoc[Launch an instance on the AWS console]
 
 
