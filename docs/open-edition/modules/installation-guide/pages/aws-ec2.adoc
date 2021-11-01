@@ -5,8 +5,8 @@ With Amazon EC2, you can set up and configure the operating system and the appli
 
 Follow the steps below to run Neptune DXP - Open Edition on the AWS cloud.
 
-. xref:0.1@neptune-dxp-open-edition:installation-guide:aws-instance.adoc[Create an instance on the AWS console]
-. xref:0.1@neptune-dxp-open-edition:installation-guide:aws-launch.adoc[Launch the instance on the AWS console]
-. xref:0.1@neptune-dxp-open-edition:installation-guide:aws-download.adoc[Download Neptune DXP - Open Edition to the instance]
-. xref:0.1@neptune-dxp-open-edition:installation-guide:aws-database.adoc[Set up a database in the AWS instance]
-. xref:0.1@neptune-dxp-open-edition:installation-guide:aws-connection.adoc[Configure the connection to the AWS database in the cockpit]
+. xref:installation-guide:aws-instance.adoc[]
+. xref:installation-guide:aws-launch.adoc[Launch an instance on the AWS console]
+// Not in use anymore . xref:installation-guide:aws-download.adoc[]
+. xref:installation-guide:aws-database.adoc[]
+. xref:installation-guide:aws-connection.adoc[]

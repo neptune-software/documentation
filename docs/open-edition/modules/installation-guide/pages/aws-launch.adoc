@@ -1,33 +1,68 @@
 = Launch the AWS instance
 
+In this topic, you create and launch an instance in the AWS console and connect it to your Neptune DXP - Open Edition.
+An instance is a virtual server in the AWS cloud that runs the application you create with DXP - Open Edition.
+
 == Prerequisites
 
-* You created an instance on the AWS console.
+* You have an account at the AWS platform.
+* You created a key pair in the AWS console.
 
 == Procedure
 
-. Open your newly created instance.
-. Choose one of the available Amazon Machine Images.
+=== Launch an instance
+. In your browser, go to the AWS Console and login.
+. On the *Launch instance* panel, click *Launch instance* and select *Launch instance* from the drop-down menu.
 +
-image::aws-amazon-machine.png[]
-. Choose an instance type.
-. Click *Review*.
-. Click *Launch*.
+image::aws-launch-instance.png[width=400]
 +
-image::aws-review-launch.png[]
+
+. Choose one of the available Amazon Machine Images from the list and click *Select* next to it.
+//Helle@Neptune: is there anything user should look out for when selecting an AMI? Same for the next steps here.
+
+. Select an instance type from the list and click *Review and Launch*.
 +
-You need the key pair you created for that.
+*Result*: You are forwarded to the *Review* step where you see a configuration summary for the instance.
+
+. Make sure that the configurations are correct and click *Launch*.
 +
-. Open the instance. You can check for the details of your instance here.
+*Result*: A pop-up window opens.
+Now you need the key pair you created before for this instance.
 +
+image::aws-key-pair-popup.png[width=400]
++
+
+. From the first drop-down menu, select *Choose an existing key pair*.
+. From the second drop-down menu, select the key pair you created for this instance.
+. Click *Launch Instances*.
++
+*Result*: You are forwarded to a summary of your newly created instance where you can check the configurations.
+. Click *View instances*.
++
+*Result*: You see the *Instances* panel with the instance you created and other instances you may have created earlier.
+The panel shows information on you instance, including the name, ID, and status.
+
+=== Connect the instance to Neptune DXP - Open Edition
+
+. On the *Instances* panel, select your instance by checking the box next to the name of the instance.
 . Click *Connect*.
 +
-image::aws-instance-details.png[]
+image::aws-instance-details.png[width=800]
 +
-The window _Connect to Your Instance_ opens. There, you can configure the connection to the server.
+*Result*: The *Connect to instance* dialog opens. There, you can configure the connection to the server.
 +
-image::aws-connect.png[]
+. On the *Connect to instance* dialog, navigate to the *SSH client* tab and follow the steps presented to you.
++
+image::aws-connect.png[width=800]
++
+*Result*: After following the steps, you have completed the connection process.
+
+. Download Neptune DXP - Open Edition to your server from our link:https://www.neptune-software.com/free-trial/?utm_source=Community&utm_medium=Website&utm_campaign=Download&utm_content=Link#[community] website.
+. Follow the steps in the xref:installation-guide.adoc[Installation guide].
+
+== Results
+* You have created and launched an instance on the AWS console.
+* You have connected your instance to Neptune DXP - Open Edition.
 
 == Next steps
-Now that you have launched the AWS instance, you must connect it to your Neptune DXP - Open Edition.
-
+* xref:installation-guide:aws-database.adoc[]

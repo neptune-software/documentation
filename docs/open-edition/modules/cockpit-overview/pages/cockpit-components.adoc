@@ -15,6 +15,7 @@ The following tools are available:
 
 * xref:store.adoc[_Store_]: Download and share application building blocks.
 * xref:development-package.adoc[_Development Package_]: Organize and group artifacts.
+* _Connector_:
 * xref:adaptive-designer.adoc[_Adaptive Designer_]: Create adaptive applications.
 * xref:app-designer.adoc[_App Designer_]: Create UI5 applications with low-code designer.
 * xref:app-editor.adoc[_App Editor_]: Create fully customizable applications.
@@ -46,6 +47,8 @@ image:cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
 In the *Connectivity* section, you group your APIs and OData (Open Data Protocol) according to their usage.
 
 The following tools are available:
+
+* _Group_:
 
 * _API Designer_: The _API Designer_ is a graphical user interface, you can create and configure Rest API definitions with it.
 You can define and update Rest APIs at any stage and reuse them over different applications.
@@ -93,20 +96,22 @@ Tiles serve as navigation links to Planet applications, external URLs and throug
 
 
 == Monitoring
-[cols=2*,options=header]
-
 
 * _System Processes_:
 
 * _Lock Entries_: Overview of active locks in the system.
 
-* _Houskeeping_: Delete logs from across the system and define the retention time for different log types.
+* _Housekeeping_: Delete logs from across the system and define the retention time for different log types.
 
-* _SMTP Log_: View a log of all e-mails and their sent status. You can filter for utime and status.
+* _SMTP Log_: View a log of all e-mails and their sent status. You can filter for time and status.
 
 * _System Logs_:
 
+* _System Reports_:
+
 * _User Sessions_:
+
+* _PDF Archive_:
 
 * _Application Log_:
 
@@ -114,7 +119,7 @@ Tiles serve as navigation links to Planet applications, external URLs and throug
 
 * _Push Notification Users_:
 
-*_Load Test_:
+* _Load Test_:
 
 
 == Tools
@@ -138,70 +143,65 @@ To connect the data to your application, use the API Designer.
 * _Tracking Settings_:
 
 
-.Testing
-[cols=2*,options=header]
-|===
-|Name
-|Description
+== Testing
 
-|Test Unit
-|
+* _Test Unit_
 
-|Test Plan
-|
+* _Test Plan_
 
-|Test Run
-|
-|===
+* _Test Run_
 
-.Deployment
-[cols=2*,options=header]
-|===
-|Name
-|Description
 
-|Deployment Create
-|
+== Deployment
 
-|Deployment Approve
-|
+* _Deployment Create_
 
-|Deployment Transfer
-|
+* _Deployment Approve_
 
-|Deployment Routes
-|
+* _Deployment Transfer_
 
-|Deployment Log
-|
-|===
+* _Deployment Routes_
 
-.Security
-[cols=2*,options=header]
-|===
-|Name
-|Description
+* _Deployment Log_
 
-|User
-|In User, you find the system users with their roles. Roles determine which Tiles or Tile Groups are visible to users.
-Here, you can adjust the roles for single users.
+
+== Security
+
+* _User_: In User, you find the system users with their roles.
+Roles determine which Tiles or Tile Groups are visible to users.
+
+* _Group_: Group shows groups of users with their roles.
+Here, you can adjust roles for all users in a group.
+
+* _Role_: Here, you can adjust the roles for single users.
 If you want to adjust the roles of more users at once, go to the Group tool.
 
-|Group
-|Group shows groups of users with their roles. Here, you can adjust roles for all users in a group.
+* _Audit Log_
 
-|Audit Log
-|
+* _Remote Systems_
 
-|Remote Systems
-|
+* _Import LDAP_
 
-|Import LDAP
-|
+* _Proxy Authentication_
 
-|Proxy Authentification
-|
+* _Certificates_
 
-|Certificates
-|
-|===
+* _Table Audit_
+
+== Workflow
+
+* _Overview_
+
+* _Definition_
+
+* _Task Action_
+
+* _Approvers_
+
+* _Substitution_
+
+== Settings
+
+* _System Settings_
+
+* _Custom Settings_
