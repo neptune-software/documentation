@@ -42,4 +42,8 @@ div.admonitionblock table {
   border: 1px solid silver;
 }
 
+dt {
+  font-weight:bold;
+}
+
 
