@@ -24,12 +24,12 @@ body {
 
 h1 {
   color: #003E52; /* deep blue */
-  font-weight: normal;
+  font-weight: 400;
 }
 
 h2,h3,h4,h5,h6 {
   color: #00839B; /* medium blue */
-  font-weight: normal;
+  font-weight: 400;
 }
 
 h2 {
@@ -42,8 +42,8 @@ div.admonitionblock table {
   border: 1px solid silver;
 }
 
-dt {
-  font-weight:bold;
+b, dt, strong, th {
+  font-weight: 500;
 }
 
 
