@@ -1,0 +1,29 @@
+= Create a table definition with the _API Designer_
+
+== Prerequisites
+
+== Procedure
+
+. Open Neptune DXP - Open Edition cockpit.
+. Go to *Connectivity* and click *API Designer*.
+. On the _API Designer_, click *Add*.
++
+image::api-designer-add.png[width=400]
++
+*Result*: The API configuration dialog opens.
+You start in the *General* tab.
++
+. In *Type*, select Table Definition.
+. In *API format*, Swagger 2.0 is preselected. You can select the newer version, Open API 3.0, here.
+//Helle@parson: no context given for API. Add to concept/reference topic, explain there and link here?
+. Enter a *Name* for your table definition.
+. If the API belongs to a group of APIs and oData, select the group from the *Group* drop-down menu.
+. If the API belongs to a package of APIs, applications, oData and mock data, select the package from the *Package* drop-down menu.
+
+== Results
+
+== Related Topics
+* xref:api-designer.adoc[API Designer]
+//* xref::import-api.adoc[] <-- task
+//* xref::export-api.adoc[] <-- task
+//* xref::search-api.adoc[] <-- might not be task

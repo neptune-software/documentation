@@ -14,14 +14,11 @@ Before diving deeper into the _API Designer_, learn about the key concepts of AP
 
 REST API:: A REST API is an application program interface (API) that uses HTTP requests to GET, PUT, POST, and DELETE data.
 +
-A REST API comprises a defined set of operations that uses the HTTP protocol.
-//Uta is > comprises (sonst sieht es aus wie eine erneute definition, die ist aber schon im satz darüber)
 The choice of data format depends on the type of application that is calling the API.
 JSON is used for web pages or applications that present a user interface.
 XML is used for machine-to-machine communication.
 +
 In Neptune DXP - Open Edition, you can call APIs with JavaScript snippets directly from the _App Designer_.
-//Uta: right > directly
 
 API operation:: An operation is a REST API unit that you can call. An operation consists of two parts:
 +
@@ -30,16 +27,13 @@ API operation:: An operation is a REST API unit that you can call. An operation 
 
 +
 You use the following operations when interacting with a resource from an application:
-//Uta: There are seven operations > You use the following operations (the information that there are seven is not important here.
 
 * GET: Read and retrieve data from the resource.
-* PUT: Send new data to the resource.
-* POST: Update existing data in the resource.
+* POST: Adds new data to the resource.
+* PUT: Update existing data in the resource.
 * DELETE: Delete data from the resource.
-//Uta: remove > delete
 * PATCH: Apply partial changes to an operation.
-Unlike PUT, PATCH changes only part of the data instead of replacing it entirety.
-//Uta: Check. It says that PUT sends new data but does not replace it with something.
+Unlike PUT, PATCH changes only part of the data instead of replacing it entirely.
 * HEAD: Read and retrieve data without the response body.
 Unlike GET, HEAD retrieves the response header only.
 * OPTIONS: Read and retrieve all operations and content types that are available without retrieving specific data.
@@ -65,22 +59,8 @@ You can investigate the logs for each API with tracing enabled in _API Trace_.
 
 Proxy:: When designing an API you can allow the use of a proxy.
 A proxy is necessary for cross-domain connectivity.
-//Uta: This is > A proxy is
+
+//Please add: API format (Swagger 2.0 or Open API 3.0)
 
 //Useful links for content creation:
 //https://community.neptune-software.com/documentation/add-url-parameters-in-api-operations
-
-
-=== Create an API
-
-==== Procedure
-
-. Open Neptune DXP - Open Edition cockpit.
-. Go to *Connectivity* and click *API Designer*.
-. On the _API Designer_, click *Add*.
-+
-image::api-designer-add.png[width=400]
-+
-*Result*: The API configuration dialog opens.
-You start in the *General* tab.
-+

@@ -15,11 +15,8 @@ The _API Designer_ shows all available types of APIs. There are three types of A
 * *Table Definitions*: To connect an application to a data table.
 * *Server Scripts*: To access one of your server scripts on the DXP - Open Edition.
 
-//Uta: made this a bullet list (use bullet lists for two list items or more) and added the details to the list items. Added article "the" to DXP Open Edition.
-
 == _API Designer_ view
 The main view of the _API Designer_ shows a list of both publicly available APIs and your APIs with search options to sort and filter the list.
-//Uta: filter instead of sort
 
 image::api-designer-base.png[width=800]
 
@@ -28,10 +25,7 @@ You can search for an existing API, look at its configurations, and save it as a
 Starting from this view, you can add or import APIs in different file formats and from remote servers.
 
 == Related topics
-* https://community.neptune-software.com/documentation/overview-sdbhog8y#Basics%20of%20API%20Designer[Basics of API Designer]
-//Uta: What is the difference between "Basics of API Designer" and this topic?
-* https://community.neptune-software.com/documentation/getting-started-with-api-designer-p8[Getting Started with API Designer]
-//* xref::create-api.adoc[] <-- task
-//* xref::import-api.adoc[] <-- task
-//* xref::export-api.adoc[] <-- task
-//* xref::search-api.adoc[] <-- might not be task
+* xref:api-designer-create.adoc[Create a table definition with the _API Designer_]
+//* xref:import-api.adoc[] <-- task
+//* xref:export-api.adoc[] <-- task
+//* xref:search-api.adoc[] <-- might not be task
