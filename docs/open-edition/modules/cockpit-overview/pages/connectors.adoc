@@ -1,0 +1,19 @@
+= image:connector.png[width=100,link="connector-icon.png"] Connector
+//@Neptune: check icon
+
+Neptune DXP Open Edition uses connectors to create an abstraction of the data sources for __Adaptive Designer__ applications.
+
+In __Connector__, you publish the data sources that are used in the link:adaptive-designer.adoc[Adaptive Designer].
+
+Multiple _Adaptive Designer_ applications can use connectors.
+
+Connectors support table or server script data sources from previous versions of Neptune DXP Open Edition.
+//@Neptune: What does "previous" refer to, a previous version?
+
+You can preview connectors to see the type of data that the connector produces.
+
+Connectors can include a full RTE documentation.
+//@Neptune: RTE = run-time environment?
+
+// ==Related topics
+//* Create connectors
