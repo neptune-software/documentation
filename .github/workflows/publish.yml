@@ -3,7 +3,7 @@ name: Publish
 on:
   push:
     branches:
-      - review
+      - main
 
 jobs:
   build_and_deploy_job:
