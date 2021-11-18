@@ -1,0 +1,56 @@
+= Create a database schema with SQL client
+
+You need a database to work with your virtual machine.
+This topic explains how you create a database schema with SQL client.
+
+== Prerequisites
+
+* xref:azure-create-database.adoc[Your Postgres database setup is complete].
+* xref:azure-firewall.adoc[You have configured your firewall].
+* Docker is installed. You can get it https://docs.docker.com/get-docker/[here].
+
+== Procedure
+
+. Open your Postgres database.
+. Click *Connection Security* > *Add client IP*. Add your public IP address here.
++
+NOTE: Disable *Enforce SSL connection* in case your SQL client does not support this.
++
+. Start an SQL client. The following steps base on https://www.adminer.org/[Adminer] but other SQL clients work similarly.
+.. Open a console and type:
++
+----
+docker run -p 9000:8080 adminer
+----
+to start Docker and the Adminer client.
+.. Type in your browser:
++
+----
+localhost:9000
+----
+Press *Enter*.
+.. Click *System* > *PostgreSQL*.
+... Enter a *server name*. This must be the server name specified in the Azure portal.
+... Enter an *admin username*. This must be the one specified in the Azure portal.
+... Enter a password. This must be the password you used when creating the database.
++
+NOTE: You do not need to specify a database.
+.. Click *Login*.
+.. Select the target database.
+.. Run the following SQL script against that target database:
+//TODO: Is that still up to date?
++
+----
+create schema planet9
+----
++
+.. Stop the Docker image.
+. Click *Connection Security* > *Enforce SSL connection*.
+
+== Result
+
+You have created a database schema with SQL client.
+
+== Next steps
+
+* xref:azure-connection-cockpit.adoc[Connect the database to Neptune DXP - Open Edition]

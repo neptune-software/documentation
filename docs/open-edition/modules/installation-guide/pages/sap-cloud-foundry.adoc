@@ -1,0 +1,25 @@
+= Enable Cloud Foundry for your SAP Cloud Platform subaccount
+
+You enable the Cloud Foundry environment for each subaccount separately. Within the environment, you create Spaces and define configurations for your subaccount.
+
+== Prerequisites
+* You set up a trial account on SAP Cloud Platform.
+* You set up a subaccount on SAP Cloud Platform with four memory units assigned.
+
+== Procedure
+. On the SAP Cloud Platform, click on your subaccount.
++
+image::sap-subaccount-overview.png[width=600]
+. Click *Enable Cloud Foundry*.
+. Enter a name.
+. Click *Create*.
++
+SAP Could Platform creates the Cloud Foundry. This takes a few minutes. Once the creation process is complete, you see an overview.
++
+image::sap-cloud-foundry.png[width=600]
+
+== Results
+* You have enabled Cloud Foundry.
+
+== Next steps
+* xref:sap-space.adoc[Create a space in your subaccount]

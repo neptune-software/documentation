@@ -1,0 +1,30 @@
+= Add a new quota plan to the organizational Space of your SAP Cloud subaccount
+
+After you have added organizational Space to your SAP Cloud Platform, you create a new quota plan for that Space. This is where you allow the Space to use a specific amount of memory.
+
+== Prerequisites
+* You created a trial account on SAP Cloud Platform.
+* You created a subaccount on SAP Cloud Platform with four memory units assigned.
+* You enabled Cloud Foundry.
+* You added organizational Space to your subaccount.
+
+== Procedure
+. In the menu, open the *Cloud Foundry* submenu.
+. Click *Quota Plans* > *New Plan*.
+.. Enter _memQ_ as *Name*.
+.. Enter _4096_ in *Memory (MB)*. This equals 4 GB and allows your Space to use all four memory units.
+//Helle@Neptune: The explanation above is an assumption. Please check.
+. Click *Save*.
++
+image::sap-quota-plan.png[width=600]
+
+. Click *Plan Assignment* > *Quota Plan*. Choose _memQ_ from the drop-down menu.
+
+//Helle@Neptune: is there another Save or Apply action?
+NOTE: Leave this tab open. You need information from the *Cloud Foundry Environment* tab in the next step.
+
+== Results
+* You have set up a new quota plan for your organizational Space on SAP Cloud Platform.
+
+== Next steps
+* xref:sap-deploy-oe-docker-image.adoc[Deploy your application to the SAP Cloud Foundry Space]

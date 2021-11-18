@@ -1,0 +1,7 @@
+= Installation package
+
+https://community.neptune-software.com/documentation/planet-9-install-and-configure#-planet-9-distributed-files
+//link to be updated according to name changes
+
+When you download Neptune DXP - Open Edition for your target platform, the following files are shipped in a ZIP archive:
+

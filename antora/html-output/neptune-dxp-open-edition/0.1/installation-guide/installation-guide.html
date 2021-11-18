@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Installation guide for Neptune DXP - Open Edition :: Neptune DXP Open Edition Documentation</title>
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../../_ui-files/css/site.css">
+    <script>var uiRootPath = '../../../_ui-files'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../../..">Neptune DXP Open Edition Documentation</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="neptune-dxp-open-edition" data-version="0.1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Neptune DXP Open Edition</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Overview</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../overview.html">Overview of Neptune DXP - Open Edition</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../process-overview.html">Process overview</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../appdesigner-at-a-glance.html">App Designer interface</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Cockpit overview</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../cockpit-overview/cockpit-development.html">Section Development</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/store.html">Store</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/development-package.html">Development Package</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/adaptive-designer.html">Adaptive Designer</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/app-designer.html">App Designer</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/app-editor.html">App Editor</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/script-editor.html">Script Editor</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/code-snippets.html">Code Snippets</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/app-documentation.html">Documentation</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/media-libary.html">Media Library</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/npm-modules.html">NPM Modules</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cockpit-overview/application-trashbin.html">Application Trashbin</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Installing and configuring</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="installation-overview.html">Overview</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="system-requirements.html">System requirements</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="basic-setup.html">Configure work environment</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="npm-module.html">NPM Module</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="npm-module-vm.html">NPM Module on virtual machines</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="configuring-database.html">Configure a Database</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="load-balancing.html">Load Balancing</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="installation-guide.html">Installation guide</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="installation-cloud.html">Install as cloud solution</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="aws-ec2.html">AWS EC2</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="aws-instance.html">Create an instance on the AWS console</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="aws-launch.html">Launch the AWS instance</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="oracle-cloud.html">Oracle cloud</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="oracle-cloud-installation.html">Install Open Edition on Oracle Cloud</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="oracle-cloud-tmux.html">Use tmux on Oracle Cloud</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Neptune DXP Open Edition</span>
+    <span class="version">0.1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Neptune DXP Open Edition</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">0.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Neptune DXP Open Edition</a></li>
+    <li>Installing and configuring</li>
+    <li><a href="installation-guide.html">Installation guide</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Installation guide for Neptune DXP - Open Edition</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>This installation guide describes how you install, upgrade, and start Neptune DXP - Open Edition.
+This guide is for the Neptune DXP - Open Edition server, release 2.x.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+The Neptune DXP - Open Edition release 2.x does not support filesystems.
+An upgrade from the filesystem is not possible.
+We recommend that you install the Neptune DXP - Open Edition in a different location and move artifacts from Neptune DXP - Open Edition 1.x to Neptune DXP - Open Edition 2.x.
+The replacement for the filesystem is SQLite DB.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Neptune DXP - Open Edition is delivered as an executable file, including all resources such as node.js.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_installation_package"><a class="anchor" href="#_installation_package"></a>Installation package</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The installation package contains the following files:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Neptune DXP - Open Edition executable file (for example, <em>openedition-linux</em>)</p>
+</li>
+<li>
+<p>SQLite Node binding file: <em>node_sqlite3.node</em>. It contains a dependency for the Neptune DXP - Open Edition executable. The NodeJS is binding for SQLite for the target platform. It is mandatory that this file is in the same directory as the Neptune DXP - Open Edition executable.</p>
+</li>
+<li>
+<p>LICENSES file. It consists of plain text and contains all licenses of the NPM modules that Neptune DXP - Open Edition internally uses.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_folder_structure"><a class="anchor" href="#_folder_structure"></a>Folder structure</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The installation of the Neptune DXP - Open Edition creates the following folders on your system:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Configuration directory: Configuration file(s) that are created to configure Neptune DXP - Open Edition. Do not edit these files.</p>
+</li>
+<li>
+<p>Log directory: All logs generated by Neptune DXP - Open Edition are logged here. This is useful to diagnose issues.</p>
+</li>
+<li>
+<p><em>package*.json</em> file(s): If the custom NPM module directory is configured in the Neptune DXP - Open Edition directory, a <em>package.json</em> and <em>package-lock.json</em> file is created.</p>
+</li>
+<li>
+<p>Database directory and <em>*.sql</em> files: This is where the local SQLite database is located. It is only present if an SQLite database has been used or is used.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_start_neptune_dxp_open_edition_server"><a class="anchor" href="#_start_neptune_dxp_open_edition_server"></a>Start Neptune DXP - Open Edition server</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Enter the following parameters when you start Neptune DXP - Open Edition for the first time, as normal startup or as upgrade of an existing version.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Parameters for first start</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Operating system</th>
+<th class="tableblock halign-left valign-top">First time startup</th>
+<th class="tableblock halign-left valign-top">Normal startup</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Windows</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">planet9-win –upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">planet9-win</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">planet9-linux –upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">planet9-linux</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iOS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">planet9-macos –upgrade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">planet9-macos</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_special_aspects_of_installing_neptune_dxp_open_edition_on_macos"><a class="anchor" href="#_special_aspects_of_installing_neptune_dxp_open_edition_on_macos"></a>Special aspects of installing Neptune DXP - Open Edition on macOS</h3>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+There are some known issues with Safari.
+The browser adds "<em>.dms</em>" to the filename.
+Perform the following steps when installing Neptune DXP - Open Edition on macOS:
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>After the download is finished, open the download folder and check the filename.</p>
+</li>
+<li>
+<p>Rename the file and delete the extension "<em>.dms</em>".</p>
+</li>
+<li>
+<p>Open a console and go to the folder where the file is located.</p>
+</li>
+<li>
+<p>Type the following  command:  <code>chmod +x ./planet9-macos</code></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_file_is_not_executable_macos_or_linux"><a class="anchor" href="#_the_file_is_not_executable_macos_or_linux"></a>The file is not executable (macOS or Linux)</h3>
+<div class="paragraph">
+<p>If the file is not executable, perform the following steps:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open a console.</p>
+</li>
+<li>
+<p>Enter <code>cd &lt;path to planet9&gt;</code>.</p>
+</li>
+<li>
+<p>Enter <code>chmod+x ./planet9-macos</code>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_post_upgrade_activities"><a class="anchor" href="#_post_upgrade_activities"></a>Post-upgrade activities</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After you have upgraded Neptune DXP - Open Edition, perform the following tasks:</p>
+</div>
+<div class="sect2">
+<h3 id="_launchpad"><a class="anchor" href="#_launchpad"></a>Launchpad</h3>
+<div class="paragraph">
+<p>Check for Launchpad updates in the store [Link to Neptune store] and download the new version if available.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_new_features"><a class="anchor" href="#_new_features"></a>New features</h3>
+<div class="paragraph">
+<p>Navigate to <strong>Cockpit</strong> &gt; <strong>Security</strong> &gt; <strong>Role</strong> and check <strong>ACL</strong> for new functions delivered in the new version.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_node_and_npm"><a class="anchor" href="#_node_and_npm"></a>Node and npm</h3>
+<div class="paragraph">
+<p>This version runs on an upgraded version of node: v12.13.1. It is important that you upgrade your custom node modules accordingly:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Upgrade your own node version to 12.13.1</p>
+</li>
+<li>
+<p>Open a console.</p>
+</li>
+<li>
+<p>Run <code>npm rebuild</code> in the directory where the node modules are installed.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_run_neptune_dxp_open_edition"><a class="anchor" href="#_run_neptune_dxp_open_edition"></a>Run Neptune DXP - Open Edition</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After Neptune DXP - Open Edition is started, open a browser and navigate to the URL corresponding to your server:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Local PC: <a href="http://localhost:8080" class="bare">http://localhost:8080</a></p>
+</li>
+<li>
+<p>Server: <a href="http://serverURL:8080" class="bare">http://serverURL:8080</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The default username is “admin/admin”.</p>
+</div>
+<div class="sect2">
+<h3 id="_run_neptune_dxp_open_edition_server_in_production"><a class="anchor" href="#_run_neptune_dxp_open_edition_server_in_production"></a>Run Neptune DXP - Open Edition server in production</h3>
+<div class="paragraph">
+<p>When you deploy a Neptune DXP - Open Edition instance on a remote system, do not run the Neptune DXP - Open Edition instance as an “admin”, “root”, or any other super admin-type privileged user.
+Depending on the system, this results in Neptune DXP - Open Edition probably (depending on OS) not being able to bind by default to port 80 (HTTP) or 443 (HTTPS).
+To bind Neptune DXP - Open Edition to these default ports, we advise to use a web server like NGINX.
+This web server can bind to the ports 80 and 443 and forwards requests to the Neptune DXP - Open Edition instance.</p>
+</div>
+<div class="sect3">
+<h4 id="_use_nginx"><a class="anchor" href="#_use_nginx"></a>Use NGINX</h4>
+<div class="paragraph">
+<p>You can use NGINX to cache any media request.
+By this, less data traffic is put on the Neptune DXP - Open Edition instance for serving static assets, for example, images.
+NGINX has a free open source version available for commercial use and can be downloaded here: [Link].</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_store_custom_npm_modules"><a class="anchor" href="#_store_custom_npm_modules"></a>Store custom npm modules</h4>
+<div class="paragraph">
+<p>We recommend that you create a folder where all custom npm modules are installed.
+You can configure the Neptune DXP - Open Edition instance to use this folder in <strong>Settings</strong> &gt; <strong>Customizing</strong> &gt; <strong>General</strong>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_run_neptune_dxp_open_edition_server_on_a_remote_system"><a class="anchor" href="#_run_neptune_dxp_open_edition_server_on_a_remote_system"></a>Run Neptune DXP - Open Edition server on a remote system</h3>
+<div class="paragraph">
+<p>To run Neptune DXP - Open Edition server on a remote system, you need to be able to disconnect from the system without detaching the process.
+There are two options to do this:</p>
+</div>
+<div class="sect3">
+<h4 id="_option_1_forking"><a class="anchor" href="#_option_1_forking"></a>Option 1: Forking</h4>
+<div class="paragraph">
+<p>Fork the system so that it can run as a background process or as a service.
+The benefit of running as a service is that the Neptune DXP - Open Edition instance can restart in the event of a Neptune DXP - Open Edition application crash and auto-start after booting.
+IMPORTANT: Make sure that the user running the Neptune DXP - Open Edition service has the following properties and permissions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The user can access the custom npm folder.</p>
+</li>
+<li>
+<p>The user set  the path to npm.</p>
+</li>
+<li>
+<p>The user has the  permissions for the Neptune DXP - Open Edition executable (see installation step).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>A configuration for a Linux service would look as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>[Unit]
+
+Description=Neptune DXP - Open Edition
+
+[Service] ExecStart=/var/planet9/planet9-linux
+Restart=always
+User=MyUser
+Group=nobody
+# Notice the NPM path
+Environment=PATH=/home/MyUser/.nvm/versions/node/v10.16.3/bin:/usr/
+bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/planet9
+
+[Install] WantedBy=multi-user.target</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_option_2_use_a_terminal_multiplexer"><a class="anchor" href="#_option_2_use_a_terminal_multiplexer"></a>Option 2: Use a terminal multiplexer</h4>
+<div class="paragraph">
+<p>You can use a terminal multiplex, for example, screen or <em>tmux</em>.
+To install <em>tmux</em> on Linux, type the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>sudo yum install tmux</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>How to use tmux on Linux:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Start tmux on your computer.</p>
+</li>
+<li>
+<p>Start Neptune DXP - Open Edition. From this point on, even if you are disconnected from the server, Neptune DXP - Open Edition continues to run.</p>
+</li>
+<li>
+<p>After you started Neptune DXP - Open Edition, disconnect from tmux: Type <code>c-b d</code> (or <code>c- space d</code>). 'd' stands for disconnect.</p>
+</li>
+<li>
+<p>The next time you connect to Neptune DXP - Open Edition and want to continue where you left, start the server and type <code>tmux ls</code>. You see the running tmux sessions and type <code>tmux attach</code> to it.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+You can run Neptune DXP - Open Edition without performing above steps. As soon as you lose the connection to the remote system, the parent process stops and only the forked system processes continue running. This means that you cannot see the system processes running inside Neptune DXP - Open Edition.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../../_ui-files/js/site.js"></script>
+<script async src="../../../_ui-files/js/vendor/highlight.js"></script>
+  </body>
+</html>

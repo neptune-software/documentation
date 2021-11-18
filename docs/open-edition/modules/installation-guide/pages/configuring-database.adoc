@@ -1,0 +1,30 @@
+= Configure your database
+
+// Content from installation guide
+
+All data, ranging from your configuration, apps, and application data, is kept in Neptune DXP - Open Edition database.
+By default, the embedded SQLite database is configured and used.
+
+IMPORTANT: The data from your previously installed Neptune DXP - Open Edition database is deleted during the installation process of the new Neptune DXP - Open Edition version.
+Perform the following steps to avoid deletion of your data:
+
+. Configure your database in *Settings* > *System* > *Database*.
+. Restart Neptune DXP - Open Edition.
+. Continue with further configurations.
+
+== PostgreSQL
+
+. Create a new database.
+. Create the planet9 schema.
+//Input needed. This is easier to understand in more detail.
+
+----
+CREATE DATABASE planet9;
+
+CREATE SCHEMA planet9;
+----
+//Where do I put this? Input needed.
+//Needs to be updated according to open-edition naming.
+
+On initialization, Neptune DXP - Open Edition creates all the needed tables under this schema.
+There are no further preconditions for using the SQLite database.

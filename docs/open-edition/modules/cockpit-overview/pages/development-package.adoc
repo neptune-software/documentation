@@ -1,0 +1,5 @@
+= Development Package
+
+In _Development Package_, you organize and group artifacts.
+You can assign artifacts to a package.
+// Source says "almost any artifacts": which are the exceptions?

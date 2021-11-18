@@ -1,0 +1,49 @@
+/*
+ Neptune CI Design Guidelines
+ https://stneptuneportal.blob.core.windows.net/media/Marketing%20Related%20Content%2FGuidelines%2FNeptuneSoftware_Corporate%20Identity%20_brand%20guide.pdf
+
+ == Colors
+ orange:                        #F6B221
+
+ deep blue:     Cloud           #003E52
+ medium blue:   SAP             #00839B
+ light blue:    Open Edition    #83C8BC
+
+ additional grey:               #5D5D5D
+
+ == Fonts
+ The primary typeface for Neptune Software is Source Sans Pro in deep blue.
+ Calibri light is used secondarily.
+
+*/
+
+body {
+  color: #003E52; /* deep blue */
+  font-family: "Source Sans Pro", "Calibri", sans-serif;
+}
+
+h1 {
+  color: #003E52; /* deep blue */
+  font-weight: 400;
+}
+
+h2,h3,h4,h5,h6 {
+  color: #00839B; /* medium blue */
+  font-weight: 400;
+}
+
+h2 {
+  border-bottom: 1px solid #e1e1e1;
+  padding: .4rem 1rem .1rem;
+}
+
+div.admonitionblock table {
+  background-color: #fafafa;
+  border: 1px solid silver;
+}
+
+b, dt, strong, th {
+  font-weight: 500;
+}
+
+

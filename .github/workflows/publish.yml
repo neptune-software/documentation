@@ -3,7 +3,7 @@ name: Publish
 on:
   push:
     branches:
-      - neptune-docs
+      - review
 
 jobs:
   build_and_deploy_job:
@@ -17,8 +17,10 @@ jobs:
         run: |
           npm install @antora/cli @antora/site-generator-default asciidoctor-plantuml
       - name: Render Static Site
+        env:
+          GIT_CREDENTIALS: https://${{ secrets.ACTIONS_GITHUB_PAN_PUB }}:@github.com
         run: |
-          ./node_modules/.bin/antora generate ./antora/antora-poc-playbook_neptune.yml
+          ./node_modules/.bin/antora generate ./antora/neptune-docs-playbook.yml
       - name: Deploy Static Site
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -26,5 +28,5 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_DEPLOY_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "antora/github-poc"
+          app_location: "antora/neptune-docs"
           output_location: ""

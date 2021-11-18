@@ -1,0 +1,29 @@
+# Playbook for building the Antora docs from the remote Neptune GitHub repository
+site:
+  title:         Neptune DXP Documentation
+  start_page:    neptune-dxp-open-edition::index.adoc
+content:
+  sources:
+  - url:         https://github.com/neptune-software/documentation.git
+    branches:    [review]
+    start_paths: [docs/open-edition]
+  - url:         https://github.com/neptune-software/px-infra-main
+    branches:    [master]
+    start_paths: [docs-public]
+output:
+  dir:           ./neptune-docs
+ui:
+  bundle:
+    url:        https://github.com/neptune-software/documentation/raw/neptune-docs/antora/neptune-ui/ui-bundle.zip
+    snapshot:   true
+  output_dir:    _ui-files
+runtime:
+  fetch:            true
+# https://docs.antora.org/antora/2.3/playbook/asciidoc-extensions/
+# https://gitlab.com/antora/antora/-/issues/442
+# https://blog.yuzutech.fr/blog/plantuml-extension-render-diagrams/index.html
+asciidoc:
+  extensions:
+    - asciidoctor-plantuml
+  attributes:
+    plantuml-server-url: http://www.plantuml.com/plantuml

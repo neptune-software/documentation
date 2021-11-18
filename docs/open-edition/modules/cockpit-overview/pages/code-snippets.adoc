@@ -1,0 +1,6 @@
+= Code Snippets
+
+In _Code Snippets_, you configure java code snippets that you can use in _App Designer_ and _Script Editor_.
+The idea of code snippets is to reduce the amount of custom code as much as possible, so developers can focus more on the processes and functionalities of the application itself.
+
+These configured code snippets empower business users without extensive coding knowledge to participate in the design of applications or even create their own applications, too.

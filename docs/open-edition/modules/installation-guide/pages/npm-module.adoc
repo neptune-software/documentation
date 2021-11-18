@@ -1,0 +1,19 @@
+= Install npm modules
+
+== Prerequisites
+To run Neptune DXP - Open Edition, you need to install custom npm modules.
+
+To install and use npm modules in Neptune DXP - Open Edition, make sure that npm is installed on your computer.
+Download npm here: https://www.npmjs.com/get-npm.
+//Link redirects to Getting started, no download found in only a few steps. More information needed.
+
+=== Installing Neptune DXP - Open Edition:
+
+==== Prerequisites
+* You have installed npm so that you can use npm modules.
+
+==== Procedure
+
+. Download the Neptune DXP - Open Edition zip file for your operating system (Windows, Linux, or macOS) from the Neptune portal.
+. Extract the zip file.
+. Move the Neptune DXP - Open Edition file and the SQLite file to the preferred directory on your computer.

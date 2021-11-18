@@ -1,0 +1,47 @@
+= Copy an app from an existing app
+
+In this topic you learn how to make a copy from an existing application.
+You copy applications, for example, to create applications with similar or shared functionalities.
+
+== Prerequisites
+
+* You have installed the Neptune DXP - Open Edition.
+* You have the developer role assigned.
+* You have an application you want to copy. This can be an application you created, imported or found in the store.
+
+== Procedure
+
+. Open the Cockpit of your Neptune DXP - Open Edition, and in  *Development*, click _App Designer_.
+. In the _App Designer_, open the *Application* drop-down menu and click *Open*.
++
+[TIP]
+====
+If you have opened the application you want to copy recently you can open it directly from the list at the bottom of the Application drop-down menu.
+
+image:appdesigner-application-lastusedapps.png[width=400]
+====
+
+. In the Applications pop-up window, click the application you want to open.
+If you want to open an application you created before, click *Mine* to show only your applications.
+//Helle@parson: please do test run. Is a screenshot needed here?
++
+*Result*: The _App Designer_ opens the application that you want to copy.
+. In the _App Designer_, open the *Application* drop-down menu and click *Copy*.
++
+image::appdesigner-newapp-copyapp.png[width=400]
++
+*Result*: The *New App* dialog opens.
+*Copy from* is prefilled with the name of the application that you opened in the _App Designer_.
+*Type* and *Package* are prefilled according to the settings from the original application.
+
+. In *Name*, enter a name for the new application.
+. In *Package*, select the package the new application belongs to, if not already prefilled correctly.
+. Click *Save*.
+//Helle@parson: Hier noch ein Result?
+
+== Result
+* You have created a copy of an existing application.
+
+== Related topics
+* xref::import-apps.adoc[]
+* xref::export-apps.adoc[]

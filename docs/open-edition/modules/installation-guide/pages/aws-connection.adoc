@@ -1,0 +1,41 @@
+= Connect the AWS database to your Neptune DXP - Open Edition
+
+== Prerequisites
+* You created an instance on the AWS console.
+* You launched the AWS instance.
+* You connected your AWS instance to Neptune DXP - Open Edition.
+* You created your database on the AWS console.
+
+== Procedure
+. Open Neptune DXP - Open Edition cockpit.
+. Go to *Settings* and click *System Settings*.
++
+image::cockpit-settings-systemsettings.png[width=800]
+. Navigate to the *Database* tab and click *Edit*.
++
+image::cockpit-settings-system-database.png[width=400]
+. From the *Type* drop-down menu, select *PostgreSQL (9.6 or later)*.
+. If you want to establish a secure SSL connection with the database server, activate the *Use SSL* box.
+.. If you checked the *Use SSL* box, enter the below URI in the *URI* field.
+.. If you did not check the *Use SSL* box, enter either the URI in the *URI* field or enter the fields *Host*, *Port*, *Username*, and *Password*.
+
++
+[TIP]
+====
+The URI consists of multiple elements, for example, host and port.
+You find all elements on the AWS console in the database overview.
+
+The URI looks as follows: postgres://Username:Password@Endpoint:Port/Database
+====
+
+. To see the details of your database, open the AWS console.
+. Open the *Services* menu, go to *Database*, and click *RDS*.
+. On the *Resources* panel, click *DB Instances*.
+. Click on the *DB identifier* of your database.
++
+image::aws-database-details.png[width=400]
+. Copy the details either to the *URI* field or the fields *Host*, *Port*, *Username*, and *Password*.
+. Click *Save*.
+
+== Results
+* You have connected the AWS database to DXP - Open Edition.

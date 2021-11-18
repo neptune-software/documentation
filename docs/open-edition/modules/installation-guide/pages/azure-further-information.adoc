@@ -1,0 +1,22 @@
+= Further readings on Azure and virtual machines
+
+This topic provides additional information on how to create virtual machines and SSH keys.
+
+== Create Azure virtual machines
+
+Azure CLI:: Create and manage Azure resources from the command line or in scripts.
+Learn how to create virtual machines in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli[here].
+Azure PowerShell:: Create and manage Azure resources from the PowerShell command line or using scripts.
+Learn how to create virtual machines through Azure PowerShell in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-powershell[here].
+Azure Portal:: Azure portal is a browser-based user interface to create virtual machines and their associated resources.
+Learn how to create virtual machines with the Azure portal in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal[here].
+
+== Steps involved in creating Azure virtual machines
+
+Create SSH key pair:: Generate SSH keys from Windows, as described in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows#create-an-ssh-key-pair[here].
+Create virtual Machine resource:: See the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal#create-virtual-machine[here].
+Connect to virtual machines using SSH client and PuTTY:: See the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows#connect-to-your-vm[here].
+
+== Create an Azure database resource
+
+Create an Azure database for PostgreSQL server in the Azure portal:: See the Microsoft documentation https://docs.microsoft.com/en-us/azure/postgresql/quickstart-create-server-database-portal[here].

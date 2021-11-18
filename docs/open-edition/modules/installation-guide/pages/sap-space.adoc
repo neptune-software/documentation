@@ -1,0 +1,21 @@
+= Create organizational Spaces in your SAP Cloud Platform subaccount
+
+Within the Cloud Foundry environment, you can create multiple Spaces. Spaces enable you to use functions and services in the environment. You only need one Space for Neptune DXP - Open Edition.
+
+== Prerequisites
+* You created a trial account on SAP Cloud Platform.
+* You created a subaccount on SAP Cloud Platform with four memory units assigned.
+* You enabled Cloud Foundry.
+
+== Procedure
+. Go to the SAP Cloud Platform and navigate to your subaccount.
+. Click *Cloud Foundry Environment* > *Create Space*.
+.. Enter a name in the *Space Name* field.
+.. Check the boxes for *Space Manager*, *Space Developer*, and *Space Auditor*.
+. Click *Create*.
+
+== Results
+* The *Cloud Foundry Environment* tab of your subaccount now shows your Space.
+
+== Next Steps
+*  xref:sap-quota-plan.adoc[Add a new quota plan to your organizational Space]

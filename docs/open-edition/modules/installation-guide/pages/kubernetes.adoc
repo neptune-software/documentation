@@ -1,0 +1,8 @@
+= Install Neptune DXP - Open Edition using Kubernetes
+
+You can deploy and run Neptune DXP - Open Edition using Kubernetes.
+
+Examples for the use of Kubernetes can be found https://github.com/neptune-software/p9-k8s-examples[on the Neptune GitHub platform].
+These examples are constantly extended and supplemented.
+
+The documentation for the system variables you can use with Neptune DXP - Open Edition Docker Image can be found https://hub.docker.com/r/neptunesoftware/planet9[here]. You need a valid Docker ID for access, see xref:cloud-docker.adoc[Docker image].

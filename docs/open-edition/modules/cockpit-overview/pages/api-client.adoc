@@ -1,0 +1,18 @@
+= image:api-client-icon.png[width=100,link="api-client-icon.png"] API Client
+
+With __API Client__ you send API requests to test the response from the REST API.
+
+== Features
+* Lets you check the response from APIs in the __API Designer__.
+* Provides dynamic parameters (query and header parameters) of various data types to create groups of different API requests for testing the REST API.
+* Provides distributed list of APIs based on API servers.
+* Shows the total number of API entries.
+* Shows the list of APIs with their operations to test the API response.
+* Quickly ensures that all your services are running as expected.
+
+== Learn more
+* https://community.neptune-software.com/documentation/api-client-v-220[API Client]
+* https://community.neptune-software.com/documentation/api-client#Getting%20started%20with%20API%20client[Getting started with API Client]
+
+
+

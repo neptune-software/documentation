@@ -1,0 +1,3 @@
+== Where is everything and how is it all connected?
+
+Learn how to find important applications and components of Neptune DXP - Open Edition and get to know the development process.

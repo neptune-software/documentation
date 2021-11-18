@@ -1,0 +1,7 @@
+= Use npm modules on a virtual machine
+
+In a multi-instance configuration you can use a shared file systems, for example AWS EFS, which you mount to each virtual machine.
+Make sure that the shared file system is mounted to the same folder in all the virtual machines with a Neptune DXP - Open Edition instance.
+If not, the configuration might not work. The figure shows an exemplary setup.
+
+image::installation-guide:npm_vm_configuration.png[npm modules on a virtual machine]

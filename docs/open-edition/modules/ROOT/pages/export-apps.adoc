@@ -1,0 +1,29 @@
+= Export applications
+You can export an application as file to your local computer or to __Launchpad__.
+
+== Prerequisites
+* You have created an application with the __App Designer__, which you want to export.
+
+== Export an application to your local computer
+. In the Open Edition Cockpit, open __App Designer__ and open the app you want t export.
++
+image:export-app-1.png[width=400, link="import-app-1.png"]
+
+. Click *Application* > *Export to File*.
++
+*Result*: The application is stored on your local computer, usually in the *Downloads* folder.
+
+== Export an application to Launchpad
+NOTE: You can download __Launchpad__ from the __Store__.
+
+//Uta@neptune: Input needed.
+
+. In __Tile Group__, add a new tile group. See also https://community.neptune-software.com/documentation/create-and-configure-the-tile.
+. In __Tile__, create a new tile and add the application as well as the new tile group to the tile. See also https://community.neptune-software.com/documentation/creating-and-configuring-tile.
+. Add the tile group to __Launchpad__. See also https://community.neptune-software.com/documentation/getting-started-with-launchpad.
+
+== Result
+* You have exported an application to your local computer or to __Launchpad__.
+
+== Related topics
+* xref:import-apps.adoc[Import applications]

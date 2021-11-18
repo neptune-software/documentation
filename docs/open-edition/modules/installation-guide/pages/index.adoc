@@ -1,0 +1,13 @@
+:imagesdir: ../images
+
+= Welcome to the Neptune DXP documentation!
+
+This is the home page of the Neptune DXP documentation. The source file is located in the ROOT module.
+
+== Overview of Neptune DXP
+Here is an overview of the Neptune DXP landscape.
+
+image::DX-platform.png[]
+
+
+

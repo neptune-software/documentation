@@ -1,0 +1,17 @@
+= Theme import
+//parson: Icon missing
+Import themes from SAP UI Theme Designer, which you can use in Open UI5 applications.
+
+
+You can of course customize themes with the __Theme Designer__, but you can also import SAP-customized themes from the SAP UI Theme Designer and use them in the __Launchpad__.
+
+== SAP UI Theme Designer
+The UI Theme Designer by SAP is a browser-based tool for cross-theming scenarios.
+Use the UI Theme Designer to create corporate identity themes by modifying one of the theme templates provided by SAP.
+
+For example, you can change the color scheme or add your company logo.
+See also: https://help.sap.com/viewer/ab06dedc873746eaba1c041200c068e0/7.5.6/en-US[UI Theme Designer].
+
+== Learn more
+* https://community.neptune-software.com/documentation/import-sap-theme[Import SAP themes]
+

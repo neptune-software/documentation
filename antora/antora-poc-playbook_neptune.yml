@@ -7,6 +7,9 @@ content:
   - url:         https://github.com/neptune-software/documentation.git
     branches:    [poc/v1.0, poc/v2.0]
     start_paths: [open-edition, sap-edition, style-guide]
+  - url:         https://github.com/neptune-software/px-infra-main
+    branches:    [master]
+    start_paths: [docs-public]
 output:
   dir:           ./github-poc
 ui:

@@ -1,0 +1,66 @@
+= Create an Azure Database resource for PostgreSQL server
+
+This topic explains how you set up Azure Database for the PostgreSQL server.
+This database is used for Neptune DXP - Open Edition.
+
+== Prerequisites
+
+* A valid Microsoft Azure account.
+
+== Procedure
+
+. Log in to the Azure portal.
+. Click *Azure Database for PostgreSQL*.
++
+image::azure-postgresql.png[width=800]
+. Click *Create a resource*.
+. Click *Databases* > *Azure Database for PostgreSQL*.
++
+image::azure_create_database2.png[width=400]
+.  Enter the following data in the new server details form.
+
+image::azure_postgre_settings.png[width=400]
+
+Server name:: Enter a unique name that identifies your Azure database for PostgreSQL servers.
+The domain name *postgres.database.azure.com* is appended to the server name you provide.
+Subscription:: Select the Azure subscription that you want to use for your server.
+Resource group:: Create a new resource group or select an existing one.
+Select source:: Select *Blank* to create a new server from scratch.
+Select *Backup* if you create a server from a geo backup of an existing Azure database for PostgreSQL server.
+Server admin login name:: Select your own login account.
+The admin login name cannot be the following:
+* azure_superuser
+* azure_pg_admin
+* admin
+* administrator
+* root
+* guest
+* public
++
+The admin login name cannot start with _pg_.
+Password/ confirm password:: Select a new password for the server admin account.
+Location:: Select the location that is closest to your users.
+Version:: Select the latest major PostgreSQL  version, unless you have specific requirements otherwise.
+Pricing tier:: Select the compute, storage, and backup configurations for your new server.
+Consider using the *basic* pricing tier if light compute and I/O are adequate for your workload.
+//Uta: check "compute"
+//Fabian: Check in what sense? The phrase is derived from the original manual.
++
+NOTE: Servers created in the *basic* pricing tier cannot be scaled to *General Purpose* or *Memory Optimized* later.
+//Note Fabian: There is another screenshot here in the crowded documentation but you it is not necessary to have it in my opinion.
++
+. Click *Create* to create the server. This may take a few minutes.
++
+TIP: Click *Pin to dashboard* to create a tile for this server on your Azure portal dashboard as a shortcut to the server's overview page.
++
+TIP: Click *Go to resource* to open the overview page of the server.
+
+== Result
+A Postgres database is created on your Azure server by default.
+For more details, see the Microsoft documentation for setting up Postgres databases on Azure https://docs.microsoft.com/en-us/learn/modules/create-azure-db-for-postgresql-server/3-creating-postgresql-db-server-via-azure-portal[here].
+//Uta: The result should be the same as the title of the topic promises. Please check and rephrase when necessary.
+//TODO: Rephrased it but I am not sure whether it is technically correct. Neptune, please check.
+
+== Next steps
+
+* xref:azure-firewall.adoc[Configure a server level firewall rule]

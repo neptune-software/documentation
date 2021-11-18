@@ -1,0 +1,207 @@
+= Neptune DXP - Open Edition Cockpit: Tool overview
+
+The Cockpit is the starting point where you create your applications.
+The different sections include the tools and services that you need for creating, running, testing, and maintaining applications.
+
+image::cockpit-overview.png[Cockpit Overview, 800 px]
+
+== Development
+In the *Development* section, you find the tools you need to build your own applications.
+
+image::cockpit-overv-development.png[Cockpit overview section development, 400 px]
+
+
+The following tools are available:
+
+* xref:store.adoc[_Store_]: Download and share application building blocks.
+* xref:development-package.adoc[_Development Package_]: Organize and group artifacts.
+* _Connector_:
+* xref:adaptive-designer.adoc[_Adaptive Designer_]: Create adaptive applications.
+* xref:app-designer.adoc[_App Designer_]: Create UI5 applications with low-code designer.
+* xref:app-editor.adoc[_App Editor_]: Create fully customizable applications.
+* xref:script-editor.adoc[_Script Editor_]: Code server-side scripts and use them as microservices.
+* xref:code-snippets.adoc[_Code Snippets_]: Configure code snippets for _App Designer_ and _Script Editor_.
+* xref:app-documentation.adoc[_Documentation_]: Create application documentation or context-sensitive help.
+* xref:media-libary.adoc[_Media Library_]: Store the media files you want to use within your application.
+* xref:npm-modules.adoc[_NPM Modules_]: Install and update node package manager modules.
+* xref:application-trashbin.adoc[_Application Trashbin_]: Restore or delete applications permanently.
+
+== Design
+image::cockpit-overv-design.png[Cockpit overview section design, 600]
+In the *Design* section, you find the tools you need to give your application the right look.
+
+The following tools are available:
+
+* _PDF Designer_: The _PDF Designer_ offers a drag and drop environment to create templates for custom PDFs.
+PDFs you create here can be triggered from anywhere in the platform.
+
+* _Theme Designer_: Define custom CSS for the use in the Launchpad and the _App Designer_.
+
+* _Theme Import_: Import themes from SAP UI Theme Designer.
+
+* _Email Template_: Create e-mail templates.
+
+== Connectivity
+image:cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
+
+In the *Connectivity* section, you group your APIs and OData (Open Data Protocol) according to their usage.
+
+The following tools are available:
+
+* _Group_:
+
+* _API Designer_: The _API Designer_ is a graphical user interface, you can create and configure Rest API definitions with it.
+You can define and update Rest APIs at any stage and reuse them over different applications.
+Here, you import APIs from Neptune DXP - Open Edition files, OAS/Swagger, table definitions, and API Discovery.
+
+* _API Client_: The _API Client_ is where you test the response of APIs you created in the API Designer. Use API Client to send calls to the API server, get a response and log the system response in API Trace.
+
+* _API Trace_: The _API Trace_ tool shows how many API calls have been made by apps to the server.
+You can also see when they were run and who ran them.
+_API Trace_ makes it easier to maintain the logs for the applications' APIs.
+
+* _Swagger UI_: The _Swagger UI_ visualizes an API you created in the _API Designer_.
+This allows you to interact with it and get a feel for its functionality without having any of the implementation logic figured out yet.
+
+* _OData Source_: Add new OData sources to a coordination package. You always can change properties on the OData.
+Also, find an overview where the OData is used.
+
+* _OData Mock Data_: Add and update mock data.
+
+== Administration
+image:cockpit-overv-administration.png[Cockpit overview section administration, 600]
+
+In the *Administration* section, you ...
+
+The following tools are available:
+
+* _Application Management_: Overview of the available applications in your system.
+
+* _Tile_: Create and configure tiles and allocate them to launchpads.
+Tiles serve as navigation links to Planet applications, external URLs and through policy allocation, they also control application access.
+
+* _Tile Group_: Create and configure tile groups to ensure that related apps are organized and visible to users in Neptune NXP Open - Edition launchpads.
+
+* _Launchpad_: Create, configure, and maintain launchpads.
+
+* _Mobile Client_: Create, configure, and download a Cordova Mobile Client ZIP build.
+
+* _Mobile Debug_: Enable mobile debugging and view logs for applications and users.
+
+* _Tile Blackout_: Deactivate tiles. _Tile Blackout_ informs users that the underlying app or URL on the tile is under maintenance/unreachable.
+
+* _Favorite Management_: Add tiles to the users' launchpad favorite tiles.
+
+* _Translation_: Translate artifacts, tiles, and tile groups.
+
+
+== Monitoring
+
+* _System Processes_:
+
+* _Lock Entries_: Overview of active locks in the system.
+
+* _Housekeeping_: Delete logs from across the system and define the retention time for different log types.
+
+* _SMTP Log_: View a log of all e-mails and their sent status. You can filter for time and status.
+
+* _System Logs_:
+
+* _System Reports_:
+
+* _User Sessions_:
+
+* _PDF Archive_:
+
+* _Application Log_:
+
+* _Launchpad Trace_:
+
+* _Push Notification Users_:
+
+* _Load Test_:
+
+
+== Tools
+
+* _Job Manage_
+
+
+* _Job Log_
+
+* _Table Definition_: With the Table Definition tool you create and maintain the databases for you apps.
+The Table Definition tool provides a schema definition and metadata for the databases.
+You can import schemas and automatically or manually define them with the Table Definition tool.
+
+* _Table Browser_: The Table Browser tool shows the table data.
+You can add, delete, and update data records here.
+To connect the data to your application, use the API Designer.
+
+* _Tracking List_:
+
+
+* _Tracking Settings_:
+
+
+== Testing
+
+* _Test Unit_
+
+* _Test Plan_
+
+* _Test Run_
+
+
+== Deployment
+
+* _Deployment Create_
+
+* _Deployment Approve_
+
+* _Deployment Transfer_
+
+* _Deployment Routes_
+
+* _Deployment Log_
+
+
+== Security
+
+* _User_: In User, you find the system users with their roles.
+Roles determine which Tiles or Tile Groups are visible to users.
+
+* _Group_: Group shows groups of users with their roles.
+Here, you can adjust roles for all users in a group.
+
+* _Role_: Here, you can adjust the roles for single users.
+If you want to adjust the roles of more users at once, go to the Group tool.
+
+* _Audit Log_
+
+* _Remote Systems_
+
+* _Import LDAP_
+
+* _Proxy Authentication_
+
+* _Certificates_
+
+* _Table Audit_
+
+== Workflow
+
+* _Overview_
+
+* _Definition_
+
+* _Task Action_
+
+* _Approvers_
+
+* _Substitution_
+
+== Settings
+
+* _System Settings_
+
+* _Custom Settings_
