@@ -1,4 +1,4 @@
-= Adaptive Designer
+= image:adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
 
 In _Adaptive Designer_ you configure adaptive frameworks.
 Developers can build these adaptive frameworks to provide a flexible, customizable, no-code way for business users.
@@ -14,3 +14,5 @@ image:adaptive-templ-types.png[Adaptive Template Types 640, 340]
 * List
 * Detail
 * Tiles
+
+//Uta: Update need: Connectors are now used to publish the data sources for the applications.

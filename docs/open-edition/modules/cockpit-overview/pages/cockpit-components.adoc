@@ -10,7 +10,6 @@ In the *Development* section, you find the tools you need to build your own appl
 
 image::cockpit-overv-development.png[Cockpit overview section development, 400 px]
 
-
 The following tools are available:
 
 * xref:store.adoc[_Store_]: Download and share application building blocks.
