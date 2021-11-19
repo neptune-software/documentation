@@ -46,4 +46,10 @@ b, dt, strong, th {
   font-weight: 500;
 }
 
+/* Align icons in headings */
+img, object, svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
