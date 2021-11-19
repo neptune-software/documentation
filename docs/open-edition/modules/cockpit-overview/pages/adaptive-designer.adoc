@@ -1,18 +1,49 @@
 = image:adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
 
-In _Adaptive Designer_ you configure adaptive frameworks.
-Developers can build these adaptive frameworks to provide a flexible, customizable, no-code way for business users.
-This means that they are able to create and customize applications to fulfill their specific requirements.
-The users use the drag and drop functionality together with pre-defined input fields.
+With the _Adaptive Designer_, functional developers and business users, who have little technical experience, can create responsive, customizable, and functional applications without writing a single line of code.
 
-Neptune currently provides the following application template types.
-They allow business users to create and customize applications easily:
-
-image:adaptive-templ-types.png[Adaptive Template Types 640, 340]
+_Adaptive Designer_ comes with templates that represent the foundation and structure for different types of applications. There are currently the following templates available:
 
 * Business Intelligence
 * List
 * Detail
 * Tiles
++
+image:adaptive-templ-types.png[Adaptive Template Types 640, 340]
 
-//Uta: Update need: Connectors are now used to publish the data sources for the applications.
+By combining an adaptive framework with a database or other data source, _Adaptive Designer_ enables drag and drop functionality that allows business users to create applications that are tailored to their requirements.
+
+Because an adaptive application is based on a template, any changes you make to the template will reflect across all the applications that use it.
+This way, you can adjust entire suits of applications from one source.
+
+Templates are essentially applications and can be designed, built, and adjusted by a low-code or pro-code developer within the _Application Designer_.
+//@Neptune: Update needed: Connectors are now used to publish the data sources for the applications.
+
+== Architecture
+_Adaptive Designer_ is part of an adaptive framework.
+A database or a server script provide the data for the applications.
+Templates provide the configuration metadata.
+
+Templates and database/server script connection combined enable the output of adaptive applications that can run on the __Launchpad__ alongside any other application.
+image:adaptivedesigner_architecture.png[Adaptive Designer Architecture[width=600,link="adaptive-designer_architecture.png]
+
+//@Neptune. Picture up-to-date?
+//@Neptune. Should we use any of this content in the documentation? https://community.neptune-software.com/documentation/adaptive-designer
+
+
+== Download the templates
+Visit the __Store__ in Neptune DXP - Open Edition and search for "Adaptive Framework".
++
+image:adaptive-designer_store_adaptive-frameworks.png["adaptive-designer_store_adaptive-frameworks"width=400, link=adaptive-designer_store_adaptive-frameworks.png"]
+
+== Related topics
+* xref:adaptive-designer-at-a-glance.adoc[The Adaptive Designer at a glance]
+//(https://community.neptune-software.com/documentation/adaptive-designer-information)
+
+
+
+
+
+
+
+
