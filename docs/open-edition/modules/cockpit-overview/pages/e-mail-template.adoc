@@ -1,9 +1,9 @@
-= image:email-template-icon.png[width=100,link="email-template-icon.png"] E-mail templates
+= image:email-template-icon.png[width=100,link="email-template-icon.png"] E-mail Template
 
-Lets you create e-mail templates.
+Create e-mail templates.
 Server scripts can use these e-mail templates to send e-mail notifications outside the workflow.
-//parson: Text from current documentation slightly rephrased. What does "workflow" mean in this context?
+//@Neptune: Text from current documentation slightly rephrased. What does "workflow" mean in this context?
 
-== Learn more
-* https://community.neptune-software.com/documentation/email-template[Create e-mail templates]
+//== Related topics
+//* Create an e-mail template
 
