@@ -1,7 +1,7 @@
 = image:launchpad-trace@2x.png[width=100]Launchpad
 :figure-caption!:
 
-_Launchpad_ is a browser-based administration tool to create, design, and maintain launchpads.
+_Launchpad_ is a  browser-based administration tool to create, design, and maintain launchpads.
 A launchpad is the homepage for Neptune DXP - Open Edition applications on mobile and desktop devices.
 
 A launchpad displays tiles.

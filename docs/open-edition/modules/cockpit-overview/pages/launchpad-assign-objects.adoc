@@ -1,4 +1,4 @@
-==  Assign launchpad objects
+==  Assign objects in _Launchpad_
 The _Launchpad_ comes with an assignment mechanisms that connects objects to one another in different ways.
 
 //@parson. Table doesn't look good. Please review the table content. I'll improve the table layout later. References in "Assign where" do not exist yet. Ignore.
