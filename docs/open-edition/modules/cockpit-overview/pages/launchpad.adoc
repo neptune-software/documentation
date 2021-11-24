@@ -10,16 +10,17 @@ Each tile represents an application that users can launch.
 Tiles can display live status indicators, such as a number of open tasks.
 //Learn more about xref:tiles.adoc[Tiles] and xref:tile-groups.adoc[Tile groups].
 
-A launchpad supports role-based access and displays  tiles according to user roles. See also <<User roles and user groups>>.
+A launchpad supports role-based access and displays tiles according to user roles. See also <<User roles and user groups>>.
 
-._Launchpad example_
+.Launchpad example
 image::launchpad_example.png[width=800]
 //@Neptune. Perhaps another example?
 
-== Download Launchpad
-_Launchpad_ is not part of the Neptune DXP - Open Edition installation.
+== Download
+_Launchpad_ is not part of the Neptune DXP - Open Edition installation package.
 You can download _Launchpad_ in the xref:store.adoc[_Store_].
 //@Neptune. Direct link to the Store?
+//FaKo: Agree. Better have a link to the store than a link to the topic about the store.
 
 == How launchpad objects are connected
 A launchpad includes the following objects:
@@ -28,22 +29,23 @@ A launchpad includes the following objects:
 * Tiles
 * Tile groups
 
-The image shows the connection between the _Launchpad_ objects in Neptune DXP - Open Edition.
+The image shows the process of how single applications become part of a launchpad.
 
 ._Connections between launchpad objects_
 image::launchpad_connected_objects.png[width=800]
 
+//FaKo: "Tile" and "tile group" are cockpit components and should therefore be written in italics, or am I wrong?
 * Applications are connected to *tiles*.
-* *Tiles* are bundled in a *tile group* and should always be connected with a *tile group* to maintain a parent-child relationship on the launchpad.
-* *Tile groups* can be assigned to other *tile groups* to
-maintain multi-level hierarchy.
+* *Tiles* are bundled in a *tile group*. A *tile* should always be connected with a *tile group* to maintain a parent-child relationship in the launchpad.
+* *Tile groups* can be assigned to other *tile groups* to maintain a multi-level hierarchy.
 * *Tile groups* are added to the launchpad.
 
 === User roles and user groups
 
+//FaKo: Again, I am not sure if "users" and "user groups" should be written in bold. Only GUI elements should be bolded.
 * *Users* and *user groups* are assigned a specific *role*.
 * *Roles* are assigned to a *tile* or a *tile group*.
-* Each *role* can access an authorized launchpad, *tiles* and *tile groups*.
+* Each *role* can access an authorized launchpad, *tiles*, and *tile group*.
 
 ._User roles and user groups_
 image::lauchpad_conected_usergroup_role.png[width=800]
