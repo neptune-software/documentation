@@ -1,6 +1,7 @@
 = image:tile-icon.png[width=100,link="tile-icon.png"] Tiles
 
 A tile is a container that represents an app on a xref:launchpad.adoc[_Launchpad_].
+//Helle@Uta: Der Link funktioniert bei mir nicht. Ich nehme an, die Datei existiert bei dir, ist aber noch nicht fertig und deshalb nicht gepusht? Dann ist alles okay.
 All apps have at least one corresponding tile.
 You can bundle tiles in xref:tile-groups.adoc[_Tile groups_].
 
@@ -23,6 +24,8 @@ Depending on the application, a tile can show the following content:
 +
 image:tiles_example1.png[width=400,link="tiles_example1.png"]
 //@Neptune: Can we show an example with most of the content mentioned above?
+//Helle@Uta: Als ich das Topic überflogen habe, habe ich den Sinn des Bildes nicht verstanden. Vielleicht brauchen wir einen Satz, der den Context herstellt? ~X, y, z sind im Bild zu sehen.
+//Helle@Uta: Ist die Einrückung hier mit dem + Absicht? Siehe Kommentar unter dem 2. Bild.
 
 Below the tile area, tiles can include a link.
 Links consist of a title and an optional subtitle.
@@ -45,11 +48,10 @@ Tiles for smartphones do not need to be adjusted by the application.
 The tile size for tablets and desktop devices is the same.
 
 The example below shows how the tiles rendered for smaller screen size.
-+
+
 image:tiles_example2.png[width=400,link="tiles_example2.png"]
+//Helle@Uta: + vor dem Bild gelöscht. Das brauchst du nur, wenn du das Bild auf die gleiche Listenebene einrücken möchtest, wie die Zeile davor.
 
 == Tile blackout
-You can block tiles from being used during maintenance. See xref:tile-blackout.adoc [Tile blackout].
-
-
-
+You can block tiles from being used during maintenance. See xref:tile-blackout.adoc[Tile blackout].
+//Helle@Uta: Der Link funktioniert bei mir nicht. Ich nehme an, die Datei existiert bei dir, ist aber noch nicht fertig und deshalb nicht gepusht? Dann ist alles okay.

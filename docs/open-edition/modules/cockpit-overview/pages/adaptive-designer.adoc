@@ -1,5 +1,6 @@
 = image:adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
 
+//Helle@Uta: Das Bild in der Überschrift wird nicht gerendert und ist auch nicht im Images Ordner. Hängt das bei dir noch in unversioned files?
 With the _Adaptive Designer_, functional developers and business users, who have little technical experience, can create responsive, customizable, and functional applications without writing a single line of code.
 
 _Adaptive Designer_ comes with templates that represent the foundation and structure for different types of applications. There are currently the following templates available:
@@ -10,6 +11,7 @@ _Adaptive Designer_ comes with templates that represent the foundation and struc
 * Tiles
 +
 image:adaptive-templ-types.png[Adaptive Template Types 640, 340]
+//Helle@Uta: Einrückung mit + Absicht?
 
 By combining an adaptive framework with a database or other data source, _Adaptive Designer_ enables drag and drop functionality that allows business users to create applications that are tailored to their requirements.
 
@@ -25,7 +27,9 @@ A database or a server script provide the data for the applications.
 Templates provide the configuration metadata.
 
 Templates and database/server script connection combined enable the output of adaptive applications that can run on the __Launchpad__ alongside any other application.
-image:adaptivedesigner_architecture.png[Adaptive Designer Architecture[width=600,link="adaptive-designer_architecture.png]
+
+image:adaptivedesigner_architecture.png[Adaptive Designer Architecture, width=600, link="adaptive-designer_architecture.png]
+//Helle@Uta: Bild korrigiert, evt. 800 als Größe?
 
 //@Neptune. Picture up-to-date?
 //@Neptune. Should we use any of this content in the documentation? https://community.neptune-software.com/documentation/adaptive-designer
@@ -33,17 +37,12 @@ image:adaptivedesigner_architecture.png[Adaptive Designer Architecture[width=600
 
 == Download the templates
 Visit the __Store__ in Neptune DXP - Open Edition and search for "Adaptive Framework".
-+
+
 image:adaptive-designer_store_adaptive-frameworks.png["adaptive-designer_store_adaptive-frameworks"width=400, link=adaptive-designer_store_adaptive-frameworks.png"]
+//Helle@Uta: + vor Bild gelöscht, brauchst du nur bei Einrückung in Listen etc.
 
 == Related topics
 * xref:adaptive-designer-at-a-glance.adoc[The Adaptive Designer at a glance]
 //(https://community.neptune-software.com/documentation/adaptive-designer-information)
 
-
-
-
-
-
-
-
+//Helle@Uta: Gleiches wie bei allen Links. Wenn die bei dir auch rot angezeigt werden, sollten wir uns die mal angucken.

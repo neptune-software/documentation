@@ -78,6 +78,7 @@ The following tools are available:
 
 * _Tile_: Create and configure tiles and allocate them to launchpads.
 = Tiles serve as navigation links to Planet applications, external URLs and through policy allocation, they also control application access.
+//Helle@Uta: Ist das = vor Tiles hier Absicht?
 
 * _Tile Group_: Create and configure tile groups to ensure that related apps are organized and visible to users in Neptune NXP Open - Edition launchpads.
 
