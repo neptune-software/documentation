@@ -37,7 +37,7 @@ image::launchpad_connected_objects.png[width=800]
 //FaKo: "Tile" and "tile group" are cockpit components and should therefore be written in italics, or am I wrong?
 * Applications are connected to tiles.
 * Tiles are bundled in a tile group. A tile should always be connected with a tile group to maintain a parent-child relationship in the launchpad.
-* Tile groups can be assigned to other tile group* to maintain a multi-level hierarchy.
+* Tile groups can be assigned to other tile group to maintain a multi-level hierarchy.
 * Tile groups are added to the launchpad.
 
 === User roles and user groups
