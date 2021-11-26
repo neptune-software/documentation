@@ -35,17 +35,17 @@ The image shows the process of how single applications become part of a launchpa
 image::launchpad_connected_objects.png[width=800]
 
 //FaKo: "Tile" and "tile group" are cockpit components and should therefore be written in italics, or am I wrong?
-* Applications are connected to *tiles*.
-* *Tiles* are bundled in a *tile group*. A *tile* should always be connected with a *tile group* to maintain a parent-child relationship in the launchpad.
-* *Tile groups* can be assigned to other *tile groups* to maintain a multi-level hierarchy.
-* *Tile groups* are added to the launchpad.
+* Applications are connected to tiles.
+* Tiles are bundled in a tile group. A tile should always be connected with a tile group to maintain a parent-child relationship in the launchpad.
+* Tile groups can be assigned to other tile group* to maintain a multi-level hierarchy.
+* Tile groups are added to the launchpad.
 
 === User roles and user groups
 
 //FaKo: Again, I am not sure if "users" and "user groups" should be written in bold. Only GUI elements should be bolded.
-* *Users* and *user groups* are assigned a specific *role*.
-* *Roles* are assigned to a *tile* or a *tile group*.
-* Each *role* can access an authorized launchpad, *tiles*, and *tile group*.
+* Users and user groups are assigned a specific role.
+* Roles are assigned to a tile or a tile group.
+* Each role can access an authorized launchpad, tiles, and tile groups.
 
 ._User roles and user groups_
 image::lauchpad_conected_usergroup_role.png[width=800]
