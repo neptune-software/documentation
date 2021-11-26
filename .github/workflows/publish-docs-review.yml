@@ -1,0 +1,18 @@
+name: Public Docs Review
+on:
+  workflow_dispatch:
+  push:
+    branches: [ development-open-edition ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Publish Docs Workflow
+        run: |
+          curl --request POST \
+          --url https://api.github.com/repos/neptune-software/dxp-documentation/actions/workflows/publish-review.yml/dispatches \
+          --header 'authorization: Bearer ${{ secrets.ACTIONS_GITHUB_PAN }}' \
+          --header 'Accept: application/vnd.github.v3+json' \
+          --header 'content-type: application/json' \
+          --data '{"ref": "master"}'
