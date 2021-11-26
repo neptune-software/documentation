@@ -1,0 +1,10 @@
+= image:mobile-debug.png[width=100, link=mobile-debug.png] Mobile Debug
+
+_Mobile Debug_ lets you debug mobile applications and trace logs generated from mobile applications.
+
+You can create new mobile debuggers, assign users that access the application and check the log when debugging is required.
+
+You can edit mobile debuggers and delete them.
+
+//== Related topics
+//* Working with _Mobile Debugger_
