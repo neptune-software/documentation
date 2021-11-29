@@ -1,0 +1,18 @@
+== Remove lock entries
+
+Sometimes, lock entries cannot be released again. You can remove the lock manually.
+
+IMPORTANT: Only remove lock entries that are no longer valid and can be deleted without disrupting an active process, such as a user session or an update.
+Removing a valid lock can result in data loss or inconsistencies.
+
+=== Procedure
+. On the Neptune DXP - Open Edition cockpit, navigate to *Monitoring* and open *Lock Entries*.
+
+image::lock-entries-remove.png[width=400 px]
+
+. Click *Update* to update the list of active locks.
+. Select the lock entry in the list of active locks and click *Remove*.
+
+=== Result
+* You have removed a lock entry from a component.
+* Users have full access to the component.
