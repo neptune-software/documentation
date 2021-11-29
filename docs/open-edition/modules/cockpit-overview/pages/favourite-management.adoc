@@ -1,0 +1,10 @@
+= image:favourites-management.png[width=100, link=favourites-management.png] Favourite Management
+
+Lets you add tiles to other users' launchpads as favourites.
+You can import and export csv lists of users, tiles and tile groups.
+
+You can also include favourite tiles into a favourite tile group.
+//@Neptune. Current documentation says that this is not a user-based approach. Does it mean that you can include favourite tiles to signed-in user? Describe in Tile Groups?
+
+//== Learn more
+//* Add favourite tiles to launchpads
