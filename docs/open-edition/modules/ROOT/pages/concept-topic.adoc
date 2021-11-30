@@ -1,0 +1,16 @@
+== About concept topics
+Provide conceptual information, for example, about the architecture of a software.
+
+Requires no standard structure.
+
+== Best practices
+
+* Keep the topic short.
+* Structure the topic well with headlines and sub-headlines.
+* Make sure that the topic is self-contained can stand on its own.
+* Link to related topics (task, concept, reference).
+* If the topics becomes too long and could be split into several independent topics, split it up.
+
+== Related topics
+* Task topics
+* Reference topics
