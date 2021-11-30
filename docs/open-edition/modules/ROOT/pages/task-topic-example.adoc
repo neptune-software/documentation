@@ -1,6 +1,5 @@
 = Copy an app from an existing app
 
-In this topic you learn how to make a copy from an existing application.
 You copy applications, for example, to create applications with similar or shared functionalities.
 
 == Prerequisites
