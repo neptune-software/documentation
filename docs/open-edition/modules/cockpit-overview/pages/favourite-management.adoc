@@ -1,5 +1,6 @@
-= image:favourites-management.png[width=100, link=favourites-management.png] Favourite Management
+= image:favourites-management.png[width=100, link=favourites-management.png]Favourite Management
 
+//H@U: In consistency with other topic: _Favorite Management_ lets you...?
 Lets you add tiles to other users' launchpads as favourites.
 You can import and export csv lists of users, tiles and tile groups.
 
