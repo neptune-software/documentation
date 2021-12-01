@@ -1,6 +1,6 @@
 = image:theme-designer-icon.png[width=100,link="theme-designer-icon.png"] Theme Designer
 
-With __Theme Designer__ you create application themes for use in the _Launchpad_ and the _App Designer_.
+With _Theme Designer_ you create application themes for use in the _Launchpad_ and the _App Designer_.
 
 By defining custom CSS, you can change the color scheme, fonts, or background of your application.
 You can also add a logo.
