@@ -1,15 +1,18 @@
-= image:mobile-client.png[width=100] Mobile Client
+= image:mobile-client.png[width=100]Mobile Client
+
+//H@U: please check if the icon is listed in your unversioned files. I can't find it in images folder and it's not visible in preview.
 
 Use _Mobile Client_ to create and maintain a launchpad for mobile applications.
 
-//Neptune. Link to video in the current document is broken. https://community.neptune-software.com/documentation/watch-video-run-mobile-client
+//@Neptune. Link to video in the current document is broken. https://community.neptune-software.com/documentation/watch-video-run-mobile-client
 
 //The Mobile Launchpad is meant to be consumed via a PhoneGap-built.
 //@Neptune. Phone Gap was discontinued by Adobe. Delete?
 
 _Mobile Client_ uses Apache Cordova plugins to create mobile applications.
 
-Apache Cordova provides a way to develop mobile applications using standard web technologies: HTML5, CSS3 and JavaScript. Learn more: https://cordova.apache.org/.
+Apache Cordova provides a way to develop mobile applications using standard web technologies: HTML5, CSS3 and JavaScript. Learn more: https://cordova.apache.org/[Apache Cordova website].
+//H@U: added title to link.
 
 == Apache Cordova plugins for _Mobile Client_
 
@@ -32,6 +35,8 @@ Apache Cordova provides a way to develop mobile applications using standard web 
 * cordova-plugin-whitelist
 * cordova-plugin-secure-key-store.
 
+
+//H@U: Hide section until topic is created?
 == Related topics
 
 * Getting started with _Mobile Client_
