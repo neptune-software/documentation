@@ -11,5 +11,4 @@ You can add images, watermarks, QR codes, tables, headers, and footers, and appl
 * xref:pdf-designer-objects.adoc[PDF Designer objects]
 * xref:pdf-designer-gettingstarted.adoc[Getting started with PDF Designer]
 
-
-
+//Helle@Uta: Wir sollte uns dazu abstimmen, ob wir Dateien schon verlinken, die noch nicht erstellt sind. Hätte den Vorteil, dass man das Velinken nicht vergessen kann, aber den Nachteil, dass red links (wenn auch wenige) vorübergehend in der Veröffentlichung landen. Sollten wir morgen im Stand-Up ansprechen.
