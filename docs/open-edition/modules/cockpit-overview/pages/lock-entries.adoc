@@ -2,15 +2,16 @@
 //@Neptune. Please provide icon. Missing in the icon library.
 :figure-caption!:
 
-A lock mechanism prevents that components of Neptune DXP - Open Edition  can be changed simultaneously.
-Components can be applications, tiles, users, server scripts, or users.
+A lock mechanism prevents that components can be changed simultaneously.
+This might happen when different users are working on the same component at the same time or a system update is being performed.
+Components are applications, tiles, users, server scripts, or users.
 
-Neptune DXP - Open Edition locks components for the following reasons:
+Components are locked for the following reasons:
 
 * Whenever a user starts editing a component.
 * When components are updated by the system.
 
-When a component is locked, other users can then access it in display mode.
+When a component is locked, other users can only access it in display mode.
 
 A lock is removed after the user releases the component.
 
@@ -18,7 +19,7 @@ Locks set by the update function are maintained by the system until the transact
 //@Neptune. Is above paragraph important? Comes from current documentation.
 
 == View lock entries
-_Lock entries_ shows a list of active locks with the following information:
+_Lock entries_ shows a list of active locks, providing the following information:
 
 Type:: The component type, for example, an application, a script, or a tile.
 Name:: The name of the component.
