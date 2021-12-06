@@ -1,0 +1,71 @@
+= Lists
+
+== Introducing lists
+Always write a full sentence when introducing a list.
+Do not insert lists without an introduction.
+
+Exception::
+List of prerequisites in a Task topic. See xref:task-topic-adoc [Task topic].
+
+Example::
+The following requirements apply when you create a list:
+
+	• List item 1
+	• List item 2
+	• List item 3
+
+== Punctuation and capitalization
+* Always begin a list item with a capital letter.
+* Use a full stop after a list item that is a complete sentence.
+* Do not use a full stop or comma after list items that are incomplete sentences.
+* If the list consists of complete and incomplete sentences, use a full stop after each list item.
+
+Examples::
+Perform the following steps:
+1. Update the software.
+2. Download the new version of the software.
+3. Install the software.
+4. Test the software.
+
+Examples::
+To successfully install the plug-in, check the following:
+** The version no. of the plug-in.
+** Your username and password are valid.
+** You have installed the latest version of the software.
+
+== List types
+We use two types of lists:
+
+* Ordered list (numbered list)
+* Unordered list (bullet list)
+
+=== Ordered list
+Use an ordered list when you want your readers perform steps in a specific order.
+
+Example::
+Perform the following steps:
+1. Update the software.
+2. Download the new version of the software.
+3. Install the software.
+4. Test the software.
+
+=== Unordered list
+Use an unordered list when you list items that have no particular order.
+
+Example::
+The software update consists of the following items:
+* Licence key
+* Plug-In
+* Security information
+* Licencse agreement
+* Privacy policy
+
+
+
+
+
+
+
+
+
+

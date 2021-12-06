@@ -1,0 +1,20 @@
+= Captions
+:!figure-caption:
+
+* Do not insert captions in GUI screenshots.
+* Insert captions for pictures that are not screenshots of the GUI.
+* If you insert a caption for a picture, do not number it.
+Disable caption numbering by inserting ":!figure-caption:" below the title.
+* Begin the first word of the caption with a capital letter.
+* Do not insert a full stop after a caption unless the caption consists of more than two sentences.
+
+== Example of a GUI screenshot
+image::appdesigner-top-menu-edit.png[width=400]
+
+== Example of other pictures
+.The interface at a glance
+image::appdesigner-interface.png["appdesigner-interface",width=600]
+
+
+
+
