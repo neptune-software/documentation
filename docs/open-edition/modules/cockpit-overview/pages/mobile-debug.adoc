@@ -4,10 +4,9 @@ _Mobile Debug_ lets you debug mobile applications and trace logs generated from 
 
 You can create new mobile debuggers, assign users that access the application, and check the log when debugging is required.
 
-You can edit mobile debuggers and delete them.
-//Comment FaKo: Is this sentence really necessary? If we keep it, then only to link to corresponding chapters.
 
 //== Related topics
-//* Working with _Mobile Debugger_
+//* Create a mobile debugger
+//* Work with a mobile debugger
+//* Delete a mobile debugger
 
-//Comment FaKo: The information on https://community.neptune-software.com/documentation/mobile-debug are not really about "working with mobile debugger". They are more about creating and deleting them. Shouldn't we create such topics also, so we will have three topics (1. Create; 2. Work with; 3. Delete)?
