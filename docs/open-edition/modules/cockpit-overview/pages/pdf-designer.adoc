@@ -6,9 +6,9 @@ You can create PDF templates that reflect your own brand and requirements.
 You can add images, watermarks, QR codes, tables, headers, and footers, and apply your own styles.
 //@Neptune. Are we talking about PDF templates or PDF documents?
 
-== Related topics
-* xref:pdf-designer-interface.adoc[PDF Designer interface at a glance]
-* xref:pdf-designer-objects.adoc[PDF Designer objects]
-* xref:pdf-designer-gettingstarted.adoc[Getting started with PDF Designer]
+//== Related topics
+//* xref:pdf-designer-interface.adoc[]
+//* xref:pdf-designer-objects.adoc[]
+//* xref:pdf-designer-gettingstarted.adoc[]
 
-//Helle@Uta: Wir sollte uns dazu abstimmen, ob wir Dateien schon verlinken, die noch nicht erstellt sind. Hätte den Vorteil, dass man das Velinken nicht vergessen kann, aber den Nachteil, dass red links (wenn auch wenige) vorübergehend in der Veröffentlichung landen. Sollten wir morgen im Stand-Up ansprechen.
+//@Neptune. Above topics are not yet written and therefore commented out.
