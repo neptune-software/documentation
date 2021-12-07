@@ -1,4 +1,4 @@
-= image:tile-group-icon.png[width=100,link="tile-group-icon.png"] Tile groups
+= image:tile-group-icon.png[width=100]Tile groups
 
 A _Tile group_  includes several tiles and is displayed on the __Launchpad__.
 A user must have the same role as the tile group to see the group.
@@ -6,14 +6,11 @@ A user must have the same role as the tile group to see the group.
 
 image:tile-group-role-tile.png[width=400,link="tile-group-role-tile.png"]
 
-//Helle@Uta: Ich finde, wir sollten den Rahmen vom Bild entfernen und evt. den Hintergrund weiß machen. Passt dann besser zu Neptune CI.
 //@Neptune. Can we show an example of a tile group?
 
 == Role-based tile groups
-To a tile group, you assign roles and tiles.
-You do not need to assign a role to each tile.
-Instead, you can bundle the tiles into a tile group and assign one or more roles to each tile group.
-//You can bundle tiles into tile groups and assign one or more roles to each tile group. This way you do not need to assign a role to each tile. --> Erst was man kann, dann wozu?
+You can bundle tiles into tile groups and assign one or more roles to each tile group.
+This way, you do not need to assign a role to each tile.
 
 Users who are assigned to a role in a tile group have access to the applications of that tile group.
 They also can browse through a tile group library from their _Launchpad_ and select the applications that they want to display on the homepage of their _Launchpad_.
@@ -23,11 +20,8 @@ You manage tile groups on the __Cockpit__ in *Administration*.
 
 == Related topics
 * xref:tiles.adoc[Tiles]
-* xref:create-tiles.adoc[Create tiles]
-* xref:create-tile-groups.adoc[Create tile groups]
-* xref:configure-tile-groups.adoc[Configure tile groups]
-* xref:tile-blackout.adoc[Tile blackout]
-* xref:launchpad.adoc[Launchpad]
-
-//Helle@Uta: Wie in tiles.adoc: Wenn die Dateien bei dir da sind, nur noch nicht gepusht sind, ist alles gut. Wenn nicht, funktionieren diese Links nicht.
-//Helle@Uta: Eigentlich sollten den Titel in [] bei xref nicht angeben, solange er nicht vom Titel der Datei abweicht. Sollte später der Titel in der Datei geändert werden, wird der auch automatisch in allen xref angepasst. tiles.adoc u.ä. sind da natürlich eine Ausnahme, weil das Bild nicht gerendern werden kann.
+//* xref:create-tiles.adoc[]
+//* xref:create-tile-groups.adoc[]
+//* xref:configure-tile-groups.adoc[]
+* xref:tile-blackout.adoc[]
+* xref:launchpad.adoc[]
