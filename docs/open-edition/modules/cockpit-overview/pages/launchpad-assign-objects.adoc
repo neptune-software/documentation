@@ -2,8 +2,6 @@
 
 The _Launchpad_ comes with an assignment mechanisms that connects objects to one another in different ways.
 
-//@parson. Table doesn't look good. Please review the table content. I'll improve the table layout later. References in "Assign where" do not exist yet. Ignore.
-//FaKo: I think the table looks good in HTML
 
 Assign objects as follows:
 
@@ -11,9 +9,14 @@ Assign objects as follows:
 [%header, frame=sides, frame=ends ]
 |===
 |Assignment task                      |Assign why               |Assign where
-|Assign a user or a group to a role     |All users with a specific role can access apps that are assigned to that role     |Go to *Security* > *User*. See also xref:security-overview.adoc[] (tbd)
-|Assign a user to a group    |All users in a specific group can access apps that are assigned to that group     |Go to *Security* > *User*. See also xref:security-overview.adoc[] (tbd)
-|Assign a tile to a role    |Users can access apps in their launchpad. The role of the user must be assigned to the tile  |Go to *Administration* > *Tile*. See also xref:tiles.adoc[] (tbd)
-|Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role     |Go to *Administration* > Tile Group. See also xref:tile-groups.adoc[] (tbd)
-|Assign a tile and its intent to a tile group    |When users click the tile on the _Launchpad_, the intent resolves into a URL and navigates to the app     |Go to *Administration* > *Tile*. See also xref:tiles.adoc[] (tbd)
+|Assign a user or a group to a role     |All users with a specific role can access apps that are assigned to that role     |Go to *Security* > *User*.
+//See also xref:security-overview.adoc[] (tbd)
+|Assign a user to a group    |All users in a specific group can access apps that are assigned to that group     |Go to *Security* > *User*.
+//See also xref:security-overview.adoc[] (tbd)
+|Assign a tile to a role    |Users can access apps in their launchpad. The role of the user must be assigned to the tile  |Go to *Administration* > *Tile*.
+//See also xref:tiles.adoc[] (tbd)
+|Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role     |Go to *Administration* > Tile Group.
+//See also xref:tile-groups.adoc[] (tbd)
+|Assign a tile and its intent to a tile group    |When users click the tile on the _Launchpad_, the intent resolves into a URL and navigates to the app     |Go to *Administration* > *Tile*.
+//See also xref:tiles.adoc[] (tbd)
 |===
