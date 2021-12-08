@@ -1,5 +1,4 @@
-= Lock Entries
-//@Neptune. Please provide icon. Missing in the icon library.
+= image:lock-entries-icon.png[width=100]Lock Entries
 :figure-caption!:
 
 A lock mechanism prevents that components can be changed simultaneously.
