@@ -20,11 +20,10 @@ You can use the following component types:
 * Bootstrap components to make your application responsive
 * OpenUI5 components to design and structure your application
 
-== _App Designer_ views
-
-//see app designer folder clear snag
+//Helle@parson: More?
 
 == Related Topics
 
 * xref::appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
 * xref::ways-to-create-an-app.adoc[]
+//* xref application components
