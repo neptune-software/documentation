@@ -7,11 +7,9 @@ With _Theme Import_, you can import SAP-customized themes from the _SAP UI Theme
 == SAP UI Theme Designer
 The UI Theme Designer by SAP is a browser-based tool for cross-theming scenarios.
 
-Use the UI Theme Designer to build your corporate identity themes by modifying one of the theme templates provided by SAP. Change, for example, the color scheme or add your company logo.
+Use the SAP UI Theme Designer to build your corporate identity themes by modifying one of the theme templates provided by SAP. Change, for example, the color scheme or add your company logo.
 
-Learn more: https://help.sap.com/viewer/ab06dedc873746eaba1c041200c068e0/7.5.6/en-US[UI Theme Designer].
-
-//H@U: SAP UI Theme Designer o.ä.? Um deutlich zu machen, dass man die Neptune Doku verlässt?
+Learn more about the https://help.sap.com/viewer/ab06dedc873746eaba1c041200c068e0/7.5.6/en-US[SAP UI Theme Designer].
 
 //== Related topics
 //* SAP UI themes
