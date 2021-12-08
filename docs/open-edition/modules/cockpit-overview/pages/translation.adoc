@@ -2,8 +2,8 @@
 
 After you have added tiles and tile groups on a launchpad to be translated, you can translate them in _Translation_.
 
-You can also enable Google Translate.
-//H@U: Is Google Translate used in _Translation_?
+You can also enable Google Translate in _Translation_.
+//@Neptune: Is Google Translate used in _Translation_?
 
 //== Related topics
 //* Translate tiles and tile groups
