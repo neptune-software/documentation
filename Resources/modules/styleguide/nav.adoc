@@ -1,13 +1,30 @@
 .Styleguide
-* xref:american-english.adoc[American English]
-* xref:active-voice.adoc[Active voice]
-* xref:headings.adoc[Headings]
-* xref:capitalization.adoc[Capitalization]
-* xref:lists.adoc[Lists]
-* xref:numbers.adoc[Numbers]
-* xref:punctuation.adoc[Punctuation]
-* xref:articles.adoc[Articles]
-* xref:abbreviations.adoc[Abbreviations]
-* xref:modal-verbs.adoc[Modal verbs]
-* xref:contractions.adoc[Contractions]
-* xref:captions.adoc[Captions]]
+* Style
+** xref:american-english.adoc[]
+** xref:best-practices.adoc[]
+** xref:minimalism.adoc[]
+** xref:adressing-the-reader.adoc[]
+** xref:active-voice.adoc[]
+** xref:biased-language.adoc[]
+* Sentence and word rules
+** xref:relative-clauses-who-that-which.adoc[]
+** xref:tenses.adoc[]
+** xref:capitalization.adoc[]
+** xref:headings.adoc[]
+** xref:lists.adoc[]
+** xref:numbers.adoc[]
+** xref:articles.adoc[]
+** xref:abbreviations.adoc[]
+** xref:modal verbs.adoc[]
+** xref:contractions.adoc[]
+* Punctuation
+** xref:punctuation.adoc[]
+* Pictures
+** xref:captions.adoc[]
+* Special notices
+** xref:special-notices.adoc[]
+* Typographic conventions
+** xref:typographic-conventions-neptune.adoc[]
+* Neptune CI
+** xref:neptune-ci.adoc[]
+

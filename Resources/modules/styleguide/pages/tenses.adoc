@@ -1,0 +1,33 @@
+= Tenses
+
+Use present tense or present progressive. Avoid future tense.
+
+== Present tense
+
+When describing the operation of a machine or a piece of software, use present tense.
+
+When you describe two events that succeed each other, it is only normal to expect to move into the future tense.
+However, because computers and many modern electronics are so advanced, it is more fitting to stay in the present, which helps imply the instantaneous nature of their sequence.
+
+=== A short delay
+In cases of short delays, such as the 30 seconds it will take a program to install before you can use it, you should not let the gap move your tense to the future either.
+Stay in real time, but do let the user know that the next step proceeds after half a minute.
+
+== Future tense
+In technical content, the future tense does not have the same immediacy as the present tense.
+Compare “When you connect the power cable, the device will boot up automatically,” to “When you connect the power cable, the device boots up automatically.”
+The future tense suggests a mild uncertainty as to how things unfold.
+
+== Present Progressive
+When a future tense makes sense, try to construct the statement using the present progressive first.
+If it remains accurate, then going into the future tense may no longer be necessary.
+
+== Present perfect
+Use present perfect for prerequisites and results.
+
+Examples::
+
+* tbd
+* tbd
+
+

@@ -81,6 +81,18 @@ Example::
 Amazon Web Services (AWS) is made by Amazon.
 We use AWS for our services.
 
+== Apostrophes
+Use apostrophes to signify possession with nouns.
+Do not use possessive forms for company names, product names, or feature names.
+
+=== Examples
+* *Yes*: Neptune products are driven by a passion for innovation and the desire to help you feel better.
+* *Yes*: The VERION™ System VERION Reference Unit is used throughout the world.
+* *No*: Neptune's products are driven by a passion for innovation and the desire to help you feel better
+* *No*: The VERION™ System's VERION Reference Unit is used throughout the world.
+
+
+
 
 
 

@@ -1,0 +1,84 @@
+= Typographic conventions for Neptune documentation
+
+Apply the following conventions when creating documentation for Neptune:
+
+== Product names
+* Treat as proper noun.
+* Do not highlight in bold or italics.
+* Do not use an article before "Neptune DXP - Open Edition".
+
++
+Examples::
+* Neptune DX Platform
+* Neptune DXP - Open Edition or the short form DXP - Open Edition (until further notice)
+* Linux
+* Windows
+* Oracle
+* OSX
+* iOS
+* macOS
+
+== Neptune applications
+* Treat as proper noun.
+* Highlight in italics.
+
++ Examples::
+* _API Designer_
+* _App Designer_
+* _Store_
+
+== Components or events
+* Capitalize the name of the component or event.
+* Do not capitalize the word components or event.
+* Highlight in bold.
++
+Examples::
+* *Button* component
+* *Press* event
+
+== GUI elements
+* Capitalize as in GUI.
+* Highlight in bold.
++
+Example::
+Navigate to *Cockpit* > *Security* > *Role* and check *ACL* for new functions delivered in the new version.
+
+== Code and code snippets
+Use the following syntax:
+
+---
+[Service] ExecStart=/var/planet9/planet9-linux
+Restart=always
+User=MyUser
+Group=nobody
+# NoticetheNPMpath
+Environment=PATH=/home/MyUser/.nvm/versions/node/v10.16.3/bin:/usr/
+bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/planet9
+[Install] WantedBy=multi-user.target
+
+---
+
+== Inline code
+Use the following syntax:
+'[inline code]'
+
+Example::
+Run 'npm' rebuild in the directory.
+
+== Files
+* Capitalize file names as given or default small caps.
+* Highlight in italics
+
++
+
+Examples::
+
+* _file.js_
+* _appdesigner.exe_
+
+== Values, properties, attributes
+* See inline code.
+
+

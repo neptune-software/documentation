@@ -1,0 +1,12 @@
+= Special notices
+
+We use three types of special notices:
+
+TIP::
+ Provides a helpful tip, for example: Watch the video "How to create a resource group".
+
+NOTE::
+Provides additional information on a subject.
+
+IMPORTANT::
+Warns readers about possible damage to equipment or data, about potential problems in the outcome of what they are doing, or potential negative experiences.
