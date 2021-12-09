@@ -1,8 +1,14 @@
 = image:theme-designer-icon.png[width=100,link="theme-designer-icon.png"] Theme Designer
 
-With __Theme Designer__ you customize the look and feel of your applications by changing the color scheme, fonts, or background.
+With _Theme Designer_ you create application themes for use in the _Launchpad_ and the _App Designer_.
 
-//parson: Icon up-to-date?
+By defining custom CSS, you can change the color scheme, fonts, or background of your application.
+You can also add a logo.
+Depending on the UI client and UI framework, you can select, modify and use themes.
+
+_Theme Designer_ can be used by developers, visual designers, and administrators.
+
+//@Neptune: Please provide the new icon.
 
 == Key features
 * UI-based theme customization
@@ -11,9 +17,10 @@ With __Theme Designer__ you customize the look and feel of your applications by 
 * Changes immediately apply to all applications and launchpads connected to the theme
 * Manual CSS editing
 
-== Related topics
-* https://community.neptune-software.com/documentation/getting-started-with-theme-designer[Getting started with Theme Designer]
-* https://community.neptune-software.com/documentation/overview#Basics%20of%20Theming[Basics of theming]
-* https://community.neptune-software.com/documentation/add-customized-theme-to-an-application[Add a customized theme to an application]
-* https://community.neptune-software.com/documentation/watch-video-customize-your-own-theme[Video: Customize you own themes]
 
+//== Related topics - tbd
+//* Basics of theming
+//* Create a new theme
+//* Add a customized theme to an application
+//* Video: Customize your own theme
+//* Delete a theme
