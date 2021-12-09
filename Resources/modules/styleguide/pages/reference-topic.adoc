@@ -1,4 +1,4 @@
-== Reference topic
+= Reference topic
 Reference topics provide data that supports users as they perform a task.
 
 Reference topics can provide lists and tables that include product specifications, parts lists, and other data that is often “looked up” rather than memorized.

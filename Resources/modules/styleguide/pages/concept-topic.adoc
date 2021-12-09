@@ -1,4 +1,4 @@
-== About concept topics
+= About concept topics
 Provide conceptual information, for example, about the architecture of a software.
 
 Requires no standard structure.

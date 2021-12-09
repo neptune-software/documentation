@@ -1,0 +1,27 @@
+= Topic-based writing
+
+== What is a topic-based writing approach?
+* Structures all content around topics that can be mixed and reused in different contexts.
+* Does not follow a linear structure as in books.
+* Is perfectly suited for online documentation. User can jump to a topic from every point in the documentation.
+
+== What is a topic?
+* Unique piece of content with a specific purpose (task, concept or reference).
+* Self-contained.
+* Deals with one subject.
+* Does not require external content to understand.
+* Is as short as possible and as required.
+* Is suited for the target group and implies that the reader has the required knowledge to understand the subject.
+* Answers the questions of the reader.
+* Links to related topics.
+
+== Topic types
+Topics are always of a particular type. Topics can be instructive or provide conceptual or reference information.
+For Neptune, we use the following topic types:
+
+* Task, see xref:task-topic.adoc[] and xref:task-topic-example.adoc[]
+* Concept, see xref:concept-topic.adoc[] and xref:concept-topic-example.adoc[]
+* Reference, see xref:reference-topic.adoc[] and xref:reference-topic-example.adoc[]
+
+Readers can immediately recognize the type by its title and structure.
+
