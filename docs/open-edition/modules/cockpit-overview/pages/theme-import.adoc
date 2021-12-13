@@ -1,5 +1,4 @@
 = image:theme-designer-icon.png[width=100,link="theme-designer-icon.png"]Theme Import
-//H@U: Doppelte Überschrift gelöscht, wurde aber auch nicht angezeigt.
 
 You create and customize themes with the _Theme Designer_.
 With _Theme Import_, you can import SAP-customized themes from the _SAP UI Theme Designer_ and use them in the _Launchpad_.
