@@ -1,8 +1,9 @@
 = image:email-template-icon.png[width=100,link="email-template-icon.png"]E-mail Template
 
 Lets you create e-mail templates.
-Server scripts can use these e-mail templates to send e-mail notifications outside the workflow.
+Server scripts can use these email templates to send email notifications from a workflow step.
 //@Neptune: Text from current documentation slightly rephrased. What does "workflow" mean in this context?
+//@parson: A worklow can be created with our workflow editor. It is used to build approval processes f.e.
 //@Neptune: Additional information on use cases?
 
 //== Related topics
