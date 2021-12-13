@@ -1,9 +1,9 @@
-= image:tile-icon.png[width=100,link="tile-icon.png"]Tiles
+= image:tile-icon.png[width=100]Tiles
 
-A tile is a container that represents an application on a xref:launchpad.adoc[_Launchpad_].
+A tile is a container that represents an application on a xref:launchpad.adoc[].
 //@Neptune. Links to topics that have not been published do not work yet.
 All applications have at least one corresponding tile.
-You can bundle tiles in xref:tile-groups.adoc[_Tile groups_].
+You can bundle tiles in tile groups, see xref:tile-groups.adoc[Tile groups].
 
 You use tiles to assign actions and role-based access.
 Therefore, do not use tiles on an overview page or anywhere else.
