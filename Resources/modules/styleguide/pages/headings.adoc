@@ -3,15 +3,21 @@
 == Levels
 Apart from the topic title (h1), use up to two subheadings (h2, h3) in a topic.
 
-INFO:: The topic title can only be assigned once.
+[TIP]
+====
+The topic title can only be assigned once. If you refer to a topic by using an xref, the topic title (h1) appears as a link to the topic.
 
+Example:: xref::overview.adoc[] appears as "Neptune DXP - Open Edition". Compare code and preview.
+====
+
+//Habe gerade getestet: man kann h4, h5 usw benutzen. Wenn man nur ==== schreibt, wird es zunächst als Code-Block gerendert. Tippt man dann die Überschrift, wird es eine h4. Sollten wir stattdessen darauf hinweisen, dass man ab h4 überlegen sollte, ob das Topic nicht zu viel Inhalt hat?
 If you need more heading levels, highlight a term in bold, followed by a colon or a full stop and write the heading starting with a capital letter.
 
 Example::
 
 *Heading 4*. Highlight a term in bold.
 
-Avoid hyphens headings if you can.
+Avoid hyphens in headings if you can.
 In resized windows or mobile devices, they can result in awkward line breaks.
 
 Don’t use ampersands (&) or plus signs (+) headings unless you're referring to the UI that contains them.

@@ -17,7 +17,9 @@ Deciding whether to use a comma before which, where, or who means determining th
 * When the information that follows the relative pronouns is essential to the sentence, you do not use a comma.
 * When the information is extra and the sentence is clear without it, you put a comma before the relative pronoun.
 * When the nonessential relative clause is in the middle of the sentence, the comma goes before the relative pronoun and after the clause.
-When the nonessential relative clause is at the end of a sentence, only put a comma before the relative pronoun.
+* When the nonessential relative clause is at the end of a sentence, only put a comma before the relative pronoun.
+
+//necessary comment to render description list.
 
 Examples::
 

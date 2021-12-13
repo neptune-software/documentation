@@ -7,7 +7,8 @@ Apply the following conventions when creating documentation for Neptune:
 * Do not highlight in bold or italics.
 * Do not use an article before "Neptune DXP - Open Edition".
 
-+
+//necessary comment to render description list.
+
 Examples::
 * Neptune DX Platform
 * Neptune DXP - Open Edition or the short form DXP - Open Edition (until further notice)
@@ -22,7 +23,9 @@ Examples::
 * Treat as proper noun.
 * Highlight in italics.
 
-+ Examples::
+//necessary comment to render description list.
+
+Examples::
 * _API Designer_
 * _App Designer_
 * _Store_
@@ -31,7 +34,9 @@ Examples::
 * Capitalize the name of the component or event.
 * Do not capitalize the word components or event.
 * Highlight in bold.
-+
+
+//necessary comment to render description list.
+
 Examples::
 * *Button* component
 * *Press* event
@@ -39,14 +44,22 @@ Examples::
 == GUI elements
 * Capitalize as in GUI.
 * Highlight in bold.
-+
+
+//necessary comment to render description list.
+
 Example::
 Navigate to *Cockpit* > *Security* > *Role* and check *ACL* for new functions delivered in the new version.
 
 == Code and code snippets
 Use the following syntax:
 
----
+----
+Code
+----
+
+Example::
++
+----
 [Service] ExecStart=/var/planet9/planet9-linux
 Restart=always
 User=MyUser
@@ -57,21 +70,20 @@ bin:/usr/local/bin
 Environment=NODE_ENV=production
 WorkingDirectory=/var/planet9
 [Install] WantedBy=multi-user.target
-
----
+----
 
 == Inline code
 Use the following syntax:
-'[inline code]'
+`inline code`
 
 Example::
-Run 'npm' rebuild in the directory.
+Run `npm` rebuild in the directory.
 
 == Files
 * Capitalize file names as given or default small caps.
 * Highlight in italics
 
-+
+//necessary comment to render description list.
 
 Examples::
 

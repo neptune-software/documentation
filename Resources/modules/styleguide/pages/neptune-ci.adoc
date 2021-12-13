@@ -1,22 +1,24 @@
 = Neptune CI
 
-Refer to https://stneptuneportal.blob.core.windows.net/media/Marketing%20Related%20Content%2FGuidelines%2FNeptuneSoftware_Corporate%20Identity%20_brand%20guide.pdf.
+Refer to https://stneptuneportal.blob.core.windows.net/media/Marketing%20Related%20Content%2FGuidelines%2FNeptuneSoftware_Corporate%20Identity%20_brand%20guide.pdf[Neptune Corporate Identity Design Guidelines PDF].
+
+//Wo kommen die Farben her? ich finde minimal andere im Neptune CI.
 
 == Colors
 Yellow::
 
-* R: 244
-* G: 173
-* B: 28
+* Red: 244
+* Yellow: 173
+* Blue: 28
 * Farbt. 27
 * Sättigung: 218
 * Helligkeit: 128
 
 Blue::
 
-* R:63
-* G: 81
-* Blau: 97
+* Red:63
+* Yellow: 81
+* Blue: 97
 * Farbt. 139
 * Sättigung: 51
 * Helligkeit: 75

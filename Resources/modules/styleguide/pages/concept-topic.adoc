@@ -1,4 +1,5 @@
 = About concept topics
+
 Provide conceptual information, for example, about the architecture of a software.
 
 Requires no standard structure.
@@ -8,8 +9,9 @@ Requires no standard structure.
 * Keep the topic short.
 * Structure the topic well with headlines and sub-headlines.
 * Make sure that the topic is self-contained can stand on its own.
+//Hier eventuell ein paar "das heißt"-Beispiele? Sowas wie "Reintroduce abbreviations, include necessary steps from previous topic,..."
 * Link to related topics (task, concept, reference).
-* If the topics becomes too long and could be split into several independent topics, split it up.
+* If the topics become too long and could be split into several independent topics, split it up.
 
 == Related topics
 * Task topics

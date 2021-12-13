@@ -20,9 +20,8 @@ If an itemization contains three or more items, use a list to organize the infor
 . Do not use meaningless words.
 * Do not use meaningless words and avoid commonly used words that provide no value to the sentence or paragraph.
 Prefer simple verbs and phrases.
-+
 Words that can be removed in most cases:
-* kind of, actually, generally, practically, basically
-* completely, really, quite, totally, very, rather, much
-* essentially, particular, certain, various
-* easy, quick, interesting
+** kind of, actually, generally, practically, basically
+** completely, really, quite, totally, very, rather, much
+** essentially, particular, certain, various
+** easy, quick, interesting

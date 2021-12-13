@@ -15,7 +15,7 @@ Stay in real time, but do let the user know that the next step proceeds after ha
 
 == Future tense
 In technical content, the future tense does not have the same immediacy as the present tense.
-Compare “When you connect the power cable, the device will boot up automatically,” to “When you connect the power cable, the device boots up automatically.”
+Compare "When you connect the power cable, the device will boot up automatically," to "When you connect the power cable, the device boots up automatically."
 The future tense suggests a mild uncertainty as to how things unfold.
 
 == Present Progressive
@@ -27,7 +27,7 @@ Use present perfect for prerequisites and results.
 
 Examples::
 
-* tbd
-* tbd
+* Prerequisite: You have installed the software.
+* Result: You have added a user.
 
-
+//Beispiel hinzugefügt. Passend?

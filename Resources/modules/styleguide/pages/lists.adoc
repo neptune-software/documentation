@@ -5,7 +5,7 @@ Always write a full sentence when introducing a list.
 Do not insert lists without an introduction.
 
 Exception::
-List of prerequisites in a Task topic. See xref:task-topic-adoc [Task topic].
+List of prerequisites in a Task topic. See xref:task-topic.adoc[Task topic].
 
 Example::
 The following requirements apply when you create a list:
@@ -40,7 +40,7 @@ We use two types of lists:
 * Unordered list (bullet list)
 
 === Ordered list
-Use an ordered list when you want your readers perform steps in a specific order.
+Use an ordered list when you want your readers to perform steps in a specific order.
 
 Example::
 Perform the following steps:
@@ -57,7 +57,7 @@ The software update consists of the following items:
 * Licence key
 * Plug-In
 * Security information
-* Licencse agreement
+* License agreement
 * Privacy policy
 
 

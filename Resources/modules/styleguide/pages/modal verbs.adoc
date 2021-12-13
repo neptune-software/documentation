@@ -15,8 +15,9 @@ Examples::
 * Use "can" to express that it is technically possible.
 * Use "can" to give permission.
 
-Examples::
+//necessary comment to render description list.
 
+Examples::
 * *Yes*: You can also provide all the profile information. That makes it easier for others to find you.
 * *Yes*: We recommend that you fill in the profile information. That makes it easier for others to find you.
 * *Yes*: After providing valid credentials, you can use the full version of the software.
@@ -26,6 +27,8 @@ Examples::
 == Could
 * Use "could" when talking about a weak possibility, or something might happen.
 * When talking about a possibility, use "can".
+
+//necessary comment to render description list.
 
 Examples::
 * *Yes*: If the connection is slow, the download could stop.
@@ -37,7 +40,7 @@ This could make it easier for others to find you.
 * Do not replace "must" with "have to".
 * Do not use "should" instead of "must".
 
-NOTE:: You can also use the imperative form to express necessity. Example: Uninstall the program before installing the new version.
+TIP: You can also use the imperative form to express necessity. Example: Uninstall the program before installing the new version.
 
 Examples::
 * *Yes*: You must uninstall the program before installing the new version.
@@ -53,10 +56,12 @@ Examples::
 If you use "should", the user might think that the software will not carry out the action reliably. Instead, use simple present to describe the outcome of an action or process.
 * Do not use "should" for recommended actions. Instead, use "can".
 
+//necessary comment to render description list.
+
 Examples::
 * *Yes*: Click *Run* to create the report.
 The software generates a result.txt file and saves the file in the Results folder.
-* *No*: Click *Run* the create the report. The software should generate a result.txt file, which can be found in the Results folder.
+* *No*: Click *Run* to create the report. The software should generate a result.txt file, which can be found in the Results folder.
 
 
 
