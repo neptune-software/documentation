@@ -1,0 +1,57 @@
+= image:tile-icon.png[width=100,link="tile-icon.png"]Tiles
+
+A tile is a container that represents an application on a xref:launchpad.adoc[_Launchpad_].
+//@Neptune. Links to topics that have not been published do not work yet.
+All applications have at least one corresponding tile.
+You can bundle tiles in xref:tile-groups.adoc[_Tile groups_].
+
+You use tiles to assign actions and role-based access.
+Therefore, do not use tiles on an overview page or anywhere else.
+//@Neptune: Do we need the last sentence of above paragraph? What does overview page mean?
+
+An action can be an adaptive framework, an application, or a link.
+//@Neptune. Information on role-based access here? It is described in launchpad.adoc. Should we reference to it or add it here?
+
+Depending on the application, a tile can show the following content:
+
+* Icon
+* Title
+* Informative text
+* Numbers
+* Charts
+* Links
+
+The following picture shows an example of a launchpad with tiles.
+
+image:tiles_example3.png[width=400,link="tiles_example3.png"]
+//@Neptune: Can we perhaps show another example with most of the content mentioned above and explain what is shown on the tile? See also Helle's comment.
+
+Below the tile area, tiles can include a link.
+Links consist of a title and an optional subtitle.
+Most tile types can be converted to links.
+Links can be converted to tiles at any time.
+//@Neptune. What are the different types of tiles?
+
+Users can personalize their launchpad by selecting the tiles for the applications they want to use from the store.
+
+== Responsiveness
+The number of tiles that a launchpad shows depends on the screen resolution.
+If tiles in a group do not fit next to each other, the launchpad moves them to the next row.
+Tiles also appear smaller on smartphones.
+
+Tiles are not responsive.
+For smartphones, Neptune provides a different tile size.
+The __Launchpad__ automatically renders the tile size for smartphones.
+Tiles for smartphones do not need to be adjusted by the application.
+The tile size for tablets and desktop devices is the same.
+
+The example below shows how the tiles rendered for smaller screen size.
+
+image:tiles_example2.png[width=400,link="tiles_example2.png"]
+
+== Tile blackout
+You can block tiles from being used during maintenance. See xref:tile-blackout.adoc[Tile blackout].
+
+//== Related topics
+//* Tile Group
+//* Launchpad
