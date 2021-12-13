@@ -1,0 +1,25 @@
+= Adressing the reader
+
+Even though your document may affect thousands of people, you are speaking to the one person who is reading it.
+When your writing reflects this, it is more economical and has a greater impact.
+
+== Use pronouns to speak directly to your reader
+Pronouns help the audience picture themselves in the text and relate to what you are saying.
+More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+
+When you use “you” to address users, they are more likely to understand what their responsibility is.
+
+=== Example
+* *Yes*: Update the software before using the new features.
+* *No*: The software must be updated before using the new features.
+
+== Avoid using “he” or “she”
+You can avoid awkwardness by using “you” to address the reader directly, rather than using “he or she” or “his or her.”
+
+=== Example
+* *Yes*: You must provide your mailing address and identification number.
+* *No*:The applicant must provide his or her mailing address and his or her identification number.
+
+== Related topics
+* xref:active-voice.adoc[]
+* xref:biased-language.adoc[]

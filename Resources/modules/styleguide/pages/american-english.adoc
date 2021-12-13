@@ -1,0 +1,34 @@
+= American English
+
+Use American English (AE).
+Do not use British English (BA).
+
+== Nouns
+Words ending in "or"/"our".
+
+Examples::
+
+* Color (AE)
+* Colour (BE)
+* Flavor (AE)
+* Flavour (BE)
+
+== Verbs
+Verbs that end in BE with "ize" or "ise" at the end, spell with "ize".
+
+Examples::
+* organize (AE)
+* organize/organise (BE)
+* analyze (AE)
+* analyse (BE)
+
+In BE, L is doubled in verbs ending in a vowel plus "l". In AE, the L is not doubled.
+
+Examples::
+* modelled (BE)
+* modeled (AE)
+* cancelled (BE)
+* canceled (AE)
+
+
+

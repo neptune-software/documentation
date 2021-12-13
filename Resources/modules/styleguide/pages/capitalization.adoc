@@ -1,0 +1,13 @@
+= Capitalization
+
+Capitalize the following words:
+
+* First word of a sentence
+* First word of a heading
+* First word of a list
+* First word of a picture caption
+* First word in a table header and table column
+* Proper nouns where required: persons, products, brands, etc.
+* National/regional adjectives
+* Days, months
+

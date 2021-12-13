@@ -1,0 +1,30 @@
+= Relative clauses: who, that, which
+
+We can use relative clauses to join two  sentences, or to give more information about something.
+
+== Defining and non-defining
+A defining relative clause tells which noun we are talking about:
+
+* I like the woman who lives next door.
+
+A non-defining relative clause gives us extra information about something. We don't need this information to understand the sentence.
+
+* I live in London, which has some fantastic parks.
+
+== Commas
+Deciding whether to use a comma before which, where, or who means determining the function of the relative clause.
+
+* When the information that follows the relative pronouns is essential to the sentence, you do not use a comma.
+* When the information is extra and the sentence is clear without it, you put a comma before the relative pronoun.
+* When the nonessential relative clause is in the middle of the sentence, the comma goes before the relative pronoun and after the clause.
+When the nonessential relative clause is at the end of a sentence, only put a comma before the relative pronoun.
+
+Examples::
+
+* I want to eat at a restaurant where they serve sushi. (The sentence does not make sense without where they serve sushi because it clarifies what type of restaurant it is.
+* My dog, who loves to play fetch, is a Scottish terrier. (Who loves to play fetch is not crucial to the sentence. You can take it out, and the sentence still makes sense.)
+* There was a tornado, which was strange for November.
+
+
+
+

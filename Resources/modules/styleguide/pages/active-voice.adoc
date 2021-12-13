@@ -1,0 +1,25 @@
+= Active vs passive voice
+
+== Prefer active to passive voice
+Active voice is clearer and shorter and emphasizes the role of the actor instead of the action.
+An actor can be a user or even software.
+Because we write from a user's perspective, the active voice is more friendly.
+If the actor is unknown or irrelevant, you can use passive voice.
+
+Examples::
+* *Yes*: The data access subsystem uses this interface to control data providers.
+* *No*: This interface is used by the data access subsystem to control data providers.
+
+== Avoid impersonal formulation
+Avoid „is/are to be + participle“ to express a task.
+This structure is  complicated and does not address the reader directly.
+A direct instruction facilitates the quick and easy execution of a task.
+
+Examples::
+* *Yes*: Install the software after the download.
+* *No*: The software is to be installed after the download.
+* *Yes*: Execute the command.
+* *No*: The command is to be executed.
+
+
+

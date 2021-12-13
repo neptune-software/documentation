@@ -1,0 +1,28 @@
+= Minimalism
+//to be continued.
+
+Apply the following guidelines for a minimalist approach:
+
+. Keep sentences short.
+* Short sentences are easier to understand and less likely to contain disambiguities.
+John Kohl recommends a sentence length of max. 20 words for instructions and 25 words for conceptual information (The Global English Styleguide).
+* If your sentences have many subclauses, convert these into separate sentences, especially if there are nested subclauses or if the logical relationship is unclear.
+Consider using an unordered list if the sentence contains several equally relevant statements.
+
+. Use lists for itemization.
+* Itemization in running text is harder to identify and to comprehend.
+If an itemization contains three or more items, use a list to organize the information.
+
+. Avoid repetitions in lists.
+* Short and simple list items are easier to comprehend.
+* If each item of a list ends with the same word or phrase, check if the list and its introduction can be rephrased.
+
+. Do not use meaningless words.
+* Do not use meaningless words and avoid commonly used words that provide no value to the sentence or paragraph.
+Prefer simple verbs and phrases.
++
+Words that can be removed in most cases:
+* kind of, actually, generally, practically, basically
+* completely, really, quite, totally, very, rather, much
+* essentially, particular, certain, various
+* easy, quick, interesting

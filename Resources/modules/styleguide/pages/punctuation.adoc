@@ -1,0 +1,101 @@
+= Punctuation
+
+== Commas
+
+=== Serial comma (Oxford comma)
+* Use a serial comma in a list of two or more items.
+
+Example::
+** The software includes updates, plug-ins, and security guidelines.
+
+=== Commas in lists
+* Do not use a comma to separate list items.
+Use a full stop instead. See also xref::lists.adoc[Lists].
+
+=== Commas in indpendent clauses
+* Use a comma to separate independent clauses.
+
+Examples::
+** He walked down the street, and then he turned the corner.
+** You can go shopping with me, or you can go to a movie alone.
+
+=== If clauses
+* Use a comma when the sentence begins with the if clause.
+
+Example::
+** If the software is right for me, I will buy it.
+
+* Do not use a comma when the if clause comes after the conditional sentence.
+
+Example::
+** I will buy the software if it is right for me.
+
+== Colons
+Use a colon after an introductory phrase or sentence. Begin the following sentence with a capital letter.
+
+Examples::
+** Among other things, the software has one big advantage: It is cloud-based.
+** __App Designer__ consists of the following components:
+*** Component A
+*** Component B
+*** Component C
+
+== Hyphens
+Use hyphens sparsely.
+
+=== Hyphens in compound adjectives
+* Use hyphens in compound adjectives that consist of two or more words.
+
+Examples::
+** Step-by-step instructions
+** On-the-fly solution
+** Single-use gloves
+** Well-dressed software engineer
+
+=== Hyphens in adverbs
+* Use hyphens in adverbs that consists of two or more words.
+
+Examples::
+** The software is up-to-date.
+** The application is custom-built.
+
+BUT::
+**  I updated the software on the fly.
+** I followed the instructions step by step.
+
+== Full stops
+* Use a full stop after a complete sentence.
+* Use a full stop after a word or term if you want to use an additional heading level. See xref::headings.adoc[Headings].
+
+== Semicolon
+* Do not use semicolons to link two independent clauses. Create two sentences instead.
+
+== Parentheses
+* Avoid parentheses.
+* Use parentheses only in the following cases:
+** Measurement units (in cm)
+** Position numbers in a legend
+** Acronyms or short names for longer terms
+
+Example::
+Amazon Web Services (AWS) is made by Amazon.
+We use AWS for our services.
+
+== Apostrophes
+Use apostrophes to signify possession with nouns.
+Do not use possessive forms for company names, product names, or feature names.
+
+=== Examples
+* *Yes*: Neptune products are driven by a passion for innovation and the desire to help you feel better.
+* *Yes*: The VERION™ System VERION Reference Unit is used throughout the world.
+* *No*: Neptune's products are driven by a passion for innovation and the desire to help you feel better
+* *No*: The VERION™ System's VERION Reference Unit is used throughout the world.
+
+
+
+
+
+
+
+
+

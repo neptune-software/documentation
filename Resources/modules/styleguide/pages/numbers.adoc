@@ -1,0 +1,18 @@
+= Numbers
+
+* Spell out numbers smaller than ten.
+
+Exception::
+The number is important, or you want to provide an exact number.
+
+* Do not write two numerals next to each other.
+12 12-year-old boys it looks confusing.
+Instead, write twelve 12-year-old boys.
+
+== Example
+* Neptune DXP - Open Edition consists of two main components.
+Each main component includes 12 independent applications.
+
+
+
+
