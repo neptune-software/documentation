@@ -23,7 +23,7 @@ Depending on the application, a tile can show the following content:
 
 The following picture shows an example of a launchpad with tiles.
 
-image:tiles_example1.png[width=400,link="tiles_example1.png"]
+image:tiles_example3.png[width=400,link="tiles_example3.png"]
 //@Neptune: Can we perhaps show another example with most of the content mentioned above and explain what is shown on the tile? See also Helle's comment.
 
 Below the tile area, tiles can include a link.
