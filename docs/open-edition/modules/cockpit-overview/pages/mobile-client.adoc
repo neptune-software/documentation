@@ -6,6 +6,7 @@ Use _Mobile Client_ to create and maintain a launchpad for mobile applications.
 
 //The Mobile Launchpad is meant to be consumed via a PhoneGap-built.
 //@Neptune. Phone Gap was discontinued by Adobe. Delete?
+//@parson: Yes, this is all done by the Neptune Mobile Build Service
 
 _Mobile Client_ uses Apache Cordova plugins to create mobile applications.
 Apache Cordova provides a way to develop mobile applications using standard web technologies: HTML5, CSS3 and JavaScript.
