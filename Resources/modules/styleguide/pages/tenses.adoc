@@ -1,6 +1,7 @@
 = Tenses
 
-Use present tense or present progressive. Avoid future tense.
+Use present tense or present progressive.
+Avoid future tense.
 
 == Present tense
 
@@ -31,3 +32,4 @@ Examples::
 * Result: You have added a user.
 
 //Beispiel hinzugefügt. Passend?
+//@Helle, perfekt. Danke.
