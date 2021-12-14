@@ -8,11 +8,14 @@ Requires no standard structure.
 
 * Keep the topic short.
 * Structure the topic well with headlines and sub-headlines.
-* Make sure that the topic is self-contained can stand on its own.
-//Hier eventuell ein paar "das heißt"-Beispiele? Sowas wie "Reintroduce abbreviations, include necessary steps from previous topic,..."
+* Make sure that the topic is self-contained and can stand on its own.
+* Reintroduce abbreviations.
 * Link to related topics (task, concept, reference).
-* If the topics become too long and could be split into several independent topics, split it up.
+* If the topics become too long and split it up into several independent topics.
+Make sure that  split-up topics are still self-contained.
 
 == Related topics
-* Task topics
-* Reference topics
+* xref:task-topic.adoc[Task topic]
+* xref:task-topic-example.adoc[Task topic example]
+* xref:reference-topic.adoc[]
+* xref:reference-topic-example.adoc[Reference topic example]
