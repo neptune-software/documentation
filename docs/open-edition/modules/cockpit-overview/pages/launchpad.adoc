@@ -13,7 +13,7 @@ Learn more about xref:tiles.adoc[Tiles] and xref:tile-groups.adoc[Tile groups].
 A launchpad supports role-based access and displays tiles according to user roles. See also <<User roles and user groups>>.
 
 .Launchpad example
-image::launchpad_example.png[width=800]
+image::launchpad_example1.png[width=800]
 //@Neptune. Perhaps another example?
 
 == Download
