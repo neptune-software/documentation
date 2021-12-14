@@ -1,26 +1,28 @@
 = Headings
 
 == Levels
-Apart from the topic title (h1), use up to two subheadings (h2, h3) in a topic.
-
-[TIP]
-====
-The topic title can only be assigned once. If you refer to a topic by using an xref, the topic title (h1) appears as a link to the topic.
-
-Example:: xref::overview.adoc[] appears as "Neptune DXP - Open Edition". Compare code and preview.
-====
-
-//Habe gerade getestet: man kann h4, h5 usw benutzen. Wenn man nur ==== schreibt, wird es zunächst als Code-Block gerendert. Tippt man dann die Überschrift, wird es eine h4. Sollten wir stattdessen darauf hinweisen, dass man ab h4 überlegen sollte, ob das Topic nicht zu viel Inhalt hat?
-If you need more heading levels, highlight a term in bold, followed by a colon or a full stop and write the heading starting with a capital letter.
-
+* Apart from the topic title (h1), we recommend that you use up to two subheadings (h2, h3) in a topic.
+* You can use more subheadings if needed.
+* Topics with three or more levels of headings tend to be long.
+Consider splitting a topic up into two or more topics.
+See also *Best practices* in xref:concept-topic.adoc[Concept topic].
+* If you need more heading levels, you can also highlight a term in bold, followed by a colon or a full stop and write the heading starting with a capital letter.
 Example::
 
 *Heading 4*. Highlight a term in bold.
 
-Avoid hyphens in headings if you can.
-In resized windows or mobile devices, they can result in awkward line breaks.
+[IMPORTANT]
+====
+You assign the topic title (h1) only once.
+If you refer to a topic by using an xref, the topic title appears as a link to the topic.
 
-Don’t use ampersands (&) or plus signs (+) headings unless you're referring to the UI that contains them.
+Example:: xref::overview.adoc[] appears as "Neptune DXP - Open Edition".
+Compare code and preview.
+====
+
+* Avoid hyphens in headings if you can.
+In resized windows or mobile devices, hyphens can result in awkward line breaks.
+* Do not use ampersands (&) or plus signs (+) in headings unless you are referring to the UI that contains them.
 
 == Capitalization
 Use sentence style for all headings except for proper nouns.
