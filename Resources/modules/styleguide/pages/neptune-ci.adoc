@@ -3,7 +3,7 @@
 Refer to https://stneptuneportal.blob.core.windows.net/media/Marketing%20Related%20Content%2FGuidelines%2FNeptuneSoftware_Corporate%20Identity%20_brand%20guide.pdf[Neptune Corporate Identity Design Guidelines PDF].
 
 //Wo kommen die Farben her? ich finde minimal andere im Neptune CI.
-
+//@Helle, aus unserem Notebook, denke ich. Könntest du noch mal mit dem CI von Neptune abgleichen und ggf. ändern?
 == Colors
 Yellow::
 
