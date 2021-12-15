@@ -38,8 +38,6 @@ Examples:: (gender bias): When you are explaining your side of a topic to a frie
 +
 Example::
 When looking over the document, the reader found some errors.
-//Muss das nicht gemäß dem Punkt oben "use plural..." "When looking over the document, readers found some errors." heißen?
-// Hier nicht, m.E.. Hier geht es um das Ersetzen eines Pronomens mit einem genderneutralen Substantiv.
 
 * Repeat the noun, especially if there is a possibility of confusion. Often, it is effective to repeat the noun instead of using a pronoun. This is especially effective when you have more than one noun in the sentence that the pronoun could be referring to.
 

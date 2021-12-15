@@ -30,6 +30,3 @@ Examples::
 
 * Prerequisite: You have installed the software.
 * Result: You have added a user.
-
-//Beispiel hinzugefügt. Passend?
-//@Helle, perfekt. Danke.
