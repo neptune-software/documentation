@@ -17,8 +17,7 @@ The _App Designer_ interface consists of the following elements:
 
 
 image::../../cockpit-overview/images/appdesigner-interface-clear.png[width=800]
-//Helle@Helle: resize box outline
-
+//Helle@parson: new SUI, a bit clearer and in standard view. Preferences?
 image:appdesigner-interface.png["appdesigner-interface",width=800]
 
 == Menu
@@ -50,11 +49,11 @@ Run:: Run the application in a separate browser tab.
 Screen views:: Switch panel views.
 The standard _App Designer_ view has four panels: The *Reusable component* panel, *Application component* panel, *Application preview* panel, and *UI object* panel.
 +
-* image:../../cockpit-overview/images/appdesigner-views-stack.png[width=45]
+* image:cockpit-overview:appdesigner-views-stack.png[width=45]
 Combine the *Reusable component* panel and *Application component* panel.
-* image:../../cockpit-overview/images/appdesigner-views-switch.png[width=45]
+* image:cockpit-overview:appdesigner-views-switch.png[width=45]
 Switch *Application component* panel and *UI object* panel.
-* image:../../cockpit-overview/images/appdesigner-views-hideUI.png[width=45]
+* image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
 Hide the *UI object* panel.
 
 == Editor tools
@@ -78,7 +77,8 @@ ToDo List:: Open the *Search and ToDo List* panel.
 //@ Neptune: Input needed, what do I do here?
 Display Data Flow:: Display data flows for APIs and UI5 models.
 
-Easily switch between opened tabs. Click *Close all tabs* to close all open tabs.
+Easily switch between opened tabs.
+Click *Close all tabs* to close all open tabs.
 
 == Reusable component panel
 The *Reusable component* panel shows the components that you can use for building your application.
@@ -104,7 +104,8 @@ Depending on the selected component in the *Application component* panel, you al
 image:appdesigner-ui-objectpanel.png["appdesigner-ui-objectpanel",width=400]
 
 == Component properties panel
-The *Component properties* panel shows the attributes of a component. You can define properties or events to change the layout and behavior of a component.
+The *Component properties* panel shows the attributes of a component.
+You can define properties or events to change the layout and behavior of a component.
 
 image:appdesigner-properties-components.png["appdesigner-properties-components.png",width=400]
 
