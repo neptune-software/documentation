@@ -4,9 +4,9 @@
 * xref:overview:security-overview.adoc[Security overview]
 ** xref:overview:security-features-overview.adoc[Security features overview]
 ** xref:overview:load-balancing.adoc[Load balancing]
-** xref:overview:user-authentication.adoc[Security overview]
-** xref:overview:mobile-client-security.adoc[Security overview]
-** xref:overview:api-authentication.adoc[Security overview]
+** xref:overview:user-authentication.adoc[User authentication]
+** xref:overview:mobile-client-security.adoc[Mobile client security]
+** xref:overview:api-authentication.adoc[API authentication]
 
 .Getting Started Guide
 * xref:installation-guide:installation.adoc[Installation guide]
@@ -60,7 +60,7 @@
 *** xref:getting-started-guide:app-with-template.adoc[Develop an application from a template]
 ** xref:getting-started-guide:import-apps.adoc[Import applications]
 ** xref:getting-started-guide:export-apps.adoc[Export applications]
-** xref:getting-started-guide:applications-use-store.adoc[Use an application from the Store]
+** xref:getting-started-guide:application-use-store.adoc[Use an application from the Store]
 
 .Installation guide
 * xref:installation-guide:overview.adoc[Overview]
@@ -72,7 +72,7 @@
 ** xref:cockpit-overview:development-package.adoc[Development package]
 ** xref:cockpit-overview:connectors.adoc[Connectors]
 ** xref:cockpit-overview:adaptive-designer.adoc[Adaptive designer]
-*** xref:cockpit-overview:adaptive-designer-interface-at-a-glance-adoc[The Adaptive Designer interface at a glance]
+*** xref:cockpit-overview:adaptive-designer-interface-at-a-glance.adoc[The Adaptive Designer interface at a glance]
 ** xref:cockpit-overview:app-designer.adoc[App Designer]
 ** xref:cockpit-overview:app-editor.adoc[App Editor]
 ** xref:cockpit-overview:script-editor.adoc[Script Editor]
