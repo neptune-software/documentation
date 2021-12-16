@@ -1,0 +1,3 @@
+= Overview of Neptune DXP - Open Edition
+
+Same topic as in the Getting Started Guide?
