@@ -1,5 +1,16 @@
-= Media Library
+= image:media-library.png[width=100, link=media-library.png] Media Library
 
-The _Media Library_ is where you store all media files you want to use within your application.
-This can be images, audio files and videos.
-When designing applications in the _App Designer_, you can bind components to any file you store here.
+In the _Media Library_, you store all media files you want to integrate into your application or you want to use in other cockpit components.
+
+In the _Media Library_, folders are organized by file type. Media files should only be stored in a folder that corresponds to their own file type to improve searchability.
+
+The following media files are supported in the media library:
+
+* Images
+* Audio files
+* Videos
+* Splash screens
+* Icons
+* Documents
+
+See here how to xref:organize-media-library.adoc[organize files in the media library].

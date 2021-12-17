@@ -1,0 +1,38 @@
+= Organize files in the media library
+
+== Import media files
+
+You can import new files into the media library:
+
+. Open the cockpit.
+. Click *Development* > *Media Library*.
+. Click *Import*.
++
+image::media-library-import.png[,800]
+
+. Browse for your file and click *Ok*.
+
+Your file is added to the media library.
+
+== Organize files in the media library
+
+You can organize the files in the media library using the toolbar:
+
+image::media-library-organize.png[,400]
+
+. Delete the marked file.
+. Edit the name of the marked file.
+. Add a new folder to the media library.
+. Collaps the marked folder group.
+. Expand the marked folder group.
+
+== Organize media in a file
+
+When you open a file in the _Media Library_, the stored media appear. You can check the metadata of the file.
+
+image::media-library-files.png[,800]
+
+You can also:
+
+* Delete the file by clicking the rightmost button.
+* Copy the link address of the file by clicking the leftmost button. This enables you to link to the file from wherever you like.
