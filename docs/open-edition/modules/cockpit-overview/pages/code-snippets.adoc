@@ -2,9 +2,14 @@
 //@Neptune: Snippet needed, is not included in library
 
 In _Code Snippets_, you configure code snippets that you can use in _App Designer_ and _Script Editor_.
-The idea of code snippets is to reduce the amount of custom code as much as possible and to reuse often used code, so developers can focus more on the processes and functionalities of the application itself.
+The idea of code snippets is to reduce the amount of custom code as much as possible and to reuse frequently used code so that developers can focus on the processes and functionalities of the application.
 
 These configured code snippets enables users without extensive coding knowledge to participate in the design of applications or even create their own applications.
+
+//@Fabian: Im ersten Satz sprichst du die Leser direkt an, im letzten sprichtst du von usern. Würde ich vereinheitlichen.
+//Ich würde den zweiten Satz in zwei Sätze teilen, ist sehr lang.
+// Ersetzt: often used > frequently used
+//[link=code-snippet.png] > brauchen wir nicht, sagt Helle ;-)
 
 //Related topics
 //* Create a code snippet
