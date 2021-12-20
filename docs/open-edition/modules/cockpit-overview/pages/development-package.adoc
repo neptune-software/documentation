@@ -10,4 +10,3 @@ Also, you can do the following:
 //See package-import-git.adoc[]
 * Configure your CI/CD using _Development Packages_, see (...)
 //See package-configure-cicd.adoc[], content from https://community.neptune-software.com/blogs/using-development-package
-//@Fabian, ich habe die zwei letzten Listenträge stilistisch an den ersten angepasst.
