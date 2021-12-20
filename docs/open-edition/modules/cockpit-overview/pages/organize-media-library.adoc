@@ -1,38 +1,55 @@
-= Organize files in the media library
+= Organize files in the Media Library
+//schreiben wir Komponentennamen in Überschriften nicht auch kursiv? Großes L in Library eingefügt.
+//Hier fehlt mir Text zwischen den beiden Überschriften
 
 == Import media files
 
-You can import new files into the media library:
+Import new files into the _Media _Library_ as follows:
 
 . Open the cockpit.
+//Cockpit?
 . Click *Development* > *Media Library*.
 . Click *Import*.
 +
 image::media-library-import.png[,800]
+//Lass Helle nochmal auf die SUIs gucken. Ich hätte z.B. graue statt blauer Balken verwendet.
 
 . Browse for your file and click *Ok*.
 
-Your file is added to the media library.
+Your file is added to the _Media _Library_.
+//Eigenname und kursiv hinzugefügt. Auch nachfolgend noch ändern.
 
 == Organize files in the media library
 
+//Gleiche Überschrift wie Titel, finde ich ungünstig.
+
 You can organize the files in the media library using the toolbar:
+//@Fabian. With the following functions on the toolbar?
 
 image::media-library-organize.png[,400]
-
+//Neue Farbe (grün) eingeführt? SUI mit Helle besprechen.
 . Delete the marked file.
 . Edit the name of the marked file.
 . Add a new folder to the media library.
-. Collaps the marked folder group.
+. Collapse the marked folder group.
 . Expand the marked folder group.
+
+//Die nummerierte Liste sieht aus wie eine Schrittfolge. Würde (1) ... verwenden.
 
 == Organize media in a file
 
 When you open a file in the _Media Library_, the stored media appear. You can check the metadata of the file.
 
+//Nicht ganz klar, was metadata of the file bedeutet, Beispiel hinzufügen, das man auch im Screenshot sieht.
+
 image::media-library-files.png[,800]
 
 You can also:
+//Ganzen Satz vor Liste einfügen. (You can also perform the following tasks in the _Media Library_:)
 
 * Delete the file by clicking the rightmost button.
-* Copy the link address of the file by clicking the leftmost button. This enables you to link to the file from wherever you like.
+// ... by clicking the Delete icon on the right ???
+* Copy the link address of the file by clicking the leftmost button.
+//... by clicking the Link icon on the left.
+This enables you to link to the file from wherever you like.
+//from wherever you like - verstehe ich nicht.
