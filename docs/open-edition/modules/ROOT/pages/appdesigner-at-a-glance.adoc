@@ -17,7 +17,7 @@ The _App Designer_ interface consists of the following elements:
 //Helle@Fabian: is adding block ID necessary/recommended?
 
 image::../../cockpit-overview/images/appdesigner-interface-clear.png[width=800]
-//Helle@parson: new SUI, a bit clearer and in standard view. Preferences? new ^, old v
+//Helle@parson: new SUI, a bit clearer and in standard view. GUI changed (compare reusable component panels). If okay, other screenshots tbd.
 image:appdesigner-interface.png["appdesigner-interface",width=800]
 
 == Menu
