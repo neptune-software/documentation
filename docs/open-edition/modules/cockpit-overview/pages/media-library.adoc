@@ -1,4 +1,4 @@
-= image:media-library.png[width=100, link=media-library.png] Media Library
+= image:media-library.png[width=100] _Media Library_
 
 In the _Media Library_, you store all media files that you want to integrate into your application or use in other cockpit components.
 //@Fabian. files THAT you want - that added

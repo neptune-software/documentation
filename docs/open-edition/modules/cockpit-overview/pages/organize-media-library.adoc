@@ -4,7 +4,7 @@
 
 == Import media files
 
-Import new files into the _Media _Library_ as follows:
+Import new files into the _Media Library_ as follows:
 
 . Open the cockpit.
 //Cockpit?
@@ -16,40 +16,30 @@ image::media-library-import.png[,800]
 
 . Browse for your file and click *Ok*.
 
-Your file is added to the _Media _Library_.
-//Eigenname und kursiv hinzugefügt. Auch nachfolgend noch ändern.
+Your file is added to the _Media Library_.
 
-== Organize files in the media library
+== Organize files in the _Media Library_
 
-//Gleiche Überschrift wie Titel, finde ich ungünstig.
-
-You can organize the files in the media library using the toolbar:
-//@Fabian. With the following functions on the toolbar?
+You can organize the files in the _Media Library_ using the following toolbar functions:
 
 image::media-library-organize.png[,400]
 //Neue Farbe (grün) eingeführt? SUI mit Helle besprechen.
-. Delete the marked file.
-. Edit the name of the marked file.
-. Add a new folder to the media library.
-. Collapse the marked folder group.
-. Expand the marked folder group.
-
-//Die nummerierte Liste sieht aus wie eine Schrittfolge. Würde (1) ... verwenden.
+* (1) Delete the marked file.
+* (2) Edit the name of the marked file.
+* (3) Add a new folder to the media library.
+* (4) Collapse the marked folder group.
+* (5) Expand the marked folder group.
 
 == Organize media in a file
 
-When you open a file in the _Media Library_, the stored media appear. You can check the metadata of the file.
-
-//Nicht ganz klar, was metadata of the file bedeutet, Beispiel hinzufügen, das man auch im Screenshot sieht.
+When you open a file in the _Media Library_, the stored media appear. You can check the properties of the file.
 
 image::media-library-files.png[,800]
 
-You can also:
-//Ganzen Satz vor Liste einfügen. (You can also perform the following tasks in the _Media Library_:)
+You can also perform the following tasks in the _Media Library_:
 
-* Delete the file by clicking the rightmost button.
-// ... by clicking the Delete icon on the right ???
-* Copy the link address of the file by clicking the leftmost button.
-//... by clicking the Link icon on the left.
-This enables you to link to the file from wherever you like.
-//from wherever you like - verstehe ich nicht.
+* Delete the file by clicking the *Delete* button on the right.
+* Copy the link address of the file by clicking the *Link* button on the left.
+
+This enables you to link to the file from other Cockpit components.
+
