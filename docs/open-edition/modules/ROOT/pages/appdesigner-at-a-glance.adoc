@@ -14,10 +14,10 @@ The _App Designer_ interface consists of the following elements:
 * xref:_application_preview_panel[]
 * xref:_open_ui5[]
 * xref:_neptune_community[]
-
+//Helle@Fabian: is adding block ID necessary/recommended?
 
 image::../../cockpit-overview/images/appdesigner-interface-clear.png[width=800]
-//Helle@parson: new SUI, a bit clearer and in standard view. Preferences?
+//Helle@parson: new SUI, a bit clearer and in standard view. Preferences? new ^, old v
 image:appdesigner-interface.png["appdesigner-interface",width=800]
 
 == Menu
@@ -67,7 +67,7 @@ Run:: Run a preview of the application in the _App Designer_ and edit settings f
 Header:: The header editor
 //Input needed: is this where I define a global HTML5 head for my application?
 Stylesheet:: The stylesheet editor
-//Inout needed: is this the global css sheet for my application?
+//Input needed: is this the global css sheet for my application?
 
 //Web App Manifest editor
 //Input needed
