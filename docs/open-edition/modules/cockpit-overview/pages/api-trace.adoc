@@ -1,11 +1,11 @@
-= image:api-trace-icon.png[width=100,link="api-trace-icon.png"]API Trace
+= image:api-trace-icon.png[width=100]API Trace
 
 __API Trace__ lets you monitor API calls that applications make to the server.
-You also can probe when and who run an API on the server.
+You also can see when and who run an API on the server.
 
 API tracing allows you to see the values of events, such as the date, time, and status.
 You can use that data for testing and diagnosis.
 
 == Related topics
-* https://community.neptune-software.com/documentation/apitrace[API Trace]
+
 * xref:api-designer.adoc[_API Designer_]
