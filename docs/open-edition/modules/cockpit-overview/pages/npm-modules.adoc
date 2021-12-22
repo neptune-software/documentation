@@ -2,48 +2,9 @@
 
 npm is the package manager for the _Node JavaScript_ (Node.JS) platform.
 npm is used to publish, discover, install, and develop node programs.
-//replaced "it" with npm.
 
-In _NPM Modules_ you install npm packages to your Neptune DXP - Open Edition instance. These modules can be used, for example, in _App Editor_.
-//make above sentence active?
-
-== Search for npm modules
-//Eigenes topic (work with NPM Modules?)
-
-In _NPM Modules_, you can search for npm modules that are used within the system.
-//system meaning DXP Open Edition?
-
-image::npm-modules-overview.png[,800]
-//SUI mit Helle prüfen.
-Click on a module and check for its details.
-//Click on a module to open it. In *General* you see the following module details:
-
-Name:: Name of the module.
-Description:: What the module is about.
-//What is the m about > What the module is about.
-Version:: The version number of the module.
-Path:: Where in the DXP - Open Edition the module is stored.
-Dates:: When the module was created and last changed.
-
-If you do not create a new module, you can only edit the description of an existing module.
-//Dann fehlt das hier als eigener Punkt (edit an NMP Module?).
-
-The installation process is also described here: xref:installation-guide:npm-module.adoc[Install npm modules]
-//ToDo: These two chapters have to be synchronized so that all information on how to get npm modules are in one place.
-
-== Add a new npm module
-//Add something like: You can add new npm modules from the web or from the Neptune DXP - Open Edition server.
-
-. Click *Add* in the top right corner.
-+
-A new window opens.
-+
-image::npm-modules-new.png[,400]
-
-. Enter a name in the search field to browse for modules on the web.
-//type > enter. in the web > one the web.
-. Click *Local* to search for npm modules already existing on the server.
-//Something missing here?
+In _NPM Modules_, you install npm packages to your Neptune DXP - Open Edition instance.
+You can use these modules, for example, in the _App Editor_.
 
 
 
