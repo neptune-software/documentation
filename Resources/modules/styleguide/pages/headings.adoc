@@ -3,8 +3,8 @@
 == Levels
 * Apart from the topic title (h1), we recommend that you use up to two subheadings (h2, h3) in a topic.
 * You can use more subheadings if needed.
-* Topics with three or more levels of headings tend to be long.
-Consider splitting a topic up into two or more topics.
+* Topics with three or more levels of headings tend to be too long.
+Consider splitting up such a topic into two or more topics.
 See also *Best practices* in xref:concept-topic.adoc[Concept topic].
 * If you need more heading levels, you can also highlight a term in bold, followed by a colon or a full stop and write the heading starting with a capital letter.
 Example::
@@ -14,10 +14,11 @@ Example::
 [IMPORTANT]
 ====
 You assign the topic title (h1) only once.
-If you refer to a topic by using an xref, the topic title appears as a link to the topic.
+If you refer to a topic by using an xref, the topic title appears as a link to the topic, unless otherwise stated.
 
 Example:: xref::overview.adoc[] appears as "Neptune DXP - Open Edition".
 Compare code and preview.
+However, you can provide an individual title in square brackets.
 ====
 
 * Avoid hyphens in headings if you can.
@@ -28,6 +29,6 @@ In resized windows or mobile devices, hyphens can result in awkward line breaks.
 Use sentence style for all headings except for proper nouns.
 
 Examples::
-* Install App Designer
+* Install the _App Designer_
 * Design an application from scratch
-* Getting started with Tile Blackout
+* Getting started with the _Tile Blackout_

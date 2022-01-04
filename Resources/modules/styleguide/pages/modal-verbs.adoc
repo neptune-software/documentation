@@ -11,12 +11,11 @@ Examples::
 * Should
 
 == Can
-* Use "can" for recommended actions. Also consider using "recommend".
-* Use "can" to express that it is technically possible.
-* Use "can" to give permission.
+* Use _can_ for recommended actions. Also consider using "recommend".
+* Use _can_ to express that it is technically possible.
+* Use _can_ to give permission.
 
-//necessary comment to render description list.
-
+//
 Examples::
 * *Yes*: You can also provide all the profile information. That makes it easier for others to find you.
 * *Yes*: We recommend that you fill in the profile information. That makes it easier for others to find you.
@@ -25,7 +24,7 @@ Examples::
 
 
 == Could
-* Use "could" when talking about a weak possibility, or something might happen.
+* Use "could" when talking about a weak possibility, or something that might happen.
 * When talking about a possibility, use "can".
 
 //necessary comment to render description list.
@@ -36,9 +35,9 @@ Examples::
 This could make it easier for others to find you.
 
 == Must
-* Use "must" to express a necessity, a logical conclusion, a prerequisite, or a technically required necessity.
-* Do not replace "must" with "have to".
-* Do not use "should" instead of "must".
+* Use _must_ to express a necessity, a logical conclusion, a prerequisite, or a technically required necessity.
+* Do not replace _must_ with _have to_.
+* Do not use _should_ instead of _must_.
 
 TIP: You can also use the imperative form to express necessity. Example: Uninstall the program before installing the new version.
 
@@ -49,12 +48,12 @@ Examples::
 * *No*: You have to uninstall the program before installing the new version.
 
 == May, shall
-* Do not use "may" or "shall".
+* Do not use _may_ or _shall_.
 
 == Should
-* Do not use "should" to express an expected result.
-If you use "should", the user might think that the software will not carry out the action reliably. Instead, use simple present to describe the outcome of an action or process.
-* Do not use "should" for recommended actions. Instead, use "can".
+* Do not use _should_ to express an expected result.
+If you use _should_, the user might think that the software will not carry out the action reliably. Instead, use simple present to describe the outcome of an action or process.
+* Do not use _should_ for recommended actions. Instead, use _can_.
 
 //necessary comment to render description list.
 

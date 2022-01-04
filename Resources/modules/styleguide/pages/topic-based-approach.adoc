@@ -19,9 +19,9 @@
 Topics are always of a particular type. Topics can be instructive or provide conceptual or reference information.
 For Neptune, we use the following topic types:
 
-* Task, see xref:task-topic.adoc[] and xref:task-topic-example.adoc[]
-* Concept, see xref:concept-topic.adoc[] and xref:concept-topic-example.adoc[]
-* Reference, see xref:reference-topic.adoc[] and xref:reference-topic-example.adoc[]
+* Task, see general information in xref:task-topic.adoc[] and an example in xref:task-topic-example.adoc[].
+* Concept, see general information in xref:concept-topic.adoc[] and an example in xref:concept-topic-example.adoc[].
+* Reference, see general information in xref:reference-topic.adoc[] and an example in xref:reference-topic-example.adoc[].
 
-Readers can immediately recognize the type by its title and structure.
+Readers should immediately recognize the topic type by its title and structure.
 

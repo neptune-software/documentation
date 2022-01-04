@@ -1,12 +1,12 @@
 = Reference topic
 
-Reference topics provide data that supports users as they perform a task.
+* Reference topics provide data that supports users as they perform a task.
 
-Reference topics can provide lists and tables that include product specifications, parts lists, and other data that is often “looked up” rather than memorized.
+* Reference topics can provide lists and tables that include product specifications, parts lists, and other data that is often “looked up” rather than memorized.
 
-Reference topics provide quick access to fact-based information.
+* Reference topics provide quick access to fact-based information.
 
-No standard structure.
+* Reference topics require no standard structure.
 
 == Related topics
 * xref:task-topic.adoc[]

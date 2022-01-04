@@ -2,7 +2,7 @@
 
 We use three types of special notices:
 
-TIP: Provides a helpful tip, for example: Watch the video "How to create a resource group".
+TIP: Provides a helpful tip, for example: Watch the video _How to create a resource group_.
 
 NOTE: Provides additional information on a subject.
 
