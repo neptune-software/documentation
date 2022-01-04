@@ -3,4 +3,4 @@ title: Neptune DXP - Open Edition
 version: '21'
 nav:
 - modules/table-of-content/nav.adoc
-
+- ../../Resources/modules/styleguide/nav.adoc
