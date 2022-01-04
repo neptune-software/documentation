@@ -24,7 +24,7 @@
 ** xref:numbers.adoc[]
 ** xref:articles.adoc[]
 ** xref:abbreviations.adoc[]
-** xref:modal verbs.adoc[]
+** xref:modal-verbs.adoc[]
 ** xref:contractions.adoc[]
 * Punctuation
 ** xref:punctuation.adoc[]

@@ -1,7 +1,7 @@
 = American English
 
 Use American English (AE).
-Do not use British English (BA).
+Do not use British English (BE).
 
 == Nouns
 Words ending in "or"/"our".
