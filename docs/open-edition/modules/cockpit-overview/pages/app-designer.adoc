@@ -3,7 +3,7 @@
 The _App Designer_ is the central starting point for application development.
 This is where you design the interface of your application, implement functionalities, and integrate data from resources.
 
-_App Designer_ is the starting point for the following actions:
+The _App Designer_ is the starting point for the following actions:
 
 * Building mobile and desktop applications
 * Creating new HTML5 UIs
@@ -19,9 +19,6 @@ You can use the following component types:
 * Highchart components to create graphs and plots
 * Bootstrap components to make your application responsive
 * OpenUI5 components to design and structure your application
-
-//Helle@parson: More?
-//Fabian: These are all components that show up. I am not sure about the "Translation" and "Version Management" icons in the menu. They do not seem to work but we should mention them.
 
 == Related Topics
 
