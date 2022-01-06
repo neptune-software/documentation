@@ -40,8 +40,6 @@ image::appdesigner-side-menu-settings.png[width=400]
 . In *General*, enter a *Description* for your application and a *Title*.
 //Helle@Neptune: Where does this appear? Is it visible to the user of the application or the devs only?
 . In *OpenUI5*, select an Open UI5 *Version*, *Theme*, and *Language* for your application.
-//Uta: Link to documentation on UI5?
-//Helle: couldn't find anything on that.
 +
 TIP: The preselected Belize theme gives you the most popular look and feel.
 . On the top menu, click *Save*.
@@ -77,7 +75,6 @@ image::appdesigner-component-search2.png[width=400]
 . Drag and drop the *Page* component onto the *App* component in the *Application component* panel.
 +
 image::appdesigner-shell-app-page.png[width=800]
-//Helle@Helle: redo, *OpenUI5* added
 *Result*: You have created the general structure of your application.
 Each component is automatically renamed to *oShell*, *oApp*, or *oPage*.
 +
