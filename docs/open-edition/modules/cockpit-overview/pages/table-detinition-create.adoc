@@ -1,0 +1,45 @@
+= Create a database table in _Table Definition_
+
+== Prerequisites
+
+== Procedure
+
+NOTE: In this procedure we use sample data. You can exchange our data with your data in the procedure.
+
+=== Step 1: Create a new database table
+
+. Open the Cockpit of your Neptune DXP - Open Edition.
+. Go to *Tools* and click *Table Definition*.
+. Click *Add* to create a new database table.
++
+*Result*: The Table Definition configuration dialog opens. You start in the General tab.
+. In *Name*, enter a meaningful name that describes the data you will add to the table, for example, "clonetroopers".
+. In *Description*, add additional information. This information is displayed in the _Table Browser_.
+. If you created a package for your APIs, applications, oData, and mock data before, select the package from the *Package* drop-down menu.
+//. Enable Table Audit, added when consequences are clear
+. Click *Save*.
++
+*Result*: You have added an empty database table. You now can see a number in *ID*.
+
+=== Step 2: Add properties to the database table
+
+. Navigate to the *Properties* tab.
+. Click *+ Add* to add a new column to the table.
+. Enter a column name to each column.
+. In *Type*, select a data type for the column.
+. You can enter a *Description* and *Default value*.
+. For columns that can only have unique values, activate *Unique*.
+. For columns that can have no value, activate *Nullable*.
+//add screenshot
++
+*Result*: You have added properties to the database table.
+
+=== Step 3: Add data to the database table
+
+.
+
+== Related topics
+
+//*xref Table Definition concept topic
+* xref:api-designer-create.adoc[Create a table definition API in the _API Designer_]
+* xref:api-designer.adoc[_API Designer_]
