@@ -5,6 +5,7 @@ In this chapter, you learn how to start creating an application in Neptune DXP -
 * Creating a new app
 ** xref::app-from-scratch.adoc[]
 ** xref::app-with-template.adoc[]
-* [Use an app] from the store
-* [Copying an existing app]
+* Using an existing app
+** xref::application-use-store.adoc[]
+//* [Copying an existing app]
 //* [Importing an app] from your local disk

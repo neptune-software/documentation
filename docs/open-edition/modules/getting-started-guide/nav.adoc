@@ -50,4 +50,4 @@
 *** xref:ROOT:app-with-template.adoc[Develop an application from a template]
 ** xref:ROOT:import-apps.adoc[Import applications]
 ** xref:ROOT:export-apps.adoc[Export applications]
-** xref:ROOT:applications-use-store.adoc[Use an application from the Store]
+** xref:ROOT:application-use-store.adoc[Use an application from the Store]

@@ -1,6 +1,6 @@
 = Import applications
 
-To enable the application import in the __App Designer__, you must first create an empty application with a name and a package.
+To enable the application import in the _App Designer_, you must first create an empty application with a name and a package.
 //@Neptune: should we say why?
 
 == Prerequisites
@@ -11,12 +11,12 @@ To enable the application import in the __App Designer__, you must first create 
 . In the Neptune DXP - Open Edition Cockpit, go to *Development* and open __App Designer__.
 . Click *Application* > *Create*. The window *New App* opens.
 +
-image:import-app-1.png[width=400, link="import-app-1.png"]
+image:import-app-1.png[,width=400]
 
 . In *Name*, enter a name for the application, and in *Package*, select a package from the list (optional).
 //Uta@neptune: Do we need to explain "package"? Can users create a package if they do not find a matching package?
 +
-image:import-app-2.png[width=400, link="import-app-1.png"]
+image:import-app-2.png[,width=400]
 
 . Click *Save*.
 +
@@ -24,7 +24,7 @@ image:import-app-2.png[width=400, link="import-app-1.png"]
 
 . Click *Application* > *Import from File*.
 +
-image:import-app-3.png[width=400, link="import-app-1.png"]
+image:import-app-3.png[,width=400]
 
 . Select the application from your local computer.
 //Uta@neptune: What happens next?
