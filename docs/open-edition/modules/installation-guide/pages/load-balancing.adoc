@@ -8,7 +8,6 @@ By locating Neptune DXP - Open Edition instances on hosts which are in different
 This is illustrated xref:installation-guide:load-balancing.adoc#bc67aae8-7e0f-422d-87e5-149806029ff8[below].
 
 [[bc67aae8-7e0f-422d-87e5-149806029ff8]]
-.Load Balancing
 image::installation-guide:load_balancing_overview.png[Load Balancing]
 
 == Limitations to load balancing
