@@ -7,7 +7,7 @@ You can export an application as file to your local computer or to _Launchpad_.
 == Export an application to your local computer
 . In the Open Edition Cockpit, open _App Designer_ and open the app you want t export.
 +
-image:export-app-1.png[]
+image::export-app-1.png[]
 
 . Click *Application* > *Export to File*.
 +

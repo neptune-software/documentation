@@ -8,7 +8,7 @@ The process architecture is organized in the following category lanes:
 * <<Tools>>
 * <<_operationmanagementsecurity, Operation, management, and security>>
 
-image:processarchitecture.png[Process architecture]
+image::processarchitecture.png[Process architecture]
 //Image to be replaced.
 
 == Resources

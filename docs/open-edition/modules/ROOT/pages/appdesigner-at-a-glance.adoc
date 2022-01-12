@@ -1,5 +1,4 @@
 = App Designer interface at a glance
-:!figure-caption:
 
 The _App Designer_ interface consists of the following elements:
 
@@ -14,12 +13,12 @@ The _App Designer_ interface consists of the following elements:
 * Neptune community
 * Reusable component panel
 
-image:appdesigner-interface.png[Appdesigner interface]
+image::appdesigner-interface.png[Appdesigner interface,800]
 
 == Menu
 The *Menu* includes the following items:
 
-image:appdesigner-menu.png[Appdesigner menu]
+image::appdesigner-menu.png[Appdesigner menu,200]
 
 
 * *Settings*: Configure the UI5 version and application properties.
@@ -32,7 +31,7 @@ Toggle the items by clicking the *Menu* icon.
 == Toolbar
 The *Toolbar* includes the following items:
 
-image:appdesigner-toolbar.png[Appdesigner toolbar]
+image::appdesigner-toolbar.png[Appdesigner toolbar,800]
 
 * *Application*: Open, create, delete, or copy applications. Export and import applications, run a global search to find javascript code across all applications, generate a version, and refresh the master data.
 * *Display/Edit*: Click to toggle to Edit or Display mode.
@@ -44,7 +43,7 @@ image:appdesigner-toolbar.png[Appdesigner toolbar]
 == Editor tools
 The *Editor tools* includes the following tabs:
 
-image:appdesigner-editortools.png[Appdesigner editortools]
+image::appdesigner-editortools.png[Appdesigner editortools,800]
 
 * *Expand/Collapse*: Expand and collapse groups of the component panel.
 * *Undo*: Undo changes.
@@ -64,19 +63,19 @@ Easily switch between opened tabs. Click *Close all tabs* to close all open tabs
 The *UI object panel* lets you define the component name and enter a corresponding description.
 Depending on the selected component in the *Application component panel*, you also can enter a model source and a model path.
 
-image:appdesigner-ui-objectpanel.png[Appdesigner UI objectpanel]
+image::appdesigner-ui-objectpanel.png[Appdesigner UI objectpanel,400]
 
 
 == Component properties panel
 The *Component properties panel* shows the attributes of a component. You can define properties or events to change the layout and behavior of a component.
 
-image:appdesigner-properties-components.png[Appdesigner properties components]
+image::appdesigner-properties-components.png[Appdesigner properties components,400]
 
 
 == Application preview panel
 The *Application preview panel* shows a preview of your application.
 
-image:appdesigner-application-preview.png[Appdesigner application preview]
+image::appdesigner-application-preview.png[Appdesigner application preview,400]
 
 
 == Application component panel
@@ -93,5 +92,5 @@ Components are user-interface elements that you can drag and drop into the upper
 The *Reusable component panel* shows the components that you selected for building your application.
 You can delete, modify and change the position of these components to modify your application.
 
-image:appdesigner-reusable-component.png[Appdesigner reusable component]
+image::appdesigner-reusable-component.png[Appdesigner reusable component,200]
 
