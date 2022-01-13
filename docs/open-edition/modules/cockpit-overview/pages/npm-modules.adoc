@@ -1,4 +1,4 @@
-= image:npm-modules.png[width=100, link=npm-modules.png] npm Modules
+= image::npm-modules.png[width=100, link=npm-modules.png] npm Modules
 
 npm is the package manager for the _Node JavaScript_ (Node.JS) platform.
 npm is used to publish, discover, install, and develop node programs.

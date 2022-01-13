@@ -1,4 +1,4 @@
-= image:mobile-client-icon.png[width=100]Mobile Client
+= image::mobile-client-icon.png[width=100]Mobile Client
 
 Use _Mobile Client_ to create and maintain a launchpad for mobile applications.
 

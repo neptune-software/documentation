@@ -1,4 +1,4 @@
-= image:theme-designer-icon.png[width=100] Theme Designer
+= image::theme-designer-icon.png[width=100] Theme Designer
 
 With _Theme Designer_ you create application themes for use in the _Launchpad_ and the _App Designer_.
 

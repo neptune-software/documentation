@@ -1,4 +1,4 @@
-= image:api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
+= image::api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
 
 With the __API Designer__ you create and configure API definitions.
 You can easily define and update APIs at any stage of designing.

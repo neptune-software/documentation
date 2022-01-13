@@ -24,6 +24,6 @@ You start in the *General* tab.
 
 == Related Topics
 * xref:api-designer.adoc[API Designer]
-//* xref::import-api.adoc[] <-- task
-//* xref::export-api.adoc[] <-- task
-//* xref::search-api.adoc[] <-- might not be task
+//* xref:import-api.adoc[] <-- task
+//* xref:export-api.adoc[] <-- task
+//* xref:search-api.adoc[] <-- might not be task

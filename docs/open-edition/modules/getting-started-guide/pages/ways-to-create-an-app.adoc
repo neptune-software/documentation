@@ -2,8 +2,11 @@
 
 In this chapter, you learn how to start creating an application in Neptune DXP - Open Edition. You can create applications in different and independent ways:
 
-* xref::app-from-scratch.adoc[]
-* xref::app-with-template.adoc[]
-* xref::application-use-store.adoc[Use an application from the _Store_]
-* xref::copy-app.adoc[Copy an application from an existing application]
-* xref::import-apps.adoc[Import an application from your local disk]
+* Creating a new app
+** xref:app-from-scratch.adoc[]
+** xref:app-with-template.adoc[]
+* Using an existing app
+** xref:copy-app.adoc[Copy an application from an existing application]
+** xref:import-apps.adoc[Import an application from your local disk]
+** xref:application-use-store.adoc[Use an application from the _Store_]
+** xref:export-apps.adoc[Export applications]

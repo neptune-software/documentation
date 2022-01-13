@@ -39,7 +39,7 @@ The following tools are available:
 * xref:e-mail-template.adoc[_Email Template_]: Create e-mail templates.
 
 == Connectivity
-image:cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
+image::cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
 
 In the *Connectivity* section, you group your APIs and OData (Open Data Protocol) according to their usage.
 
@@ -54,7 +54,7 @@ The following tools are available:
 * OData Mock Data_: Add and update mock data.
 
 == Administration
-image:cockpit-overv-administration.png[Cockpit overview section administration, 600]
+image::cockpit-overv-administration.png[Cockpit overview section administration, 600]
 
 In the *Administration* section, you ...
 

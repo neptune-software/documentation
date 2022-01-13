@@ -43,11 +43,11 @@ Run:: Run the application in a separate browser tab.
 Screen views:: Switch panel views.
 The standard _App Designer_ view has four panels: The *Reusable component* panel, *Application component* panel, *Application preview* panel, and *UI object* panel.
 +
-* image:cockpit-overview:appdesigner-views-stack.png[width=45]
+* image::cockpit-overview:appdesigner-views-stack.png[width=45]
 Combine the *Reusable component* panel and *Application component* panel.
-* image:cockpit-overview:appdesigner-views-switch.png[width=45]
+* image::cockpit-overview:appdesigner-views-switch.png[width=45]
 Switch *Application component* panel and *UI object* panel.
-* image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
+* image::cockpit-overview:appdesigner-views-hideUI.png[width=45]
 Hide the *UI object* panel.
 
 == Editor tools

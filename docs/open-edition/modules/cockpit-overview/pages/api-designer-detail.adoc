@@ -1,4 +1,4 @@
-= image:api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
+= image::api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
 
 //Uta: Recommended structure/topics:
 //* API Designer.adoc (Overview of the component (already written)

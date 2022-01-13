@@ -1,4 +1,4 @@
-= image:email-template-icon.png[width=100,link="email-template-icon.png"]E-mail Template
+= image::email-template-icon.png[width=100,link="email-template-icon.png"]E-mail Template
 
 Lets you create e-mail templates.
 Server scripts can use these email templates to send email notifications from a workflow step.

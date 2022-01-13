@@ -1,4 +1,4 @@
-= image:tile-icon.png[width=100]Tiles
+= image::tile-icon.png[width=100]Tiles
 
 A tile is a container that represents an application on a xref:launchpad.adoc[].
 //@Neptune. Links to topics that have not been published do not work yet.
@@ -23,7 +23,7 @@ Depending on the application, a tile can show the following content:
 
 The following picture shows an example of a launchpad with tiles.
 
-image:tiles_example3.png[width=400,link="tiles_example3.png"]
+image::tiles_example3.png[width=400,link="tiles_example3.png"]
 //@Neptune: Can we perhaps show another example with most of the content mentioned above and explain what is shown on the tile? See also Helle's comment.
 
 Below the tile area, tiles can include a link.
@@ -47,7 +47,7 @@ The tile size for tablets and desktop devices is the same.
 
 The example below shows how the tiles rendered for smaller screen size.
 
-image:tiles_example2.png[width=400,link="tiles_example2.png"]
+image::tiles_example2.png[width=400,link="tiles_example2.png"]
 
 == Tile blackout
 You can block tiles from being used during maintenance. See xref:tile-blackout.adoc[Tile blackout].

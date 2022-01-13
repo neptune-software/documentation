@@ -142,5 +142,5 @@ You have created an application to display customer information:
 * You have bound specific properties from the API to the Master Page of your application.
 
 == Related topics
-* xref::app-from-scratch.adoc[Create an app from scratch]
+* xref:app-from-scratch.adoc[Create an app from scratch]
 * xref:cockpit-overview:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]

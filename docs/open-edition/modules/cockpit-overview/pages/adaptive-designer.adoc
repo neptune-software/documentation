@@ -1,4 +1,4 @@
-= image:adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
+= image::adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
 
 With the _Adaptive Designer_, functional developers and business users, who have little technical experience, can create responsive, customizable, and functional applications without writing a single line of code.
 
@@ -9,7 +9,7 @@ _Adaptive Designer_ comes with templates that represent the foundation and struc
 * Detail
 * Tiles
 
-image:adaptive-templ-types.png[Adaptive Template Types 640, 340]
+image::adaptive-templ-types.png[Adaptive Template Types 640, 340]
 
 By combining an adaptive framework with a database or other data source, _Adaptive Designer_ enables drag and drop functionality that allows business users to create applications that are tailored to their requirements.
 
@@ -26,7 +26,7 @@ Templates provide the configuration metadata.
 
 Templates and database/server script connection combined enable the output of adaptive applications that can run on the __Launchpad__ alongside any other application.
 
-image:adaptivedesigner_architecture.png[Adaptive Designer Architecture, width=800, link="adaptive-designer_architecture.png]
+image::adaptivedesigner_architecture.png[Adaptive Designer Architecture, width=800, link="adaptive-designer_architecture.png]
 
 //@Neptune. Picture up-to-date?
 //@Neptune. Should we use any of this content in the documentation? https://community.neptune-software.com/documentation/adaptive-designer
@@ -34,7 +34,7 @@ image:adaptivedesigner_architecture.png[Adaptive Designer Architecture, width=80
 == Download the templates
 Visit the __Store__ in Neptune DXP - Open Edition and search for "Adaptive Framework".
 
-image:adaptive-designer_store_adaptive-frameworks.png["adaptive-designer_store_adaptive-frameworks"width=400, link=adaptive-designer_store_adaptive-frameworks.png"]
+image::adaptive-designer_store_adaptive-frameworks.png["adaptive-designer_store_adaptive-frameworks"width=400, link=adaptive-designer_store_adaptive-frameworks.png"]
 
 == Related topics
 * xref:adaptive-designer-interface-at-a-glance.adoc[]

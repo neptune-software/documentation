@@ -18,7 +18,7 @@ You copy applications, for example, to create applications with similar or share
 ====
 If you have opened the application you want to copy recently you can open it directly from the list at the bottom of the Application drop-down menu.
 
-image:appdesigner-application-lastusedapps.png[width=400]
+image::appdesigner-application-lastusedapps.png[width=400]
 ====
 
 . In the Applications pop-up window, click the application you want to open.
@@ -43,5 +43,5 @@ image::appdesigner-newapp-copyapp.png[width=400]
 * You have created a copy of an existing application.
 
 == Related topics
-* xref::import-apps.adoc[]
-* xref::export-apps.adoc[]
+* xref:import-apps.adoc[]
+* xref:export-apps.adoc[]
