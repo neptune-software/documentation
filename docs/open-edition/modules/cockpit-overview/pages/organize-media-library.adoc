@@ -6,12 +6,12 @@
 
 Import new files into the _Media Library_ as follows:
 
-. Open the cockpit.
+. Open the Neptune DXP cockpit.
 //Cockpit?
 . Click *Development* > *Media Library*.
 . Click *Import*.
 +
-image::media-library-import.png[,800]
+image::media-library-import.png[,400]
 //Lass Helle nochmal auf die SUIs gucken. Ich hätte z.B. graue statt blauer Balken verwendet.
 
 . Browse for your file and click *Ok*.
