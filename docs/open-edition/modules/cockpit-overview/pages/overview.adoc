@@ -1,0 +1,192 @@
+= Neptune DXP - Open Edition
+
+== Main components
+The Neptune DXP - Open Edition comprises the following main components:
+
+* __Launchpad__
+* __App Designer__
+* __API Designer__
+* __Workflow Engine__
+* __Script Editor__
+* __Application Building Blocks__
+
+=== Launchpad
+The __Launchpad__ is a shell that hosts applications and provides these applications with services, such as navigation, personalization, and embedded support.
+
+The __Launchpad__ serves as the single entry point to the Neptune DXP - Open Edition. The Launchpad consists of tiles, which are displayed depending on the role of the user. Each tile represents an application that a user can open. Tiles  can also show live data.
+//Input needed: Information about different user roles needed.
+
+==== Applications in the Launchpad
+The __Launchpad__ can host the following applications, which can run in parallel:
+
+* Applications built in the Neptune DXP - Open Edition
+* Applications built in the Neptune DXP - SAP Edition
+* HTML5 web applications
+* React applications
+* SAP WebDynpro applications
+
+=== App Designer
+Use the __App Designer__ to create HTML5-based applications.
+
+==== Features
+* Comprises over 200 Open UI5 framework components, ranging from basic elements to complex UI patterns. You can use the components out of the box or extend them to meet your requirements.
+* Enables developers to quickly integrate APIs with no-code data binding.
+* Supports manual or automatic language translation, using Google Translate. Your apps can automatically become multilingual.
+* Comes with an integrated tool to see the API architecture of an app.
+* __Application Building Blocks__ speed up development by combining modular groups of elements.
+* Offers a built-in version management. A UI sample library review enables the testing of interfaces and functionalities before implementation.
+
+=== API Designer
+With the __API Designer__, you create and configure reusable API definitions.
+
+==== Features
+* Comes with a graphical user interface.
+* Enables you to create API operations manually, import them from another Open Edition, or a Swagger 2.0 file.
+//Input needed: "another Open Edition", from another version of the Open Edition, from another application built with the Open Edition, or...?
+* Generates APIs for tables within the Neptune DX Platform.
+
+=== Workflow Engine
+With the __Workflow Engine__, you design, build, run, and manage workflows, starting from simple approvals to entire end-to-end processes that span across different organizations and applications.
+
+The __Workflow Engine__ facilitates and automates processes that require tasks to be performed by humans.
+Each step of a transaction can be easily monitored.
+Processes are completed from the beginning to the end.
+
+=== Script Editor
+With the __Script Editor__, you create server-side scripts that run in their own separate process on the server.
+You can use APIs, tables, global scripts, and NPM modules.
+Scripts are used to extend your instance beyond standard configurations.
+
+With a script, you can automate processes, add functionalities, integrate your instance with outside applications, and more.
+
+=== Application Building Blocks
+__Application Building Blocks__ are modular and reusable development components that vary in size from small code snippets and connectors to larger groups of user interface components and entire application templates.
+
+Neptune provides a growing library of these __Application Building Blocks__. You can download them for free in the __Store__.
+
+== Runtime environment
+Neptune DX Platform is a Node.js runtime environment. Node.js is an open-source, cross-platform, back-end JavaScript runtime environment.
+
+The Neptune DXP - Open Edition can benefit from NPM (Node package manager), which is an online repository for open source node.js projects and libraries.
+
+With NPM, you can extend the functionality of the Neptune DXP - Open Edition with the choice of over a million different packages, ranging from managing connections to legacy databases to handling authentication tokens.
+
+=== Databases
+By default, the Neptune DXP - Open Edition comes with an embedded SQlite database, which can be used for database tables.
+The Neptune DXP - Open Edition also uses this database for its own configuration tables.
+
+Alternatively, you can use the following databases:
+
+* PostgreSQL
+* Microsoft SQL Server
+* SAP Hana databases
+
+==== TypeORM
+All supported databases can use TypeORM. ORM (object-relational mapping) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm.
+
+You can use TypeORM statements instead of traditional SQL statements to interact with the database layer.
+
+== Comparing Neptune DXP - Open Edition and Neptune DXP - SAP Edition
+//move further up to the beginning?
+=== Hosting
+The Neptune DXP - SAP Edition uses ABAP Runtime ICF node as the runtime environment.
+Each module has its own hosting methods.
+The Neptune DXP - SAP Edition is embedded within the SAP system and runs within the NetWeaver stack.
+
+The Neptune DXP - Open Edition can be hosted on multiple platforms, for example, Google Cloud Platform, AWS or Azure.
+The Neptune DXP - Open Edition is as easy to deploy as a docker container with Cloud Foundry.
+
+=== Components
+Even though the Neptune DXP - Open Edition and the SAP Edition  use different foundations, they share a number of similar components:
+
+* __Launchpad__
+* __App Designer__
+* __Application Building Blocks__
+
+The Open Edition comes with the following additional applications:
+
+* __API Designer__
+* __Script Editor__
+* __Workflow Engine__
+
+The Neptune DXP - SAP Edition additionally offers API Factory, which makes it possible to automate the REST API generation of the following SAP artifacts:
+
+* ABAP classes
+* Function modules
+* BAPIs
+* ALV standard and custom reports
+
+== Understanding Open UI5 framework
+Open UI5 is the foundation for all UI components and their functionalities.
+
+.Example: Date picker
+We want users to open a calendar and select a date.
+
+The name of the component is sap.m.DatePicker.
+In the __App Designer__, the default name of the component is oDatePicker.
+
+On the page, the oDatePicker component is an input field that opens a calendar and allows the user to select a date.
+//Input needed on "page"
+
+Building on this example, you can add a shell, app and page as parent components to the DatePicker.
+Now you can see the date picker inside the app.
+
+This shell–app–page structure is the most common foundation for apps within the __App Designer__ and represents an aggregation.
+
+== Aggregations
+An aggregation is a parent-child relationship between two UI elements.
+
+The shell-app–page structure is an aggregation where you can put as many child components within the page as you want.
+
+IMPORTANT: There are aggregations that do not work and cause errors. *Example*: Inserting a Slider component directly in a list cause an error stating that a Slider is not a valid aggregation for a list. However, a list can contain a number of children, such as a StandardListItem. This will not cause problems.
+
+.Example: IconTabBar
+There is an IconTabBar component with three IconTabFilters, of which one contains a text component.
+
+//screenshot to be added
+In this example, there is a MenuButton parent which contains a Menu component as child.
+Within that child, there are five MenuItem children, with two of them as sub-children to a parent's MenuItem.
+
+This produces the Menu button that reflects the same structure.
+
+.Example: Table
+The table is built using sap.m.table as parent, with sap.m.Column components as children alongside a ColumnListItem. It contains five Text components.
+
+We provide lots of these patterns as samples.
+You can also generate these structures automatically using wizards, such as with this table.
+
+== Events
+Many of the components within the UI5 library contain events.
+
+.Example: Button
+A Button component has a Press event.
+Within the event, you can write any JavaScript functionality you want.
+The event will be run every time the button is pressed.
+In this example, the button sends the app to the nextPage, sets a Lists visibility property to True and shows a message on the screen.
+//screenshot to be added
+
+.Example: SearchField
+The SearchField component has a LiveChange event.
+The LiveChange event is triggered everytime a change is made in the field, such as a key being pressed.
+In this event, we have implemented a search on a list, so each key press updates the list with the search results based on what is typed.
+
+You can always click on the properties of the components to view information about them.
+Here you can see a description of each event and when it is triggered.
+//screenshot to be added
+
+== Bindings
+Binding is the ability to link data to specific parts of the UI components.
+
+.Example
+There is a list with an ObjectListItem child component.
+You can send an array of objects to the underlying data model of the list.
+
+Within the ObjectListItem child component, you can bind properties.
+Here we have bound the Intro and Title properties to the Name and CustomerNumber keys of our data set.
+
+This results in a list that automatically generates the same number of rows as there are objects in the array, with each row showing the values based on the bounded keys.
+
+After these bindings are set up, your components will always reflect the data automatically.
+That means, only two objects are returned instead.
+You can see that the list reflects only these two rows.
+//screenshot to be added
