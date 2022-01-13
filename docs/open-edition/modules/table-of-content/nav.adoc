@@ -53,7 +53,7 @@
 ** xref:getting-started-guide:process-overview.adoc[Development process overview]
 //** xref:cockpit-overview:cockpit-components.adoc[Cockpit components overview]
 * xref:getting-started-guide:first-steps.adoc[First steps with Neptune DXP - Open Edition]
-** xref:getting-started-guide:appdesigner-at-a-glance.adoc[The App Designer at a glance]
+** xref:cockpit-overview:appdesigner-at-a-glance.adoc[The App Designer at a glance]
 ** xref:getting-started-guide:ways-to-create-an-app.adoc[Ways to create an application]
 ** xref:getting-started-guide:develop-first-app.adoc[Develop your first application]
 *** xref:getting-started-guide:app-from-scratch.adoc[Develop an application from scratch]
