@@ -17,7 +17,7 @@ For more information, see xref:cockpit-overview:store.adoc[Store].
 +
 The Store opens in a new window.
 +
-image::appdesigner-store.png[width=800]
+image::cockpit-overview:appdesigner-store.png[width=800]
 
 . A list with all available applications opens. You have the following options to structure the list.
 .. Change *Display* mode.

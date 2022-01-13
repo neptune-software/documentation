@@ -74,7 +74,7 @@ image::appdesigner-component-search2.png[width=400]
 . Drag and drop the *App* component onto the *Shell* component in the *Application component* panel.
 . Drag and drop the *Page* component onto the *App* component in the *Application component* panel.
 +
-image::appdesigner-shell-app-page.png[width=800]
+image::cockpit-overview:appdesigner-shell-app-page.png[width=800]
 *Result*: You have created the general structure of your application.
 Each component is automatically renamed to *oShell*, *oApp*, or *oPage*.
 +
@@ -190,5 +190,5 @@ You have created an application to display and update information about equipmen
 * You have created a button to update data in the table.
 
 == Related topics
-* xref::app-with-template.adoc[]
+* xref:app-with-template.adoc[]
 * xref:cockpit-overview:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
