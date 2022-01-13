@@ -1,0 +1,4 @@
+= Welcome to the style guide
+
+This style guide helps you writing documentation for the Neptune DXP Platform.
+

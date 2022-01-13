@@ -1,0 +1,23 @@
+== DXP SAP Edition maintenance status
+
+The Neptune DXP - SAP Edition life cycle begins when a new version is released and ends when it is no longer supported.
+
+Knowing this lifecycle helps you make informed decisions about when to upgrade, or make other changes to your landscape.
+
+[cols="1,1"]
+|===
+|Version  |Support
+
+|DXP 21
+|LTS	Q4/2021	Maintenance	Q4/2023
+
+|DXP 5
+|LTS	Q2/2020	Maintenance	Q4/2022
+
+|UXP 4
+|LTS	Q1/2016	Out of maintenance	Q4/2019
+|===
+
+== Related topics
+* Release notes
+* Upgrade to a new version

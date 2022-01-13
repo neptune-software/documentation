@@ -1,0 +1,34 @@
+== Create concept topics in the Cockpit documentation
+
+When you create a new concept topic for the Cockpit documentation, use the following recommended structure:
+
+. What is this?
++
+Example:: The _Store_ is a portal to download or publish applications.
+The _Store- provides free building blocks, templates, and APIs for your instance.
+Any item you download is ready to use or modify in your instance.
+
+NOTE:: In some cases, the title of concept topic already gives a clue about the "what". In case the "what" is obvious, you do not have to repeat it. Start the topic with "What can I use it for".
+
+. What can I use it for?
++
+Example:: You can publish new applications to the _Store_, or you can use the available applications from the _Store_.
+
+. Which Cockpit components interact with this component?
++
+Provide this information when necessary. Not all components interact with others.
++
+Example:: _API Designer_ and _App Designer_ use the _Store_ to publish or download APIs or applications.
+
+. How can I use it? List of related topics
++
+Examples::
+* Download applications with API Designer
+* Publish applications with APP Designer
+
+== Related topics
+* xref:concept-topic.adoc[]
+
+
+
+

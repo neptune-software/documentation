@@ -1,0 +1,6 @@
+name: neptune-dxp-styleguide
+title: Style guide
+version: 'All'
+nav:
+- modules/styleguide/nav.adoc
+

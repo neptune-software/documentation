@@ -1,5 +1,12 @@
-= Development Package
+= image:development-package.png[width=100, link=development-package.png] Development Package
 
 In _Development Package_, you organize and group artifacts.
-You can assign artifacts to a package.
-// Source says "almost any artifacts": which are the exceptions?
+These artifacts can be assigned to a package.
+Also, you can do the following:
+
+* Create new packages, see (...)
+//See package-create-new.adoc[]
+* Import packages from a remote Git repository, see (...)
+//See package-import-git.adoc[]
+* Configure your CI/CD using _Development Packages_, see (...)
+//See package-configure-cicd.adoc[], content from https://community.neptune-software.com/blogs/using-development-package

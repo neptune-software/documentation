@@ -1,0 +1,54 @@
+= Launchpad
+
+== Getting started with the Launchpad
+
+This section explains the configurations when setting up a launchpad.
+
+== Procedure
+
+. Click *Administration* > *Launchpad* to run the _Launchpad_.
+. Click *Add*.
++
+image::launchpad-overview.png[width=800]
++
+*Result*: The configuration view opens. You start in the General tab. Here, you specify general, blackout,login and UI5 settings.
+
+=== General
+
+Name:: Add a descriptive name for the launchpad.
+Package:: Choose a package from the drop-down list.
+Launchpad Application:: Choose the default launchpad _planet9_launchpad_standard_. Download the default launchpad from the _Store_ if it does not show up in the list.
+Title:: Add a title for the launchpad. The title is displayed as tab title in your browser.
++
+image::launchpad-title.png[width=800]
++
+Description:: Add a descriptive text for the launchpad.
+Custom Logo:: Add a logo from the media library. This logo will be visible on the top left of the launchpad. You can add your logos to the media library for later use.
+Show launchpad header:: Check weather the header of the launchpad shall be displayed in the browser or not.
+
+=== Blackout
+
+Enable Blackout:: You can enable *Blackout* by checking the box.
+Title:: Assign a title to the Blackout.
+Message:: Enter a message regarding the *Blackout*.
+
+
+=== Single App Launchpad
+
+If you want to use only one app inside the *Launchpad* you can set this app as StartApp.
+That means, there will be no top menu bar.
+
+=== Login
+
+Default provider:: Select the default login provider. The default login providers depend on the authentications enabled in *Cockpit* > *Settings* > *System* > *Authentication*.
+Custom Login Title:: Enter a login title.
+Custom Login Sub Title:: Enter a subtitle for the login.
+Custom Login App:: Choose the app that starts automatically when launching the _Launchpad_. You can choose an app you created with _App Designer_.
+Password Reset Email:: Enter an email address with which you want to change password.
+Hide Login Selection:: Check weather to hide the login page on mobiles while accessing the launchpad.
+Enable Anonymous access:: Check weather it shall be possible for users to login anonymously to the _Launchpad_.
++
+NOTE: You have to check _Allow Anonymous Access_ in *Settings* > *System* > *License* before.
+
+=== UI5
+Neptune DXP supports to create and use different visual designs called themes alternatively and switching between the themes allowing for the same application to have a very different look, depending on the user’s design preference, or an accessibility requirement. These are the standard themes can be used in any application

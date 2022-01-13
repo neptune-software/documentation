@@ -1,0 +1,97 @@
+= Process overview
+
+The following graphic shows an overview of the architecture of the Neptune DXP - Open Edition.
+The process architecture is organized in the following category lanes:
+
+* <<Resources>>
+* <<Tools>>
+* <<_operationmanagementsecurity, Operation, management, and security>>
+
+image:processarchitecture.png["Process architecture",width=800,link="app designer-interface.png"]
+//Image to be replaced.
+
+== Resources
+== oDATA
+The _OData source_ component is used to consume data from an Open Data Protocol service.
+
+The _App Designer_ consumes oDATA.
+
+
+=== Store
+The _API Designer_ and _App Designer_ use the _Store_ to publish and download APIs and applications.
+
+=== Media Library
+The _Media Library_ is where you store all media files you want to use in an application. Media files stored in the _Media Library_ can be used when creating an application with the _App Designer_.
+
+
+=== API Designer
+With the _API Designer_ you create and configure API definitions.
+You can also import _External APIs_.
+
+You can use the _Table Definition_ to create APIs from a local table.
+
+The _App Designer_ can integrate APIs from the _API Designer_ with no-code data binding.
+
+=== Table Definition
+Use _Table Definition_ to create APIs from a local table.
+
+You can also use _Table Definition_ to create server-side scripts with the _Script Editor_.
+
+== Tools
+=== App Designer
+With _App Designer_, you create HTML5-based applications.
+
+The _App Designer_ consumes _oDATA_ and server scripts from the _Script Engine_.
+
+The _App Designer_ uses the following resources:
+
+* _Store_, to publish or download applications
+* _Media Library_, for media files that can be used in applications
+* _API Designer_, to integrate APIs with no-code binding
+
+Learn more about the xref:cockpit-overview:appdesigner-at-a-glance.adoc[_App Designer_ interface].
+
+=== Server Scripts (Script Editor)
+With _Script Editor_, you create server-side scripts that run in their own separate process on the server.
+
+_App Designer_ consumes server scripts.
+
+=== Workflow Designer (Workflow Engine)
+With _Workflow Engine_, you design, build, run, and manage workflows. Workflows define a sequential order of tasks that are performed by server scripts or users.
+
+_Workflow Engine_ uses server scripts from the _Script Editor_.
+You can trigger workflows in applications.
+
+[#_operationmanagementsecurity]
+== Operation, management, and security
+=== Theme Designer
+With _Theme Designer_, you customize the look and feel of your apps.
+
+_Theme Designer_ is used in _App Designer_ and _Launchpad_.
+
+=== Application Management
+You create new applications with _App Designer_ and trigger workflows in the applications from _Workflow Engine_.
+
+The _Application Management_ view shows all applications in the system.
+
+You can display apps in _Tiles_, _Tile Groups_, on the _Launchpad_, and in _Mobile Client_.
+
+=== Tile
+A _Tile_ is a container that represents an application. All applications have at least one corresponding _Tile_.
+
+_Tiles_ are displayed in _Tile Groups_ and on the _Launchpad_.
+
+=== Tile Group
+_Tile Groups_ organize _Tiles_ based on user roles. You can assign user roles and _Tiles_ to a _Tile Group_.
+
+=== Launchpad
+_Launchpad_ is the entry point to applications and displays a home page with _Tiles_ and _Tile Groups_.
+
+Each _Tile_ represents an application that the user can launch.
+
+Users access _Launchpad_ from a desktop computer or a _Mobile Client_. _Launchpad_ is role-based and display tiles according to the role of the user.
+
+=== Users
+With the _User_ management system, you manage internal (_own users_) and _external_ users and assign roles and groups to them.
+
+You store users on cloud-based *LDAP* and *SAML2* servers.

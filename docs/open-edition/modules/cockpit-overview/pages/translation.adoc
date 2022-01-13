@@ -1,0 +1,13 @@
+= image:translation.png[width=100px, link=translation.png] Translation
+
+After you have added tiles and tile groups on a launchpad to be translated, you can translate them in _Translation_.
+
+You can also enable Google Translate in _Translation_, which can be used by customers.
+Enabling Google Translate requires an API token that can be stored in system settings.
+//@Neptune: Is Google Translate used in _Translation_?
+//@parson: Yes it can be used by the customers. An API token is needed that can be stored in system settings.
+//         This should be mentioned here.
+//@Neptune. Added.
+
+//== Related topics
+//* Translate tiles and tile groups

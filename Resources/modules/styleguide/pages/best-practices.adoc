@@ -1,0 +1,4 @@
+= Best practices
+
+* Do not use jargon.
+* Do not use marketing content in technical documentation.

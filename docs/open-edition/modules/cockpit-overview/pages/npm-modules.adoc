@@ -1,4 +1,11 @@
-= NPM Modules
+= image:npm-modules.png[width=100, link=npm-modules.png] npm Modules
 
-In _NPM Modules_ you install the NPM package to your Neptune DXP - Open Edition instance so that you can use it later in _App Editor_.
-You can search for particular NPM modules and install them.
+npm is the package manager for the _Node JavaScript_ (Node.JS) platform.
+npm is used to publish, discover, install, and develop node programs.
+
+In _NPM Modules_, you install npm packages to your Neptune DXP - Open Edition instance.
+You can use these modules, for example, in the _App Editor_.
+
+
+
+

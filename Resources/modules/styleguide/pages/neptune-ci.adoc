@@ -1,0 +1,31 @@
+= Neptune CI
+
+Refer to https://stneptuneportal.blob.core.windows.net/media/Marketing%20Related%20Content%2FGuidelines%2FNeptuneSoftware_Corporate%20Identity%20_brand%20guide.pdf[Neptune Corporate Identity Design Guidelines PDF].
+
+
+== Colors
+Yellow::
+
+* Red: 246
+* Yellow: 178
+* Blue: 33
+
+
+Dark blue::
+
+* Red:0
+* Yellow: 62
+* Blue: 82
+
+
+SAP Edition blue::
+
+* Red:0
+* Yellow: 131
+* Blue: 155
+
+Open Edition cyan::
+
+* Red: 131
+* Yellow: 200
+* Blue: 188

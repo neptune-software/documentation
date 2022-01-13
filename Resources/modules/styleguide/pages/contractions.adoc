@@ -1,0 +1,21 @@
+= Contractions
+
+* Do not use contractions because they are harder to read and can cause issues for localization.
+* Write "cannot" in one word.
+
+//necessary comment to render description list.
+
+Examples::
+*Yes*:::
+* do not
+* does not
+* cannot
+* it is
+
+*No*:::
+* don't
+* doesn't
+* won't
+* can't
+* it's
+* shouldn't

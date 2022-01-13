@@ -1,0 +1,67 @@
+= Modal verbs
+
+Modal verbs are auxiliary verbs that indicate modality, that is, likelihood, ability, permission, and obligation.
+
+Examples::
+* Can
+* Could
+* Must
+* May
+* Shall
+* Should
+
+== Can
+* Use _can_ for recommended actions. Also consider using "recommend".
+* Use _can_ to express that it is technically possible.
+* Use _can_ to give permission.
+
+//
+Examples::
+* *Yes*: You can also provide all the profile information. That makes it easier for others to find you.
+* *Yes*: We recommend that you fill in the profile information. That makes it easier for others to find you.
+* *Yes*: After providing valid credentials, you can use the full version of the software.
+* *No*: You should/may provide all the profile information.
+
+
+== Could
+* Use "could" when talking about a weak possibility, or something that might happen.
+* When talking about a possibility, use "can".
+
+//necessary comment to render description list.
+
+Examples::
+* *Yes*: If the connection is slow, the download could stop.
+* *No*: You could also provide all the profile information.
+This could make it easier for others to find you.
+
+== Must
+* Use _must_ to express a necessity, a logical conclusion, a prerequisite, or a technically required necessity.
+* Do not replace _must_ with _have to_.
+* Do not use _should_ instead of _must_.
+
+TIP: You can also use the imperative form to express necessity. Example: Uninstall the program before installing the new version.
+
+Examples::
+* *Yes*: You must uninstall the program before installing the new version.
+* *Yes*: Uninstall the program before installing the new version.
+* *No*: You should uninstall the program before installing the new version.
+* *No*: You have to uninstall the program before installing the new version.
+
+== May, shall
+* Do not use _may_ or _shall_.
+
+== Should
+* Do not use _should_ to express an expected result.
+If you use _should_, the user might think that the software will not carry out the action reliably. Instead, use simple present to describe the outcome of an action or process.
+* Do not use _should_ for recommended actions. Instead, use _can_.
+
+//necessary comment to render description list.
+
+Examples::
+* *Yes*: Click *Run* to create the report.
+The software generates a result.txt file and saves the file in the Results folder.
+* *No*: Click *Run* to create the report. The software should generate a result.txt file, which can be found in the Results folder.
+
+
+
+

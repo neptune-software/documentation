@@ -1,0 +1,26 @@
+= Abbreviations
+
+* Only use abbreviations that are well established, for example, AWS for Amazon Web Services.
+* Do not create your own abbreviations.
+* When you first introduce an abbreviation, use the spelled-out form, followed by the abbreviation in parentheses.
+** Continue with the abbreviation in the topic.
+** For each new topic, repeat introducing the abbreviation in this manner when it first occurs as a topic should be self-contained.
+
+== Example
+* We use Amazon Web Services (AWS).
+
+If you want to use AWS, make sure you have all the required information.
+
+== Latin abbreviations
+Do not use the following Latin abbreviations:
+
+* e.g. (for example)
+* i.e. (that is)
+
+Instead, use the long form and split it with commas:
+
+Examples::
+** Only use software that you trust, for example, Neptune DXP.
+** Only use a software service that guarantees data security, that is, protects your personal data and offers a VPN client.
+
+

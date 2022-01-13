@@ -1,0 +1,45 @@
+= Create a task topic
+
+== Title
+* Use an imperative verb acting on a single noun. Examples:
+
+** Add a course team member
+** Create an e-mail message
+** Install the software
+
+* Use sentence style (have no capital letters besides the first word).
+* Keep the title short but meaningful.
+
+== Introduction
+
+* After the title provide context.
+* Present information about what is described in this topic.
+* Why would the user complete this task in terms of a business or personal goal and not in terms of the software application.
+
+NOTE: Do not repeat the title.
+If the task is short and there is not much more to say than the tile, skip the introduction and start with the prerequisites.
+
+== Prerequisites
+List the prerequisites required to complete the task as bullet list.
+
+== Procedure
+
+* Write two or more task steps as an ordered list.
+* Provide step results when necessary.
+* Insert screenshots when necessary.
+* Insert special notices whenever needed:
++
+TIP: Provides a helpful tip, for example: Watch the video "How to create a resource group".
++
+NOTE: Provides important additional information on a subject.
++
+IMPORTANT: Warn readers about possible damage to equipment or data, about potential problems in the outcome of what they are doing, or potential negative experiences.
+
+== Result
+* A short sentence about what the user accomplished after going through all steps.
+
+== Next steps
+* List next steps, if any.
+
+== Related topics
+List related topics on the subject.

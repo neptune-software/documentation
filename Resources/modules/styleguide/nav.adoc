@@ -1,0 +1,42 @@
+.Styleguide
+* Style
+** xref:american-english.adoc[]
+** xref:best-practices.adoc[]
+** xref:minimalism.adoc[]
+** xref:adressing-the-reader.adoc[]
+** xref:active-voice.adoc[]
+** xref:biased-language.adoc[]
+* Topic-based approach
+** xref:topic-based-approach.adoc[]
+** Topic types and examples
+*** xref:task-topic.adoc[Task topic]
+**** xref:task-topic-example.adoc[Task topic example]
+*** xref:concept-topic.adoc[Concept topic]
+**** xref:concept-topic-example.adoc[Concept topic example]
+*** xref:reference-topic.adoc[Reference topic]
+**** xref:reference-topic-example.adoc[Reference topic example]
+* Sentence and word rules
+** xref:relative-clauses-who-that-which.adoc[]
+** xref:tenses.adoc[]
+** xref:capitalization.adoc[]
+** xref:headings.adoc[]
+** xref:lists.adoc[]
+** xref:numbers.adoc[]
+** xref:articles.adoc[]
+** xref:abbreviations.adoc[]
+** xref:modal-verbs.adoc[]
+** xref:contractions.adoc[]
+* Punctuation
+** xref:punctuation.adoc[]
+* Pictures
+** xref:captions.adoc[]
+* Special notices
+** xref:special-notices.adoc[]
+* Typographic conventions
+** xref:typographic-conventions-neptune.adoc[]
+* Neptune CI
+** xref:neptune-ci.adoc[]
+
+
+
+
