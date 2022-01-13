@@ -1,16 +1,13 @@
 = image:media-library.png[width=100] _Media Library_
 
 In the _Media Library_, you store all media files that you want to integrate into your application or use in other cockpit components.
-//@Fabian. files THAT you want - that added
-// or use in other cockpit components - gekürzt
-//Cockpit proper noun?
 
 The _Media Library_ organizes folders by file type.
 To improve searchability, only store media files in a folder that corresponds to their own file type.
-//Made the sentences active.
+
 
 The _Media Library_ supports the following media files:
-//Made active
+
 * Images
 * Audio files
 * Videos
@@ -18,5 +15,4 @@ The _Media Library_ supports the following media files:
 * Icons
 * Documents
 
-Learn more about how to xref:organize-media-library.adoc[organize files in the media library].
-//rephrased slightly
+Learn more about how to xref:organize-media-library.adoc[organize files in the _Media Library_].
