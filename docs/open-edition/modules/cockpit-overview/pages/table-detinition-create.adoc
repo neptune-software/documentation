@@ -10,6 +10,9 @@ NOTE: In this procedure we use sample data. You can exchange our data with your 
 
 . Open the Cockpit of your Neptune DXP - Open Edition.
 . Go to *Tools* and click *Table Definition*.
++
+image::tools-tabledefinition.png[width=800]
+
 . Click *Add* to create a new database table.
 +
 *Result*: The Table Definition configuration dialog opens. You start in the General tab.
@@ -25,12 +28,14 @@ NOTE: In this procedure we use sample data. You can exchange our data with your 
 
 . Navigate to the *Properties* tab.
 . Click *+ Add* to add a new column to the table.
-. Enter a column name to each column.
+. Enter a column name to each column, for example, "name", "number", "rank", and "squad".
 . In *Type*, select a data type for the column.
+//Helle@Helle: write reference topic on data types and add link here.
 . You can enter a *Description* and *Default value*.
 . For columns that can only have unique values, activate *Unique*.
 . For columns that can have no value, activate *Nullable*.
-//add screenshot
++
+image::tabledefinition-properties.png[width=800]
 +
 *Result*: You have added properties to the database table.
 
