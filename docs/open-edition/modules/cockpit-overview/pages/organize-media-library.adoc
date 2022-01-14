@@ -1,5 +1,6 @@
 = Organize files in the _Media Library_
-//Hier fehlt mir Text zwischen den beiden Überschriften
+
+You can import external media files into the _Media Library_ and organize them.
 
 == Import media files
 
