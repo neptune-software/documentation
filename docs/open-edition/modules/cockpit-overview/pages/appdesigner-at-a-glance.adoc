@@ -36,7 +36,7 @@ image::appdesigner-toolbar.png[width=800]
 
 Application:: Open, create, delete, or copy applications.
 Export and import applications, run a global search to find javascript code across all applications, generate a version, and refresh the master data.
-Display/Edit:: Click to toggle to Edit or Display mode.
+Display/Edit:: Click to toggle *Edit* or *Display* mode.
 Save:: Save your application. This saves all changes but does not apply the changes to the preview.
 Activate:: Save and activate your application. This saves changes and restarts the preview with all changes applied.
 Run:: Run the application in a separate browser tab.
@@ -114,7 +114,7 @@ The *Application preview* panel shows a preview of your application. You can run
 image::appdesigner-application-preview.png[width=200]
 
 == OpenUI5
-*OpenUI5* opens a website providing UI5 resources, such as a detailed documentation on Open UI5 components, API reference, and samples.
+*OpenUI5* opens a website providing UI5 resources, for example, a detailed documentation on Open UI5 components, API reference, and samples.
 
 == Neptune Community
-*Neptune Community* opens the community website giving you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
+*Neptune Community* opens the community website. It gives you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
