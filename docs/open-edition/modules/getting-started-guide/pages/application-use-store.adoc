@@ -1,6 +1,6 @@
 = Use an application from the _Store_
 
-Neptune _Store_ is a portal to publish or download applications.
+The _Store_ is a portal to publish or download applications.
 Neptune provides a collection of applications that can be downloaded by users.
 For more information, see xref:cockpit-overview:store.adoc[Store].
 
@@ -28,14 +28,14 @@ All:: Show all apps available in the store.
 Featured:: Show all featured apps available in the store.
 Trending:: Show apps that are most successful recently.
 Recent:: Shows the most recently published apps.
-//Review Fabian: Input needed what "private" applications show.
+//Input needed: What does "private" applications show?
 Private:: (...)
 . Click the application you want to install.
 . Click *Download* to download the app.
 +
 image::store-download.png[width=800]
 
-*Result*: You downloaded your application and can use it now.
+*Result*: You downloaded your application, and you can use it now.
 
 There are three places your app might appear:
 

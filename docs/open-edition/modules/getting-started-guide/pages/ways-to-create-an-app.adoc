@@ -2,6 +2,9 @@
 
 In this topic, you learn how to start creating an application in Neptune DXP - Open Edition. You can create applications in different and independent ways:
 
+// TODO
+
+
 * Creating a new app
 ** xref:app-from-scratch.adoc[]
 ** xref:app-with-template.adoc[]
