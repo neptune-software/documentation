@@ -1,0 +1,31 @@
+* Allow Untrusted Certificates: Allow self-signed certificates that were added in Authentication.
+//xref::authentication.adoc[]
+
+* Enable Proxy: Allow proxy to reach external servers to prevent CORS issues.
+
+* Enable Trace: Allow tracing activities of your API. You can see activities in the xref:api-client.adoc[_API Client_].
+
+* Use in App Designer & App Editor: Allow this API to be used in the App Designer or App Editor.
+
+
+////
+Allow Untrusted Certificates: Allow self-signed certificates added in Security -> Authentication
+
+Enable Proxy (Prevent CORS & Add API Authentication): Allows cross-domain connectivity. Enable to reach External servers to prevent CORS issues.
+
+Enable Trace:  Check to trace the logs for selected API. (Connectivity ->Rest API -> API Client)
+
+Use in App Designer & App Editor: Enable to use this API in API Designer and App Editor.
+
+Server script:
+
+Allow Untrusted Certificates: Allow self-signed certificates added in Security -> Authentication
+
+Enable Anonymous Access: Allow anonymous access to server scripts API.
+
+Enable Trace: Check to trace the logs for selected API (Connectivity ->Rest API -> API Client)
+
+Run server script in own process (slow performance)
+
+Use in App Designer & App Editor: Enable to use this API in API Designer and App Editor.
+////
