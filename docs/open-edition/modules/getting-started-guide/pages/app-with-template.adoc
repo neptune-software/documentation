@@ -114,7 +114,7 @@ image::appdesigner-componentproperties-binding.png[width=400]
 . Go to *title* and enter `Country`.
 . On the top menu, click *Save* and *Activate*.
 +
-image::appdesigner-top-side-menu-save-activate.png[400]
+image::appdesigner-top-side-menu-save-activate.png[width=400]
 
 === Preview your application
 
