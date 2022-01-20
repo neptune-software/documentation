@@ -2,7 +2,7 @@
 
 == Prerequisites
 
-* You have created a table definition.
+* You have created a table definition, for example, in xref:table-definition-create.adoc[_Table Definition_ and _Table Browser_].
 
 == Procedure
 
@@ -21,7 +21,7 @@ You start in the *General* tab.
 . In *API format*, Swagger 2.0 is preselected. You can select the newer version, Open API 3.0, here.
 //Helle@parson: no context given for API. Add to concept/reference topic, explain there and link here?
 
-. Enter a *Name* for your table definition.
+. Enter a *Name* for your table definition, for example, "Clones".
 . If the API belongs to a group of APIs and oData, select the group from the *Group* drop-down menu.
 . If you created a package for your APIs, applications, oData, and mock data before, select the package from the *Package* drop-down menu.
 . Enter a short and meaningful *Description* to your API.
@@ -32,7 +32,7 @@ You start in the *General* tab.
 . Activate any of the following options that fit your application:
 +
 --
-include::partial$api-designer-create.adoc[]
+include::partial$api-designer-create.adoc[tag=!*]
 --
 
 . Click *Save*.
@@ -42,7 +42,32 @@ image::api-designer-save.png[width=400]
 
 *Result*: Your API is saved with the current settings and is added to the library in the _API Designer_. _API Designer_ adds an ID to your API and saves change dates.
 
-=== Step 2: Add a definition and property
+=== Step 2: Add an operation
+
+[NOTE]
+====
+We describe how you add an operation manually. If you want to add the operations GET, PUT, POST, and DELETE with default settings, and definitions, you can import a table definition. You can still add, delete and change settings.
+
+image::api-designer-import-tabledefinition.png[width=400]
+====
+. Navigate to the *Operations* tab.
+. Click *+* to add an operation.
+. In *Path*, enter a slash (/) and the name of your table definition, for example, "/clonetroopers".
+. In *Method* select a method from the list:
++
+--
+include::partial$api-operations.adoc[]
+--
+//Helle@Neptune: Where's the difference between Summary and Description?
+. In *Tags*, enter keywords that describe the resource, for example, "clones".
+. Activate any of the following:
+//Helle@Neptune: Save Request Body explanation is assumptions, please check.
+** Trace Operations: Trace request you or others make to the API in _API Trace_.
+** Save Request Body: When you trace operations, the request details are traced, too.
+** Send Credentials (cookie): Use credentials for cookie-based authorization.
+** Use Example Data: Use example data to run an unfinished API in the App Designer. Example data is not traced in _API Trace_ or _API Client_.
+
+=== Step 3: Add a definition and property
 
 . Navigate to the *Definitions* tab.
 . Click *+*.

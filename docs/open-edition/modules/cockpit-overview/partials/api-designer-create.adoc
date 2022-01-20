@@ -1,9 +1,19 @@
 * Allow Untrusted Certificates: Allow self-signed certificates that were added in Authentication.
-//xref::authentication.adoc[]
+//Todo:xref::authentication.adoc[]
 
+// tag::script[]
+* Enable Anonymous Access
+// end::script[]
+
+// tag::external[]
 * Enable Proxy: Allow proxy to reach external servers to prevent CORS issues.
+// end::external[]
 
 * Enable Trace: Allow tracing activities of your API. You can see activities in the xref:api-client.adoc[_API Client_].
+
+// tag::script[]
+* Run server script in own process
+// end::script[]
 
 * Use in App Designer & App Editor: Allow this API to be used in the App Designer or App Editor.
 
