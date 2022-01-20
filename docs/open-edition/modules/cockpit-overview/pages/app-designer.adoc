@@ -1,4 +1,4 @@
-= image::appdesigner-icon.png[width=100]App Designer
+= image:appdesigner-icon.png[width=100]App Designer
 
 The _App Designer_ is the central starting point for application development.
 This is where you design the interface of your application, implement functionalities, and integrate data from resources.
