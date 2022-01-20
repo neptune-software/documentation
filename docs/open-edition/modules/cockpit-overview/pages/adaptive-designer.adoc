@@ -1,4 +1,4 @@
-= image::adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
+= image:adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
 
 With the _Adaptive Designer_, functional developers and business users, who have little technical experience, can create responsive, customizable, and functional applications without writing a single line of code.
 

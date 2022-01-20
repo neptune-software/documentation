@@ -1,4 +1,4 @@
-= image::connector.png[width=100,link="connector-icon.png"] Connector
+= image:connector.png[width=100,link="connector-icon.png"] Connector
 //@Neptune: check icon
 
 Neptune DXP Open Edition uses connectors to create an abstraction of the data sources for __Adaptive Designer__ applications.

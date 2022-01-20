@@ -1,4 +1,4 @@
-= image::the-blackout@2x.png[width=100]Tile Blackout
+= image:the-blackout@2x.png[width=100]Tile Blackout
 
 Use _Tile Blackout_ to inform users that an application or URL on a tile is under maintenance or unreachable.
 

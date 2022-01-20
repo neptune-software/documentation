@@ -1,4 +1,4 @@
-= image::code-snippet.png[width=100] Code Snippets
+= image:code-snippet.png[width=100] Code Snippets
 //@Neptune: Snippet needed, is not included in library
 
 In _Code Snippets_, you configure code snippets that you can use in _App Designer_ and _Script Editor_.

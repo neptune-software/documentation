@@ -1,4 +1,4 @@
-= image::pdf-designer-icon.png[width=100,link="pdf-designer-icon.png"] PDF Designer
+= image:pdf-designer-icon.png[width=100,link="pdf-designer-icon.png"] PDF Designer
 
 With the __PDF Designer__, you design your own PDF templates.
 
