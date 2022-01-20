@@ -9,7 +9,7 @@ The _App Designer_ is the starting point for the following actions:
 * Creating new HTML5 UIs
 * Updating the existing UI
 
-The _App Designer_ is a low code building environment suitable for most requirements and levels of complexity.
+The _App Designer_ is a low code development environment suitable for most requirements and levels of complexity.
 //Input needed - does it mean: _App Designer_ is a low code building environment that meets the requirements for programming apps of almost any level of complexity?
 
 In the _App Designer_, you drag and drop components to build an application.
@@ -17,7 +17,7 @@ You can use the following component types:
 
 * Resource components, for example, to use Javascript and RestAPIs
 * Highchart components to create graphs and plots
-* Bootstrap components to make your application responsive
+* Bootstrap components to design and structure your application and give them a non SAP look and feel
 * OpenUI5 components to design and structure your application
 
 == Related Topics
