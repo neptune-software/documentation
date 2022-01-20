@@ -59,13 +59,15 @@ image::appdesigner-editortools.png[width=800]
 Expand and Collapse:: Expand and collapse groups of the *Application component* panel.
 Undo:: Undo your last changes.
 Run:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
-Header:: The header editor
+Header:: The html5 header editor
 //@Neptune Input needed: is this where I define a global HTML5 head for my application?
-Stylesheet:: The stylesheet editor
+//correct
+Stylesheet:: The css stylesheet editor
 //@Neptune Input needed: is this a global css sheet for my application?
 
 //Web App Manifest editor
 //@Neptune Input needed
+//This is an old functionality which is deprecated. We should leave it empty.
 
 Script search:: Open the *Search and ToDo List* panel and search for scripts.
 ToDo List:: Open the *Search and ToDo List* panel.
@@ -86,7 +88,7 @@ Components are divided into four sections:
 
 * Resource components, for example, to use Javascript and RestAPIs
 * Highchart components to create graphs and plots
-* Bootstrap components to make your application responsive
+* Bootstrap components to design and structure your application in a non sap look and feel
 * OpenUI5 components to design and structure your application
 
 == Application component panel
