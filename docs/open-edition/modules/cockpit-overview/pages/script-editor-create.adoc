@@ -1,0 +1,26 @@
+= Create new scripts
+
+You want to write new scripts. You can either use the resources stored within Neptune DXP - Open Edition as starting point or write complete new scripts
+
+== Prerequisites
+* You have the _Script Editor_ open.
+* You have a project open.
+
+When you open a new project, the entries *Scripts* and *Globals* are entered by default.
+
+image::script-editor-new.png[,800]
+
+== Procedure
+. Right-click on *Scripts*.
+.. Click *Import Scripts* to import a script that is stored on your computer.
+. Click *New scripts*.
++
+A new window opens.
+. Enter a name for the script, write a description and choose whether to use typescript.
++
+image::script-editor-new-serverscript.png[,400]
+
+== Result
+Your new script automatically opens in the working space on the right side. You can start editing it now by dragging and droping elements from the *Resources* in your script.
+
+== Related topics

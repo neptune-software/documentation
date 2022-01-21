@@ -7,12 +7,20 @@ _Script Editor_ comes with the following advantages:
 * Automate processes by reusing predefined scripts
 * Add functionality to your applications
 * Integrate your instance in an application built outside Neptune DXP - Open Edition.
+* Avoid time-consuming calculations that blockade your interface
+
+
+The runtime for scripts is node environment. Scripts run either inside a separate process or as a global process, which always runs in memory.
 
 You can use APIs, tables, global scripts, and NPM modules to create scripts.
 
-You open the _Script Editor_ via *Cockpit* > *Documentation*.
+Click *Cockpit* > *Documentation* to open the _Script Editor_.
 
-Related topics:
+image::script-editor-overview.png[,800]
 
-* Create a new script
+_Script Editor_ works with projects. A project serves as wrapper file that contain one or more scripts on a specific topic.
+
+== Related topics
+
+* Create a new project
 * Open existing scripts

@@ -1,0 +1,19 @@
+= Open an existing project
+
+You want to open an existing project. You can check for the existing scripts inside the project or add new scripts to the project.
+
+== Prerequisites
+* You have the _Script Editor_ open.
+
+== Procedure
+
+. Click *Project* > *Open*.
++
+image::script-editor-open.png[,400]
+A new window with the list of available projects open.
+. Click on a project to open it.
+
+== Result
+You opened an existing project and can start adding the scripts.
+
+== Related topics

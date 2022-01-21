@@ -1,0 +1,23 @@
+= Create a new project
+
+You want to create a new project.
+
+== Prerequisites
+* You have the _Script Editor_ open.
+
+== Procedure
+
+. Click *Project* > *Create*.
++
+image::script-editor-create.png[,400]
+A new window opens.
+. Enter a name for your project. Optionally, enter a description and choose a package.
+//Input needed: What can you do with these packages?
++
+image::script-editor-create-project.png[,400]
+. Click *Save*.
+
+== Result
+You created a new project and can start writing.
+
+== Related topics
