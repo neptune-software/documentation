@@ -24,3 +24,5 @@ image::script-editor-new-serverscript.png[,400]
 Your new script automatically opens in the working space on the right side. You can start editing it now by dragging and droping elements from the *Resources* in your script.
 
 == Related topics
+//* xref:script-editor-import-code.adoc[]
+//* xref:script-editor-add-tables.adoc[]

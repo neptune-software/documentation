@@ -1,6 +1,7 @@
 = Create a new project
 
-You want to create a new project.
+_Script Editor_ works with projects.
+A project serves as wrapper file that contain one or more scripts on a specific topic.
 
 == Prerequisites
 * You have the _Script Editor_ open.
@@ -18,6 +19,7 @@ image::script-editor-create-project.png[,400]
 . Click *Save*.
 
 == Result
-You created a new project and can start writing.
+You created a new project and can start adding the scripts.
 
 == Related topics
+* xref:script-editor-open.adoc[]
