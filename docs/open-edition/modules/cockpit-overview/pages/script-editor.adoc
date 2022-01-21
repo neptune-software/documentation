@@ -1,4 +1,4 @@
-= Script Editor
+= image:script-editor.png[width=100] Script Editor
 
 In _Script Editor_, you can create server-side scripts to extend your instance beyond the standard configurations.
 
@@ -10,7 +10,9 @@ _Script Editor_ comes with the following advantages:
 
 You can use APIs, tables, global scripts, and NPM modules to create scripts.
 
-You open the _Script Editor_ in the *Cockpit* > *Documentation*.
+You open the _Script Editor_ via *Cockpit* > *Documentation*.
 
 Related topics:
 
+* Create a new script
+* Open existing scripts
