@@ -1,5 +1,16 @@
 = Script Editor
 
 In _Script Editor_, you can create server-side scripts to extend your instance beyond the standard configurations.
-You can automate processes, add functionality to your applications, or integrate your instance in an application built outside the Neptune DXP - Open Edition.
-You can use APIs, tables, global scripts, and NPM modules.
+
+_Script Editor_ comes with the following advantages:
+
+* Automate processes by reusing predefined scripts
+* Add functionality to your applications
+* Integrate your instance in an application built outside Neptune DXP - Open Edition.
+
+You can use APIs, tables, global scripts, and NPM modules to create scripts.
+
+You open the _Script Editor_ in the *Cockpit* > *Documentation*.
+
+Related topics:
+
