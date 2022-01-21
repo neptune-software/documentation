@@ -1,4 +1,4 @@
-= image:api-trace-icon.png[width=100,link="api-trace-icon.png"] API Trace
+= image::api-trace-icon.png[width=100,link="api-trace-icon.png"] API Trace
 
 __API Trace__ lets you monitor API calls that applications make to the server.
 You also can probe when and who run an API on the server.

@@ -1,10 +1,10 @@
-= image:tile-group-icon.png[width=100]Tile groups
+= image::tile-group-icon.png[width=100]Tile groups
 
 A _Tile group_  includes several tiles and is displayed on the __Launchpad__.
 A user must have the same role as the tile group to see the group.
 //@Neptune. Is that also true of tiles?
 
-image:tile-group-role-tile.png[width=400,link="tile-group-role-tile.png"]
+image::tile-group-role-tile.png[width=400,link="tile-group-role-tile.png"]
 
 //@Neptune. Can we show an example of a tile group?
 

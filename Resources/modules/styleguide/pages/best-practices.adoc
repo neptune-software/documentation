@@ -2,4 +2,3 @@
 
 * Do not use jargon.
 * Do not use marketing content in technical documentation.
-tbc

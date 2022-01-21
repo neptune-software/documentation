@@ -1,4 +1,4 @@
-= image:lock-entries-icon.png[width=100]Lock Entries
+= image::lock-entries-icon.png[width=100]Lock Entries
 :figure-caption!:
 
 A lock mechanism prevents that components can be changed simultaneously.

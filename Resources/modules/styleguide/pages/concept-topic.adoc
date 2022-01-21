@@ -1,16 +1,21 @@
 = About concept topics
-Provide conceptual information, for example, about the architecture of a software.
 
-Requires no standard structure.
+* Provide conceptual information, for example, about the architecture of a software.
+
+* Concept topics require no standard structure.
 
 == Best practices
 
 * Keep the topic short.
 * Structure the topic well with headlines and sub-headlines.
-* Make sure that the topic is self-contained can stand on its own.
+* Make sure that the topic is self-contained and can stand on its own.
+* Reintroduce abbreviations that are mentioned in another topic.
 * Link to related topics (task, concept, reference).
-* If the topics becomes too long and could be split into several independent topics, split it up.
+* If the topics become too long, split it up into several independent topics.
+Make sure that the split-up topics are still self-contained.
 
 == Related topics
-* Task topics
-* Reference topics
+* xref:task-topic.adoc[Task topic]
+* xref:task-topic-example.adoc[Task topic example]
+* xref:reference-topic.adoc[Reference topic]
+* xref:reference-topic-example.adoc[Reference topic example]
