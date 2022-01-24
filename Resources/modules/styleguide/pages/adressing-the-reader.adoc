@@ -1,4 +1,4 @@
-= Adressing the reader
+= Addressing the reader
 
 Even though your document may affect thousands of people, you are speaking to the one person who is reading it.
 When your writing reflects this, it is more economical and has a greater impact.
@@ -7,7 +7,7 @@ When your writing reflects this, it is more economical and has a greater impact.
 Pronouns help the audience picture themselves in the text and relate to what you are saying.
 More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
 
-When you use “you” to address users, they are more likely to understand what their responsibility is.
+When you use “you” to address users, they are more likely to understand what their responsibility is. The use of passive constructions makes it unclear who is responsible for a particular task.
 
 === Example
 * *Yes*: Update the software before using the new features.
@@ -18,7 +18,7 @@ You can avoid awkwardness by using “you” to address the reader directly, rat
 
 === Example
 * *Yes*: You must provide your mailing address and identification number.
-* *No*:The applicant must provide his or her mailing address and his or her identification number.
+* *No*: The applicant must provide his or her mailing address and his or her identification number.
 
 == Related topics
 * xref:active-voice.adoc[]

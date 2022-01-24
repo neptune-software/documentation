@@ -4,7 +4,7 @@
 
 * The easiest way to avoid bias in your writing is to refer to people in a neutral format.
 
-* Keep current with accepted usage and, if you are unsure of the appropriateness of an expression or the tone of a passage, have several colleagues review the material and give you their assessments.
+* Keep current with accepted usage and, if you are unsure of the appropriateness of an expression or the tone of a passage, have several colleagues review the material and give their assessments.
 
 * To avoid sexism in your writing, treat men and women equally.
 
@@ -12,27 +12,26 @@
 Use nonsexist occupational descriptions in your writing.
 
 == Quick fixes
-Revising to avoid sexist language will help make your message more accessible to readers who might otherwise feel excluded. When you revise, avoid the easy edits that introduce stylistic clunkers such as “his/her” and “s/he,” or the questionable grammar of a mixed version such as “one should wash their hands every day” (“one” is singular, but “their” is plural).
+Revising to avoid sexist language helps making your message more accessible to readers who might otherwise feel excluded.
+When you revise, avoid the easy edits that introduce stylistic clunkers such as "his/her" and "s/he," or the questionable grammar of a mixed version such as “one should wash their hands every day" ("one" is singular, but "their" is plural).
 
 * Make your sentences imperative: Using the command form of verbs allows you to use the second person (you and your) instead of the third person (he and she).
 +
 Example:: Start your sentence with a verb.
 
-* Use plural nouns and pronouns. By making your nouns and pronouns plural, you can use they and their to avoid gender bias.
+* Use plural nouns and pronouns. By making your nouns and pronouns plural, you can use "they" and "their" to avoid gender bias.
 People often use plural pronouns with their singular nouns, but that usage is incorrect.
 
-+
-Examples::
 
-* *No*: When a writer replaces a noun with a pronoun in their writing, it should be aligned in number and gender.
-* *Yes* : When writers replace a noun with a pronoun in their writing, it should be aligned in number and gender.
+Examples:: *No*: When *a writer* replaces a noun with a pronoun in their writing, it should be aligned in number and gender.
++
+*Yes* : When *writers* replace a noun with a pronoun in their writing, it should be aligned in number and gender.
 
 * Remove the pronoun. In many cases, the pronoun is not necessary in the sentence, and it can simply be removed.
 +
-Examples::
-
-* (gender bias): When you are explaining your side of a topic to a friend, you can send him sources to reinforce your point.
-* (without pronoun): When you are explaining your side of a topic to a friend, you can send sources to reinforce your point.
+Examples:: (gender bias): When you are explaining your side of a topic to a friend, you can send *him* sources to reinforce your point.
++
+(without pronoun): When you are explaining your side of a topic to a friend, you can send sources to reinforce your point.
 
 * Replace the pronoun with a more generic noun. An easy fix for gender bias is to replace the pronoun with a noun such as individual, user, participant, person, etc.
 
@@ -43,20 +42,20 @@ When looking over the document, the reader found some errors.
 * Repeat the noun, especially if there is a possibility of confusion. Often, it is effective to repeat the noun instead of using a pronoun. This is especially effective when you have more than one noun in the sentence that the pronoun could be referring to.
 
 +
-Examples::
-* (gender bias): The editor and the writer disagreed about avoiding gender bias, but he convinced him to avoid it in the end.
-* (with repeated noun): The editor and the writer disagreed about avoiding gender bias, but the editor convinced the writer to avoid it in the end.
+Examples:: (gender bias): The editor and the writer disagreed about avoiding gender bias, but *he* convinced him to avoid it in the end.
++
+(with repeated noun): The editor and the writer disagreed about avoiding gender bias, but *the editor* convinced the writer to avoid it in the end.
 
 * Replace pronouns with articles. In some instances, you can replace the pronoun with an article (a, an, or the).
 
 +
-Examples::
-* (gender bias): The writer takes his style guide everywhere.
-* (with article): The writer takes a style guide everywhere
+Examples:: (gender bias): The writer takes *his* style guide everywhere.
++
+(with article): The writer takes *a* style guide everywhere.
 
 * Rephrase the sentence. Sometimes the best route is to rephrase the sentence to avoid gender bias.
 
 +
-Examples::
-* (gender bias): It can be helpful for a writer to step away from his document for a few days before editing it because he is too close to his document.
-* (rephrased): Writers get very close to their work, so it can be helpful for them to step away from their document for a few days before editing it.
+Examples:: (gender bias): It can be helpful for a writer to step away from his document for a few days before editing it because he is too close to his document.
++
+(rephrased): Writers get very close to their work, so it can be helpful for them to step away from their document for a few days before editing it.

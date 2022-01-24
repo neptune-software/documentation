@@ -2,7 +2,7 @@
 
 == Prefer active to passive voice
 Active voice is clearer and shorter and emphasizes the role of the actor instead of the action.
-An actor can be a user or even software.
+An actor can be a user or even a software.
 Because we write from a user's perspective, the active voice is more friendly.
 If the actor is unknown or irrelevant, you can use passive voice.
 
@@ -12,14 +12,14 @@ Examples::
 
 == Avoid impersonal formulation
 Avoid „is/are to be + participle“ to express a task.
-This structure is  complicated and does not address the reader directly.
+This structure is complicated and does not address the reader directly.
 A direct instruction facilitates the quick and easy execution of a task.
 
 Examples::
 * *Yes*: Install the software after the download.
-* *No*: The software is to be installed after the download.
+* *No*: The software has to be installed after the download.
 * *Yes*: Execute the command.
-* *No*: The command is to be executed.
+* *No*: The command has to be executed.
 
 
 

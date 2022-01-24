@@ -3,12 +3,12 @@
 == Main components
 The Neptune DXP - Open Edition comprises the following main components:
 
-* __Launchpad__
-* __App Designer__
-* __API Designer__
-* __Workflow Engine__
-* __Script Editor__
-* __Application Building Blocks__
+* _Launchpad_
+* _App Designer_
+* _API Designer_
+* _Workflow Engine_
+* _Script Editor_
+* _Application Building Blocks_
 
 === Launchpad
 The __Launchpad__ is a shell that hosts applications and provides these applications with services, such as navigation, personalization, and embedded support.
@@ -138,7 +138,10 @@ An aggregation is a parent-child relationship between two UI elements.
 
 The shell-app–page structure is an aggregation where you can put as many child components within the page as you want.
 
-IMPORTANT: There are aggregations that do not work and cause errors. *Example*: Inserting a Slider component directly in a list cause an error stating that a Slider is not a valid aggregation for a list. However, a list can contain a number of children, such as a StandardListItem. This will not cause problems.
+IMPORTANT: There are aggregations that do not work and cause errors.
+*Example*: Inserting a Slider component directly in a list cause an error stating that a Slider is not a valid aggregation for a list.
+However, a list can contain a number of children, such as a StandardListItem.
+This will not cause problems.
 
 .Example: IconTabBar
 There is an IconTabBar component with three IconTabFilters, of which one contains a text component.

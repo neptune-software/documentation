@@ -1,4 +1,4 @@
-= image:api-client@2x.png[width=100,link="api-client-icon.png"] API Client
+= image::api-client@2x.png[width=100,link="api-client-icon.png"] API Client
 
 With __API Client__ you send API requests to test the response from the REST API.
 

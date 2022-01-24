@@ -2,9 +2,9 @@
 
 In this topic you learn how to create an application that displays data using a Rest API.
 
-You can follow step-by-step to use a pre-made API or adjust the steps to use an API that you made yourself.
+You can follow step-by-step to use a pre-configured API or adjust the steps to use an API that you created yourself.
 
-//Helle@Neptune: I used the API from Lloyd's e-Learning programme instead of the API from the original documentation. This is easier for user since Lloyd's API is available to them, meaning that they can decide whether to use their own or Lloyd's API. Providing an API for this guide also ensures that newbies can get starting without having to build an API first.
+//Helle@Neptune: I used the API from Lloyd's e-Learning programme instead of the API from the original documentation. This is easier for user since Lloyd's API is available to them, meaning that they can decide whether to use their own or Lloyd's API. Providing an API for this guide also ensures that beginner can get starting without having to build an API first.
 
 == Prerequisites
 
@@ -13,17 +13,17 @@ You can follow step-by-step to use a pre-made API or adjust the steps to use an 
 
 == Procedure
 
-//Helle@Helle: add to partials
 [TIP]
 ====
 You can save your new application any time in the process and return to it later.
-To continue building your application, open it in the __App Designer__ and click *Toggle to edit mode* on the top menu.
+To continue building your application, open it in the _App Designer_ and click *Toggle to edit mode* on the top menu.
 
 image::appdesigner-top-menu-edit.png[width=400]
 ====
 
 === First configuration of your application
-. Open the Cockpit of your Neptune DXP - Open Edition, and in  *Development*, click _App Designer_.
+. Open the Cockpit of your Neptune DXP - Open Edition.
+. In  *Development*, click _App Designer_.
 +
 image::cockpit-development-appdesigner.png[width=800]
 . In the _App Designer_, open the *Application* drop-down menu and click *Create*.
@@ -40,28 +40,26 @@ image::appdesigner-side-menu-settings.png[width=400]
 . In *General*, enter a *Description* for your application and a *Title*.
 //Helle@Neptune: Where does this appear? Is it visible to the user of the application or the devs only?
 . In *OpenUI5*, select an Open UI5 *Version*, *Theme*, and *Language* for your application.
-//Uta: Link to documentation on UI5?
-//Helle: couldn't find anything on that.
 +
-TIP: The preselected Belize theme gives you the most popular look and feel.
+TIP: The preselected _Belize_ theme gives you the most popular look and feel.
 . On the top menu, click *Save*.
 +
 image::appdesigner-top-side-menu-save.png[width=400]
 
-*Result*: You have done the first configuration of your application.
+*Result*: You completed the first configuration of your application.
 
 TIP: You create your new application in the _App Designer_.
-To learn more about the panels and functionalities of the _App Designer_, go to xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance].
+To learn more about the panels and functionalities of the _App Designer_, go to xref:cockpit-overview:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance].
 
 === Create general structure
-In this step, you create a general structure for your application and add  a *Shell*, *App*, and other components.
-The *Shell* provides functionality and allows for visual adaptation of your application.
-The *App* provides a more detailed graphical user interface for your application.
+In this step, you create a general structure for your application and add a *Shell*, *App*, and other components.
 
-*Shell* and *App* build the base of any application you create with the DXP - Open Edition.
+* The *Shell* provides functionality and allows for visual adaptation of your application.
+* The *App* provides a more detailed graphical user interface for your application.
+
+*Shell* and *App* build the base of any application you create with DXP - Open Edition.
 //Helle@Neptune: assumption, please check.
 
-//Helle@Helle add to partials
 [NOTE]
 ====
 The following steps use the component tree from the *Reusable component* panel to navigate to components.
@@ -71,17 +69,17 @@ image::appdesigner-component-search2.png[width=400]
 ====
 
 . On the side menu, click *Designer*.
-. On the *Reusable component* panel, open *sap.m* > *Application*.
+. On the *Reusable component* panel, open *OpenUI5* > *sap.m* > *Application*.
 . Drag and drop the *Shell* component onto the *HTML5 Document* in the *Application component* panel.
 . Drag and drop the *App* component onto the *Shell* component in the *Application component* panel.
 . Drag and drop the *Page* component onto the *App* component in the *Application component* panel.
 +
-image::appdesigner-shell-app-page.png[width=800]
+image::cockpit-overview:appdesigner-shell-app-page.png[width=800]
 *Result*: You have created the general structure of your application.
 Each component is automatically renamed to *oShell*, *oApp*, or *oPage*.
 +
-. Select the *oPage* component, and on the *UI object* panel, change the *Name* to "oPageStart".
-. On the *Component properties* panel, scroll to the *title* attribute and enter "Start Page".
+. Select the *oPage* component, and on the *UI object* panel, change the *Name* to `oPageStart`.
+. On the *Component properties* panel, scroll to the *title* attribute and enter `Start Page`.
 . On the top menu, click *Save* and *Activate*.
 
 +
@@ -91,7 +89,6 @@ image::appdesigner-top-side-menu-save-activate.png[width=400]
 *Result*: You have created a general structure for your application.
 You have created a shell, an app, and a page.
 
-//Helle@Helle: add to partials
 
 === Preview your application
 You can preview your application in the *Application preview* panel in the _App Designer_ or in a new browser tab.
@@ -114,8 +111,8 @@ image::appdesigner-top-menu-run.png[width=400]
 In this example, we use an API with equipment details.
 We integrate the data in a table for an exemplary equipment overview.
 
-. On the *Reusable component* panel, open *sap.m* > *Table Responsive* and drag and drop the *Table* component onto *oPageStart* in the *Application component* panel.
-. On the *UI object* panel, name your *Table* "oTableEquipment".
+. On the *Reusable component* panel, open *OpenUI5* > *sap.m* > *Table Responsive* and drag and drop the *Table* component onto *oPageStart* in the *Application component* panel.
+. On the *UI object* panel, name your *Table* `oTableEquipment`.
 . On the *Reusable component* panel, open *Resources* and drag and drop the *RestAPI* component onto *Resources* in the *Application component* panel.
 . On the *UI object* panel, click the *Rest API* field to open the *Rest API* library.
 . Search either for your API or *API 1equipment*.
@@ -129,14 +126,14 @@ Now you bind the *Rest API* to the table to display data in your table.
 +
 . On the *UI object* panel, click the *API* tab and navigate to *Response* > *200*.
 . Click into the field that matches the *Operation* of your API and select your table from the list.
-In our example, it is "oTableEquipment".
+In our example, it is `oTableEquipment`.
 . On the *Model* tab, click into the *setInitLoad* field and select *online* from the list.
 +
 image::appdesigner-componentproperties-restapi-model-online.png[width=400]
 +
 . On the *Application component* panel, select *oTableEquipment*.
 . On the *UI object* panel, click into the *Model Source* field, and from the *Binding* pop-up window, select the property from your API.
-In our example, it is "1equipment".
+In our example, it is `1equipment`.
 . Right-click *oTableEquipment*, and from the drop-down menu, select *Wizard* > *Insert Fields - Edit*.
 . In the *Wizard* window, check all properties you want to display in the table and click *Create*.
 +
@@ -149,14 +146,14 @@ To see the changes, restart the preview as described in <<Preview your applicati
 
 === Add a footer with a button
 
-. On the *Reusable component* panel, open *sap.m* > *Application* and drag and drop the *Bar* component onto *oPageStart* in the *Application component* panel.
+. On the *Reusable component* panel, open *OpenUI5* > *sap.m* > *Application* and drag and drop the *Bar* component onto *oPageStart* in the *Application component* panel.
 . From the pop-up menu that opens when you drop the component, select *Footer*.
 +
 image::appdesigner-bar-footer.png[width=400]
 +
-. On the *Reusable component panel*, open *sap.m* > *Application* and drag and drop the *BarContent* component onto *oBarFooter* in the *Application component* panel.
+. On the *Reusable component panel*, open *OpenUI5* > *sap.m* > *Application* and drag and drop the *BarContent* component onto *oBarFooter* in the *Application component* panel.
 . From the pop-up menu that opens when you drop the component, select *Middle*.
-. On the *Reusable component panel*, open *sap.m* > *Simple Controls* and drag and drop the *Button* component onto *Middle* in the *Application component* panel.
+. On the *Reusable component panel*, open *OpenUI5* > *sap.m* > *Simple Controls* and drag and drop the *Button* component onto *Middle* in the *Application component* panel.
 . On the *Component properties* panel, open the *Properties* tab.
 . In *text*, enter "Update" and in *type*, select *Emphasized* from the list.
 +
@@ -167,7 +164,7 @@ Now you need to add functionality to the button.
 . In the *Attributes* tab on the *Component properties* panel, click into the *setInitLoad* field in *Model* and click *Clear*.
 //Helle@Neptune: why do you first set it to online? Why do you clear it now? What happens behind the scenes?
 . On the *Application component* panel, click *oButton*.
-. On the *Component properties* panel, open the *Events* tab and enter a name for the *press* event, for example "UpdatePress".
+. On the *Component properties* panel, open the *Events* tab and enter a name for the *press* event, for example `UpdatePress`.
 . Click the *document-text* icon next to the name.
 +
 image::appdesigner-componentproperties-document-text.png[width=400]
@@ -192,5 +189,5 @@ You have created an application to display and update information about equipmen
 * You have created a button to update data in the table.
 
 == Related topics
-* xref::app-with-template.adoc[]
-* xref::appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
+* xref:app-with-template.adoc[]
+* xref:cockpit-overview:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
