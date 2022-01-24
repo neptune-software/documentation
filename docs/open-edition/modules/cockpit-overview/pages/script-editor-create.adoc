@@ -1,10 +1,11 @@
 = Create new scripts
 
-You want to write new scripts. You can either use the resources stored within Neptune DXP - Open Edition as starting point or write complete new scripts
+You want to create new scripts.
+You can either use the resources stored within Neptune DXP - Open Edition as starting point or write complete new scripts.
 
 == Prerequisites
 * You have the _Script Editor_ open.
-* You have a project open.
+* You have a project open, see xref:script-editor-new.adoc[] or xref:script-editor-open.adoc[].
 
 When you open a new project, the entries *Scripts* and *Globals* are entered by default.
 
@@ -21,8 +22,12 @@ A new window opens.
 image::script-editor-new-serverscript.png[,400]
 
 == Result
-Your new script automatically opens in the working space on the right side. You can start editing it now by dragging and droping elements from the *Resources* in your script.
+Your new script automatically opens in the working space on the right side. You can start editing it by dragging and dropping elements from the *Resources* into your script.
 
 == Related topics
-//* xref:script-editor-import-code.adoc[]
-//* xref:script-editor-add-tables.adoc[]
+//* xref:script-editor-import-code.adoc[Import code]
+//* xref:script-editor-add-tables.adoc[Add tables]
+//* xref:script-editor-search-content.adoc[Search for content in the all stored scripts]
+//* xref:script-editor-add-globalscript.adoc[Add a new Global Script]
+//* (...)
+

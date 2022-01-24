@@ -9,10 +9,10 @@ _Script Editor_ comes with the following advantages:
 * Integrate your instance in an application that is created outside Neptune DXP - Open Edition.
 * Avoid time-consuming calculations that blockade your interface
 
-The runtime for scripts is the nodejs environment.
+The runtime for scripts is the Node.js environment.
 Scripts run either inside a separate process or as a global process.
 
-You can use APIs, tables, global scripts, and NPM modules to create scripts.
+You can use APIs, tables, global scripts, and npm modules to create scripts.
 
 Click *Cockpit* > *Documentation* to open the _Script Editor_.
 

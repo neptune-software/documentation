@@ -12,10 +12,11 @@ A project serves as wrapper file that contain one or more scripts on a specific 
 +
 image::script-editor-open.png[,400]
 A new window with the list of available projects open.
-. Click on a project to open it.
+. Click once on a project to open it.
 
 == Result
 You opened an existing project and can start adding the scripts.
 
 == Related topics
 * xref:script-editor-new.adoc[]
+* xref:script-editor-create.adoc[]
