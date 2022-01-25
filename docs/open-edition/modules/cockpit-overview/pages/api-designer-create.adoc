@@ -1,5 +1,7 @@
 = Create a table definition API with the _API Designer_
 
+//@Neptune: inspired by Neptune e-learning (SWAPI) and Neptune CI (more funny and geeky than serious), I used Star Wars themed sample data. Hope it's okay.
+
 == Prerequisites
 
 * You have created a table definition, for example, in xref:table-definition-create.adoc[_Table Definition_ and _Table Browser_].
