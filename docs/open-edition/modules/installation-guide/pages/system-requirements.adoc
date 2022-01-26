@@ -16,9 +16,9 @@ Neptune DXP - Open Edition can be installed on the following servers:
 == Client browser
 Neptune DXP - Open Edition runs in following browsers:
 
-* Microsoft Internet Explorer 11
-* Microsoft Edge: latest version
+* Internet Explorer 11
 * Google Chrome: latest version
+* Microsoft Edge: latest version
 * Mozilla Firefox: latest version
 
 == Client mobile app

@@ -121,3 +121,4 @@ image::appdesigner-application-preview.png[width=200]
 
 == Neptune Community
 *Neptune Community* opens the community website. It gives you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
+
