@@ -2,95 +2,123 @@
 
 The _App Designer_ interface consists of the following elements:
 
-* Menu
-* Toolbar
-* Editor tools
-* UI object panel
-* Component properties panel
-* Application component panel
-* Application preview panel
-* Open UI5
-* Neptune community
-* Reusable component panel
+* xref:_menu[]
+* xref:_toolbar[]
+* xref:_editor_tools[]
+* xref:_reusable_component_panel[]
+* xref:_application_component_panel[]
+* xref:_ui_object_panel[]
+* xref:_component_properties_panel[]
+* xref:_application_preview_panel[]
+* xref:_openui5[]
+* xref:_neptune_community[]
 
-image::appdesigner-interface.png[Appdesigner interface,800]
+image::appdesigner-interface-clear.png[width=800]
 
 == Menu
+
+When you open the _App Designer_, you will only see the icons.
+Toggle the items by clicking the *Menu* icon.
+
 The *Menu* includes the following items:
 
-image::appdesigner-menu.png[Appdesigner menu,200]
+image::appdesigner-menu.png[width=200]
 
-
-* *Settings*: Configure the UI5 version and application properties.
-* *Designer*: Design your application.
-* *Translation*: Translate the text of screen objects.
-* *Version Management*: Manage different versions of your files.
-
-Toggle the items by clicking the *Menu* icon.
+Settings:: Configure the OpenUI5 version and application properties.
+Designer:: You start here when you open the _App Designer_. Develop your application.
+Translation:: Translate the text of screen objects.
+Version Management:: Manage different versions of your files.
 
 == Toolbar
 The *Toolbar* includes the following items:
 
-image::appdesigner-toolbar.png[Appdesigner toolbar,800]
+image::appdesigner-toolbar.png[width=800]
 
-* *Application*: Open, create, delete, or copy applications. Export and import applications, run a global search to find javascript code across all applications, generate a version, and refresh the master data.
-* *Display/Edit*: Click to toggle to Edit or Display mode.
-* *Save*: Save your application.
-* *Activate*: Activate your application.
-* *Run*: Run the application in a separate browser tab.
-* *Screen views*: Switch panel views and switch between a one-column and two-column view. The one-column view hides the *UI object panel*.
+Application:: Open, create, delete, or copy applications.
+Export and import applications, run a global search to find javascript code across all applications, generate a version, and refresh the master data.
+Display/Edit:: Click to toggle *Edit* or *Display* mode.
+Save:: Save your application. This saves all changes but does not apply the changes to the preview.
+Activate:: Save and activate your application. This saves changes and restarts the preview with all changes applied.
+Run:: Run the application in a separate browser tab.
+Screen views:: Switch panel views.
+The standard _App Designer_ view has four panels: The *Reusable component* panel, *Application component* panel, *Application preview* panel, and *UI object* panel.
++
+image:appdesigner-views-stack.png[width=45] Combine the *Reusable component* panel and *Application component* panel.
++
+image:cockpit-overview:appdesigner-views-switch.png[width=45]
+Switch *Application component* panel and *UI object* panel.
++
+image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
+Hide the *UI object* panel.
 
 == Editor tools
-The *Editor tools* includes the following tabs:
+The *Editor tools* include the following items:
 
-image::appdesigner-editortools.png[Appdesigner editortools,800]
+image::appdesigner-editortools.png[width=800]
 
-* *Expand/Collapse*: Expand and collapse groups of the component panel.
-* *Undo*: Undo changes.
-* *Run*: Run the application in the _App Designer_.
-* *Header*: The header editor
-* *Stylesheet*: The stylesheet editor
-* *Web App Manifest* editor
-//Input needed
-* *Script search*: Search for scripts.
-* *ToDo*:
-//Input needed
-* *Display Data Flow*: Display data flows for APIs and UI5 models.
+Expand and Collapse:: Expand and collapse groups of the *Application component* panel.
+Undo:: Undo your last changes.
+Run:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
+Header:: The html5 header editor
+//@Neptune Input needed: is this where I define a global HTML5 head for my application?
+//correct
+Stylesheet:: The css stylesheet editor
+//@Neptune Input needed: is this a global css sheet for my application?
 
-Easily switch between opened tabs. Click *Close all tabs* to close all open tabs.
+//Web App Manifest editor
+//@Neptune Input needed
+//This is an old functionality which is deprecated. We should leave it empty.
+
+Script search:: Open the *Search and ToDo List* panel and search for scripts.
+ToDo List:: Open the *Search and ToDo List* panel.
+//@Neptune: Input needed, what do I do here?
+Display Data Flow:: Display data flows for APIs and UI5 models.
+
+Easily switch between opened tabs.
+Click *Close all tabs* to close all open tabs.
+
+== Reusable component panel
+
+The *Reusable component* panel shows the components that you can use for building your application.
+Components are user-interface elements that you can drag and drop into the upper application component panel to build your application.
+
+image::appdesigner-reusable-component-panel.png[width=200]
+
+Components are divided into four sections:
+
+* Resource components, for example, to use Javascript and RestAPIs
+* Highchart components to create graphs and plots
+* Bootstrap components to design and structure your application in a non sap look and feel
+* OpenUI5 components to design and structure your application
+
+== Application component panel
+
+The *Application component* panel shows the current state of your application.
+You use components from the *Reusable component* panel to build and structure your application here.
+
+image::appdesigner-application-component-panel.png[width=200]
 
 == UI object panel
-The *UI object panel* lets you define the component name and enter a corresponding description.
-Depending on the selected component in the *Application component panel*, you also can enter a model source and a model path.
+The *UI object* panel lets you define the component name and enter a corresponding description.
+Depending on the selected component in the *Application component* panel, you also can enter a model source and a model path.
 
-image::appdesigner-ui-objectpanel.png[Appdesigner UI objectpanel,400]
-
+image::appdesigner-ui-objectpanel.png[width=200]
 
 == Component properties panel
-The *Component properties panel* shows the attributes of a component. You can define properties or events to change the layout and behavior of a component.
+The *Component properties* panel shows the attributes of a component.
+You can define properties or events to change the layout and behavior of a component in your application.
 
-image::appdesigner-properties-components.png[Appdesigner properties components,400]
+image::appdesigner-properties-components.png[width=200]
 
 
 == Application preview panel
-The *Application preview panel* shows a preview of your application.
+The *Application preview* panel shows a preview of your application. You can run a preview in this panel or on a new tab on your browser.
 
-image::appdesigner-application-preview.png[Appdesigner application preview,400]
+image::appdesigner-application-preview.png[width=200]
 
-
-== Application component panel
-The *Application component panel* shows all the components that you can use for building your application.
-Components are user-interface elements that you can drag and drop into the upper application component panel to build your application.
-
-== Open UI5
-*Open UI5* opens a website providing UI5 resources, such as documentation, API reference, and samples.
+== OpenUI5
+*OpenUI5* opens a website providing UI5 resources, for example, a detailed documentation on Open UI5 components, API reference, and samples.
 
 == Neptune Community
-*Neptune Community* opens the community website giving you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
-
-== Reusable component panel
-The *Reusable component panel* shows the components that you selected for building your application.
-You can delete, modify and change the position of these components to modify your application.
-
-image::appdesigner-reusable-component.png[Appdesigner reusable component,200]
+*Neptune Community* opens the community website. It gives you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
 

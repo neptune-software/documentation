@@ -23,7 +23,7 @@ The following tools are available:
 * xref:script-editor.adoc[_Script Editor_]: Code server-side scripts and use them as microservices.
 * xref:code-snippets.adoc[_Code Snippets_]: Configure code snippets for _App Designer_ and _Script Editor_.
 * xref:app-documentation.adoc[_Documentation_]: Create application documentation or context-sensitive help.
-* xref:media-libary.adoc[_Media Library_]: Store the media files you want to use within your application.
+* xref:media-library.adoc[_Media Library_]: Store the media files you want to use within your application.
 * xref:npm-modules.adoc[_NPM Modules_]: Install and update node package manager modules.
 * xref:application-trashbin.adoc[_Application Trashbin_]: Restore or delete applications permanently.
 
@@ -39,7 +39,7 @@ The following tools are available:
 * xref:e-mail-template.adoc[_Email Template_]: Create e-mail templates.
 
 == Connectivity
-image:cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
+image::cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
 
 In the *Connectivity* section, you group your APIs and OData (Open Data Protocol) according to their usage.
 
@@ -54,7 +54,7 @@ The following tools are available:
 * OData Mock Data_: Add and update mock data.
 
 == Administration
-image:cockpit-overv-administration.png[Cockpit overview section administration, 600]
+image::cockpit-overv-administration.png[Cockpit overview section administration, 600]
 
 In the *Administration* section, you ...
 

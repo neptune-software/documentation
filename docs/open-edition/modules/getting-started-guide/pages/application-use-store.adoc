@@ -1,0 +1,48 @@
+= Use an application building block from the _Store_
+
+The _Store_ is a portal to publish or download application building blocks.
+Neptune provides a collection of application building blocks that can be downloaded by users.
+For more information, see xref:cockpit-overview:store.adoc[Store].
+
+== Prerequisites
+
+* You have access to the _Store_.
+* You have installed Neptune DXP - Open Edition.
+* You have the developer role assigned.
+
+== Procedure
+
+. Open the *Cockpit*.
+. Click *Development* > *Store*.
++
+The Store opens in a new window.
++
+image::cockpit-overview:appdesigner-store.png[width=800]
+
+. A list with all available application building blocks opens. You have the following options to structure the list.
+.. Change *Display* mode.
+List:: List all application building blocks.
+Cards:: Show the application building blocks as cards.
+.. Sort application building blocks by category.
+All:: Show all application building blocks available in the store.
+Featured:: Show all featured application building blocks available in the store.
+Trending:: Show application building blocks that are most successful recently.
+Recent:: Shows the most recently published application building blocks.
+//Input needed: What does "private" applications show?
+Private:: Show all application building blocks that are uploaded by your user.
+. Click the application building block you want to install.
+. Click *Download* to download the application building block.
++
+image::store-download.png[width=800]
+
+*Result*: You downloaded your application building block, and you can use it now.
+
+There are three places your application building block might appear:
+
+* Application list: *Run* > *Applications*
+* API’s list: *Connectivity* > *API Designer*
+* Themes list: *Development* > *Theme Designer*
+
+== Related topics
+
+* xref:cockpit-overview:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]

@@ -1,0 +1,51 @@
+= Add npm modules
+
+There are two ways to add new npm modules to your instance. You can either search and insert existing modules or add a new one.
+
+//The installation process is also described here: xref:installation-guide:npm-module.adoc[Install npm modules]
+//ToDo: These two chapters have to be synchronized so that all information on how to get npm modules are in one place.
+
+== Search for npm modules
+
+In _NPM Modules_, you can search for npm modules that are used within the DXP - Open Edition.
+
+image::npm-modules-overview.png[,800]
+Click on a module to open it. In *General* you see the following module details:
+
+Name:: Name of the module.
+Description:: What the module is about.
+Version:: The version number of the module.
+Path:: Where in the DXP - Open Edition the module is stored.
+Dates:: When the module was created and last changed.
+
+image::npm-modules-general.png[,800]
+
+== Check for usage status
+
+You can check which project within the DXP - Open Edition uses which module.
+
+Click *Where-Used* to display the projects where the npm module is used.
+
+image::npm-modules-whereused.png[,800]
+
+== Edit a npm module
+
+If you did not create a module, you can only edit the description of an existing module. If you created the module, you can change all settings.
+
+* In *General*, click *Edit*.
+
+The fields you can edit appear in white. The fields you cannot edit stay gray.
+
+== Add a new npm module
+
+You can add new npm modules from the web or from the DXP - Open Edition server.
+
+. Click *Add* in the top right corner.
++
+A new window opens.
++
+image::npm-modules-new.png[,400]
+
+.. Enter a name in the search field to browse for modules on the web and follow the instructions.
+.. Click *Local* to search for npm modules already existing on the server.
+//Comment for Hendrik: I am not sure the test environment works correct here. If you click "Local", you are redirected to the Neptune website. If you click just below "Local" you can add a new module, although it says before that you can search for npm modules on the server when clicking here. I also tried the development environment but there you cannot click the "Add" button at all.

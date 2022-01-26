@@ -10,11 +10,11 @@ Disable caption numbering by inserting ":!figure-caption:" below the title.
 
 
 == Example of a GUI screenshot
-image:ROOT:appdesigner-top-menu-edit.png[width=400]
+image::appdesigner-top-menu-edit.png[width=400]
 
 == Example of other pictures
 .The interface at a glance
-image:ROOT:appdesigner-interface.png["appdesigner-interface",width=600]
+image::appdesigner-interface.png["appdesigner-interface",width=600]
 
 
 

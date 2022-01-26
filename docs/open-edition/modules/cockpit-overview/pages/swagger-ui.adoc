@@ -1,4 +1,4 @@
-= image:swagger-ui-icon.png[width=100,link="swagger-ui-icon.png"] Swagger UI
+= image::swagger-ui-icon.png[width=100,link="swagger-ui-icon.png"] Swagger UI
 
 __Swagger UI__ lets you visualize and interact with the resources of APIs without the implementation logic and makes back-end implementation and client-side consumption easy.
 

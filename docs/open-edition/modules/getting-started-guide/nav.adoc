@@ -50,3 +50,4 @@
 *** xref:ROOT:import-apps.adoc[Import applications]
 *** xref:ROOT:application-use-store.adoc[Use an application from the Store]
 *** xref:ROOT:export-apps.adoc[Export applications]
+
