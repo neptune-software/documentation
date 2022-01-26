@@ -9,11 +9,14 @@ A project serves as wrapper file that contain one or more scripts on a specific 
 == Procedure
 
 . Click *Project* > *Create*.
+//. On the toolbar, click...
 +
 image::script-editor-create.png[,400]
+//Helle@Fabian: change color to grey, easier on the eye.
 A new window opens.
+//Helle@Fabian: *Result*: The Create Project window opens.
 . Enter a name for your project. Optionally, enter a description and choose a package.
-//Input needed: What can you do with these packages?
+//Input needed: What can you do with these packages? Helle: it's like folders to sort APIs, apps and other data types.
 +
 image::script-editor-create-project.png[,400]
 . Click *Save*.

@@ -4,10 +4,10 @@ In _Script Editor_, you can create server-side scripts to extend your instance b
 
 _Script Editor_ comes with the following advantages:
 
-* Automate processes by reusing predefined scripts
-* Add functionality to your applications
+* Automate processes by reusing predefined scripts.
+* Add functionality to your applications.
 * Integrate your instance in an application that is created outside Neptune DXP - Open Edition.
-* Avoid time-consuming calculations that blockade your interface
+* Avoid time-consuming calculations that blockade your interface.
 
 The runtime for scripts is the Node.js environment.
 Scripts run either inside a separate process or as a global process.
@@ -15,8 +15,10 @@ Scripts run either inside a separate process or as a global process.
 You can use APIs, tables, global scripts, and npm modules to create scripts.
 
 Click *Cockpit* > *Documentation* to open the _Script Editor_.
+//Helle@Fabian: Documentation = Development? Maybe mention in task rather than here.
 
 image::script-editor-overview.png[,800]
+//Helle@Fabian: I'd cut Design and simplify icons of other tiles with circles. Cover/delete "last used tiles" (upper left corner).
 
 == Related topics
 
