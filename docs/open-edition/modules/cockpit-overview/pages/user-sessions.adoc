@@ -1,0 +1,15 @@
+= image:user-sessions@2x.png[width=100,link="user-sessions@2x.png"] User Sessions
+
+_User Sessions_ lets you monitor active user sessions in the system.
+A user session starts when a user signs in to the Cockpit and it stops when the user signs off again.
+//Todo Leonie: Discuss terminology sign in vs. log in
+
+You can find the following details about active user sessions:
+
+* Total
+* Source
+* Username
+* Expiry
+//Todo Leonie: Decide if we need more information here. I think it would just state the obvious. Remark: When signing in the Login Provider equals the Source in the table?
+
+You can also search for a specific source or username and filter the overview accordingly.
