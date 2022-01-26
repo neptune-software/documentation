@@ -22,7 +22,8 @@ image::script-editor-create-project.png[,400]
 . Click *Save*.
 
 == Result
-You created a new project and can start adding the scripts.
+* You created a new project and can start adding the scripts.
+//added list
 
 == Related topics
 * xref:script-editor-open.adoc[]

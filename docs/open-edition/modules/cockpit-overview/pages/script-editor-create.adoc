@@ -29,7 +29,8 @@ A new window opens.
 image::script-editor-new-serverscript.png[,400]
 
 == Result
-Your new script automatically opens in the working space on the right side. You can start editing it by dragging and dropping elements from the *Resources* into your script.
+* Your new script automatically opens in the working space on the right side. You can start editing it by dragging and dropping elements from the *Resources* into your script.
+//added list
 
 == Related topics
 //* xref:script-editor-import-code.adoc[Import code]
