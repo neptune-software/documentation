@@ -4,26 +4,20 @@ _Script Editor_ works with projects.
 A project serves as wrapper file that contain one or more scripts on a specific topic.
 
 == Prerequisites
-* You have the _Script Editor_ open.
 
 == Procedure
-
-. Click *Project* > *Create*.
-//. On the toolbar, click...
+. On the cockpit, go to *Development* and click _Script Editor_.
+. On the toolbar, click *Project* > *Create*.
 +
 image::script-editor-create.png[,400]
-//Helle@Fabian: change color to grey, easier on the eye.
-A new window opens.
-//Helle@Fabian: *Result*: The Create Project window opens.
-. Enter a name for your project. Optionally, enter a description and choose a package.
-//Input needed: What can you do with these packages? Helle: it's like folders to sort APIs, apps and other data types.
+*Result*: The Create Project window opens.
+. Enter a name for your project. Optionally, enter a description and choose a predefined package.
 +
 image::script-editor-create-project.png[,400]
 . Click *Save*.
 
 == Result
 * You created a new project and can start adding the scripts.
-//added list
 
 == Related topics
 * xref:script-editor-open.adoc[]

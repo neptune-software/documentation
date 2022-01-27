@@ -14,11 +14,7 @@ Scripts run either inside a separate process or as a global process.
 
 You can use APIs, tables, global scripts, and npm modules to create scripts.
 
-Click *Cockpit* > *Documentation* to open the _Script Editor_.
-//Helle@Fabian: Documentation = Development? Maybe mention in task rather than here.
-
 image::script-editor-overview.png[,800]
-//Helle@Fabian: I'd cut Design and simplify icons of other tiles with circles. Cover/delete "last used tiles" (upper left corner).
 
 == Related topics
 

@@ -1,36 +1,25 @@
 = Create new scripts
 
-You want to create new scripts.
-//Helle@Fabian: We should more ore less settle on one type of introductory sentence for task topics.
-You can either use the resources stored within Neptune DXP - Open Edition as starting point or write complete new scripts.
+To create new scripts, you can either use the resources stored within Neptune DXP - Open Edition as starting point or write complete new scripts.
 
 == Prerequisites
-* You have the _Script Editor_ open.
-//Helle@Fabian: Move to steps?
 * You have a project open, see xref:script-editor-new.adoc[] or xref:script-editor-open.adoc[].
 
-//@Helle@Fabian: move to step "click new scipts"?
-When you open a new project, the entries *Scripts* and *Globals* are entered by default.
-
-image::script-editor-new.png[,800]
-
 == Procedure
-//. On the cockpit, got to Development and click _Script Editor_.
-. Right-click on *Scripts*.
-.. Click *Import Scripts* to import a script that is stored on your computer.
-//Helle@Fabian: mention somewhere else, cuz topic is "create *new* scripts"?
+. Right-click on *Scripts*. When you open a new project, the entries *Scripts* and *Globals* are entered by default.
++
+image::script-editor-new.png[,800]
 . Click *New scripts*.
 +
-A new window opens.
-//Helle@Fabian: I'd add *Result*:, but only for consistency reasons.
+*Result*: A new window opens.
 . Enter a name for the script, write a description and choose whether to use typescript.
-//Helle@Fabian: What is typescript?
 +
 image::script-editor-new-serverscript.png[,400]
 
+TIP: You can import scripts that are stored on your computer. Right-click on *Scripts* and click *Import Script*.
+
 == Result
 * Your new script automatically opens in the working space on the right side. You can start editing it by dragging and dropping elements from the *Resources* into your script.
-//added list
 
 == Related topics
 //* xref:script-editor-import-code.adoc[Import code]

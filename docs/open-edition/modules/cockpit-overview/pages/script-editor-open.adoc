@@ -1,28 +1,20 @@
 = Open an existing project
 
 _Script Editor_ works with projects.
-A project serves as wrapper file that contains one or more scripts on a specific topic.
-//...as -a- wrapper file?, contain-s-
+A project serves as a wrapper file that contains one or more scripts on a specific topic.
 
 == Prerequisites
-* You have the _Script Editor_ open.
-//Helle@Fabian: I'd move to steps.
 
 == Procedure
-
-//Helle@Fabian:. On the cockpit, go to Development and click _Script Editor_.
-. Click *Project* > *Open*.
+. On the cockpit, go to *Development* and click _Script Editor_.
+. On the toolbar, click *Project* > *Open*.
 +
 image::script-editor-open.png[,400]
-//Helle@Fabian: change color of text boxes to grey
-A new window with the list of available projects open.
-//Helle@Fabian: *Result*:...
-. Click once on a project to open it.
-//Helle: delete once, we use "click" only for one click, right?
+*Result:* A new window with the list of available projects open.
+. Click on a project to open it.
 
 == Result
 * You opened an existing project and can start adding the scripts.
-//added list
 
 == Related topics
 * xref:script-editor-new.adoc[]
