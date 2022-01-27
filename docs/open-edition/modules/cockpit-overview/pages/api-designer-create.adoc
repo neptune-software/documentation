@@ -2,6 +2,8 @@
 
 //@Neptune: inspired by Neptune e-learning (SWAPI) and Neptune CI (more funny and geeky than serious), I used Star Wars themed sample data. Hope it's okay.
 
+In this topic, you learn how to create an API to communicate with a table definition.
+
 == Prerequisites
 
 * You have created a table definition, for example, in xref:table-definition-create.adoc[_Table Definition_ and _Table Browser_].
@@ -10,8 +12,7 @@
 
 === Step 1: Configure a new API
 
-. Open Neptune DXP - Open Edition cockpit.
-. Go to *Connectivity* and click *API Designer*.
+. On the Neptune DXP - Open Edition cockpit, go to *Connectivity* and click _API Designer_.
 . On the _API Designer_, click *Add*.
 +
 image::api-designer-add.png[width=400]
@@ -23,11 +24,11 @@ You start in the *General* tab.
 . In *API format*, Swagger 2.0 is preselected. You can select the newer version, Open API 3.0, here.
 //Helle@parson: no context given for API. Add to concept/reference topic, explain there and link here?
 
-. Enter a *Name* for your table definition, for example, "Clones".
-. If the API belongs to a group of APIs and oData, select the group from the *Group* drop-down menu.
-. If you created a package for your APIs, applications, oData, and mock data before, select the package from the *Package* drop-down menu.
+. Enter a *Name* for your table definition, for example, `API Clones`.
+
+. If you created a package or group for your APIs, applications, oData, and mock data before, you can select those from the *Group* or *Package* drop-down menu.
 . Enter a short and meaningful *Description* to your API.
-. In *Version*, enter a version number, for example, "1.0", to keep track of changes to the API.
+. In *Version*, enter a version number, for example, `1.0`, to keep track of changes to the API.
 . In *Media Type*,
 //Helle@Neptune: input needed, what exactly can I enter here? Does this refer to the way API, app, and resource communicate, meaning I can enter JSON or XML?
 
@@ -46,22 +47,15 @@ image::api-designer-save.png[width=400]
 
 === Step 2: Add an operation
 
-[NOTE]
-====
-We describe how you add an operation manually. If you want to add the operations GET, PUT, POST, and DELETE with default settings, and definitions, you can import a table definition. You can still add, delete and change settings.
-
-image::api-designer-import-tabledefinition.png[width=400]
-====
-. Navigate to the *Operations* tab.
-. Click *+* to add an operation.
-. In *Path*, enter a slash (/) and the name of your table definition, for example, "/clonetroopers".
-. In *Method* select a method from the list:
+. Navigate to the *Operations* tab and click *+* to add an operation.
+. In *Path*, enter a slash and the name of your table definition, for example, `/clonetroopers`.
+. In *Method* select a method from the list, for example `GET`:
 +
 --
 include::partial$api-operations.adoc[]
 --
 //Helle@Neptune: Where's the difference between Summary and Description?
-. In *Tags*, enter keywords that describe the resource, for example, "clones".
+. In *Tags*, enter keywords that describe the resource, for example, `clones`.
 . Activate any of the following:
 //Helle@Neptune: Save Request Body explanation is assumptions, please check.
 ** Trace Operations: Trace request you or others make to the API in _API Trace_.
@@ -71,9 +65,8 @@ include::partial$api-operations.adoc[]
 
 === Step 3: Add a definition and property
 
-. Navigate to the *Definitions* tab.
-. Click *+*.
-. Enter a *Name* and *Description*.
+. Navigate to the *Definitions* tab and click *+* to add a definition.
+. Enter a *Name*, for example, `clones`, and *Description*.
 . Select a *Type*.
 //Helle@Neptune: What does the type do?
 
@@ -81,21 +74,11 @@ include::partial$api-operations.adoc[]
 +
 *Result*: The _API Designer_ adds a new line to specify a property.
 
-. Enter a *Name* that indicates what kind of information the property will hold.
+. For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `name`, `number`, `rank`, and `squad`.
 . Select the allowed *Type* for the property.
 . Enter a *Description*.
 . If you want the property to be mandatory, check the *Required* box.
-. If you want to further specify the property, under *Actions*, open the detail view. You can specify any of the following values:
-+
-image::api-designer-property-details.png[width=400]
-
-Default Value:: Enter a default value for the property.
-Pattern:: Enter a pattern for the property.
-//Helle@Neptune: What does the pattern do?
-Min. Length:: Enter a minimum number of characters.
-Max. Length:: Enter a maximum number of characters.
-Description:: Enter a description of the property. If you entered a description before, you see it here as well.
-Example:: Enter an exemplary value for the property.
+. Click *Save*.
 
 ////
 . Navigate to the *Operations* tab.
@@ -106,12 +89,13 @@ image::api-designer-add-operation.png[width=400]
 ////
 
 == Results
+* You have created an API for a table definition.
 
 == Related Topics
 * xref:api-designer.adoc[API Designer]
-//* xref::import-api.adoc[] <-- task
-//* xref::export-api.adoc[] <-- task
-//* xref::search-api.adoc[] <-- might not be task
+* xref:api-designer-import.adoc[Import an API with the _API Designer_]
+//Todo Helle:* xref::export-api.adoc[] <-- task
+//Todo Helle:* xref::search-api.adoc[] <-- might not be task
 
 
 ////

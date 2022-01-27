@@ -1,0 +1,111 @@
+= Import an API with the _API Designer_
+
+You use APIs to communicate with data formats.
+In this topic, you learn how to import different files that you want to connect an API to.
+You can import files from inside and outside the Neptune DXP - Open Edition.
+
+//Helle@Fabian: used collapsables, makes sense? Thought 3 separate topics would be too much for an import. Might be a little complicated with the nested lists though.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. On the Neptune DXP - Open Edition cockpit, go to *Connectivity* and click _API Designer_.
+. On the _API Designer_, click *Add*.
++
+image::api-designer-add.png[width=400]
++
+*Result*: The API configuration dialog opens.
+You start in the *General* tab.
+
+. Depending on the type of data you want to connect to your API, continue with the steps in one of the sections below.
+
+=== External
+
+.Import an API definition for an external API.
+[%collapsible]
+====
+. In *Type*, select *External*.
+. If you want to import a definition in Open API 3.0 format, select it in *API format*.
+. Click *Import* and select an option from the drop-down menu:
+//add image
+.. Click *Planet 9 File* to import a file from your disk.
++
+*Result*: Your local editor opens.
+
+... Navigate to the directory of the file and select the file.
+... Click *Open*.
+
+.. Click *Swagger 2.0* to import a definition in JSON or *Open API 3.0* to import a definition in JSON or YAML.
++
+*Result*: The editor opens.
+
+... Write or paste the definition into the editor.
+... Click import.
+
+.. Click *API Discovery Service* to import an API from other Neptune DXP instances.
++
+*Result*: The API Discovery Service opens.
+You can see all APIs that are available to you.
+//ToDo Helle: add when Remote Systems documented: You can add other instances in _Remote Systems_.
+
+... Click the API that you want to import.
++
+*Result*: _API Designer_ enters a name, operations, and definitions for the API.
+You still can add, change and delete settings that were made by _API Designer_.
+
+. Click *Save*.
+====
+
+=== Table Definition
+
+.Import an API for a table definition.
+[%collapsible]
+====
+. In *Type*, select *Table Definition*.
+. Click *Import* and select an option from the drop-down menu:
+//add image
+.. Click *Planet 9 File* to import a file from your disk.
++
+*Result*: Your local editor opens.
+
+... Navigate to the directory of the file and select the file.
+... Click *Open*.
+.. Click *Table Definition* to create an API from a table definition saved in Neptune DXP - Open Edition.
++
+*Result*: The Import Table Definition window opens. You see all table definitions that are available to you.
+
+... Click the table definition that you want to create an API for.
++
+*Result*: _API Designer_ enters a name, operations, and definitions for the API.
+You still can add, change and delete settings that were made by _API Designer_.
+
+. Click *Save*.
+====
+
+=== Server Script
+
+.Import a server script from your disk.
+[%collapsible]
+====
+. In *Type*, select *Server Script* and click *Planet 9 File*.
++
+*Result*: Your local editor opens.
+
+. Navigate to the directory of the file and select the file.
+. Click *Open*.
++
+*Result*: _API Designer_ enters a name, operations, and definitions for the API.
+You still can add, change and delete settings that were made by _API Designer_.
+
+. Click *Save*.
+====
+
+== Results
+* You have imported an API for either an external API, table definition, or server script.
+
+== Related topics
+* xref:api-designer.adoc[API Designer]
+//Todo Helle:* xref:export-api.adoc[]
+//Todo Helle:* xref:table-definition.adoc[]
+* xref:table-definition-create.adoc[Create a database table in _Table Definition_ and _Table Browser_]

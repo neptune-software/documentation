@@ -3,6 +3,7 @@
 In this topic, you learn how to create a database table and fill it with data.
 
 == Prerequisites
+* There are no prerequisites.
 
 == Procedure
 

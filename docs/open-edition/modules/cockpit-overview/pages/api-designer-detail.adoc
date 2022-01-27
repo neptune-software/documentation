@@ -1,15 +1,9 @@
-= image:api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
+= image:api-designer-icon.png[width=100] API Designer
 
-//Uta: Recommended structure/topics:
-//* API Designer.adoc (Overview of the component (already written)
-//* Key concepts of APIs (concept/reference topic, includes all content of the current topic except "Create an API")
-//* Create an API (task) - as started
+//DO NOT review this topic. This is a content collection that needs to be relocated.
 
-== Overview
-
-=== Key concepts
+Key concepts
 //Helle@parson: reference
-
 Before diving deeper into the _API Designer_, learn about the key concepts of APIs.
 
 REST API:: A REST API is an application program interface (API) that uses HTTP requests to GET, PUT, POST, and DELETE data.
@@ -40,7 +34,7 @@ Unlike GET, HEAD retrieves the response header only.
 
 API definition:: An API definition sets the structure of your API.
 With the _API Designer_, you can write custom definitions to use in your application.
-//Uta: Die beiden Sätze haben auf den ersten Blick keinen Zusammenhang. Bitte noch mal prüfen.
+Uta: Die beiden Sätze haben auf den ersten Blick keinen Zusammenhang. Bitte noch mal prüfen.
 
 Endpoint:: An endpoint specifies where a resource lies on a server and is therefore an important aspect of interacting with server-side web APIs.
 Endpoints must be static URLs to guarantee correct communication between server, API, and application.
@@ -64,3 +58,16 @@ A proxy is necessary for cross-domain connectivity.
 
 //Useful links for content creation:
 //https://community.neptune-software.com/documentation/add-url-parameters-in-api-operations
+
+. If you want to further specify the property, under *Actions*, open the detail view. You can specify any of the following values:
++
+image::api-designer-property-details.png[width=400]
+
+** Default Value: Enter a default value for the property.
+** Pattern: Enter a pattern for the property.
+//Helle@Neptune: What does the pattern do?
+** Min. Length: Enter a minimum number of characters.
+** Max. Length: Enter a maximum number of characters.
+** Description: Enter a description of the property. If you entered a description before, you see it here as well.
+** Example: Enter an exemplary value for the property.
+____
