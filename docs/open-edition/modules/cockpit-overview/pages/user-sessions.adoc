@@ -1,7 +1,9 @@
 = image:user-sessions@2x.png[width=100] User Sessions
 
 _User Sessions_ lets you monitor active user sessions in the system.
+//Fabian@Leonie: "System" benutzen wir eigentlich im Sinne vom gesamten Computer oder der Umgebung, in der Neptune läuft. In dem Fall würde ich eher schreiben "DXP - Open Edition" (die erlaubte Kurzform von "Neptune DXP - Open Edition"). Ich schreib das mal mit auf die Terminologieliste.
 A user session starts when a user signs in to the Cockpit and it stops when the user signs off again.
+//Fabian@Leonie: Ich hätte zwei Sätze daraus gemacht, da es ja zwei verschiedene Schritte sind.
 //Todo Leonie: Discuss terminology sign in vs. log in
 
 You can find the following details about active user sessions:
@@ -10,6 +12,11 @@ You can find the following details about active user sessions:
 * Source
 * Username
 * Expiry
+//Fabian@Leonie: Vielleicht besser "Expiration date"? Ich frag mich auch, wie lange es dauert, bis man automatisch ausgeloggt wird. Nach den Live-Zahlen, die ich gerade sehe, würde ich 3h tippen, aber das wäre eine Frage an Hendrik.
 //Todo Leonie: Decide if we need more information here. I think it would just state the obvious. Remark: When signing in the Login Provider equals the Source in the table?
+//Fabian: Ich würde die Informationen durchaus noch ergänzen. "Source" z.B. weiß ich nicht, was da für Values möglich sind neben local (external? Noch was anderes?), müsste man Hendrik fragen. Vielleicht auch einen Screenshot einfügen?
+//Fabian@Leonie: Was ist hier mit "total" gemeint? Es passt nicht recht in die Liste mit den anderen GUI-Elementen
 
 You can also search for a specific source or username and filter the overview accordingly.
+
+//Fabian@Leonie: Vielleicht noch einen Satz dazu, dass "User Sessions" nur für User mit der Rolle "DevOps" sichtbar ist (Ich weiß nicht, ob du das schon gesehen hast, im Cockpit ganz rechts oben kannst du die Ansicht je nach Benutzer ändern.)
