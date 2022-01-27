@@ -4,6 +4,7 @@ _Script Editor_ works with projects.
 A project serves as a wrapper file that contains one or more scripts on a specific topic.
 
 == Prerequisites
+* There are no prerequisites.
 
 == Procedure
 . On the cockpit, go to *Development* and click _Script Editor_.
