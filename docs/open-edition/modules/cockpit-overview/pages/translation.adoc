@@ -1,4 +1,4 @@
-= image:translation.png[width=100px, link=translation.png] Translation
+= image::translation.png[width=100px, link=translation.png] Translation
 
 After you have added tiles and tile groups on a launchpad to be translated, you can translate them in _Translation_.
 

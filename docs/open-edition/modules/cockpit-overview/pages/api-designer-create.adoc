@@ -80,14 +80,6 @@ include::partial$api-operations.adoc[]
 . If you want the property to be mandatory, check the *Required* box.
 . Click *Save*.
 
-////
-. Navigate to the *Operations* tab.
-. Click *+*.
-+
-image::api-designer-add-operation.png[width=400]
-. On the *General* tab of Operations,
-////
-
 == Results
 * You have created an API for a table definition.
 

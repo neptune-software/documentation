@@ -36,18 +36,19 @@ image::appdesigner-toolbar.png[width=800]
 
 Application:: Open, create, delete, or copy applications.
 Export and import applications, run a global search to find javascript code across all applications, generate a version, and refresh the master data.
-Display/Edit:: Click to toggle to Edit or Display mode.
+Display/Edit:: Click to toggle *Edit* or *Display* mode.
 Save:: Save your application. This saves all changes but does not apply the changes to the preview.
 Activate:: Save and activate your application. This saves changes and restarts the preview with all changes applied.
 Run:: Run the application in a separate browser tab.
 Screen views:: Switch panel views.
 The standard _App Designer_ view has four panels: The *Reusable component* panel, *Application component* panel, *Application preview* panel, and *UI object* panel.
 +
-* image:cockpit-overview:appdesigner-views-stack.png[width=45]
-Combine the *Reusable component* panel and *Application component* panel.
-* image:cockpit-overview:appdesigner-views-switch.png[width=45]
+image:appdesigner-views-stack.png[width=45] Combine the *Reusable component* panel and *Application component* panel.
++
+image:cockpit-overview:appdesigner-views-switch.png[width=45]
 Switch *Application component* panel and *UI object* panel.
-* image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
++
+image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
 Hide the *UI object* panel.
 
 == Editor tools
@@ -58,13 +59,15 @@ image::appdesigner-editortools.png[width=800]
 Expand and Collapse:: Expand and collapse groups of the *Application component* panel.
 Undo:: Undo your last changes.
 Run:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
-Header:: The header editor
+Header:: The html5 header editor
 //@Neptune Input needed: is this where I define a global HTML5 head for my application?
-Stylesheet:: The stylesheet editor
+//correct
+Stylesheet:: The css stylesheet editor
 //@Neptune Input needed: is this a global css sheet for my application?
 
 //Web App Manifest editor
 //@Neptune Input needed
+//This is an old functionality which is deprecated. We should leave it empty.
 
 Script search:: Open the *Search and ToDo List* panel and search for scripts.
 ToDo List:: Open the *Search and ToDo List* panel.
@@ -85,7 +88,7 @@ Components are divided into four sections:
 
 * Resource components, for example, to use Javascript and RestAPIs
 * Highchart components to create graphs and plots
-* Bootstrap components to make your application responsive
+* Bootstrap components to design and structure your application in a non sap look and feel
 * OpenUI5 components to design and structure your application
 
 == Application component panel
@@ -114,7 +117,8 @@ The *Application preview* panel shows a preview of your application. You can run
 image::appdesigner-application-preview.png[width=200]
 
 == OpenUI5
-*OpenUI5* opens a website providing UI5 resources, such as a detailed documentation on Open UI5 components, API reference, and samples.
+*OpenUI5* opens a website providing UI5 resources, for example, a detailed documentation on Open UI5 components, API reference, and samples.
 
 == Neptune Community
-*Neptune Community* opens the community website giving you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
+*Neptune Community* opens the community website. It gives you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
+

@@ -1,0 +1,43 @@
+= Organize files in the _Media Library_
+
+You can import external media files into the _Media Library_ and organize them.
+
+== Import media files
+
+Import new files into the _Media Library_ as follows:
+
+. Open the Neptune DXP cockpit.
+. Click *Development* > *Media Library*.
+. Click *Import*.
++
+image::media-library-import.png[,400]
+
+. Browse for your file and click *Ok*.
+
+Your file is added to the _Media Library_.
+
+== Organize files in the _Media Library_
+
+You can organize the files in the _Media Library_ using the following toolbar functions:
+
+image::media-library-organize.png[,400]
+
+* (1) Delete the marked file.
+* (2) Edit the name of the marked file.
+* (3) Add a new folder to the media library.
+* (4) Collapse the marked folder group.
+* (5) Expand the marked folder group.
+
+== Organize media in a file
+
+When you open a file in the _Media Library_, the stored media appear. You can check the properties of the file.
+
+image::media-library-files.png[,800]
+
+You can also perform the following tasks in the _Media Library_:
+
+* Delete the file by clicking the *Delete* button on the right.
+* Copy the link address of the file by clicking the *Link* button on the left.
+
+This enables you to link to the file from other Cockpit components.
+

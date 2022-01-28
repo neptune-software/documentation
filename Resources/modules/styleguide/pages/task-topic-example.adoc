@@ -40,5 +40,5 @@ IMPORTANT:: Do not change the values in *Type* and *Package*. Changes can cause 
 * You have created a copy of an existing application.
 
 == Related topics
-* xref::import-apps.adoc[]
-* xref::export-apps.adoc[]
+* xref:import-apps.adoc[]
+* xref:export-apps.adoc[]

@@ -16,7 +16,7 @@ Example::
 You assign the topic title (h1) only once.
 If you refer to a topic by using an xref, the topic title appears as a link to the topic, unless otherwise stated.
 
-Example:: xref::overview.adoc[] appears as "Neptune DXP - Open Edition".
+Example:: xref:overview.adoc[] appears as "Neptune DXP - Open Edition".
 Compare code and preview.
 However, you can provide an individual title in square brackets.
 ====

@@ -1,4 +1,5 @@
 = Process overview
+:!figure-caption:
 
 The following graphic shows an overview of the architecture of the Neptune DXP - Open Edition.
 The process architecture is organized in the following category lanes:
@@ -7,7 +8,7 @@ The process architecture is organized in the following category lanes:
 * <<Tools>>
 * <<_operationmanagementsecurity, Operation, management, and security>>
 
-image:processarchitecture.png["Process architecture",width=800]
+image::processarchitecture.png[Process architecture]
 //Image to be replaced.
 
 == Resources
@@ -49,7 +50,7 @@ The _App Designer_ uses the following resources:
 * _Media Library_, for media files that can be used in applications
 * _API Designer_, to integrate APIs with no-code binding
 
-Learn more about the xref:cockpit-overview:appdesigner-at-a-glance.adoc[_App Designer_ interface].
+Learn more about the xref:appdesigner-at-a-glance.adoc[_App Designer_ interface].
 
 === Server Scripts (Script Editor)
 With _Script Editor_, you create server-side scripts that run in their own separate process on the server.
