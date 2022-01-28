@@ -1,8 +1,8 @@
-= image:api-client-icon.png[width=80]API Client
+= image:api-client-icon.png[width=80] API Client
 
-//Helle@parson: icon looked bigger the others with width 100, compare api-designer and api-trace. any thoughts on that?
+//Helle@parson: icon looked bigger than the others with width 100, compare api-designer and api-trace. any thoughts on that?
 
-With __API Client__ you send API requests to test the response from the REST API.
+With _API Client_ you send API requests to test the response from the REST API.
 
 == Features
 * Lets you check the response from APIs in the _API Designer_.
@@ -12,9 +12,17 @@ With __API Client__ you send API requests to test the response from the REST API
 * Shows the list of APIs with their operations to test the API response.
 * Quickly ensures that all your services are running as expected.
 
-== Learn more
-* https://community.neptune-software.com/documentation/api-client-v-220[API Client]
-* https://community.neptune-software.com/documentation/api-client#Getting%20started%20with%20API%20client[Getting started with API Client]
+== _API Client_ view
+
+The main view of the _API Client_ shows a list of both publicly available APIs and your APIs with search options to sort and filter the list.
+
+image::api-client-base.png[width=800]
+
+You can select an API from the list to make test requests and see responses.
+
+== Related topics
+* xref:api-designer.adoc[_API Designer_]
+* xref:api-trace.adoc[_API Trace_]
 
 
 

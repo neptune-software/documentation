@@ -1,11 +1,19 @@
 = image:api-trace-icon.png[width=100]API Trace
 
-__API Trace__ lets you monitor API calls that applications make to the server.
+_API Trace_ lets you monitor API calls that applications make to the server.
 You also can see when and who run an API on the server.
 
 API tracing allows you to see the values of events, such as the date, time, and status.
 You can use that data for testing and diagnosis.
 
+== _API Trace_ view
+
+The main view of the _API Trace_ shows filter options that help you analyze specific logs and time periods.
+You can switch between an analytic representation with a line chart and a list view.
+
+image:api-trace-base.png[width=800]
+
 == Related topics
 
 * xref:api-designer.adoc[_API Designer_]
+* xref:api-client.adoc[_API Client_]
