@@ -28,7 +28,9 @@ You start in the *General* tab.
 . In *Type*, select *External*.
 . If you want to import a definition in Open API 3.0 format, select it in *API format*.
 . Click *Import* and select an option from the drop-down menu:
-//add image
++
+image::api-designer-import-external.png[width=200]
+
 .. Click *Planet 9 File* to import a file from your disk.
 +
 *Result*: Your local editor opens.
@@ -64,7 +66,9 @@ You still can add, change and delete settings that were made by _API Designer_.
 ====
 . In *Type*, select *Table Definition*.
 . Click *Import* and select an option from the drop-down menu:
-//add image
++
+image::api-designer-import-tabledefinition.png[width=200]
+
 .. Click *Planet 9 File* to import a file from your disk.
 +
 *Result*: Your local editor opens.
@@ -90,6 +94,7 @@ You still can add, change and delete settings that were made by _API Designer_.
 ====
 . In *Type*, select *Server Script* and click *Planet 9 File*.
 +
+image::api-designer-import-serverscript.png[width=200]
 *Result*: Your local editor opens.
 
 . Navigate to the directory of the file and select the file.
