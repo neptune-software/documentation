@@ -1,7 +1,7 @@
 //tag::default[]
 * GET: Read and retrieve data from the resource.
 * PUT: Update existing data in the resource.
-* POST: Adds new data to the resource.
+* POST: Add new data to the resource.
 * DELETE: Delete data from the resource.
 //end::default[]
 * HEAD: Read and retrieve data without the response body. Unlike GET, HEAD retrieves the response header only.

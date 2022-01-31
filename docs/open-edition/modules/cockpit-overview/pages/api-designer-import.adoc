@@ -3,6 +3,7 @@
 You use APIs to communicate with data formats.
 In this topic, you learn how to import different files that you want to connect an API to.
 You can import files from inside and outside the Neptune DXP - Open Edition.
+//Fabian@Helle: No article in front of "Neptune DXP - Open Edition"
 
 //Helle@Fabian: used collapsables, makes sense? Thought 3 separate topics would be too much for an import. Might be a little complicated with the nested lists though.
 
@@ -11,6 +12,7 @@ You can import files from inside and outside the Neptune DXP - Open Edition.
 
 == Procedure
 . On the Neptune DXP - Open Edition cockpit, go to *Connectivity* and click _API Designer_.
+//Fabian@Helle: No article in front of "Neptune DXP - Open Edition"
 . On the _API Designer_, click *Add*.
 +
 image::api-designer-add.png[width=400]
@@ -32,18 +34,20 @@ You start in the *General* tab.
 image::api-designer-import-external.png[width=200]
 
 .. Click *Planet 9 File* to import a file from your disk.
+//Fabian@Helle: Shall we use "disk" or other terms, like "computer"? We haven't defined it yet, I added it to the terminology list
 +
 *Result*: Your local editor opens.
 
 ... Navigate to the directory of the file and select the file.
 ... Click *Open*.
+//Fabian@Helle: This can be shortened, no need for the two steps just above, this is too detailed.
 
 .. Click *Swagger 2.0* to import a definition in JSON or *Open API 3.0* to import a definition in JSON or YAML.
 +
 *Result*: The editor opens.
 
 ... Write or paste the definition into the editor.
-... Click import.
+... Click *Import*.
 
 .. Click *API Discovery Service* to import an API from other Neptune DXP instances.
 +
@@ -53,8 +57,8 @@ You can see all APIs that are available to you.
 
 ... Click the API that you want to import.
 +
-*Result*: _API Designer_ enters a name, operations, and definitions for the API.
-You still can add, change and delete settings that were made by _API Designer_.
+*Result*: The _API Designer_ enters a name, operations, and definitions for the API.
+You can still add, change and delete settings that were made by the _API Designer_.
 
 . Click *Save*.
 ====
@@ -70,6 +74,7 @@ You still can add, change and delete settings that were made by _API Designer_.
 image::api-designer-import-tabledefinition.png[width=200]
 
 .. Click *Planet 9 File* to import a file from your disk.
+//"Planet 9" needs to be adapted.
 +
 *Result*: Your local editor opens.
 
