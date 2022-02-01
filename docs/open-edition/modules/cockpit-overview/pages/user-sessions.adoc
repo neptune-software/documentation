@@ -21,6 +21,7 @@ You can find live data on the following:
 //Leonie@Fabian: Wegen Source habe ich die Login-Provider-Thematik vermerkt, um näher darauf einzugehen. Einen Screenshot finde ich bei einer solch übersichtlichen Tabelle ohne weitere Optionen nicht zwingend notwendig.
 //Fabian@Leonie: Was ist hier mit "total" gemeint? Es passt nicht recht in die Liste mit den anderen GUI-Elementen
 //Leonie@Fabian: Geändert in Amount und generell das Wording der Liste weiter ausgeführt.
+//Neptune@Leonie: Session timeout is configured in system settings in general tab.
 
 You can also search for a specific source or username and filter the overview accordingly.
 
