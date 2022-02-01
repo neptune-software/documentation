@@ -6,6 +6,7 @@ You can import files from inside and outside the Neptune DXP - Open Edition.
 //Fabian@Helle: No article in front of "Neptune DXP - Open Edition"
 
 //Helle@Fabian: used collapsables, makes sense? Thought 3 separate topics would be too much for an import. Might be a little complicated with the nested lists though.
+//Fabian@Helle: Looks good in IntelliJ, have to wait how it is rendered in HTML.
 
 == Prerequisites
 * There are no prerequisites.
@@ -40,7 +41,7 @@ image::api-designer-import-external.png[width=200]
 
 ... Navigate to the directory of the file and select the file.
 ... Click *Open*.
-//Fabian@Helle: This can be shortened, no need for the two steps just above, this is too detailed.
+//Fabian@Helle: This can be shortened, no need for the two steps above, this is too detailed.
 
 .. Click *Swagger 2.0* to import a definition in JSON or *Open API 3.0* to import a definition in JSON or YAML.
 +
@@ -80,6 +81,7 @@ image::api-designer-import-tabledefinition.png[width=200]
 
 ... Navigate to the directory of the file and select the file.
 ... Click *Open*.
+//Fabian@Helle: s.o. This can be shortened, no need for the two steps just above, this is too detailed.
 .. Click *Table Definition* to create an API from a table definition saved in Neptune DXP - Open Edition.
 +
 *Result*: The Import Table Definition window opens. You see all table definitions that are available to you.
@@ -87,7 +89,7 @@ image::api-designer-import-tabledefinition.png[width=200]
 ... Click the table definition that you want to create an API for.
 +
 *Result*: _API Designer_ enters a name, operations, and definitions for the API.
-You still can add, change and delete settings that were made by _API Designer_.
+You can still add, change, and delete settings that were made by the _API Designer_.
 
 . Click *Save*.
 ====
@@ -104,9 +106,10 @@ image::api-designer-import-serverscript.png[width=200]
 
 . Navigate to the directory of the file and select the file.
 . Click *Open*.
+//Fabian@Helle: s.o.
 +
 *Result*: _API Designer_ enters a name, operations, and definitions for the API.
-You still can add, change and delete settings that were made by _API Designer_.
+You still can add, change and delete settings that were made by the _API Designer_.
 
 . Click *Save*.
 ====

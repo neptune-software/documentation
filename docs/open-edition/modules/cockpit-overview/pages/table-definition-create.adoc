@@ -10,8 +10,8 @@ In this topic, you learn how to create a database table and fill it with data.
 NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
 
 === Step 1: Create a new database table in _Table Definition_
-
-. Open the Cockpit of your Neptune DXP - Open Edition.
+//Fabian@Helle: I wouldn't number the steps in the heading.
+. Open the Cockpit of Neptune DXP - Open Edition.
 . Go to *Tools* and click *Table Definition*.
 +
 image::tools-tabledefinition.png[width=800]
@@ -20,6 +20,7 @@ image::tools-tabledefinition.png[width=800]
 +
 *Result*: The Table Definition configuration dialog opens. You start in the General tab.
 . In *Name*, enter a meaningful name that describes the data you will add to the table, for example, "clonetroopers".
+//Fabian@Helle: Use correct typographical conventions for values.
 . In *Description*, add additional information. This information is displayed in the _Table Browser_.
 . If you created a package for your APIs, applications, oData, and mock data before, select the package from the *Package* drop-down menu.
 //. Enable Table Audit, added when consequences are clear
@@ -28,10 +29,12 @@ image::tools-tabledefinition.png[width=800]
 *Result*: You have added an empty database table. You now can see a number in *ID*.
 
 === Step 2: Add properties to the database table
+//s.o., no numbering
 
 . Navigate to the *Properties* tab.
 . Click *+ Add* to add a new column to the table.
 . Enter a column name to each column, for example, "name", "number", "rank", and "squad".
+//Fabian@Helle: Use correct typographical conventions for values.
 . In *Type*, select a data type for the column.
 //Helle@Helle: write reference topic on data types and add link here.
 . You can enter a *Description* and *Default value*.
@@ -44,6 +47,7 @@ image::tabledefinition-properties.png[width=800]
 *Result*: You have added properties to the database table.
 
 === Step 3: Add data to the database table in _Table Browser_
+//Fabian@Helle: I would put this section into a new topic as it deals with a new tile (and the topic is becoming too long)
 
 . Open the Cockpit of your Neptune DXP - Open Edition.
 . Go to *Tools* and click *Table Definition*.
@@ -73,6 +77,7 @@ image::tablebrowser-run.png[width=800]
 
 . On the toolbar, click *Add* to add rows to your table.
 . Enter data to all rows, for example, a name, number, rank, and squad for each row.
+//Fabian@Helle: Use correct typographical conventions for values.
 . Click *Save* and *Display* to exit edit mode.
 +
 image::tablebrowser-sampledata.png[width=600]

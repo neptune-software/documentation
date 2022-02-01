@@ -1,4 +1,4 @@
-//Fabian@Helle: After looking through this topic, I would split it up in three task topics. Now it is too long. It would also give you the opportunity to add some more context information in the beginning of a topic (for example, what is an API, what is an "operation"
+//Fabian@Helle: After looking through this topic, I would split it up in three task topics. Now it is too long. It This would also give you the opportunity to add some more context information in the beginning of a topic (for example, what is an API, what is an "operation").
 
 = Create a table definition API with the _API Designer_
 
@@ -16,7 +16,7 @@ In this topic, you learn how to create an API to communicate with a table defini
 //Fabian@Helle: s.o., kein Step1, sondern neue Untertopics
 
 . On the Neptune DXP - Open Edition cockpit, go to *Connectivity* and click _API Designer_.
-//Fabian@Helle: Das "Neptune DXP - Open Edition" weglassen hier, ist überflüssig. Außerdem "Cockpit" immer groß schreiben.
+//Fabian@Helle: Das "Neptune DXP - Open Edition" weglassen hier, ist überflüssig. Außerdem "Cockpit"  groß schreiben.
 . On the _API Designer_, click *Add*.
 +
 image::api-designer-add.png[width=400]
@@ -56,9 +56,9 @@ image::api-designer-save.png[width=400]
 //s.o., create new topic and provide some context information about what an "operation" actually is
 
 . Navigate to the *Operations* tab and click *+* to add an operation.
-//Maybe add a screenshot here of the "operations" tab?
+//Fabian@Helle: Maybe add a screenshot here of the "operations" tab?
 . In *Path*, enter a slash and the name of your table definition, for example, `/clonetroopers`.
-//Fabian@Helle: Again, why give an example here at all? (And if so, maybe a more generic one, for example "/neptune"? Star Wars is nice, but it might distract user from the actual task)
+//Fabian@Helle: Leave example away in this topic.
 //Fabian@Helle: What about the "chain link" button next to "path"?
 . In *Method*, select a method from the list, for example `GET`:
 +
@@ -70,12 +70,13 @@ include::partial$api-operations.adoc[]
 //Fabian@Helle: remove example.
 . Activate any of the following:
 //Helle@Neptune: Save Request Body explanation is assumptions, please check.
-//Fabian@Helle: In my version, there is no "Save Request Body" button at all! Has it vanished or is it only displayed if you do something else before?
+//Fabian@Helle: In my version, there is no "Save Request Body" button at all. Has it vanished or is it only displayed if you do something else before?
 ** Trace Operations: Trace request you or others make to the API in _API Trace_.
 ** Save Request Body: When you trace operations, the request details are traced, too.
 ** Send Credentials (cookie): Use credentials for cookie-based authorization.
 ** Use Example Data: Use example data to run an unfinished API in the _App Designer_. Example data is not traced in _API Trace_ or _API Client_.
 //Helle@Neptune: Add: Click *Save*?
+//Fabian@Helle: I would add that.
 
 === Step 3: Add a definition and property
 //Fabian@Helle: s.o., new topic.
