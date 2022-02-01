@@ -12,7 +12,7 @@ The choice of data format depends on the type of application that is calling the
 JSON is used for web pages or applications that present a user interface.
 XML is used for machine-to-machine communication.
 +
-In Neptune DXP - Open Edition, you can call APIs with JavaScript snippets directly from the _App Designer_.
+In Neptune DXP - Open Edition, you can call APIs with configurable API-components or with JavaScript snippets directly from the _App Designer_.
 
 API operation:: An operation is a REST API unit that you can call. An operation consists of two parts:
 +
@@ -34,7 +34,7 @@ Unlike GET, HEAD retrieves the response header only.
 
 API definition:: An API definition sets the structure of your API.
 With the _API Designer_, you can write custom definitions to use in your application.
-Uta: Die beiden Sätze haben auf den ersten Blick keinen Zusammenhang. Bitte noch mal prüfen.
+//Uta: Die beiden Sätze haben auf den ersten Blick keinen Zusammenhang. Bitte noch mal prüfen.
 
 Endpoint:: An endpoint specifies where a resource lies on a server and is therefore an important aspect of interacting with server-side web APIs.
 Endpoints must be static URLs to guarantee correct communication between server, API, and application.
@@ -44,6 +44,8 @@ If the location of a resource changes, its endpoint needs to be updated in the A
 Media type:: Neptune DXP - Open Edition supports all types of files, such as images, documents, videos, audio files, and splash screens.
 You can store and access all media and non-media types of files in the _Media Library_.
 //Helle@Neptune: I do not understand why this is part of the API Designer documentation. It seems to me that the field "Media type" in API Designer refers to the way app, API, and resource communicate, thus JSON or XML. In that case the information above is more confusing than helpful. Please correct if I'm wrong.
+//Neptune@Helle: Wow this is so wrong, I don´t understand why we have this in our documentation. Media Type of an API has nothing to do with image and so on. You are absolutely right. Please correct that.
+
 +
 When designing an API, you define a media type for transferring data.
 The preset default is "application/JSON".
@@ -59,13 +61,14 @@ A proxy is necessary for cross-domain connectivity.
 //Useful links for content creation:
 //https://community.neptune-software.com/documentation/add-url-parameters-in-api-operations
 
-. If you want to further specify the property, under *Actions*, open the detail view. You can specify any of the following values:
+If you want to further specify the property, under *Actions*, open the detail view. You can specify any of the following values:
 +
 image::api-designer-property-details.png[width=400]
 
 ** Default Value: Enter a default value for the property.
-** Pattern: Enter a pattern for the property.
+** Pattern: Enter a pattern for the property to define its format.
 //Helle@Neptune: What does the pattern do?
+//Neptune@Helle: It defines the pattern / format of the value.
 ** Min. Length: Enter a minimum number of characters.
 ** Max. Length: Enter a maximum number of characters.
 ** Description: Enter a description of the property. If you entered a description before, you see it here as well.

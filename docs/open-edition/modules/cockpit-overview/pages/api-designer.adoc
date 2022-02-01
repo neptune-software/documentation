@@ -13,7 +13,7 @@ You can create new APIs, update existing APIs, or import and export APIs from an
 The _API Designer_ shows all available types of APIs. There are three types of APIs you can create with the _API Designer_:
 
 * *External APIs*: To reach web services outside the DXP - Open Edition.
-* *Table Definitions*: To connect an application to a data table.
+* *Table Definitions*: To reach a data table through an api.
 * *Server Scripts*: To access one of your server scripts on the DXP - Open Edition.
 // Fabian@Helle: Laut Style Guide keinen Artikel for "DXP - Open Edition".
 

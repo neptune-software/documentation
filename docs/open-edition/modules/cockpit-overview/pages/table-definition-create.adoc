@@ -39,6 +39,7 @@ image::tools-tabledefinition.png[width=800]
 //Helle@Helle: write reference topic on data types and add link here.
 . You can enter a *Description* and *Default value*.
 //Helle@Neptune: Where does Description appear?
+//Neptune@Helle: The description only appears in the table definition
 . For columns that can only have unique values, activate *Unique*.
 . For columns that can have no value, activate *Nullable*.
 +
