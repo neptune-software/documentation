@@ -84,7 +84,7 @@
 ** xref:cockpit-overview:code-snippets.adoc[Code snippets]
 ** xref:cockpit-overview:documentation.adoc[Documentation]
 ** xref:cockpit-overview:media-library.adoc[Media library]
-** xref:cockpit-overview:organize-media-library.adoc[]
+*** xref:cockpit-overview:organize-media-library.adoc[]
 ** xref:cockpit-overview:npm-modules.adoc[npm Modules]
 *** xref:cockpit-overview:npm_add.adoc[]
 ** xref:cockpit-overview:application-trashbin.adoc[Application trashbin]
