@@ -1,17 +1,15 @@
-= image:theme-designer-icon.png[width=100,link="theme-designer-icon.png"] Theme Import
+= image:theme-designer-icon.png[width=100] Theme Import
 
-You create and customize themes with the _Theme Designer_.
-With _Theme Import_, you can import SAP-customized themes from the _SAP UI Theme Designer_ and use them in the _Launchpad_.
+With the _Theme Import_, you can import SAP-customized themes from the SAP UI Theme Designer and use them in the _Launchpad_.
 
 == SAP UI Theme Designer
 The UI Theme Designer by SAP is a browser-based tool for cross-theming scenarios.
 
 Use the SAP UI Theme Designer to build your corporate identity themes by modifying one of the theme templates provided by SAP. Change, for example, the color scheme or add your company logo.
 
-Learn more about the https://help.sap.com/viewer/ab06dedc873746eaba1c041200c068e0/7.5.6/en-US[SAP UI Theme Designer].
-
-//== Related topics
-//* SAP UI themes
+== Related topics
+* https://help.sap.com/viewer/ab06dedc873746eaba1c041200c068e0/7.5.6/en-US[SAP UI Theme Designer]
+* xref:cockpit-overview:theme-designer.adoc[Theme Designer]
 //* Custom UI themes
 //* How to use Theme Import
 

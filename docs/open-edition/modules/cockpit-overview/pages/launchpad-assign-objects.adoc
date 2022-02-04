@@ -1,12 +1,10 @@
-= Assign objects in _Launchpad_
+= Assign objects in a launchpad
 
-The _Launchpad_ comes with an assignment mechanisms that connects objects to one another in different ways.
-
+A launchpad comes with an assignment mechanisms that connects objects to one another in different ways.
 
 Assign objects as follows:
 
-.Assignment mechanism in the _Launchpad_
-[%header, frame=sides, frame=ends ]
+[%header, frame=sides, frame=ends]
 |===
 |Assignment task                      |Assign why               |Assign where
 |Assign a user or a group to a role     |All users with a specific role can access apps that are assigned to that role     |Go to *Security* > *User*.
