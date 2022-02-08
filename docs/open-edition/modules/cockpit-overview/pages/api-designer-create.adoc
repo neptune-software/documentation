@@ -12,32 +12,24 @@ In this topic, you learn how to create an API to communicate with a table defini
 
 == Procedure
 
+NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
+
 === Step 1: Configure a new API
 //Fabian@Helle: s.o., kein Step1, sondern neue Untertopics
 
-. On the Neptune DXP - Open Edition cockpit, go to *Connectivity* and click _API Designer_.
-//Fabian@Helle: Das "Neptune DXP - Open Edition" weglassen hier, ist überflüssig. Außerdem "Cockpit"  groß schreiben.
+. On the Cockpit, go to *Connectivity* and click _API Designer_.
 . On the _API Designer_, click *Add*.
-+
-image::api-designer-add.png[width=400]
 +
 *Result*: The API configuration dialog opens.
 You start in the *General* tab.
 +
 . In *Type*, select *Table Definition*.
-. In *API format*, Swagger 2.0 is preselected. You may select the newer version, Open API 3.0, here.
-//Fabian@Helle: Is Open API 3.0 really newer or just different than Swagger 2.0?
-//Helle@parson: no context given for API. Add to concept/reference topic, explain there and link here?
-//Fabian@Helle: It is not advisable to provide a link inside a step. Users shouldn't jump away when performing a task. Add the link in the context information in the top or in the related topics below (there is no concept/reference regarding APIs yet, is there? I would add some basic information in the concept topic on the API Designer and link there to other parts of the website or even external sources).
-
+. In *API format*, Swagger 2.0 is preselected. You can select the newer version, Open API 3.0, here.
 . Enter a *Name* for your table definition, for example, `API Clones`.
-//Fabian@Helle: Not really necessary to provide an example for a name here, is it? (Although it is a good one :-))
 . If you created a package or group for your APIs, applications, oData, and mock data before, you can select those from the *Group* or *Package* drop-down menu.
 . Enter a short and meaningful *Description* to your API.
 . In *Version*, enter a version number, for example, `1.0`, to keep track of changes to the API.
-. In *Media Type*, you define the type of the content of your api. By default it's `application/json`.
-//Helle@Neptune: input needed, what exactly can I enter here? Does this refer to the way API, app, and resource communicate, meaning I can enter JSON or XML?
-//Neptune@Helle: the media type is needed by the browser to know what kind of content it receives.
+. In *Media Type*, define the type of content of your api. This is needed to communicate with your browser. By default, it is `application/json`.
 
 . Activate any of the following options that fit your application:
 +
@@ -46,48 +38,43 @@ include::partial$api-designer-create.adoc[tag=!*]
 --
 
 . Click *Save*.
-+
-image::api-designer-save.png[width=400]
-//Fabian@Helle: Do we really need that screenshot? Seems quite obvious what to do, isn't it?
 
-*Result*: Your API is saved with the current settings and is added to the library in the _API Designer_. _API Designer_ adds an ID to your API and saves change dates.
-//Fabian@Helle: Always use an article before "API Designer"
+
+*Result*: Your API is saved with the current settings and is added to the library in the _API Designer_. The _API Designer_ adds an ID to your API and saves change dates.
 
 === Step 2: Add an operation
 //s.o., create new topic and provide some context information about what an "operation" actually is
 
 . Navigate to the *Operations* tab and click *+* to add an operation.
-//Fabian@Helle: Maybe add a screenshot here of the "operations" tab?
-. In *Path*, enter a slash and the name of your table definition, for example, `/clonetroopers`.
-//Fabian@Helle: Leave example away in this topic.
-//Fabian@Helle: What about the "chain link" button next to "path"?
++
+image:api-designer-add-operation.png[width=400]
+
+. In *Path*, enter a slash and the name for your table definition, for example, `/clonetroopers`.
 . In *Method*, select a method from the list, for example `GET`:
 +
 --
 include::partial$api-operations.adoc[]
 --
-//Helle@Neptune: Where's the difference between Summary and Description?
-//Neptune@Helle: Description = long explanation, Summary = short explanation.
+. Enter a short Summary and a longer Description to provide context information to the operation.
 . In *Tags*, enter keywords that describe the resource, for example, `clones`.
-//Fabian@Helle: remove example.
 . Activate any of the following:
-//Helle@Neptune: Save Request Body explanation is assumptions, please check.
+//Todo Neptune: Save Request Body explanation is assumptions, please check.
 //Fabian@Helle: In my version, there is no "Save Request Body" button at all. Has it vanished or is it only displayed if you do something else before?
 ** Trace Operations: Trace request you or others make to the API in _API Trace_.
 ** Save Request Body: When you trace operations, the request details are traced, too.
 ** Send Credentials (cookie): Use credentials for cookie-based authorization.
 ** Use Example Data: Use example data to run an unfinished API in the _App Designer_. Example data is not traced in _API Trace_ or _API Client_.
-//Helle@Neptune: Add: Click *Save*?
-//Fabian@Helle: I would add that.
-//Neptune@Hello: Yes
+
+. Click *Save*.
 
 === Step 3: Add a definition and property
 //Fabian@Helle: s.o., new topic.
 
 . Navigate to the *Definitions* tab and click *+* to add a definition.
-//Fabian@Helle: Would add a screenshot here.
++
+image:api-designer-add-definition.png[width=400]
+
 . Enter a *Name*, for example, `clones`, and *Description*.
-//Fabian@Helle: Remove example.
 . Select a *Type*.
 //Helle@Neptune: What does the type do?
 //Fabian@Helle: Funny again, I cannot select a "type" at all, has something changed in between?
@@ -95,15 +82,19 @@ include::partial$api-operations.adoc[]
 
 . Navigate to the *Properties* tab and click *+ Add*.
 +
+image:api-designer-add-properties.png[width=800]
++
 *Result*: The _API Designer_ adds a new line to specify a property.
-//Fabian@Helle: Screenshot needed
 
 . For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `name`, `number`, `rank`, and `squad`.
-//Fabian@Helle: Remove examples.
 . Select the allowed *Type* for the property.
 . Enter a *Description*.
 . If you want the property to be mandatory, check the *Required* box.
 . Click *Save*.
+
+If you used the example data in this topic, your properties look like this:
+
+image:api-designer-properties-example.png[width=800]
 
 == Results
 * You have created an API for a table definition.

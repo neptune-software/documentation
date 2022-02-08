@@ -13,17 +13,13 @@ NOTE: In this procedure we use sample data from the Star Wars universe. You can 
 //Fabian@Helle: I wouldn't number the steps in the heading.
 . Open the Cockpit of Neptune DXP - Open Edition.
 . Go to *Tools* and click *Table Definition*.
-+
-image::tools-tabledefinition.png[width=800]
-
 . Click *Add* to create a new database table.
 +
 *Result*: The Table Definition configuration dialog opens. You start in the General tab.
-. In *Name*, enter a meaningful name that describes the data you will add to the table, for example, "clonetroopers".
-//Fabian@Helle: Use correct typographical conventions for values.
+. In *Name*, enter a meaningful name that describes the data you will add to the table, for example, `clonetroopers`.
 . In *Description*, add additional information. This information is displayed in the _Table Browser_.
 . If you created a package for your APIs, applications, oData, and mock data before, select the package from the *Package* drop-down menu.
-//. Enable Table Audit, added when consequences are clear
+//todo helle. Enable Table Audit, added when consequences are clear
 . Click *Save*.
 +
 *Result*: You have added an empty database table. You now can see a number in *ID*.
@@ -33,13 +29,14 @@ image::tools-tabledefinition.png[width=800]
 
 . Navigate to the *Properties* tab.
 . Click *+ Add* to add a new column to the table.
-. Enter a column name to each column, for example, "name", "number", "rank", and "squad".
-//Fabian@Helle: Use correct typographical conventions for values.
+. Enter a column name to each column, for example, `name`, `number`, `rank`, and `squad`.
+
 . In *Type*, select a data type for the column.
-//Helle@Helle: write reference topic on data types and add link here.
+//todo Helle: write reference topic on data types and add link here.
 . You can enter a *Description* and *Default value*.
 //Helle@Neptune: Where does Description appear?
 //Neptune@Helle: The description only appears in the table definition
+//todo helle: check
 . For columns that can only have unique values, activate *Unique*.
 . For columns that can have no value, activate *Nullable*.
 +
@@ -77,8 +74,7 @@ image::tablebrowser-run.png[width=800]
 *Result*: A new toolbar appears.
 
 . On the toolbar, click *Add* to add rows to your table.
-. Enter data to all rows, for example, a name, number, rank, and squad for each row.
-//Fabian@Helle: Use correct typographical conventions for values.
+. Enter data to all rows, for example, a *name*, *number*, *rank*, and *squad* for each row.
 . Click *Save* and *Display* to exit edit mode.
 +
 image::tablebrowser-sampledata.png[width=600]
