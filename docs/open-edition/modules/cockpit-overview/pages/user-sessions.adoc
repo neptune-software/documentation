@@ -5,6 +5,8 @@ Monitor active user sessions in the system.
 
 A user session starts when a user signs in to the Cockpit, and it stops when the user signs out again. A user session can also be terminated automatically when the user is inactive for a certain period of time. This specific session timeout can be configured in _System Settings_.
 //Leonie: I am wondering if it should state System Settings service, because we are referring to another service.
+//Fabian: According to the style guide, services are the only elements we write in italics (apart from file names, which are rare). That means, writing "System Settings" in italics and with upper case should be enough to identify it as a service in my opinion.
+//Fabian: There should be an article before a service.
 //Todo Leonie: Find a concept how to mention and refer inbetween services.
 
 _User Sessions_ provides live data on the following:
