@@ -1,1 +1,2 @@
 = Deployment
+Deployment is a methodology to distribute services from one system to another. Planet 9 Deployment services allow to create ‘deployment’ and deploy them from one system to another.
