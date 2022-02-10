@@ -37,7 +37,7 @@ The admin login name cannot be the following:
 * guest
 * public
 +
-The admin login name cannot start with _pg_.
+The admin login name cannot start with `pg`.
 Password/ confirm password:: Select a new password for the server admin account.
 Location:: Select the location that is closest to your users.
 Version:: Select the latest major PostgreSQL  version, unless you have specific requirements otherwise.

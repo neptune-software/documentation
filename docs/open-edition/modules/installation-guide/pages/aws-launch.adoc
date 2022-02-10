@@ -6,7 +6,7 @@ An instance is a virtual server in the AWS cloud that runs the application you c
 == Prerequisites
 
 * You have an account at the AWS platform.
-* You created a key pair in the AWS console.
+* You have created a key pair in the AWS console.
 
 == Procedure
 

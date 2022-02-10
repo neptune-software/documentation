@@ -5,7 +5,7 @@ This section describes how you create a virtual machine in Azure.
 == Prerequisites
 
 * A SSH key pair. See https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows#create-an-ssh-key-pair[here] for more information.
-
+//Style: you have a ssh key pair?
 * A valid Microsoft Azure account.
 
 == Procedure
@@ -29,7 +29,7 @@ Click *OK*.
 .. Add the name for the virtual machine.
 .. Select the region closest to your users.
 .. Set the memory and CPU size according to your requirements.
-The minimum requirement for Neptune DXP - Open Edition is _2vcpus_ with 4 GB memory.
+The minimum requirement for Neptune DXP - Open Edition is `2vcpus` with 4 GB memory.
 .. You can leave the other parameters at default value.
 +
 image::azure_instance_details.png[width=400]
@@ -43,7 +43,7 @@ NOTE: Remove any leading or trailing white space in your public key.
 image::administrator_account_azure.png[width=400]
 . Click *Inbound Port Rules*.
 .. In *Public inbound ports*, select *Allow selected ports*.
-.. In *Select inbound ports*, select SSH (22) and HTTP (80).
+.. In *Select inbound ports*, select *SSH (22)* and *HTTP (80)*.
 +
 image::inbound-port-rules.png[width=400]
 . Leave the remaining entries to their default values.

@@ -16,7 +16,7 @@ In this topic, you create a key pair to launch an instance on the AWS console in
 +
 image::aws-console-ec2.png[width=400]
 +
-. On the *Resources* panel, click *Key Pairs*.
+. On the *Resources* panel, click *Key pairs*.
 +
 image::aws-key-pairs.png[width=400]
 

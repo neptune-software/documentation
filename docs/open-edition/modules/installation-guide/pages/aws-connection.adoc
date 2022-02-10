@@ -1,10 +1,10 @@
 = Connect the AWS database to your Neptune DXP - Open Edition
 
 == Prerequisites
-* You created an instance on the AWS console.
-* You launched the AWS instance.
-* You connected your AWS instance to Neptune DXP - Open Edition.
-* You created your database on the AWS console.
+* You have created an instance on the AWS console.
+* You have launched the AWS instance.
+* You have connected your AWS instance to Neptune DXP - Open Edition.
+* You have created your database on the AWS console.
 
 == Procedure
 . Open Neptune DXP - Open Edition cockpit.

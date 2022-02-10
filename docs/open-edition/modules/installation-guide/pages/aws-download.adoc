@@ -1,11 +1,11 @@
 = Download Neptune DXP - Open Edition to the instance
 
 == Prerequisites
-* You created an instance on the AWS console.
-* You launched the AWS instance.
+* You have created an instance on the AWS console.
+* You have launched the AWS instance.
 
 == Procedure
-. Click on *connect using PuTTY* in the _Connect To Your Instance_ window.
+. Click on *connect using PuTTY* in the *Connect To Your Instance* window.
 
 +
 image::aws-connect-instance-putty.png[PuTTY]
@@ -18,6 +18,9 @@ A connection guide opens.
 . Follow the steps in the xref:installation-guide.adoc[Installation guide].
 
 Your Neptune DXP - Open Edition is downloaded to the AWS instance.
+
+== Result
+You have downloaded Neptune DXP - Open Edition to your instance.
 
 == Next steps
 Now that you connected your AWS instance to Neptune DXP - Open Edition you set up the database.

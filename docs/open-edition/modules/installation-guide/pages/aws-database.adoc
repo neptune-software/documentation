@@ -1,9 +1,9 @@
 = Set up a database in the AWS instance
 
 == Prerequisites
-* You created an instance on the AWS console.
-* You launched the AWS instance.
-* You connected your AWS instance to Neptune DXP - Open Edition.
+* You have created an instance on the AWS console.
+* You have launched the AWS instance.
+* You have connected your AWS instance to Neptune DXP - Open Edition.
 
 == Procedure
 . In your browser, go to the AWS Console and login.
@@ -33,18 +33,19 @@ Easy creation does not show the *Estimated monthly costs*.
 //Helle@Neptune: The PostgreSQL version is automatically set to 13.3-R1. Is this correct?
 //Fabian: The following is no step for its own but an introduction to the following steps. Maybe work with substeps for that?
 . Set the following configurations according to your needs.
-. Click *Create database*.
+.. Click *Create database*.
 +
 *Result*: Your database details have been sent to AWS. AWS need to launch your database. This can take 10-15 minutes.
-. To watch the current status of your database, open the *Services* menu.
-. Go to the *Database* section and click *RDS*.
-. Under *Resources*, click *DB Instances*.
-. To see the details of your database, click on the *DB identifier* of your database.
+
+.. To watch the current status of your database, open the *Services* menu.
+.. Go to the *Database* section and click *RDS*.
+.. Under *Resources*, click *DB Instances*.
+.. To see the details of your database, click on the *DB identifier* of your database.
 
 NOTE: Do not close this tab. You need this information in the next steps.
 
 == Results
-* You created your database. Once AWS have launched your database, its *Status* switches from "in Progress" to "Available".
+* You have created your database. Once AWS have launched your database, its *Status* switches from `in Progress` to `Available`.
 
 == Next steps
 * xref:installation-guide:aws-connection.adoc[]
