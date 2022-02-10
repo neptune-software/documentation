@@ -1,8 +1,6 @@
 = image:deployment-create (2).png[,100]Deployment Create
 
 
-In _Deployment Create_ you create deployment packages. Here, you select the artefacts you want to deploy from your Neptune DXP edition to another.
-
-Select the Launchpad, Tile Group, Tile, Application, Theme, API Group, OData, Table, Server Script. For example, if you select Launchpad from the Administration tab, you will get a list of Launchpad items, with names and version. You can select the items from the list. It works the same way for others artefacts like Tile, Application, Theme, and so on.
+In _Deployment Create_ you create deployment packages. Here, you select the artefacts from services you want to deploy from your Neptune DXP edition to another.
 
 image:create-deployment.png[,800]

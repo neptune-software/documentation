@@ -1,0 +1,40 @@
+= Create a deployment package
+
+== Prerequisites
+Before you start a deployment process, make sure that you set up a remote system you want to send the deployment packages to. To know how to set up a remote system, refer to Remote System Setup.
+//Todo Gernot link page Remote System Setup
+
+== Procedure
+
+. Open Neptune DXP - Open Edition cockpit.
+. Go to *Deployment*, and click *Deployment Create*.
+. On the _Deployment Create_, click *Start*.
++
+image:start-deployment-creation.png[,400]
++
+*Result*: The deployment create dialog opens.
++
+image:deployment-create-overview.png[,800]
++
+You have two options:
++
+.. Deploy an already existing package.
++
+.. Create a new deployment package and deploy it.
+
+=== Deploy an existing package
+. Click *Packages*.
++
+NOTE: The number next to *Packages* indicates the number of available packages.
++
+image:select-package.png[,600]
++
+*Result*
++
+. Check the package or packages you want to deploy.
++
+
+=== Create a deployment package
+. Click the arrow next to the service you want to deploy artefacts from. The number next to the service' name indicates the number of available artefacts.
+
+the Select the Launchpad, Tile Group, Tile, Application, Theme, API Group, OData, Table, Server Script. For example, if you select Launchpad from the Administration tab, you will get a list of Launchpad items, with names and version. You can select the items from the list. It works the same way for others artefacts like Tile, Application, Theme, and so on.
