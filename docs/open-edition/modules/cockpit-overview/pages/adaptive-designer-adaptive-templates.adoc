@@ -1,0 +1,4 @@
+= Adaptive templates
+
+//concept of two different adaptive templates and xref to single types
+//TODO Leonie: fill topic

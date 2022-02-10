@@ -1,0 +1,3 @@
+= Application component panel
+//reference information for second vertical panel from the left on designer page
+//TODO Leonie: fill topic

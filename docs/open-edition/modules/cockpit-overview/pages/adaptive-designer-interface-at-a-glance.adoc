@@ -1,1 +1,9 @@
 = The Adaptive Designer interface at a glance
+
+//terminology: UI vs. interface
+//list interface elements for xrefs
+// side navigation, shell bar, reusable component panel, application component panel, application preview panel, application properties panel (harmonize with App Designer)
+//do we need all sections in this topic? I would prefer to keep it "at a glance" and xref to single subtopics
+//provide new SUI
+//set default page here -> designer
+//TODO Leonie: fill topic

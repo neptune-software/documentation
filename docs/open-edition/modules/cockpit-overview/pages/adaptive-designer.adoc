@@ -39,6 +39,8 @@ image::adaptivedesigner_architecture.png[Adaptive Designer Architecture, width=8
 //outdated comment: @Neptune. Picture up-to-date?
 //outdated comment: @Neptune. Should we use any of this content in the documentation? https://community.neptune-software.com/documentation/adaptive-designer
 
+//add section about translation
+
 == Download the templates
 //Leonie: no need for a separate section; avoid task-like representation; mention this in the template concept section; pick up application building block terminology here?
 Visit the __Store__ in Neptune DXP - Open Edition and search for "Adaptive Framework".

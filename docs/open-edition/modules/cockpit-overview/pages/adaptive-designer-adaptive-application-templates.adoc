@@ -1,0 +1,3 @@
+= Adaptive application templates
+// fill concept and reference to different template types
+//TODO Leonie: fill topic

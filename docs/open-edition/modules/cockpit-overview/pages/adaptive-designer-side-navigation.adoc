@@ -1,0 +1,3 @@
+= Side navigation
+//provide reference for 3 pages: settings, designer, translation and the utility section
+//TODO Leonie: fill topic
