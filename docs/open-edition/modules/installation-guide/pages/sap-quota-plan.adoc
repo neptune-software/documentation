@@ -26,5 +26,5 @@ NOTE: Leave this tab open. You need information from the *Cloud Foundry Environm
 == Results
 * You have set up a new quota plan for your organizational Space on SAP Cloud Platform.
 
-== Next steps
+== Related topics
 * xref:sap-deploy-oe-docker-image.adoc[Deploy your application to the SAP Cloud Foundry Space]

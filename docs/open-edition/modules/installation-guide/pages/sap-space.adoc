@@ -18,5 +18,5 @@ Within the Cloud Foundry environment, you can create multiple Spaces. Spaces ena
 * The *Cloud Foundry Environment* tab of your subaccount now shows your Space.
 //Martin: tense, should be present perfect.
 
-== Next Steps
+== Related topics
 *  xref:sap-quota-plan.adoc[Add a new quota plan to your organizational Space]

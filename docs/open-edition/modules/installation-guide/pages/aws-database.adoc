@@ -6,7 +6,7 @@
 * You have connected your AWS instance to Neptune DXP - Open Edition.
 
 == Procedure
-. In your browser, go to the AWS Console and login.
+. In your browser, go to the AWS Console and sign in.
 . On the AWS Console, open the *Services* menu.
 . Go to the *Database* section and click *RDS*.
 +
@@ -30,8 +30,9 @@ Easy creation does not show the *Estimated monthly costs*.
 +
 
 . In *Engine options*, select *PostgreSQL*.
-//Helle@Neptune: The PostgreSQL version is automatically set to 13.3-R1. Is this correct?
-//Fabian: The following is no step for its own but an introduction to the following steps. Maybe work with substeps for that?
+//TODO: Helle@Neptune: The PostgreSQL version is automatically set to 13.3-R1. Is this correct?
+//TODO: Fabian: The following is no step for its own but an introduction to the following steps. Maybe work with substeps for that?
+//TODO: Martin: Done.
 . Set the following configurations according to your needs.
 .. Click *Create database*.
 +
@@ -47,5 +48,5 @@ NOTE: Do not close this tab. You need this information in the next steps.
 == Results
 * You have created your database. Once AWS have launched your database, its *Status* switches from `in Progress` to `Available`.
 
-== Next steps
+== Related topics
 * xref:installation-guide:aws-connection.adoc[]

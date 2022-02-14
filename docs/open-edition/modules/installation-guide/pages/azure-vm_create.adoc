@@ -4,13 +4,12 @@ This section describes how you create a virtual machine in Azure.
 
 == Prerequisites
 
-* A SSH key pair. See https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows#create-an-ssh-key-pair[here] for more information.
-//Style: you have a ssh key pair?
-* A valid Microsoft Azure account.
+* You have a SSH key pair. See https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows#create-an-ssh-key-pair[here] for more information.
+* You have a valid Microsoft Azure account.
 
 == Procedure
 
-. Log in to the https://portal.azure.com/[Microsoft Azure portal].
+. Sign in to the https://portal.azure.com/[Microsoft Azure portal].
 
 . Click *Create a resource*.
 +
@@ -56,7 +55,7 @@ Click  *Review + create*  at the bottom of the page.
 * You have created your virtual machine.
 This process may take a few minutes.
 
-== Next steps
+== Related topics
 * xref:azure_connect.adoc[Configure a connection to the virtual machine]
 //Uta: Made it bullet list and deleted full stop
 //FaKo: Layout of "next steps" section has to be discussed and specified in the style guide

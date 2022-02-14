@@ -14,7 +14,7 @@ You have defined all configurations on the SAP Cloud Platform. Now you connect t
 +
 NOTE: You can find the installation file for macOS, Windows, and Linux here: https://github.com/cloudfoundry/cli#downloads[Downloads].
 . Follow the installation guide https://docs.cloudfoundry.org/cf-cli/install-go-cli.html[here].
-//Helle@Neptune: New version available since December 2020. Can version v7 and v6 be used?
+//TODO: Helle@Neptune: New version available since December 2020. Can version v7 and v6 be used?
 . Go to the SAP Cloud Platform.
 . Click *Quota Plans* of your subaccount.
 . Copy the *API Endpoint* link.
@@ -31,12 +31,13 @@ cf login -a API Endpoint
 . Enter the following command and replace `App Name` with the name of your app in Neptune DXP - Open Edition:
 //Helle@Neptune: documentation says: "cf push <any app name>  -m 4096M --docker-image ...", does "any app name" refer to an app already built in Open Edition by the user?
 +
+[source,asciidoc]
 ----
 cf push App Name -m 4096 --docker-image docker.io/neptunesoftware/planet9:latest
 ----
 +
 NOTE: While deploying, your command prompt or terminal shows an error message. You can ignore this error and continue following the steps. If your command prompt or terminal stays in a loop, press Ctrl+C to break it.
-//Helle@Neptune: has this been solved?
+//TODO: Helle@Neptune: has this been solved?
 . On the SAP Cloud Platform, click *Cloud Foundry* > *Spaces*. Click on the name of your space. The application overview of your space opens.
 +
 image::sap-cloud-foundry-spaces.png[width=600]
@@ -46,19 +47,20 @@ image::sap-cloud-foundry-spaces.png[width=600]
 . Click *User-Provided Variables* > *Add*.
 .. In the *Key* field, type `PLANET9_IP`.
 .. In the *Value* field, type `0.0.0.0`.
-//Helle@Neptune: Needs to be updated according to name changes?
+//TODO: Helle@Neptune: Needs to be updated according to name changes?
 . Click *Save*.
 +
 If this does not work, enter the following in your command prompt or terminal:
 +
+[source,asciidoc]
 ----
 cf set-env
 APP_NAME ENV_VAR_NAME ENV_VAR_VALUE
 ----
-//Helle@Neptune: Do you execute the commands separately?
+//TODO: Helle@Neptune: Do you execute the commands separately?
 . Click *Overview* > *Restart* (or *Start*). After a few minutes, the indicator above the *Restart* button switches from `Starting` to `Started`.
 . In *Application Routes*, click on the link. You are forwarded to the login page of Neptune DXP - Open Edition.
-. Log in with the *Username* `admin` and the *Password* `admin`.
+. Sign in with the *Username* `admin` and the *Password* `admin`.
 
 == Result
 * You have set up the SAP Cloud subaccount and connected to Neptune DXP - Open Edition.

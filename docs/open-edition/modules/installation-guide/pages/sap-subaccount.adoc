@@ -8,8 +8,7 @@ A subaccount adds another level to your trial account. You can have different su
 * You have created a trial account on the SAP Cloud Platform.
 
 == Procedure
-. Go to the SAP Cloud Platform https://cockpit.hanatrial.ondemand.com/cockpit/#/home/trialhome[login page] and log in.
-//Martin: sign in?
+. Go to the SAP Cloud Platform https://cockpit.hanatrial.ondemand.com/cockpit/#/home/trialhome[login page] and sign in.
 . Click *Enter your Trial Account*.
 +
 The subaccount overview opens.
@@ -30,8 +29,7 @@ image::sap-entry-assignments.png[width=400]
 image::sap-entry-assignments-2.png[width=400]
 +
 *Result:* All subaccounts are displayed with their entitlements. Your subaccount has no entitlements. The trial subaccount has many entitlements.
-+
-//Result?
+
 NOTE: Your SAP account has four memory units by default. All four units are assigned to the trial subaccount created by SAP. You must transfer the memory units to the subaccount that you created for Neptune DXP - Open Edition so that your subaccount can use the memory.
 
 === Transfer memory units to the trial subaccount
@@ -41,8 +39,6 @@ NOTE: Your SAP account has four memory units by default. All four units are assi
 . Click *Save*.
 +
 image::sap-assign-entitlements-configure-entitlements.png[width=400]
-//Helle: Highlighting in image needs to be adapted. Image can be cropped.
-//Martin: Trashcan was highlighted.
 . In your subaccount, click *Configure Entitlements* > *Add Service Plans*.
 . In the pop-up menu, click *Cloud Foundry Runtime* and check the *MEMORY* box.
 . Click *Add 1 Service Plan*.
@@ -55,5 +51,5 @@ image::sap-assign-entitlements-result.png[width=400]
 == Results
 * You have set up a subaccount on the SAP Cloud Platform.
 
-== Next steps
+== Related topics
 * xref:sap-cloud-foundry.adoc[Enable Cloud Foundry] to use the subaccount that you created.

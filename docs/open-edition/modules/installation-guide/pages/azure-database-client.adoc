@@ -19,12 +19,14 @@ NOTE: Disable *Enforce SSL connection* in case your SQL client does not support 
 . Start an SQL client. The following steps base on https://www.adminer.org/[Adminer] but other SQL clients work similarly.
 .. Open a console and type:
 +
+[source,asciidoc]
 ----
 docker run -p 9000:8080 adminer
 ----
 to start Docker and the Adminer client.
 .. Type in your browser:
 +
+[source,asciidoc]
 ----
 localhost:9000
 ----
@@ -40,6 +42,7 @@ NOTE: You do not need to specify a database.
 .. Run the following SQL script against that target database:
 //TODO: Is that still up to date?
 +
+[source,asciidoc]
 ----
 create schema planet9
 ----
