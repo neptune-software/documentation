@@ -6,20 +6,22 @@ You also can see when and who run an API on the server.
 API tracing allows you to see the values of events, such as the date, time, and status.
 You can use that data for testing and diagnosis.
 
-== _API Trace_ view
+== API Trace view
 
 The main view of the _API Trace_ shows filter options that help you analyze specific logs and time periods. You can specify one or more APIs or applications and see details on their performance and usage.
 
 In API logs, you can switch between an analytic representation with a line chart and a list view.
+//Fabian@Helle: Where does the phrase "API logs" come from?
 
 image:api-trace-base.png[width=800]
 
-The analytic view shows details about the runtime of an API and the number of successful and failed requests to it.
+* The analytic view shows details about the runtime of an API and the number of successful and failed requests to it.
 
-The list view gives information about each *Operation* that was performed along with the *Time*, *Date*, *User*, and *Application* that made the request.
+* The list view gives information about each *Operation* that was performed along with the *Time*, *Date*, *User*, and *Application* that made the request.
+//Fabian@Helle: Formated this as a list
 
 
 == Related topics
 
-* xref:api-designer.adoc[_API Designer_]
-* xref:api-client.adoc[_API Client_]
+* xref:api-designer.adoc[API Designer]
+* xref:api-client.adoc[API Client]
