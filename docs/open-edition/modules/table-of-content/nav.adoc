@@ -84,7 +84,7 @@
 ** xref:cockpit-overview:code-snippets.adoc[Code snippets]
 ** xref:cockpit-overview:documentation.adoc[Documentation]
 ** xref:cockpit-overview:media-library.adoc[Media library]
-*** xref:cockpit-overview:organize-media-library.adoc[]
+*** xref:cockpit-overview:organize-media-library.adoc[Organize files in the _Media Library_]
 ** xref:cockpit-overview:npm-modules.adoc[npm Modules]
 *** xref:cockpit-overview:npm_add.adoc[]
 ** xref:cockpit-overview:application-trashbin.adoc[Application trashbin]
@@ -97,8 +97,10 @@
 //Connectivity
 * xref:cockpit-overview:connectivity.adoc[Connectivity]
 ** xref:cockpit-overview:api-designer.adoc[API Designer]
-*** xref:cockpit-overview:api-designer-detail.adoc[API Designer details]
-*** xref:cockpit-overview:api-designer-create.adoc[Create a table definition with the _API Designer_]
+*** xref:cockpit-overview:api-designer-detail.adoc[API Designer]
+**** xref:cockpit-overview:api-designer-create.adoc[Create a table definition with the _API Designer_]
+*** xref:cockpit-overview:api-client.adoc[API Client]
+*** xref:cockpit-overview:api-trace.adoc[API Trace]
 //Administration
 * xref:cockpit-overview:administration.adoc[Administration]
 ** xref:cockpit-overview:tiles.adoc[Tiles]

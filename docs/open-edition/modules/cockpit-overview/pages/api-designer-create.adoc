@@ -99,7 +99,7 @@ image:api-designer-properties-example.png[width=800]
 == Results
 * You have created an API for a table definition.
 
-== Related Topics
+== Related topics
 * xref:api-designer.adoc[API Designer]
 * xref:api-designer-import.adoc[Import an API with the _API Designer_]
 //Todo Helle:* xref::export-api.adoc[] <-- task

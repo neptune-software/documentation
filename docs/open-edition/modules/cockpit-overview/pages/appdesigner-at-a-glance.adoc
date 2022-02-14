@@ -59,11 +59,9 @@ image::appdesigner-editortools.png[width=800]
 Expand and Collapse:: Expand and collapse groups of the *Application component* panel.
 Undo:: Undo your last changes.
 Run:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
-Header:: The html5 header editor
-//@Neptune Input needed: is this where I define a global HTML5 head for my application?
-//correct
+Header:: Define the html5 header for your application.
 Stylesheet:: The css stylesheet editor
-//@Neptune Input needed: is this a global css sheet for my application?
+//todo Neptune Input needed: is this a global css sheet for my application?
 
 //Web App Manifest editor
 //@Neptune Input needed
@@ -71,7 +69,7 @@ Stylesheet:: The css stylesheet editor
 
 Script search:: Open the *Search and ToDo List* panel and search for scripts.
 ToDo List:: Open the *Search and ToDo List* panel.
-//@Neptune: Input needed, what do I do here?
+//todo Neptune: Input needed, what do I do here?
 Display Data Flow:: Display data flows for APIs and UI5 models.
 
 Easily switch between opened tabs.

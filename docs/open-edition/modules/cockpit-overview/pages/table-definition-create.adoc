@@ -50,8 +50,6 @@ image::tabledefinition-properties.png[width=800]
 . Open the Cockpit of your Neptune DXP - Open Edition.
 . Go to *Tools* and click *Table Definition*.
 +
-image::tools-tablebrowser.png[width=800]
-+
 *Result*: The _Table Browser_ opens. You see a list of all table definitions sorted by name.
 +
 [TIP]
