@@ -26,5 +26,5 @@ A list with the currently available instances opens.
 . Click Neptune DXP - Open Edition instance to check for details and the public IP address.
 +
 image::oracle_neptune_instance.png[]
-//screenshot says "Planet_9", needs to be updated
+//TODO: screenshot says "Planet_9", needs to be updated
 

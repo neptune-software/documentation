@@ -5,9 +5,9 @@ This topic explains how you create a database schema with SQL client.
 
 == Prerequisites
 
-* xref:azure-create-database.adoc[Your Postgres database setup is complete].
+* xref:azure-create-database.adoc[You have completed the Postgres database setup].
 * xref:azure-firewall.adoc[You have configured your firewall].
-* Docker is installed. You can get it https://docs.docker.com/get-docker/[here].
+* You have Docker installed. You can get it https://docs.docker.com/get-docker/[here].
 
 == Procedure
 
@@ -54,6 +54,6 @@ create schema planet9
 
 You have created a database schema with SQL client.
 
-== Next steps
+== Related topics
 
 * xref:azure-connection-cockpit.adoc[Connect the database to Neptune DXP - Open Edition]
