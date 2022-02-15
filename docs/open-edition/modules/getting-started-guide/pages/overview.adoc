@@ -99,15 +99,15 @@ The Neptune DXP - Open Edition is as easy to deploy as a docker container with C
 === Components
 Even though the Neptune DXP - Open Edition and the SAP Edition  use different foundations, they share a number of similar components:
 
-* __Launchpad__
-* __App Designer__
-* __Application Building Blocks__
+* _Launchpad_
+* _App Designer_
+* _Application Building Blocks_
 
 The Open Edition comes with the following additional applications:
 
-* __API Designer__
-* __Script Editor__
-* __Workflow Engine__
+* _API Designer_
+* _Script Editor_
+* _Workflow Engine_
 
 The Neptune DXP - SAP Edition additionally offers API Factory, which makes it possible to automate the REST API generation of the following SAP artifacts:
 
@@ -119,11 +119,11 @@ The Neptune DXP - SAP Edition additionally offers API Factory, which makes it po
 == Understanding Open UI5 framework
 Open UI5 is the foundation for all UI components and their functionalities.
 
-.Example: Date picker
+.Example: `Date picker`
 We want users to open a calendar and select a date.
 
 The name of the component is sap.m.DatePicker.
-In the __App Designer__, the default name of the component is oDatePicker.
+In the _App Designer_, the default name of the component is oDatePicker.
 
 On the page, the oDatePicker component is an input field that opens a calendar and allows the user to select a date.
 //Input needed on "page"
@@ -140,7 +140,7 @@ The shell-app–page structure is an aggregation where you can put as many child
 
 IMPORTANT: There are aggregations that do not work and cause errors. *Example*: Inserting a Slider component directly in a list cause an error stating that a Slider is not a valid aggregation for a list. However, a list can contain a number of children, such as a StandardListItem. This will not cause problems.
 
-.Example: IconTabBar
+.Example: `IconTabBar`
 There is an IconTabBar component with three IconTabFilters, of which one contains a text component.
 
 //screenshot to be added
@@ -149,7 +149,7 @@ Within that child, there are five MenuItem children, with two of them as sub-chi
 
 This produces the Menu button that reflects the same structure.
 
-.Example: Table
+.Example: `Table`
 The table is built using sap.m.table as parent, with sap.m.Column components as children alongside a ColumnListItem. It contains five Text components.
 
 We provide lots of these patterns as samples.
@@ -158,17 +158,14 @@ You can also generate these structures automatically using wizards, such as with
 == Events
 Many of the components within the UI5 library contain events.
 
-. Button
-. g
-. gf
-
+.Example: `Button`
 A Button component has a Press event.
 Within the event, you can write any JavaScript functionality you want.
 The event will be run every time the button is pressed.
 In this example, the button sends the app to the nextPage, sets a Lists visibility property to True and shows a message on the screen.
 //screenshot to be added
 
-.Example: SearchField
+.Example: `SearchField`
 The SearchField component has a LiveChange event.
 The LiveChange event is triggered everytime a change is made in the field, such as a key being pressed.
 In this event, we have implemented a search on a list, so each key press updates the list with the search results based on what is typed.
