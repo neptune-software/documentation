@@ -13,6 +13,10 @@
 * Link to related topics (task, concept, reference).
 * If the topics become too long, split it up into several independent topics.
 Make sure that the split-up topics are still self-contained.
+* Use the Neptune icon library to insert icons of the service in the title.
+* Never use bold or italics in the title, even if you refer to another service.
+* Focus on the essentials and create separate topics for more specific explanations, if necessary.
+* Do not integrate tasks
 
 == Related topics
 * xref:task-topic.adoc[Task topic]

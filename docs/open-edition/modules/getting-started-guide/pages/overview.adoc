@@ -158,7 +158,10 @@ You can also generate these structures automatically using wizards, such as with
 == Events
 Many of the components within the UI5 library contain events.
 
-.Example: Button
+. Button
+. g
+. gf
+
 A Button component has a Press event.
 Within the event, you can write any JavaScript functionality you want.
 The event will be run every time the button is pressed.

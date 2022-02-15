@@ -1,4 +1,4 @@
-.Styleguide
+.Style guide
 * Style
 ** xref:american-english.adoc[]
 ** xref:best-practices.adoc[]
@@ -10,8 +10,10 @@
 ** xref:topic-based-approach.adoc[]
 ** Topic types and examples
 *** xref:task-topic.adoc[Task topic]
+**** xref:tasc-topic-template.adoc[Task topic template]
 **** xref:task-topic-example.adoc[Task topic example]
 *** xref:concept-topic.adoc[Concept topic]
+**** xref:concept-topic-template.adoc[Concept topic template]
 **** xref:concept-topic-example.adoc[Concept topic example]
 *** xref:reference-topic.adoc[Reference topic]
 **** xref:reference-topic-example.adoc[Reference topic example]
@@ -26,7 +28,6 @@
 ** xref:abbreviations.adoc[]
 ** xref:modal-verbs.adoc[]
 ** xref:contractions.adoc[]
-* Punctuation
 ** xref:punctuation.adoc[]
 * Pictures
 ** xref:captions.adoc[]

@@ -59,6 +59,7 @@ Code
 
 Example::
 +
+[source, asciidoc]
 ----
 [Service] ExecStart=/var/planet9/planet9-linux
 Restart=always
@@ -74,7 +75,11 @@ WorkingDirectory=/var/planet9
 
 == Inline code
 Use the following syntax:
+
+[source, asciidoc]
+----
 `inline code`
+----
 
 Example::
 Run `npm` rebuild in the directory.
@@ -90,7 +95,7 @@ Examples::
 * _file.js_
 * _appdesigner.exe_
 
-== Values, properties, attributes
-* See inline code.
+== Values, properties, attributes, examples
+* Should be written as code. See Inline code.
 
 

@@ -16,7 +16,7 @@ Example::
 You assign the topic title (h1) only once.
 If you refer to a topic by using an xref, the topic title appears as a link to the topic, unless otherwise stated.
 
-Example:: xref:overview.adoc[] appears as "Neptune DXP - Open Edition".
+Example:: overview.adoc[] appears as "Neptune DXP - Open Edition" in the table of content.
 Compare code and preview.
 However, you can provide an individual title in square brackets.
 ====
@@ -24,11 +24,12 @@ However, you can provide an individual title in square brackets.
 * Avoid hyphens in headings if you can.
 In resized windows or mobile devices, hyphens can result in awkward line breaks.
 * Do not use ampersands (&) or plus signs (+) in headings unless you are referring to the UI that contains them.
+* Do not use italics in captions (the typographical convention for Cockpit services do not apply here)
 
 == Capitalization
 Use sentence style for all headings except for proper nouns.
 
 Examples::
-* Install the _App Designer_
+* Install the App Designer
 * Design an application from scratch
-* Getting started with the _Tile Blackout_
+* Getting started with the Tile Blackout

@@ -11,3 +11,10 @@ Capitalize the following words:
 * National/regional adjectives
 * Days, months
 
+Do not capitalize the following words:
+
+* Phrases that are not products, brands, etc. even if they appear to be so. Examples:
+** *Wrong:* Application Building Block *Correct:* application building block
+
+== Related topics
+* xref:typographic-conventions-neptune.adoc[]

@@ -8,7 +8,7 @@ Articles can make sentences more comprehensible and cause fewer problems during 
 Example::
 Press the red button to turn off the machine.
 
-* Use an article when referring to a component of Neptune DXP platform, which is written as a proper noun.
+* Use an article when referring to a service on the Cockpit of Neptune DXP platform, which is written as a proper noun.
 
 Example::
 The _App Designer_ is part of Neptune DXP - Open Edition.
