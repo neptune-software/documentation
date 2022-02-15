@@ -28,6 +28,7 @@ The *SplitApp* template is the base for an app with a general Page (Detail Page)
 The Detail Page shows information in its entirety.
 The Master Page is a side menu that shows only key information and helps navigate through entries of a data table.
 //todo Neptune: assumption, please check.
+//Neptune@Parson: Mostly used like that, but can hold anything. Just a usual page.
 
 . Open the cockpit of your Neptune DXP - Open Edition and click _App Designer_.
 . In the _App Designer_, open the *Application* drop-down menu and click *Create*.
@@ -47,6 +48,7 @@ image::getting-started-guide:appdesigner-side-menu-settings.png[width=400]
 +
 . In *General*, enter a *Description* for your application and a *Title*.
 //todo Neptune: Where does this appear? Is it visible to the user of the application or the devs only?
+//Neptune@Parson:Answered in app from scratch
 . Under *OpenUI5*, select an Open UI5 *Version*, *Theme*, and *Language* for your application.
 
 +
@@ -104,6 +106,7 @@ In this step, you bind data from the resources to a list from the Master Page.
 image::getting-started-guide:appdesigner-componentproperties-binding.png[width=400]
 +
 //todo Neptune: Hovering over the icon shows the text "connected" even for empty fields (which are not connected to anything yet, as I understand it). More fitting would be "Bind". This is also reflected in the pop-up window "Binding" when clicking the icon. I suggest renaming the text to "Bind" here.
+//Neptune@Parson: Good point. Feature request created
 . On the *Binding* pop-up window, open *IT_CUSTOMERS* and click the *NAME1* property.
 . On the *Application component* panel, open *oObjectListItem* and click on the *oObjectAttribute* component.
 . On the *Component properties* panel, open *Properties*.

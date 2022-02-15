@@ -22,6 +22,7 @@ image::api-designer-base.png[width=800]
 
 You can search for an existing API, look at its configurations, and save it as a Planet 9 file to your local disk.
 //Todo Neptune: does the file extension change? Currently, it's still .planet9
+//Neptune@Parson: No it doesn't change.
 Starting from this view, you can add or import APIs in different file formats and from remote servers.
 
 == Related topics

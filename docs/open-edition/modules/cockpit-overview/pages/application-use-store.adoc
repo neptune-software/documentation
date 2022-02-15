@@ -26,6 +26,7 @@ Featured:: Show all featured apps available in the store.
 Trending:: Show apps that are most successful recently.
 Recent:: Shows the most recently published apps.
 //todo Neptune: Input needed what "private" applications show.
+//Neptune@Parson: Any app uploaded to the store from the users account that doesn't own the flag 'public' is shown there
 Private:: (...)
 . Click the application you want to install.
 . Click *Download* to download the app.

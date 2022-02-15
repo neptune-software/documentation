@@ -36,6 +36,7 @@ image::getting-started-guide:appdesigner-side-menu-settings.png[width=400]
 
 . In *General*, enter a *Description* for your application and a *Title*.
 //todo Neptune: Where does this appear? Is it visible to the user of the application or the devs only?
+//Neptune@Parson: The title will appear as the name on the browser tab. The description describes the app. Not shown to user.
 . In *OpenUI5*, select an Open UI5 *Version*, *Theme*, and *Language* for your application.
 +
 TIP: The preselected Belize theme gives you the most popular look and feel.
@@ -55,6 +56,7 @@ The *App* provides a more detailed graphical user interface for your application
 
 *Shell* and *App* build the base of any application you create with the DXP - Open Edition.
 //todo Neptune: assumption, please check.
+//Neptune@Parson: *of any UI5 application you create...
 
 [NOTE]
 ====
@@ -116,6 +118,7 @@ We integrate the data in a table for an exemplary equipment overview.
 +
 image::getting-started-guide:appdesigner-restapi-library-popup.png[width=800]
 //todo Neptune: in my test runs the Operation field in the UI object panel was preselected when selecting the API. In the e-Learning, it needs to be set manually. Which one is the expected behaviour?
+//Neptune@Parson: In the Api selection dialog an api will be selected by choosing the operation you want to perform. So the operation will be filled automatically.
 +
 *Result*: You have integrated a table and a *Rest API*.
 Now you bind the *Rest API* to the table to display data in your table.
@@ -159,6 +162,7 @@ Now you need to add functionality to the button.
 . On the *Application component* panel, click *oRestAPI*.
 . In the *Attributes* tab on the *Component properties* panel, click into the *setInitLoad* field in *Model* and click *Clear*.
 //todo Neptune: why do you first set it to online? Why do you clear it now? What happens behind the scenes?
+//Neptune@Parson: First the table it self calls the api when initiated. Later we add the api call to a button press event.
 . On the *Application component* panel, click *oButton*.
 . On the *Component properties* panel, open the *Events* tab and enter a name for the *press* event, for example "UpdatePress".
 . Click the *document-text* icon next to the name.

@@ -4,10 +4,12 @@ With the _Tile group_, you can maintain groups of tiles and role-based access.
 _Tile groups_ includes several tiles and is displayed on the launchpad.
 A user must have the same role as the tile group to see the group.
 //TODO Neptune: Is that also true of tiles?
+//Neptune@Parson: Yes
 
 image::tile-group-role-tile.png[width=400]
 
 //TODO Neptune: Can we show an example of a tile group?
+//Neptune@Parson: Sure
 
 == Role-based tile groups
 You can bundle tiles into tile groups and assign one or more roles to each tile group.
