@@ -1,0 +1,17 @@
+= Work with the Script Editor
+
+After setting up a project and creating a new script, you can now start working with it.
+
+* You can write the code that should be run in the script editing panel.
+* You can use a large number of existing scripts to start.
+* You can also add predefined resources to your script and process them.
+* You can run the script when you are finished.
+
+== Script Editor view
+
+image::script-editor-at-a-glance.png[,800]
+
+== Related topics
+* xref:script-editor-codesnippets.adoc[Write a new script in the panel on the right]
+* xref:script-editor-addresources.adoc[Add resources to your script that are processed above]
+* Run the script (extra-topic?)
