@@ -1,5 +1,7 @@
 = Creating code with the Script Editor
 
+// @Fabian: "Creating" sounds like task to me (though we don't use gerund for tasks)
+
 After setting up a project and creating a new script, you can start creating code with the _Script Editor_.
 
 * You can write the code that should be run in the script editing panel.

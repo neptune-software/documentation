@@ -9,7 +9,9 @@ You want to run a script you created with the _Script Editor_.
 . Right-click on the script you want to run. It does not matter if you are in editing mode or not.
 +
 image::script-editor-run.png[,400]
+//@Fabian: use lighter grey to cover text/icon on white background. See SUI style guide in Notebook. This might be a little finicky, but i'd rather not cut ui elements such as the search bar in the screenshot.
 . Click *Run*.
++
 *Result*: The Run Script window opens. You can see the script running.
 
 == Results

@@ -6,11 +6,14 @@ You can write code from scratch or import existing snippets.
 == Prerequisites
 * You have created a new script or imported an existing one.
 * Make sure your script is in editing mode. There should be an open-lock-symbol next to your script in the application component panel.
+//@Fabian: I'd put this in procedure, maybe as tip, see app-from-scratch or app-with-template.
 
 == Procedure
 . Right-click on the script panel and select *Code Snippets*.
+//@fabian do panels count as ui elements > bold?
 +
 image::script-editor-codesnippit.png[,400]
+//@Fabian: use lighter grey to cover text/icon on white background. See SUI style guide in Notebook.
 *Result*: The code snippets window opens.
 +
 . Browse or search for a code snippet in the menu on the left.
