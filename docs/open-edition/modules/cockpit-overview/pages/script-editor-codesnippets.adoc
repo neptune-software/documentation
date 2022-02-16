@@ -1,20 +1,21 @@
-= Add a code snippet to your script
+= Add a code snippet
 
-You write your script in the script editing panel. You can simply start writing from scratch or import existing snippets.
+You write your script in the script editing panel.
+You can write code from scratch or import existing snippets.
 
 == Prerequisites
 * You have created a new script or imported an existing one.
 * Make sure your script is in editing mode. There should be an open-lock-symbol next to your script in the application component panel.
 
 == Procedure
-. Right-click in the script panel and select *Code Snippets*.
+. Right-click on the script panel and select *Code Snippets*.
 +
 image::script-editor-codesnippit.png[,400]
 *Result*: The code snippets window opens.
 +
 . Browse or search for a code snippet in the menu on the left.
 . Click the snippet to see the full code.
-. Click *Copy* to paste the code snippet in your script editing panel. The window closes automatically.
+. Click *Copy* to paste the code in your script editing panel. The window closes automatically.
 
 == Results
 * You have added a code snippet to your script.
@@ -22,4 +23,5 @@ image::script-editor-codesnippit.png[,400]
 == Related topics
 * xref:script-editor-create.adoc[]
 * xref:script-editor-work.adoc[]
-* xref:script-editor-addresources.adoc[Add resources to your script that are processed above]
+* xref:script-editor-addresources.adoc[]
+* xref:script-editor-run.adoc[]

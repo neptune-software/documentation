@@ -1,4 +1,4 @@
-= Add resources to your script
+= Add resources to a script
 
 You can import the following resources in your script:
 
@@ -16,15 +16,17 @@ You can import the following resources in your script:
 +
 image::script-editor-resources.png[,200]
 +
-. Drag and drop the resource you want to add to your script. The background color of the script becomes dark blues if it is possible to add the resource there.
+. Drag and drop the resource you want to add to your script. The background color of the script becomes dark blue if it is possible to add the resource there.
++
 *Result*: A new window opens.
 . Enter a context name for your resource. You can keep the existing one or choose a new one.
 . Click *Apply*.
 
 == Result
-* You have added a resource to your script and can reference it there.
+* You have added a resource to your script and can reference it in the code.
 
 == Related topics
 * xref:script-editor-create.adoc[]
 * xref:script-editor-work.adoc[]
-* xref:script-editor-codesnippets.adoc[Write a new script in the panel on the right]
+* xref:script-editor-codesnippets.adoc[]
+* xref:script-editor-run.adoc[]

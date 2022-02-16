@@ -1,17 +1,27 @@
-= Work with the Script Editor
+= Creating code with the Script Editor
 
-After setting up a project and creating a new script, you can now start working with it.
+After setting up a project and creating a new script, you can start creating code with the _Script Editor_.
 
 * You can write the code that should be run in the script editing panel.
-* You can use a large number of existing scripts to start.
-* You can also add predefined resources to your script and process them.
+* You can add other resources from DXP - Open Edition to your script and work with them.
+* You can use a large number of existing code snippets.
 * You can run the script when you are finished.
 
 == Script Editor view
 
 image::script-editor-at-a-glance.png[,800]
 
+== Functions in the script editing panel
+
+You can run functions in the script editing panel by opening the context menu:
+
+Version Management:: Click *Version Management* to open a window that shows previous versions of the current script.
+Split Horizontally:: Split the script editing panel horizontally. You can work on two different scripts the same time now.
+Split Vertically:: Split the script editing panel vertically. You can work on two different scripts the same time now.
+Code Snippets:: See xref:script-editor-codesnippets.adoc[].
+//TODO Neptune: List more functions here or are these enough?
+
 == Related topics
-* xref:script-editor-codesnippets.adoc[Write a new script in the panel on the right]
-* xref:script-editor-addresources.adoc[Add resources to your script that are processed above]
-* Run the script (extra-topic?)
+* xref:script-editor-codesnippets.adoc[]
+* xref:script-editor-addresources.adoc[]
+* xref:script-editor-run.adoc[]
