@@ -7,13 +7,13 @@ With the _Adaptive Designer_, functional developers and business users, who have
 _Adaptive Designer_ comes with templates that represent the foundation and structure for different types of applications. Currently, the following templates are available:
 
 * Business Intelligence
-//Leonie: Is this Analytic now?
+//Todo Neptune: Is this Analytic now?
 * List
 * Detail
-//Leonie: Is this Edit now?
+//Todo Neptune: Is this Edit now?
 * Tiles
-
-//Todo Leonie: If terminology is outdated, the following graphic has to be removed.
+//Leonie: reconsider display of adaptive templates in general and start with app vs tile and the subordinate templates. Focus on main function of the repsective template.
+//Leonie: If terminology is outdated, the following graphic has to be removed.
 
 image::adaptive-templ-types.png[Adaptive Template Types 640, 340]
 
@@ -21,9 +21,6 @@ By combining an adaptive framework with a database or other data source, _Adapti
 
 Because an adaptive application is based on a template, any changes you make to the template will reflect across all the applications that use it.
 This way, you can adjust entire suits of applications from one source.
-
-Templates are essentially applications and can be designed, built, and adjusted by a low-code or pro-code developer within the _Application Designer_.
-//Todo Neptune: Update needed: Connectors are now used to publish the data sources for the applications.
 
 == Architecture
 _Adaptive Designer_ is part of an adaptive framework.
@@ -34,7 +31,7 @@ Templates and database/server script connection combined enable the output of ad
 //Leonie: terminology tbd launchpad
 
 //Leonie: image has outdated terminology Neptune Launchpad; what about Connectors?
-image::adaptivedesigner_architecture.png[Adaptive Designer Architecture, width=800, link="adaptive-designer_architecture.png]
+image::adaptivedesigner_architecture.png[Adaptive Designer Architecture, width=800]
 
 //outdated comment: @Neptune. Picture up-to-date?
 //outdated comment: @Neptune. Should we use any of this content in the documentation? https://community.neptune-software.com/documentation/adaptive-designer
@@ -45,7 +42,7 @@ image::adaptivedesigner_architecture.png[Adaptive Designer Architecture, width=8
 //Leonie: no need for a separate section; avoid task-like representation; mention this in the template concept section; pick up application building block terminology here?
 Visit the __Store__ in Neptune DXP - Open Edition and search for "Adaptive Framework".
 
-image::adaptive-designer_store_adaptive-frameworks.png["adaptive-designer_store_adaptive-frameworks"width=400, link=adaptive-designer_store_adaptive-frameworks.png"]
+image::adaptive-designer_store_adaptive-frameworks.png["adaptive-designer_store_adaptive-frameworks"width=400]
 
 == Related topics
 * xref:adaptive-designer-interface-at-a-glance.adoc[]
