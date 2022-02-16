@@ -32,18 +32,28 @@ image:select-package.png[,600]
 +
 image:select-package-execute.png[,600]
 +
-. Click *create*
+. Click *Create*.
 +
-*Result*: The deploy window opens.
+*Result*: The Deploy window opens.
 +
 image:create-package-from-existing.png[,600]
 +
 . Check the package(s) and artefacts, click *Create*.
+
 *Result*: The packages are sent to the remote system for approval.
 //todo check again what's happening
 
 === Create a deployment package
-. Click the arrow next to the service you want to deploy artefacts from. The number next to the service' name indicates the number of available artefacts.
+. Click the arrow next to the service you want to deploy artefacts from.
++
+NOTE: The number next to the service name indicates the number of available artefacts.
++
+. Select a service. In the example, we selected *Launchpad* in the *Administration* tab.
++
+*Result* A list of all artefacts of the selected service is shown.
++
+. Check the artefacts you want to add.
++
 
 the Select the Launchpad, Tile Group, Tile, Application, Theme, API Group, OData, Table, Server Script. For example, if you select Launchpad from the Administration tab, you will get a list of Launchpad items, with names and version. You can select the items from the list. It works the same way for others artefacts like Tile, Application, Theme, and so on.
 

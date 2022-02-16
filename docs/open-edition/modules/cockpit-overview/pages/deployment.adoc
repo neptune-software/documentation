@@ -1,8 +1,8 @@
 = Deployment
 
-Deployment is a methodology to distribute services from one Neptune DXP edition to another. The deployment services allow creating deployment packages and transfer them from one system to another.
+Deployment is a methodology to distribute services from one Neptune DXP edition to another. The deployment services allow you to create deployment packages and transfer them from one system to another.
 
-Deployment packages contain the assets that you want to deploy to another system. Deployment packages contain development artefacts such as _Launchpad_, _Tile Group_, _Tile_, _Application_, _Theme_, _OData_, _Table_, and so on.
+Deployment packages contain development artefacts such as _Launchpad_, _Tile Group_, _Tile_, _Application_, _Theme_, _OData_, _Table_, and so on.
 
 image:deployment-overview.png[,600]
 
