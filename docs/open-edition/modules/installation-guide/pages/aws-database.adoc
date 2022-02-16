@@ -31,9 +31,8 @@ Easy creation does not show the *Estimated monthly costs*.
 
 . In *Engine options*, select *PostgreSQL*.
 //TODO: Helle@Neptune: The PostgreSQL version is automatically set to 13.3-R1. Is this correct?
-//TODO: Fabian: The following is no step for its own but an introduction to the following steps. Maybe work with substeps for that?
-//TODO: Martin: Done.
-. Set the following configurations according to your needs.
+
+. Set the following configurations according to your needs:
 .. Click *Create database*.
 +
 *Result*: Your database details have been sent to AWS. AWS need to launch your database. This can take 10-15 minutes.
@@ -49,4 +48,4 @@ NOTE: Do not close this tab. You need this information in the next steps.
 * You have created your database. Once AWS have launched your database, its *Status* switches from `in Progress` to `Available`.
 
 == Related topics
-* xref:installation-guide:aws-connection.adoc[]
+* xref:installation-guide:aws-connection.adoc[Connect the AWS database to your Neptune DXP - Open Edition]

@@ -23,5 +23,4 @@ image::aws-connect-instance-putty.png[PuTTY]
 You have downloaded Neptune DXP - Open Edition to your instance.
 
 == Related topics
-Now that you connected your AWS instance to Neptune DXP - Open Edition you set up the database.
-//TODO: Helle: purpose?
+* xref:aws-database.adoc[Set up a database in th AWS instance]

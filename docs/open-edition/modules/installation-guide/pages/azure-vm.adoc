@@ -6,7 +6,7 @@ Follow the steps below to create and run Neptune DXP on an Azure virtual machine
 
 . xref:azure-vm_create.adoc[Create an Azure virtual machine]
 . xref:azure_connect.adoc[Connect to the virtual machine]
-. xref:azure-create-database.adoc[Create a Azure database resource]
+. xref:azure-create-database.adoc[Create a Azure Database resource]
 . xref:azure-firewall.adoc[Configure a server level firewall rule]
 . xref:azure-database-client.adoc[Create a database schema with SQL client]
 . xref:azure-connection-cockpit.adoc[Connect the database to Neptune DXP - Open Edition]

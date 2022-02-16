@@ -21,12 +21,12 @@ image::azure_create_database2.png[width=400]
 
 image::azure_postgre_settings.png[width=400]
 
-Server name:: Enter a unique name that identifies your Azure database for PostgreSQL servers.
+Server name:: Enter a unique name that identifies your Azure Database for PostgreSQL servers.
 The domain name *postgres.database.azure.com* is appended to the server name you provide.
 Subscription:: Select the Azure subscription that you want to use for your server.
 Resource group:: Create a new resource group or select an existing one.
 Select source:: Select *Blank* to create a new server from scratch.
-Select *Backup* if you create a server from a geo backup of an existing Azure database for PostgreSQL server.
+Select *Backup* if you create a server from a geo backup of an existing Azure Database for PostgreSQL server.
 Server admin login name:: Select your own login account.
 The admin login name cannot be the following:
 * azure_superuser
@@ -64,4 +64,4 @@ For more details, see the Microsoft documentation for setting up Postgres databa
 
 == Related topics
 
-* xref:azure-firewall.adoc[Configure a server level firewall rule]
+* xref:azure-firewall.adoc[Configure a server-level firewall rule]
