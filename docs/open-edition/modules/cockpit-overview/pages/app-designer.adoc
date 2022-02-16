@@ -9,8 +9,8 @@ The _App Designer_ is the starting point for the following actions:
 * Creating new HTML5 UIs
 * Updating the existing UI
 
-The _App Designer_ is a low code development environment suitable for most requirements and levels of complexity.
-//todo Neptune: Input needed - does it mean: _App Designer_ is a low code building environment that meets the requirements for programming apps of almost any level of complexity?
+The _App Designer_ is a low code building environment that meets the requirements for programming apps of almost any level of complexity.
+//@Neptune: Input needed - does it mean: _App Designer_ is a low code building environment that meets the requirements for programming apps of almost any level of complexity?
 //Neptune@Parson: Yes that sounds great.
 
 In the _App Designer_, you drag and drop components to build an application.

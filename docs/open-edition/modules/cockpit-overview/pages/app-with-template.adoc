@@ -25,9 +25,11 @@ image::getting-started-guide:appdesigner-top-menu-edit.png[width=400]
 === Configure an application with a *SplitApp* template
 
 The *SplitApp* template is the base for an app with a general Page (Detail Page) and a Master Page.
+
 The Detail Page shows information in its entirety.
-The Master Page is a side menu that shows only key information and helps navigate through entries of a data table.
-//todo Neptune: assumption, please check.
+The Master Page is a side menu that is designed to show key information and help navigate through entries of a data table.
+
+//@Neptune: assumption, please check.
 //Neptune@Parson: Mostly used like that, but can hold anything. Just a usual page.
 
 . Open the cockpit of your Neptune DXP - Open Edition and click _App Designer_.
@@ -47,7 +49,7 @@ image::getting-started-guide:appdesigner-side-menu-settings.png[width=400]
 *Result*: The *Application Settings* window opens.
 +
 . In *General*, enter a *Description* for your application and a *Title*.
-//todo Neptune: Where does this appear? Is it visible to the user of the application or the devs only?
+//@Neptune: Where does this appear? Is it visible to the user of the application or the devs only?
 //Neptune@Parson:Answered in app from scratch
 . Under *OpenUI5*, select an Open UI5 *Version*, *Theme*, and *Language* for your application.
 

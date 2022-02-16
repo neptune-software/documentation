@@ -60,8 +60,8 @@ Expand and Collapse:: Expand and collapse groups of the *Application component* 
 Undo:: Undo your last changes.
 Run:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
 Header:: Define the html5 header for your application.
-Stylesheet:: The css stylesheet editor
-//todo Neptune Input needed: is this a global css sheet for my application?
+Stylesheet:: Define CSS for your application.
+//@Neptune Input needed: is this a global css sheet for my application?
 //Neptune@Parson: Yes
 
 //Web App Manifest editor
@@ -70,7 +70,7 @@ Stylesheet:: The css stylesheet editor
 
 Script search:: Open the *Search and ToDo List* panel and search for scripts.
 ToDo List:: Open the *Search and ToDo List* panel.
-//todo Neptune: Input needed, what do I do here?
+//@Neptune: Input needed, what do I do here?
 //Neptune@Parson: Search searches the app code for searchterm. To Do List shows all appearances of to do.
 Display Data Flow:: Display data flows for APIs and UI5 models.
 
