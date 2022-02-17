@@ -1,6 +1,4 @@
-= Creating code with the Script Editor
-
-// @Fabian: "Creating" sounds like task to me (though we don't use gerund for tasks)
+= Detailed functions of the Script Editor
 
 After setting up a project and creating a new script, you can start creating code with the _Script Editor_.
 
@@ -15,11 +13,11 @@ image::script-editor-at-a-glance.png[,800]
 
 == Functions in the script editing panel
 
-You can run functions in the script editing panel by opening the context menu:
+You can run functions in the *Script editing* panel by opening the context menu:
 
 Version Management:: Click *Version Management* to open a window that shows previous versions of the current script.
-Split Horizontally:: Split the script editing panel horizontally. You can work on two different scripts the same time now.
-Split Vertically:: Split the script editing panel vertically. You can work on two different scripts the same time now.
+Split Horizontally:: Split the *Script editing* panel horizontally. You can work on two different scripts the same time now.
+Split Vertically:: Split the *Script editing* panel vertically. You can work on two different scripts the same time now.
 Code Snippets:: See xref:script-editor-codesnippets.adoc[].
 //TODO Neptune: List more functions here or are these enough?
 

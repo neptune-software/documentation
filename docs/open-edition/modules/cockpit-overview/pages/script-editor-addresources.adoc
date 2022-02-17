@@ -9,14 +9,10 @@ You can import the following resources in your script:
 
 == Prerequisites
 * You have created a new script or imported an existing one.
-* Make sure your script is in editing mode.
-There should be an open-lock-symbol next to your script in the application component panel.
-//see comment codesnippets
 
 == Procedure
-. Browse for the resource you want to add to your script.
+. Browse the *Reusable component* panel for the resource you want to add to your script.
 For APIs, you can only add a single API and no group of APIs.
-//@Fabian: browse where?
 +
 image::script-editor-resources.png[,200]
 +
@@ -24,6 +20,12 @@ image::script-editor-resources.png[,200]
 The background color of the script becomes dark blue if it is possible to add the resource there.
 +
 *Result*: A new window opens.
++
++
+[Tip]
+----
+Make sure your script is in editing mode. There should be an open-lock-symbol next to your script in the *Application component* panel.
+----
 . Enter a context name for your resource.
 You can keep the existing one or choose a new one.
 . Click *Apply*.
