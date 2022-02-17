@@ -1,6 +1,6 @@
 = Install Neptune DXP - Open Edition on Amazon Elastic Compute Cloud (Amazon EC2 or AWS cloud)
 
-This guide explains how to install Neptune DXP - Open Edition on the AWS cloud.
+This guide explains how to install Neptune DXP - Open Edition on Amazon EC2.
 With Amazon EC2, you can set up and configure the operating system and the applications that run on your instance.
 
 . xref:installation-guide:aws-instance.adoc[]

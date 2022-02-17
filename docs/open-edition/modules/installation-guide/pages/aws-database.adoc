@@ -1,13 +1,13 @@
-= Set up a database in the AWS instance
+= Set up a database in the Amazon EC2 instance
 
 == Prerequisites
-* You have created an instance on the AWS console.
-* You have launched the AWS instance.
-* You have connected your AWS instance to Neptune DXP - Open Edition.
+* You have created an instance on the Amazon EC2 console.
+* You have launched the Amazon EC2 instance.
+* You have connected your Amazon EC2 instance to Neptune DXP - Open Edition.
 
 == Procedure
-. In your browser, go to the AWS Console and sign in.
-. On the AWS Console, open the *Services* menu.
+. In your browser, go to the Amazon EC2 Console and sign in.
+. On the Amazon EC2 Console, open the *Services* menu.
 . Go to the *Database* section and click *RDS*.
 +
 image::aws-database-rds.png[width=400]
@@ -35,7 +35,7 @@ Easy creation does not show the *Estimated monthly costs*.
 . Set the following configurations according to your needs:
 .. Click *Create database*.
 +
-*Result*: Your database details have been sent to AWS. AWS need to launch your database. This can take 10-15 minutes.
+*Result*: Your database details have been sent to Amazon EC2. Amazon EC2 need to launch your database. This can take 10-15 minutes.
 
 .. To watch the current status of your database, open the *Services* menu.
 .. Go to the *Database* section and click *RDS*.
@@ -45,7 +45,7 @@ Easy creation does not show the *Estimated monthly costs*.
 NOTE: Do not close this tab. You need this information in the next steps.
 
 == Results
-* You have created your database. Once AWS have launched your database, its *Status* switches from `in Progress` to `Available`.
+* You have created your database. Once Amazon EC2 have launched your database, its *Status* switches from `in Progress` to `Available`.
 
 == Related topics
-* xref:installation-guide:aws-connection.adoc[Connect the AWS database to your Neptune DXP - Open Edition]
+* xref:installation-guide:aws-connection.adoc[Connect the Amazon EC2 database to your Neptune DXP - Open Edition]
