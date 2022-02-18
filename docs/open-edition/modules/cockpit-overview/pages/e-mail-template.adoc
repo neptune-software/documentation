@@ -3,6 +3,6 @@
 With _Email Template_, you can create templates for emails.
 Server scripts can use these templates to send email notifications from a workflow step, using the _Workflow_ editor.
 
-//== Related topics
-//* Create an e-mail template
+== Related topics
+* xref:e-mail-template-create.adoc[Create an Email Template]
 

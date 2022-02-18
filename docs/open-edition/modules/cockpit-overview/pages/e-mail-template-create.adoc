@@ -1,0 +1,31 @@
+= Create an Email Template
+
+In this topic, you learn how to create a new Email Template.
+
+//== Prerequisites
+//* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Design* and click _Email Template_.
+
+. Click *Add*.
++
+image::e-mail-template-create-add.png[width=400]
+
+. In the *General* tab, enter a name and additional metadata for your template.
++
+image::e-mail-template-create-general.png[width=400]
+//TODO Martin: Not sure, whether you need this Screenshot...
+. In the *Content* tab, create the content of your template.
++
+image::e-mail-template-create-content.png[width=400]
+//TODO Martin: Not sure, whether you need this Screenshot...
+. Click *Save*.
++
+image::e-mail-template-create-save.png[width=400]
+
+== Results
+* You have created a new Email Template.
+
+//== Related topics
