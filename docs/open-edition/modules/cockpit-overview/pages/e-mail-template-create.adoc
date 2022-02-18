@@ -1,10 +1,12 @@
 = Create an Email Template
+//Fabian: Use sentence style
 
 In this topic, you learn how to create a new Email Template.
+//Fabian: Only use capital letters when refering to a service. Otherwise, use small letters.
 
 //== Prerequisites
 //* There are no prerequisites.
-
+// Fabian: This is a mandatory topic
 == Procedure
 
 . On the Cockpit, go to *Design* and click _Email Template_.
@@ -12,20 +14,26 @@ In this topic, you learn how to create a new Email Template.
 . Click *Add*.
 +
 image::e-mail-template-create-add.png[width=400]
-
+//Fabian: This picture is not needed
+//Fabian: Give a step result, for example: "A new dialog opens."
 . In the *General* tab, enter a name and additional metadata for your template.
 +
 image::e-mail-template-create-general.png[width=400]
 //TODO Martin: Not sure, whether you need this Screenshot...
+//Fabian: I would only keep this screenshot and nicht vereinfachen des Content-Buttons.
+//Fabian: Explain what is meant by the entries "Subject" and "Package" and state it is optional
 . In the *Content* tab, create the content of your template.
 +
 image::e-mail-template-create-content.png[width=400]
+//Fabian: Image not necessary.
 //TODO Martin: Not sure, whether you need this Screenshot...
 . Click *Save*.
 +
 image::e-mail-template-create-save.png[width=400]
-
+//Fabian: Image not necessary.
 == Results
 * You have created a new Email Template.
+//Fabian: Use small letter
 
 //== Related topics
+//Fabian: This is a mandatory topic. You should link the concept topic "e-mail-template.adoc"
