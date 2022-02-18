@@ -1,14 +1,15 @@
-= Set up a subaccount on the SAP Cloud Platform
+= Set up a subaccount on the SAP Business Technology Platform
 
-After you created the trial account, you set up a subaccount on the SAP Cloud Platform.
+After you created the trial account, you set up a subaccount on the SAP Business Technology Platform (BTP).
 
 A subaccount adds another level to your trial account. You can have different subaccounts for different purposes. In this case, you set up a subaccount to host Neptune DXP - Open Edition and your applications.
 
 == Prerequisites
-* You have created a trial account on the SAP Cloud Platform.
+* You have created a trial account on the SAP BTP.
 
 == Procedure
-. Go to the SAP Cloud Platform https://cockpit.hanatrial.ondemand.com/cockpit/#/home/trialhome[login page] and sign in.
+. Go to the SAP BTP https://cockpit.hanatrial.ondemand.com/cockpit/#/home/trialhome[login page] and sign in.
+//TODO: is the link still up to date?
 . Click *Enter your Trial Account*.
 +
 The subaccount overview opens.
@@ -49,7 +50,7 @@ image::sap-assign-entitlements-result.png[width=400]
 *Result*: When your changes are saved, the subaccount assignment has four units. The remaining Global Quota has zero units.
 
 == Results
-* You have set up a subaccount on the SAP Cloud Platform.
+* You have set up a subaccount on the SAP BTP.
 
 == Related topics
 * xref:sap-cloud-foundry.adoc[Enable Cloud Foundry] to use the subaccount that you created.

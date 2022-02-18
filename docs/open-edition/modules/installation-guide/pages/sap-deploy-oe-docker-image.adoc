@@ -1,10 +1,10 @@
 = Deploy your application to the SAP Cloud Foundry Space with Docker Image
 
-You have defined all configurations on the SAP Cloud Platform. Now you connect the subaccount you created with Neptune DXP - Open Edition.
+You have defined all configurations on the SAP Business Technology Platform (BTP). Now you connect the subaccount you created with Neptune DXP - Open Edition.
 
 == Prerequisites
-* You have created a trial account on SAP Cloud.
-* You have created a subaccount on SAP Cloud with four memory units assigned.
+* You have created a trial account on the SAP BTP.
+* You have created a subaccount on the SAP BTP with four memory units assigned.
 * You have enabled Cloud Foundry.
 * You have created a space in your subaccount.
 * You have added a quota plan to the space of your subaccount.
@@ -15,7 +15,7 @@ You have defined all configurations on the SAP Cloud Platform. Now you connect t
 NOTE: You can find the installation file for macOS, Windows, and Linux here: https://github.com/cloudfoundry/cli#downloads[Downloads].
 . Follow the installation guide https://docs.cloudfoundry.org/cf-cli/install-go-cli.html[here].
 //TODO: Helle@Neptune: New version available since December 2020. Can version v7 and v6 be used?
-. Go to the SAP Cloud Platform.
+. Go to the SAP BTP.
 . Click *Quota Plans* of your subaccount.
 . Copy the *API Endpoint* link.
 +
@@ -27,7 +27,7 @@ image::sap-cloud-foundry-api-endpoint.png[width=600]
 cf login -a API Endpoint
 ----
 
-. Enter your login credentials to the SAP Cloud Platform. Check if the `Org name` and `Space name` match with the details of your SAP subaccount.
+. Enter your login credentials to the SAP BTP. Check if the `Org name` and `Space name` match with the details of your SAP subaccount.
 . Enter the following command and replace `App Name` with the name of your app in Neptune DXP - Open Edition:
 //Helle@Neptune: documentation says: "cf push <any app name>  -m 4096M --docker-image ...", does "any app name" refer to an app already built in Open Edition by the user?
 +
@@ -38,7 +38,7 @@ cf push App Name -m 4096 --docker-image docker.io/neptunesoftware/planet9:latest
 +
 NOTE: While deploying, your command prompt or terminal shows an error message. You can ignore this error and continue following the steps. If your command prompt or terminal stays in a loop, press Ctrl+C to break it.
 //TODO: Helle@Neptune: has this been solved?
-. On the SAP Cloud Platform, click *Cloud Foundry* > *Spaces*. Click on the name of your space. The application overview of your space opens.
+. On the SAP BTP, click *Cloud Foundry* > *Spaces*. Click on the name of your space. The application overview of your space opens.
 +
 image::sap-cloud-foundry-spaces.png[width=600]
 .. In the *Name* row, click on the name of your application
@@ -63,4 +63,4 @@ APP_NAME ENV_VAR_NAME ENV_VAR_VALUE
 . Sign in with the *Username* `admin` and the *Password* `admin`.
 
 == Result
-* You have set up the SAP Cloud subaccount and connected to Neptune DXP - Open Edition.
+* You have set up the SAP BTP subaccount and connected to Neptune DXP - Open Edition.

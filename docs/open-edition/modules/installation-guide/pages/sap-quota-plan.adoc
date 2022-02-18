@@ -1,10 +1,10 @@
-= Add a new quota plan to the organizational Space of your SAP Cloud subaccount
+= Add a new quota plan to the organizational Space of your SAP Business Technology Platform subaccount
 
-After you have added organizational Space to your SAP Cloud Platform, you create a new quota plan for that Space. This is where you allow the Space to use a specific amount of memory.
+After you have added organizational Space to your SAP Business Technology Platform (BTP), you create a new quota plan for that Space. This is where you allow the Space to use a specific amount of memory.
 
 == Prerequisites
-* You have created a trial account on SAP Cloud Platform.
-* You have created a subaccount on SAP Cloud Platform with four memory units assigned.
+* You have created a trial account on the SAP BTP.
+* You have created a subaccount on the SAP BTP with four memory units assigned.
 * You have enabled Cloud Foundry.
 * You have added organizational Space to your subaccount.
 
@@ -24,7 +24,7 @@ image::sap-quota-plan.png[width=600]
 NOTE: Leave this tab open. You need information from the *Cloud Foundry Environment* tab in the next step.
 
 == Results
-* You have set up a new quota plan for your organizational Space on SAP Cloud Platform.
+* You have set up a new quota plan for your organizational Space on the SAP BTP.
 
 == Related topics
 * xref:sap-deploy-oe-docker-image.adoc[Deploy your application to the SAP Cloud Foundry Space]
