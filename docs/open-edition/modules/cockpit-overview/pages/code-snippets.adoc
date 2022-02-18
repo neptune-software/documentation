@@ -1,10 +1,10 @@
 = image:code-snippet.png[width=100] Code Snippets
 
-In _Code Snippets_, you configure code snippets that you can use in _App Designer_ and _Script Editor_.
+In _Code Snippets_, you configure code snippets that you can use in the _App Designer_ and the _Script Editor_.
 The idea of code snippets is to reduce the amount of custom code as much as possible.
 Reusing frequently used code enables you to focus on the processes and functionalities of the application.
 
 These configured code snippets allow you to participate in the design of applications or even create your own applications without extensive programming knowledge.
 
-//Related topics
-//* Create a code snippet
+== Related topics
+* Create a code snippet
