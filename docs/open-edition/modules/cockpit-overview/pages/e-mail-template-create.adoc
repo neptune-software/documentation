@@ -17,10 +17,9 @@ In this topic, you learn how to create a new e-mail template.
 
 +
 image::e-mail-template-create-general.png[width=400]
-//Fabian: Explain what is meant by the entries "Subject" and "Package" and state it is optional
 
-. Enter a subject for your template.
-. Choose a package for your template.
+. Enter a subject for your template (optional).
+. Choose a package for your template (optional).
 . In the *Content* tab, create the content of your template.
 
 . Click *Save*.
