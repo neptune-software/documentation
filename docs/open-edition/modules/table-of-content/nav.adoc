@@ -1,3 +1,4 @@
+////
 .Overview of Neptune DXP - Open Edition
 * xref:overview:overview-openedition.adoc[Overview of Neptune DXP - Open Edition]
 * xref:overview:development-process-overview.adoc[Development process overview]
@@ -7,6 +8,7 @@
 ** xref:overview:user-authentication.adoc[User authentication]
 ** xref:overview:mobile-client-security.adoc[Mobile client security]
 ** xref:overview:api-authentication.adoc[API authentication]
+////
 
 .Getting Started Guide
 * xref:installation-guide:installation.adoc[Installation guide]
@@ -62,33 +64,39 @@
 *** xref:getting-started-guide:application-use-store.adoc[Use an application from the Store]
 *** xref:getting-started-guide:export-apps.adoc[Export applications]
 
+////
 .Installation guide
 * xref:installation-guide:overview.adoc[Overview]
+////
 
 .Cockpit documentation
 * xref:cockpit-overview:cockpit-components.adoc[Cockpit components overview]
 //Development
 * xref:cockpit-overview:development-overview.adoc[Development]
-** xref:cockpit-overview:store.adoc[Store]
-** xref:cockpit-overview:development-package.adoc[Development package]
+//** xref:cockpit-overview:store.adoc[Store]
+//** xref:cockpit-overview:development-package.adoc[Development package]
 ** xref:cockpit-overview:connectors.adoc[Connectors]
 ** xref:cockpit-overview:adaptive-designer.adoc[Adaptive designer]
-*** xref:cockpit-overview:adaptive-designer-interface-at-a-glance.adoc[The Adaptive Designer interface at a glance]
+//*** xref:cockpit-overview:adaptive-designer-interface-at-a-glance.adoc[The Adaptive Designer interface at a glance]
 ** xref:cockpit-overview:app-designer.adoc[App Designer]
+
 ** xref:cockpit-overview:app-editor.adoc[App Editor]
 ** xref:cockpit-overview:script-editor.adoc[Script Editor]
 *** xref:cockpit-overview:script-editor-new.adoc[]
 *** xref:cockpit-overview:script-editor-open.adoc[]
 *** xref:cockpit-overview:script-editor-create.adoc[]
 ** xref:cockpit-overview:rules-engine.adoc[Rules Engine]
+
 ** xref:cockpit-overview:code-snippets.adoc[Code snippets]
-** xref:cockpit-overview:documentation.adoc[Documentation]
+//** xref:cockpit-overview:documentation.adoc[Documentation]
 ** xref:cockpit-overview:media-library.adoc[Media library]
+
 *** xref:cockpit-overview:organize-media-library.adoc[]
 ** xref:cockpit-overview:npm-modules.adoc[npm Modules]
 *** xref:cockpit-overview:npm_add.adoc[]
 ** xref:cockpit-overview:application-trashbin.adoc[Application trashbin]
 //Design
+
 * xref:cockpit-overview:design.adoc[Design]
 ** xref:cockpit-overview:pdf-designer.adoc[PDF Designer]
 ** xref:cockpit-overview:theme-designer.adoc[Theme Designer]
@@ -109,6 +117,7 @@
 ** xref:cockpit-overview:tile-blackout.adoc[Tile blackout]
 ** xref:cockpit-overview:mobile-client.adoc[Mobile client]
 ** xref:cockpit-overview:mobile-debug.adoc[Mobile Debugger]
+
 ** xref:cockpit-overview:favourite-management.adoc[Favourite Management]
 ** xref:cockpit-overview:translation.adoc[Translation]
 //Monitoring
@@ -122,5 +131,6 @@
 * xref:cockpit-overview:workflow.adoc[Workflow]
 * xref:cockpit-overview:settings.adoc[Settings]
 
-.Design guidelines
-* xref:design-guidelines:overview.adoc[Overview design guidelines]
+
+//.Design guidelines
+//* xref:design-guidelines:overview.adoc[Overview design guidelines]
