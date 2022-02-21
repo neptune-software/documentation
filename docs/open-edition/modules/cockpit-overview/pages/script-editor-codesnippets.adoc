@@ -9,10 +9,10 @@ You can write code from scratch or import existing snippets.
 == Procedure
 . Right-click on the *Script editing* panel and select *Code Snippets*.
 +
-[Tip]
-----
-Make sure your script is in editing mode. There should be an open-lock-symbol next to your script in the *Application component* panel.
-----
+[TIP]
+====
+Make sure your script is in editing mode. There should be an open-lock-symbol next to your script in the Application component panel.
+====
 +
 image::script-editor-codesnippit.png[,400]
 +
