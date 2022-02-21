@@ -12,7 +12,7 @@ A project serves as wrapper file that contain one or more scripts on a specific 
 +
 image::script-editor-create.png[,400]
 *Result*: The Create Project window opens.
-. Enter a name for your project. Optionally, enter a description and choose a predefined package.
+. Enter a name for your project. Optionally, enter a description and choose a development package.
 +
 image::script-editor-create-project.png[,400]
 . Click *Save*.
