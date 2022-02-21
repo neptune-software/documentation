@@ -1,6 +1,6 @@
-= Create an e-mail template
+= Create an email template
 
-In this topic, you learn how to create a new e-mail template.
+In this topic, you learn how to create a new email template.
 
 == Prerequisites
 * There are no prerequisites.
@@ -18,14 +18,14 @@ In this topic, you learn how to create a new e-mail template.
 +
 image::e-mail-template-create-general.png[width=400]
 
-. Enter a subject for your template (optional).
-. Choose a package for your template (optional).
+. You can enter a subject for your template.
+. You can choose a package for your template.
 . In the *Content* tab, create the content of your template.
 
 . Click *Save*.
 
 == Results
-* You have created a new e-mail template.
+* You have created a new email template.
 
 == Related topics
 * xref:e-mail-template.adoc[Email Template]
