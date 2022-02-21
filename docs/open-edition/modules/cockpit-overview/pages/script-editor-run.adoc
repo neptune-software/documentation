@@ -1,0 +1,23 @@
+= Run a script
+
+You want to run a script you created with the _Script Editor_.
+
+== Prerequisites
+* You have a script open in your project.
+
+== Procedure
+. Right-click on the script you want to run. It does not matter if you are in editing mode or not.
++
+image::script-editor-run.png[,400]
+. Click *Run*.
++
+*Result*: The Run Script window opens. You can see the script running.
+
+== Results
+* You have run your script.
+* You can check if the script runs successfully or if there are error messages.
+
+== Related Topics
+* xref:script-editor-work.adoc[]
+* xref:script-editor-codesnippets.adoc[]
+* xref:script-editor-addresources.adoc[]
