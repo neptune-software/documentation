@@ -1,27 +1,25 @@
-= image::tile-group-icon.png[width=100]Tile groups
+= image:tile-group-icon.png[width=100]Tile groups
 
-A _Tile group_  includes several tiles and is displayed on the __Launchpad__.
+With the _Tile group_, you can maintain groups of tiles and role-based access.
+_Tile groups_ includes several tiles and is displayed on the launchpad.
 A user must have the same role as the tile group to see the group.
-//@Neptune. Is that also true of tiles?
+//TODO Neptune: Is that also true of tiles?
 
-image::tile-group-role-tile.png[width=400,link="tile-group-role-tile.png"]
+image::tile-group-role-tile.png[width=400]
 
-//@Neptune. Can we show an example of a tile group?
+//TODO Neptune: Can we show an example of a tile group?
 
 == Role-based tile groups
 You can bundle tiles into tile groups and assign one or more roles to each tile group.
-This way, you do not need to assign a role to each tile.
+In this way, you do not need to assign a role to each tile.
 
 Users who are assigned to a role in a tile group have access to the applications of that tile group.
 They also can browse through a tile group library from their _Launchpad_ and select the applications that they want to display on the homepage of their _Launchpad_.
 
-== Manage tile groups
-You manage tile groups on the __Cockpit__ in *Administration*.
-
 == Related topics
-* xref:tiles.adoc[Tiles]
+* xref:cockpit-overview:tiles.adoc[Tiles]
 //* xref:create-tiles.adoc[]
 //* xref:create-tile-groups.adoc[]
 //* xref:configure-tile-groups.adoc[]
-* xref:tile-blackout.adoc[]
-* xref:launchpad.adoc[]
+* xref:cockpit-overview:tile-blackout.adoc[Tile blackout]
+* xref:cockpit-overview:launchpad-concept.adoc[Launchpad]

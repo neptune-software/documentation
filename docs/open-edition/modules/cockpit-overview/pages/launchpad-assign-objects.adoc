@@ -1,12 +1,10 @@
-= Assign objects in _Launchpad_
+= Assign objects in a launchpad
 
-The _Launchpad_ comes with an assignment mechanisms that connects objects to one another in different ways.
-
+A launchpad comes with an assignment mechanisms that connects objects to one another in different ways.
 
 Assign objects as follows:
 
-.Assignment mechanism in the _Launchpad_
-[%header, frame=sides, frame=ends ]
+[%header, frame=sides, frame=ends]
 |===
 |Assignment task                      |Assign why               |Assign where
 |Assign a user or a group to a role     |All users with a specific role can access apps that are assigned to that role     |Go to *Security* > *User*.
@@ -15,7 +13,7 @@ Assign objects as follows:
 //See also xref:security-overview.adoc[] (tbd)
 |Assign a tile to a role    |Users can access apps in their launchpad. The role of the user must be assigned to the tile  |Go to *Administration* > *Tile*.
 //See also xref:tiles.adoc[] (tbd)
-|Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role     |Go to *Administration* > Tile Group.
+|Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role     |Go to *Administration* > *Tile Group*.
 //See also xref:tile-groups.adoc[] (tbd)
 |Assign a tile and its intent to a tile group    |When users click the tile on the _Launchpad_, the intent resolves into a URL and navigates to the app     |Go to *Administration* > *Tile*.
 //See also xref:tiles.adoc[] (tbd)

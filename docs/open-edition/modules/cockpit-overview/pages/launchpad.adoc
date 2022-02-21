@@ -1,6 +1,4 @@
-= Launchpad
-
-== Getting started with the Launchpad
+= Getting started with the Launchpad
 
 This section explains the configurations when setting up a launchpad.
 
@@ -52,3 +50,6 @@ NOTE: You have to check _Allow Anonymous Access_ in *Settings* > *System* > *Lic
 
 === UI5
 Neptune DXP supports to create and use different visual designs called themes alternatively and switching between the themes allowing for the same application to have a very different look, depending on the user’s design preference, or an accessibility requirement. These are the standard themes can be used in any application
+
+== Related topics
+* xref:cockpit-overview:launchpad-assign-objects.adoc[Assign objects in a launchpad]

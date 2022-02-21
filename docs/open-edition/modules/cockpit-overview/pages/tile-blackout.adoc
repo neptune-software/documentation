@@ -1,10 +1,10 @@
 = image:the-blackout@2x.png[width=100]Tile Blackout
 
-Use _Tile Blackout_ to inform users that an application or URL on a tile is under maintenance or unreachable.
+With the _Tile Blackout_, you can inform users that an application or URL on a tile is under maintenance or unreachable.
 
-//==Related topics
+== Related topics
 //* Black out tiles
-//* Tile
-//* Tile Group
+* xref:cockpit-overview:tiles.adoc[Tiles]
+* xref:cockpit-overview:tile-groups.adoc[Tile Groups]
 
 
