@@ -7,7 +7,10 @@ You can add images, watermarks, QR codes, tables, headers, and footers, and appl
 //@Neptune. Are we talking about PDF templates or PDF documents?
 //To be clarified when writing the topic
 
-//== Related topics
+== Related topics
+* xref:pdf-designer-create-template.adoc[Create a new PDF template]
+* xref:pdf-designer-open-template.adoc[Open a PDF template]
+* xref:pdf-designer-edit-template.adoc[Edit a PDF template]
 //* xref:pdf-designer-interface.adoc[]
 //* xref:pdf-designer-objects.adoc[]
 //* xref:pdf-designer-gettingstarted.adoc[]
