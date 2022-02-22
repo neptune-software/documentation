@@ -79,7 +79,6 @@
 ** xref:cockpit-overview:adaptive-designer.adoc[Adaptive designer]
 //*** xref:cockpit-overview:adaptive-designer-interface-at-a-glance.adoc[The Adaptive Designer interface at a glance]
 ** xref:cockpit-overview:app-designer.adoc[App Designer]
-
 ** xref:cockpit-overview:app-editor.adoc[App Editor]
 ** xref:cockpit-overview:script-editor.adoc[Script Editor]
 *** xref:cockpit-overview:script-editor-new.adoc[]
@@ -90,17 +89,14 @@
 *** xref:cockpit-overview:script-editor-addresources.adoc[]
 *** xref:cockpit-overview:script-editor-run.adoc[]
 ** xref:cockpit-overview:rules-engine.adoc[Rules Engine]
-
 ** xref:cockpit-overview:code-snippets.adoc[Code snippets]
 //** xref:cockpit-overview:documentation.adoc[Documentation]
 ** xref:cockpit-overview:media-library.adoc[Media library]
-
 *** xref:cockpit-overview:organize-media-library.adoc[]
 ** xref:cockpit-overview:npm-modules.adoc[npm Modules]
 *** xref:cockpit-overview:npm_add.adoc[]
 ** xref:cockpit-overview:application-trashbin.adoc[Application trashbin]
 //Design
-
 * xref:cockpit-overview:design.adoc[Design]
 ** xref:cockpit-overview:pdf-designer.adoc[PDF Designer]
 ** xref:cockpit-overview:theme-designer.adoc[Theme Designer]
@@ -113,7 +109,6 @@
 *** xref:cockpit-overview:api-designer-create.adoc[Create a table definition with the _API Designer_]
 ** xref:cockpit-overview:api-client.adoc[API Client]
 ** xref:cockpit-overview:api-trace.adoc[API Trace]
-
 //Administration
 * xref:cockpit-overview:administration.adoc[Administration]
 ** xref:cockpit-overview:tiles.adoc[Tiles]
@@ -124,7 +119,6 @@
 ** xref:cockpit-overview:tile-blackout.adoc[Tile blackout]
 ** xref:cockpit-overview:mobile-client.adoc[Mobile client]
 ** xref:cockpit-overview:mobile-debug.adoc[Mobile Debugger]
-
 ** xref:cockpit-overview:favourite-management.adoc[Favourite Management]
 ** xref:cockpit-overview:translation.adoc[Translation]
 //Monitoring
