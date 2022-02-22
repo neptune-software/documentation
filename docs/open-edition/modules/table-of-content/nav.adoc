@@ -101,10 +101,10 @@
 //Connectivity
 * xref:cockpit-overview:connectivity.adoc[Connectivity]
 ** xref:cockpit-overview:api-designer.adoc[API Designer]
-*** xref:cockpit-overview:api-designer-detail.adoc[API Designer]
-**** xref:cockpit-overview:api-designer-create.adoc[Create a table definition with the _API Designer_]
-*** xref:cockpit-overview:api-client.adoc[API Client]
-*** xref:cockpit-overview:api-trace.adoc[API Trace]
+*** xref:cockpit-overview:api-designer-import.adoc[]
+*** xref:cockpit-overview:api-designer-create.adoc[Create a table definition with the _API Designer_]
+** xref:cockpit-overview:api-client.adoc[API Client]
+** xref:cockpit-overview:api-trace.adoc[API Trace]
 //Administration
 * xref:cockpit-overview:administration.adoc[Administration]
 ** xref:cockpit-overview:tiles.adoc[Tiles]
