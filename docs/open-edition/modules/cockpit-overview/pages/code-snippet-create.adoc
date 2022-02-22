@@ -6,7 +6,6 @@ In this topic, you learn how to create a code snippet that you can reuse in othe
 * There are no prerequisites.
 
 == Procedure
-
 . On the cockpit, go to *Development* and click _Code Snippets_.
 . You can see a list of existing code snippets. Click *Add*.
 +
@@ -17,15 +16,15 @@ image::code-snippets-overview.png[,800]
 . Enter a description of the snippet is about.
 . Specify the group under which users can find the snippet in the _App Designer_ or _Script Editor_.
 . Check whether this snippet shall be usable in the _App Desiger_, in the _Script Editor_, or in both.
-. Click *Editor*.
+. Click on the *Editor* tab.
 +
 *Result*: The editor window opens. You can write your code here.
 . Click *Save* when you are finished.
 +
-[Tip]
-----
-Click *Import* to import code from an external file into the editor. The file must be in _.planet9_ format.
-----
+[TIP]
+====
+Click *Import* to import code existing into the editor. The file must be in _.planet9_ format.
+====
 //TODO Neptune: ".planet9" is the only file type that can be chosen here. Is this still up to date?
 
 == Results
