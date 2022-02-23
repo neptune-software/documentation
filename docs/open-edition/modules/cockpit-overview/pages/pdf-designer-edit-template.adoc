@@ -25,9 +25,11 @@ image:pdf-designer-template-saveicon.png[width=400]
 === Preview your template:
 
 . Click the *Preview* Icon.
-//image
++
+image:pdf-designer-preview.png[width=200]
 . You can click the *Refresh*-Icon to refresh the preview of your PDF template anytime.
-//image
++
+image:pdf-designer-template-refreshicon.png[width=400]
 
 == Results
 * You have edited a PDF template.
