@@ -3,4 +3,6 @@
 
 In _Deployment Create_ you create deployment packages. Here, you select the artefacts from services you want to deploy from your Neptune DXP edition to another.
 
+When you create a release from a release definition that defines approvals, the deployment stops at each point where approval is required until the specified approver grants approval or rejects the release.
+
 image:create-deployment.png[,800]

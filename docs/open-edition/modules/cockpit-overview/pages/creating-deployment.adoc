@@ -1,28 +1,41 @@
 = Create a deployment package
+You have two options:
+
+.. Create a deployment package and transferring it by selecting a route.
++
+When using routes, you can transfer your package to many targeted systems with one transfer process.
+
+.. Create a deployment package and transferring it by selecting a system.
+//what's the difference between route and system when creating a deployment package?
 
 == Prerequisites
-Before you start a deployment process, make sure that you set up a remote system you want to send the deployment packages to. To know how to set up a remote system, refer to Remote System Setup.
+* Before you start a deployment process, make sure that you set up a remote system you want to send the deployment packages to.
+How to set up a remote system, see Remote System Setup.
 //Todo Gernot link page Remote System
+* You have selected a deployment authentication in settings -> customization component.
++
+NOTE: Deployment can take place through Routes or with systems.
 
 == Procedure
 . Open Neptune DXP - Open Edition cockpit.
 . Go to *Deployment*, and click *Deployment Create*.
-. In _Deployment Create_, click *Start*.
++
+image:start-screen-deployment.png[,600]
++
+*Result*: The deployment create window opens
+
+=== Create a deployment package via route
+. Click *Routes*
+. On the list, check a route.
+. Click *Start*.
 +
 image:start-deployment-creation.png[,400]
 +
 *Result*: The deployment create dialog opens.
 +
 image:deployment-create-overview.png[,600]
-+
-You have two options:
-+
-.. Deploy an already existing package.
-+
-.. Create a new deployment package and deploy it.
 
-=== Deploy an existing package
-. Click *Packages*.
+. To select already existing packages, click *Packages*.
 +
 NOTE: The number next to *Packages* indicates the number of available packages.
 +
@@ -32,28 +45,65 @@ image:select-package.png[,600]
 +
 image:select-package-execute.png[,600]
 +
+. To select a service you want to deploy artefacts from, click the arrow next to the service group. In the example, we selected *Launchpad* in the *Administration* tab.
+//todo introduce service group?
++
+NOTE: The number next to the service indicates the number of available artefacts.
++
+*Result* _Deployment create_ shows a list of all artefacts of the selected service.
++
+image:select-service.png[,600]
+. Check the artefacts you want to add.
++
+image:select-service-create.png[,600]
+. .... , check *Include relations*.
+//what does include relations?
 . Click *Create*.
 +
 *Result*: The Deploy window opens.
 +
 image:create-package-from-existing.png[,600]
-+
-. Check the package(s) and artefacts, click *Create*.
 
-*Result*: The packages are sent to the remote system for approval.
+. Verify the package(s), and their artefacts you want to deploy. Check or uncheck items to adjust your selection.
+
+. Click *Create*.
+//What about "Transfer" next to "Create"?
++
+*Result*: _Deployment Create_ sends the packages to the remote system for approval.
 //todo check again what's happening
 
-=== Create a deployment package
-. Click the arrow next to the service you want to deploy artefacts from.
+=== Create a deployment package via system
+. Click *System*
+. On the list, check the system or systems you want to create a deployment package for.
+// Is it correct that you can select more than one system?
+. Click *Start*.
 +
-NOTE: The number next to the service name indicates the number of available artefacts.
+image:start-deployment-creation.png[,400]
 +
-. Select a service. In the example, we selected *Launchpad* in the *Administration* tab.
+*Result*: The deployment create dialog opens.
 +
-*Result* A list of all artefacts of the selected service is shown.
+image:deployment-create-overview.png[,600]
+. Click the arrow next to the service group, and select a service you want to deploy artefacts from. In the example, we selected *Launchpad* in the *Administration* tab.
+//todo introduce service group?
 +
+NOTE: The number next to the service indicates the number of available artefacts.
++
+*Result* _Deployment create_ shows a list of all artefacts of the selected service.
++
+image:select-service.png[,600]
 . Check the artefacts you want to add.
 +
+image:select-service-create.png[,600]
+. Click *Create*.
++
+*Result*: The Deploy window opens.
 
-the Select the Launchpad, Tile Group, Tile, Application, Theme, API Group, OData, Table, Server Script. For example, if you select Launchpad from the Administration tab, you will get a list of Launchpad items, with names and version. You can select the items from the list. It works the same way for others artefacts like Tile, Application, Theme, and so on.
+. Verify the package(s), and their artefacts you want to deploy. Check or uncheck items to adjust your selection.
++
+image:deploy-window.png[,600]
+. Click *Create*.
++
+*Result*: _Deployment Create_ creates your deployment package, and will ask you for approval or transfer according to the deployment authentication you selected before.
+
+
 
