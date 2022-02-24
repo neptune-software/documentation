@@ -1,0 +1,32 @@
+= Create a PDF document
+
+In this topic, you learn how to create a PDF document.
+
+== Prerequisites
+* You have xref:pdf-designer-create-template.adoc[created a PDF template].
+* You have xref:pdf-designer-open-template.adoc[opened a PDF template].
+
+== Procedure
+
+. Click the *Preview* Icon.
++
+image:pdf-designer-preview.png[width=200]
++
+*Result*: A preview of your PDF template is shown.
+. CLick the *Save* Icon.
++
+image:pdf-designer-save-document.png[width=400]
++
+*Result*: A new window opens.
+. Select where you want to save your PDF document.
+. Click *Save*.
++
+*Result*: Your PDF document is downloaded.
+
+== Results
+* You have created a PDF document.
+
+== Related topics
+* xref:pdf-designer.adoc[PDF Designer]
+* xref:pdf-designer-create-template.adoc[Create a new PDF template]
+* xref:pdf-designer-edit-template.adoc[Edit a PDF template]
