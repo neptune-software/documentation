@@ -62,6 +62,6 @@ For more details, see the Microsoft documentation for setting up Postgres databa
 //Uta: The result should be the same as the title of the topic promises. Please check and rephrase when necessary.
 //TODO: Rephrased it but I am not sure whether it is technically correct. Neptune, please check.
 
-== Related topics
+== Next steps
 
 * xref:azure-firewall.adoc[Configure a server-level firewall rule]

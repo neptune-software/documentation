@@ -22,6 +22,6 @@ If this is the case, you will not be able to connect to your server unless your 
 
 You have configured a firewall for your server.
 
-== Related topics
+== Next steps
 
 * xref:azure-database-client.adoc[Create a database schema with SQL client]

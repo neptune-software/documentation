@@ -55,7 +55,7 @@ Click  *Review + create*  at the bottom of the page.
 * You have created your virtual machine.
 This process may take a few minutes.
 
-== Related topics
+== Next steps
 * xref:azure_connect.adoc[Configure a connection to the virtual machine]
 //Uta: Made it bullet list and deleted full stop
 //FaKo: Layout of "next steps" section has to be discussed and specified in the style guide

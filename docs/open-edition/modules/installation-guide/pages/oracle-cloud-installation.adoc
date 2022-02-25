@@ -44,7 +44,7 @@ chmod +x planet9-linux
 == Result
 Neptune DXP - Open Edition is running.
 
-== Related topics
+== Next steps
 IMPORTANT: As soon as you disconnect from your SSH session, it stops, because the parent that started it no longer exists.
 
 You must run Neptune DXP - Open Edition with a session manager like xref:oracle-cloud-tmux.adoc [tmux].

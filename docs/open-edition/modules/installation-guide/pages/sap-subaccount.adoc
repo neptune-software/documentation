@@ -52,5 +52,5 @@ image::sap-assign-entitlements-result.png[width=400]
 == Results
 * You have set up a subaccount on the SAP BTP.
 
-== Related topics
+== Next steps
 * xref:sap-cloud-foundry.adoc[Enable Cloud Foundry] to use the subaccount that you created.

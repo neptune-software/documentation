@@ -54,6 +54,6 @@ create schema planet9
 
 You have created a database schema with SQL client.
 
-== Related topics
+== Next steps
 
 * xref:azure-connection-cockpit.adoc[Connect the database to Neptune DXP - Open Edition]

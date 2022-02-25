@@ -18,5 +18,5 @@ image::sap-trial-account.png[width=600]
 == Result
 * SAP has created your trial account. This can take a few minutes.
 
-== Related topics
+== Next steps
 * xref:sap-subaccount.adoc[Set up a subaccount for Neptune DXP - Open Edition]
