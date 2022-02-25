@@ -1,16 +1,16 @@
-= Create a key pair for an instance on the Amazon EC2 console
+= Create a key pair for an instance on the AWS console
 
 //TODO: Fabian: How do we call sections? "Topic" (like here), "Section", "Chapter"? Do we have a rule for that? If not, we need one.
-In this topic, you create a key pair to launch an instance on the Amazon EC2 console in later steps.
+In this topic, you create a key pair to launch an instance on the AWS console in later steps.
 
 == Prerequisites
 
-* You have an account at the Amazon EC2 platform.
+* You have an account at the AWS platform.
 
 == Procedure
 
 . Type the following URL: https://console.aws.amazon.com.
-. Sign in to the Amazon EC2 Console.
+. Sign in to the AWS console.
 . On the top menu, open *Services*.
 . Go to the *Compute* section and click *EC2*. A new window opens.
 +
@@ -33,9 +33,9 @@ image::aws-key-pair-2.png[width=400]
 *Result*: The newly created key pair appears in the key pairs overview with the name, type, fingerprint, and ID.
 
 == Results
-You have created a key pair for an Amazon EC2 instance.
+You have created a key pair for an AWS instance.
 
-== Related topics
-* xref:installation-guide:aws-launch.adoc[Launch an instance on the Amazon EC2 console]
+== Next steps
+* xref:installation-guide:aws-launch.adoc[Launch an instance on the AWS console]
 
 
