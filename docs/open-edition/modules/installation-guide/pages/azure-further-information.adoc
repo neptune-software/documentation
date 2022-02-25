@@ -8,8 +8,8 @@ Azure CLI:: Create and manage Azure resources from the command line or in script
 Learn how to create virtual machines in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli[here].
 Azure PowerShell:: Create and manage Azure resources from the PowerShell command line or using scripts.
 Learn how to create virtual machines through Azure PowerShell in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-powershell[here].
-Azure Portal:: Azure portal is a browser-based user interface to create virtual machines and their associated resources.
-Learn how to create virtual machines with the Azure portal in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal[here].
+Azure Portal:: Azure Portal is a browser-based user interface to create virtual machines and their associated resources.
+Learn how to create virtual machines with the Azure Portal in the Microsoft documentation https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal[here].
 
 == Steps involved in creating Azure virtual machines
 
@@ -19,4 +19,4 @@ Connect to virtual machines using SSH client and PuTTY:: See the Microsoft docum
 
 == Create an Azure database resource
 
-Create an Azure database for PostgreSQL server in the Azure portal:: See the Microsoft documentation https://docs.microsoft.com/en-us/azure/postgresql/quickstart-create-server-database-portal[here].
+Create an Azure Database for PostgreSQL server in the Azure portal:: See the Microsoft documentation https://docs.microsoft.com/en-us/azure/postgresql/quickstart-create-server-database-portal[here].

@@ -1,22 +1,22 @@
-= Set up a trial account on the SAP Cloud Platform
+= Set up a trial account on the SAP Business Technology Platform
 //Helle: is this still up to date? SAP had name and product changes. Needs to be verified.
 
-To install Neptune DXP - Open Edition in SAP BTP, you must set up a trial account on the SAP Cloud Platform.
+To install Neptune DXP - Open Edition on the SAP Business Technology Platform (BTP), you must set up a trial account on the SAP BTP.
 
 == Prerequisites
 
-* You have an account on the SAP Cloud Platform.
+* You have an account on the SAP BTP.
 
 == Procedure
-. Open a browser and open the following URL in the address bar: https://cockpit.hanatrial.ondemand.com/cockpit/#/home/trialhome.
-//Helle: needs to be checked, else: https://discovery-center.cloud.sap/ https://accounts.sap.com/saml2/idp/sso ?
-. Login to the SAP BTP Cockpit.
-. Click *Enter your Trial Account*.
+//TODO: Helle: needs to be checked, else: https://discovery-center.cloud.sap/ https://accounts.sap.com/saml2/idp/sso ?
+. Sign in to the SAP BTP Cockpit.
+. Click *Enter Your Trial Account*.
 +
 image::sap-trial-account.png[width=600]
+//TODO: Screenshot still uses old SAP terminology, needs to be updated.
 
 == Result
-* SAP creates your trial account. This can take a few minutes.
+* SAP has created your trial account. This can take a few minutes.
 
 == Next steps
-* xref:sap-subaccount.adoc[Set up a subaccount for the Neptune DXP - Open Edition]
+* xref:sap-subaccount.adoc[Set up a subaccount for Neptune DXP - Open Edition]
