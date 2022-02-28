@@ -1,0 +1,26 @@
+= Edit an existing user
+
+In this topic, you learn how to edit an existing user.
+
+== Prerequisites
+* You have xref:security-add-user.adoc[added a new user].
+
+== Procedure
+
+. On the cockpit, go to *Security* and click _User_.
++
+*Result*: The list of existing users opens.
+. Click on the user you want to edit.
+. In the *General* tab, you can change the name, the language or the password of your user. These are mandatory fields.
+. You can change the additional information about your user.
+. You can change the validity for your user. This is used, if you want your user to expire automatically after a certain timespan.
+. In the *Role* tab, you can change the roles of your user.
+. In the *API token* tab, you can generate an API token for your user.
+. Click *Save*.
+
+== Results
+* You have edited an existing user.
+
+== Related topics
+//* xref:security-user.adoc[User]
+//* xref:security.adoc[Security]
