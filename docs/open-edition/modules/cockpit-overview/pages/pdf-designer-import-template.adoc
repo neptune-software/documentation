@@ -1,6 +1,7 @@
 = Import a PDF template
 
 In this topic, you learn how to import a PDF template.
+//Give more information. What do you want to do? What for?
 
 == Prerequisites
 * You have xref:pdf-designer-export-template.adoc[exported a PDF template].
@@ -23,14 +24,17 @@ image:pdf-designer-create-template2.png[width=400]
 . Enter a name for your template. This is a mandatory field.
 . You can choose a package for your template
 . Click *Save*.
+//No need to repeat all the steps above, they are already described in a previous topic.
 . In the *PDF* Dropdown, click *Import from file*.
 +
 image:pdf-designer-import-template.png[width=400]
+//Adapt image
 +
 *Result*: A new window opens.
 . Choose the template you want to import.
 . Click *Open*.
 //german Windows-Explorer UI says Öffnen, how do we deal with this?
+//Use "open"
 +
 *Result*: The selected template ist imported into your current template.
 . You can now continue to edit your template.

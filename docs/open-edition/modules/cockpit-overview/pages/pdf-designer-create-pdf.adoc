@@ -1,6 +1,7 @@
 = Create a PDF document
 
 In this topic, you learn how to create a PDF document.
+//Formulate in more detail what you are doing.
 
 == Prerequisites
 * You have xref:pdf-designer-create-template.adoc[created a PDF template].
@@ -14,14 +15,18 @@ image:pdf-designer-preview.png[width=200]
 +
 *Result*: A preview of your PDF template is shown.
 . CLick the *Save* Icon.
+//Where is the save button?
 +
 image:pdf-designer-save-document.png[width=400]
+// I do not see where the save button is in my window...
 +
 *Result*: A new window opens.
 . Select where you want to save your PDF document.
+//Formulate more precisely, for example, "Where you want to store on your computer"
 . Click *Save*.
 +
 *Result*: Your PDF document is downloaded.
+//Did that work? Doesnt't work for me...
 
 == Results
 * You have created a PDF document.

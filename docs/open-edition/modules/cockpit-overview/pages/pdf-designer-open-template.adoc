@@ -4,6 +4,7 @@ In this topic, you learn how to open an existing PDF template.
 
 == Prerequisites
 * You have xref:pdf-designer-create-template.adoc[created a PDF template].
+//This is not correct, you do not need to have created a new template, you can also open an existing template created by other people. There are no prerequisits here.
 
 == Procedure
 
@@ -12,8 +13,11 @@ In this topic, you learn how to open an existing PDF template.
 *Result*: A new tab opens.
 
 . In the *PDF* Dropdown, click *Open*.
+//"Dropdown" --> spelling
 +
 image:pdf-designer-create-template.png[width=400]
+//SUI - Only show "open" in the screenshot
+//If you start a new topic, you cannot click "Delete" and "Copy"
 +
 *Result*: A new window opens.
 
