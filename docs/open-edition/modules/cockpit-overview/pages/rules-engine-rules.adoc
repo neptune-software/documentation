@@ -1,0 +1,24 @@
+= Create a rule with conditions
+
+In this topic, you learn how to create conditions that make your rule work.
+
+== Prerequisites
+* You have done the initial setup to create a rule in xref:rules-engine-setup.adoc[]
+* You have created attributes for the rule in xref:rules-engine-conditions.adoc[]
+
+== Procedure
+
+. Step one.
+. Step two.
++
+*Result*: Result of step two. For example, The Application Settings window opens.
+
+. Step three.
+. Step four.
+
+== Results
+* You have done XY.
+
+== Related topics
+* xref to topic
+* xref to other topic

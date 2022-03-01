@@ -1,0 +1,5 @@
+= Process of creating rules
+
+This is a concept topic about creating rules with _Rules Engine_.
+
+https://community.neptune-software.com/documentation/rules-engine#-creating-the-rule-conditions

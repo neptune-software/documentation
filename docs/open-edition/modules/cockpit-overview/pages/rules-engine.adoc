@@ -2,6 +2,12 @@
 
 _Rules Engine_ allows you to define JSON structured business rules in an easy-to-use no-code UI.
 
-These rules essentially take an input, compare it against any number of conditions, and return an output based on which conditions have been met.
+These rules take an input, compare it against any number of conditions, and return an output based on which conditions have been met.
 
-This separation of concerns, allows you to implement a rule within scripts or processes, and then simply adjust the rule to change the outcome - rather than having to dig into code and adjust hard-coded values.
+This separation of concerns allows you to implement a rule within scripts or processes, and then simply adjust the rule to change the outcome - rather than having to dig into code and adjust hard-coded values.
+
+== Related topics
+
+1. General setup (Tabs General and Role)
+2. Add attributes and conditions
+3. Test the rule

@@ -1,0 +1,30 @@
+= Create attributes for the rule
+
+In this topic, you learn how to create attributes that can be used in the interface of the rule. These attributes define the data that are accepted by the logic of the rule.
+
+== Prerequisites
+* You have done the initial setup to create a rule in xref:rules-engine-setup.adoc[]
+
+== Procedure
+. Click the *Interface* tab.
+. Click *+Add*.
++
+*Result*: A new empty row appears.
+. Fill in the data for the attribute.
+.. In the *Attribute* column, give a name. The attribute is shown under this name in *Conditions*.
++
+TIP: There is no space allowed in the name.
+.. In the *Description* column, give a short description of what the attribute is about.
+.. In the *Type* column, choose from the drop-down menu whether the attribute is of type `String`, `Number`, or `Boolean`.
++
+image::rules-engine-interface-snag.png[, 800]
+. Create as many attributes as you need for your purpose.
++
+TIP: You can sort rows by drag and drop.
+
+== Results
+* You have created attributes that can be used in your rule.
+
+== Related topics
+* xref to topic
+* xref to other topic
