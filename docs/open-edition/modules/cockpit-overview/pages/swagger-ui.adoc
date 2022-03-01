@@ -2,11 +2,18 @@
 
 With _Swagger UI_, you can test APIs.
 
-You make test requests with operations, for example, defined in the _API Designer_ and see the responses of your requests.
-When making test requests, you can use operation parameters that you defined in the _API Designer_ or _API Client_.
+You make test requests with the parameters defined for each operation of the API and see the responses of your requests.
+To perform test requests, you do not need to implement the API, for example, in an application.
 
-//@parson: below information was given before and comes from old documentation. I can't find value of this information. As Swagger UI is a service that runs in Open Edition in a browser of choice, I don't think any of the below information is necessary or helpful. Has more marketing character.
+You make test requests with operations, for example, defined in the xref:api-designer.adoc[_API Designer_].
+When making test requests, you can use operation parameters that you defined in the xref:api-designer.adoc[_API Designer_] or xref:api-client.adoc[_API Client_].
 
+include::partial$api-client-swagger-ui.adoc[]
+//todo Hendrik: please check if correct
+
+//@parson: below information was given before and comes from old documentation. I can't find value of this information. As Swagger UI is a service that runs in Open Edition in a browser of choice, I don't think any of the below information is necessary or helpful. Has more marketing character. Update: I also found that this is copied from the Swagger UI webpage. We shouldn't use it.
+
+////
 _Swagger UI_ provides the format for defining the operations of your API in a human and machine-readable way and visualizes these operations to let consumers interact with the different endpoints of the API.
 
 == Features
@@ -14,6 +21,7 @@ _Swagger UI_ provides the format for defining the operations of your API in a hu
 * Human-friendly: Allow developers to effortlessly interact and try out every single operation that your API exposes for easy consumption.
 * Easy to navigate: Quickly find and work with resources and endpoints with neatly categorized documentation.
 * All-browser support: Cater to every possible scenario with _Swagger UI_ working in all major browsers.
+////
 
 == Related topics
 * xref:api-designer.adoc[_API Designer_]
