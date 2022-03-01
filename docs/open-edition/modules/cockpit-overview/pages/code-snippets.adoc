@@ -7,4 +7,4 @@ Reusing frequently used code enables you to focus on the processes and functiona
 These configured code snippets allow you to participate in the design of applications or even create your own applications without extensive programming knowledge.
 
 == Related topics
-* Create a code snippet
+* xref:code-snippet-create.adoc[]

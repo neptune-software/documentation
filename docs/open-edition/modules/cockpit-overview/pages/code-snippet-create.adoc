@@ -7,25 +7,34 @@ In this topic, you learn how to create a code snippet that you can reuse in othe
 
 == Procedure
 . On the cockpit, go to *Development* and click _Code Snippets_.
-. You can see a list of existing code snippets. Click *Add*.
++
+*Result*: You can see a list of existing code snippets.
+. Click *Add*.
 +
 *Result*: A new window opens. You see the *General* tab.
 +
 image::code-snippets-overview.png[,800]
 . Enter a name for your snippet. Choose a name that gives a clear indication of the content.
-. Enter a description of the snippet is about.
-. Specify the group under which users can find the snippet in the _App Designer_ or _Script Editor_.
-. Check whether this snippet shall be usable in the _App Desiger_, in the _Script Editor_, or in both.
-. Click on the *Editor* tab.
-+
-*Result*: The editor window opens. You can write your code here.
-. Click *Save* when you are finished.
+. Enter a description of what the snippet is about.
+. Choose a group from the drop-down menu the snippet belongs to.
 +
 [TIP]
 ====
-Click *Import* to import code existing into the editor. The file must be in _.planet9_ format.
+* In the _Script Editor_, you find your created code snippets under *Custom* when you try to insert a new snippet.
+//TODO Helle: Clarify where custom code snippets are used in the App Designer.
 ====
-//TODO Neptune: ".planet9" is the only file type that can be chosen here. Is this still up to date?
+. Click the checkboxes *Use in App Designer* and *Use in Script Editor* to decide if your snippet should be available in the _App Designer_, the _Script Editor_, or in both.
+. Click the *Editor* tab.
++
+*Result*: The editor window opens.
++
+. Write your code here.
++
+[TIP]
+====
+Click *Import* to import existing code into the editor. The file must be in _.planet9_ format.
+====
+. Click *Save*.
 
 == Results
 * You have created a code snippet that can be used in the _Script Editor_ or in the _App Designer_.
