@@ -1,6 +1,4 @@
 = Create a new PDF template
-//Missing topic: PDF Designer at a glance, should insert it here.
-//https://community.neptune-software.com/documentation/pdf-document-designer
 
 In this topic, you learn how to create a new PDF template.
 
@@ -28,7 +26,7 @@ image:pdf-designer-create-template2.png[width=400]
 //Not necessary to mention the field is mandatory
 . You can choose a package for your template
 . Click *Save*.
-//The following two steps are not necessary for the this topic.
+//The following two steps are not necessary for this topic.
 . You can now xref:pdf-designer-edit-template.adoc[edit your template].
 //No links to other topics inside steps!
 . Click the *Save* Icon.

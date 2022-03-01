@@ -14,7 +14,7 @@ In this topic, you learn how to create a PDF document.
 image:pdf-designer-preview.png[width=200]
 +
 *Result*: A preview of your PDF template is shown.
-. CLick the *Save* Icon.
+. Click the *Save* Icon.
 //Where is the save button?
 +
 image:pdf-designer-save-document.png[width=400]

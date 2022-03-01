@@ -15,6 +15,7 @@ In this topic, you learn how to edit an existing PDF template.
 // add a TIP that you have to "unlock" the file if you want to work with it after having a break
 //reference topic needed where you explain alle the elements that you can add to your template
 . Click the *Save* Icon.
+//"icon" with small letters
 +
 image:pdf-designer-template-saveicon.png[width=400]
 
@@ -26,6 +27,7 @@ image:pdf-designer-template-saveicon.png[width=400]
 +
 image:pdf-designer-template-saveicon.png[width=400]
 //No need to have the screenshot twice
+//Screenshot should be more simplified
 
 //New section about enabling and disabling elements
 
@@ -36,7 +38,7 @@ image:pdf-designer-template-saveicon.png[width=400]
 image:pdf-designer-preview.png[width=200]
 . You can click the *Refresh*-Icon to refresh the preview of your PDF template anytime.
 //This is the "activate" button, not the "refresh" button
-//No hyphen
+//No hyphen before "Icon", write this in small letters
 +
 image:pdf-designer-template-refreshicon.png[width=400]
 

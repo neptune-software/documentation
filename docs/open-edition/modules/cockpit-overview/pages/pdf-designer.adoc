@@ -8,6 +8,8 @@ You can add images, watermarks, QR codes, tables, headers, and footers, and appl
 //To be clarified when writing the topic
 //Where can you use that template?
 
+//Missing topic: PDF Designer at a glance, should insert it here.
+
 == Related topics
 * xref:pdf-designer-create-template.adoc[Create a new PDF template]
 * xref:pdf-designer-open-template.adoc[Open a PDF template]

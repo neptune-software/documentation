@@ -5,6 +5,7 @@ In this topic, you learn how to import a PDF template.
 
 == Prerequisites
 * You have xref:pdf-designer-export-template.adoc[exported a PDF template].
+//This is not a prerequisite. You can import someone else template.
 
 == Procedure
 

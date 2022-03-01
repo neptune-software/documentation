@@ -9,13 +9,12 @@ In this topic, you learn how to export a PDF template.
 
 == Procedure
 
-. In the *PDF* Dropdown, click *Export to file*.
+. In the *PDF* Dropdown, click *Export to File*.
 +
 image:pdf-designer-export-template.png[width=400]
 //Adapt image
 +
 *Result*: Your PDF template is downloaded automatically.
-//This is a "planet9" file when I tried to do this.
 
 == Results
 * You have exported a PDF template.
