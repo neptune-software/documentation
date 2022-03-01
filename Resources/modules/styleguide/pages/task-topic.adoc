@@ -27,6 +27,8 @@ List the prerequisites required to complete the task as bullet list.
 * Write two or more task steps as an ordered list.
 * Provide step results when necessary.
 * Insert screenshots when necessary.
+* Always explain steps that are mandatory or fields that must be filled in. Mandatory steps are usually indicated by a small red star.
+* Explain optional steps or fields that are only optional to be filled in only if the content is relevant to other parts of the system or documentation, or if they are not self-explanatory.
 * Insert special notices whenever needed:
 +
 TIP: Provides a helpful tip, for example: Watch the video "How to create a resource group".
@@ -40,6 +42,8 @@ IMPORTANT: Warn readers about possible damage to equipment or data, about potent
 
 == Next steps
 * List next steps, if any.
+* This section is optional and shall only be used if there are next steps.
 
 == Related topics
-List related topics on the subject.
+* List related topics on the subject.
+* This section is mandatory for each topic.
