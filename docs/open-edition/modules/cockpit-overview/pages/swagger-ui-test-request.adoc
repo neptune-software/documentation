@@ -1,0 +1,30 @@
+= Make a test request to an API with _Swagger UI_
+
+In this topic, you learn how to make a test request to an API and see the response.
+
+include::partial$api-client-swagger-ui.adoc[]
+
+== Prerequisites
+* You have created an API.
+
+== Procedure
+
+. On the Cockpit, navigate to Connectivity and click _Swagger UI_.
++
+*Result*: The _Swagger UI_ opens. You see the API list on the left and the Swagger UI on the right.
+. From the API list, select the API you want to make a test request to.
++
+*Result*: The Swagger UI shows the operations and models of the API.
+. Click an operation to see its parameters and responses.
++
+NOTE: If you cannot see any parameters, there are no parameters defined for the API. You can still make test requests.
+
+. Click *Try it out*.
+.
+
+== Results
+* You have done XY.
+
+== Related topics
+* xref to topic
+* xref to other topic
