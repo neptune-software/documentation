@@ -1,7 +1,8 @@
 = Export a PDF template
 
-In this topic, you learn how to export a PDF template.
-//Give more information. What do you want to do? What for?
+In this topic, you learn how to export a PDF template to a .planet9 file.
+planet9 is an exchange format between Neptune DXP - Open Edition, so you can share templates with other users.
+//Give more information. What do you want to do? What for? -> DONE
 
 == Prerequisites
 * You have xref:pdf-designer-create-template.adoc[created a PDF template].
@@ -12,12 +13,12 @@ In this topic, you learn how to export a PDF template.
 . In the *PDF* Dropdown, click *Export to File*.
 +
 image:pdf-designer-export-template.png[width=400]
-//Adapt image
+//Adapt image -> DONE
 +
 *Result*: Your PDF template is downloaded automatically.
 
 == Results
-* You have exported a PDF template.
+* You have exported a PDF template and created a .planet9 file.
 
 == Related topics
 * xref:pdf-designer.adoc[PDF Designer]

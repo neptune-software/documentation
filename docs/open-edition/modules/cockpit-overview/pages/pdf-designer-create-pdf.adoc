@@ -21,8 +21,8 @@ image:pdf-designer-save-document.png[width=400]
 // I do not see where the save button is in my window...
 +
 *Result*: A new window opens.
-. Select where you want to save your PDF document.
-//Formulate more precisely, for example, "Where you want to store on your computer"
+. Select where you want to store your PDF document on your computer.
+//Formulate more precisely, for example, "Where you want to store on your computer" -> DONE
 . Click *Save*.
 +
 *Result*: Your PDF document is downloaded.

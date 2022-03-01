@@ -4,28 +4,10 @@ In this topic, you learn how to import a PDF template.
 //Give more information. What do you want to do? What for?
 
 == Prerequisites
-* You have xref:pdf-designer-export-template.adoc[exported a PDF template].
-//This is not a prerequisite. You can import someone else template.
+* There are no prerequisites.
 
 == Procedure
 
-. On the Cockpit, go to *Design* and click _PDF Designer_.
-+
-*Result*: A new tab opens.
-
-. In the *PDF* Dropdown, click *Create*.
-+
-image:pdf-designer-create-template.png[width=400]
-+
-
-+
-*Result*: A new window opens.
-+
-image:pdf-designer-create-template2.png[width=400]
-. Enter a name for your template. This is a mandatory field.
-. You can choose a package for your template
-. Click *Save*.
-//No need to repeat all the steps above, they are already described in a previous topic.
 . In the *PDF* Dropdown, click *Import from file*.
 +
 image:pdf-designer-import-template.png[width=400]
