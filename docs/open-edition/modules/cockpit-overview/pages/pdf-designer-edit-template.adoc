@@ -24,10 +24,8 @@ image:pdf-designer-template-saveicon.png[width=400]
 . Right-click on the element you want to remove.
 . Click *Delete*.
 . Click the *Save* icon.
-+
-image:pdf-designer-template-saveicon.png[width=400]
-//No need to have the screenshot twice
-//Screenshot should be more simplified
+
+//No need to have the screenshot twice -> DONE
 
 //New section about enabling and disabling elements
 

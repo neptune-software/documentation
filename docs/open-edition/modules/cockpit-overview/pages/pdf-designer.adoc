@@ -20,6 +20,7 @@ The _PDF Designer_ interface consists of the following elements:
 * PDF preview panel
 * Components property panel
 // noch Toolbars einfügen 2x
+// aktuelle Terminologie beachten - OneNote
 +
 image:pdf-designer-at-a-glance.png[width=800]
 

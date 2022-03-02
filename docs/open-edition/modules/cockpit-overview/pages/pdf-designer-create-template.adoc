@@ -16,8 +16,8 @@ In this topic, you learn how to create a new PDF template.
 //"Dropdown" --> spelling -> DONE
 +
 image:pdf-designer-create-template.png[width=400]
-//SUI - Only show "create" in the screenshot
-//If you start a new topic, you cannot click "Delete" and "Copy"
+//SUI - Only show "create" in the screenshot -> DONE
+//If you start a new topic, you cannot click "Delete" and "Copy" -> DONE, not visible in SUI
 +
 *Result*: A new window opens.
 +
