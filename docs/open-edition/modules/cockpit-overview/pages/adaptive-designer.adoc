@@ -2,20 +2,16 @@
 
 Create adaptive applications.
 //TODO Leonie: Think of replacing the service description completely in this case.
-//TODO Leonie: Bring in the aspect of translation.
-_Adaptive Designer_ is your starting point to create responsive, customizable, and functional applications without writing a single line of code.
+Create responsive, customizable, and functional adaptive applications without writing a single line of code in _Adaptive Designer_. With the integrated translation API, you can provide your adaptive application in more than 100 supported languages.
+//TODO Neptune: What API is it exactly?
 
 == Adaptive framework
 The adaptive framework supports no-code development of applications in _Adaptive Designer_ using adaptive templates and predefined data sources.
-The adaptive framework consists of the following components:
 
-* Predefined data sources
-* _Adaptive Designer_
-* Adaptive templates
-* Launchpad
+//TODO overview graphic containing data sources, connector, adaptive designer, launchpad, store, adaptive templates
 
 //TODO Leonie: Polish following paragraph; fix Launchpad terminology; Mention Store and Connector service
-A database or a server script provide the data for the applications.
+A database or a server script provides the data for the applications.
 Templates provide the configuration metadata.
 Templates and database/server script connection combined enable the output of adaptive applications that can run on the __Launchpad__ alongside any other application.
 
@@ -36,8 +32,9 @@ _Adaptive Designer_ comes with templates that represent the foundation and struc
 By combining an adaptive framework with a database or other data source, _Adaptive Designer_ enables drag and drop functionality that allows business users to create applications that are tailored to their requirements.
 Because an adaptive application is based on a template, any changes you make to the template will reflect across all the applications that use it.
 This way, you can adjust entire suits of applications from one source.
+//TODO Leonie: What does it mean - change the template ? changes are most likely not done in the adaptive designer, correct? Bring section to introduction, if essential. Else: outsource to adaptive templates
 
-//TODO Leonie: Fill following section
+//TODO Leonie: Fill following section and think of outsourcing it
 == Translation
 
 == Related topics
