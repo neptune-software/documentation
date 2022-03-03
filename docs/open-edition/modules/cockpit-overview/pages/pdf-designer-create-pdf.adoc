@@ -1,7 +1,7 @@
 = Create a PDF document
 
-In this topic, you learn how to create a PDF document.
-//Formulate in more detail what you are doing.
+In this topic, you learn how to create a PDF document. You can donload your PDF template as a pdf file to your computer.
+//Formulate in more detail what you are doing. -> DONE
 
 == Prerequisites
 * You have xref:pdf-designer-create-template.adoc[created a PDF template].
@@ -16,6 +16,7 @@ image:pdf-designer-preview.png[width=200]
 *Result*: A preview of your PDF template is shown.
 . Click the *Save* Icon.
 //Where is the save button?
+//Should be displayed in the toolbar on the top right... also works when there´s no content in the pdf
 +
 image:pdf-designer-save-document.png[width=400]
 // I do not see where the save button is in my window...

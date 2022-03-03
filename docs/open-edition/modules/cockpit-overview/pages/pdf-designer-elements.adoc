@@ -1,0 +1,75 @@
+= PDF Designer elements
+
+With the _PDF Designer_ you can build your own PDF templates and documents.
+The following topic shows an overview over all elements you can use to build your PDF template or document.
+
+== Document components
+
+Background;;
+Shell for the background of your PDF template. You can insert every *Elements* component you want to display in the background of your PDF template.
+
+Content;;
+Shell for the content or body of your PDF template. You can insert every *Elements* component here.
+
+Default Style;;
+This element sets a default style for your PDF template. You can set for example fonts or colors for your entire PDF template.
+
+Footer;;
+Shell for the footer area of your PDF template. You can insert *Elements* components here,
+for example images or text. In text, you can also use formula, for example to show the
+current page number and total page numbers:
++
+[source, asciidoc]
+----
+{= `Page ${currentPage} of ${pageCount} `}
+----
+
+Header;;
+Shell for the header area of your PDF template. See also Footer.
+
+Settings;;
+Element to configure the settings of your PDF document. You can set the size of your page or set passwords for your users to access and edit the document.
+
+Styles;;
+Element to define your custom styles and assign them to objects.
+//TODO: can´t quite figure out what this element is for.
+
+Watermark;;
+Element to add a watermark to your PDF document. The watermark will appear on every page of your PDF document.
+
+== Elements components
+
+Canvas;;
+This element...
+
+Columns;;
+This element...
+
+Image;;
+This element...
+
+ListBulleted;;
+This element...
+
+ListNumbered;;
+This element...
+
+QR Code;;
+This element...
+
+Stack;;
+This element...
+
+Style;;
+This element...
+
+Table;;
+This element...
+
+TableRow;;
+This element...
+
+Text;;
+This element...
+
+== Related topics
