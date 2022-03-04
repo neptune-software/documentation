@@ -2,3 +2,21 @@
 
 //concept of two different adaptive templates and xref to single types
 //TODO Leonie: fill topic
+
+_Adaptive Designer_ comes with templates that represent the foundation and structure for different types of adaptive applications.
+Because an adaptive application is based on an adaptive template, any changes you make to the adaptive template will reflect across all the adaptive applications that use it.
+//TODO Leonie: What does it mean - change the template ? changes are most likely not done in the adaptive designer, correct? Bring section to introduction in overview, if essential.
+
+You can choose from two main types of adaptive templates that offer further subtypes of adaptive templates:
+
+* Adaptive application templates:
+** Adaptive list
+** Adaptive edit
+** Analytic slice and dice
+* Adaptive tile templates:
+** Adaptive tile chart
+** Adaptive tile table
+
+//TODO Leonie: prepare slice and dice terminology; real Names to be used? add to terminology list; could be introduced with the store before the list, then it makes more sense to use the real names and list where everything belongs to...
+
+//TODO Leonie: explain each type in the following

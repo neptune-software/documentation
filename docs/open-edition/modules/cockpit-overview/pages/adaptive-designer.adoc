@@ -2,11 +2,11 @@
 
 Create adaptive applications.
 //TODO Leonie: Think of replacing the service description completely in this case.
-Create responsive, customizable, and functional adaptive applications without writing a single line of code in _Adaptive Designer_. With the integrated translation API, you can provide your adaptive application in more than 100 supported languages.
+Create responsive, customizable, and functional applications with the no-code _Adaptive Designer_. Provide your adaptive applications in multiple machine-translated languages using the integrated translation API.
 //TODO Neptune: What API is it exactly?
 
 == Adaptive framework
-The adaptive framework supports no-code development of applications in _Adaptive Designer_ using adaptive templates and predefined data sources.
+The adaptive framework supports no-code development of adaptive applications in _Adaptive Designer_ using adaptive templates and predefined data sources.
 
 //TODO overview graphic containing data sources, connector, adaptive designer, launchpad, store, adaptive templates
 
@@ -14,25 +14,6 @@ The adaptive framework supports no-code development of applications in _Adaptive
 A database or a server script provides the data for the applications.
 Templates provide the configuration metadata.
 Templates and database/server script connection combined enable the output of adaptive applications that can run on the __Launchpad__ alongside any other application.
-
-//TODO Leonie: Think of outsourcing templates completely and pick up main concept in framework.
-== Adaptive templates
-
-_Adaptive Designer_ comes with templates that represent the foundation and structure for different types of applications. Currently, the following templates are available:
-
-* Business Intelligence
-//Todo Leonie: Is this Analytic now? -> Yes
-* List
-* Detail
-//Todo Leonie: Is this Edit now? -> Yes
-* Tiles
-//TODO Leonie: reconsider display of adaptive templates in general and start with app vs tile and the subordinate templates. Focus on main function of the respective template.
-
-//TODO Leonie: Use following paragraph as input for intro.
-By combining an adaptive framework with a database or other data source, _Adaptive Designer_ enables drag and drop functionality that allows business users to create applications that are tailored to their requirements.
-Because an adaptive application is based on a template, any changes you make to the template will reflect across all the applications that use it.
-This way, you can adjust entire suits of applications from one source.
-//TODO Leonie: What does it mean - change the template ? changes are most likely not done in the adaptive designer, correct? Bring section to introduction, if essential. Else: outsource to adaptive templates
 
 //TODO Leonie: Fill following section and think of outsourcing it
 == Translation
