@@ -1,0 +1,24 @@
+= Delete an existing group
+
+In this topic, you learn how to delete an existing group when its no longer needed.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. On the cockpit, go to *Security* and click _Group_.
++
+*Result*: The list of existing groups opens.
+. Click on the group you want to delete.
+. Click *Edit*.
+. Click the *Delete* icon.
+. Confirm you want to delete the group.
+
+== Results
+* You have deleted an existing group.
+
+== Related topics
+* xref:security-group.adoc[Group]
+* xref:security-add-group.adoc[Add a new group]
+* xref:security-edit-group.adoc[Edit an existing group]

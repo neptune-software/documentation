@@ -1,11 +1,12 @@
 = User
 
-With _User_, you can manage your system users.
+With _User_, you can view and manage your system users.
 
-You can add new users to your system and you can edit existing users
+You can add new users to your system and you can change the settings of your existing users.
+//at a glance topic needed?
 
 == Related topics
 
 * xref:security-add-user.adoc[Add a new user]
 * xref:security-edit-user.adoc[Edit an existing user]
-//Delete user?
+* xref:security-delete-user.adoc[Delete an existing user]

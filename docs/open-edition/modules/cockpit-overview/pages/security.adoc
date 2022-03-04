@@ -1,6 +1,12 @@
 = Security
 
-//* xref:security-user.adoc[User]
-//* xref:security-group.adoc[Group]
+* xref:security-user.adoc[User]
+** xref:security-add-user.adoc[Add a new user]
+** xref:security-edit-user.adoc[Edit an existing user]
+** xref:security-delete-user.adoc[Delete an existing user]
+* xref:security-group.adoc[Group]
+** xref:security-add-group.adoc[Add a new group]
+** xref:security-edit-group.adoc[Edit an existing group]
+** xref:security-delete-group.adoc[Delete an existing group]
 //* xref:security-role.adoc[Role]
 //* xref:security-auditlog.adoc[Audit Log]

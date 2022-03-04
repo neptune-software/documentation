@@ -3,7 +3,7 @@
 In this topic, you learn how to edit an existing user.
 
 == Prerequisites
-* You have xref:security-add-user.adoc[added a new user].
+* There are no prerequisites.
 
 == Procedure
 
@@ -22,5 +22,6 @@ In this topic, you learn how to edit an existing user.
 * You have edited an existing user.
 
 == Related topics
-//* xref:security-user.adoc[User]
-//* xref:security.adoc[Security]
+* xref:security-user.adoc[User]
+* xref:security-add-user.adoc[Add a new user]
+* xref:security-delete-user.adoc[Delete an existing user]

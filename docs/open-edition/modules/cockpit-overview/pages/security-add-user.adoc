@@ -15,12 +15,13 @@ In this topic, you learn how to add a new user to your system.
 . You can select a validity for your user. This is used, if you want your user to expire automatically after a certain timespan.
 . In the *Role* tab, you can add a role to your user.
 . In the *API token* tab, you can generate an API token for your user.
+//what is an API token? what do you need it for?
 . Click *Save*.
 
 == Results
 * You have added a new user to your system.
 
 == Related topics
-//* xref:security-edit-user.adoc[Edit an existing user]
-//* xref:security-user.adoc[User]
-//* xref:security.adoc[Security]
+* xref:security-edit-user.adoc[Edit an existing user]
+* xref:security-delete-user.adoc[Delete an existing user]
+* xref:security-user.adoc[User]
