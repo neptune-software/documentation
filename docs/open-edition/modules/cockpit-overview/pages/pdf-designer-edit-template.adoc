@@ -1,6 +1,7 @@
 = Edit a PDF template
 
 In this topic, you learn how to edit an existing PDF template.
+You find an overview over all elements xref:pdf-designer-elements.adoc[here].
 
 == Prerequisites
 * You have xref:pdf-designer-create-template.adoc[created a PDF template].
@@ -21,7 +22,7 @@ image:pdf-designer-toggle-edit.png[width=300]
 //reusable components panel --> check terminology with other "interface at a glance" topics (for example, appdesigner)
 //-> terminology meeting, we ask Hendrik...
 // add a TIP that you have to "unlock" the file if you want to work with it after having a break -> DONE, inserted at the top
-//reference topic needed where you explain alle the elements that you can add to your template
+//reference topic needed where you explain alle the elements that you can add to your template -> DONE
 . Click the *Save* icon.
 //"icon" with small letters -> DONE
 +

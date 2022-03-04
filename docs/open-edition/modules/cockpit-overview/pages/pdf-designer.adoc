@@ -82,12 +82,14 @@ You can define properties or events to change the layout and behavior of a compo
 image:pdf-designer-property-panel.png[width=300]
 
 == Related topics
-* xref:pdf-designer-create-template.adoc[Create a new PDF template]
-* xref:pdf-designer-open-template.adoc[Open a PDF template]
-* xref:pdf-designer-edit-template.adoc[Edit a PDF template]
-* xref:pdf-designer-create-pdf.adoc[Create a PDF document]
-* xref:pdf-designer-export-template.adoc[Export a PDF template]
-* xref:pdf-designer-import-template.adoc[Import a PDF template]
-//Divide this section into groups and give them subheadings
+* Work with PDF templates
+** xref:pdf-designer-create-template.adoc[Create a new PDF template]
+** xref:pdf-designer-open-template.adoc[Open a PDF template]
+** xref:pdf-designer-edit-template.adoc[Edit a PDF template]
+** xref:pdf-designer-elements.adoc[PDF Designer elements]
+* Export PDF templates
+** xref:pdf-designer-create-pdf.adoc[Create a PDF document]
+** xref:pdf-designer-export-template.adoc[Export a PDF template]
+** xref:pdf-designer-import-template.adoc[Import a PDF template]
+//Divide this section into groups and give them subheadings -> DONE
 // Have a look at the current documentation and create more topics based on that information: https://community.neptune-software.com/documentation/pdf-designer
-// -> TestData, Server-connection, else?

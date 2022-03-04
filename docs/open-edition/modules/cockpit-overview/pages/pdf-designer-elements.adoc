@@ -40,22 +40,22 @@ Element to add a watermark to your PDF document. The watermark will appear on ev
 == Elements components
 
 Canvas;;
-This element...
+Element to set the style of a specific section of your PDF template.
 
 Columns;;
-This element...
+Element to divide a section of your PDF template into columns.
 
 Image;;
-This element...
+Element to insert an image in your PDF template.
 
 ListBulleted;;
-This element...
+Element to insert a list with bullet points into your PDF template.
 
 ListNumbered;;
-This element...
+Element to insert a numbered list into your PDF template.
 
 QR Code;;
-This element...
+Element to insert a QR Code into your PDF template.
 
 Stack;;
 This element...
@@ -64,12 +64,17 @@ Style;;
 This element...
 
 Table;;
-This element...
+Element to insert a table into your PDF template. You can insert *TableRow* elements to add more rows to your table.
 
 TableRow;;
-This element...
+Element to add a new row to a table. Can be inserted in *Table* elements only.
 
 Text;;
-This element...
+Element to insert a simple text block to your PDF template. You can also add this element to *Footer*, *Header*, *Watermark*,
+*Columns*, *ListBulleted*, *ListNumbered* and *TableRow* elements.
 
 == Related topics
+
+* xref:pdf-designer-create-pdf.adoc[Create a new PDF template]
+* xref:pdf-designer-edit-template.adoc[Edit a PDF template]
+* xref:pdf-designer.adoc[PDF Designer]
