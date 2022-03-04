@@ -20,13 +20,18 @@ NOTE: Deployment can take place through Routes or with systems.
 . Open Neptune DXP - Open Edition cockpit.
 . Go to *Deployment*, and click *Deployment Create*.
 +
-image:start-screen-deployment.png[,600]
+image:start-deployment-create.png[,600]
 +
 *Result*: The deployment create window opens
 
 === Create a deployment package via route
 . Click *Routes*
-. On the list, check a route.
++
+image:deployment-create-routes.png[,400]
+//Why can I select more than one route?
+. On the list, check one or more routes.
++
+image:deployment-check-route.png[,600]
 . Click *Start*.
 +
 image:start-deployment-creation.png[,400]
