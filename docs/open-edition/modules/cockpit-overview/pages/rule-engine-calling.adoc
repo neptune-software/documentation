@@ -1,0 +1,49 @@
+= Call a rule like an API in a script
+
+You can call a rule like it is an API endpoint. Enter the following code in a script:
+
+`p9.rulesengine.execute(dataObject, ruleID)`
+
+dataObject:: Key-value pair. Example: `stock: stock_level`.
+ruleID:: The ID provided to your rule in the *General* tab.
+
+== Example for a rule that is called as an API
+
+. You can setup a with one attribute:
++
+image::rules-engine-test-stock.png[,400]
++
+. Provide the following conditions:
++
+image::rules-engine-test-stock2.png[,400]
++
+. Testing the rule returns this, for example:
++
+image::rules-engine-test-stock3.png[,200]
+
+This rule is now included in a script that has the purpose to determine if a stock level is okay or low.
+
+* The key-value pair {stock: stock_level} is passed into the rule
+* The result is stored in the stock_warning var.
+* An `await` is used in the rule to store the result in the variable, when it returns.
+
+[json]
+====
+log.info("Checking stock for: "+productName);
+
+var table = entities.products_3d;
+var product = await table. find({
+    select: ["stock_level"],
+    where: {
+        "description": productName,
+    },
+});
+var stock_level = product[0].stock_level;
+
+var stock_warning = await p9.rulesengine.execute({stock: stock_level}, "82396716-2a13-456a-a475-9ccd6b1dff04");
+
+result = {"stock_level":stock_level,"stock_warning":stock_warning};
+
+console.log(result);
+====
+//Comment Fabian: I took that example from the existing documentation. Is it understandable to you?

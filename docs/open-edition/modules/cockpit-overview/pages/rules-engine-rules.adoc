@@ -7,18 +7,28 @@ In this topic, you learn how to create conditions that make your rule work.
 * You have created attributes for the rule in xref:rules-engine-conditions.adoc[]
 
 == Procedure
-
-. Step one.
-. Step two.
+. Click the *Condition* tab.
+. Click *+Add Group*.
 +
-*Result*: Result of step two. For example, The Application Settings window opens.
+*Result*: A new group with one empty row appears.
++
+. In the *If* field, select an attribute from the drop-down menu you defined in *Interface*.
+. Choose a condition against which the rule ist tested.
+. Enter a delimiting value.
+. Enter a *Then* statement that appears if the condition is met.
+. Click *+add* to add as many rows per group as you want.
++
+image::rules-engine-addgroup.png[,400]
++
 
-. Step three.
-. Step four.
+TIP: You can add any number of groups.
+
+TIP: Click the *Edit* button to resume work on a rule.
 
 == Results
-* You have done XY.
+* You have created one or more rules with conditions and can test them now.
 
 == Related topics
-* xref to topic
-* xref to other topic
+* xref:rules-engine.adoc[Rules engine]
+* xref:rules-engine-setup.adoc[]
+* xref:rules-engine-test.adoc[]
