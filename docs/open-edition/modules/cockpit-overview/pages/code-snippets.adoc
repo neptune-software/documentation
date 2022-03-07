@@ -5,6 +5,7 @@ The idea of code snippets is to reduce the amount of custom code as much as poss
 Reusing frequently used code enables you to focus on the processes and functionalities of the application.
 
 These configured code snippets allow you to participate in the design of applications or even create your own applications without extensive programming knowledge.
+//todo Fabian: I'd like to know which tasks e.g. in an application require code or can be personalized with code. I don't know enough about the links between App Designer/Script Editor and Code Snippets.
 
 == Related topics
 * xref:code-snippet-create.adoc[]
