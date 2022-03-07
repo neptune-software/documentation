@@ -1,9 +1,12 @@
 = User
+//Insert Icon for the user service (see other concept topics)
 
 With _User_, you can view and manage your system users.
+//I would write that in passive, these are "your" users but the users of the whole system
 
 You can add new users to your system and you can change the settings of your existing users.
 //at a glance topic needed?
+//No. At a glance topic only in larger services
 
 == Related topics
 
