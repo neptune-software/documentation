@@ -16,11 +16,17 @@ include::partial$api-client-swagger-ui.adoc[]
 +
 *Result*: The Swagger UI shows the operations and models of the API.
 . Click an operation to see its parameters and responses.
+//@parson Note: not service, part of service > no italics
 +
 NOTE: If you cannot see any parameters, there are no parameters defined for the API. You can still make test requests.
 
 . Click *Try it out*.
-.
+. Enter a value for each parameter.
+//
+. Click *Execute*.
++
+*Result*: The Swagger UI shows the curl, request URL, response body, and response header for your request.
+
 
 == Results
 * You have done XY.
