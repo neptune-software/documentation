@@ -1,0 +1,10 @@
+= Role
+
+With _Role_, you can assign roles to users or groups. Roles are needed to give users or groups specific permissions to perform
+certain actions within your system. With roles users only get these permissions through their role so you don´t have to set all permissions manually.
+
+== Related topics
+
+* xref:security-role-add.adoc[Add a new role]
+* xref:security-edit-role.adoc[Edit an existing role]
+* xref:security-delete-role.adoc[Delete an existing role]

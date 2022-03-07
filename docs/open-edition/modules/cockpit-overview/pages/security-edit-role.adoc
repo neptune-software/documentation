@@ -1,0 +1,26 @@
+= Edit an existing role
+
+In this topic, you learn how to edit an existing role.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. On the cockpit, go to *Security* and click _Role_.
++
+*Result*: A list with all existing roles is shown.
+. Click on the role you want to edit.
+. In the *General* tab, you can change the name of your role.
+. You can change or add a description and choose a package for your role.
+. In the *ACL* tab, you can set the permissions for your role for each service.
+//Service korrekt?
+. Click *Save*.
+
+== Results
+* You have edited an existing role.
+
+== Related topics
+* xref:security-role.adoc[Role]
+* xref:security-role-add.adoc[Add a new role]
+* xref:security-delete-role.adoc[Delete an existing role]
