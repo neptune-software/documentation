@@ -12,8 +12,7 @@ In this topic, you learn how to create a new PDF template.
 +
 *Result*: A new tab opens.
 
-. In the *PDF* dropdown, click *Create*.
-//"Dropdown" --> spelling -> DONE
+. In the *PDF* drop-down menu, click *Create*.
 +
 image:pdf-designer-create-template.png[width=400]
 //SUI - Only show "create" in the screenshot -> DONE

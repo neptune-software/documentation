@@ -4,7 +4,7 @@ With the _PDF Designer_ you can build your own PDF templates and documents.
 The following topic shows an overview over all elements you can use to build your PDF template or document.
 
 == Document components
-
+//Use "::" instead of ";;"
 Background;;
 Shell for the background of your PDF template. You can insert every *Elements* component you want to display in the background of your PDF template.
 

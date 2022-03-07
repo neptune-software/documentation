@@ -23,6 +23,7 @@ image:pdf-designer-toggle-edit.png[width=300]
 //-> terminology meeting, we ask Hendrik...
 // add a TIP that you have to "unlock" the file if you want to work with it after having a break -> DONE, inserted at the top
 //reference topic needed where you explain alle the elements that you can add to your template -> DONE
+//Insert a link to the reference topic
 . Click the *Save* icon.
 //"icon" with small letters -> DONE
 +
