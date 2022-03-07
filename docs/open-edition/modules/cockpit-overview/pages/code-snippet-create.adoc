@@ -13,26 +13,20 @@ In this topic, you learn how to create a code snippet that you can reuse in othe
 +
 *Result*: A new window opens. You see the *General* tab.
 +
-image::code-snippets-overview.png[,800]
-//TODO Fabian: 1. Bei mir werden die Balken aller Felder auf der rechten Seite abgeschnitten, war das Absicht? 2. Ich würde recht was vom Rand wegnehmen. Der wird in den Schritten (bis auf Save am Ende) nicht verwendet.
-. Enter a name for your snippet. Choose a name that gives a clear indication of the content.
-. Enter a description of what the snippet is about.
-. Choose a group from the drop-down menu the snippet belongs to.
-//Todo Fabian: Name, Description, Grouping in bold? Else we need to define typographic conventions a little more.
+image::code-snippets-overview2.png[,400]
+. Enter a *Name* for your snippet. Choose a name that gives a clear indication of the content.
+. Enter a *Description* of what the snippet is about.
+. Choose a *Grouping* from the drop-down menu the snippet belongs to.
 +
 [TIP]
 ====
-In the _Script Editor_, you find your created code snippets under *Custom* when you try to insert a new snippet.
-//TODO Helle: Clarify where custom code snippets are used in the App Designer.
-//Todo Fabian: I only used copied snippets, see app-from-scratch. In the same step you can enter custom snippets, but I think that is not the bst use case. Ask Neptune for better example?
-//Todo Fabian: Also removed list in this tip
+In the _App_Designer_ and in the _Script Editor_, you find your created code snippets under *Custom* when you try to insert a new snippet.
 ====
 . Click the checkboxes *Use in App Designer* and *Use in Script Editor* to decide if your snippet should be available in the _App Designer_, the _Script Editor_, or in both.
-//Todo Fabian: This kind of dialog appears in many services. As far as i know, fields like ID and dates are filled when saved. should we add a Save step (even though it is not necessary) to show the user when these fields are filled? see api-designer-create.
+
 . Click the *Editor* tab.
 +
-*Result*: The editor window opens.
-//Todo fabian: editor tab?
+*Result*: The editor tab opens.
 +
 . Write your code here.
 +
@@ -41,6 +35,7 @@ In the _Script Editor_, you find your created code snippets under *Custom* when 
 Click *Import* to import existing code into the editor. The file must be in _.planet9_ format.
 ====
 . Click *Save*.
+*Result*: Your snippet is saved with the current settings and is added to the library in the _App Designer_ and in the _Script Editor_. _Code Snippets_ adds an ID to your snippet and saves change dates.
 
 == Results
 * You have created a code snippet that can be used in the _Script Editor_ or in the _App Designer_.
@@ -48,4 +43,4 @@ Click *Import* to import existing code into the editor. The file must be in _.pl
 == Related topics
 * xref:code-snippets.adoc[Code Snippets]
 * xref:script-editor-codesnippets.adoc[]
-//xref to topic in App Designer where these scripts are used
+* xref:app-from-scratch.adoc[]
