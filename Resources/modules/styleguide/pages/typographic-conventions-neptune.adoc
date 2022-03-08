@@ -30,6 +30,9 @@ Examples::
 * _App Designer_
 * _Store_
 
+=== Neptune application as part of a heading or link text
+* If a Neptune application is part of a heading or a link text, it is not written in italics but with capital letters.
+
 == Components or events
 * Capitalize the name of the component or event.
 * Do not capitalize the word components or event.
@@ -49,6 +52,15 @@ Examples::
 
 Example::
 Navigate to *Cockpit* > *Security* > *Role* and check *ACL* for new functions delivered in the new version.
+
+== Pane
+* Capitalize the name of the pane and write in bold
+* Do not capitalize the word pane and do not write in bold
+
+//necessary comment to render description list.
+
+Example::
+The *Component properties* pane shows the attributes of a component.
 
 == Code and code snippets
 Use the following syntax:

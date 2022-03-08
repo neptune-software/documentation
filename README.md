@@ -1,5 +1,10 @@
 # Neptune DXP Open Edition documentation
-The documentation for the Neptune DXP Open Edition is hosted here on Neptune GitHub. We use separate branches for authoring and publishing the documentation. The current documentation is hosted here: [docs-poc.neptune-software.com](https://docs-poc.neptune-software.com).
+The documentation for the Neptune DXP Open Edition is hosted here on Neptune GitHub. We use separate branches for authoring and publishing the documentation. 
+* The current documentation that is published on the website is hosted here: [docs.neptune-software.com](https://docs.neptune-software.com/neptune-dxp-open-edition/21/index.html).
+* The documentation for authoring and reviewing is hosted here: [docs-review.neptune-software.com](https://docs-review.neptune-software.com/neptune-dxp-open-edition/21/index.html).
+
+## Style guide
+The style guide for writing the documentation is hosted here: [Style Guide](https://docs-review.neptune-software.com/neptune-dxp-styleguide/All/index.html).
 
 ## Workflow
 

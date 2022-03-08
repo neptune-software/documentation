@@ -13,6 +13,11 @@ Press the red button to turn off the machine.
 Example::
 The _App Designer_ is part of Neptune DXP - Open Edition.
 
+** Exception: Do not use an article if it does not make sense in terms of language. This could be the case when the name of the service contains a verb.
++
+Example::
+With _Deployment Transfer_, you can approve and send artifacts to other systems.
+
 * Do not use an article for names or when referring to Neptune DXP software.
 
 Example::

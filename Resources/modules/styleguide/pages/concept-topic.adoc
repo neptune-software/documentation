@@ -17,6 +17,7 @@ Make sure that the split-up topics are still self-contained.
 * Never use bold or italics in the title, even if you refer to another service.
 * Focus on the essentials and create separate topics for more specific explanations, if necessary.
 * Do not integrate tasks
+* In the *Related topics* section, list the task topics that depend on this concept topic as well as other relevant concept topics. If the list of related topics becomes too long, create subheadings.
 
 == Related topics
 * xref:task-topic.adoc[Task topic]

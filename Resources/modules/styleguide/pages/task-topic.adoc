@@ -45,5 +45,6 @@ IMPORTANT: Warn readers about possible damage to equipment or data, about potent
 * This section is optional and shall only be used if there are next steps.
 
 == Related topics
-* List related topics on the subject.
 * This section is mandatory for each topic.
+* List topics that are mentioned in the topic and that are important to understand the content of the topic.
+* Make sure the list does not become too long.
