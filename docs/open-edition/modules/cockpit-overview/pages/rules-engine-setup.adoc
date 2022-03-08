@@ -26,6 +26,8 @@ TIP: Choosing a package facilitates deployment by combining data from the same p
 . Click on a roll. Your rule will now only be available for users that have this roll assigned.
 +
 TIP: You can use the _Role_ service to define or change roles.
+. Click *Save*.
+*Result*: _Rules Engine_ adds an ID to your rules and saves change dates.
 
 == Results
 * You have made the initial setup for your role and can now start to add attributes and conditions.

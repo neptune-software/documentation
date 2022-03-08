@@ -7,6 +7,8 @@ These rules take an input, compare it against any number of conditions, and retu
 With this approach, you can implement a rule within scripts or processes.
 Then you can adjust the rule to change the output and do not have to change the code.
 
+It is furthermore possible to call rules like an API inside a script.
+
 == Process of creating rules
 
 To create rules, you define attributes. These attributes define the data that are accepted by the logic of the rule.
@@ -21,20 +23,22 @@ Each rule can have any number of conditions. Rules follow these rules:
 * Each condition is treated as an `If` statement, where the incoming data is checked against the specified condition.
 * If the condition is met, the `Then` result is returned. The rule is completed.
 * If the condition is not met, the next condition in the sequence is checked.
-* If no conditions are met, the rule will return `False`.
+* If no conditions are met, the rule returns `False`.
 * Each condition is a group, which can contain multiple clauses.
-* If there are multiple clauses in one group, each condition within the group is compared with an `and`.
+* When there are multiple clauses in one group, each condition within the group is compared with an `and`.
 
-.Rules
+.Rules engine
 ====
-The following is an example with three condition groups. The incoming data is passed through each group.
-If the criteria are met, the _Then_ data is output for that condition.
-If all conditions are checked with no match found, the rule will output _False_:
+The following is an example with three condition groups.
+The incoming data is passed through each group.
+If the criteria are met, the `Then` data is output for that condition.
+If all conditions are checked and no conditions met, the rule will output `False`:
 
 image::rules-engine-conditions-example.png[,800]
 //Fabian: I took the example from the existing documentation from Lloyd, seems good to me.
 The example returns the following values in the *Test* tab:
 
+[%header, cols="^,^,^"]
 |===
 |Name   |Age    |Result
 
@@ -50,10 +54,7 @@ The example returns the following values in the *Test* tab:
 
 |""     |""     |False
 
-
-
 |===
-
 
 ====
 
@@ -62,3 +63,4 @@ The example returns the following values in the *Test* tab:
 * xref:rules-engine-conditions.adoc[]
 * xref:rules-engine-rules.adoc[]
 * xref:rules-engine-test.adoc[]
+* xref:rule-engine-calling.adoc[]

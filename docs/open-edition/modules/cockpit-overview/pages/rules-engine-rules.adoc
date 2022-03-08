@@ -12,18 +12,16 @@ In this topic, you learn how to create conditions that make your rule work.
 +
 *Result*: A new group with one empty row appears.
 +
-. In the *If* field, select an attribute from the drop-down menu you defined in *Interface*.
-. Choose a condition against which the rule ist tested.
+. In the first column, select an attribute from the drop-down menu you defined in the *Interface* tab.
+. Choose a condition against which the rule ist tested from the drop-down.
 . Enter a delimiting value.
 . Enter a *Then* statement that appears if the condition is met.
 . Click *+add* to add as many rows per group as you want.
 +
-image::rules-engine-addgroup.png[,400]
-+
+image::rules-engine-addgroup.png[,800]
 
 TIP: You can add any number of groups.
-
-TIP: Click the *Edit* button to resume work on a rule.
+. Click *Save*.
 
 == Results
 * You have created one or more rules with conditions and can test them now.

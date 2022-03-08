@@ -12,7 +12,7 @@ These attributes define the data that are accepted by the logic of the rule.
 +
 *Result*: A new empty row appears.
 . Fill in the data for the attribute.
-.. In the *Attribute* column, enter a name. The attribute is shown under this name in *Conditions*.
+.. In the *Attribute* column, enter a name. The attribute is shown under this name in the *Condition* tab.
 +
 TIP: There is no space allowed in the attribute name.
 .. In the *Description* column, give a short description of what the attribute is about.
@@ -22,8 +22,7 @@ image::rules-engine-interface-snag.png[, 800]
 . Create as many attributes as you need for your purpose.
 +
 TIP: You can sort rows by dragging and dropping them.
-
-TIP: Click the *Edit* button to resume work on a rule.
+. Click *Save*.
 
 == Results
 * You have created attributes that can be used in your rule.

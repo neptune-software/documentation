@@ -5,7 +5,7 @@ In this topic, you learn how to test if your rule works properly and delivers th
 == Prerequisites
 * You have done the initial setup to create a rule in xref:rules-engine-setup.adoc[].
 * You have created attributes for the rule in xref:rules-engine-conditions.adoc[].
-* You have created a rule with conditions in xref:rules-engine-rules.adoc[].
+* You have created one or more rule with conditions in xref:rules-engine-rules.adoc[].
 
 == Procedure
 

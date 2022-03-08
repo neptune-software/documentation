@@ -9,7 +9,7 @@ ruleID:: The ID provided to your rule in the *General* tab.
 
 == Example for a rule that is called as an API
 
-. You can setup a with one attribute:
+. You can setup a rule with one attribute:
 +
 image::rules-engine-test-stock.png[,400]
 +
@@ -21,10 +21,10 @@ image::rules-engine-test-stock2.png[,400]
 +
 image::rules-engine-test-stock3.png[,200]
 
-This rule is now included in a script that has the purpose to determine if a stock level is okay or low.
+This rule can now be included in a script that has the purpose to determine if a stock level is `okay` or `low`.
 
-* The key-value pair {stock: stock_level} is passed into the rule
-* The result is stored in the stock_warning var.
+* The key-value pair {stock: stock_level} is passed into the rule.
+* The result is stored in the `stock_warning` var.
 * An `await` is used in the rule to store the result in the variable, when it returns.
 
 [json]
