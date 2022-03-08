@@ -27,8 +27,8 @@ This rule can now be included in a script that has the purpose to determine if a
 * The result is stored in the `stock_warning` var.
 * An `await` is used in the rule to store the result in the variable, when it returns.
 
-[json]
-====
+[source, json]
+----
 log.info("Checking stock for: "+productName);
 
 var table = entities.products_3d;
@@ -45,5 +45,5 @@ var stock_warning = await p9.rulesengine.execute({stock: stock_level}, "82396716
 result = {"stock_level":stock_level,"stock_warning":stock_warning};
 
 console.log(result);
-====
+----
 //Comment Fabian: I took that example from the existing documentation. Is it understandable to you?
