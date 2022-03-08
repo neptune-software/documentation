@@ -1,12 +1,8 @@
-= User
-//Insert Icon for the user service (see other concept topics)
+= image:security-user-icon.png[width=100] User
 
-With _User_, you can view and manage your system users.
-//I would write that in passive, these are not "your" users but the users of the whole system
+With _User_, you can view and manage the users of your system.
 
-You can add new users to your system and you can change the settings of your existing users.
-//at a glance topic needed?
-//No. At a glance topic only in larger services
+You can add new users to your system and you can change the settings of existing users.
 
 == Related topics
 
