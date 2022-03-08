@@ -1,9 +1,8 @@
-= Group
+= image:security-group-icon.png[width=100] Group
 
 A group is a collection of users. With groups you can specify permissions for multiple users at a time.
 A user can be assigned to multiple groups. A group can not contain another group.
 
-//at a glance topic needed?
 == Related topics
 
 * xref:security-add-group.adoc[Add a new group]

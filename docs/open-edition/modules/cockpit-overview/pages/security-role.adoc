@@ -1,4 +1,4 @@
-= Role
+= image:security-role-icon.png[width=100] Role
 
 With _Role_, you can assign roles to users or groups. Roles are needed to give users or groups specific permissions to perform
 certain actions within your system. With roles users only get these permissions through their role so you don´t have to set all permissions manually.

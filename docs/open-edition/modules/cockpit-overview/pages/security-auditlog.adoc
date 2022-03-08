@@ -1,4 +1,4 @@
-= Audit Log
+= image:security-auditlog-icon.png[width=100] Audit Log
 
 With _Audit Log_, you can monitor all cockpit activities regarding security.
 You can filter activities by date or affected service. You can also search for specific object IDs or users.

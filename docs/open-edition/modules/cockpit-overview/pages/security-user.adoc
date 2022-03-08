@@ -1,9 +1,8 @@
-= User
+= image:security-user-icon.png[width=100] User
 
 With _User_, you can view and manage your system users.
 
 You can add new users to your system and you can change the settings of your existing users.
-//at a glance topic needed?
 
 == Related topics
 
