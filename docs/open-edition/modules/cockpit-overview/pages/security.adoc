@@ -14,3 +14,7 @@
 ** xref:security-delete-role.adoc[Delete an existing role]
 * xref:security-auditlog.adoc[Audit Log]
 ** xref:security-auditlog-export.adoc[Export an audit log]
+//* xref:[remote systems]
+* xref:security-import-ldap.adoc[Import LDAP]
+** xref:security-import-ldap-group.adoc[Import a group from LDAP]
+** xref:security-import-ldap-user.adoc[Import a user from LDAP]

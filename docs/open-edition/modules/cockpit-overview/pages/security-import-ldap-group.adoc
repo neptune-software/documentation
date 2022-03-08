@@ -1,0 +1,23 @@
+= Import a group from LDAP
+
+In this topic, you learn how to import a group from LDAP.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. On the cockpit, go to *Security* and click _Import LDAP_.
+. In the *Groups* tab, select a LDAP configuration.
+. Enter a group filter, a group search filter and a unique identifier.
+. Enter a name.
+. Click *Import*.
++
+*Result*: Your import results are shown on the pane on the right side.
+
+== Results
+* You have imported a group from LDAP.
+
+== Related topics
+* xref:security-import-ldap.adoc[Import LDAP]
+* xref:security-import-ldap-user.adoc[Import a user from LDAP]
