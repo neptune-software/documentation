@@ -6,8 +6,9 @@ In this topic, you learn how to edit an existing user.
 * There are no prerequisites.
 
 == Procedure
-
+// No need to repeat all steps from add-user. Only mention steps that are new here, for example, change password.
 . On the cockpit, go to *Security* and click _User_.
+//Cockpit in capital letters
 +
 *Result*: The list of existing users opens.
 . Click on the user you want to edit.

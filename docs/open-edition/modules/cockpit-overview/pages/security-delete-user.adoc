@@ -1,15 +1,17 @@
 = Delete an existing user
 
-In this topic, you learn how to delete an existing user when its no longer needed.
+In this topic, you learn how to delete an existing user.
 
 == Prerequisites
 * There are no prerequisites.
 
 == Procedure
-
+// Add a screenshot
 . On the cockpit, go to *Security* and click _User_.
+//Cockpit in capital letters
 +
 *Result*: The list of existing users opens.
++
 . Click on the user you want to delete.
 *Result*: The settings of the user open.
 . Click *Edit*.

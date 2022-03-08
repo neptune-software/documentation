@@ -1,5 +1,5 @@
 = Edit an existing group
-
+//Same comments than with "User"
 In this topic, you learn how to edit an existing user.
 
 == Prerequisites

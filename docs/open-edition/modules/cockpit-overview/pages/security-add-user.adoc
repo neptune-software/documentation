@@ -1,14 +1,15 @@
 = Add a new user
 
 In this topic, you learn how to add a new user to your system.
-//Better write "the system"
 
 == Prerequisites
 * There are no prerequisites.
 
 == Procedure
 // Better write "the user", not "your user" in the following
+//Add a screenshot here of the general tab
 . On the cockpit, go to *Security* and click _User_.
+//Cockpit in capital letters
 //Add a result, e.g.: You see a list of all available users in the system.
 . Click *Add*.
 . In the *General* tab, enter a name and a password for your user.
@@ -18,8 +19,11 @@ In this topic, you learn how to add a new user to your system.
 . You can select a validity for your user. This is used, if you want your user to expire automatically after a certain timespan.
 //
 . In the *Role* tab, you can add a role to your user.
+// Add a TIP that you can define roles in the _Role_ service and link it in the related topics
 . In the *API token* tab, you can generate an API token for your user.
 //what is an API token? what do you need it for?
+// See: https://community.neptune-software.com/documentation/user#Create%20new%20User. So schreiben + Rückfrage an Hendrik
+// TODO Neptune: GUI is in german ("an", "aus")
 . Click *Save*.
 
 == Results

@@ -1,5 +1,5 @@
 = Delete an existing group
-
+//Same comments than with user
 In this topic, you learn how to delete an existing group when its no longer needed.
 
 == Prerequisites
