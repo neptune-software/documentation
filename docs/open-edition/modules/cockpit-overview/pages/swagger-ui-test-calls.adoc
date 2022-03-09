@@ -1,6 +1,8 @@
-= Make a test request to an API with _Swagger UI_
+= Make a test call to an API with Swagger UI
 
-In this topic, you learn how to make a test request to an API and see the response.
+//@parson: to test procedure, use table definition "Clones" (created by parson). Does not have parameters though. Delete comment after review.
+
+In this topic, you learn how to make a test calls to an API and see the response.
 
 include::partial$api-client-swagger-ui.adoc[]
 
@@ -12,23 +14,23 @@ include::partial$api-client-swagger-ui.adoc[]
 . On the Cockpit, navigate to Connectivity and click _Swagger UI_.
 +
 *Result*: The _Swagger UI_ opens. You see the API list on the left and the Swagger UI on the right.
-. From the API list, select the API you want to make a test request to.
+. From the API list, select the API you want to make a test call to.
 +
 *Result*: The Swagger UI shows the operations and models of the API.
 . Click an operation to see its parameters and responses.
 //parson Note: not service, part of service > no italics (?)
 +
-NOTE: If you cannot see any parameters, there are no parameters defined for the API. You can still make test requests.
+NOTE: If you cannot see any parameters, there are no parameters defined for the API. You can still make test calls.
 
 . Click *Try it out*.
 . Enter a value for each parameter of that operation.
 //todo Hendrik: each or any?
 . Click *Execute*.
 +
-*Result*: The Swagger UI shows the curl, request URL, response body, and response header for your request.
+*Result*: The Swagger UI shows the curl, request URL, response body, and response header for your call.
 
 == Results
-* You made a test request to an API.
+* You made a test call to an API.
 
 == Related topics
 * xref:swagger-ui.adoc[Swagger UI]

@@ -1,17 +1,18 @@
 = image:swagger-ui-icon.png[width=100]Swagger UI
 
+
 With _Swagger UI_, you can test APIs.
 
-You make test requests with the parameters defined for each operation of the API and see the responses of your requests.
-To perform test requests, you do not need to implement the API, for example, in an application.
+You make test calls with the parameters defined for each operation of the API and see the responses of your calls.
+To perform test calls, you do not need to implement the API in an application.
 
-You make test requests with operations, for example, defined in the xref:api-designer.adoc[_API Designer_].
-When making test requests, you can use operation parameters that you defined in the xref:api-designer.adoc[_API Designer_] or xref:api-client.adoc[_API Client_].
+You make test calls with operations, for example, defined in the xref:api-designer.adoc[_API Designer_].
+When making test calls, you can use operation parameters that you defined in the xref:api-designer.adoc[_API Designer_] or xref:api-client.adoc[_API Client_].
 
 include::partial$api-client-swagger-ui.adoc[]
 //todo Hendrik: please check if correct
 
-//@parson: below information was given before and comes from old documentation. I can't find value of this information. As Swagger UI is a service that runs in Open Edition in a browser of choice, I don't think any of the below information is necessary or helpful. Has more marketing character. Update: I also found that this is copied from the Swagger UI webpage. We shouldn't use it.
+//@parson: below information was given before and comes from old documentation. I can't find value in this information. As Swagger UI is a service that runs in Open Edition in a browser of choice, I don't think any of the below information is necessary or helpful. Has more marketing character. Update: I also found that this is copied from the Swagger UI webpage. We shouldn't use it.
 
 ////
 _Swagger UI_ provides the format for defining the operations of your API in a human and machine-readable way and visualizes these operations to let consumers interact with the different endpoints of the API.
@@ -24,5 +25,6 @@ _Swagger UI_ provides the format for defining the operations of your API in a hu
 ////
 
 == Related topics
-* xref:api-designer.adoc[_API Designer_]
-* xref:api-client.adoc[_API Client_]
+* xref:swagger-ui-test-calls.adoc[]
+* xref:api-designer.adoc[API Designer]
+* xref:api-client.adoc[API Client]
