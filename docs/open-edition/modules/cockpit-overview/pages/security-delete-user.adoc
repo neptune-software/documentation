@@ -6,15 +6,18 @@ In this topic, you learn how to delete an existing user.
 * There are no prerequisites.
 
 == Procedure
-// Add a screenshot
-. On the cockpit, go to *Security* and click _User_.
-//Cockpit in capital letters
+. On the Cockpit, go to *Security* and click _User_.
 +
 *Result*: The list of existing users opens.
 +
 . Click on the user you want to delete.
++
 *Result*: The settings of the user open.
++
+image:security-user-general2.png[width=500]
 . Click *Edit*.
++
+TIP: You might need to unlock the user. Click *Yes, it´s me, unlock*.
 . Click the *Delete* icon.
 . Confirm you want to delete the user.
 

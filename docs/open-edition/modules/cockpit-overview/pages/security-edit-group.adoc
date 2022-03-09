@@ -1,20 +1,20 @@
 = Edit an existing group
-//Same comments than with "User"
-In this topic, you learn how to edit an existing user.
+
+In this topic, you learn how to edit an existing group.
 
 == Prerequisites
 * There are no prerequisites.
 
 == Procedure
-
-. On the cockpit, go to *Security* and click _Group_.
+. In the list of existing groups, click on the group you want to edit.
 +
-*Result*: The list of existing groups opens.
-. Click on the group you want to edit.
+*Result*: The group settings open.
 . Click *Edit*.
-. In the *General* tab, you can change the name, the description or the package of your group.
-. In the *Role* tab, you can change the roles of your group.
-. In the *User* tab, you can add users to your group or remove users from your group.
++
+TIP: You might need to unlock the group. Click *Yes, it´s me, unlock*.
+. You can change the settings of the group in the *General*, *Role* and *User* tab.
++
+image:security-group-general2.png[width=500]
 . Click *Save*.
 
 == Results

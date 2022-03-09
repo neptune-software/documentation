@@ -6,15 +6,20 @@ In this topic, you learn how to add a new group to your system.
 * There are no prerequisites.
 
 == Procedure
-//add screenshot
 . On the Cockpit, go to *Security* and click _Group_.
-//Cockpit in capital letters
++
+*Result*: You see a list of all available groups in the system.
 . Click *Add*.
-. In the *General* tab, enter a name for your group.
-. You can enter a description and choose a package for your group.
-. In the *Role* tab, you can add a role to your group.
-// Add a TIP that you can define roles in the _Role_ service and link it in the related topics
-. In the *User* tab, you can assign users to your group.
++
+*Result*: The group settings open.
++
+image:security-group-general.png[width=500]
+. In the *General* tab, enter a name for the group.
+. You can enter a description and choose a package for the group.
+. In the *Role* tab, you can add a role to the group.
++
+TIP: You can define roles in the _Role_ service.
+. In the *User* tab, you can assign users to the group.
 . Click *Save*.
 
 == Results
