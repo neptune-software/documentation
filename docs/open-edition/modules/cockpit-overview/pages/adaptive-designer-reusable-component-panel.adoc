@@ -1,3 +1,0 @@
-= Reusable component panel
-//reference information for left vertical panel on designer page
-//TODO Leonie: fill topic

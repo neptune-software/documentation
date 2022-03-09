@@ -10,7 +10,7 @@ The adaptive framework supports no-code development of adaptive applications in 
 
 //TODO overview graphic containing data sources, connector, adaptive designer, launchpad, store, adaptive templates
 
-//TODO Leonie: Polish following paragraph; fix Launchpad terminology; Mention Store and Connector service
+//TODO Leonie: Polish following paragraph; fix Launchpad terminology; basically explain the graphic before
 A database or a server script provides the data for the applications.
 Templates provide the configuration metadata.
 Templates and database/server script connection combined enable the output of adaptive applications that can run on the __Launchpad__ alongside any other application.
@@ -19,7 +19,6 @@ Templates and database/server script connection combined enable the output of ad
 == Translation
 
 == Related topics
-* xref:adaptive-designer-interface-at-a-glance.adoc[]
-//(https://community.neptune-software.com/documentation/adaptive-designer-information)
+* xref:: adaptive-designer-user-interface-at-a-glance.adoc[User interface at a glance]
 
 //TODO Leonie: Long list of related topics to come -> all high-level topics?

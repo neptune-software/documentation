@@ -1,3 +1,18 @@
 = Side navigation
-//provide reference for 3 pages: settings, designer, translation and the utility section
-//TODO Leonie: fill topic
+
+The side navigation displays navigation structures with up to two levels that link to different pages. It consists of two parts:
+
+Main navigation section:: Upper part of the side navigation containing links to pages in the user's current work context.
+Utility section:: Lower part of the side navigation containing links to additional information, such as communities or documentation.
+
+== Main navigation section
+//TODO Leonie: fill with service specific pages and short description; here Settings, Designer, Translation
+
+== Utility section
+//TODO Leonie: fill with additional information (Partial?)
+
+== Related topics
+
+* xref:: adaptive-designer-user-interface-at-a-glance.adoc [User interface at a glance]
+//TODO Leonie: fill with links to pages and overview
+

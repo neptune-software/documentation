@@ -1,0 +1,7 @@
+= Properties
+
+//TODO Leonie: fill topic
+
+== Related topics
+
+* xref:: adaptive-designer-user-interface-at-a-glance.adoc [User interface at a glance]

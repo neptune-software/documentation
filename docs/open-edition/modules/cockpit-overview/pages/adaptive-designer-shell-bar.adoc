@@ -1,3 +1,9 @@
 = Shell bar
-//reference information for upper blue menu bar
-//TODO Leonie: fill topic
+
+The shell bar is the uppermost section of the user interface. It is always visible and gives access to various actions and functions.
+
+//TODO Leonie: Fill with more specific items
+
+== Related topics
+
+* xref:: adaptive-designer-user-interface-at-a-glance.adoc [User interface at a glance]
