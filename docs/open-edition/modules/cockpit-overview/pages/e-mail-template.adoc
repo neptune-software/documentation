@@ -3,7 +3,9 @@
 With _Email Template_, you can create templates for emails.
 Server scripts can use these templates to send email notifications from a workflow step, using the _Workflow_ editor.
 
-You can use the following script for calling your email template:
+== Code snippet for calling an email template
+
+You can use the following code snippet for calling your email template from a script:
 
 [source,asciidoc]
 ----
@@ -19,3 +21,4 @@ await sendEmail("to@email", "Subject", null, "from@email", "template-id", {name:
 
 == Related topics
 * xref:e-mail-template-create.adoc[Create an email template]
+* xref:workflow.adoc[Workflow]

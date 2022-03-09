@@ -98,6 +98,7 @@
 ** xref:cockpit-overview:theme-designer.adoc[Theme Designer]
 ** xref:cockpit-overview:theme-import.adoc[Theme Import]
 ** xref:cockpit-overview:e-mail-template.adoc[E-Mail Template]
+*** xref:cockpit-overview:e-mail-template-create.adoc[]
 //Connectivity
 * xref:cockpit-overview:connectivity.adoc[Connectivity]
 ** xref:cockpit-overview:api-designer.adoc[API Designer]
