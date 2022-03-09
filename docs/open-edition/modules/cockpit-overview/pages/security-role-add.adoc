@@ -7,13 +7,13 @@ In this topic, you learn how to add a new role.
 
 == Procedure
 
-. On the cockpit, go to *Security* and click _Role_.
+. On the Cockpit, go to *Security* and click _Role_.
 +
 *Result*: A list with all existing roles is shown.
 . Click *Add*.
-. In the *General* tab, enter a name for your role.
-. You can enter a description and choose a package for your role.
-. In the *ACL* tab, you can set the permissions for your role for each service.
+. In the *General* tab, enter a name for the role.
+. You can enter a description and choose a package for the role.
+. In the *ACL* tab, you can set the permissions for the role for each service.
 //Service korrekt?
 . Click *Save*.
 

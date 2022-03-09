@@ -7,14 +7,14 @@ In this topic, you learn how to edit an existing role.
 
 == Procedure
 
-. On the cockpit, go to *Security* and click _Role_.
+. On the Cockpit, go to *Security* and click _Role_.
 +
 *Result*: A list with all existing roles is shown.
 . Click on the role you want to edit.
-. In the *General* tab, you can change the name of your role.
-. You can change or add a description and choose a package for your role.
-. In the *ACL* tab, you can set the permissions for your role for each service.
-//Service korrekt?
+. Click *Edit*.
++
+TIP: You might need to unlock the role. Click *Yes, it´s me, unlock*.
+. You can change the settings of the role in the *General* and *ACL* tab.
 . Click *Save*.
 
 == Results
