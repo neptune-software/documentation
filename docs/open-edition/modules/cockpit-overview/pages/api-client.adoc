@@ -1,18 +1,24 @@
-= image::api-client@2x.png[width=100,link="api-client-icon.png"] API Client
+= image:api-client-icon.png[width=100] API Client
 
-With __API Client__ you send API requests to test the response from the REST API.
+With the _API Client_, you send API requests to test the response from the REST API.
 
-== Features
-* Lets you check the response from APIs in the __API Designer__.
+== Features of the _API Client_
+* Lets you check the response from APIs in the _API Designer_.
 * Provides dynamic parameters (query and header parameters) of various data types to create groups of different API requests for testing the REST API.
 * Provides distributed list of APIs based on API servers.
 * Shows the total number of API entries.
 * Shows the list of APIs with their operations to test the API response.
 * Quickly ensures that all your services are running as expected.
 
-== Learn more
-* https://community.neptune-software.com/documentation/api-client-v-220[API Client]
-* https://community.neptune-software.com/documentation/api-client#Getting%20started%20with%20API%20client[Getting started with API Client]
+== _API Client_ view
 
+The main view of the _API Client_ shows a list of both publicly available APIs and your APIs, with search options to sort and filter the list.
 
+image::api-client-base.png[width=800]
 
+You can select an API from the list to make test requests and see responses.
+If you have not defined headers or parameters for requests in the _API Designer_
+
+== Related topics
+* xref:api-designer.adoc[_API Designer_]
+* xref:api-trace.adoc[_API Trace_]

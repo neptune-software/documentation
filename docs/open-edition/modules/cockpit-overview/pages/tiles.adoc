@@ -1,16 +1,12 @@
-= image::tile-icon.png[width=100]Tiles
+= image:tile-icon.png[width=100]Tiles
 
-A tile is a container that represents an application on a xref:launchpad.adoc[].
-//@Neptune. Links to topics that have not been published do not work yet.
+With _Tiles_, you can maintain tiles and assign actions and role-based access.
+A tile is a container that represents an application on a launchpad.
+
 All applications have at least one corresponding tile.
-You can bundle tiles in tile groups, see xref:tile-groups.adoc[Tile groups].
-
-You use tiles to assign actions and role-based access.
-Therefore, do not use tiles on an overview page or anywhere else.
-//@Neptune: Do we need the last sentence of above paragraph? What does overview page mean?
+You can bundle tiles in tile groups.
 
 An action can be an adaptive framework, an application, or a link.
-//@Neptune. Information on role-based access here? It is described in launchpad.adoc. Should we reference to it or add it here?
 
 Depending on the application, a tile can show the following content:
 
@@ -23,14 +19,16 @@ Depending on the application, a tile can show the following content:
 
 The following picture shows an example of a launchpad with tiles.
 
-image::tiles_example3.png[width=400,link="tiles_example3.png"]
+image::tiles_example3.png[width=400]
 //@Neptune: Can we perhaps show another example with most of the content mentioned above and explain what is shown on the tile? See also Helle's comment.
-
+//Neptune@Parson: Here you find other screenshots https://community.neptune-software.com/documentation/creating-and-configuring-tile#Overview
 Below the tile area, tiles can include a link.
 Links consist of a title and an optional subtitle.
 Most tile types can be converted to links.
 Links can be converted to tiles at any time.
-//@Neptune. What are the different types of tiles?
+//Neptune@Parson: What is this text about? A link can be converted to a tile and vice versa? I don't understand that.
+//TODO Neptune: What are the different types of tiles?
+//Neptune@Parson: See the link above.
 
 Users can personalize their launchpad by selecting the tiles for the applications they want to use from the store.
 
@@ -41,17 +39,19 @@ Tiles also appear smaller on smartphones.
 
 Tiles are not responsive.
 For smartphones, Neptune provides a different tile size.
-The __Launchpad__ automatically renders the tile size for smartphones.
+The _Launchpad_ automatically renders the tile size for smartphones.
 Tiles for smartphones do not need to be adjusted by the application.
 The tile size for tablets and desktop devices is the same.
 
 The example below shows how the tiles rendered for smaller screen size.
 
-image::tiles_example2.png[width=400,link="tiles_example2.png"]
+image::tiles_example2.png[width=400]
 
 == Tile blackout
-You can block tiles from being used during maintenance. See xref:tile-blackout.adoc[Tile blackout].
+You can block tiles from being used during maintenance.
 
-//== Related topics
-//* Tile Group
-//* Launchpad
+== Related topics
+** xref:cockpit-overview:tile-groups.adoc[Tile Groups]
+** xref:cockpit-overview:launchpad-concept.adoc[Launchpad]
+** xref:cockpit-overview:tile-blackout.adoc[Tile blackout]
+//** Add a tile

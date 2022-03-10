@@ -2,3 +2,5 @@
 
 * Do not use jargon.
 * Do not use marketing content in technical documentation.
+* Be precise.
+* Try to think from a user perspective when writing the documentation.

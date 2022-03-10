@@ -3,7 +3,7 @@
 There are two ways to add new npm modules to your instance. You can either search and insert existing modules or add a new one.
 
 //The installation process is also described here: xref:installation-guide:npm-module.adoc[Install npm modules]
-//ToDo: These two chapters have to be synchronized so that all information on how to get npm modules are in one place.
+//Todo Fabian: These two chapters have to be synchronized so that all information on how to get npm modules are in one place.
 
 == Search for npm modules
 
@@ -48,4 +48,5 @@ image::npm-modules-new.png[,400]
 
 .. Enter a name in the search field to browse for modules on the web and follow the instructions.
 .. Click *Local* to search for npm modules already existing on the server.
-//Comment for Hendrik: I am not sure the test environment works correct here. If you click "Local", you are redirected to the Neptune website. If you click just below "Local" you can add a new module, although it says before that you can search for npm modules on the server when clicking here. I also tried the development environment but there you cannot click the "Add" button at all.
+//Todo Neptune: I am not sure the test environment works correct here. If you click "Local", you are redirected to the Neptune website. If you click just below "Local" you can add a new module, although it says before that you can search for npm modules on the server when clicking here. I also tried the development environment but there you cannot click the "Add" button at all.
+//Neptune@Parson: Bug reported... The description is correct.

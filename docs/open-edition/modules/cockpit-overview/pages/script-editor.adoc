@@ -1,12 +1,23 @@
-= Script Editor
+= image:script-editor.png[width=100] Script Editor
 
 In _Script Editor_, you can create server-side scripts to extend your instance beyond the standard configurations.
-You can automate processes, add functionality to your applications, or integrate your instance in an application built outside the Neptune DXP - Open Edition.
-You can use APIs, tables, global scripts, and NPM modules.
 
-* What you can do with the _Script Editor_
+_Script Editor_ comes with the following advantages:
 
-* Create a new project
-* Open an existing project
+* Automate processes by reusing predefined scripts.
+* Add functionality to your applications.
+* Integrate your instance in an application that is created outside Neptune DXP - Open Edition.
+* Avoid time-consuming calculations that blockade your interface.
 
-* Create scripts
+The runtime for scripts is the Node.js environment.
+Scripts run either inside a separate process or as a global process.
+
+You can use APIs, tables, global scripts, and npm modules to create scripts.
+
+image::script-editor-overview.png[,800]
+
+== Related topics
+
+* xref:script-editor-new.adoc[]
+* xref:script-editor-open.adoc[]
+* xref:script-editor-create.adoc[]

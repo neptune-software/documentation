@@ -1,14 +1,13 @@
-= image:pdf-designer-icon.png[width=100,link="pdf-designer-icon.png"] PDF Designer
+= image:pdf-designer-icon.png[width=100] PDF Designer
 
-With the __PDF Designer__, you design your own PDF templates.
+With the _PDF Designer_, you design your own PDF templates.
 
 You can create PDF templates that reflect your own brand and requirements.
 You can add images, watermarks, QR codes, tables, headers, and footers, and apply your own styles.
 //@Neptune. Are we talking about PDF templates or PDF documents?
+//To be clarified when writing the topic
 
 //== Related topics
 //* xref:pdf-designer-interface.adoc[]
 //* xref:pdf-designer-objects.adoc[]
 //* xref:pdf-designer-gettingstarted.adoc[]
-
-//@Neptune. Above topics are not yet written and therefore commented out.

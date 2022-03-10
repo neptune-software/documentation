@@ -1,6 +1,6 @@
 = image:theme-designer-icon.png[width=100] Theme Designer
 
-With _Theme Designer_ you create application themes for use in the _Launchpad_ and the _App Designer_.
+With the _Theme Designer_, you create application themes for use in the _Launchpad_ and the _App Designer_.
 
 By defining custom CSS, you can change the color scheme, fonts, or background of your application.
 You can also add a logo.
@@ -16,7 +16,8 @@ _Theme Designer_ can be used by developers, visual designers, and administrators
 * Manual CSS editing
 
 
-//== Related topics - tbd
+== Related topics
+* xref:cockpit-overview:theme-import.adoc[Theme Import]
 //* Basics of theming
 //* Create a new theme
 //* Add a customized theme to an application

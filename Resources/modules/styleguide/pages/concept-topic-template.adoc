@@ -1,0 +1,27 @@
+= Concept topic template
+
+The general structure of a concept topic is standardized.
+The following shows this structure in AsciiDoc.
+
+[source, asciidoc]
+----
+= image:<image_path.png>[width=100] <Heading>
+
+<First sentence>: Short service description
+
+<Following paragraph>: Provide more details about the service in general.
+Create a section with section title per main concept, if it is a larger service.
+
+== <Section 1>
+Describe a main concept.
+
+== <Section 2>
+Describe another main concept.
+
+== Related topics
+* xref:concept-topic.adoc[]
+
+----
+
+== Related topics
+* xref:concept-topic.adoc[]

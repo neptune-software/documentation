@@ -1,9 +1,9 @@
-= image:api-designer-icon.png[width=100,link="api-designer-icon.png"] API Designer
+= image:api-designer-icon.png[width=100]API Designer
 
-With the __API Designer__ you create and configure API definitions.
-You can easily define and update APIs at any stage of designing.
+With the _API Designer_, you create and configure API definitions.
+You can easily define and update APIs at any stage of the designing process.
 
-The __API Designer__ makes APIs reusable for many applications by just adding that API to the application attributes.
+The _API Designer_ makes APIs reusable for many applications by just adding that API to the application attributes.
 
 The _API Designer_ provides a set of different functionalities all around the creation and configuration of APIs.
 You can create new APIs, update existing APIs, or import and export APIs from an external source.
@@ -12,20 +12,21 @@ You can create new APIs, update existing APIs, or import and export APIs from an
 The _API Designer_ shows all available types of APIs. There are three types of APIs you can create with the _API Designer_:
 
 * *External APIs*: To reach web services outside the DXP - Open Edition.
-* *Table Definitions*: To connect an application to a data table.
-* *Server Scripts*: To access one of your server scripts on the DXP - Open Edition.
+* *Table Definitions*: To reach a data table through an api.
+* *Server Scripts*: To access one of your server scripts on DXP - Open Edition.
 
 == _API Designer_ view
 The main view of the _API Designer_ shows a list of both publicly available APIs and your APIs with search options to sort and filter the list.
 
 image::api-designer-base.png[width=800]
 
-You can search for an existing API, look at its configurations, and save it as a Planet 9 file to your local drive.
-//Helle@Neptune: does the file extension change? Currently, it's still .planet9
+You can search for an existing API, look at its configurations, and save it as a Planet 9 file to your local disk.
+//Todo Neptune: does the file extension change? Currently, it's still .planet9
+//Neptune@Parson: No it doesn't change.
 Starting from this view, you can add or import APIs in different file formats and from remote servers.
 
 == Related topics
 * xref:api-designer-create.adoc[Create a table definition with the _API Designer_]
-//* xref:import-api.adoc[] <-- task
-//* xref:export-api.adoc[] <-- task
+* xref:api-designer-import.adoc[Import an API with the _API Designer_]
+//Todo Helle: * xref:export-api.adoc[] <-- task
 //* xref:search-api.adoc[] <-- might not be task

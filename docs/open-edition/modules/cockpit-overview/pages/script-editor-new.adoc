@@ -1,0 +1,25 @@
+= Create a new project
+
+_Script Editor_ works with projects.
+A project serves as wrapper file that contain one or more scripts on a specific topic.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. On the cockpit, go to *Development* and click _Script Editor_.
+. On the toolbar, click *Project* > *Create*.
++
+image::script-editor-create.png[,400]
+*Result*: The Create Project window opens.
+. Enter a name for your project. Optionally, enter a description and choose a predefined package.
++
+image::script-editor-create-project.png[,400]
+. Click *Save*.
+
+== Result
+* You created a new project and can start adding the scripts.
+
+== Related topics
+* xref:script-editor-open.adoc[]
+* xref:script-editor-create.adoc[]

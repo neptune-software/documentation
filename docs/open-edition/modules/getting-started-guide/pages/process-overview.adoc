@@ -11,7 +11,7 @@ image::processarchitecture.png[Process architecture,width=800]
 //Image to be replaced.
 
 == Resources
-== oDATA
+=== oDATA
 The _OData source_ component is used to consume data from an Open Data Protocol service.
 
 The _App Designer_ consumes oDATA.
