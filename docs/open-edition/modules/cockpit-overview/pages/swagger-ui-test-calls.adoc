@@ -1,6 +1,5 @@
 = Make a test call to an API with Swagger UI
 
-//@parson: to test procedure, use table definition "Clones" (created by parson). Does not have parameters though. Delete comment after review.
 
 In this topic, you learn how to make a test call to an API and see the response.
 

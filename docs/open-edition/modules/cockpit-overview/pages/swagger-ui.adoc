@@ -1,6 +1,5 @@
 = image:swagger-ui-icon.png[width=100]Swagger UI
 
-
 Test APIs via _Swagger UI_.
 
 Make test calls with the parameters defined for each operation of the API and see the responses of your test calls.
@@ -10,7 +9,6 @@ Test calls are based on operations that have been previously defined, for exampl
 Optionally, you can test operation parameters that you have defined in the _API Designer_ or in the _API Client_.
 
 include::partial$api-client-swagger-ui.adoc[]
-//Leonie@Helle: check xref; use prep "of"; avoid "you can"
 //todo Hendrik: please check if correct
 
 == Related topics

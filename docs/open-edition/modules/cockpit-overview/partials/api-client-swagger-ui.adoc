@@ -1,1 +1,1 @@
-NOTE: If you want to make test calls without sending data outside your internal network, you can use the xref:api-client.adoc[_API Client_] to perform the calls.
+NOTE: If you want to make test calls without sending data outside of your internal network, use the _API Client_ to perform the test calls.
