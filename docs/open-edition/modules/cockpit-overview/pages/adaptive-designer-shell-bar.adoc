@@ -2,8 +2,10 @@
 
 The shell bar is the uppermost section of the user interface. It is always visible and gives access to various actions and functions.
 
-//TODO Leonie: Fill with more specific items
+//TODO Leonie: Add SUI of shell bar
+//TODO Leonie: Create Partial for upper part
+//TODO Leonie: Fill with more service-specific items: Definition list with Application, Edit, etc...
 
 == Related topics
 
-* xref:: adaptive-designer-user-interface-at-a-glance.adoc [User interface at a glance]
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]

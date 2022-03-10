@@ -5,14 +5,17 @@ The side navigation displays navigation structures with up to two levels that li
 Main navigation section:: Upper part of the side navigation containing links to pages in the user's current work context.
 Utility section:: Lower part of the side navigation containing links to additional information, such as communities or documentation.
 
+//TODO Leonie: Add SUI
+//TODO Leonie: Create Partial for upper part
+
 == Main navigation section
 //TODO Leonie: fill with service specific pages and short description; here Settings, Designer, Translation
 
 == Utility section
-//TODO Leonie: fill with additional information (Partial?)
+//TODO Leonie: fill with additional information
 
 == Related topics
 
-* xref:: adaptive-designer-user-interface-at-a-glance.adoc [User interface at a glance]
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
 //TODO Leonie: fill with links to pages and overview
 

@@ -1,7 +1,11 @@
 = Component library
 
-//TODO Leonie: fill topic
+Pane that offers data sources that you can use as components to build your application. Drag and drop the components you want to use in your application to the application tree.
+//TODO Leonie: Add SUI
+//TODO Leonie: Create partial for upper part
+//TODO Leonie: add service-specific information (consider "data source types")
 
 == Related topics
 
-* xref:: adaptive-designer-user-interface-at-a-glance.adoc [User interface at a glance]
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]

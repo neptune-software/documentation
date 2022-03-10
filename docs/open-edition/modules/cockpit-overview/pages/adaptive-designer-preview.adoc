@@ -1,7 +1,9 @@
 = Preview
-
-//TODO Leonie: fill topic
+//TODO Leonie: Add definition
+//TODO Leonie: Add SUI
+//TODO Leonie: Create partial for upper part
 
 == Related topics
 
-* xref:: adaptive-designer-user-interface-at-a-glance.adoc [User interface at a glance]
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]
