@@ -4,11 +4,7 @@ With the _PDF Designer_, you design your own PDF templates and documents.
 
 You can create PDF templates and documents that reflect your own brand and requirements.
 You can add images, watermarks, QR codes, tables, headers, footers, and apply your own styles.
-//@Neptune. Are we talking about PDF templates or PDF documents?
-//To be clarified when writing the topic
-//Where can you use that template? -> we need to ask Neptune
-
-//Missing topic: PDF Designer at a glance, should insert it here. -> DONE
+//TODO Neptune: Where you can use that tool? From where can you call the tool?
 
 == PDF Designer interface at a glance
 
@@ -35,7 +31,7 @@ image:pdf-designer-glance-menu-toggle.png[width=200]
 *Settings*::
 You can configure the PDF document settings. You can disable your document or add an interface to connect your document.
 //TODO: @Neptune How does this work? What is the interface for?
-//Fabian: Settings tab need to be described in an extra topic
+//Fabian: Settings tab need to be described in an extra topic. Move question to extra topic.
 +
 [TIP]
 ====
@@ -63,15 +59,11 @@ can be inserted directly in the *PDF Document* element in the *PDF document comp
 //"Header", "Footer" etc. entweder Fett und groß (also GUI-Element), oder nicht ausgezeichnet und klein geschrieben
 * *Elements* components which are simple elements such as Text, Table or Lists for example. They can be inserted in the *Content*, *Header* or *Footer* element of the *PDF Document* element.
 //"Header", "Footer" etc. entweder Fett und groß (also GUI-Element), oder nicht ausgezeichnet und klein geschrieben. Do not use simple, describe better what you mean, for example, "content related"
-//TODO: @Fabian is this phrased too complicated?
-//No, it is good
 
 === PDF document component panel
 
 The *PDF document component* panel shows the current state of your document.
 You can use components from the *Components library* panel to build and structure your document here.
-// repeat TIP - toggle edit?
-//No, do not have it twice in the same topic
 
 image:pdf-designer-document-panel.png[width=300]
 
@@ -94,9 +86,9 @@ image:pdf-designer-property-panel.png[width=300]
 ** xref:pdf-designer-open-template.adoc[Open a PDF template]
 ** xref:pdf-designer-edit-template.adoc[Edit a PDF template]
 ** xref:pdf-designer-elements.adoc[PDF Designer elements]
+//PDF settings
 * Export PDF templates
 ** xref:pdf-designer-create-pdf.adoc[Create a PDF document]
 ** xref:pdf-designer-export-template.adoc[Export a PDF template]
 ** xref:pdf-designer-import-template.adoc[Import a PDF template]
-//Divide this section into groups and give them subheadings -> DONE
-// Have a look at the current documentation and create more topics based on that information: https://community.neptune-software.com/documentation/pdf-designer
+

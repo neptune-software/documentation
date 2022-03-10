@@ -1,7 +1,7 @@
 = Create a PDF document
 
-In this topic, you learn how to create a PDF document. You can donload your PDF template as a pdf file to your computer.
-//Formulate in more detail what you are doing. -> DONE
+In this topic, you learn how to create a PDF document that you can download on your computer.
+//Explain here what the "Test Data" are.
 
 == Prerequisites
 * You have xref:pdf-designer-create-template.adoc[created a PDF template].
@@ -15,22 +15,18 @@ image:pdf-designer-preview.png[width=200]
 +
 *Result*: A preview of your PDF template is shown.
 . Click the *Save* Icon.
-//Where is the save button?
-//Should be displayed in the toolbar on the top right... also works when there´s no content in the pdf
+//To check with Hendrik why it does not work for Fabian...
 +
 image:pdf-designer-save-document.png[width=400]
-// I do not see where the save button is in my window...
 +
 *Result*: A new window opens.
 . Select where you want to store your PDF document on your computer.
-//Formulate more precisely, for example, "Where you want to store on your computer" -> DONE
 . Click *Save*.
 +
 *Result*: Your PDF document is downloaded.
-//Did that work? Doesnt't work for me...
 
 == Results
-* You have created a PDF document.
+* You have created a PDF document and downloaded it to your computer.
 
 == Related topics
 * xref:pdf-designer.adoc[PDF Designer]

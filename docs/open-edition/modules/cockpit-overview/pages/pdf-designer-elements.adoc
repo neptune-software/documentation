@@ -3,20 +3,25 @@
 With the _PDF Designer_ you can build your own PDF templates and documents.
 The following topic shows an overview over all elements you can use to build your PDF template or document.
 
+//Ask Hendrik, Explain: Why is there a small "o" before a component when it is in the components pane.
+
+// Explain: The "PDF Document" element as top element
 == Document components
-//Use "::" instead of ";;"
+//Use "::" instead of ";;" to stay consistent
 Background;;
 Shell for the background of your PDF template. You can insert every *Elements* component you want to display in the background of your PDF template.
-
+//Ask Hendrik: Every element? You can have a table or a QR code as background?
 Content;;
 Shell for the content or body of your PDF template. You can insert every *Elements* component here.
+//Dont't use "body" as term
 
 Default Style;;
-This element sets a default style for your PDF template. You can set for example fonts or colors for your entire PDF template.
+This element sets a default style for your PDF template. You can set, for example, fonts or colors for your entire PDF template.
 
 Footer;;
 Shell for the footer area of your PDF template. You can insert *Elements* components here,
-for example images or text. In text, you can also use formula, for example to show the
+for example, images or text.
+You can also use formula as a text, for example, to show the
 current page number and total page numbers:
 +
 [source, asciidoc]

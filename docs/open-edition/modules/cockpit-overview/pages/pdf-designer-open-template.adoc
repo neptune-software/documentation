@@ -12,11 +12,8 @@ In this topic, you learn how to open an existing PDF template.
 *Result*: A new tab opens.
 
 . In the *PDF* dropdown, click *Open*.
-//"Dropdown" --> spelling -> DONE
 +
 image:pdf-designer-open-template.png[width=400]
-//SUI - Only show "open" in the screenshot -> DONE
-//If you start a new topic, you cannot click "Delete" and "Copy" -> DONE, not visible in SUI
 +
 *Result*: A new window opens.
 
