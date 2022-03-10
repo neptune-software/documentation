@@ -1,6 +1,7 @@
 = Setup a rule
 
-In this topic, you learn how to setup a rule in the _Rules Engine_.
+In this topic, you learn how to set up a rule in the _Rules Engine_.
+//Helle@Fabian: setup (noun) > set up (verb)
 
 == Prerequisites
 * There are no prerequisites.
@@ -8,11 +9,13 @@ In this topic, you learn how to setup a rule in the _Rules Engine_.
 == Procedure
 
 . On the Cockpit, go to *Development* and click _Rules Engine_.
+//Todo Fabian: not have non-clickable UI elements in bold?
 +
 *Result*: You see all rules available in the system.
 . Click *Add*.
 +
 *Result*: A new window opens.
+//Todo Fabian: not a window following our definition.
 +
 image::rules-engine-overview.png[,800]
 . Enter a name and a description for your rule.

@@ -30,13 +30,18 @@ Each rule can have any number of conditions. Rules follow these rules:
 * If no conditions are met, the rule returns `False`.
 * Each condition is a group, which can contain multiple clauses.
 * When there are multiple clauses in one group, each condition within the group is compared with an `and`.
+//Todo Fabian: 1. clauses = conditions? So a group is a group of conditions (which are formulated as clauses?)? 2. Meaning that if not all conditions within a group are met, the "then" result is not returned?
 
+
+//todo Fabian: move to new topic?
 .Rules engine
 ====
 The following is an example with three condition groups.
 The incoming data is passed through each group.
 If the criteria are met, the `Then` data is output for that condition.
+//Todo Fabian: criteria? not conditions?
 If all conditions are checked and no conditions met, the rule will output `False`:
+//todo Fabian: ...and no conditions are met...
 
 image::rules-engine-conditions-example.png[,800]
 //Fabian: I took the example from the existing documentation from Lloyd, seems good to me.
