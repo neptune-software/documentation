@@ -11,16 +11,18 @@ You find an overview over all elements xref:pdf-designer-elements.adoc[here].
 
 [TIP]
 ====
-To edit your template, you might need to click the *toggle to edit* icon.
+Make sure your PDF template is in editing mode.
+To put your PDF template in editing mode, click the *toggle to edit* icon.
 
 image:pdf-designer-toggle-edit.png[width=300]
 ====
 
 ===  Add elements to your template
-. Drag the element you want to add from the reusable components column to the column of your PDF template. You can change the attributes of the element in the window on the right.
+. Drag the element you want to add from the reusable components column to the column of your PDF template.
+You can change the attributes of the element in the window on the right. You can find an overview of all elements xref:pdf-designer-elements.adoc[here].
 //reusable components panel --> check terminology with other "interface at a glance" topics (for example, appdesigner)
 //-> terminology meeting, we ask Hendrik...
-//Insert a link to the reference topic
+
 . Click the *Save* icon.
 +
 image:pdf-designer-template-saveicon.png[width=400]

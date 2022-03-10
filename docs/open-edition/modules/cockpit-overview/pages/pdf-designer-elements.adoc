@@ -7,18 +7,17 @@ The following topic shows an overview over all elements you can use to build you
 
 // Explain: The "PDF Document" element as top element
 == Document components
-//Use "::" instead of ";;" to stay consistent
-Background;;
+
+Background::
 Shell for the background of your PDF template. You can insert every *Elements* component you want to display in the background of your PDF template.
 //Ask Hendrik: Every element? You can have a table or a QR code as background?
-Content;;
-Shell for the content or body of your PDF template. You can insert every *Elements* component here.
-//Dont't use "body" as term
+Content::
+Shell for the content of your PDF template. You can insert every *Elements* component here.
 
-Default Style;;
+Default Style::
 This element sets a default style for your PDF template. You can set, for example, fonts or colors for your entire PDF template.
 
-Footer;;
+Footer::
 Shell for the footer area of your PDF template. You can insert *Elements* components here,
 for example, images or text.
 You can also use formula as a text, for example, to show the
@@ -29,52 +28,52 @@ current page number and total page numbers:
 {= `Page ${currentPage} of ${pageCount} `}
 ----
 
-Header;;
+Header::
 Shell for the header area of your PDF template. See also Footer.
 
-Settings;;
+Settings::
 Element to configure the settings of your PDF document. You can set the size of your page or set passwords for your users to access and edit the document.
 
-Styles;;
+Styles::
 Element to define your custom styles and assign them to objects.
 //TODO: can´t quite figure out what this element is for.
 
-Watermark;;
+Watermark::
 Element to add a watermark to your PDF document. The watermark will appear on every page of your PDF document.
 
 == Elements components
 
-Canvas;;
+Canvas::
 Element to set the style of a specific section of your PDF template.
 
-Columns;;
+Columns::
 Element to divide a section of your PDF template into columns.
 
-Image;;
+Image::
 Element to insert an image in your PDF template.
 
-ListBulleted;;
+ListBulleted::
 Element to insert a list with bullet points into your PDF template.
 
-ListNumbered;;
+ListNumbered::
 Element to insert a numbered list into your PDF template.
 
-QR Code;;
+QR Code::
 Element to insert a QR Code into your PDF template.
 
-Stack;;
+Stack::
 This element...
 
-Style;;
+Style::
 This element...
 
-Table;;
+Table::
 Element to insert a table into your PDF template. You can insert *TableRow* elements to add more rows to your table.
 
-TableRow;;
+TableRow::
 Element to add a new row to a table. Can be inserted in *Table* elements only.
 
-Text;;
+Text::
 Element to insert a simple text block to your PDF template. You can also add this element to *Footer*, *Header*, *Watermark*,
 *Columns*, *ListBulleted*, *ListNumbered* and *TableRow* elements.
 

@@ -35,8 +35,8 @@ You can configure the PDF document settings. You can disable your document or ad
 +
 [TIP]
 ====
-To configure the settings, you might need to click the *toggle to edit* icon.
-//Fabian: Do not use "might". Explain, when it is necessary to press this button. See the TIP in https://docs-review.neptune-software.com/neptune-dxp-open-edition/21/cockpit-overview/script-editor-codesnippets.html
+Make sure your PDF template is in editing mode.
+To put your PDF template in editing mode, click the *toggle to edit* icon.
 
 image:pdf-designer-toggle-edit.png[width=300]
 ====
@@ -54,11 +54,10 @@ image:pdf-designer-components.png[widht=200]
 
 The components are divided in two sections:
 
-* *Document* components which are valid for your whole document, such as Header, Footer or Background for example. These elements
+* *Document* components which are valid for your whole document, such as *Header*, *Footer* or *Background* for example. These elements
 can be inserted directly in the *PDF Document* element in the *PDF document component* panel.
-//"Header", "Footer" etc. entweder Fett und groß (also GUI-Element), oder nicht ausgezeichnet und klein geschrieben
-* *Elements* components which are simple elements such as Text, Table or Lists for example. They can be inserted in the *Content*, *Header* or *Footer* element of the *PDF Document* element.
-//"Header", "Footer" etc. entweder Fett und groß (also GUI-Element), oder nicht ausgezeichnet und klein geschrieben. Do not use simple, describe better what you mean, for example, "content related"
+* *Elements* components which are content related elements such as *Text*, *Table* or *ListBulleted* for example. They can be inserted in the *Content*, *Header* or *Footer* element of the *PDF Document* element.
+//Hendrik: only in these elements?
 
 === PDF document component panel
 
