@@ -13,7 +13,7 @@ In this topic, you learn how to add a new role.
 . Click *Add*.
 . In the *General* tab, enter a name for the role.
 . You can enter a description and choose a package for the role.
-. In the *ACL* tab, you can set the permissions for the role for each service.
+. In the *ACL* tab (Access Control List), you can set the permissions for the role for each service.
 //Service korrekt?
 . Click *Save*.
 
