@@ -4,18 +4,24 @@ With the _PDF Designer_ you can build your own PDF templates and documents.
 The following topic shows an overview over all elements you can use to build your PDF template or document.
 
 //Ask Hendrik, Explain: Why is there a small "o" before a component when it is in the components pane.
+//@ Fabian: I suspect it's just a default name that's given to the element once you put it in the document tree...
+== PDF document element
 
-// Explain: The "PDF Document" element as top element
+The *PDF Document* element is a shell for your PDF template or document. You can insert all *Document* components here.
+
+// Explain: The "PDF Document" element as top element -> DONE
 == Document components
 
 Background::
 Shell for the background of your PDF template. You can insert every *Elements* component you want to display in the background of your PDF template.
 //Ask Hendrik: Every element? You can have a table or a QR code as background?
+//@Fabian: Yes, at least table and qr-code are working...
 Content::
 Shell for the content of your PDF template. You can insert every *Elements* component here.
 
 Default Style::
 This element sets a default style for your PDF template. You can set, for example, fonts or colors for your entire PDF template.
+// TODO @Neptune: None of the selectable fonts work except "Roboto"
 
 Footer::
 Shell for the footer area of your PDF template. You can insert *Elements* components here,
@@ -35,7 +41,7 @@ Settings::
 Element to configure the settings of your PDF document. You can set the size of your page or set passwords for your users to access and edit the document.
 
 Styles::
-Element to define your custom styles and assign them to objects.
+Shell for collecting your *Style* elements. to define your custom styles and assign them to objects.
 //TODO: can´t quite figure out what this element is for.
 
 Watermark::
@@ -44,13 +50,29 @@ Element to add a watermark to your PDF document. The watermark will appear on ev
 == Elements components
 
 Canvas::
-Element to set the style of a specific section of your PDF template.
+Element to add a canvas to your PDF template.
+//Attributes NEED to be explained, this is really nowhere near user-friendly. Tried it here, please check @Fabian:
+Attribute overview:
++
+color: The filling color of the canvas
++
+h: The height of the canvas
++
+linecolor: The color of the border of the canvas
++
+r: The border angle of the canvas
++
+w: The width of the canvas
++
+x: margin x-axis for the canvas position
++
+y: margin y-axis for the canvas position
 
 Columns::
-Element to divide a section of your PDF template into columns.
+Element to divide a section of your PDF template into columns. You can insert for example *Text* elements here.
 
 Image::
-Element to insert an image in your PDF template.
+Element to insert an image in your PDF template. You can select the image with the *src* attribute.
 
 ListBulleted::
 Element to insert a list with bullet points into your PDF template.
@@ -59,13 +81,15 @@ ListNumbered::
 Element to insert a numbered list into your PDF template.
 
 QR Code::
-Element to insert a QR Code into your PDF template.
+Element to insert a QR Code into your PDF template. You can insert the link you want to display in the *qr* attribute.
 
 Stack::
-This element...
+Element to add components into a stack to group them.
+//@Fabian: Old docu says: "Also, used to create a paragraph with the text elements." -> Can't understand what they mean, would leave it out.
 
 Style::
-This element...
+Element to set individual styles. You can assign the style to every other element by setting the *style* attribute of the element to the name of your *Style* element.
+You can only insert *Style* elements into the *Styles* *Document component*.
 
 Table::
 Element to insert a table into your PDF template. You can insert *TableRow* elements to add more rows to your table.
