@@ -1,7 +1,7 @@
-= Setup a rule
+= Set up a rule
 
 In this topic, you learn how to set up a rule in the _Rules Engine_.
-//Helle@Fabian: setup (noun) > set up (verb)
+//Helle@Fabian: changed setup (noun) > set up (verb) in title and sentence
 
 == Prerequisites
 * There are no prerequisites.
@@ -15,20 +15,27 @@ In this topic, you learn how to set up a rule in the _Rules Engine_.
 . Click *Add*.
 +
 *Result*: A new window opens.
-//Todo Fabian: not a window following our definition.
+//Todo Fabian: not a window following our definition. I extended the terminology list. See dialog, wizard, window (also added to agenda). wizard was admitted for special cases before, but we have a gap here.
 +
 image::rules-engine-overview.png[,800]
-. Enter a name and a description for your rule.
-. Choose a package the rule should belong to.
+. Enter a *Name* and a *Description* for your rule.
+. Select a *Package* the rule should belong to.
+//changed choose > select, see terminology list
+//todo Fabian: just belongs to? You either know which one it belongs to (even though it's not defined yet) or you don't, then you don't do anything here.
 +
-TIP: Choosing a package facilitates deployment by combining data from the same package.
+TIP: Selecting a package facilitates deployment by combining data from the same package.
+//todo Fabian: Yey, partial potential! Package appears in almost every wizard. We should align, how we explain this. Maybe we can even use a partial for name-descr-package.
+//Added bold to field names above
 . Click the *Role* tab.
 . Click *+Add*.
 +
 *Result*: A new window with all available roles in the system opens.
-. Click on a roll. Your rule will now only be available for users that have this roll assigned.
+. Click on a role. Your rule will now only be available for users that have this role assigned.
+//todo Fabian: What do people with the role do with the rule? Is this maybe worth explaining in concept topic?
+//also change "roll" to "role" ;)
 +
 TIP: You can use the _Role_ service to define or change roles.
+//if connection between rules engine and role is explained in concept, we might not need it here.
 . Click *Save*.
 *Result*: _Rules Engine_ adds an ID to your rules and saves change dates.
 
@@ -38,3 +45,4 @@ TIP: You can use the _Role_ service to define or change roles.
 == Related topics
 * xref:role.adoc[Role]
 * xref:rules-engine-conditions.adoc[]
+//todo Fabian: Next steps section? This is what I used in Installation topics. Else: mention next step first, then additional topics (=role)?

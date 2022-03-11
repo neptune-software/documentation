@@ -3,17 +3,19 @@
 In this topic, you learn how to create conditions that make your rule work.
 
 == Prerequisites
-* You have done the initial setup to create a rule in xref:rules-engine-setup.adoc[]
-* You have created attributes for the rule in xref:rules-engine-conditions.adoc[]
+* You have done the initial setup to create a rule in xref:rules-engine-setup.adoc[].
+* You have created attributes for the rule in xref:rules-engine-conditions.adoc[].
 
 == Procedure
+//todo Fabian: add intro step
 . Click the *Condition* tab.
 . Click *+Add Group*.
 +
 *Result*: A new group with one empty row appears.
 +
 . In the first column, select an attribute from the drop-down menu you defined in the *Interface* tab.
-. Choose a condition against which the rule ist tested from the drop-down.
+. Select a condition against which the rule ist tested from the drop-down.
+//changed choose > select, see terminology list
 . Enter a delimiting value.
 . Enter a *Then* statement that appears if the condition is met.
 . Click *+add* to add as many rows per group as you want.
@@ -21,6 +23,8 @@ In this topic, you learn how to create conditions that make your rule work.
 image::rules-engine-addgroup.png[,800]
 
 TIP: You can add any number of groups.
+//Repeat the steps to add as many groups as you need.?
+
 . Click *Save*.
 
 == Results

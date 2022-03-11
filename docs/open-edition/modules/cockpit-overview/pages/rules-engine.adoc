@@ -9,7 +9,7 @@ Then you can adjust the rule to change the output and do not have to change the 
 //todo Fabian: Why would I want to adjust a rule? Maybe (with or without reason): If you want to change the output (later), for example, *insert reason here*, you can adjust the rule and do not have to change the code/adjust the rule without having to change the code.
 
 It is furthermore possible to call rules like an API inside a script.
-//todo Fabian: You can call a rule like an API inside a script.
+//todo Fabian: You can call a rule inside a script the same way you call an API.
 
 == Process of creating rules
 

@@ -47,3 +47,14 @@ result = {"stock_level":stock_level,"stock_warning":stock_warning};
 console.log(result);
 ----
 //Comment Fabian: I took that example from the existing documentation. Is it understandable to you?
+////
+Helle: This is rather confusing though I get where it's going.
+The Title suggests a task ("Call..."), that could actually do the trick:
+
+Title
+Prerequ: You defined a rule, you defined a server script? (Server scripts are defined/created in API Designer)
+
+Steps: open server script, add call, see result.
+
+I guess, that needs more input. Delay this topic and write in parallel with Create Server Script with API Designer?
+////
