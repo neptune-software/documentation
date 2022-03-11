@@ -9,13 +9,13 @@ In this topic, you learn how to create a PDF document that you can download on y
 
 == Procedure
 
-. Click the *Preview* Icon.
+. In the *Preview toolbar*, click the *Preview* Icon.
 +
 image:pdf-designer-preview.png[width=200]
 +
 *Result*: A preview of your PDF template is shown.
-. Click the *Save* Icon.
 //To check with Hendrik why it does not work for Fabian...
+. Click the *Save* Icon.
 +
 image:pdf-designer-save-document.png[width=400]
 +

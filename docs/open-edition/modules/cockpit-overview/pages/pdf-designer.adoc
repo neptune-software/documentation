@@ -10,21 +10,21 @@ You can add images, watermarks, QR codes, tables, headers, footers, and apply yo
 
 The _PDF Designer_ interface consists of the following elements:
 
-* Menu
-* Components library panel
-* PDF document component panel
-* PDF preview panel
-* Components property panel
-// noch Toolbars einfügen 2x
-// aktuelle Terminologie beachten - OneNote -> Hendrik fragen...
-// Nicht mehr "menu" sondern sidebar; nicht mehr "Panel", sondern "Pane"
+* Side navigation
+* Component library
+* Shell bar
+* Document tree
+* Preview
+* Preview toolbar
+* Properties
 +
 image:pdf-designer-at-a-glance.png[width=800]
 
-=== Menu
+=== Side navigation
 
-When you open the _PDF Designer_, you will only see the icons. Toggle the items by clicking the *Menu* icon.
-The Menu includes the following items:
+When you open the _PDF Designer_, you will only see the icons. Toggle the items by clicking the *menu2* icon.
+// TODO Neptune: why is it called menu2?
+The side navigation includes the following items:
 
 image:pdf-designer-glance-menu-toggle.png[width=200]
 
@@ -45,37 +45,37 @@ image:pdf-designer-toggle-edit.png[width=300]
 You start here when you open the _PDF Designer_. You can create your document.
 
 
-=== Components library panel
+=== Component library
 
-The *Components library* panel shows the components that you can use for building your PDF.
-You can drag and drop them into the *PDF document component* panel to build your document.
+The *Component library* pane shows the components that you can use for building your PDF.
+You can drag and drop them into the *Document tree* pane to build your document.
 
 image:pdf-designer-components.png[widht=200]
 
 The components are divided in two sections:
 
 * *Document* components which are valid for your whole document, such as *Header*, *Footer* or *Background* for example. These elements
-can be inserted directly in the *PDF Document* element in the *PDF document component* panel.
+can be inserted directly in the *PDF Document* element in the *Document tree* pane.
 * *Elements* components which are content related elements such as *Text*, *Table* or *ListBulleted* for example. They can be inserted in the *Content*, *Header* or *Footer* element of the *PDF Document* element.
 //Hendrik: only in these elements?
 
-=== PDF document component panel
+=== Document tree
 
-The *PDF document component* panel shows the current state of your document.
-You can use components from the *Components library* panel to build and structure your document here.
+The *Document tree* panel shows the current state of your document.
+You can use components from the *Component library* pane to build and structure your document here.
 
 image:pdf-designer-document-panel.png[width=300]
 
-=== PDF preview panel
+=== Preview
 
-The *PDF preview panel* shows a preview of your document. You can refresh the preview by clicking the *Activate* icon.
+The *Preview* pane shows a preview of your document. You can refresh the preview by clicking the *Activate* icon.
 
 image:pdf-designer-template-refreshicon.png[width=400]
 
-=== Components property panel
+=== Properties
 
-The *Components property* panel shows the attributes of a component.
-You can define properties or events to change the layout and behavior of a component in your document.
+The *Properties* pane shows the attributes of a component.
+You can define properties or events to change the layout and behavior of a component in your document. You can also insert the content for a *Text* element in the *text* attribute here.
 
 image:pdf-designer-property-panel.png[width=300]
 

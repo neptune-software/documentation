@@ -18,10 +18,9 @@ image:pdf-designer-toggle-edit.png[width=300]
 ====
 
 ===  Add elements to your template
-. Drag the element you want to add from the reusable components column to the column of your PDF template.
-You can change the attributes of the element in the window on the right. You can find an overview of all elements xref:pdf-designer-elements.adoc[here].
-//reusable components panel --> check terminology with other "interface at a glance" topics (for example, appdesigner)
-//-> terminology meeting, we ask Hendrik...
+. Drag the element you want to add from the *Component library* pane to the *Document tree* pane.
+You can change the attributes of the element in the *Properties* pane on the right. You can find an overview of all elements xref:pdf-designer-elements.adoc[here].
+//Terminologie anpassen
 
 . Click the *Save* icon.
 +
