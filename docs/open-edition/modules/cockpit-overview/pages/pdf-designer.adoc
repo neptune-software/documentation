@@ -29,21 +29,10 @@ The side navigation includes the following items:
 image:pdf-designer-glance-menu-toggle.png[width=200]
 
 *Settings*::
-You can configure the PDF document settings. You can disable your document or add an interface to connect your document.
-//TODO: @Neptune How does this work? What is the interface for?
-//Fabian: Settings tab need to be described in an extra topic. Move question to extra topic.
-+
-[TIP]
-====
-Make sure your PDF template is in editing mode.
-To put your PDF template in editing mode, click the *toggle to edit* icon.
-
-image:pdf-designer-toggle-edit.png[width=300]
-====
+You can configure the PDF document settings. For more information see xref:pdf-designer-settings.adoc[PDF designer settings].
 
 *Designer*::
 You start here when you open the _PDF Designer_. You can create your document.
-
 
 === Component library
 
@@ -80,12 +69,12 @@ You can define properties or events to change the layout and behavior of a compo
 image:pdf-designer-property-panel.png[width=300]
 
 == Related topics
+* xref:pdf-designer-elements.adoc[PDF Designer elements]
+* xref:pdf-designer-settings.adoc[PDF designer settings]
 * Work with PDF templates
 ** xref:pdf-designer-create-template.adoc[Create a new PDF template]
 ** xref:pdf-designer-open-template.adoc[Open a PDF template]
 ** xref:pdf-designer-edit-template.adoc[Edit a PDF template]
-** xref:pdf-designer-elements.adoc[PDF Designer elements]
-//PDF settings
 * Export PDF templates
 ** xref:pdf-designer-create-pdf.adoc[Create a PDF document]
 ** xref:pdf-designer-export-template.adoc[Export a PDF template]

@@ -2,6 +2,7 @@
 
 In this topic, you learn how to create a PDF document that you can download on your computer.
 //Explain here what the "Test Data" are.
+//@Fabian: added in edit-template topic.
 
 == Prerequisites
 * You have xref:pdf-designer-create-template.adoc[created a PDF template].

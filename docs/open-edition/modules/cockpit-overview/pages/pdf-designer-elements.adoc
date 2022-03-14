@@ -41,8 +41,7 @@ Settings::
 Element to configure the settings of your PDF document. You can set the size of your page or set passwords for your users to access and edit the document.
 
 Styles::
-Shell for collecting your *Style* elements. to define your custom styles and assign them to objects.
-//TODO: can´t quite figure out what this element is for.
+Shell for collecting your *Style* elements.
 
 Watermark::
 Element to add a watermark to your PDF document. The watermark will appear on every page of your PDF document.
@@ -99,7 +98,7 @@ Element to add a new row to a table. Can be inserted in *Table* elements only.
 
 Text::
 Element to insert a simple text block to your PDF template. You can also add this element to *Footer*, *Header*, *Watermark*,
-*Columns*, *ListBulleted*, *ListNumbered* and *TableRow* elements.
+*Columns*, *ListBulleted*, *ListNumbered* and *TableRow* elements. You can insert your text in the *text* attribute in the *Properties* pane.
 
 == Related topics
 

@@ -39,6 +39,14 @@ image:pdf-designer-template-saveicon.png[width=400]
 . Right-click on the element you want to enable.
 . Click *Enable*.
 
+=== Add test data to your template
+. Click the *Test Data* icon.
++
+image:pdf-designer-testdata.png[width=200]
++
+*Result*: The *Test Data* tab opens.
+. You can insert the test data. *Test Data* is used to show first content whilst designing your PDF template. The format of the test data is JSON.
+
 === Preview your template
 
 . Click the *Preview* Icon.
@@ -47,8 +55,14 @@ image:pdf-designer-preview.png[width=200]
 . You can click the *Activate* icon to refresh the preview of your PDF template anytime.
 +
 image:pdf-designer-template-refreshicon.png[width=400]
+//We need a section here about the component properties panel and how you can enter text etc. there -> DONE
 
-//We need a section here about the component properties panel and how you can enter text etc. there
+=== Configure the properties of an element
+. Click on the element you want to configure.
++
+*Result*: The properties of the element are shown in the *Properties* pane.
+. Configure the properties of the element in the *Properties* pane.
+. To add text to a *Text* element, insert the text you want to display into the *text* attribute.
 
 == Results
 * You have edited a PDF template.
@@ -57,3 +71,4 @@ image:pdf-designer-template-refreshicon.png[width=400]
 * xref:pdf-designer.adoc[PDF Designer]
 * xref:pdf-designer-create-template.adoc[Create a new PDF template]
 * xref:pdf-designer-open-template.adoc[Open a PDF template]
+* xref:pdf-designer-create-pdf.adoc[Create a PDF document]

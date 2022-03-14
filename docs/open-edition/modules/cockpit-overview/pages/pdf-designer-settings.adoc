@@ -1,0 +1,33 @@
+= PDF designer settings
+
+In the *PDF Document Settings* tab, you can configure the settings of your PDF document according to your needs. You can disable your document or add an interface to connect your document.
+//TODO: @Neptune How does this work? What is the interface for?
+
+[TIP]
+====
+Make sure your PDF template is in editing mode.
+To put your PDF template in editing mode, click the *toggle to edit* icon.
+
+image:pdf-designer-toggle-edit.png[width=300]
+====
+
+== Add an interface
+. In the *PDF Document Settings* tab, click *Add*.
++
+image:pdf-designer-interface-add.png[width=500]
+. Enter a name and a description for the interface.
+. Select a type for the interface.
++
+*Result*: You have added an interface.
+
+== Import an interface
+. In the *PDF Document Settings* tab, click *JSON Import*.
++
+image:pdf-designer-interface-import.png[width=500]
+. Enter the JSON data you want to import.
+. Click  *Import*.
++
+*Result*: You have imported an interface.
+
+== Related topics
+* xref:pdf-designer.adoc[PDF Designer]
