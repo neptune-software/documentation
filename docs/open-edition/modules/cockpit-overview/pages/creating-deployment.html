@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.16">
+<title>Create a deployment package</title>
+<style>
+/*
+ Neptune CI Design Guidelines
+ https://stneptuneportal.blob.core.windows.net/media/Marketing%20Related%20Content%2FGuidelines%2FNeptuneSoftware_Corporate%20Identity%20_brand%20guide.pdf
+
+ == Colors
+ orange:                        #F6B221
+
+ deep blue:     Cloud           #003E52
+ medium blue:   SAP             #00839B
+ light blue:    Open Edition    #83C8BC
+
+ additional grey:               #5D5D5D
+
+ == Fonts
+ The primary typeface for Neptune Software is Source Sans Pro in deep blue.
+ Calibri light is used secondarily.
+
+*/
+
+body {
+  color: #003E52; /* deep blue */
+  font-family: "Source Sans Pro", "Calibri", sans-serif;
+}
+
+h1 {
+  color: #003E52; /* deep blue */
+  font-weight: 400;
+}
+
+h2,h3,h4,h5,h6 {
+  color: #00839B; /* medium blue */
+  font-weight: 400;
+}
+
+h2 {
+  border-bottom: 1px solid #e1e1e1;
+  padding: .4rem 1rem .1rem;
+}
+
+div.admonitionblock table {
+  background-color: #fafafa;
+  border: 1px solid silver;
+}
+
+b, dt, strong, th {
+  font-weight: 500;
+}
+
+/* Align icons in headings */
+img, object, svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- https://docs.asciidoctor.org/asciidoctor/latest/docinfo/ -->
+<link rel="stylesheet" href="neptune-preview.css" type="text/css">
+<style>
+body {
+  /* ... */
+}
+</style>
+</head>
+<body class="article">
+<div id="header">
+<h1>Create a deployment package</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>You have two options:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Create a deployment package and transferring it by selecting a route.</p>
+<div class="paragraph">
+<p>When using routes, you can transfer your package to many targeted systems with one transfer process.</p>
+</div>
+</li>
+<li>
+<p>Create a deployment package and transferring it by selecting a system.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_prerequisites">Prerequisites</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Before you start a deployment process, make sure that you set up a remote system you want to send the deployment packages to.
+How to set up a remote system, see Remote System Setup.</p>
+</li>
+<li>
+<p>You have selected a deployment authentication in settings &#8594; customization component.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Deployment can take place through Routes or with systems.
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_procedure">Procedure</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open Neptune DXP - Open Edition cockpit.</p>
+</li>
+<li>
+<p>Go to <strong>Deployment</strong>, and click <strong>Deployment Create</strong>.</p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/start-deployment-create.png" alt="start deployment create" width="600"></span></p>
+</div>
+<div class="paragraph">
+<p><strong>Result</strong>: The deployment create window opens</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="_create_a_deployment_package_via_route">Create a deployment package via route</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <strong>Routes</strong></p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/deployment-create-routes.png" alt="deployment create routes" width="400"></span></p>
+</div>
+</li>
+<li>
+<p>On the list, check one or more routes.</p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/deployment-check-route.png" alt="deployment check route" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>Click <strong>Start</strong>.</p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/start-deployment-creation.png" alt="start deployment creation" width="400"></span></p>
+</div>
+<div class="paragraph">
+<p><strong>Result</strong>: The deployment create dialog opens.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../images/deployment-create-overview.png" alt="deployment create overview" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>To select already existing packages, click <strong>Packages</strong>.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The number next to <strong>Packages</strong> indicates the number of available packages.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../images/select-package.png" alt="select package" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>Check the package or packages you want to deploy.</p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/select-package-execute.png" alt="select package execute" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>To select a service you want to deploy artefacts from, click the arrow next to the service group. In the example, we selected <strong>Launchpad</strong> in the <strong>Administration</strong> tab.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The number next to the service indicates the number of available artefacts.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>Result</strong> <em>Deployment create</em> shows a list of all artefacts of the selected service.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../images/select-service.png" alt="select service" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>Check the artefacts you want to add.</p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/select-service-create.png" alt="select service create" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>To &#8230;&#8203;. , check <strong>Include relations</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Create</strong>.</p>
+<div class="paragraph">
+<p><strong>Result</strong>: The Deploy window opens.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../images/create-package-from-existing.png" alt="create package from existing" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>Verify the package(s), and their artefacts you want to deploy. Check or uncheck items to adjust your selection.</p>
+</li>
+<li>
+<p>Click <strong>Create</strong>.</p>
+<div class="paragraph">
+<p><strong>Result</strong>: <em>Deployment Create</em> sends the packages to the remote system for approval.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_create_a_deployment_package_via_system">Create a deployment package via system</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click <strong>System</strong></p>
+</li>
+<li>
+<p>On the list, check the system or systems you want to create a deployment package for.</p>
+</li>
+<li>
+<p>Click <strong>Start</strong>.</p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/start-deployment-creation.png" alt="start deployment creation" width="400"></span></p>
+</div>
+<div class="paragraph">
+<p><strong>Result</strong>: The deployment create dialog opens.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../images/deployment-create-overview.png" alt="deployment create overview" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>Click the arrow next to the service group, and select a service you want to deploy artefacts from. In the example, we selected <strong>Launchpad</strong> in the <strong>Administration</strong> tab.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The number next to the service indicates the number of available artefacts.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>Result</strong> <em>Deployment create</em> shows a list of all artefacts of the selected service.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="../images/select-service.png" alt="select service" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>Check the artefacts you want to add.</p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/select-service-create.png" alt="select service create" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>Click <strong>Create</strong>.</p>
+<div class="paragraph">
+<p><strong>Result</strong>: The Deploy window opens.</p>
+</div>
+</li>
+<li>
+<p>Verify the package(s), and their artefacts you want to deploy. Check or uncheck items to adjust your selection.</p>
+<div class="paragraph">
+<p><span class="image"><img src="../images/deploy-window.png" alt="deploy window" width="600"></span></p>
+</div>
+</li>
+<li>
+<p>Click <strong>Create</strong>.</p>
+<div class="paragraph">
+<p><strong>Result</strong>: <em>Deployment Create</em> creates your deployment package, and will ask you for approval or transfer according to the deployment authentication you selected before.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2022-03-09 14:17:50 +0100
+</div>
+</div>
+</body>
+</html>

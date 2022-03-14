@@ -1,4 +1,5 @@
 = Create a deployment package
+
 You have two options:
 
 .. Create a deployment package and transferring it by selecting a route.
@@ -33,6 +34,7 @@ image:deployment-create-routes.png[,400]
 +
 image:deployment-check-route.png[,600]
 . Click *Start*.
+//"name" is activated when checking more than 1 item. Why?
 +
 image:start-deployment-creation.png[,400]
 +
@@ -50,7 +52,7 @@ image:select-package.png[,600]
 +
 image:select-package-execute.png[,600]
 +
-. To select a service you want to deploy artefacts from, click the arrow next to the service group. In the example, we selected *Launchpad* in the *Administration* tab.
+. To select a service you want to deploy artefacts from, click the arrow next to the service group. In the example, we selected *Launchpad* from the *Administration* service group.
 //todo introduce service group?
 +
 NOTE: The number next to the service indicates the number of available artefacts.
@@ -61,7 +63,7 @@ image:select-service.png[,600]
 . Check the artefacts you want to add.
 +
 image:select-service-create.png[,600]
-. .... , check *Include relations*.
+. To .... , check *Include relations*.
 //what does include relations?
 . Click *Create*.
 +
