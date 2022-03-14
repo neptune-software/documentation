@@ -1,0 +1,8 @@
+= image:security-proxy-icon.png[width=100] Proxy Authentication
+
+With _Proxy Authentication_, you can manage authentication methods for APIs, OData and remote systems.
+
+== Related topics
+* xref:security-proxy-add.adoc[Add a new authentication method]
+* xref:security-auth-edit.adoc[Edit an existing authentication method]
+* xref:security-proxy-delete.adoc[Delete an existing authentication method]
