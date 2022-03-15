@@ -4,7 +4,9 @@ _Adaptive Designer_ comes with templates that represent the foundation and struc
 Because an adaptive application is based on an adaptive template, any changes you make to the adaptive template will reflect across all the adaptive applications that use it.
 //TODO Leonie: What does it mean - change the template ? changes are most likely not done in the adaptive designer, correct? Bring section to introduction in overview, if essential.
 
-//TODO Leonie: Explain that templates are available in an application building block in the Store. I doubt, it is the only way to use a template from this application building bock. Better check.
+Adaptive templates are available with the application building block Adaptive Framework Templates in the _Store_.
+
+//TODO Neptune: Is it the only way to use an adaptive template by downloading this application building block?
 
 You can differ two main types of adaptive templates that further group use-case-specific adaptive templates. To start creating your adaptive application, you can choose from the 5 following adaptive templates:
 
@@ -17,9 +19,15 @@ Adaptive tile templates::
 * Adaptive tile chart
 * Adaptive tile table
 
-//TODO Leonie: prepare slice and dice terminology; real Names to be used? add to terminology list;
+//TODO Leonie: prepare slice and dice terminology; real Names to be used in list? add to terminology list;
 
-//TODO Leonie: explain two main types with examples in the following
+Use the adaptive application templates to build adaptive applications that you can start from their tiles in any launchpad where the adaptive applications are integrated.
+Use the adaptive tile templates to create adaptive applications that run in adaptive tiles. Meaning, the application is directly running within the tile in any launchpad where the adaptive applications are integrated.
 
 == Related topics
-//TODO Leonie: fill with links to single 5 templates
+
+* xref:adaptive-designer-adaptive-list.adoc[]
+* xref:adaptive-designer-adaptive-edit.adoc[]
+* xref:adaptive-designer-analytic-slice-and-dice.adoc[]
+* xref:adaptive-designer-adaptive-tile-chart.adoc[]
+* xref:adaptive-designer-adaptive-tile-table.adoc[]

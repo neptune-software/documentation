@@ -1,16 +1,16 @@
 = image:adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
 
 Create adaptive applications.
-//TODO Leonie: Think of replacing the service description completely in this case.
+//TODO Leonie: Think of replacing the service description from tile completely in this case.
 Create responsive, customizable, and functional applications with the no-code _Adaptive Designer_. Provide your adaptive applications in multiple machine-translated languages using the integrated translation API.
 //TODO Neptune: What API is it exactly?
 
 == Adaptive framework
 The adaptive framework supports no-code development of adaptive applications in _Adaptive Designer_ using adaptive templates and predefined data sources.
 
-//TODO overview graphic containing data sources, connector, adaptive designer, launchpad, store, adaptive templates
+//TODO Leonie: nice to have overview graphic containing data sources, connector, adaptive designer, launchpad, store, adaptive templates
 
-//TODO Leonie: Polish following paragraph; fix Launchpad terminology; basically explain the graphic before
+//TODO Leonie: Polish following paragraph; fix Launchpad terminology; basically explain the nice-to-have graphic before (data sources, connector, adaptive designer, launchpad, store, adaptive templates)
 A database or a server script provides the data for the applications.
 Templates provide the configuration metadata.
 Templates and database/server script connection combined enable the output of adaptive applications that can run on the __Launchpad__ alongside any other application.

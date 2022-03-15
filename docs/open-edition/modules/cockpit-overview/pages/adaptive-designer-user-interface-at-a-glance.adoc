@@ -1,6 +1,12 @@
 = User interface at a glance
 
-The _Adaptive Designer_ user interface consist of the following main elements:
+The _Adaptive Designer_ user interface consists of the following main elements:
 
 //TODO Leonie: add SUI
-//TODO Leonie: add xref list to UI reference topics
+
+* xref:adaptive-designer-shell-bar.adoc[]
+* xref:adaptive-designer-side-navigation.adoc[]
+* xref:adaptive-designer-component-library.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]
+* xref:adaptive-designer-preview.adoc[]
+* xref:adaptive-designer-properties.adoc[]

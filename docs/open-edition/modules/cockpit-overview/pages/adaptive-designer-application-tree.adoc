@@ -1,12 +1,13 @@
 = Application tree
 
-Pane that displays the components you used from the component library when building your application. The used components are displayed hierarchically, and you can further edit them.
+The application tree is a pane that displays the components you used from the component library when creating your application. The used components are displayed hierarchically, and you can further edit them.
 //TODO Leonie: Add SUI
 //TODO Leonie: Create partial for upper part
-//TODO Leonie: add service-specific information (consider connection to properties)
 
 == Related topics
 
 * xref:adaptive-designer-user-interface-at-a-glance.adoc[]
 * xref:adaptive-designer-component-library.adoc[]
 * xref:adaptive-designer-properties.adoc[]
+* xref:adaptive-designer-preview.adoc[]
+//TODO Leonie: link to relevant tasks
