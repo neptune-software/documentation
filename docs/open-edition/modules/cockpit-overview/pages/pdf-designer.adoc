@@ -1,10 +1,12 @@
 = image:pdf-designer-icon.png[width=100] PDF Designer
 
-With the _PDF Designer_, you design your own PDF templates and documents.
+With the _PDF Designer_, you design your own PDF templates.
 
-You can create PDF templates and documents that reflect your own brand and requirements.
+You can create PDF templates that reflect your own brand and requirements.
 You can add images, watermarks, QR codes, tables, headers, footers, and apply your own styles.
 //TODO Neptune: Where you can use that tool? From where can you call the tool?
+
+You can call a PDF template with a server script to build a PDF document.
 
 == PDF Designer interface at a glance
 
@@ -16,6 +18,7 @@ The _PDF Designer_ interface consists of the following elements:
 * Document tree
 * Preview
 * Preview toolbar
+//TODO UI of toolbar changes depending on the browser you use. How do we deal with the Screenshot @Fabian?
 * Properties
 +
 image:pdf-designer-at-a-glance.png[width=800]
@@ -75,8 +78,7 @@ image:pdf-designer-property-panel.png[width=300]
 ** xref:pdf-designer-create-template.adoc[Create a new PDF template]
 ** xref:pdf-designer-open-template.adoc[Open a PDF template]
 ** xref:pdf-designer-edit-template.adoc[Edit a PDF template]
-* Export PDF templates
-** xref:pdf-designer-create-pdf.adoc[Create a PDF document]
-** xref:pdf-designer-export-template.adoc[Export a PDF template]
-** xref:pdf-designer-import-template.adoc[Import a PDF template]
+* xref:pdf-designer-create-pdf.adoc[Create a PDF document]
+* xref:pdf-designer-export-template.adoc[Export a PDF template]
+* xref:pdf-designer-import-template.adoc[Import a PDF template]
 
