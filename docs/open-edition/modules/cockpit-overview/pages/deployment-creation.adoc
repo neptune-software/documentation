@@ -1,8 +1,16 @@
 = image:deployment-create (2).png[,100]Deployment Create
+//Do not have spaces in file names.
 
-
-In _Deployment Create_ you create deployment packages. Here, you select the artefacts from services you want to deploy from your Neptune DXP edition to another.
+In _Deployment Create_, you create deployment packages.
+//Better use "With", not "In"
+Here, you select the artefacts from services you want to deploy from your Neptune DXP edition to another.
+//Use "move" instead of "deploy" here?
+//Merge the two sentences: "With _Deployment Create_, you create deployment packages which contain artifacts you want to...
 
 When you create a release from a release definition that defines approvals, the deployment stops at each point where approval is required until the specified approver grants approval or rejects the release.
+//Provide context to this sentence, not clear to me what this means. What is a release here? What is an approval? Where can I see it in the service?
 
 image:create-deployment.png[,800]
+//Screenshot: 1. Always use simplified graphics. 2. No taskbar in the bottom on the screenshot
+
+//Always have a "Related Topics" section

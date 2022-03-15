@@ -1,61 +1,81 @@
 = Create a deployment package
 
+//Insert an introductory sentence in task topics: "In this topic, you learn how to create a deployment package."
+
 You have two options:
 
+//Why do you use that kind of list type?
 .. Create a deployment package and transferring it by selecting a route.
 +
 When using routes, you can transfer your package to many targeted systems with one transfer process.
-
+//many? "As many as you want"?
 .. Create a deployment package and transferring it by selecting a system.
 //what's the difference between route and system when creating a deployment package?
 
 == Prerequisites
 * Before you start a deployment process, make sure that you set up a remote system you want to send the deployment packages to.
+//Did you have to setup the remote system? Couldn't it be anyone else?
 How to set up a remote system, see Remote System Setup.
 //Todo Gernot link page Remote System
 * You have selected a deployment authentication in settings -> customization component.
+//Provide a link to the topic. Did you mean settings in the service "Deployment".
 +
 NOTE: Deployment can take place through Routes or with systems.
+//Isn't that already stated above? "Routes" in small letters.
 
 == Procedure
 . Open Neptune DXP - Open Edition cockpit.
 . Go to *Deployment*, and click *Deployment Create*.
+//Put the two steps together: "On the Cockpit, navigate to *Deployment*, and click *Deployment Create*.
 +
 image:start-deployment-create.png[,600]
 +
 *Result*: The deployment create window opens
 
+//Merge the two substeps, they belong together. State in the beginning that you can click "Systems" and "Routes" and check a package there that will show up later in the "Deploy" window.
 === Create a deployment package via route
 . Click *Routes*
 +
 image:deployment-create-routes.png[,400]
+//No need for another screenshot here. Just make "Systems" and "Routes" visible in the screenshot above.
 //Why can I select more than one route?
 . On the list, check one or more routes.
 +
 image:deployment-check-route.png[,600]
+//No need for another screenshot here.
 . Click *Start*.
+//You do not have to select a route when pressing "Start"...
 //"name" is activated when checking more than 1 item. Why?
 +
 image:start-deployment-creation.png[,400]
+//No need for that screenshot
 +
-*Result*: The deployment create dialog opens.
+*Result*: The Deployment Create dialog opens.
 +
 image:deployment-create-overview.png[,600]
 
 . To select already existing packages, click *Packages*.
+//Put "Click Packages" at the beginning of the sentence.
 +
 NOTE: The number next to *Packages* indicates the number of available packages.
+//Use TIP
 +
 image:select-package.png[,600]
+//No need for that screenshot. Do not simplify the one above that much.
 +
 . Check the package or packages you want to deploy.
 +
 image:select-package-execute.png[,600]
+//No need for that screenshot.
 +
-. To select a service you want to deploy artefacts from, click the arrow next to the service group. In the example, we selected *Launchpad* from the *Administration* service group.
+. To select a service you want to deploy artefacts from, click the arrow next to the service group.
+//Click the arrow next to the service group to select an artifact directly from a service.
+In the example, we selected *Launchpad* from the *Administration* service group.
+//Do not use "we".
 //todo introduce service group?
 +
 NOTE: The number next to the service indicates the number of available artefacts.
+//Use TIP
 +
 *Result* _Deployment create_ shows a list of all artefacts of the selected service.
 +
@@ -63,26 +83,33 @@ image:select-service.png[,600]
 . Check the artefacts you want to add.
 +
 image:select-service-create.png[,600]
+//No need for that screenshot.
 . To .... , check *Include relations*.
+//Turn sentence around: Check *Include relations* to...
 //what does include relations?
+//Make a TODO for Neptune
 . Click *Create*.
 +
 *Result*: The Deploy window opens.
 +
 image:create-package-from-existing.png[,600]
 
-. Verify the package(s), and their artefacts you want to deploy. Check or uncheck items to adjust your selection.
-
+. Verify the package(s) and their artefacts you want to deploy. Check or uncheck items to adjust your selection.
+//Typo: artifacts
+//Combine it to one sentence and shorten it, for example: "Verify the packages you want to deploy by checking and unchecking artifacts.
 . Click *Create*.
 //What about "Transfer" next to "Create"?
+// I did not see "Transfer". Only shows up if you select a deployment package in system
 +
-*Result*: _Deployment Create_ sends the packages to the remote system for approval.
+*Result*: _Deployment Create_ sends the packages to the selected remote system for approval.
 //todo check again what's happening
 
+//Integrate following steps in step above
 === Create a deployment package via system
-. Click *System*
+. Click *System*.
 . On the list, check the system or systems you want to create a deployment package for.
 // Is it correct that you can select more than one system?
+//Where does that systems come from?
 . Click *Start*.
 +
 image:start-deployment-creation.png[,400]
