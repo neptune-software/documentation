@@ -4,12 +4,10 @@
 
 You have two options:
 
-//Why do you use that kind of list type?
-.. Create a deployment package and transferring it by selecting a route.
+* Create a deployment package and transferring it by selecting a route.
 +
-When using routes, you can transfer your package to many targeted systems with one transfer process.
-//many? "As many as you want"?
-.. Create a deployment package and transferring it by selecting a system.
+When using routes, you can transfer your package to any targeted system with one transfer process.
+* Create a deployment package and transferring it by selecting a system.
 //what's the difference between route and system when creating a deployment package?
 
 == Prerequisites
@@ -17,11 +15,9 @@ When using routes, you can transfer your package to many targeted systems with o
 //Did you have to setup the remote system? Couldn't it be anyone else?
 How to set up a remote system, see Remote System Setup.
 //Todo Gernot link page Remote System
-* You have selected a deployment authentication in settings -> customization component.
-//Provide a link to the topic. Did you mean settings in the service "Deployment".
-+
-NOTE: Deployment can take place through Routes or with systems.
-//Isn't that already stated above? "Routes" in small letters.
+* You have selected a deployment authentication in *Settings* > *Customization component*.
+//Provide a link to the topic.
+
 
 == Procedure
 . Open Neptune DXP - Open Edition cockpit.
@@ -99,7 +95,7 @@ image:create-package-from-existing.png[,600]
 //Combine it to one sentence and shorten it, for example: "Verify the packages you want to deploy by checking and unchecking artifacts.
 . Click *Create*.
 //What about "Transfer" next to "Create"?
-// I did not see "Transfer". Only shows up if you select a deployment package in system
+//Only shows up if you select a deployment package in system
 +
 *Result*: _Deployment Create_ sends the packages to the selected remote system for approval.
 //todo check again what's happening
