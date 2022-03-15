@@ -8,14 +8,13 @@ In this topic, you learn how to test if your rule works properly and delivers th
 * You have created one or more rule with conditions in xref:rules-engine-rules.adoc[].
 
 == Procedure
-
-. Click the *Test* tab.
+. Click the *Test* tab in the rule you want to test.
 . Enter values for your attributes that are displayed in *Input*.
 +
 image::rules-engine-test.png[,400]
 . Click *Run*.
-*Result*: The output and the corresponding rule that base on your input is generated in *Output*.
-//todo Fabian: active voice: In *Output*, you see the corresponding rule and result for your input.?
++
+*Result*: In *Output*, you see the corresponding rule and result for your input.
 
 == Results
 * You have tested your rule and can correct it if it does not work properly.

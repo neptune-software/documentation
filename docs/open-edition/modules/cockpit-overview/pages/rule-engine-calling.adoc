@@ -1,3 +1,5 @@
+//Information for Hendrik: We took this chapter from the old documentation but it does not belong to the cockpit overview. It describes a complex task using two services. We will probably integrate it in "Design Guidelines" and will therefore edit it later.
+
 = Call a rule like an API in a script
 
 You can call a rule like it is an API endpoint. Enter the following code in a script:
@@ -6,6 +8,11 @@ You can call a rule like it is an API endpoint. Enter the following code in a sc
 
 dataObject:: Key-value pair. Example: `stock: stock_level`.
 ruleID:: The ID provided to your rule in the *General* tab.
+
+== Prerequisites
+* You have defined a rule with xref:rules-engine.adoc[Rules engine].
+* You have defined a server script with the API Designer
+//* xref to be added when topic is finished
 
 == Example for a rule that is called as an API
 
@@ -46,9 +53,9 @@ result = {"stock_level":stock_level,"stock_warning":stock_warning};
 
 console.log(result);
 ----
-//Comment Fabian: I took that example from the existing documentation. Is it understandable to you?
+//Comment Fabian: I took that example from the existing documentation.
 ////
-Helle: This is rather confusing though I get where it's going.
+Helle: This is a bit confusing though I get where it's going.
 The Title suggests a task ("Call..."), that could actually do the trick:
 
 Title

@@ -7,23 +7,19 @@ These attributes define the data that are accepted by the logic of the rule.
 * You have done the initial setup to create a rule in xref:rules-engine-setup.adoc[].
 
 == Procedure
-//todo Fabian: start every task independent of each other. I'm missing at least one step for "open the rule you want to add conditions to"
-. Click the *Interface* tab.
+. Click the *Interface* tab in the rule you want to edit.
 . Click *+Add*.
 +
 *Result*: A new empty row appears.
 . Fill in the data for the attribute.
 .. In the *Attribute* column, enter a name. The attribute is shown under this name in the *Condition* tab.
 +
-TIP: There is no space allowed in the attribute name.
-//You cannot use spaces in the attribute name.
+TIP: You cannot use spaces in the attribute name.
+
 .. In the *Description* column, give a short description of what the attribute is about.
 .. In the *Type* column, select from the drop-down menu whether the attribute is of type `String`, `Number`, or `Boolean`.
-//changed choose > select, see terminology list
 +
 image::rules-engine-interface-snag.png[, 800]
-//"Open Edition" seems lost without the rest of the title. It'd delete completely. This 1. might apply to both SAP and OE and 2. is not necessary for the task. User who end up here, already selected OE documentation.
-//After reviewing next steps: screenshots are cut differently though they provide the same information. Users most likely see these topics in succession, I'd use the same cut.
 . Create as many attributes as you need for your purpose.
 +
 TIP: You can sort rows by dragging and dropping them.
@@ -32,7 +28,9 @@ TIP: You can sort rows by dragging and dropping them.
 == Results
 * You have created attributes that can be used in your rule.
 
+== Next steps
+* xref:rules-engine-rules.adoc[]
+
 == Related topics
 * xref:rules-engine.adoc[Rules engine]
 * xref:rules-engine-setup.adoc[]
-* xref:rules-engine-rules.adoc[]
