@@ -1,13 +1,13 @@
 = PDF Designer elements
 
-With the _PDF Designer_ you can build your own PDF templates and documents.
-The following topic shows an overview over all elements you can use to build your PDF template or document.
+With the _PDF Designer_ you can build your own PDF templates.
+The following topic shows an overview over all elements you can use to build your PDF template.
 
 //Ask Hendrik, Explain: Why is there a small "o" before a component when it is in the components pane.
 //@ Fabian: I suspect it's just a default name that's given to the element once you put it in the document tree...
 == PDF document element
 
-The *PDF Document* element is a shell for your PDF template or document. You can insert all *Document* components here.
+The *PDF Document* element is a shell for your PDF template. You can insert all *Document* components here.
 
 // Explain: The "PDF Document" element as top element -> DONE
 == Document components
@@ -38,19 +38,20 @@ Header::
 Shell for the header area of your PDF template. See also Footer.
 
 Settings::
-Element to configure the settings of your PDF document. You can set the size of your page or set passwords for your users to access and edit the document.
+Element to configure the settings of your PDF template. You can set the size of your page or set passwords for
+your users to access and edit the template.
 
 Styles::
 Shell for collecting your *Style* elements.
 
 Watermark::
-Element to add a watermark to your PDF document. The watermark will appear on every page of your PDF document.
+Element to add a watermark to your PDF template. The watermark will appear on every page of your PDF template.
 
 == Elements components
 
 Canvas::
 Element to add a canvas to your PDF template.
-//Attributes NEED to be explained, this is really nowhere near user-friendly. Tried it here, please check @Fabian:
+//Attributes need to be explained specifically, this isn't really user-friendly. Tried it here, please check @Fabian:
 Attribute overview:
 +
 color: The filling color of the canvas
@@ -98,7 +99,7 @@ Element to add a new row to a table. Can be inserted in *Table* elements only.
 
 Text::
 Element to insert a simple text block to your PDF template. You can also add this element to *Footer*, *Header*, *Watermark*,
-*Columns*, *ListBulleted*, *ListNumbered* and *TableRow* elements. You can insert your text in the *text* attribute in the *Properties* pane.
+*Columns*, *ListBulleted*, *ListNumbered* and *TableRow* elements. You can insert static text in the *text* attribute in the *Properties* pane.
 
 == Related topics
 

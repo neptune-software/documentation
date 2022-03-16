@@ -1,0 +1,16 @@
+= Call a PDF template
+
+In this topic, you learn how to call a PDF template.
+You can use an existing PDF template from a workflow or an application.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. Click...
+. Click...
+
+== Results
+* You have called a PDf template.
+
+== Related topics

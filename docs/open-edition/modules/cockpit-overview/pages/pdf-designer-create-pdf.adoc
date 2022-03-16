@@ -1,6 +1,6 @@
-= Create a PDF document
+= Download a PDF document
 
-In this topic, you learn how to create a PDF document that you can download on your computer.
+In this topic, you learn how to download a PDF template as a PDF document to your computer.
 //Explain here what the "Test Data" are.
 //@Fabian: added in edit-template topic.
 
@@ -15,8 +15,8 @@ In this topic, you learn how to create a PDF document that you can download on y
 image:pdf-designer-preview.png[width=200]
 +
 *Result*: A preview of your PDF template is shown.
-//To check with Hendrik why it does not work for Fabian...
 . Click the *Save* Icon.
+//@Fabian: how do we deal with the different UI in Edge/Chrome? Should we write a section for each Browser?
 +
 image:pdf-designer-save-document.png[width=400]
 +
@@ -27,7 +27,7 @@ image:pdf-designer-save-document.png[width=400]
 *Result*: Your PDF document is downloaded.
 
 == Results
-* You have created a PDF document and downloaded it to your computer.
+* You have downloaded a PDF template as a PDF document to your computer.
 
 == Related topics
 * xref:pdf-designer.adoc[PDF Designer]

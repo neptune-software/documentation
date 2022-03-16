@@ -62,7 +62,17 @@ image:pdf-designer-template-refreshicon.png[width=400]
 +
 *Result*: The properties of the element are shown in the *Properties* pane.
 . Configure the properties of the element in the *Properties* pane.
-. To add text to a *Text* element, insert the text you want to display into the *text* attribute.
+. To add static text to a *Text* element, insert the text you want to display into the *text* attribute.
+. To bind an interface to an attribute of the element, click the *connected* icon.
++
+*Result*: A new window opens.
++
+. Click the interface you want to bind to the attribute.
++
+[TIP]
+====
+To define an interface, see xref:pdf-designer-settings.adoc[PDF designer settings].
+====
 
 == Results
 * You have edited a PDF template.

@@ -6,7 +6,7 @@ You can create PDF templates that reflect your own brand and requirements.
 You can add images, watermarks, QR codes, tables, headers, footers, and apply your own styles.
 //TODO Neptune: Where you can use that tool? From where can you call the tool?
 
-You can call a PDF template with a server script to build a PDF document.
+You can call a PDF template with a server script from a workflow or an application to build a PDF document.
 
 == PDF Designer interface at a glance
 
@@ -32,10 +32,10 @@ The side navigation includes the following items:
 image:pdf-designer-glance-menu-toggle.png[width=200]
 
 *Settings*::
-You can configure the PDF document settings. For more information see xref:pdf-designer-settings.adoc[PDF designer settings].
+You can configure the PDF template settings. For more information see xref:pdf-designer-settings.adoc[PDF designer settings].
 
 *Designer*::
-You start here when you open the _PDF Designer_. You can create your document.
+You start here when you open the _PDF Designer_. You can create your template.
 
 === Component library
 
@@ -67,7 +67,8 @@ image:pdf-designer-template-refreshicon.png[width=400]
 === Properties
 
 The *Properties* pane shows the attributes of a component.
-You can define properties or events to change the layout and behavior of a component in your document. You can also insert the content for a *Text* element in the *text* attribute here.
+You can define properties or events to change the layout and behavior of a component in your document.
+You can also insert static content for a *Text* element in the *text* attribute here.
 
 image:pdf-designer-property-panel.png[width=300]
 
@@ -78,7 +79,8 @@ image:pdf-designer-property-panel.png[width=300]
 ** xref:pdf-designer-create-template.adoc[Create a new PDF template]
 ** xref:pdf-designer-open-template.adoc[Open a PDF template]
 ** xref:pdf-designer-edit-template.adoc[Edit a PDF template]
-* xref:pdf-designer-create-pdf.adoc[Create a PDF document]
+** xref:pdf-designer-calling-template.adoc[Call a PDF template]
+* xref:pdf-designer-create-pdf.adoc[Download a PDF document]
 * xref:pdf-designer-export-template.adoc[Export a PDF template]
 * xref:pdf-designer-import-template.adoc[Import a PDF template]
 

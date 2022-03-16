@@ -1,7 +1,8 @@
 = PDF designer settings
 
-In the *PDF Document Settings* tab, you can configure the settings of your PDF document according to your needs. You can disable your document or add an interface to connect your document.
-//TODO: @Neptune How does this work? What is the interface for?
+In the *PDF Document Settings* tab, you can configure the settings of your PDF template according to your needs.
+You can disable your template or add interfaces to your template. An interface is used to insert data into your PDF template when calling it from a server script.
+
 
 [TIP]
 ====
