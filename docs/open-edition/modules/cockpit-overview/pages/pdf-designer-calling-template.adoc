@@ -7,10 +7,12 @@ You can use an existing PDF template from a workflow or an application.
 * There are no prerequisites.
 
 == Procedure
-. Click...
-. Click...
+. You can use the following code snippet to call a PDF template:
 
 == Results
 * You have called a PDf template.
 
 == Related topics
+* xref:pdf-designer.adoc[]
+* xref:pdf-designer-edit-template.adoc[]
+* xref:pdf-designer-settings.adoc[]
