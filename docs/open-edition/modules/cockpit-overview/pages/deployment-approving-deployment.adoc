@@ -1,0 +1,19 @@
+In this topic, you learn how you approve deployment packages that you want to transfer to a remote system.
+
+== Prerequisites
+* A deployment authentication is set in *Settings* > *Custom settings*.
+//Provide a link to the topic.
+
+== Procedure
+. Open Neptune DXP - Open Edition cockpit, navigate to *Deployment*, and click *Deployment Approve*.
++
+image:deployment-approve-overview.png[,800]
++
+*Result*: The deployment approve window opens.
+. In the drop-down menu *Status*, select *New*.
+. In the *Status* column, click the package that you want to approve.
++
+image:deployment-approve-window.png[,600]]
++
+*Result*: The deploy window opens.
++

@@ -1,0 +1,11 @@
+= image:deployment-approve.png[,100]Deployment Approve
+
+With _Deployment Approve_ you approve deployment packages for transfer.
+The deployment process stops at each point where approval is mandatory until the specified approver approves or rejects the packages to release.
+To define a approval authentication, go to *Settings* > *Custom settings*.
+
+image:deployment-approve-overview.png[,800]
+
+== Related topics
+
+* xref:deployment-approving-deployment.adoc[Approving a deployment]

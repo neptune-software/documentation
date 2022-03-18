@@ -14,7 +14,7 @@ When using routes, you can transfer your package to any targeted system with one
 * Before you start a deployment process, make sure that the remote server system you want to send the deployment packages to is available.
 How to set up a remote system, see Remote System Setup.
 //Todo Gernot link page Remote System
-* You have selected a deployment authentication in *Settings* > *Custom settings*.
+* Optional: A deployment authentication is set in *Settings* > *Custom settings*.
 //Provide a link to the topic.
 
 == Procedure
@@ -73,4 +73,5 @@ If you selected a route or a target system before, you can choose between *Creat
 //Only shows up if you select a deployment package in system
 +
 *Result*: Depending on the steps you took before, _Deployment Create_ creates packages, that must be approved or _Deployment Create_ creates packages and transfers them to the selected remote system (for approval?).
+//This will create your deployment package. Deployment Package will ask approval or transfer according to the deployment authentication selected in settings -> customization component.
 //todo check again what's happening

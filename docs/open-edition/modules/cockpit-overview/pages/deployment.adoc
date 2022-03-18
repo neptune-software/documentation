@@ -11,7 +11,7 @@ image:deployment-overview.png[,600]
 == Related Topics
 
 * xref:deployment-creation.adoc[Deployment Create]
-* Deployment Approve
+* xref:deployment-approve.adoc[Deployment Approve]
 * Deployment Transfer
 * Deployment Routes
 * Deployment Log
