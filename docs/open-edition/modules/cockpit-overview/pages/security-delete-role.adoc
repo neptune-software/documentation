@@ -1,6 +1,6 @@
 = Delete an existing role
 
-In this topic, you learn how to delete an existing role when its no longer needed.
+In this topic, you learn how to delete an existing role when it's no longer needed.
 
 == Prerequisites
 * There are no prerequisites.

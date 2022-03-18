@@ -1,6 +1,6 @@
 = Delete an existing authentication method
 
-In this topic, you learn how to delete an existing authentication method when its no longer needed.
+In this topic, you learn how to delete an existing authentication method when it's no longer needed.
 
 == Prerequisites
 * There are no prerequisites.
