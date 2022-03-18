@@ -1,3 +1,4 @@
+//Fabian: I would not use an own topic for this but put it in the settings topic. But depends on input from Hendrik.
 = Call a PDF template
 
 In this topic, you learn how to call a PDF template.

@@ -16,7 +16,7 @@ In this topic, you learn how to create a new PDF template.
 +
 image:pdf-designer-create-template.png[width=400]
 +
-*Result*: A new window opens.
+*Result*: A new dialog opens.
 +
 image:pdf-designer-create-template2.png[width=400]
 . Enter a name for your template.
@@ -28,5 +28,5 @@ image:pdf-designer-create-template2.png[width=400]
 
 == Related topics
 * xref:pdf-designer.adoc[PDF Designer]
-* xref:pdf-designer-open-template.adoc[Open a PDF template]
-* xref:pdf-designer-edit-template.adoc[Edit a PDF template]
+* xref:pdf-designer-open-template.adoc[]
+* xref:pdf-designer-edit-template.adoc[]

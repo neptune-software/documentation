@@ -11,11 +11,11 @@ In this topic, you learn how to open an existing PDF template.
 +
 *Result*: A new tab opens.
 
-. In the *PDF* dropdown, click *Open*.
+. In the *PDF* drop-down menu, click *Open*.
 +
 image:pdf-designer-open-template.png[width=400]
 +
-*Result*: A new window opens.
+*Result*: A new dialog opens.
 
 . Click on the PDF template you want to edit.
 +
@@ -27,5 +27,5 @@ image:pdf-designer-open-template.png[width=400]
 
 == Related topics
 * xref:pdf-designer.adoc[PDF Designer]
-* xref:pdf-designer-create-template.adoc[Create a new PDF template]
-* xref:pdf-designer-edit-template.adoc[Edit a PDF template]
+* xref:pdf-designer-create-template.adoc[]
+* xref:pdf-designer-edit-template.adoc[]
