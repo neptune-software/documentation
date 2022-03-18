@@ -1,24 +1,25 @@
-= image:adaptive-app-designer.png[width=100,link="adaptive-designer-icon.png"]Adaptive Designer
+= image:adaptive-designer-service-icon.png[width=100,link="adaptive-designer-service-icon.png"]Adaptive Designer
 
-Create adaptive applications.
-//TODO Leonie: Think of replacing the service description from tile completely in this case.
-Create responsive, customizable, and functional applications with the no-code _Adaptive Designer_. Provide your adaptive applications in multiple machine-translated languages using the integrated translation API.
-//TODO Neptune: What API is it exactly?
+//Leonie: Extended the very basic service short description from its tile in the following.
+Create applications in a no-code adaptive framework with _Adaptive Designer_.
+
+Provide your adaptive applications in multiple machine-translated languages using the Google Translate API.
 
 == Adaptive framework
 The adaptive framework supports no-code development of adaptive applications in _Adaptive Designer_ using adaptive templates and predefined data sources.
 
 //TODO Leonie: nice to have overview graphic containing data sources, connector, adaptive designer, launchpad, store, adaptive templates
 
-//TODO Leonie: Polish following paragraph; fix Launchpad terminology; basically explain the nice-to-have graphic before (data sources, connector, adaptive designer, launchpad, store, adaptive templates)
-A database or a server script provides the data for the applications.
-Templates provide the configuration metadata.
-Templates and database/server script connection combined enable the output of adaptive applications that can run on the __Launchpad__ alongside any other application.
+Predefined data sources:: A table or a server script is a predefined data source that provides the data for the adaptive applications in the adaptive framework. You can publish tables and server scripts in the _Connector_ service to use them in _Adaptive Designer_. Additionally, you can import tables from Excel.
 
-//TODO Leonie: Fill following section and think of outsourcing it
-== Translation
+Adaptive templates:: Adaptive templates provide the configuration metadata for your adaptive applications. You can download adaptive templates in the application building block Adaptive Framework from the _Store_.
+
+Design adaptive applications:: You create, adapt, and translate your adaptive applications in _Adaptive Designer_ representing the central service in your adaptive framework.
+
+Run adaptive applications:: In combination, an adaptive template and a predefined data source enable the creation and output of adaptive applications. With the _Launchpad_ service, the adaptive applications can be integrated in a launchpad and run alongside any other applications.
 
 == Related topics
-* xref:: adaptive-designer-user-interface-at-a-glance.adoc[User interface at a glance]
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-adaptive-templates.adoc[]
 
 //TODO Leonie: Long list of related topics to come -> all high-level topics?

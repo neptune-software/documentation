@@ -22,7 +22,8 @@ Adaptive tile templates::
 //TODO Leonie: prepare slice and dice terminology; real Names to be used in list? add to terminology list;
 
 Use the adaptive application templates to build adaptive applications that you can start from their tiles in any launchpad where the adaptive applications are integrated.
-Use the adaptive tile templates to create adaptive applications that run in adaptive tiles. Meaning, the application is directly running within the tile in any launchpad where the adaptive applications are integrated.
+
+Use the adaptive tile templates to create adaptive applications that run in adaptive tiles. Meaning, the adaptive application is directly running within the tile in any launchpad where the adaptive application is integrated.
 
 == Related topics
 

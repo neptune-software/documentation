@@ -1,0 +1,16 @@
+= Data sources
+
+Predefined data sources are essential to the adaptive framework. A table or a server script provides the data for the adaptive applications in the adaptive framework. You have two options to use data sources in _Adaptive Designer_:
+
+* You can publish tables and server scripts as data sources in the _Connector_ service.
+* You can import tables from Excel.
+
+Using tables as data source in _Adaptive Designer_ requires no code for you to get started. The table metadata such as heading, columns, and so on is automatically imported into the component library.
+
+Using server scripts as data source in _Adaptive Designer_ provides more flexibility. You can connect to any data source integrating an API into your server script. However, this assumes a basic knowledge of APIs and server scripts.
+
+== Related topics
+//TODO Leonie: add links to MS Excel import and to Table Definition service or directly to task
+* xref:connectors.adoc[Connector]
+* xref:adaptive-designer-create-an-application-based-on-a-table-definition.adoc[]
+* xref:adaptive-designer-create-an-adaptive-application-based-on-a-server-script.adoc[]

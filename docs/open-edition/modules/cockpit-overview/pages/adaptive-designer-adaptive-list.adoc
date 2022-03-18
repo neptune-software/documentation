@@ -1,3 +1,16 @@
 = Adaptive list
 
-//TODO Leonie: Fill topic
+The adaptive list template provides functionalities to create an adaptive application in _Adaptive Designer_ based on the predefined data sources.
+In the resulting adaptive application, you can manage data sets in a list-like display. For example:
+
+* Display your data set.
+* Sort and filter for specific criteria.
+* Run a full text search.
+
+//TODO Leonie: Add SUI of an adaptive application based on the adaptive list template
+
+== Related topics
+
+* xref:adaptive-designer-adaptive-templates.adoc[]
+* xref:adaptive-designer.adoc[Adaptive Designer]
+

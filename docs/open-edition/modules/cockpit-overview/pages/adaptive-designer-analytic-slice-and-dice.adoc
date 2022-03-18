@@ -1,3 +1,12 @@
 = Analytic slice and dice
 
-//TODO Leonie: Fill topic
+The analytic slice and dice template provides functionalities to create an adaptive application in _Adaptive Designer_ based on the predefined data sources.
+
+The resulting adaptive application visualizes aggregated data in different chart types that you can choose from and further edit.
+
+//TODO Leonie: Add SUI
+
+== Related topics
+
+* xref:adaptive-designer-adaptive-templates.adoc[]
+* xref:adaptive-designer.adoc[Adaptive Designer]

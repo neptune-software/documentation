@@ -1,0 +1,27 @@
+= Create an adaptive application based on a server script
+
+Using server scripts as data source in _Adaptive Designer_ provides more flexibility. You can connect to any data source integrating an API into your server script. To build an adaptive application based on a server script, actually two server scripts are required to create a server script that can be connected to _Adaptive Designer_:
+
+* One script providing the metadata that fills the component library with application components.
+* One script providing the runtime, when the adaptive application triggers the data call.
+
+== Prerequisites
+
+* You have created and published the required server script in the _Connector_ service.
+
+== Procedure
+
+1. In the shell bar, open the *Application* drop-down menu.
+2. Go to *Create*.
+3. Name your adaptive application.
+4. Choose the adaptive template for your adaptive application.
+5. In the field *Connector*, choose your server script.
+
+== Result
+
+* You have created an adaptive application based on a server script.
+
+== Related topics
+//TODO Leonie: Consider links directly to related tasks
+* xref:adaptive-designer-data-sources.adoc[]
+* xref:connectors.adoc[Connector]

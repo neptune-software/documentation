@@ -1,3 +1,13 @@
 = Adaptive tile chart
 
-//TODO Leonie: Fill topic
+The adaptive tile chart template provides functionalities to create an adaptive application in _Adaptive Designer_ based on the predefined data sources that runs directly within a tile in a launchpad.
+
+The resulting adaptive application displays real-time data in a specific chart similar to adaptive applications created with the analytic slice and dice template. However, you cannot further customize or edit the visualized data on the tile.
+
+//TODO Leonie: Add SUI
+
+== Related topics
+
+* xref:adaptive-designer-adaptive-templates.adoc[]
+* xref:adaptive-designer-analytic-slice-and-dice.adoc[]
+* xref:adaptive-designer.adoc[Adaptive Designer]
