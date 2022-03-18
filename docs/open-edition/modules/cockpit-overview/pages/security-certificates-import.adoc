@@ -1,0 +1,26 @@
+= Import a certificate
+
+In this topic, you learn how to import a certificate.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Security* and click _Certificates_.
++
+*Result*: A list with all existing authentication certificates is shown.
+. Click *Add*.
+. In the *General* tab, enter a name for the certificate.
+. You can enter a description and choose a package for the certificate.
+. Click *Import Existing Certificate*.
+. Enter the *Certificate*, *Private Key* and *Public Key* information of the certificate you want to import.
+. Click *Import*.
+
+== Results
+* You have imported an existing certificate.
+
+== Related topics
+* xref:security-certificates.adoc[Certificates]
+* xref:security-certificates-generate.adoc[Generate a new certificate]
+* xref:security-certificates-delete.adoc[Delete a certificate]
