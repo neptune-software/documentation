@@ -30,7 +30,7 @@ image:pdf-designer-interface-add.png[width=500]
 image:pdf-designer-interface-import.png[width=500]
 . Enter the JSON data you want to import.
 . Click  *Import*.
-+
+
 
 == Results
 * You have imported an interface.

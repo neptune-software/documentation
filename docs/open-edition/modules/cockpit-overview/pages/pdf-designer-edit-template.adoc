@@ -76,5 +76,5 @@ image:pdf-designer-template-refreshicon.png[width=400]
 * xref:pdf-designer-create-template.adoc[]
 * xref:pdf-designer-open-template.adoc[]
 * xref:pdf-designer-create-pdf.adoc[]
-* xref:pdf-designer-elements.adoc[].
-* xref:pdf-designer-settings.adoc[].
+* xref:pdf-designer-elements.adoc[]
+* xref:pdf-designer-settings.adoc[]

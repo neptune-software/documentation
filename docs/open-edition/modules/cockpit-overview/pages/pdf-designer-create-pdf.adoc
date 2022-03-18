@@ -28,5 +28,5 @@ image:pdf-designer-save-document.png[width=400]
 
 == Related topics
 * xref:pdf-designer.adoc[PDF Designer]
-* xref:pdf-designer-create-template.adoc[Create a new PDF template]
-* xref:pdf-designer-edit-template.adoc[Edit a PDF template]
+* xref:pdf-designer-create-template.adoc[]
+* xref:pdf-designer-edit-template.adoc[]

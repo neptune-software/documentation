@@ -93,6 +93,6 @@ Element to insert a text block to your PDF template. You can also add this eleme
 
 == Related topics
 
-* xref:pdf-designer-create-pdf.adoc[Create a new PDF template]
-* xref:pdf-designer-edit-template.adoc[Edit a PDF template]
+* xref:pdf-designer-create-pdf.adoc[]
+* xref:pdf-designer-edit-template.adoc[]
 * xref:pdf-designer.adoc[PDF Designer]
