@@ -1,0 +1,10 @@
+= image:workflow-task-action.png[width=100] Task Action
+
+With _Task Action_, you can...
+
+== Related topics
+
+* xref:workflow.adoc[]
+//* xref:add task action
+//* xref:edit task action
+//* xref:delete task action

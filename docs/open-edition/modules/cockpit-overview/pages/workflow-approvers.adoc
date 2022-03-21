@@ -1,0 +1,11 @@
+= image:workflow-approvers.png[width=100] Approvers
+
+With _Approvers_, you can create a list of approvers for a workflow or a task.
+// or assign approvers to a workflow?
+
+== Related topics
+
+* xref:workflow.adoc[]
+//* xref:add approver
+//* xref:edit approver
+//* xref:delete approver

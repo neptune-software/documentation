@@ -1,0 +1,12 @@
+= image:workflow-definition.png[width=100] Definition
+
+With _Definition_, you can define the actions of a workflow.
+You can add a new workflow or edit an existing workflow.
+
+== Related topics
+
+* xref:workflow.adoc[]
+//* xref: add workflow
+//* xref: edit workflow
+//* xref: delete workflow
+//* xref: javascript snippet?

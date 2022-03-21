@@ -1,0 +1,10 @@
+= image:workflow-substitution.png[width=100] Substitutions
+
+With _Substitutions_, you can create a substitution for an approver.
+
+== Related topics
+
+* xref:workflow.adoc[]
+//* xref:add substitution
+//* xref:edit substitution
+//* xref:delete substitution
