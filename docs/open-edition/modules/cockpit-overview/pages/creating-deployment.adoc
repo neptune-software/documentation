@@ -20,14 +20,11 @@ How to set up a remote system, see Remote System Setup.
 +
 image:create-deployment.png[,800]
 +
-*Result*: The deployment create window .
-
+*Result*: The deployment create window opens.
 . Click *System* or *Routes*.
-+
 . Depending on the option you selected, check on the list one or more systems or routes, and click *Start*.
 +
 TIP: If you want to create a deployment package for export only, do not select a system or route, just click *start*.
-
 +
 *Result*: The Deployment Create dialog opens.
 +
@@ -53,7 +50,6 @@ image:select-service.png[,600]
 . Check *Include relations* to add all the links/relations to selected artifacts.
 +
 For example, if you select *Launchpad*, and you check *Include relations*, all the artifacts connected to *Launchpad* like *Tile*, *Tile group*, *API*, etc., will be deployed as well.
-
 . Click *Create*.
 +
 *Result*: The Deploy window opens.
@@ -62,7 +58,8 @@ image:create-package-from-existing.png[,600]
 . Verify the packages you want to deploy by checking or unchecking artifacts.
 . Click *Create*.
 //Todo Hendrik: In this view, there is a transfer button available as well. Clicking it produces an error message. Button obsolete?
-*Result*:
+
+== Results
 * If you selected a route or system before, _Deployment Create_ creates a package that must be approved before transfer according to the deployment authentication selected in settings > customization component.
 * If you did not select a route or system before, _Deployment Create_ creates a package for export.
 

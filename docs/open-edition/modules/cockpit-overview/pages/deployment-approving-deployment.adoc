@@ -17,3 +17,11 @@ image:deployment-approve-window.png[,600]]
 +
 *Result*: The deploy window opens.
 +
+//Todo Hendrik Transfer button obsolete?
+. Check the listed development packages and artifacts.
+. Click *Accept* or *Decline*.
+
+== Results
+
+* If you have accepted to transfer the deployment package, it will be transfered to the system or systems.
+* If you declined to transfer the deployment package, the deployment package gets the status "declined" in the list in _Deployment Transfer_.
