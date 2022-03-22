@@ -11,9 +11,8 @@ The shell bar includes the following actions and functions:
 Application:: Open, create, delete, or copy adaptive applications.
 Import data sources from MS Excel or refresh the master data.
 Display/Edit:: Toggle *Edit* or *Display* mode.
-Save:: Save your adaptive application. This saves all changes but does not apply the changes to the preview.
-//TODO Neptune: Is this correct?
-Screen views:: Switch pane views.
+Save:: Save your adaptive application.
+Screen views:: Switch pane layout.
 +
 image:appdesigner-views-stack.png[width=45] Toggle the view of the component library and the application tree. Display them stacked in one pane or display them in panes side by side.
 +

@@ -12,7 +12,7 @@ The adaptive framework supports no-code development of adaptive applications in 
 
 Predefined data sources:: A table or a server script is a predefined data source that provides the data for the adaptive applications in the adaptive framework. You can publish tables and server scripts in the _Connector_ service to use them in _Adaptive Designer_. Additionally, you can import tables from Excel.
 
-Adaptive templates:: Adaptive templates provide the configuration metadata for your adaptive applications. You can download adaptive templates in the application building block Adaptive Framework from the _Store_.
+Adaptive templates:: Adaptive templates provide the configuration metadata for your adaptive applications. You can download adaptive templates in the application building block *Adaptive Framework* from the _Store_.
 
 Design adaptive applications:: You create, adapt, and translate your adaptive applications in _Adaptive Designer_ representing the central service in your adaptive framework.
 

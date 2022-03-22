@@ -9,6 +9,8 @@ In the resulting adaptive application, you can manage data sets in a list-like d
 
 //TODO Leonie: Add SUI of an adaptive application based on the adaptive list template
 
+//TODO Leonie: Add linking to edit
+
 == Related topics
 
 * xref:adaptive-designer-adaptive-templates.adoc[]

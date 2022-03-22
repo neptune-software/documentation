@@ -1,7 +1,7 @@
-= Properties
+= Settings / Properties
 
 The properties is a pane that displays properties of a selected component in the application tree when creating an application.
-//TODO Leonie: Create partial for upper part
+
 //TODO Leonie: Add SUI
 
 In the _Adaptive Designer_ properties, you can edit selected components in the application tree and see the results of your edited components in the preview.
