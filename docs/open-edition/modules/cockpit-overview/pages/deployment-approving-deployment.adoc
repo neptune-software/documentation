@@ -1,4 +1,4 @@
-In this topic, you learn how you approve deployment packages that you want to transfer to a remote system.
+In this topic, you learn how you approve the transfer of deployment packages to another  remote system.
 
 == Prerequisites
 * A deployment authentication is set in *Settings* > *Custom settings*.

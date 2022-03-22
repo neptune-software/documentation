@@ -2,16 +2,14 @@
 
 In this topic, you learn how you create deployment packages, how you deploy them from one system to another.
 
-You have two options to create and to deploy a deployment package:
+You have three options to create and to deploy a deployment package:
 
-* Create a deployment package and transferring it by selecting a route.
-+
-When using routes, you can transfer your package to any targeted system with one transfer process.
-* Create a deployment package and transferring it by selecting a system.
-//What's the difference between route and system when creating/transferring a deployment package?
+* Create a deployment package and transfer it to systems in a defined order with one transfer (route).
+* Create a deployment package and transfer it to one system or to different systems simultaneously.
+* Create a deployment package only for export.
 
 == Prerequisites
-* Before you start a deployment process, make sure that the remote server system you want to send the deployment packages to is available.
+* Before you start a deployment process, make sure that the system you want to send the deployment packages to is available.
 How to set up a remote system, see Remote System Setup.
 //Todo Gernot link page Remote System
 * Optional: A deployment authentication is set in *Settings* > *Custom settings*.
@@ -22,24 +20,22 @@ How to set up a remote system, see Remote System Setup.
 +
 image:create-deployment.png[,800]
 +
-*Result*: The deployment create window opens
+*Result*: The deployment create window .
 
 . Click *System* or *Routes*.
 +
-. Depending on the option you selected, check on the list one or more systems or routes, and click *Start*
+. Depending on the option you selected, check on the list one or more systems or routes, and click *Start*.
 +
-TIP: Do not check any system or route if someone must first approve the deployment packages you create. In this case, click *start*.
-//You do not have to select a route when pressing "Start"...
-//"name" is activated when checking more than 1 item. Why?
+TIP: If you want to create a deployment package for export only, do not select a system or route, just click *start*.
+
 +
 *Result*: The Deployment Create dialog opens.
 +
 image:deployment-create-overview.png[,600]
 
-. Click *Packages* to select already existing packages.
+. Click *Packages* to select already existing development packages.
 +
 TIP: The number next to *Packages* indicates the number of available packages.
-//Use TIP
 +
 . Check the package or packages you want to deploy.
 +
@@ -47,15 +43,15 @@ TIP: The number next to *Packages* indicates the number of available packages.
 In the example, *Launchpad* from the *Administration* service group is selected.
 //todo introduce service group?
 +
-TIP: The number next to the service indicates the number of available artefacts.
+TIP: The number next to the service indicates the number of available artifacts.
 +
 *Result* _Deployment create_ shows a list of all artifacts of the selected service.
 +
 image:select-service.png[,600]
 . Check the artifacts you want to add.
 +
-
-. To add all the links/relations to selected artifacts, check *Include relations*.
+. Check *Include relations* to add all the links/relations to selected artifacts.
++
 For example, if you select *Launchpad*, and you check *Include relations*, all the artifacts connected to *Launchpad* like *Tile*, *Tile group*, *API*, etc., will be deployed as well.
 
 . Click *Create*.
@@ -63,15 +59,14 @@ For example, if you select *Launchpad*, and you check *Include relations*, all t
 *Result*: The Deploy window opens.
 +
 image:create-package-from-existing.png[,600]
-
 . Verify the packages you want to deploy by checking or unchecking artifacts.
-. If you did not select a route or a target system before, click *Create*. There is no other option available.
-If you selected a route or a target system before, you can choose between *Create* or *Transfer*.
-* Click *Create* to create the deployment package that must be approved.
-* Click *Transfer* to create the deployment package and deploy it on the selected target system.
-//What about "Transfer" next to "Create"?
-//Only shows up if you select a deployment package in system
-+
-*Result*: Depending on the steps you took before, _Deployment Create_ creates packages, that must be approved or _Deployment Create_ creates packages and transfers them to the selected remote system (for approval?).
-//This will create your deployment package. Deployment Package will ask approval or transfer according to the deployment authentication selected in settings -> customization component.
-//todo check again what's happening
+. Click *Create*.
+//Todo Hendrik: In this view, there is a transfer button available as well. Clicking it produces an error message. Button obsolete?
+*Result*:
+* If you selected a route or system before, _Deployment Create_ creates a package that must be approved before transfer according to the deployment authentication selected in settings > customization component.
+* If you did not select a route or system before, _Deployment Create_ creates a package for export.
+
+== Related topics
+
+* xref:deployment-transfer.adoc[Export a deployment package]
+// no further related topics here. You don't approve your own packages

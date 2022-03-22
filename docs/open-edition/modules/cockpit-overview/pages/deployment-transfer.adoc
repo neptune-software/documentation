@@ -1,0 +1,4 @@
+= image:deployment-transfer.png[,60] Deployment Transfer
+
+With _Deployment Transfer_, you export deployment packages. To export means that these packages leave the system and are not handled in the usual transfer process that demands approvals. When you export a deployment package, _Deployment Transfer_ creates .zip files out of the deployment packages.
+//Todo hendrik: is it correct that you can export any deployment packages? Even the ones that are transfered to systems?
