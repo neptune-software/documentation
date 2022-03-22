@@ -54,13 +54,13 @@ Example::
 Navigate to *Cockpit* > *Security* > *Role* and check *ACL* for new functions delivered in the new version.
 
 == Pane
-* Capitalize the name of the pane and write in bold
-* Do not capitalize the word pane and do not write in bold
+* Do not capitalize the name of the pane or write it in bold
+* Do not write in bold any terms that do not appear on the interface
 
 //necessary comment to render description list.
 
 Example::
-The *Component properties* pane shows the attributes of a component.
+The component properties pane shows the attributes of a component.
 
 == Code and code snippets
 Use the following syntax:
