@@ -1,0 +1,29 @@
+= Add a new substitution
+
+In this topic, you learn how to add a new subsitution for an approver.
+If an approver of a workflow is temporarily unavailable, you need to configure a substitution.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Workflow* and click _Substitutions_.
+. CLick *Add*.
+. Select the user you want to use as a substitution.
+. Select the user you want to substitute.
+. Select a timespan for the substitution.
+. Toggle the *Activate* toggle switch.
+// TODO Fabian:couldn't find it in terminology, is this the right name for the UI element?
+// TODO Neptune: UI is in german: "AN" and "AUS".
+. CLick *Save*.
+
+== Results
+
+* You have added a new substitution.
+
+== Related topics
+
+* xref:workflow.adoc[]
+* xref:workflow-substitutions.adoc[Substitutions]
