@@ -1,6 +1,7 @@
 = Create an adaptive application based on a table definition
 
-Using table definitions as data source in _Adaptive Designer_ requires no code for you to get started. The table metadata such as heading, columns, and so on is automatically imported into the component library.
+Using table definitions as data source in _Adaptive Designer_ requires no code for you to get started.
+The table metadata such as heading, columns, and so on is automatically imported into the component library.
 
 == Prerequisites
 
@@ -9,11 +10,11 @@ Using table definitions as data source in _Adaptive Designer_ requires no code f
 
 == Procedure
 
-1. In the shell bar, open the *Application* drop-down menu.
-2. Go to *Create*.
-3. Name your adaptive application.
-4. Choose the adaptive template for your adaptive application.
-5. In the field *Connector*, choose your table definition.
+. In the shell bar, open the *Application* drop-down menu.
+. Go to *Create*.
+. Name your adaptive application.
+. Choose the adaptive template for your adaptive application.
+. In the field *Connector*, choose your table definition.
 
 == Result
 
