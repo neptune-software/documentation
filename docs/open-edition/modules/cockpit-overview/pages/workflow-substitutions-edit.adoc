@@ -1,0 +1,24 @@
+= Edit a substitution
+
+In this topic, you learn how to edit a subsitution for an approver.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Workflow* and click _Substitutions_.
++
+*Result*: A list of all existing substitutions is shown.
+. Click on the substitution you want to edit.
+. Click *Save*.
+
+== Results
+
+* You have edited a substitution.
+
+== Related topics
+
+* xref:workflow.adoc[]
+* xref:workflow-substitutions.adoc[Substitutions]
