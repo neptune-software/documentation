@@ -4,7 +4,7 @@ The adaptive tile template table provides functionalities to create an adaptive 
 
 The resulting adaptive application displays real-time data in a list-like display similar to adaptive applications created with the analytic list template. However, you cannot further customize or edit the data set on the tile, except from sorting it.
 
-//TODO Leonie: Add SUI
+image::adaptive-designer-adaptive-tile-table.png[width=400]
 
 == Related topics
 

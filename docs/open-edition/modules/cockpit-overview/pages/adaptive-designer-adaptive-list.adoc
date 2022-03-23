@@ -9,7 +9,7 @@ In the resulting adaptive application, you can manage data sets in a list-like d
 
 Optionally, you can link adaptive applications created with the adaptive list template to adaptive applications created with the adaptive edit template.
 
-//TODO Leonie: Add SUI of an adaptive application based on the adaptive list template
+image::adaptive-designer-adaptive-list.png[width=800]
 
 == Related topics
 

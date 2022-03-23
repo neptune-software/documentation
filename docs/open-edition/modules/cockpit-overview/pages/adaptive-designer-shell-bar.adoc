@@ -2,10 +2,10 @@
 
 The shell bar is the uppermost part of the user interface. It is always visible and gives access to various actions and functions.
 
-//TODO Leonie: Add SUI of shell bar
+image::adaptive-designer-user-interface-shell-bar.png[width=800]
+
 //TODO Leonie: Create Partial for upper part
 
-//TODO Leonie: Fill with more service-specific items: Definition list with Application, Edit, etc...
 The shell bar includes the following actions and functions:
 
 Application:: Open, create, delete, or copy adaptive applications.
@@ -17,10 +17,10 @@ Screen views:: Switch pane layout.
 image:appdesigner-views-stack.png[width=45] Toggle the view of the component library and the application tree. Display them stacked in one pane or display them in panes side by side.
 +
 image:cockpit-overview:appdesigner-views-switch.png[width=45]
-Switch the preview pane with the properties pane.
+Switch the preview pane with the settings/properties pane.
 +
 image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
-Hide the properties pane.
+Hide the settings/properties pane.
 
 == Related topics
 

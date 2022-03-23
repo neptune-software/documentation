@@ -2,7 +2,8 @@
 
 The _Adaptive Designer_ user interface consists of the following main elements:
 
-//TODO Leonie: add SUI
+
+image::adaptive-designer-user-interface.png[width=800]
 
 * xref:adaptive-designer-shell-bar.adoc[]
 * xref:adaptive-designer-side-navigation.adoc[]

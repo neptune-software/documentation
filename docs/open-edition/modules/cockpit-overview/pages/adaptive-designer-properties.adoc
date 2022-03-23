@@ -2,7 +2,7 @@
 
 The settings/properties is a pane that displays settings and properties of a selected component in the application tree when creating an application.
 
-//TODO Leonie: Add SUI
+image::adaptive-designer-user-interface-settings-properties.png[width=800]
 
 In the _Adaptive Designer_ settings/properties, you can edit selected components in the application tree and see the results of your edited components in the preview.
 

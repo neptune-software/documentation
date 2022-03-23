@@ -4,7 +4,9 @@ The analytic slice and dice template provides functionalities to create an adapt
 
 The resulting adaptive application visualizes aggregated data in different chart types that you can choose from and further edit.
 
-//TODO Leonie: Add SUI
+image::adaptive-designer-analytic-slice-and-dice.png[width=400]
+
+//Todo Hendrik: Gibt es ein besseres Beispiel-Bild?
 
 == Related topics
 

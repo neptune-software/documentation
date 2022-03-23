@@ -1,6 +1,5 @@
-= image:adaptive-designer-service-icon.png[width=100,link="adaptive-designer-service-icon.png"]Adaptive Designer
+= image:adaptive-designer-service-icon.png[width=100]Adaptive Designer
 
-//Leonie: Extended the very basic service short description from its tile in the following.
 Create applications in a no-code adaptive framework with _Adaptive Designer_.
 
 Provide your adaptive applications in multiple machine-translated languages using the Google Translate API.

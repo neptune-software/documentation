@@ -1,7 +1,9 @@
 = Application tree
 
 The application tree is a pane that displays the components you used from the component library when creating your application. The used components are displayed hierarchically, and you can further edit them.
-//TODO Leonie: Add SUI
+
+image::adaptive-designer-user-interface-application-tree.png[width=800]
+
 //TODO Leonie: Create partial for upper part
 
 == Related topics

@@ -6,7 +6,7 @@ In the resulting adaptive application, you can create and update data sets in a 
 
 Optionally, you can link adaptive applications created with the adaptive edit template to adaptive applications created with the adaptive list template.
 
-//TODO Leonie: Add SUI
+image::adaptive-designer-adaptive-edit.png[width=800]
 
 == Related topics
 
