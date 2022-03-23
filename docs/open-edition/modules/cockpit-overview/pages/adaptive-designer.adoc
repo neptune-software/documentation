@@ -19,7 +19,10 @@ Design adaptive applications:: You create, adapt, and translate your adaptive ap
 Run adaptive applications:: In combination, an adaptive template and a predefined data source enable the creation and output of adaptive applications. With the _Launchpad_ service, the adaptive applications can be integrated in a launchpad and run alongside any other applications.
 
 == Related topics
-* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
 * xref:adaptive-designer-adaptive-templates.adoc[]
+* xref:adaptive-designer-data-sources.adoc[]
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-ways-to-create-adaptive-applications.adoc[]
+* xref:launchpad-concept.adoc[Launchpad]
 
-//TODO Leonie: Long list of related topics to come -> all high-level topics?
+//TODO Leonie: Add high-level links once they are ready to be published, such as translation, etc.

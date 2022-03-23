@@ -7,12 +7,13 @@ In the resulting adaptive application, you can manage data sets in a list-like d
 * Sort and filter for specific criteria.
 * Run a full text search.
 
-//TODO Leonie: Add SUI of an adaptive application based on the adaptive list template
+Optionally, you can link adaptive applications created with the adaptive list template to adaptive applications created with the adaptive edit template.
 
-//TODO Leonie: Add linking to edit
+//TODO Leonie: Add SUI of an adaptive application based on the adaptive list template
 
 == Related topics
 
 * xref:adaptive-designer-adaptive-templates.adoc[]
+* xref:adaptive-designer-adaptive-edit.adoc[]
 * xref:adaptive-designer.adoc[Adaptive Designer]
 
