@@ -1,6 +1,6 @@
 = Add a new group
 
-In this topic, you learn how to add a new group to your system.
+In this topic, you learn how to add a new group of users to your system.
 
 == Prerequisites
 * There are no prerequisites.
@@ -11,22 +11,25 @@ In this topic, you learn how to add a new group to your system.
 *Result*: You see a list of all available groups in the system.
 . Click *Add*.
 +
-*Result*: The group settings open.
+*Result*: The group settings wizard opens.
 +
 image:security-group-general.png[width=500]
 . In the *General* tab, enter a name for the group.
 . You can enter a description and choose a package for the group.
-. In the *Role* tab, you can add a role to the group.
+. In the *Role* tab, you can add a role that is valid for the group.
 +
 TIP: You can define roles in the _Role_ service.
 . In the *User* tab, you can assign users to the group.
++
+TIP: You can add users in the _User_ service.
 . Click *Save*.
 
 == Results
 * You have added a new group to your system.
 
 == Related topics
-* xref:security-edit-group.adoc[Edit an existing group]
-* xref:security-delete-group.adoc[Delete an existing group]
+* xref:security-edit-group.adoc[]
+* xref:security-delete-group.adoc[]
 * xref:security-group.adoc[Group]
 * xref:security-role.adoc[Role]
+* xref:security-user.adoc[User]

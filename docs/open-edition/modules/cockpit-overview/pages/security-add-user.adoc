@@ -26,15 +26,15 @@ TIP: You can define roles in the _Role_ service.
 . In the *API token* tab, you can generate an API token for the user.
 This is used to access Neptune API from an external server.
 // TODO Hendrik: is that correct?
-// TODO Neptune: GUI is in german ("an", "aus")
-// TODO Neptune: terminology in GUI inconsistent, API token/JWT token
+// TODO Neptune: GUI for the "enable" switch is in german ("an", "aus")
+// TODO Neptune: terminology in GUI inconsistent, API token/JWT token, is that done on purpose?
 . Click *Save*.
 
 == Results
 * You have added a new user to your system.
 
 == Related topics
-* xref:security-edit-user.adoc[Edit an existing user]
-* xref:security-delete-user.adoc[Delete an existing user]
+* xref:security-edit-user.adoc[]
+* xref:security-delete-user.adoc[]
 * xref:security-user.adoc[User]
 * xref:security-role.adoc[Role]

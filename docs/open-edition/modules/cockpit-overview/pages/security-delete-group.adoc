@@ -1,12 +1,11 @@
 = Delete an existing group
 
-In this topic, you learn how to delete an existing group when it's no longer needed.
+In this topic, you learn how to delete an existing group of users.
 
 == Prerequisites
 * There are no prerequisites.
 
 == Procedure
-
 . On the Cockpit, go to *Security* and click _Group_.
 +
 *Result*: The list of existing groups opens.
@@ -16,7 +15,7 @@ In this topic, you learn how to delete an existing group when it's no longer nee
 
 . Click *Edit*.
 +
-TIP: You might need to unlock the group. Click *Yes, it´s me, unlock*.
+TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
 +
 image:security-group-general2.png[width=500]
 . Click the *Delete* icon.
@@ -27,5 +26,5 @@ image:security-group-general2.png[width=500]
 
 == Related topics
 * xref:security-group.adoc[Group]
-* xref:security-add-group.adoc[Add a new group]
-* xref:security-edit-group.adoc[Edit an existing group]
+* xref:security-add-group.adoc[]
+* xref:security-edit-group.adoc[]

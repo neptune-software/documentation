@@ -1,18 +1,21 @@
 = Edit an existing group
 
-In this topic, you learn how to edit an existing group.
+In this topic, you learn how to edit an existing group of users.
 
 == Prerequisites
 * There are no prerequisites.
 
 == Procedure
-. In the list of existing groups, click on the group you want to edit.
+. On the Cockpit, go to *Security* and click _Group_.
 +
-*Result*: The group settings open.
+*Result*: The list of existing groups opens.
+. Click on the group you want to edit.
++
+*Result*: The group settings wizard opens.
 . Click *Edit*.
 +
-TIP: You might need to unlock the group. Click *Yes, it´s me, unlock*.
-. You can change the settings of the group in the *General*, *Role* and *User* tab.
+TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
+. You can change the settings of the group in the *General*, *Role*, and *User* tab.
 +
 image:security-group-general2.png[width=500]
 . Click *Save*.
@@ -22,5 +25,5 @@ image:security-group-general2.png[width=500]
 
 == Related topics
 * xref:security-group.adoc[Group]
-* xref:security-add-group.adoc[Add a new group]
-* xref:security-delete-group.adoc[Delete an existing group]
+* xref:security-add-group.adoc[]
+* xref:security-delete-group.adoc[]

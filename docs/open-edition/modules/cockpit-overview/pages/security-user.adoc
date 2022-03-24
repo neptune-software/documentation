@@ -6,6 +6,6 @@ You can add new users to your system and you can change the settings of existing
 
 == Related topics
 
-* xref:security-add-user.adoc[Add a new user]
-* xref:security-edit-user.adoc[Edit an existing user]
-* xref:security-delete-user.adoc[Delete an existing user]
+* xref:security-add-user.adoc[]
+* xref:security-edit-user.adoc[]
+* xref:security-delete-user.adoc[]

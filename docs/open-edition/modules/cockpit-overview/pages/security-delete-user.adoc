@@ -17,8 +17,9 @@ In this topic, you learn how to delete an existing user.
 image:security-user-general2.png[width=500]
 . Click *Edit*.
 +
-TIP: You might need to unlock the user. Click *Yes, it´s me, unlock*.
+TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
 . Click the *Delete* icon.
+//Insert Screenshot with the "delete" button
 . Confirm you want to delete the user.
 
 == Results
@@ -26,5 +27,5 @@ TIP: You might need to unlock the user. Click *Yes, it´s me, unlock*.
 
 == Related topics
 * xref:security-user.adoc[User]
-* xref:security-add-user.adoc[Add a new user]
-* xref:security-edit-user.adoc[Edit an existing user]
+* xref:security-add-user.adoc[]
+* xref:security-edit-user.adoc[]
