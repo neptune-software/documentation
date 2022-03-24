@@ -1,0 +1,52 @@
+= Create general structure
+
+In this step, you create a general structure for your application and add  a *Shell*, *App*, and other components.
+The *Shell* provides functionality and allows for visual adaptation of your application.
+The *App* provides a more detailed graphical user interface for your application.
+
+*Shell* and *App* build the base of Open UI5 any application you create with the DXP - Open Edition.
+//@Neptune: assumption, please check.
+//Neptune@Parson: *of any UI5 application you create...
+
+[NOTE]
+====
+The following steps use the component tree from the *Reusable component* panel to navigate to components.
+Instead of using the component tree you can also search for the component in the search field above the *Reusable component* panel.
+
+image::getting-started-guide:appdesigner-component-search2.png[width=400]
+====
+
+== Prerequisites
+
+* You have xref:app-from-scratch-first-configuration.adoc[done the first configuration of your application].
+
+== Procedure
+
+. On the side menu, click *Designer*.
+. On the *Reusable component* panel, open *sap.m* > *Application*.
+. Drag and drop the *Shell* component onto the *HTML5 Document* in the *Application component* panel.
+. Drag and drop the *App* component onto the *Shell* component in the *Application component* panel.
+. Drag and drop the *Page* component onto the *App* component in the *Application component* panel.
++
+image::appdesigner-shell-app-page.png[width=800]
+*Result*: You have created the general structure of your application.
+Each component is automatically renamed to *oShell*, *oApp*, or *oPage*.
++
+. Select the *oPage* component, and on the *UI object* panel, change the *Name* to "oPageStart".
+. On the *Component properties* panel, scroll to the *title* attribute and enter "Start Page".
+. On the top menu, click *Save* and *Activate*.
+
++
+image::getting-started-guide:appdesigner-top-side-menu-save-activate.png[width=400]
+
+
+== Results
+
+* You have created a general structure for your application.
+You have created a shell, an app, and a page.
++
+To preview your application, see xref:app-from-scratch-preview.adoc[].
+
+== Next steps
+
+* xref:app-from-scratch-integrate-data.adoc[]

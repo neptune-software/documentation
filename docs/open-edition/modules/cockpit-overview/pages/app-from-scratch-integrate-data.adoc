@@ -1,0 +1,52 @@
+= Integrate data from an API
+
+In this example, we use an API with equipment details.
+We integrate the data in a table for an exemplary equipment overview.
+
+== Prerequisites
+
+* You have xref:app-from-scratch-first-configuration.adoc[done the first configuration of your application].
+* You have xref:app-from-scratch-general-structure.adoc[created a general structure for your application].
+
+== Procedure
+
+. On the *Reusable component* panel, open *sap.m* > *Table Responsive* and drag and drop the *Table* component onto *oPageStart* in the *Application component* panel.
+. On the *UI object* panel, name your *Table* "oTableEquipment".
+. On the *Reusable component* panel, open *Resources* and drag and drop the *RestAPI* component onto *Resources* in the *Application component* panel.
+. On the *UI object* panel, click the *Rest API* field to open the *Rest API* library.
+. Search either for your API or *API 1equipment*.
+. Click on the operation with the *GET* *Method*.
++
+image::getting-started-guide:appdesigner-restapi-library-popup.png[width=800]
+//@Neptune: in my test runs the Operation field in the UI object panel was preselected when selecting the API. In the e-Learning, it needs to be set manually. Which one is the expected behaviour?
+//Neptune@Parson: In the Api selection dialog an api will be selected by choosing the operation you want to perform. So the operation will be filled automatically.
++
+*Result*: You have integrated a table and a *Rest API* and an *Operation*.
+Now you bind the *Rest API* to the table to display data in your table.
++
+. On the *UI object* panel, click the *API* tab and navigate to *Response* > *200*.
+. Click into the field that matches the *Operation* of your API and select your table from the list.
+In our example, it is "oTableEquipment".
+. On the *Model* tab, click into the *setInitLoad* field and select *online* from the list.
++
+image::getting-started-guide:appdesigner-componentproperties-restapi-model-online.png[width=400]
+. On the *Application component* panel, select *oTableEquipment*.
+. On the *UI object* panel, click into the *Model Source* field, and from the *Binding* pop-up window, select the property from your API.
+In our example, it is "1equipment".
+. Right-click *oTableEquipment*, and from the drop-down menu, select *Wizard* > *Insert Fields - Edit*.
+. In the *Wizard* window, check all properties you want to display in the table and click *Create*.
++
+image::getting-started-guide:appdesigner-table-sampleproperties.png[width=400]
++
+. On the top menu, click *Save* and *Activate*.
+
+*Result*: For each property you selected, a column component is added to your *Table* component.
+To see the changes, restart the preview as described in xref:app-from-scratch-preview.adoc[].
+
+== Results
+
+* You have integrated data from an API.
+
+== Next steps
+
+* xref:app-from-scratch-add-footer.adoc[]

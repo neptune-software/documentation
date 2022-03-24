@@ -1,0 +1,58 @@
+= Add a footer with a button
+
+== Prerequisites
+
+* You have xref:app-from-scratch-first-configuration.adoc[done the first configuration of your application].
+* You have xref:app-from-scratch-general-structure.adoc[created a general structure for your application].
+* You have xref:app-from-scratch-integrate-data.adoc[integrated data from an API].
+
+== Procedure
+
+. On the *Reusable component* panel, open *sap.m* > *Application* and drag and drop the *Bar* component onto *oPageStart* in the *Application component* panel.
+. From the pop-up menu that opens when you drop the component, select *Footer*.
++
+image::getting-started-guide:appdesigner-bar-footer.png[width=400]
++
+. On the *Reusable component panel*, open *sap.m* > *Application* and drag and drop the *BarContent* component onto *oBarFooter* in the *Application component* panel.
+. From the pop-up menu that opens when you drop the component, select *Middle*.
+. On the *Reusable component panel*, open *sap.m* > *Simple Controls* and drag and drop the *Button* component onto *Middle* in the *Application component* panel.
+. On the *Component properties* panel, open the *Properties* tab.
+. In *text*, enter "Update" and in *type*, select *Emphasized* from the list.
++
+*Result*: You have added a footer with a button to update the table.
+Now you add functionality to the button so that the button makes the API call rather than the table itself.
++
+. On the *Application component* panel, click *oRestAPI*.
+. In the *Attributes* tab on the *Component properties* panel, click into the *setInitLoad* field in *Model* and click *Clear*.
+//@Neptune: why do you first set it to online? Why do you clear it now? What happens behind the scenes?
+//Neptune@Parson: First the table it self calls the api when initiated. Later we add the api call to a button press event.
+. On the *Application component* panel, click *oButton*.
+. On the *Component properties* panel, open the *Events* tab and enter a name for the *press* event, for example "UpdatePress".
+. Click the *document-text* icon next to the name.
++
+image::getting-started-guide:appdesigner-componentproperties-document-text.png[width=400]
++
+*Result*: On the *Application preview* panel, the JavaScript editor opens.
++
+. In the JavaScript editor, right-click and select *Code Snippets*.
++
+image::getting-started-guide:appdesigner-javascript-codesnippets.png[width=800]
++
+. On the side menu of the *Code Snippets* window, open *API*, select *oRestAPI* and click *Copy*.
+. On the top menu, click *Save* and *Activate*.
+. Run a preview in a new browser tab or in the _App Designer_ as described in xref:app-from-scratch-preview.adoc[].
+. In the preview, click *Update* to show data in your table.
+
+== Results
+
+You have created an application to display and update information about equipment:
+
+* You have created an application with multiple components including a *Table* and a *Rest API*.
+* You have integrated data from an API.
+* You have created a button to update data in the table.
+
+== Related topics
+
+* xref:app-from-scratch.adoc[]
+* xref:app-with-template.adoc[]
+* xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
