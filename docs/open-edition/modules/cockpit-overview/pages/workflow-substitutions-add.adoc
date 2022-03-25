@@ -17,7 +17,7 @@ If an approver of a workflow is temporarily unavailable, you need to configure a
 . Toggle the *Activate* toggle switch.
 // TODO Fabian:couldn't find it in terminology, is this the right name for the UI element?
 // TODO Neptune: UI is in german: "AN" and "AUS".
-. CLick *Save*.
+. Click *Save*.
 
 == Results
 

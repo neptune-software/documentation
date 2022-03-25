@@ -1,0 +1,31 @@
+= Edit an approver
+
+In this topic, you learn how to edit an existing list of approvers.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Workflow* and click _Approvers_.
++
+*Result*: A list of all existing approver lists is shown.
+. Click on the list of approvers you want to edit.
+*Result*: The wizard opens in the *Approvers* tab.
+. Click *Edit*.
+. You can edit the settings of the assigned approvers.
+. You can click *Add* to assign new roles, groups or users.
+. In the *General* tab, you can change the name of the list of approvers.
+
+. Click *Save*.
+
+== Results
+
+* You have edited an existing list of approvers.
+
+== Related topics
+
+* xref:workflow-approvers.adoc[Approvers]
+** xref:workflow-approvers-add.adoc[]
+** xref:workflow-approvers-delete.adoc[]
