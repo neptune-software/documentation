@@ -6,15 +6,15 @@ In this topic, you learn how to edit an existing role.
 * There are no prerequisites.
 
 == Procedure
-
 . On the Cockpit, go to *Security* and click _Role_.
 +
-*Result*: A list with all existing roles is shown.
+*Result*: The list of existing roles opens.
 . Click on the role you want to edit.
+*Result*: The settings of the role open.
 . Click *Edit*.
 +
-TIP: You might need to unlock the role. Click *Yes, it´s me, unlock*.
-. You can change the settings of the role in the *General* and *ACL* tab.
+TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
+. You can change the settings of the role in the *General* tab, and the permissions granted by this rule in the *ACL* tab.
 . Click *Save*.
 
 == Results
@@ -22,5 +22,5 @@ TIP: You might need to unlock the role. Click *Yes, it´s me, unlock*.
 
 == Related topics
 * xref:security-role.adoc[Role]
-* xref:security-role-add.adoc[Add a new role]
-* xref:security-delete-role.adoc[Delete an existing role]
+* xref:security-role-add.adoc[]
+* xref:security-delete-role.adoc[]

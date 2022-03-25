@@ -2,7 +2,7 @@
 
 With _User_, you can view and manage the users of your system.
 
-You can add new users to your system and you can change the settings of existing users.
+You can add new users to your system and change the settings of existing users.
 
 == Related topics
 

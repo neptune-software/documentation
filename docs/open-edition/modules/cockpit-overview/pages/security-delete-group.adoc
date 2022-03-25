@@ -17,7 +17,7 @@ In this topic, you learn how to delete an existing group of users.
 +
 TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
 +
-image:security-group-general2.png[width=500]
+image:security-group-general2.png[width=400]
 . Click the *Delete* icon.
 . Confirm you want to delete the group.
 

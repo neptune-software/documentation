@@ -1,6 +1,6 @@
 = Edit an existing user
 
-In this topic, you learn how to edit an existing user and change the users password.
+In this topic, you learn how to edit an existing user and change the password of the user.
 
 == Prerequisites
 * There are no prerequisites.
@@ -12,6 +12,8 @@ In this topic, you learn how to edit an existing user and change the users passw
 . Click on the user you want to edit in the list of existing users.
 +
 *Result*: The settings of the user open.
++
+image:security-user-general2.png[width=400]
 . Click *Edit*.
 +
 TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.

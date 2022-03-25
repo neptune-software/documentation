@@ -8,17 +8,17 @@ In this topic, you learn how to add a new user to your system.
 == Procedure
 . On the Cockpit, go to *Security* and click _User_.
 +
-*Result*: You see a list of all available users in the system.
+*Result*: The list of existing users opens.
 . Click *Add*.
 +
-*Result*: The user settings wizard opens.
+*Result*: The settings of the user open.
 +
 image:security-user-general.png[width=400]
 . In the *General* tab, enter a username and a password for the user.
 . Choose the language of the user.
 //TODO Neptune: What happens if you choose another language than English?
 . You can add additional information about the user.
-. You can select a validity for the user. This is used, if you want the user to expire automatically after a certain timespan.
+. You can select a validity for the user. This is used, if you want the user to expire automatically after a certain period.
 . In the *Role* tab, you can add a role to the user.
 +
 TIP: You can define roles in the _Role_ service.

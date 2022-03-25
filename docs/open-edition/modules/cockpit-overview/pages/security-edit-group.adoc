@@ -11,11 +11,11 @@ In this topic, you learn how to edit an existing group of users.
 *Result*: The list of existing groups opens.
 . Click on the group you want to edit.
 +
-*Result*: The group settings wizard opens.
+*Result*: The settings of the group open.
 . Click *Edit*.
 +
 TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
-. You can change the settings of the group in the *General*, *Role*, and *User* tab.
+. You can change the settings of the group in the *General*, *Role*, and *User* tabs.
 +
 image:security-group-general2.png[width=500]
 . Click *Save*.
