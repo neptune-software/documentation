@@ -27,3 +27,5 @@ If an approver of a workflow is temporarily unavailable, you need to configure a
 
 * xref:workflow.adoc[]
 * xref:workflow-substitutions.adoc[Substitutions]
+** xref:workflow-substitutions-edit.adoc[]
+** xref:workflow-substitutions-delete.adoc[]

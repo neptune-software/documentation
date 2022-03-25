@@ -5,6 +5,6 @@ With _Substitutions_, you can create a substitution for an approver. This is use
 == Related topics
 
 * xref:workflow.adoc[]
-//* xref:add substitution
-//* xref:edit substitution
-//* xref:delete substitution
+* xref:workflow-substitutions-add.adoc[]
+* xref:workflow-substitutions-edit.adoc[]
+* xref:workflow-substitutions-delete.adoc[]
