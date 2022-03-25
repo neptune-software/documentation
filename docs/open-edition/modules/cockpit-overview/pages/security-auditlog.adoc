@@ -1,0 +1,10 @@
+= image:security-auditlog-icon.png[width=100] Audit Log
+
+With the _Audit Log_, you can monitor all cockpit activities regarding security.
+You can filter activities by date or affected service. You can also search for specific object IDs or users.
+
+//TODO Neptune: Fix german GUI overlay. When you click the blue info icon of an activity and try to close it, the overlay text is "ablehnen".
+
+== Related topics
+
+* xref:security-auditlog-export.adoc[]

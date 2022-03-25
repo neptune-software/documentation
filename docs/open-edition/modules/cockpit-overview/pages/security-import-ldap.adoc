@@ -1,0 +1,10 @@
+= image:security-importldap-icon.png[width=100] Import LDAP
+
+LDAP (Lightweight Directory Access Protocol) is a software protocol for enabling anyone to locate organizations,
+individuals, and other resources such as files and devices in a network, whether on the public internet or on a corporate intranet.
+
+With _Import LDAP_, you can import groups and users from LDAP.
+
+== Related topics
+* xref:security-import-ldap-group.adoc[Import a group from LDAP]
+* xref:security-import-ldap-user.adoc[Import a user from LDAP]
