@@ -1,18 +1,17 @@
-= image::swagger-ui-icon.png[width=100,link="swagger-ui-icon.png"] Swagger UI
+= image:swagger-ui-icon.png[width=100]Swagger UI
 
-__Swagger UI__ lets you visualize and interact with the resources of APIs without the implementation logic and makes back-end implementation and client-side consumption easy.
+Test APIs via _Swagger UI_.
 
-You can use __Swagger UI__ to quickly review the REST API.
+Make test calls with the parameters defined for each operation of the API and see the responses of your test calls.
+You can perform test calls without implementing the API in an application first.
 
-__Swagger UI__ provides the format for defining the operations of your API in a human and machine-readable way and visualizes these operations to let consumers interact with the different endpoints of the API.
+Test calls are based on operations that have been previously defined, for example, in the _API Designer_.
+Optionally, you can test operation parameters that you have defined in the _API Designer_ or in the _API Client_.
 
-== Features
-* Independent: Host your Swagger UI in any environment.
-* Human-friendly: Allow developers to effortlessly interact and try out every single operation that your API exposes for easy consumption.
-* Easy to navigate: Quickly find and work with resources and endpoints with neatly categorized documentation.
-* All-browser support: Cater to every possible scenario with __Swagger UI__ working in all major browsers.
+include::partial$api-client-swagger-ui.adoc[]
+//todo Hendrik: please check if correct
 
 == Related topics
-* https://community.neptune-software.com/documentation/swagger-ui-2[Swagger UI]
-* https://community.neptune-software.com/documentation/swagger-ui-2#Getting%20started%20with%20swagger%20UI[Getting started with Swagger UI]
-
+* xref:swagger-ui-test-calls.adoc[]
+* xref:api-client.adoc[API Client]
+* xref:api-designer.adoc[API Designer]

@@ -1,0 +1,1 @@
+NOTE: If you want to make test calls without sending data outside of your internal network, use the _API Client_ to perform the test calls.
