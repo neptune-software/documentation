@@ -41,7 +41,7 @@ TIP: The preselected Belize theme gives you the most popular look and feel.
 image::getting-started-guide:appdesigner-top-side-menu-save.png[width=400]
 
 TIP: You create your new application in the _App Designer_.
-To learn more about the panels and functionalities of the _App Designer_, go to xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance].
+To learn more about the panes and functionalities of the _App Designer_, go to xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance].
 
 == Results
 

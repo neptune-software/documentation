@@ -5,7 +5,7 @@ Now you add data resources to you application. The data is later displayed on th
 //Helle@Helle: partials
 [NOTE]
 ====
-The following steps use the component tree from the *Reusable component* panel to navigate to components. Instead of using the component tree you can also search for the component in the search field above the *Reusable component* panel.
+The following steps use the component tree from the component library pane to navigate to components. Instead of using the component tree you can also search for the component in the search field above the component library pane.
 
 image::getting-started-guide:appdesigner-component-search2.png[width=400]
 
@@ -17,20 +17,20 @@ image::getting-started-guide:appdesigner-component-search2.png[width=400]
 
 == Procedure
 
-. On the *Reusable component* panel, open *Resources* and drag and drop the *RestAPI* component onto *Resources* in the *Application component* panel.
-. On the *Reusable component* panel, drag and drop the *MultiModel* component onto *Resources* in the *Application component* panel.
+. On the component library pane, open *Resources* and drag and drop the *RestAPI* component onto *Resources* in the application tree pane.
+. On the component library pane, drag and drop the *MultiModel* component onto *Resources* in the application tree pane.
 . Click on the *RestAPI* component.
-. On the *UI object* panel, click the *Rest API* field to open the *Rest API* library.
+. On the UI object pane, click the *Rest API* field to open the *Rest API* library.
 . Search either your API or *SAP Example API (Training)*.
 . Click on the operation */CustomerList* with the *GET* *Method*.
 +
 image::getting-started-guide:appdesigner-restapi-library-popup-sapexample.png[width=800]
 +
-. On the *Component properties* panel, open the *API* tab > *Response* > *200*.
+. On the properties pane, open the *API* tab > *Response* > *200*.
 . Click the field that matches the operation of your API and select *oMultiModel* from the list.
 . On the *Model* tab, click the *setInitLoad* field and select *online* from the list.
-. On the *Application component* panel, click *oMultiModel*.
-. On the *UI object* panel, click the *Model Source* field and, from the *Binding* pop-up window, select the *Property* from your API.
+. On the application tree pane, click *oMultiModel*.
+. On the UI object pane, click the *Model Source* field and, from the *Binding* pop-up window, select the *Property* from your API.
 In our example, that is "/getCustomerListResponse".
 
 == Results

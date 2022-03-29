@@ -10,8 +10,8 @@ The *App* provides a more detailed graphical user interface for your application
 
 [NOTE]
 ====
-The following steps use the component tree from the *Reusable component* panel to navigate to components.
-Instead of using the component tree you can also search for the component in the search field above the *Reusable component* panel.
+The following steps use the component tree from the component library pane to navigate to components.
+Instead of using the component tree you can also search for the component in the search field above the component library pane.
 
 image::getting-started-guide:appdesigner-component-search2.png[width=400]
 ====
@@ -23,17 +23,17 @@ image::getting-started-guide:appdesigner-component-search2.png[width=400]
 == Procedure
 
 . On the side menu, click *Designer*.
-. On the *Reusable component* panel, open *sap.m* > *Application*.
-. Drag and drop the *Shell* component onto the *HTML5 Document* in the *Application component* panel.
-. Drag and drop the *App* component onto the *Shell* component in the *Application component* panel.
-. Drag and drop the *Page* component onto the *App* component in the *Application component* panel.
+. On the component library pane, open *sap.m* > *Application*.
+. Drag and drop the *Shell* component onto the *HTML5 Document* in the application tree pane.
+. Drag and drop the *App* component onto the *Shell* component in the application tree pane.
+. Drag and drop the *Page* component onto the *App* component in the application tree pane.
 +
 image::appdesigner-shell-app-page.png[width=800]
 *Result*: You have created the general structure of your application.
 Each component is automatically renamed to *oShell*, *oApp*, or *oPage*.
 +
 . Select the *oPage* component, and on the *UI object* panel, change the *Name* to "oPageStart".
-. On the *Component properties* panel, scroll to the *title* attribute and enter "Start Page".
+. On the properties pane, scroll to the *title* attribute and enter "Start Page".
 . On the top menu, click *Save* and *Activate*.
 
 +

@@ -8,31 +8,31 @@
 
 == Procedure
 
-. On the *Reusable component* panel, open *sap.m* > *Application* and drag and drop the *Bar* component onto *oPageStart* in the *Application component* panel.
+. On the component library pane, open *sap.m* > *Application* and drag and drop the *Bar* component onto *oPageStart* in the application tree pane.
 . From the pop-up menu that opens when you drop the component, select *Footer*.
 +
 image::getting-started-guide:appdesigner-bar-footer.png[width=400]
 +
-. On the *Reusable component panel*, open *sap.m* > *Application* and drag and drop the *BarContent* component onto *oBarFooter* in the *Application component* panel.
+. On the component library pane, open *sap.m* > *Application* and drag and drop the *BarContent* component onto *oBarFooter* in the application tree pane.
 . From the pop-up menu that opens when you drop the component, select *Middle*.
-. On the *Reusable component panel*, open *sap.m* > *Simple Controls* and drag and drop the *Button* component onto *Middle* in the *Application component* panel.
-. On the *Component properties* panel, open the *Properties* tab.
+. On the component library pane, open *sap.m* > *Simple Controls* and drag and drop the *Button* component onto *Middle* in the application tree pane.
+. On the properties pane, open the *Properties* tab.
 . In *text*, enter "Update" and in *type*, select *Emphasized* from the list.
 +
 *Result*: You have added a footer with a button to update the table.
 Now you add functionality to the button so that the button makes the API call rather than the table itself.
 +
-. On the *Application component* panel, click *oRestAPI*.
-. In the *Attributes* tab on the *Component properties* panel, click into the *setInitLoad* field in *Model* and click *Clear*.
+. On the application tree pane, click *oRestAPI*.
+. In the *Attributes* tab on the properties pane, click into the *setInitLoad* field in *Model* and click *Clear*.
 //@Neptune: why do you first set it to online? Why do you clear it now? What happens behind the scenes?
 //Neptune@Parson: First the table it self calls the api when initiated. Later we add the api call to a button press event.
-. On the *Application component* panel, click *oButton*.
-. On the *Component properties* panel, open the *Events* tab and enter a name for the *press* event, for example "UpdatePress".
+. On the application tree pane, click *oButton*.
+. On the properties pane, open the *Events* tab and enter a name for the *press* event, for example "UpdatePress".
 . Click the *document-text* icon next to the name.
 +
 image::getting-started-guide:appdesigner-componentproperties-document-text.png[width=400]
 +
-*Result*: On the *Application preview* panel, the JavaScript editor opens.
+*Result*: On the preview pane, the JavaScript editor opens.
 +
 . In the JavaScript editor, right-click and select *Code Snippets*.
 +

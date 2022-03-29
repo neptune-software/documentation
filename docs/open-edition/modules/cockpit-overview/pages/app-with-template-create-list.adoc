@@ -9,24 +9,24 @@ In this topic, you bind data from the resources to a list from the Master Page.
 
 == Procedure
 
-. On the *Application component* panel, open *oPageMaster* and click the *oList* component.
-. On the *UI object* panel, click the icon in the *Model Path* field.
+. On the application tree pane, open *oPageMaster* and click the *oList* component.
+. On the UI object pane, click the icon in the *Model Path* field.
 . On the *Binding* pop-up window, open *oMultiModel* > *getCustomerListResponse* > *result* and select *IT_CUSTOMERS*.
-. On the *Application component* panel, open *oList* and click the *oObjectListItem*.
-. On the *Component properties* panel, open *Properties*, go to *title* and click the *connected* icon.
+. On the application tree pane, open *oList* and click the *oObjectListItem*.
+. On the properties pane, open *Properties*, go to *title* and click the *connected* icon.
 +
 image::getting-started-guide:appdesigner-componentproperties-binding.png[width=400]
 +
 //todo Neptune: Hovering over the icon shows the text "connected" even for empty fields (which are not connected to anything yet, as I understand it). More fitting would be "Bind". This is also reflected in the pop-up window "Binding" when clicking the icon. I suggest renaming the text to "Bind" here.
 //Neptune@Parson: Good point. Feature request created
 . On the *Binding* pop-up window, open *IT_CUSTOMERS* and click the *NAME1* property.
-. On the *Application component* panel, open *oObjectListItem* and click on the *oObjectAttribute* component.
-. On the *Component properties* panel, open *Properties*.
+. On the application tree pane, open *oObjectListItem* and click on the *oObjectAttribute* component.
+. On the properties pane, open *Properties*.
 . Go to *text* and click the *connected* icon.
 . On the *Binding* pop-up window, open *IT_CUSTOMERS* and select the *ORTO1* property.
 . Go to *title* and enter "City".
-. On the *Applications component* panel, click the *oObjectStatus* component.
-. On the *Component properties* panel, open *Properties*, go to *text* and click the *connected* icon.
+. On the application tree pane, click the *oObjectStatus* component.
+. On the properties pane, open *Properties*, go to *text* and click the *connected* icon.
 . On the *Binding* pop-up window, select the *LAND1* property.
 . Go to *title* and enter "Country".
 . On the top menu, click *Save* and *Activate*.
@@ -35,12 +35,12 @@ image::getting-started-guide:appdesigner-top-side-menu-save-activate.png[width=4
 
 === Preview your application
 
-* To preview the application in the *Application preview* panel, click *Run in Designer* and select *Run in Designer*.
+* To preview the application in the preview pane, click *Run in Designer* and select *Run in Designer*.
 
 +
 image::getting-started-guide:appdasigner-run-preview.png[width=400]
 +
-*Result*: The *Application preview* panel shows the current version of your application.
+*Result*: The preview pane shows the current version of your application.
 +
 * To preview the application in a new browser tab, click *Run* on the top menu.
 +

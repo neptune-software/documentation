@@ -1,13 +1,13 @@
 = Preview your application
 
-You can preview your application in the *Application preview* panel in the _App Designer_ or in a new browser tab.
+You can preview your application in the preview pane in the _App Designer_ or in a new browser tab.
 
-* To preview the application in the *Application preview* panel, click *Run in Designer* and select *Run in Designer*.
+* To preview the application in the preview pane, click *Run in Designer* and select *Run in Designer*.
 
 +
 image::getting-started-guide:appdasigner-run-preview.png[width=400]
 +
-*Result*: The *Application preview* panel shows the current version of your application.
+*Result*: The preview pane shows the current version of your application.
 +
 * To preview the application in a new browser tab, click *Run* on the top menu.
 +
