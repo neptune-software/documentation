@@ -1,0 +1,25 @@
+= Test your rule
+
+In this topic, you learn how to test if your rule works properly and delivers the expected returns.
+
+== Prerequisites
+* You have done the initial setup to create a rule in xref:rules-engine-setup.adoc[].
+* You have created attributes for the rule in xref:rules-engine-conditions.adoc[].
+* You have created one or more rule with conditions in xref:rules-engine-rules.adoc[].
+
+== Procedure
+. Click the *Test* tab in the rule you want to test.
+. Enter values for your attributes that are displayed in *Input*.
++
+image::rules-engine-test.png[,400]
+. Click *Run*.
++
+*Result*: In *Output*, you see the corresponding rule and result for your input.
+
+== Results
+* You have tested your rule and can correct it if it does not work properly.
+
+== Related topics
+* xref:rules-engine-setup.adoc[].
+* xref:rules-engine-conditions.adoc[].
+* xref:rules-engine-rules.adoc[].
