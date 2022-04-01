@@ -1,0 +1,32 @@
+= Create a new PDF template
+
+In this topic, you learn how to create a new PDF template.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Design* and click _PDF Designer_.
+
++
+*Result*: A new tab opens.
+
+. In the *PDF* drop-down menu, click *Create*.
++
+image:pdf-designer-create-template.png[width=400]
++
+*Result*: A new dialog opens.
++
+image:pdf-designer-create-template2.png[width=400]
+. Enter a name for your template.
+. You can choose a package for your template
+. Click *Save*.
+
+== Results
+* You have created a new PDF template.
+
+== Related topics
+* xref:pdf-designer.adoc[PDF Designer]
+* xref:pdf-designer-open-template.adoc[]
+* xref:pdf-designer-edit-template.adoc[]
