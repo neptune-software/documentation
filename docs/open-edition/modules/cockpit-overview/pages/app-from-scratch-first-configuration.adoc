@@ -15,7 +15,7 @@ image::getting-started-guide:appdesigner-top-menu-edit.png[width=400]
 
 == Procedure
 
-. Open the Cockpit of your Neptune DXP - Open Edition, and in  *Development*, click _App Designer_.
+. Open the Cockpit of your Neptune DXP - Open Edition, and in *Development*, click _App Designer_.
 . In the _App Designer_, open the *Application* drop-down menu and click *Create*.
 . In the *New App* window, enter a *Name* for your application.
 . In *Type*, select *Application* and click *Save*.

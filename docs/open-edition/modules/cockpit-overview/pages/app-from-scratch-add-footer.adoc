@@ -47,7 +47,7 @@ image::getting-started-guide:appdesigner-javascript-codesnippets.png[width=800]
 
 You have created an application to display and update information about equipment:
 
-* You have created an application with multiple components including a *Table* and a *Rest API*.
+* You have created an application with multiple components including a Table and a Rest API.
 * You have integrated data from an API.
 * You have created a button to update data in the table.
 
