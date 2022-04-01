@@ -34,7 +34,7 @@ You start in the *General* tab.
 . Activate any of the following options that fit your application:
 +
 --
-include::partial$api-designer-create.adoc[tag=!*]
+include::partial$api-designer-create.adoc[tags=!*]
 --
 
 . Click *Save*.
