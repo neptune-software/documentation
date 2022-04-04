@@ -6,7 +6,6 @@ In this topic, you learn how to import a group from LDAP.
 * There are no prerequisites.
 
 == Procedure
-
 . On the Cockpit, go to *Security* and click _Import LDAP_.
 . In the *Groups* tab, select a LDAP configuration.
 . Enter a group filter, a group search filter and a unique identifier.
