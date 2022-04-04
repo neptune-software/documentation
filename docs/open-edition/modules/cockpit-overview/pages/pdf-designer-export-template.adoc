@@ -11,7 +11,7 @@ In this topic, you learn how to export a PDF template to a `.planet9` file.
 
 . In the *PDF* Dropdown, click *Export to File*.
 +
-image:pdf-designer-export-template.png[width=400]
+image::pdf-designer-export-template.png[width=400]
 +
 *Result*: Your PDF template is downloaded automatically.
 

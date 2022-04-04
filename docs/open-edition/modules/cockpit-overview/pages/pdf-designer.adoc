@@ -21,7 +21,7 @@ The _PDF Designer_ interface consists of the following elements:
 * Preview toolbar
 * Properties
 +
-image:pdf-designer-at-a-glance.png[width=800]
+image::pdf-designer-at-a-glance.png[width=800]
 
 === Side navigation
 
@@ -29,7 +29,7 @@ When you open the _PDF Designer_, you will only see the icons. Toggle the items 
 // TODO Neptune: The icon is called "menu2" when hovering over it, that should be corrected.
 The side navigation includes the following items:
 
-image:pdf-designer-glance-menu-toggle.png[width=200]
+image::pdf-designer-glance-menu-toggle.png[width=200]
 
 *Settings*::
 You can configure the PDF template settings.
@@ -42,7 +42,7 @@ You start here when you open the _PDF Designer_. It is the workspace where you c
 The *Component library* pane shows the components that you can use for building your PDF.
 You can drag and drop them into the *Document tree* pane to build your document.
 
-image:pdf-designer-components.png[widht=200]
+image::pdf-designer-components.png[widht=200]
 
 The components are divided in two sections:
 
@@ -55,13 +55,13 @@ The components are divided in two sections:
 The *Document tree* pane shows the current state of your document.
 You can use components from the *Component library* pane to build and structure your document here.
 
-image:pdf-designer-document-panel.png[width=300]
+image::pdf-designer-document-panel.png[width=300]
 
 === Preview
 
 The *Preview* pane shows a preview of your PDF. Refresh the preview by clicking the *Activate* icon.
 
-image:pdf-designer-template-refreshicon.png[width=400]
+image::pdf-designer-template-refreshicon.png[width=400]
 
 === Properties
 
@@ -69,7 +69,7 @@ The *Properties* pane shows the attributes of a component.
 You can define properties or events to change the layout and behavior of a component in your document.
 You can also insert static content for a *Text* element in the *text* attribute here.
 
-image:pdf-designer-property-panel.png[width=300]
+image::pdf-designer-property-panel.png[width=300]
 
 == Related topics
 * Elements and settings

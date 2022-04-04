@@ -13,7 +13,7 @@ In this topic, you learn how to open an existing PDF template.
 
 . In the *PDF* drop-down menu, click *Open*.
 +
-image:pdf-designer-open-template.png[width=400]
+image::pdf-designer-open-template.png[width=400]
 +
 *Result*: A new dialog opens.
 
