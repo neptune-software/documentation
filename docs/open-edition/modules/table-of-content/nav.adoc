@@ -1,5 +1,5 @@
 .Overview of Neptune DXP - Open Edition
-* xref:overview:overview-openedition.adoc[O]
+* xref:overview:overview-openedition.adoc[Overview of Neptune DXP - Open Edition]
 * xref:overview:development-process-overview.adoc[]
 * xref:overview:security-overview.adoc[]
 ** xref:overview:security-features-overview.adoc[]
