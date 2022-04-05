@@ -1,0 +1,31 @@
+= Add a new workflow
+
+In this topic, you learn how to add a new workflow.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Workflow* and click _Definition_.
+. Click *Add*.
++
+*Result*: The wizard opens in the *General* tab.
+. Enter a title for the workflow.
+. You can enter a subtitle for the workflow.
+. You can choose a package or an icon for the workflow.
+. In the *Editor* tab, you can build the workflow. For further information, see xref:workflow-definition-editor.adoc[].
+. Click *Save*.
+
+
+== Results
+
+* You have added a new workflow.
+
+== Related topics
+
+* xref:workflow-definition.adoc[Definition]
+* xref:workflow-definition-edit.adoc[]
+* xref:workflow-definition-delete.adoc[]
+* xref:workflow-definition-editor.adoc[]

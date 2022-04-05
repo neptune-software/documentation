@@ -6,7 +6,8 @@ You can add a new workflow or edit an existing workflow.
 == Related topics
 
 * xref:workflow.adoc[]
-//* xref: add workflow
-//* xref: edit workflow
-//* xref: delete workflow
-//* xref: javascript snippet?
+* xref:workflow-definition.adoc[Definition]
+* xref:workflow-definition-add.adoc[]
+* xref:workflow-definition-edit.adoc[]
+* xref:workflow-definition-delete.adoc[]
+* xref:workflow-definition-editor.adoc[]

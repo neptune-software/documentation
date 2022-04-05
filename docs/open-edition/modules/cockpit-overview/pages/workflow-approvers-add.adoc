@@ -1,8 +1,6 @@
 = Add a new approver
 
 In this topic, you learn how to add a new list of approvers.
-An approver is needed to ...
-//Input needed
 
 == Prerequisites
 
@@ -11,15 +9,13 @@ An approver is needed to ...
 == Procedure
 
 . On the Cockpit, go to *Workflow* and click _Approvers_.
-. CLick *Add*.
+. Click *Add*.
 +
 *Result*: The wizard opens in the *Approvers* tab.
 . Select if you want to add a role, a group or a user as an approver.
 . Select which role, group or user you want to add.
 . Select the amount they can spend.
-//Input needed - amount for what?
 . Select an action for the approver.
-//Input needed - what is that for? AND/OR function?
 . In the *General* tab, enter a name for your list of approvers.
 
 . Click *Save*.

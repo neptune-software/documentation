@@ -1,11 +1,10 @@
 = image:workflow-overview.png[width=100] Overview
 
-With _Overview_, you can monitor your workflows. You can add a new workflow or rerun approver determination.
+With _Overview_, you can monitor your workflows. You can start a new workflow or rerun the approver determination for an active workflow.
 
 
 == Related topics
 
 * xref:workflow.adoc[]
-//* xref:add/start new workflow
-//* xref:rerun approver xy
-//* xref:delete workflow
+* xref:workflow-overview-start.adoc[]
+* xref:workflow-overview-rerun.adoc[]

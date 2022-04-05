@@ -1,10 +1,10 @@
 = image:workflow-task-action.png[width=100] Task Action
 
-With _Task Action_, you can...
+A task action specifies the details of a task in a workflow. A task action can be assigned to user tasks in a workflow.
 
 == Related topics
 
 * xref:workflow.adoc[]
-//* xref:add task action
-//* xref:edit task action
-//* xref:delete task action
+* xref:workflow-task-action-add.adoc[]
+* xref:workflow-task-action-edit.adoc[]
+* xref:workflow-task-action-delete.adoc[]

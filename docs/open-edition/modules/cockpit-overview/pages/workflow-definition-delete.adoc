@@ -1,0 +1,28 @@
+= Delete a workflow
+
+In this topic, you learn how to delete a workflow when it's no longer needed.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Workflow* and click _Definition_.
+. Click on the workflow you want to delete.
++
+*Result*: The wizard opens in the *General* tab.
+. Click *Edit*.
+. Click the delete icon.
+. Confirm you want to delete the workflow.
+
+== Results
+
+* You have deleted a workflow.
+
+== Related topics
+
+* xref:workflow-definition.adoc[Definition]
+* xref:workflow-definition-add.adoc[]
+* xref:workflow-definition-edit.adoc[]
+* xref:workflow-definition-editor.adoc[]
