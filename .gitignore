@@ -1,2 +1,3 @@
-antora/github-poc/
-/neptune-home-docs.iml
+.idea
+*.iml
+
