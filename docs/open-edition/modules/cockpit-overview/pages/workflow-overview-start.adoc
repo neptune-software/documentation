@@ -1,6 +1,6 @@
 = Start a workflow
 
-In this topic, you learn how to start a workflow.
+In this topic, you learn how to start a workflow manually.
 
 == Prerequisites
 
