@@ -3,7 +3,7 @@
 [TIP]
 ====
 You can save your new application any time in the process and return to it later.
-To continue building your application, open it in the __App Designer__ and click *Toggle to edit mode* on the top menu.
+To continue building your application, open it in the _App Designer_ and click *Toggle to edit mode* on the top menu.
 
 image::getting-started-guide:appdesigner-top-menu-edit.png[width=400]
 ====
@@ -29,9 +29,6 @@ image::getting-started-guide:appdesigner-side-menu-settings.png[width=400]
 
 . In *General*, enter a *Description* for your application and a *Title* to use as the name of the browser tab you will run the application in.
 +
-
-//@Neptune: Where does this appear? Is it visible to the user of the application or the devs only?
-//Neptune@Parson: The title will appear as the name on the browser tab. The description describes the app. Not shown to user.
 
 . In *OpenUI5*, select an Open UI5 *Version*, *Theme*, and *Language* for your application.
 +
