@@ -65,5 +65,6 @@ image:create-package-from-existing.png[,600]
 
 == Related topics
 
-* xref:deployment-transfer.adoc[Export a deployment package]
+* xref:deployment-creation.adoc[Deployment Create]
+* xref:deployment-transfer.adoc[Deployment Transfer]
 // no further related topics here. You don't approve your own packages

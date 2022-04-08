@@ -1,4 +1,6 @@
-In this topic, you learn how you approve the transfer of deployment packages to another  remote system.
+= Approving a deployment
+
+In this topic, you learn how you approve the transfer of deployment packages to another remote system.
 
 == Prerequisites
 * A deployment authentication is set in *Settings* > *Custom settings*.
@@ -25,3 +27,7 @@ image:deployment-approve-window.png[,600]]
 
 * If you have accepted to transfer the deployment package, it will be transfered to the system or systems.
 * If you declined to transfer the deployment package, the deployment package gets the status "declined" in the list in _Deployment Transfer_.
+
+== Related topics
+
+* xref:deployment-approve.adoc[Deployment Approve]

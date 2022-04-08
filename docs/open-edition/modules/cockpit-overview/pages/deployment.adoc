@@ -12,7 +12,7 @@ image:deployment-overview.png[,600]
 
 * xref:deployment-creation.adoc[Deployment Create]
 * xref:deployment-approve.adoc[Deployment Approve]
-* Deployment Transfer
+* xref:deployment-transfer.adoc[Deployment Transfer]
 * Deployment Routes
 * Deployment Log
 //add links

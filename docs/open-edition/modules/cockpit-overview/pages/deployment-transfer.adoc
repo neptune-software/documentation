@@ -1,13 +1,13 @@
 = image:deployment-transfer.png[,80] Deployment Transfer
 
 With _Deployment Transfer_, you export deployment packages.
-To export means that these packages leave the system and are not handled in the usual transfer anymore process that demands approvals.
+To export means that these packages leave the system and are not handled anymore in the usual transfer process that demands approvals.
 When you export a deployment package, _Deployment Transfer_ creates a zip file in the planet9 format out of it.
 //Todo hendrik: is it correct that you can export any deployment packages? Even the ones that are transfered to systems? And: Is planet9 a kind of zip format?
 
 
-image:deployment-transfer-start.png[,800]
+image::deployment-transfer-start.png[,800]
 
 == Related topics
 
-* xref:creating-deployment.adoc[Exporting a deployment package]
+* xref:deployment-package-export.adoc[]

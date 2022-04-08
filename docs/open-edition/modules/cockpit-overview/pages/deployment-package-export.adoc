@@ -4,7 +4,7 @@ In this topic, you learn how you export deployment packages.
 
 
 == Prerequisites
-*
+* none
 //Provide a link to the topic.
 
 == Procedure
@@ -23,3 +23,6 @@ image:deployment-transfer-start.png[,800]
 * _Deployment transfer_ creates a planet9 file out of the deployment package that your browser downloads automatically.
 
 == Related Topics
+
+* xref:deployment-transfer.adoc[Deployment Transfer]
+* xref:deployment-creation.adoc[Deployment Create]
