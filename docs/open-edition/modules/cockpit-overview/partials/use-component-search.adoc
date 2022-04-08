@@ -1,0 +1,7 @@
+[NOTE]
+====
+The following steps use the component tree from the component library to navigate to components.
+Instead of using the component tree you can also search for the component in the search field above the component library.
+
+image::getting-started-guide:appdesigner-component-search2.png[width=400]
+====

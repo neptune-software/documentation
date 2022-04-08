@@ -1,6 +1,6 @@
 = Integrate data from an API
 
-In this example, we use an API with equipment details.
+In this step, we use an API with equipment details.
 We integrate the data in a table for an exemplary equipment overview.
 
 == Prerequisites

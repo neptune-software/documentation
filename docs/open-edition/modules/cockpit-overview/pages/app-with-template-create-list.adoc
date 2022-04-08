@@ -1,18 +1,18 @@
-= Create a list on the *Master Page*
+= Create a list on the Master Page
 
-In this topic, you bind data from the resources to a list from the Master Page.
+In this step, you bind data from the resources to a list from the Master Page.
 
 == Prerequisites
 
 * You have xref:app-with-template-configure-splitapp.adoc[configured your application with *SplitApp* template].
-* You have xref:app-with-template-add-resources.adoc[added data resources to your application].
+* You have xref:app-with-template-add-resources.adoc[added data resources to the Master Page].
 
 == Procedure
 
-. On the application tree pane, open *oPageMaster* and click the *oList* component.
+. On the application tree, expand *oPageMaster* and click the *oList* component.
 . On the UI object pane, click the icon in the *Model Path* field.
 . On the *Binding* pop-up window, open *oMultiModel* > *getCustomerListResponse* > *result* and select *IT_CUSTOMERS*.
-. On the application tree pane, open *oList* and click the *oObjectListItem*.
+. On the application tree, open *oList* and click the *oObjectListItem*.
 . On the properties pane, open *Properties*, go to *title* and click the *connected* icon.
 +
 image::getting-started-guide:appdesigner-componentproperties-binding.png[width=400]
@@ -20,33 +20,19 @@ image::getting-started-guide:appdesigner-componentproperties-binding.png[width=4
 //todo Neptune: Hovering over the icon shows the text "connected" even for empty fields (which are not connected to anything yet, as I understand it). More fitting would be "Bind". This is also reflected in the pop-up window "Binding" when clicking the icon. I suggest renaming the text to "Bind" here.
 //Neptune@Parson: Good point. Feature request created
 . On the *Binding* pop-up window, open *IT_CUSTOMERS* and click the *NAME1* property.
-. On the application tree pane, open *oObjectListItem* and click on the *oObjectAttribute* component.
+. On the application tree, open *oObjectListItem* and click on the *oObjectAttribute* component.
 . On the properties pane, open *Properties*.
 . Go to *text* and click the *connected* icon.
 . On the *Binding* pop-up window, open *IT_CUSTOMERS* and select the *ORTO1* property.
-. Go to *title* and enter "City".
-. On the application tree pane, click the *oObjectStatus* component.
+. Go to *title* and enter `City`.
+. On the application tree, click the *oObjectStatus* component.
 . On the properties pane, open *Properties*, go to *text* and click the *connected* icon.
 . On the *Binding* pop-up window, select the *LAND1* property.
-. Go to *title* and enter "Country".
-. On the top menu, click *Save* and *Activate*.
+. Go to *title* and enter `Country`.
+. On the shell bar, click *Save* and *Activate*.
 +
 image::getting-started-guide:appdesigner-top-side-menu-save-activate.png[width=400]
 
-=== Preview your application
-
-* To preview the application in the preview pane, click *Run in Designer* and select *Run in Designer*.
-
-+
-image::getting-started-guide:appdasigner-run-preview.png[width=400]
-+
-*Result*: The preview pane shows the current version of your application.
-+
-* To preview the application in a new browser tab, click *Run* on the top menu.
-+
-image::getting-started-guide:appdesigner-top-menu-run.png[width=400]
-+
-*Result*: A new tab opens in your browser and shows the current version of your application.
 
 == Results
 
@@ -55,6 +41,8 @@ You have created an application to display customer information:
 * You have created an application with the *SplitApp* template.
 * You have integrated data from an API.
 * You have bound specific properties from the API to the Master Page of your application.
++
+To preview your application, see xref:app-from-scratch-preview.adoc[].
 
 == Related topics
 

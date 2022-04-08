@@ -18,3 +18,4 @@ image::getting-started-guide:appdesigner-top-menu-run.png[width=400]
 == Related topics
 
 * xref:app-from-scratch.adoc[]
+* xref:app-with-template.adoc[]

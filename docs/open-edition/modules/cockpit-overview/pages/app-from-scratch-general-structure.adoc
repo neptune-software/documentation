@@ -6,19 +6,14 @@ The *App* provides a more detailed graphical user interface.
 
 *Shell* and *App* build the base of any Open UI5 application you create with the DXP - Open Edition.
 
-[NOTE]
-====
-The following steps use the component tree from the component library to navigate to components.
-Instead of using the component tree you can also search for the component in the search field above the component library.
-
-image::getting-started-guide:appdesigner-component-search2.png[width=400]
-====
 
 == Prerequisites
 
 * You have done the xref:app-from-scratch-first-configuration.adoc[first configuration of your application].
 
 == Procedure
+
+include::partial$use-component-search.adoc[]
 
 . On the side menu, click *Designer*.
 . On the component library, open *sap.m* > *Application*.

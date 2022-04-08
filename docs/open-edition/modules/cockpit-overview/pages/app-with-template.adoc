@@ -1,19 +1,11 @@
-= Create an application with templates
-
-//Helle: base https://community.neptune-software.com/documentation/develop-your-planet9-second-app
+= Create an application with a template
 
 In this topic you learn how to start creating an application using the _App Designer_ and get familiar with the *SplitApp* template that comes with the Neptune DXP - Open Edition.
 
 You can follow step-by-step to use a pre-made API or adjust the steps to use an API that you made yourself.
 
 
-[TIP]
-====
-Save your new application any time in the process and return to it later.
-To continue building your application, open it in the _App Designer_ and click *Toggle to edit mode* on the top menu.
-
-image::getting-started-guide:appdesigner-top-menu-edit.png[width=400]
-====
+include::partial$toggle-edit-mode.adoc[]
 
 == Procedure
 
@@ -26,5 +18,5 @@ Creating an application with templates includes the following steps:
 
 == Related topics
 
-* xref:app-from-scratch.adoc[Create an app from scratch]
-* xref:appdesigner-at-a-glance.adoc[App Designer interface at a glance]
+* xref:app-from-scratch.adoc[]
+* xref:appdesigner-at-a-glance.adoc[]
