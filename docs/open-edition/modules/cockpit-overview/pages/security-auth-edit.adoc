@@ -1,20 +1,21 @@
 = Edit an existing authentication method
 
-In this topic, you learn how to edit an existing authentication method.
+In this topic, you learn how to edit an existing proxy authentication method.
 
 == Prerequisites
 * There are no prerequisites.
 
 == Procedure
-
-. On the Cockpit, go to *Security* and click _Proxy Authentication_.
+. In the Cockpit, go to *Security* and click _Proxy Authentication_.
 +
 *Result*: A list with all existing authentication methods is shown.
++
+image::security-proxy.png[,600]
 . Click on the authentication method you want to edit.
 . Click *Edit*.
 +
 TIP: You might need to unlock the authentication method. Click *Yes, it´s me, unlock*.
-. You can change the settings of the authentication method in the *General* and *Headers* tab.
+. You can change the settings of the authentication method.
 . Click *Save*.
 
 == Results
@@ -22,5 +23,4 @@ TIP: You might need to unlock the authentication method. Click *Yes, it´s me, u
 
 == Related topics
 * xref:security-proxy-auth.adoc[Proxy Authentication]
-* xref:security-proxy-add.adoc[Add a new authentication method]
-* xref:security-proxy-delete.adoc[Delete an existing authentication method]
+* xref:security-proxy-types.adoc[]

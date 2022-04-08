@@ -1,15 +1,16 @@
 = Delete a certificate
 
-In this topic, you learn how to delete a certificate when it's no longer needed.
+In this topic, you learn how to delete a certificate.
 
 == Prerequisites
 * There are no prerequisites.
 
 == Procedure
-
-. On the Cockpit, go to *Security* and click _Certificates_.
+. In the Cockpit, go to *Security* and click _Certificates_.
 +
 *Result*: A list with all existing authentication certificates is shown.
++
+image::security-certificate.png[,600]
 . Click on the certificate you want to delete.
 . Click the *Delete* icon.
 . Confirm you want to delete the certificate.
@@ -19,5 +20,3 @@ In this topic, you learn how to delete a certificate when it's no longer needed.
 
 == Related topics
 * xref:security-certificates.adoc[Certificates]
-* xref:security-certificates-generate.adoc[Generate a new certificate]
-* xref:security-certificates-import.adoc[Import a certificate]

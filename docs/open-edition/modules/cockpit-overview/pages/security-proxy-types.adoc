@@ -1,0 +1,55 @@
+= Types of proxy authentication
+
+The following shows an overview of available proxy authentication types.
+
+To see how these types are entered, see xref:security-proxy-add.adoc[]
+
+== Basic
+
+image::security-proxy-basic.png[,600]
+
+*Basic* requires a *Username* and a *Password* as authentication method.
+
+== Client Certificate
+
+image::security-proxy-client.png[,600]
+
+*Client Certificate* enables you to provide a certificate for authentication to the remote server. Certificates are created in the service xref:security-certificates.adoc[Certificates].
+
+== oAuth 2.0
+
+image::security-proxy-oauth.png[,600]
+
+By using the oAuth 2.0 authorization framework, you can grant your own applications limited access to your APIs on behalf of the application itself.
+
+Enter the *Logon URL* and the *Name* and *Value* of your corresponding oAuth token.
+
+== Neptune DXP Open Edition User Token (JWT)
+//TODO Neptune: UI still shows "Planet 9 User Token (JWT)"
+
+image::security-proxy-token.png[,600]
+
+You can use a json web token (JWT) for authentication.
+
+Enter the name of the token in *Jwt Secret*. You can also enter the name of the *Issuer*, specify the *Audience* and include roles and groups.
+
+== x.509
+
+image::security-proxy-x509.png[,600]
+
+You can use the x.509 method for authentication. This is the SAP principal propagation method.
+
+Sign With:: Choose a certificate to sign-in to a SAP system. Certificates are created in the service xref:security-certificates.adoc[Certificates].
+
+Assign user field to CN:: Method by which a user is assigned to the common network (CN). It is recommended to use `username` but you can also use `email`.
+
+Organization (O):: Name of the organization.
+
+Organizational Unit (OU):: Name of the organizational unit.
+
+Locality or city (L):: Name of the locality or city.
+
+State or Province (S):: Name of the state or province.
+
+Country Name (C):: Name of the country
+

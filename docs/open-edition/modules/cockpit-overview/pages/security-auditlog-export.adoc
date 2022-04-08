@@ -6,7 +6,7 @@ In this topic, you learn how to export an audit log to a `.csv` file.
 * There are no prerequisites.
 
 == Procedure
-. On the Cockpit, go to *Security* and click _Audit Log_.
+. In the Cockpit, go to *Security* and click _Audit Log_.
 +
 *Result*: The audit log is shown.
 . In *Date Start* and *Date End*, enter a time range of the audit logs you want to display.
