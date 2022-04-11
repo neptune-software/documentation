@@ -1,0 +1,221 @@
+= DXP Open Edition: Sizing Guide
+
+
+== Brief
+
+This guide is intended to help understand how one can size DXP Open
+Edition, and general guidance on how to size your infrastructure
+resources to run DXP Open Edition on-prem, DXP Managed Environments, or
+any other cloud environments (Azure, AWS, …).
+
+Every workload is unique, therefore, any guidance we give should be
+considered as a “guideline”. In practice, the nature of the
+implementation of your solution with DXP Open Edition can impact the
+required resources. However, this guideline should be an excellent
+starting point.
+
+The most effective solution is to run DXP Open Edition on a cloud
+environment which allows you to scale resources dynamically assigned to
+a DXP Open Edition environment without or near 0 downtime (E.g., DXP
+Managed Environments).
+
+== Types Of Scaling
+
+There are numerous ways (dimensions) we can scale DXP Open Edition. All
+scaling methods fall under either “Vertical” scaling or “Horizontal”
+Scaling.
+
+=== Vertical Scaling
+
+Scaling vertical refers to adding more resources (CPU/RAM) to your
+server/host/instance/process. For example, switching from 8 GB Memory to
+16 GB Memory. You upgrade/downgrade your existing
+server/host/instance/process.
+
+Scaling vertically makes operations easier but can require down time as
+you might have to shut down the machine for making changes. However,
+with some virtual environments this might not be the case. Vertical
+scaling does however only provide limited scaling options as single
+servers with high memory and CPU count cost significantly more.
+
+=== Horizontal Scaling
+
+Scaling horizontal refers to adding or removing additional
+servers/hosts/instances/processes. All user traffic is then spread
+across all available servers/hosts/instances/processes.
+
+Scaling horizontally usually translates into more operational
+complexity, based on the used hosting platform. However, you can scale
+with zero downtime and benefit from high availability. Scaling
+horizontally can be done almost indefinitely.
+
+== Process Architecture
+
+A single DXP Open Edition instance internally exists out of a single
+“master process” and one or more “child processes”. The amount of child
+processes is configurable. Child processes are used to increase the
+concurrent throughput of a single instance. This allows the “master
+process” to load balance traffic to a single DXP Open Edition instance
+across multiple child processes. These child processes can be monitored
+and configured in the “System Processes” view in the DXP Open Edition
+cockpit.
+
+== How you can scale/size DXP Open Edition
+
+There are 4 ways to scale/size DXP Open edition:
+
+·       Scale the amount of available compute resources (CPU/RAM) -
+_Vertical Scaling___
+
+·       Scale the amount of DXP Open Edition instances – _Horizontal
+Scaling_
+
+·       Scale the amount of child processes for each DXP Open Edition
+Instance – _Horizontal Scaling_
+
+·       Scale the database resources which is used by the DXP Open
+Edition Instance - _Vertical Scaling_
+
+The sizing of your environment is strongly related to the concurrent
+users that you expect to experience. One can have 1 000 000 users on
+their system, but if there are only 100 users concurrently using your
+system, not many resources will be required. In contrast to that, a
+system can have maybe only 3 000 users, but if we can expect all 3 000
+users to be using the system concurrently, more resources will be
+warranted.
+
+As a guideline, in many situations, 10% of the total users tend to be on
+a system concurrently (which obviously can differ in your use case).
+This means, when having 10 000 users, 1 000 concurrent users is what you
+might want to consider supporting.
+
+== Guidelines
+
+Our guidelines are based on performance tests with 2.35Ghz AMD EPYCTM
+7452 processor that can achieve a boosted maximum frequency of 3.35GHz
+as reference. In general, use general purpose CPU unless you understand
+your workload very well.
+
+=== Minimum Configuration
+
+This is the minimum configuration we advise. This is acceptable for a
+sandbox environment or when the DXP Open Edition only functions as an
+API Hub which proxies request.
+
+[cols=",,,,",]
+|===
+|*CPU/RAM (per instance)* |*Instances* |*Child Processes (per instance)*
+|*Database* |*Concurrent Users*
+
+|1 CPU / 2 GB Memory |1 |2 |1 CPU / 2 GB Memory |25
+|===
+
+ 
+
+=== Small Configuration
+
+Ideal for sandbox/development and small production environments ideal
+for the small/medium business.
+
+[cols=",,,,",]
+|===
+|*CPU/RAM (per instance)* |*Instances* |*Child Processes (per instance)*
+|*Database* |*Concurrent Users*
+
+|1 CPU / 4 GB Memory |1 |4 |1 CPU / 4 GB Memory |100
+|===
+
+ 
+
+Small Configuration (High-Available)
+
+Ideal for small/medium production environments that demand high
+availability built in their infrastructure.
+
+[cols=",,,,",]
+|===
+|*CPU/RAM (per instance)* |*Instances* |*Child Processes (per instance)*
+|*Database* |*Concurrent Users*
+
+|1 CPU / 4 GB Memory |2 |4 |2 CPU / 8 GB Memory |250
+|===
+
+ 
+
+=== Medium Configuration
+
+Ideal for medium production environments for medium to larger user
+basis.
+
+[cols=",,,,",]
+|===
+|*CPU/RAM (per instance)* |*Instances* |*Child Processes (per instance)*
+|*Database* |*Concurrent Users*
+
+|2 CPU / 8 GB Memory |1 |4 |2 CPU / 8 GB Memory |500
+|===
+
+ 
+
+Medium Configuration (High-Available)
+
+Ideal for medium/large production environments for medium to larger user
+basis which demand high availability.
+
+[cols=",,,,",]
+|===
+|*CPU/RAM (per instance)* |*Instances* |*Child Processes (per instance)*
+|*Database* |*Concurrent Users*
+
+|2 CPU / 8 GB Memory |2 |4 |2 CPU / 8 GB Memory |500
+|===
+
+ 
+
+
+ 
+
+=== Large Configuration
+
+Ideal for large production environments for larger user basis. With
+larger production environments high availability is advised by default.
+
+[cols=",,,,",]
+|===
+|*CPU/RAM (per instance)* |*Instances* |*Child Processes (per instance)*
+|*Database* |*Concurrent Users*
+
+|3 CPU / 8 GB Memory |4 |4 |4 CPU / 16 GB Memory |1000
+|===
+
+ 
+
+=== Large Data Configuration
+
+Ideal for large production environments that are very data intensive.
+
+[cols=",,,,",]
+|===
+|*CPU/RAM (per instance)* |*Instances* |*Child Processes (per instance)*
+|*Database* |*Concurrent Users*
+
+|3 CPU / 8 GB Memory |4 |4 |8 CPU / 32 GB Memory |1000
+|===
+
+ 
+
+=== Extra-Large and above Configurations
+
+For any larger workloads, horizontal scaling is the way to go. It is
+advised to have each instance about 2 or 3 CPUs and 8 GB of Memory. Each
+instance is also advised to have 4 child processes. (Just like the large
+configuration).
+
+On larger workloads it is impossible to give specific advice of what
+will work, as at scale, the usage characteristics of DXP Open Edition
+which are unique to each use case manifest significantly (data intensive
+or compute intensive workload).
+
+The advised approach is to start [.SpellE]#of# with a “Large
+Configuration” and then to add instances or scale the Database as deemed
+necessary during production loads or synthetic performance tests.
