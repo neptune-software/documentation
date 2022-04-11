@@ -1,0 +1,29 @@
+= Importing a deployment package
+
+In this topic, you learn how you import deployment packages.
+
+== Prerequisites
+* none
+
+== Procedure
+. Open Neptune DXP - Open Edition cockpit, navigate to *Deployment*, and click *Deployment Log*.
++
+image::deployment-log-start-import.png[,800]
++
+*Result*: The deployment log window opens.
+. Click *Import*.
++
+*Result*: The file explorer opens.
++
+. Navigate to the deployment package, and click *Open*.
+
+== Results
+
+image::deployment-package-import-success.png[,400]
+* The file is added to your system, and shown in the overview.
+
+== Related Topics
+
+* xref:deployment-transfer.adoc[Deployment Transfer]
+* xref:deployment-creation.adoc[Deployment Create]
+* xref:deployment-package-export.adoc[]

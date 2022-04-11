@@ -26,3 +26,4 @@ image:deployment-transfer-start.png[,800]
 
 * xref:deployment-transfer.adoc[Deployment Transfer]
 * xref:deployment-creation.adoc[Deployment Create]
+* xref:deployment-package-import.adoc[]
