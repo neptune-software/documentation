@@ -7,7 +7,7 @@ In this topic, you learn how to import a user from LDAP.
 
 == Procedure
 
-. On the Cockpit, go to *Security* and click _Import LDAP_.
+. In the Cockpit, go to *Security* and click _Import LDAP_.
 . In the *Users* tab, select a LDAP configuration.
 . Enter a user filter and a unique identifier.
 . Enter a user ID.
@@ -20,4 +20,3 @@ In this topic, you learn how to import a user from LDAP.
 
 == Related topics
 * xref:security-import-ldap.adoc[Import LDAP]
-* xref:security-import-ldap-group.adoc[Import a group from LDAP]

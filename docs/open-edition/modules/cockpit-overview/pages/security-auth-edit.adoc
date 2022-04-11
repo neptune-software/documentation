@@ -14,7 +14,7 @@ image::security-proxy.png[,600]
 . Click on the authentication method you want to edit.
 . Click *Edit*.
 +
-TIP: You might need to unlock the authentication method. Click *Yes, it´s me, unlock*.
+TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
 . You can change the settings of the authentication method.
 . Click *Save*.
 

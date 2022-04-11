@@ -6,3 +6,4 @@ With _Proxy Authentication_, you manage authentication methods for APIs, OData, 
 * xref:security-proxy-add.adoc[]
 * xref:security-auth-edit.adoc[]
 * xref:security-proxy-delete.adoc[]
+* xref:security-proxy-types.adoc[]

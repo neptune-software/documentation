@@ -1,6 +1,6 @@
 = image:security-certificates-icon.png[width=100] Certificates
 
-With _Certificates_, you can generate a self-signed certificate to grant access to resources or import the certificate
+With _Certificates_, you can generate a self-signed certificate to grant access to resources or import a certificate
 from authorised resources.
 
 == Related topics

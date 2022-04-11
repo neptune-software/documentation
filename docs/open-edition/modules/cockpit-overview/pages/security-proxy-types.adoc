@@ -8,7 +8,7 @@ To see how these types are entered, see xref:security-proxy-add.adoc[]
 
 image::security-proxy-basic.png[,600]
 
-*Basic* requires a *Username* and a *Password* as authentication method.
+The *Basic* type requires a *Username* and a *Password* as authentication method.
 
 == Client Certificate
 
@@ -25,7 +25,7 @@ By using the oAuth 2.0 authorization framework, you can grant your own applicati
 Enter the *Logon URL* and the *Name* and *Value* of your corresponding oAuth token.
 
 == Neptune DXP Open Edition User Token (JWT)
-//TODO Neptune: UI still shows "Planet 9 User Token (JWT)"
+//TODO Neptune: UI still shows "Planet 9 User Token (JWT)", is that correct?
 
 image::security-proxy-token.png[,600]
 
@@ -52,4 +52,8 @@ Locality or city (L):: Name of the locality or city.
 State or Province (S):: Name of the state or province.
 
 Country Name (C):: Name of the country
+
+== Related topics
+* xref:security-proxy-auth.adoc[Proxy Authentication]
+
 

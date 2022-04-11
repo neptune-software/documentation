@@ -14,8 +14,8 @@ In this topic, you learn how to add a new authentication method.
 image::security-proxy.png[,600]
 . Click *Add*.
 . In the *General* tab, enter a name for the authentication method.
-. You can enter a description and choose a package for the authentication method.
-. You can enter a type. Depending on your type, a new tab appears where you can make further settings.
+. You can enter a *Description* and choose a *Package* for the authentication method.
+. You can enter a *Type*. Depending on your type, a new tab appears where you can make further settings.
 . You can choose to use *Cloud Connector*.
 . In the *Headers* tab, you can add a header to the authentication method. A header comprises a name and a value.
 . Click *Save*.
