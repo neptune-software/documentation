@@ -1,6 +1,6 @@
 = Start a workflow
 
-In this topic, you learn how to start a workflow manually.
+In this topic, you learn how to start a workflow.
 
 == Prerequisites
 
@@ -8,7 +8,7 @@ In this topic, you learn how to start a workflow manually.
 
 == Procedure
 
-. On the Cockpit, go to *Workflow* and click _Overview_.
+. In the Cockpit, go to *Workflow* and click _Overview_.
 . Click *Add*.
 +
 *Result*: A new dialog opens.

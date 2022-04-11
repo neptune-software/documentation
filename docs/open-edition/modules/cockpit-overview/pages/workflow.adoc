@@ -1,13 +1,13 @@
 = Workflow
 
 With _Workflow_, you can manage and monitor processes in your system.
-It is a tool designed to facilitate and automate processes that require tasks to be performed by users.
+It is a tool designed to facilitate and automate processes that include multiple tasks in different services.
 
 You can start a workflow manually from the _Overview_ Service or automatically from an app or server script.
 
 [TIP]
 ====
-To get the code snnippet to start a workflow, go to _Definition_ and click the *How to trigger the WF* icon.
+To get the code snippet to start a workflow, go to _Definition_ and click the *How to trigger the WF* icon.
 ====
 
 * xref:workflow-overview.adoc[Overview]
