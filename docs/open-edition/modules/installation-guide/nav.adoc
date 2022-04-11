@@ -37,3 +37,4 @@
 *** xref:oracle-cloud-tmux.adoc[Use tmux on Oracle Cloud]
 ** xref:cloud-docker.adoc[Docker image]
 ** xref:kubernetes.adoc[Kubernetes]
+* xref:sizing-guide.adoc[Sizing guide]
