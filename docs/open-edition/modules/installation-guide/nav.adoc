@@ -9,7 +9,6 @@
 ** xref:load-balancing.adoc[Load Balancing]
 //** xref:download-package.adoc[Download Package]
 * xref:installation-guide.adoc[Installation guide]
-** xref:sizing-guide.adoc[Sizing guide]
 * xref:installation-cloud.adoc[Install as cloud solution]
 ** xref:sap-platform.adoc[SAP BTP platform]
 *** xref:sap-trial-account.adoc[Set up your SAP Cloud trial account]

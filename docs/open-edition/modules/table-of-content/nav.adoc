@@ -50,6 +50,7 @@
 **** xref:installation-guide:oracle-cloud-tmux.adoc[Use tmux on Oracle Cloud]
 *** xref:installation-guide:cloud-docker.adoc[Use Docker image]
 *** xref:installation-guide:kubernetes.adoc[Use Kubernetes]
+** xref:sizing-guide.adoc[Sizing guide]
 * xref:getting-started-guide:where-is-everything.adoc[Where is everything and how is it all connected?]
 ** xref:getting-started-guide:overview.adoc[Overview of Neptune DXP - Open Edition]
 ** xref:getting-started-guide:process-overview.adoc[Development process overview]
