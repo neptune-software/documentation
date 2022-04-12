@@ -1,4 +1,4 @@
-= Approving a deployment
+= Approve a deployment
 
 In this topic, you learn how you approve the transfer of deployment packages to another remote system.
 

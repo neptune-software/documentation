@@ -11,3 +11,4 @@ image::deployment-transfer-start.png[,800]
 == Related topics
 
 * xref:deployment-package-export.adoc[]
+* xref:deployment-package-import.adoc[]

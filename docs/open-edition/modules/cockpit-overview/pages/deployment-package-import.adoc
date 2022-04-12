@@ -1,4 +1,4 @@
-= Importing a deployment package
+= Import a deployment package
 
 In this topic, you learn how you import deployment packages.
 
@@ -19,8 +19,10 @@ image::deployment-log-start-import.png[,800]
 
 == Results
 
-image::deployment-package-import-success.png[,400]
 * The files are added to your system, and the package is shown in the overview.
++
+image::deployment-package-import-success.png[,400]
+
 
 == Related Topics
 

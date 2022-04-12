@@ -11,4 +11,4 @@ You also can import deployment packages in the planet9 file format from other sy
 image:deployment-log.png[,800]]
 
 == Related Topics
-* Importing a deployment package []
+* xref:deployment-package-import.adoc[]
