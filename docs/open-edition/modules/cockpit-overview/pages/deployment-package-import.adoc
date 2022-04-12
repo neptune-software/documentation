@@ -20,7 +20,7 @@ image::deployment-log-start-import.png[,800]
 == Results
 
 image::deployment-package-import-success.png[,400]
-* The file is added to your system, and shown in the overview.
+* The files are added to your system, and the package is shown in the overview.
 
 == Related Topics
 
