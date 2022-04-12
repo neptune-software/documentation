@@ -15,7 +15,7 @@ image:deployment-approve-overview.png[,800]
 . In the drop-down menu *Status*, select *New*.
 . In the *Status* column, click the package that you want to approve.
 +
-image:deployment-approve-window.png[,600]]
+image:deployment-approve-window.png[,600]
 +
 *Result*: The deploy window opens.
 +
