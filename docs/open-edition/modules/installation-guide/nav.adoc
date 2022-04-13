@@ -10,6 +10,7 @@
 //** xref:download-package.adoc[Download Package]
 * xref:installation-guide.adoc[Installation guide]
 * xref:installation-cloud.adoc[Install as cloud solution]
+** xref:dxp-cloud-managed-environment-installation.adoc[DXP Cloud]
 ** xref:sap-platform.adoc[SAP BTP platform]
 *** xref:sap-trial-account.adoc[Set up your SAP Cloud trial account]
 *** xref:sap-subaccount.adoc[Set up your subaccount]
