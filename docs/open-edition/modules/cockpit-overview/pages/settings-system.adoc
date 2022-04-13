@@ -1,0 +1,13 @@
+= image:settings-icon.png[,100]System Settings
+
+In _System Settings_, you can make changes to the following core system settings.
+These changes will be applied after you restart the system.
+
+* General
+* Security
+* License
+* E-Mail functionality
+* Password
+* Authentication
+* Cloud connector
+//What is the cloud connector?
