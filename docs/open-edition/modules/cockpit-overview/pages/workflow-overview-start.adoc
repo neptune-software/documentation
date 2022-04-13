@@ -12,10 +12,11 @@ In this topic, you learn how to start a workflow.
 . Click *Add*.
 +
 *Result*: A new dialog opens.
-. Select the workflow definition you want to run. To define a workflow, see Workflow Definition.
-//xref here?
++
+image::workflow-new.png[,400]
+. In *Definition*, select a workflow definition.
 . You can enter an object type, object key, amount or currency.
-. You can assign approvers to your workflow.
+. You can assign one or more *Approver* to your workflow. An approver can be every user.
 . Click *Start*.
 
 == Results
@@ -24,6 +25,6 @@ In this topic, you learn how to start a workflow.
 
 == Related topics
 
-* xref:workflow-definition.adoc[]
+* xref:workflow-definition.adoc[Workflow Definition]
 * xref:workflow-overview.adoc[Overview]
 * xref:workflow-overview-rerun.adoc[]

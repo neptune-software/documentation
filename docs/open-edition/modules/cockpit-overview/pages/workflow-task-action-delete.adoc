@@ -1,6 +1,6 @@
 = Delete a task action
 
-In this topic, you learn how to delete a task action when it's no longer needed.
+In this topic, you learn how to delete a task action.
 
 == Prerequisites
 
@@ -8,7 +8,7 @@ In this topic, you learn how to delete a task action when it's no longer needed.
 
 == Procedure
 
-. On the Cockpit, go to *Workflow* and click _Task Action_.
+. In the Cockpit, go to *Workflow* and click _Task Action_.
 . Click on the task action you want to delete.
 . Click *Edit*.
 . Click the delete icon.

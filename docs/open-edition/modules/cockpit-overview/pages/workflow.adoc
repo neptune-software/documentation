@@ -1,9 +1,11 @@
 = Workflow
 
 With _Workflow_, you can manage and monitor processes in your system.
-It is a tool designed to facilitate and automate processes that include multiple tasks in different services.
+It is designed to facilitate and automate processes that include multiple tasks in different services.
 
-You can start a workflow manually from the _Overview_ Service or automatically from an app or server script.
+//TODO: Needs more explanations!
+
+You can start a workflow manually from the _Overview_ service or automatically from an app or server script.
 
 [TIP]
 ====

@@ -1,6 +1,6 @@
 = Rerun approver determination
 
-In this topic, you learn how to rerun the approver determination of a workflow, if the approver is unavailable.
+In this topic, you learn how to rerun the approver determination of a workflow. This could be the case if the approver is unavailable.
 //TODO Neptune: Description text for the service reads "re-run" instead of "rerun".
 
 == Prerequisites

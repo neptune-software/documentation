@@ -8,11 +8,10 @@ In this topic, you learn how to edit an existing task action.
 
 == Procedure
 
-. On the Cockpit, go to *Workflow* and click _Task Action_.
+. In the Cockpit, go to *Workflow* and click _Task Action_.
 . Click on the task action you want to edit.
 . Click *Edit*.
-. You can change the name for the task action.
-. You can change the description for the task action.
+. You can change the *Name* and the *Description* for the task action.
 . Click *Save*.
 
 == Results
@@ -22,5 +21,3 @@ In this topic, you learn how to edit an existing task action.
 == Related topics
 
 * xref:workflow-task-action.adoc[Task Action]
-** xref:workflow-task-action-add.adoc[]
-** xref:workflow-task-action-delete.adoc[]
