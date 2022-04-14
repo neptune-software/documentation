@@ -8,16 +8,12 @@ In this topic, you learn how to edit a subsitution for an approver.
 
 == Procedure
 
-. On the Cockpit, go to *Workflow* and click _Substitutions_.
+. In the Cockpit, go to *Workflow* and click _Substitutions_.
 +
 *Result*: A list of all existing substitutions is shown.
 . Click on the substitution you want to edit.
 . Click *Edit*.
-.. You can change the user you want to use as a substitution.
-.. You can change the user you want to substitute.
-.. You can change the timespan for the substitution.
-.. You can activate or deactivate the substitution by clicking the *Activate* toggle switch.
-//@Fabian: I'm not really sure if we need these four steps again here...
+. Change the substitution as required.
 . Click *Save*.
 
 == Results
@@ -29,4 +25,3 @@ In this topic, you learn how to edit a subsitution for an approver.
 * xref:workflow.adoc[]
 * xref:workflow-substitutions.adoc[Substitutions]
 ** xref:workflow-substitutions-add.adoc[]
-** xref:workflow-substitutions-delete.adoc[]

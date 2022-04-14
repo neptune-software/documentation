@@ -1,7 +1,6 @@
 = Add a new substitution
 
 In this topic, you learn how to add a new subsitution for an approver.
-If an approver of a workflow is temporarily unavailable, you need to configure a substitution.
 
 == Prerequisites
 
@@ -9,13 +8,16 @@ If an approver of a workflow is temporarily unavailable, you need to configure a
 
 == Procedure
 
-. On the Cockpit, go to *Workflow* and click _Substitutions_.
-. CLick *Add*.
-. Select the user you want to use as a substitution.
-. Select the user you want to substitute.
-. Select a timespan for the substitution.
-. Toggle the *Activate* toggle switch.
-// TODO Fabian:couldn't find it in terminology, is this the right name for the UI element?
+. In the Cockpit, go to *Workflow* and click _Substitutions_.
+. Click *Add*.
++
+*Result:* A new window opens.
++
+image::workflow-substitutions-add.png[,600]
+. In *Username*, select the user you want to use as a substitution.
+. In *Substitute*, select the username you want to substitute.
+. In *From-to*, select the timespan for the substitution.
+. Toggle the *Activate* switch.
 // TODO Neptune: UI is in german: "AN" and "AUS".
 . Click *Save*.
 
@@ -27,5 +29,3 @@ If an approver of a workflow is temporarily unavailable, you need to configure a
 
 * xref:workflow.adoc[]
 * xref:workflow-substitutions.adoc[Substitutions]
-** xref:workflow-substitutions-edit.adoc[]
-** xref:workflow-substitutions-delete.adoc[]

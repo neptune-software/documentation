@@ -1,6 +1,6 @@
 = Delete a substitution
 
-In this topic, you learn how to delete a subsitution when it's no longer needed.
+In this topic, you learn how to delete a subsitution.
 
 == Prerequisites
 
@@ -8,7 +8,7 @@ In this topic, you learn how to delete a subsitution when it's no longer needed.
 
 == Procedure
 
-. On the Cockpit, go to *Workflow* and click _Substitutions_.
+. In the Cockpit, go to *Workflow* and click _Substitutions_.
 +
 *Result*: A list of all existing substitutions is shown.
 . Click on the substitution you want to delete.

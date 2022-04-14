@@ -8,16 +8,18 @@ In this topic, you learn how to add a new list of approvers.
 
 == Procedure
 
-. On the Cockpit, go to *Workflow* and click _Approvers_.
+. In the Cockpit, go to *Workflow* and click _Approvers_.
 . Click *Add*.
-+
-*Result*: The wizard opens in the *Approvers* tab.
-. Select if you want to add a role, a group or a user as an approver.
-. Select which role, group or user you want to add.
-. Select the amount they can spend.
-. Select an action for the approver.
+*Result*: A new window opens.
 . In the *General* tab, enter a name for your list of approvers.
-
+. In the *Approvers* tab, click *Add*.
++
+image::workflow-approvers-add.png[,600]
+. In *Org. Unit*, select if you want to add a role, group, or user as approver.
+. In *Org. Value*, select the role, group, or user you want to add.
+. In *Amount From* and *Amount Up-To*, select the range in which the Approver gets notified.
+//TODO Neptune: What is the unit for this?
+. Select if an *Action* should additionally be performed.
 . Click *Save*.
 
 == Results
@@ -27,5 +29,3 @@ In this topic, you learn how to add a new list of approvers.
 == Related topics
 
 * xref:workflow-approvers.adoc[Approvers]
-** xref:workflow-approvers-edit.adoc[]
-** xref:workflow-approvers-delete.adoc[]

@@ -1,6 +1,6 @@
 = Delete an approver
 
-In this topic, you learn how to delete a list of approvers when it's no longer needed.
+In this topic, you learn how to delete a list of approvers.
 
 == Prerequisites
 
@@ -8,7 +8,7 @@ In this topic, you learn how to delete a list of approvers when it's no longer n
 
 == Procedure
 
-. On the Cockpit, go to *Workflow* and click _Approvers_.
+. In the Cockpit, go to *Workflow* and click _Approvers_.
 +
 *Result*: A list of all existing approver lists is shown.
 . Click on the list of approvers you want to delete.
@@ -23,5 +23,3 @@ In this topic, you learn how to delete a list of approvers when it's no longer n
 == Related topics
 
 * xref:workflow-approvers.adoc[Approvers]
-** xref:workflow-approvers-add.adoc[]
-** xref:workflow-approvers-edit.adoc[]
