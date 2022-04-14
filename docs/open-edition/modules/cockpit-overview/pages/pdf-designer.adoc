@@ -3,11 +3,86 @@
 With the _PDF Designer_, you design your own PDF templates.
 
 You can create PDF templates that reflect your own brand and requirements.
-You can add images, watermarks, QR codes, tables, headers, and footers, and apply your own styles.
-//@Neptune. Are we talking about PDF templates or PDF documents?
-//To be clarified when writing the topic
+You can add images, watermarks, QR codes, tables, headers, footers, and apply your own styles.
 
-//== Related topics
-//* xref:pdf-designer-interface.adoc[]
-//* xref:pdf-designer-objects.adoc[]
-//* xref:pdf-designer-gettingstarted.adoc[]
+Every PDF template is an API endpoint. You define areas on the PDF where you want to include data. These areas are filled with data from any target system that can be reached via API.
+
+You can call a PDF template with a server script from a workflow or an application to build a PDF document.
+
+== PDF Designer interface at a glance
+
+The _PDF Designer_ interface consists of the following elements:
+
+* Side navigation
+* Component library
+* Shell bar
+* Document tree
+* Preview
+* Preview toolbar
+* Properties
++
+image::pdf-designer-at-a-glance.png[width=800]
+
+=== Side navigation
+
+When you open the _PDF Designer_, you will only see the icons. Toggle the items by clicking the *Menu* icon.
+// TODO Neptune: The icon is called "menu2" when hovering over it, that should be corrected.
+The side navigation includes the following items:
+
+image::pdf-designer-glance-menu-toggle.png[width=200]
+
+*Settings*::
+You can configure the PDF template settings.
+
+*Designer*::
+You start here when you open the _PDF Designer_. It is the workspace where you create your templates.
+
+=== Component library
+
+The *Component library* pane shows the components that you can use for building your PDF.
+You can drag and drop them into the *Document tree* pane to build your document.
+
+image::pdf-designer-components.png[widht=200]
+
+The components are divided in two sections:
+
+* *Document* components which are valid for your whole document, for example, *Header*, *Footer* or *Background*. These elements can be inserted directly in the *PDF Document* element in the *Document tree* pane.
+* *Elements* components which are content related elements, for example, *Text*, *Table* or *ListBulleted*. They can be inserted in the *Content*, *Header* or *Footer* element of the *PDF Document* element.
+//TODO Neptune: Only in these elements?
+
+=== Document tree
+
+The *Document tree* pane shows the current state of your document.
+You can use components from the *Component library* pane to build and structure your document here.
+
+image::pdf-designer-document-panel.png[width=300]
+
+=== Preview
+
+The *Preview* pane shows a preview of your PDF. Refresh the preview by clicking the *Activate* icon.
+
+image::pdf-designer-template-refreshicon.png[width=400]
+
+=== Properties
+
+The *Properties* pane shows the attributes of a component.
+You can define properties or events to change the layout and behavior of a component in your document.
+You can also insert static content for a *Text* element in the *text* attribute here.
+
+image::pdf-designer-property-panel.png[width=300]
+
+== Related topics
+* Elements and settings
+** xref:pdf-designer-elements.adoc[]
+** xref:pdf-designer-settings.adoc[]
+** xref:pdf-designer-interface.adoc[]
+* Work with PDF templates
+** xref:pdf-designer-create-template.adoc[]
+** xref:pdf-designer-open-template.adoc[]
+** xref:pdf-designer-edit-template.adoc[]
+//** xref:pdf-designer-calling-template.adoc[]
+* Creating and exporting
+** xref:pdf-designer-create-pdf.adoc[]
+** xref:pdf-designer-export-template.adoc[]
+** xref:pdf-designer-import-template.adoc[]
+//Topics on how to use PDF Designer in Launchpad

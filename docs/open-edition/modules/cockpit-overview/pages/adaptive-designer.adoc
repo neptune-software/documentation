@@ -37,5 +37,5 @@ Visit the __Store__ in Neptune DXP - Open Edition and search for "Adaptive Frame
 image::adaptive-designer_store_adaptive-frameworks.png["adaptive-designer_store_adaptive-frameworks"width=400, link=adaptive-designer_store_adaptive-frameworks.png"]
 
 == Related topics
-//* xref:adaptive-designer-interface-at-a-glance.adoc[]
-https://community.neptune-software.com/documentation/adaptive-designer-information[adaptive designer interface at a glance]
+* xref:adaptive-designer-interface-at-a-glance.adoc[]
+//(https://community.neptune-software.com/documentation/adaptive-designer-information)

@@ -1,0 +1,31 @@
+= Create an email template
+
+In this topic, you learn how to create a new email template.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Design* and click _Email Template_.
+
+. Click *Add*.
++
+*Result*: A new dialog opens.
+
+. In the *General* tab, enter a name for your template. This is a mandatory field.
+
++
+image::e-mail-template-create-general.png[width=400]
+
+. You can enter a subject for your template.
+. You can choose a package for your template.
+. In the *Content* tab, create the content of your template.
+
+. Click *Save*.
+
+== Results
+* You have created a new email template.
+
+== Related topics
+* xref:e-mail-template.adoc[Email Template]

@@ -23,8 +23,9 @@ The background color of the script becomes dark blue if it is possible to add th
 +
 [TIP]
 ====
-Make sure your script is in editing mode. There should be an open-lock-symbol next to your script in the *Application component* panel.
+Make sure your script is in editing mode. There should be an open-lock-symbol next to your script in the Application component panel.
 ====
++
 . Enter a context name for your resource.
 You can keep the existing one or choose a new one.
 . Click *Apply*.

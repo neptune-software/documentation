@@ -1,10 +1,12 @@
 = image:code-snippet.png[width=100] Code Snippets
 
-In _Code Snippets_, you configure code snippets that you can use in _App Designer_ and _Script Editor_.
+In _Code Snippets_, you configure code snippets that you can use in the _App Designer_ and the _Script Editor_.
 The idea of code snippets is to reduce the amount of custom code as much as possible.
 Reusing frequently used code enables you to focus on the processes and functionalities of the application.
 
 These configured code snippets allow you to participate in the design of applications or even create your own applications without extensive programming knowledge.
+Examples for the usage of custom code snippets are when you want to start a workflow or create an API with predefinied settings.
+//TODO Neptune: Are there more/better examples where Code Snippets are used?
 
-//Related topics
-//* Create a code snippet
+== Related topics
+* xref:code-snippet-create.adoc[]

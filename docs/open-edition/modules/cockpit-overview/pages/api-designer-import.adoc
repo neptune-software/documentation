@@ -2,8 +2,7 @@
 
 You use APIs to communicate with data formats.
 In this topic, you learn how to import different files that you want to connect an API to.
-You can import files from inside and outside the Neptune DXP - Open Edition.
-//Fabian@Helle: No article in front of "Neptune DXP - Open Edition"
+You can import files from inside and outside Neptune DXP - Open Edition.
 
 //Helle@Fabian: used collapsables, makes sense? Thought 3 separate topics would be too much for an import. Might be a little complicated with the nested lists though.
 //Fabian@Helle: Looks good in IntelliJ, have to wait how it is rendered in HTML.
@@ -12,11 +11,8 @@ You can import files from inside and outside the Neptune DXP - Open Edition.
 * There are no prerequisites.
 
 == Procedure
-. On the Neptune DXP - Open Edition cockpit, go to *Connectivity* and click _API Designer_.
-//Fabian@Helle: No article in front of "Neptune DXP - Open Edition"
+. On the Cockpit, go to *Connectivity* and click _API Designer_.
 . On the _API Designer_, click *Add*.
-+
-image::api-designer-add.png[width=400]
 +
 *Result*: The API configuration dialog opens.
 You start in the *General* tab.
@@ -39,9 +35,7 @@ image::api-designer-import-external.png[width=200]
 +
 *Result*: Your local editor opens.
 
-... Navigate to the directory of the file and select the file.
-... Click *Open*.
-//Fabian@Helle: This can be shortened, no need for the two steps above, this is too detailed.
+... Navigate to the directory of the file and select the file and click *Open*.
 
 .. Click *Swagger 2.0* to import a definition in JSON or *Open API 3.0* to import a definition in JSON or YAML.
 +
@@ -75,13 +69,11 @@ You can still add, change and delete settings that were made by the _API Designe
 image::api-designer-import-tabledefinition.png[width=200]
 
 .. Click *Planet 9 File* to import a file from your disk.
-//"Planet 9" needs to be adapted.
 +
 *Result*: Your local editor opens.
 
-... Navigate to the directory of the file and select the file.
-... Click *Open*.
-//Fabian@Helle: s.o. This can be shortened, no need for the two steps just above, this is too detailed.
+... Navigate to the directory of the file and select the file and click *Open*.
+
 .. Click *Table Definition* to create an API from a table definition saved in Neptune DXP - Open Edition.
 +
 *Result*: The Import Table Definition window opens. You see all table definitions that are available to you.
@@ -104,9 +96,7 @@ You can still add, change, and delete settings that were made by the _API Design
 image::api-designer-import-serverscript.png[width=200]
 *Result*: Your local editor opens.
 
-. Navigate to the directory of the file and select the file.
-. Click *Open*.
-//Fabian@Helle: s.o.
+. Navigate to the directory of the file and select the file and click *Open*.
 +
 *Result*: _API Designer_ enters a name, operations, and definitions for the API.
 You still can add, change and delete settings that were made by the _API Designer_.

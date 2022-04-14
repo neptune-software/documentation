@@ -1,0 +1,32 @@
+= Download a PDF document
+
+In this topic, you learn how to download a PDF template as a PDF document to your computer.
+
+== Prerequisites
+* You have xref:pdf-designer-create-template.adoc[created a PDF template].
+* You have xref:pdf-designer-open-template.adoc[opened a PDF template].
+
+== Procedure
+
+. In the *Preview toolbar*, click the *Preview* Icon.
++
+image::pdf-designer-preview.png[width=200]
++
+*Result*: A preview of your PDF template is shown.
+. Click the *Save* Icon.
++
+image::pdf-designer-save-document.png[width=400]
++
+*Result*: A new window opens.
+. Select where you want to store your PDF document on your computer.
+. Click *Save*.
++
+*Result*: Your PDF document is downloaded.
+
+== Results
+* You have downloaded a PDF document to your computer.
+
+== Related topics
+* xref:pdf-designer.adoc[PDF Designer]
+* xref:pdf-designer-create-template.adoc[]
+* xref:pdf-designer-edit-template.adoc[]

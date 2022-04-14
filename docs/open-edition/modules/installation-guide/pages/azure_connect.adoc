@@ -16,4 +16,4 @@ NOTE: Neptune DXP - Open Edition runs on port 8080 by default. This means that t
 You have installed Neptune DXP - Open Edition on your Azure virtual machine.
 
 == Next steps
-* xref:azure-create-database.adoc[Create an Azure database resource]
+* xref:azure-create-database.adoc[Create an Azure Database resource]

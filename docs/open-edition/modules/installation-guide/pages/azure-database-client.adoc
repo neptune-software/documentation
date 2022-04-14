@@ -5,9 +5,9 @@ This topic explains how you create a database schema with SQL client.
 
 == Prerequisites
 
-* xref:azure-create-database.adoc[Your Postgres database setup is complete].
+* xref:azure-create-database.adoc[You have completed the Postgres database setup].
 * xref:azure-firewall.adoc[You have configured your firewall].
-* Docker is installed. You can get it https://docs.docker.com/get-docker/[here].
+* You have Docker installed. You can get it https://docs.docker.com/get-docker/[here].
 
 == Procedure
 
@@ -19,12 +19,14 @@ NOTE: Disable *Enforce SSL connection* in case your SQL client does not support 
 . Start an SQL client. The following steps base on https://www.adminer.org/[Adminer] but other SQL clients work similarly.
 .. Open a console and type:
 +
+[source,asciidoc]
 ----
 docker run -p 9000:8080 adminer
 ----
 to start Docker and the Adminer client.
 .. Type in your browser:
 +
+[source,asciidoc]
 ----
 localhost:9000
 ----
@@ -40,6 +42,7 @@ NOTE: You do not need to specify a database.
 .. Run the following SQL script against that target database:
 //TODO: Is that still up to date?
 +
+[source,asciidoc]
 ----
 create schema planet9
 ----

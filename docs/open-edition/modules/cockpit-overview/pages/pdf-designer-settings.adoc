@@ -1,0 +1,12 @@
+= PDF designer settings
+
+In the *PDF Document Settings* tab, you can configure the settings of your PDF template according to your needs. You can enter a name, a description what the template is about and allocate it to a package.
+
+You can add an interface to your template. An interface is used to insert data into your PDF template when calling it from a server script with an API.
+
+You can use the following code snippet to call a PDF template:
+//TODO Hendrik: please insert code snippet.
+
+== Related topics
+* xref:pdf-designer-interface.adoc[]
+* xref:pdf-designer.adoc[PDF Designer]

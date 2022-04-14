@@ -1,19 +1,20 @@
-= Set up a subaccount on the SAP Cloud Platform
+= Set up a subaccount on the SAP Business Technology Platform
 
-After you created the trial account, you set up a subaccount on the SAP Cloud Platform.
+After you created the trial account, you set up a subaccount on the SAP Business Technology Platform (BTP).
 
 A subaccount adds another level to your trial account. You can have different subaccounts for different purposes. In this case, you set up a subaccount to host Neptune DXP - Open Edition and your applications.
 
 == Prerequisites
-* You have created a trial account on the SAP Cloud Platform.
+* You have created a trial account on the SAP BTP.
 
 == Procedure
-. Go to the SAP Cloud Platform https://cockpit.hanatrial.ondemand.com/cockpit/#/home/trialhome[login page] and log in.
+. Go to the SAP BTP https://cockpit.hanatrial.ondemand.com/cockpit/#/home/trialhome[login page] and sign in.
+//TODO: is the link still up to date?
 . Click *Enter your Trial Account*.
 +
 The subaccount overview opens.
 . Click *New Subaccount*.
-. Fill at least all mandatory field. You can use your own configurations or the ones in the screenshots below.
+. Fill at least all mandatory fields. You can use your own configurations or the ones in the screenshots below.
 +
 image::sap-subaccount.png[width=400]
 . Click *Create*.
@@ -29,7 +30,7 @@ image::sap-entry-assignments.png[width=400]
 image::sap-entry-assignments-2.png[width=400]
 +
 *Result:* All subaccounts are displayed with their entitlements. Your subaccount has no entitlements. The trial subaccount has many entitlements.
-+
+
 NOTE: Your SAP account has four memory units by default. All four units are assigned to the trial subaccount created by SAP. You must transfer the memory units to the subaccount that you created for Neptune DXP - Open Edition so that your subaccount can use the memory.
 
 === Transfer memory units to the trial subaccount
@@ -39,18 +40,17 @@ NOTE: Your SAP account has four memory units by default. All four units are assi
 . Click *Save*.
 +
 image::sap-assign-entitlements-configure-entitlements.png[width=400]
-//Helle: Highlighting in image needs to be adapted. Image can be cropped.
 . In your subaccount, click *Configure Entitlements* > *Add Service Plans*.
-. In the pop-up menu, click *Cloud Foundry Runtime* and check the MEMORY box.
+. In the pop-up menu, click *Cloud Foundry Runtime* and check the *MEMORY* box.
 . Click *Add 1 Service Plan*.
-. In the subaccount assignments column, increase the number of units to _4_. Click *Save*.
+. In the subaccount assignments column, increase the number of units to `4`. Click *Save*.
 +
 image::sap-assign-entitlements-result.png[width=400]
 +
 *Result*: When your changes are saved, the subaccount assignment has four units. The remaining Global Quota has zero units.
 
 == Results
-* You have set up a subaccount on the SAP Cloud Platform.
+* You have set up a subaccount on the SAP BTP.
 
 == Next steps
-* xref:sap-cloud-foundry.adoc[Enable Cloud Foundry] to use the subaccount that you created,
+* xref:sap-cloud-foundry.adoc[Enable Cloud Foundry] to use the subaccount that you created.

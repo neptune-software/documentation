@@ -1,0 +1,41 @@
+= Set up a rule
+
+In this topic, you learn how to set up a rule in the _Rules Engine_.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. On the Cockpit, go to *Development* and click _Rules Engine_.
++
+*Result*: You see all rules available in the system.
+. Click *Add*.
++
+*Result*: A new wizard opens.
++
+image::rules-engine-overview.png[,800]
+. Enter a *Name* and a *Description* for your rule.
+. You can select a *Package* for the rule.
++
+TIP: Selecting a package facilitates deployment by combining data from the same package.
+. Click the *Role* tab.
+. Click *+Add*.
++
+*Result*: A new window with all available roles in the system opens.
+. Click on a role. Your rule will now only be available for users that have this role assigned.
+
++
+TIP: You can use the _Role_ service to define or change roles.
+. Click *Save*.
+*Result*: _Rules Engine_ adds an ID to your rules and saves change dates.
+
+== Results
+* You have made the initial setup for your role and can now start to add attributes and conditions.
+
+== Next steps
+* xref:rules-engine-conditions.adoc[]
+
+== Related topics
+//* xref:role.adoc[Role]
+* xref:rules-engine.adoc[Rules engine]

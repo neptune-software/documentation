@@ -1,0 +1,40 @@
+= Insert an interface to the PDF Designer
+
+In this topic, you learn how to insert an interface to the _PDF Designer_. With an interface, you define areas that contain data that could be called via an API.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+[TIP]
+====
+Make sure your PDF template is in editing mode.
+To put your PDF template in editing mode, click the *toggle to edit* icon.
+
+image:pdf-designer-toggle-edit.png[width=300]
+====
+
+== Add an interface
+. In the *PDF Document Settings* tab, click *Add*.
++
+image::pdf-designer-interface-add.png[width=500]
+. Enter a name and a description for the interface.
+. Select a type for the interface.
++
+*Result*: You have added an interface.
+
+== Import an interface
+. In the *PDF Document Settings* tab, click *JSON Import*.
++
+image::pdf-designer-interface-import.png[width=500]
+. Enter the JSON data you want to import.
+. Click  *Import*.
+
+
+== Results
+* You have imported an interface.
+
+== Related topics
+* xref:pdf-designer-settings.adoc[]
+* xref:pdf-designer.adoc[PDF Designer]

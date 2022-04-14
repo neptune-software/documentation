@@ -1,0 +1,98 @@
+= PDF Designer elements
+
+With the _PDF Designer_, you can create your own PDF templates.
+The following topic shows an overview over all elements you can use to build your PDF template.
+
+== PDF document element
+The *PDF Document* element is a shell for your PDF template. Insert all *Document* components here.
+
+== Document components
+
+Background::
+Shell for the background of your PDF template. You can insert every *Elements* component you want to display in the background of your PDF template.
+
+Content::
+Shell for the content of your PDF template. You can insert every *Elements* component here.
+
+Default Style::
+This element sets a default style for your PDF template. You can set, for example, fonts or colors for your entire PDF template.
+// TODO @Neptune: None of the selectable fonts work except "Roboto". Other fonts does not seem to be part of the system, there is a runtime error when we select another font.
+
+Footer::
+Shell for the footer area of your PDF template. You can insert *Elements* components here.
+You can also use formula as text, for example, to show the current page number and total page numbers:
++
+[source, asciidoc]
+----
+{= `Page ${currentPage} of ${pageCount} `}
+----
+
+Header::
+Shell for the header area of your PDF template. See also Footer.
+
+Settings::
+Element to configure the settings of your PDF template. You can set the size of your page or set passwords for
+your users to access and edit the template.
+
+Styles::
+Shell for collecting your *Style* elements.
+
+Watermark::
+Element to add a watermark to your PDF template. The watermark will appear on every page of your PDF template.
+
+== Elements components
+
+Canvas::
+Element to add a canvas to your PDF template.
+Attribute overview:
++
+color: The filling color of the canvas.
++
+h: The height of the canvas.
++
+linecolor: The color of the border of the canvas.
++
+r: The border angle of the canvas.
++
+w: The width of the canvas.
++
+x: Margin of the x-axis for the canvas position.
++
+y: Margin of the y-axis for the canvas position.
+
+Columns::
+Element to divide a section of your PDF template into columns. You can insert, for example, *Text* elements here.
+
+Image::
+Element to insert an image in your PDF template. Browse for an image from the media library with the *src* attribute.
+
+ListBulleted::
+Element to insert a bulleted list into your PDF template.
+
+ListNumbered::
+Element to insert a numbered list into your PDF template.
+
+QR code::
+Element to insert a QR code into your PDF template. You can insert the link you want to display in the *qr* attribute.
+
+Stack::
+Element to add components into a stack to group them. You can use it to create longer texts with paragraphs without the need to write the full text in one component.
+
+Style::
+Element to set individual styles. You can assign the style to every other element by setting the *style* attribute of the element to the name of your *Style* element.
+You can only insert *Style* elements into the *Document component* *Styles*.
+
+Table::
+Element to insert a table into your PDF template. You can insert *TableRow* elements to add more rows to your table.
+
+TableRow::
+Element to add a new row to a table. It can be inserted in *Table* elements only.
+
+Text::
+Element to insert a text block to your PDF template. You can also add this element to *Footer*, *Header*, *Watermark*, *Columns*, *ListBulleted*, *ListNumbered* and *TableRow* elements. You can insert static text in the *text* attribute in the *Properties* pane.
+
+== Related topics
+
+* xref:pdf-designer-create-pdf.adoc[]
+* xref:pdf-designer-edit-template.adoc[]
+* xref:pdf-designer.adoc[PDF Designer]

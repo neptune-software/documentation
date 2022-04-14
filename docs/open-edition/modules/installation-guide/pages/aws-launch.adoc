@@ -6,19 +6,19 @@ An instance is a virtual server in the AWS cloud that runs the application you c
 == Prerequisites
 
 * You have an account at the AWS platform.
-* You created a key pair in the AWS console.
+* You have created a key pair in the AWS console.
 
 == Procedure
 
 === Launch an instance
-. In your browser, go to the AWS Console and login.
+. In your browser, go to the AWS console and sign in.
 . On the *Launch instance* panel, click *Launch instance* and select *Launch instance* from the drop-down menu.
 +
 image::aws-launch-instance.png[width=400]
 +
 
 . Choose one of the available Amazon Machine Images from the list and click *Select* next to it.
-//Helle@Neptune: is there anything user should look out for when selecting an AMI? Same for the next steps here.
+//TODO: Helle@Neptune: is there anything user should look out for when selecting an AMI? Same for the next steps here.
 
 . Select an instance type from the list and click *Review and Launch*.
 +
@@ -65,4 +65,4 @@ image::aws-connect.png[width=800]
 * You have connected your instance to Neptune DXP - Open Edition.
 
 == Next steps
-* xref:installation-guide:aws-database.adoc[]
+* xref:installation-guide:aws-database.adoc[Set up a database in the AWS instance]

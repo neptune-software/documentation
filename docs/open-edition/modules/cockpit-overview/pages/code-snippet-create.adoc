@@ -1,0 +1,46 @@
+= Create a code snippet
+
+In this topic, you learn how to create a code snippet that you can reuse in other services.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. On the cockpit, go to *Development* and click _Code Snippets_.
++
+*Result*: You can see a list of existing code snippets.
+. Click *Add*.
++
+*Result*: A new window opens. You see the *General* tab.
++
+image::code-snippets-overview2.png[,400]
+. Enter a *Name* for your snippet. Choose a name that gives a clear indication of the content.
+. Enter a *Description* of what the snippet is about.
+. Choose a *Grouping* from the drop-down menu the snippet belongs to.
++
+[TIP]
+====
+In the _App_Designer_ and in the _Script Editor_, you find your created code snippets under *Custom* when you try to insert a new snippet.
+====
+. Click the checkboxes *Use in App Designer* and *Use in Script Editor* to decide if your snippet should be available in the _App Designer_, the _Script Editor_, or in both.
+
+. Click the *Editor* tab.
++
+*Result*: The editor tab opens.
++
+. Write your code here.
++
+[TIP]
+====
+Click *Import* to import existing code into the editor. The file must be in _.planet9_ format.
+====
+. Click *Save*.
+*Result*: Your snippet is saved with the current settings and is added to the library in the _App Designer_ and in the _Script Editor_. _Code Snippets_ adds an ID to your snippet and saves change dates.
+
+== Results
+* You have created a code snippet that can be used in the _Script Editor_ or in the _App Designer_.
+
+== Related topics
+* xref:code-snippets.adoc[Code Snippets]
+* xref:script-editor-codesnippets.adoc[]
+* xref:app-from-scratch.adoc[]
