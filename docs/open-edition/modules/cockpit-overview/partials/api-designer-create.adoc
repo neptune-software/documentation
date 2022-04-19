@@ -7,6 +7,7 @@
 
 // tag::external[]
 * Enable Proxy: Allow proxy to reach external servers to prevent CORS issues.
+* Restrict Access: Allow only users with a specific role to use the API.
 // end::external[]
 
 * Enable Trace: Allow tracing activities of your API.

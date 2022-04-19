@@ -1,0 +1,9 @@
+//tag::default[]
+GET:: Read and retrieve data from the resource.
+PUT:: Update existing data in the resource.
+POST:: Add new data to the resource.
+DELETE:: Delete data from the resource.
+//end::default[]
+HEAD:: Read and retrieve data without the response body. Unlike GET, HEAD retrieves the response header only.
+OPTIONS:: Read and retrieve all operations and content types that are available without retrieving specific data.
+PATCH:: Apply partial changes to an operation. Unlike PUT, PATCH changes only part of the data instead of replacing it entirely.

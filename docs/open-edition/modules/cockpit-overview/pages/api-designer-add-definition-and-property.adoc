@@ -1,0 +1,40 @@
+= Add a definition and a property to an external API
+
+Introductory sentence, for example, In this topic, you learn how to do this and that.
+Data Type in body is found in daa definition, definitions let you define how a response looks like. Recoomend define definition for each possible response. Simplefies work in App Designer when integrateing data from api
+
+== Prerequisites
+
+* You have xref:api-designer-configure-external-api.adoc[configured an external API].
+* You have xref:api-designer-add-operation-to-external-api.adoc[added an operation to an external API].
+
+== Procedure
+
+. Navigate to the *Definitions* tab and click *+* to add a definition.
++
+image:api-designer-add-definition.png[width=400]
+
+. Enter a *Name*, for example, `Planets`, and *Description*.
+
+. Navigate to the *Properties* tab and click *+ Add*.
++
+image:api-designer-add-properties.png[width=800]
++
+*Result*: The _API Designer_ adds a new line to specify a property.
+
+. For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `name`, `number`, `rank`, and `squad`.
+. Select the allowed *Type* for the property.
+. Enter a *Description*.
+. If you want the property to be mandatory, check the *Required* box.
+. Click *Save*.
+
+If you used the example data in this topic, your properties look like this:
+
+== Results
+
+* You have done XY.
+
+== Related topics
+
+* xref to topic
+* xref to other topic

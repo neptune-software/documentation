@@ -53,18 +53,15 @@ image:api-designer-add-operation.png[width=400]
 . In *Method*, select a method from the list, for example `GET`:
 +
 --
-include::partial$api-operations.adoc[]
+include::partial$api-methods.adoc[]
 --
 . Enter a short Summary and a longer Description to provide context information to the operation.
 . In *Tags*, enter keywords that describe the resource, for example, `clones`.
 . Activate any of the following:
-//Todo Neptune: Save Request Body explanation is assumptions, please check.
-//Fabian@Helle: In my version, there is no "Save Request Body" button at all. Has it vanished or is it only displayed if you do something else before?
-//Neptune@Parson: The explanation is correct. The check is only there when trace operations is active.
-** Trace Operations: Trace request you or others make to the API in _API Trace_.
-** Save Request Body: When you trace operations, the request details are traced, too.
-** Send Credentials (cookie): Use credentials for cookie-based authorization.
-** Use Example Data: Use example data to run an unfinished API in the _App Designer_. Example data is not traced in _API Trace_ or _API Client_.
++
+--
+include::partial$api-designer-operations.adoc[]
+--
 
 . Click *Save*.
 
