@@ -2,11 +2,15 @@
 
 With _Deployment Approve_ you approve deployment packages for transfer.
 The deployment process stops at each point where approval is mandatory until the specified approver approves or rejects the packages to release.
+//todo Gernot: approve for release, right?
 To define an approval authentication, go to *Settings* > *Custom settings*.
+//todo Gernot: You define approval authentication with the Custom Setting service.
 
 image::deployment-approve-overview.png[,800]
+//todo Gernot: Text on white background need to be light grey, see guide. And I would either make the box over the button white oder delete the entire button.
 
 == Related topics
 
 * xref:deployment-approving-deployment.adoc[]
 * xref:deployment-creation.adoc[Deployment Create]
+//todo Gernot: link custom setting here when done?

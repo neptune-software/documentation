@@ -1,32 +1,40 @@
 = Approve a deployment
 
-In this topic, you learn how you approve the transfer of deployment packages to another remote system.
+In this topic, you learn how to approve the transfer of deployment packages to another remote system.
 
 == Prerequisites
 * A deployment authentication is set in *Settings* > *Custom settings*.
 //Provide a link to the topic.
+//Todo Gernot: I'd prefer a "you have set..." kinda style unless it cannot be the same user?
 
 == Procedure
-. Open Neptune DXP - Open Edition cockpit, navigate to *Deployment*, and click *Deployment Approve*.
+. In the Cockpit, go to *Deployment*, and click *Deployment Approve*.
+//Open Neptune DXP - Open Edition cockpit > In the Cockpit, navigate > go
 +
 image:deployment-approve-overview.png[,800]
+//todo Gernot: I'd cover up all entries in the list here. see comment below. Also have them in light grey, see guide on suis.
 +
 *Result*: The deployment approve window opens.
+//todo Gernot: Does appear in GUI, so The Deployment Approve window opens.
 . In the drop-down menu *Status*, select *New*.
 . In the *Status* column, click the package that you want to approve.
 +
 image:deployment-approve-window.png[,600]
+//todo gernot: I'd cover up all entries in the list here. We see way more than an average user, might be a) more confusing, and b) outdated soon.
 +
 *Result*: The deploy window opens.
+//Todo Gernot: The Deploy window opens.
 +
 //Todo Hendrik Transfer button obsolete?
 . Check the listed development packages and artifacts.
 . Click *Accept* or *Decline*.
+//todo Gernot: Accept=Approve?
 
 == Results
 
-* If you have accepted to transfer the deployment package, it will be transfered to the system or systems.
-* If you declined to transfer the deployment package, the deployment package gets the status "declined" in the list in _Deployment Transfer_.
+* If you have accepted to transfer the deployment package, it will be transferred to the system or systems.
+* If you have declined to transfer the deployment package, the deployment package gets the status "declined" in the list in _Deployment Transfer_.
+//added "have" to have both results in perfect tense.
 
 == Related topics
 

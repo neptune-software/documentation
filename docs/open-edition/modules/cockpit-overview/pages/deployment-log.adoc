@@ -8,7 +8,7 @@ In _Deployment Log_, you can filter for deployment packages by their status and 
 
 You also can import deployment packages in the planet9 file format from other systems.
 
-image:deployment-log.png[,800]]
+image:deployment-log.png[,800]
 
 == Related Topics
 * xref:deployment-package-import.adoc[]

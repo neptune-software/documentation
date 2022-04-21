@@ -12,55 +12,69 @@ You have three options to create and to deploy a deployment package:
 * Before you start a deployment process, make sure that the system you want to send the deployment packages to is available.
 How to set up a remote system, see Remote System Setup.
 //Todo Gernot link page Remote System
+//todo Gernot: The system you want to send the deployment packages to is available (to you). Check the availability in xref:Remote systems.
 * Optional: A deployment authentication is set in *Settings* > *Custom settings*.
 //Provide a link to the topic.
+//todo Gernot: can we have it in active? You have set...
 
 == Procedure
-. Open Neptune DXP - Open Edition cockpit, navigate to *Deployment*, and click *Deployment Create*.
+. In the Cockpit, go to *Deployment*, and click *Deployment Create*.
+//Open Neptune DXP - Open Edition cockpit > In the Cockpit, navigate (clicking) > go (no clicking)
 +
 image:create-deployment.png[,800]
+//todo gernot: icons on the left need to be circles (or uncovered), text needs to be light grey, buttons need to be covered or removed. Also align text boxes.
 +
 *Result*: The deployment create window opens.
+//todo gernot: The Deployment Create window opens.?
 . Click *System* or *Routes*.
 . Depending on the option you selected, check on the list one or more systems or routes, and click *Start*.
+//todo Gernot:..., select one or more systems or routes from the list, and...
 +
-TIP: If you want to create a deployment package for export only, do not select a system or route, just click *start*.
+TIP: If you want to create a deployment package for export only, do not select a system or route, just click *Start*.
 +
 *Result*: The Deployment Create dialog opens.
 +
 image:deployment-create-overview.png[,600]
-
+//todo Gernot: same story, I'd cover the details. we cannot be sure the information is shown to the average user. Icons on bar are nicely done though. :)
 . Click *Packages* to select already existing development packages.
 +
 TIP: The number next to *Packages* indicates the number of available packages.
 +
 . Check the package or packages you want to deploy.
-+
+//todo gernot: select instead of check.
+
 . Click the arrow next to the service group to select a service you want to deploy artifacts from.
 In the example, *Launchpad* from the *Administration* service group is selected.
 //todo introduce service group?
+//todo gernot: move "in the example..." to step result?
 +
 TIP: The number next to the service indicates the number of available artifacts.
 +
 *Result* _Deployment create_ shows a list of all artifacts of the selected service.
 +
 image:select-service.png[,600]
+//todo gernot: cover entries in name and version in light grey. Also cover create. Why is include relations highlighted here?
 . Check the artifacts you want to add.
-+
+//todo gernot: select instead of check
+
 . Check *Include relations* to add all the links/relations to selected artifacts.
 +
 For example, if you select *Launchpad*, and you check *Include relations*, all the artifacts connected to *Launchpad* like *Tile*, *Tile group*, *API*, etc., will be deployed as well.
+//todo gernot: Tip? or Example?
 . Click *Create*.
 +
 *Result*: The Deploy window opens.
 +
 image:create-package-from-existing.png[,600]
+//todo gernot: not our light grey, highlight has shadow, aaaand cover other details.
 . Verify the packages you want to deploy by checking or unchecking artifacts.
+//todo gernot: selecting or deselecting
 . Click *Create*.
 //Todo Hendrik: In this view, there is a transfer button available as well. Clicking it produces an error message. Button obsolete?
 
 == Results
 * If you selected a route or system before, _Deployment Create_ creates a package that must be approved before transfer according to the deployment authentication selected in settings > customization component.
+//todo gernot: customization component? Also: ...according to the deployment authentication you selected in...?
 * If you did not select a route or system before, _Deployment Create_ creates a package for export.
 
 == Related topics
