@@ -1,10 +1,8 @@
 = image:deployment-create.png[,100]Deployment Create
 
 With _Deployment Create_, you create deployment packages that contain artifacts from services you want to send from your Neptune DXP edition to another. After an optional approval, the deployment packages will be transferred.
-//transfered -> transferred
 
 image::create-deployment.png[,800]
-//todo Gernot: cover text in light grey, cover icons with circles
 
 == Related topics
 
