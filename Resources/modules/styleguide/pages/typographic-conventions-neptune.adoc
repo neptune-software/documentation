@@ -47,6 +47,7 @@ Examples::
 == GUI elements
 * Capitalize as in GUI.
 * Highlight in bold.
+* Do not capitalize every letter, even if a word is capitalized completely in the GUI. In that cases, only capitalize the first letter.
 
 //necessary comment to render description list.
 
