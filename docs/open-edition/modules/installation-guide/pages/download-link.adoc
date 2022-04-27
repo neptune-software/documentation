@@ -1,3 +1,5 @@
-= Provide the current download link
+= Download link
 
-//TODO: Provide the download link
+You can download Neptune DXP - Open Edition under the following address:
+
+https://portal.neptune-software.com/launchpad/portal#product-download
