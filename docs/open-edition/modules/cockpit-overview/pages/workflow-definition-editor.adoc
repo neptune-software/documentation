@@ -1,5 +1,7 @@
 = Workflow editor
 
+With the workflow editor, you actually create your workflows.
+
 In this topic, you get an overview of all elements available in the workflow editor.
 
 [TIP]
