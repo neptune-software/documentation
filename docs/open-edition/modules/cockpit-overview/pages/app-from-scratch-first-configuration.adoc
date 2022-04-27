@@ -2,7 +2,7 @@
 
 In this step, you set up an application and make general settings, such as choosing a name, theme, and language.
 
-include::partial$toggle-edit-mode.adoc[]
+include::partial$designer-toggle-edit-mode.adoc[]
 
 == Prerequisites
 
@@ -10,7 +10,7 @@ include::partial$toggle-edit-mode.adoc[]
 
 == Procedure
 
-. Open the Cockpit of your Neptune DXP - Open Edition, and in *Development*, click _App Designer_.
+. In the Cockpit, go to *Development* and click _App Designer_.
 . In the _App Designer_, open the *Application* drop-down menu and click *Create*.
 . In the *New App* window, enter a *Name* for your application.
 . In *Type*, select *Application* and click *Save*.

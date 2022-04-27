@@ -5,7 +5,7 @@ In this topic you learn how to start creating an application using the _App Desi
 You can follow step-by-step to use a pre-made API or adjust the steps to use an API that you made yourself.
 
 
-include::partial$toggle-edit-mode.adoc[]
+include::partial$designer-toggle-edit-mode.adoc[]
 
 == Procedure
 
