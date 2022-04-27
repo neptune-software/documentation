@@ -8,3 +8,4 @@ As it runs on multiple instances, carefully asses what is valid for your system:
 They are described in xref:installation-guide:basic-setup.adoc[Basic setup].
 * If you want to install Neptune DXP - Open Edition on your local system, follow the manual in xref:installation-guide:installation-guide.adoc[Installation guide].
 * You can also install Neptune DXP - Open Edition using a variety of cloud solutions. These are described in xref:installation-guide:installation-cloud.adoc[Cloud installation].
+** Get started really fast with 0 effort using xref:dxp-cloud-managed-environment-installation.adoc[Neptune DXP Cloud].
