@@ -2,20 +2,19 @@
 
 The _App Designer_ interface consists of the following elements:
 
-* xref:_menu[]
-* xref:_toolbar[]
-* xref:_editor_tools[]
-* xref:_reusable_component_panel[]
-* xref:_application_component_panel[]
-* xref:_ui_object_panel[]
-* xref:_component_properties_panel[]
-* xref:_application_preview_panel[]
-* xref:_openui5[]
-* xref:_neptune_community[]
+* xref:_side_navigation[]
+* xref:_shellbar[]
+* xref:_editor_toolbar[]
+* xref:_component_library[]
+* xref:_application_tree[]
+* xref:_ui_objects_pane[]
+* xref:_properties_pane[]
+* xref:_preview_pane[]
+* xref:_utility_section[]
 
 image::appdesigner-interface-clear.png[width=800]
 
-== Menu
+== Side navigation
 
 When you open the _App Designer_, you will only see the icons.
 Toggle the items by clicking the *Menu* icon.
@@ -29,8 +28,8 @@ Designer:: You start here when you open the _App Designer_. Develop your applica
 Translation:: Translate the text of screen objects.
 Version Management:: Manage different versions of your files.
 
-== Toolbar
-The *Toolbar* includes the following items:
+== Shellbar
+The Shellbar includes the following items:
 
 image::appdesigner-toolbar.png[width=800]
 
@@ -40,23 +39,23 @@ Display/Edit:: Click to toggle *Edit* or *Display* mode.
 Save:: Save your application. This saves all changes but does not apply the changes to the preview.
 Activate:: Save and activate your application. This saves changes and restarts the preview with all changes applied.
 Run:: Run the application in a separate browser tab.
-Screen views:: Switch panel views.
-The standard _App Designer_ view has four panels: The *Reusable component* panel, *Application component* panel, *Application preview* panel, and *UI object* panel.
+Screen views:: Switch pane views.
+The standard _App Designer_ view has four panes: The component library pane, application tree pane, preview pane, and UI objects pane.
 +
-image:appdesigner-views-stack.png[width=45] Combine the *Reusable component* panel and *Application component* panel.
+image:appdesigner-views-stack.png[width=45] Combine the component library pane and application tree pane.
 +
 image:cockpit-overview:appdesigner-views-switch.png[width=45]
-Switch *Application component* panel and *UI object* panel.
+Switch application tree pane and UI objects pane.
 +
 image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
-Hide the *UI object* panel.
+Hide the UI objects pane.
 
-== Editor tools
-The *Editor tools* include the following items:
+== Editor toolbar
+The Editor toolbar include the following items:
 
 image::appdesigner-editortools.png[width=800]
 
-Expand and Collapse:: Expand and collapse groups of the *Application component* panel.
+Expand and Collapse:: Expand and collapse groups of the application tree pane.
 Undo:: Undo your last changes.
 Run:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
 Header:: Define the html5 header for your application.
@@ -68,8 +67,8 @@ Stylesheet:: Define CSS for your application.
 //@Neptune Input needed
 //This is an old functionality which is deprecated. We should leave it empty.
 
-Script search:: Open the *Search and ToDo List* panel and search for scripts.
-ToDo List:: Open the *Search and ToDo List* panel.
+Script search:: Open the *Search and ToDo List* pane and search for scripts.
+ToDo List:: Open the *Search and ToDo List* pane.
 //@Neptune: Input needed, what do I do here?
 //Neptune@Parson: Search searches the app code for searchterm. To Do List shows all appearances of to do.
 Display Data Flow:: Display data flows for APIs and UI5 models.
@@ -77,10 +76,10 @@ Display Data Flow:: Display data flows for APIs and UI5 models.
 Easily switch between opened tabs.
 Click *Close all tabs* to close all open tabs.
 
-== Reusable component panel
+== Component library
 
-The *Reusable component* panel shows the components that you can use for building your application.
-Components are user-interface elements that you can drag and drop into the upper application component panel to build your application.
+The component library pane shows the components that you can use for building your application.
+Components are user-interface elements that you can drag and drop into the upper application tree pane to build your application.
 
 image::appdesigner-reusable-component-panel.png[width=200]
 
@@ -91,34 +90,34 @@ Components are divided into four sections:
 * Bootstrap components to design and structure your application in a non sap look and feel
 * OpenUI5 components to design and structure your application
 
-== Application component panel
+== Application tree
 
-The *Application component* panel shows the current state of your application.
-You use components from the *Reusable component* panel to build and structure your application here.
+The application tree pane shows the current state of your application.
+You use components from the component library pane to build and structure your application here.
 
 image::appdesigner-application-component-panel.png[width=200]
 
-== UI object panel
-The *UI object* panel lets you define the component name and enter a corresponding description.
-Depending on the selected component in the *Application component* panel, you also can enter a model source and a model path.
+== UI objects pane
+The UI objects pane lets you define the component name and enter a corresponding description.
+Depending on the selected component in the application tree pane, you also can enter a model source and a model path.
 
 image::appdesigner-ui-objectpanel.png[width=200]
 
-== Component properties panel
-The *Component properties* panel shows the attributes of a component.
+== Properties pane
+The properties pane shows the attributes of a component.
 You can define properties or events to change the layout and behavior of a component in your application.
 
 image::appdesigner-properties-components.png[width=200]
 
 
-== Application preview panel
-The *Application preview* panel shows a preview of your application. You can run a preview in this panel or on a new tab on your browser.
+== Preview pane
+The preview pane shows a preview of your application. You can run a preview in this pane or on a new tab on your browser.
 
 image::appdesigner-application-preview.png[width=200]
 
-== OpenUI5
+== Utility section
 *OpenUI5* opens a website providing UI5 resources, for example, a detailed documentation on Open UI5 components, API reference, and samples.
 
-== Neptune Community
+
 *Neptune Community* opens the community website. It gives you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
 

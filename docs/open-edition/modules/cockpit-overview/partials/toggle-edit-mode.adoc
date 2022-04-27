@@ -1,0 +1,7 @@
+[TIP]
+====
+Save your new application any time in the process and return to it later.
+To continue building your application, open it in the _App Designer_ and click *Toggle to edit mode* on the top menu.
+
+image::getting-started-guide:appdesigner-top-menu-edit.png[width=400]
+====

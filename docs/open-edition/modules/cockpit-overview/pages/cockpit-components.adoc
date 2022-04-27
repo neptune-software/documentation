@@ -16,11 +16,13 @@ The following tools are available:
 
 * xref:store.adoc[_Store_]: Download and share application building blocks.
 * xref:development-package.adoc[_Development Package_]: Organize and group artifacts.
-* xref:connectors.adoc[_Connectors]: Publish data sources your use in the Adaptive Designer_.
+* xref:connectors.adoc[_Connector]: Publish data sources your use in the Adaptive Designer_.
 * xref:adaptive-designer.adoc[_Adaptive Designer_]: Create adaptive applications.
 * xref:app-designer.adoc[_App Designer_]: Create UI5 applications with low-code designer.
 * xref:app-editor.adoc[_App Editor_]: Create fully customizable applications.
 * xref:script-editor.adoc[_Script Editor_]: Code server-side scripts and use them as microservices.
+* xref:rules-engine.adoc[_Rules Engine_]:
+//TODO: Explanation for rules engine needed.
 * xref:code-snippets.adoc[_Code Snippets_]: Configure code snippets for _App Designer_ and _Script Editor_.
 * xref:app-documentation.adoc[_Documentation_]: Create application documentation or context-sensitive help.
 * xref:media-library.adoc[_Media Library_]: Store the media files you want to use within your application.
@@ -52,6 +54,7 @@ The following tools are available:
 * xref:swagger-ui.adoc[_Swagger UI_]: Visualizes an API that you created in the _API Designer_.
 * xref:odata-source.adoc[_OData Source_]: Lets you new OData sources to a coordination package.
 * OData Mock Data_: Add and update mock data.
+//TODO link for mock data needed.
 
 == Administration
 image::cockpit-overv-administration.png[Cockpit overview section administration, 600]
@@ -67,8 +70,8 @@ The following tools are available:
 * xref:mobile-client.adoc[_Mobile Client_]: Create, configure, and download a Cordova Mobile Client zip build.
 * xref:mobile-debug.adoc[_Mobile Debug_]: Enable mobile debugging and view logs for applications and users.
 * xref:tile-blackout.adoc[_Tile Blackout_]: Informs users that the underlying app or URL on the tile is under maintenance or unreachable.
-* _Favorite Management_: Add tiles to the users' launchpad favorite tiles.
-* _Translation_: Translate artifacts, tiles, and tile groups.
+* xref:favourite-management.adoc[_Favorite Management_]: Add tiles to the users' launchpad favorite tiles.
+* xref:translation.adoc[_Translation_]: Translate artifacts, tiles, and tile groups.
 
 
 == Monitoring
