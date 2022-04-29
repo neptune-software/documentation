@@ -1,7 +1,10 @@
 = Add a definition and a property to an external API
 
-Introductory sentence, for example, In this topic, you learn how to do this and that.
-Data Type in body is found in daa definition, definitions let you define how a response looks like. Recoomend define definition for each possible response. Simplefies work in App Designer when integrateing data from api
+Definitions let you define how a response of an API looks like.
+
+To simplify the work when you integrate data from an API into an application, create a definition for each possible response
+
+Data Type in body is found in data definition, definitions let you define how a response looks like. Recoomend define definition for each possible response. Simplefies work in App Designer when integrateing data from api
 
 == Prerequisites
 
