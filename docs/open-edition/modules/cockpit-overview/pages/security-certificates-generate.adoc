@@ -22,7 +22,7 @@ image::security-certificate-settings.png[,600]
 .. *Sign with*: Self-signed is default. You can choose another predefined certificate as well.
 .. *Bit Size*: `2048` bit is default. You can choose `1024` and `4096` as well.
 .. *Serial Number*: `01` is default. You can choose another number.
-.. Click *Use encyption (sha-256)* if you use a server-side certificate or *Client Certificate* if the certificate should be used on the client side.
+.. Click *Use encryption (sha-256)* if you use a server-side certificate or *Client Certificate* if the certificate should be used on the client side.
 .. Customize the validity. The default is one year.
 .. Enter a *Common Name (CN)* for the certificate and fill in the other data.
 . Click *Generate New Certificate*.
