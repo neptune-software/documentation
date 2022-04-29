@@ -1,0 +1,25 @@
+= Delete an existing authentication method
+
+In this topic, you learn how to delete an existing proxy authentication method.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. In the cockpit, go to *Security* and click _Proxy Authentication_.
++
+*Result*: The list of existing authentication methods opens.
++
+image::security-proxy.png[,600]
+. Click on the authentication method you want to delete.
+. Click *Edit*.
++
+TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
+. Click the *Delete* icon.
+. Confirm you want to delete the authentication method.
+
+== Results
+* You have deleted an existing authentication method.
+
+== Related topics
+* xref:security-proxy-auth.adoc[Proxy Authentication]
