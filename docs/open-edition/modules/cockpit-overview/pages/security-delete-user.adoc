@@ -1,0 +1,30 @@
+= Delete an existing user
+
+In this topic, you learn how to delete an existing user.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. On the Cockpit, go to *Security* and click _User_.
++
+*Result*: The list of existing users opens.
++
+. Click on the user you want to delete.
++
+*Result*: The settings of the user open.
++
+image:security-user-general2.png[width=400]
+. Click *Edit*.
++
+TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
+. Click the *Delete* icon.
+. Confirm you want to delete the user.
+
+== Results
+* You have deleted an existing user.
+
+== Related topics
+* xref:security-user.adoc[User]
+* xref:security-add-user.adoc[]
+* xref:security-edit-user.adoc[]
