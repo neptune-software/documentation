@@ -14,16 +14,16 @@ In this topic, you learn how to add a new role.
 +
 *Result*: The settings of the role open.
 +
-image:security-role-general.png[width=400]
+image::security-role-general.png[width=400]
 . In the *General* tab, enter a name for the role.
 . You can enter a description and choose a package for the role.
 . In the *ACL* tab (Access control list), you can set the permissions for the role for each service or service group. The values are:
 +
-`None`:: The user cannot see the service or service group in his Cockpit.
-`Display`:: The user can see the service and the artifacts created with this service but cannot add or edit artifacts.
-`Edit`:: The user can see, add, and edit artifacts in this service.
+None:: The user cannot see the service or service group in his Cockpit.
+Display:: The user can see the service and the artifacts created with this service but cannot add or edit artifacts.
+Edit:: The user can see, add, and edit artifacts in this service.
 +
-image:security-role-acl.png[width=400]
+image::security-role-acl.png[width=400]
 +
 TIP: You can set the same permission for all services by clicking *All edit*, *All Display*, or *Revoke All*.
 . Click *Save*.
@@ -33,5 +33,3 @@ TIP: You can set the same permission for all services by clicking *All edit*, *A
 
 == Related topics
 * xref:security-role.adoc[Role]
-* xref:security-edit-role.adoc[]
-* xref:security-delete-role.adoc[]

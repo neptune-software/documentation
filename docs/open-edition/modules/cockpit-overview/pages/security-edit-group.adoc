@@ -17,7 +17,7 @@ In this topic, you learn how to edit an existing group of users.
 TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
 . You can change the settings of the group in the *General*, *Role*, and *User* tabs.
 +
-image:security-group-general2.png[width=500]
+image::security-group-general2.png[width=500]
 . Click *Save*.
 
 == Results

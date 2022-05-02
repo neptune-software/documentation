@@ -22,5 +22,3 @@ TIP: Access might be restricted to you, in which case a corresponding dialog app
 
 == Related topics
 * xref:security-role.adoc[Role]
-* xref:security-role-add.adoc[]
-* xref:security-edit-role.adoc[]

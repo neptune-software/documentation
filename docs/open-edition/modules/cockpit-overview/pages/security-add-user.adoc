@@ -13,7 +13,7 @@ In this topic, you learn how to add a new user to your system.
 +
 *Result*: The settings of the user open.
 +
-image:security-user-general.png[width=400]
+image::security-user-general.png[width=400]
 . In the *General* tab, enter a username and a password for the user.
 . Choose the language of the user.
 //TODO Neptune: What happens if you choose another language than English?

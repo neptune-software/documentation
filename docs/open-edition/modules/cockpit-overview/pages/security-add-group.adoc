@@ -13,7 +13,7 @@ In this topic, you learn how to add a new group to your system.
 +
 *Result*: The settings of the group open.
 +
-image:security-group-general.png[width=500]
+image::security-group-general.png[width=500]
 . In the *General* tab, enter a name for the group.
 . You can enter a description and choose a package for the group.
 . In the *Role* tab, you can add a role that is valid for the group.

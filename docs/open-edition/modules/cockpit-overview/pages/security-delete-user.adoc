@@ -14,7 +14,7 @@ In this topic, you learn how to delete an existing user.
 +
 *Result*: The settings of the user open.
 +
-image:security-user-general2.png[width=400]
+image::security-user-general2.png[width=400]
 . Click *Edit*.
 +
 TIP: Access might be restricted to you, in which case a corresponding dialog appears. Click *Yes, it´s me, unlock* or unlock the record in the _Lock Entries_ service.
