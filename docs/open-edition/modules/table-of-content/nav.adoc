@@ -166,7 +166,6 @@
 * xref:cockpit-overview:testing.adoc[Testing]
 * xref:cockpit-overview:deployment.adoc[Deployment]
 * xref:cockpit-overview:security.adoc[Security]
-* xref:cockpit-overview:security.adoc[Security]
 ** xref:cockpit-overview:security-user.adoc[User]
 *** xref:cockpit-overview:security-add-user.adoc[]
 *** xref:cockpit-overview:security-edit-user.adoc[]
