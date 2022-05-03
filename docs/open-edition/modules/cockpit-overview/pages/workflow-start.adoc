@@ -1,0 +1,30 @@
+= Start a workflow
+
+In this topic, you learn how to start a workflow. To start a workflow, you have to insert a server script in your app or in a external system.
+
+== Prerequisites
+
+* You have created a new workflow in xref:workflow-definition-add.adoc[].
+
+
+== Procedure
+
+. In the Cockpit, go to *Workflow* and click _Definition_.
+
+. Click the button on the right side of your workflow.
++
+image::workflow-start.png[,800]
++
+*Result*: A new window with the server script in `json` format opens.
+
+. Copy the code and insert it where you need it.
+
+== Results
+
+* You have started a workflow.
+
+== Related topics
+
+* xref:workflow.adoc[]
+* xref:workflow-overview.adoc[Overview]
+* xref:workflow-definition.adoc[Definition]

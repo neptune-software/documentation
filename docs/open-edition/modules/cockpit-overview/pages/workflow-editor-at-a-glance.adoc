@@ -17,6 +17,17 @@ Description:: Description of the script task.
 
 Server script:: Server script that is stored in the system and that should be executed during the workflow.
 
+.Example server script
+[source,asciidoc]
+----
+// Get Data from Workflow, object number/type, value, currency etc
+log.info(JSON.stringify(wfData));
+
+// Set processing true/false - Use 'True' or 'False'. From 2.0.0 boolean values are supported
+wfData.result = 'False';
+complete();
+----
+
 === User task
 A user task is used when you want a user of your system to execute a certain activity.
 This could be used, for example, to approve an order or invoice.
@@ -81,3 +92,7 @@ Event to cancel the workflow if it has failed.
 
 Complete::
 Event to complete and close the workflow if it has succeeded.
+
+== Related topics
+* xref:workflow-definition.adoc[Definition]
+* xref:workflow-work-editor.adoc[]

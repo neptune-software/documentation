@@ -23,6 +23,3 @@ In this topic, you learn how to delete a workflow.
 == Related topics
 
 * xref:workflow-definition.adoc[Definition]
-* xref:workflow-definition-add.adoc[]
-* xref:workflow-definition-edit.adoc[]
-* xref:workflow-definition-editor.adoc[]

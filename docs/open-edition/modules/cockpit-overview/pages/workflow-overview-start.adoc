@@ -25,6 +25,6 @@ image::workflow-new.png[,400]
 
 == Related topics
 
-* xref:workflow-definition.adoc[Workflow Definition]
+* xref:workflow-definition.adoc[Definition]
 * xref:workflow-overview.adoc[Overview]
 * xref:workflow-overview-rerun.adoc[]

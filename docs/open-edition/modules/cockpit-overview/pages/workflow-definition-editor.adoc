@@ -1,3 +1,5 @@
+//Topic is obsolete, content is stored in workflow-editor-at-a-glance
+
 = Workflow editor
 
 With the workflow editor, you actually create your workflows.

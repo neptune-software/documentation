@@ -15,7 +15,7 @@ In this topic, you learn how to add a new workflow.
 . You can enter a subtitle for the workflow.
 //TODO Neptune: Change GUI from "Sub Title" to "Subtitle".
 . You can choose a package and an icon for the workflow.
-. In the *Editor* tab, you can build the workflow.
+. In the *Editor* tab, you can create the workflow.
 . Click *Save*.
 
 == Results
@@ -25,6 +25,5 @@ In this topic, you learn how to add a new workflow.
 == Related topics
 
 * xref:workflow-definition.adoc[Definition]
-* xref:workflow-definition-edit.adoc[]
-* xref:workflow-definition-delete.adoc[]
-* xref:workflow-definition-editor.adoc[]
+* xref:workflow-editor-at-a-glance.adoc[]
+* xref:workflow-work-editor.adoc[]

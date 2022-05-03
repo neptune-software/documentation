@@ -7,16 +7,9 @@ You can add a new workflow or edit an existing workflow.
 
 * xref:workflow.adoc[]
 * xref:workflow-definition-add.adoc[]
+* xref:workflow-editor-at-a-glance.adoc[]
+* xref:workflow-work-editor.adoc[]
 * xref:workflow-definition-edit.adoc[]
 * xref:workflow-definition-delete.adoc[]
-* xref:workflow-definition-editor.adoc[]
 
 
-Complex task:
-- Create a workflow with the workflow editor
-
-Subtask
-- Workflow definition editor at a glance
-- Add elements to the editor
-- connect elements
-- fill in Data related to the elements

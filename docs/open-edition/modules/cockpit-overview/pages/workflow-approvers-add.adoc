@@ -17,7 +17,7 @@ In this topic, you learn how to add a new list of approvers.
 image::workflow-approvers-add.png[,600]
 . In *Org. Unit*, select if you want to add a role, group, or user as approver.
 . In *Org. Value*, select the role, group, or user you want to add.
-. In *Amount From* and *Amount Up-To*, select the range in which the Approver gets notified.
+. In *Amount From* and *Amount Up-To*, select the range in which the approver gets notified.
 //TODO Neptune: What is the unit for this?
 . Select if an *Action* should additionally be performed.
 . Click *Save*.
