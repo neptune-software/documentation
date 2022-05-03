@@ -28,8 +28,6 @@ TIP: You can add users in the _User_ service.
 * You have added a new group to your system.
 
 == Related topics
-* xref:security-edit-group.adoc[]
-* xref:security-delete-group.adoc[]
 * xref:security-group.adoc[Group]
 * xref:security-role.adoc[Role]
 * xref:security-user.adoc[User]

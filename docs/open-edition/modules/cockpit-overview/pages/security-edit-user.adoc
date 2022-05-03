@@ -32,6 +32,5 @@ TIP: Access might be restricted to you, in which case a corresponding dialog app
 
 == Related topics
 * xref:security-user.adoc[User]
-* xref:security-add-user.adoc[]
-* xref:security-delete-user.adoc[]
+
 //*xref to "Lock Entries"

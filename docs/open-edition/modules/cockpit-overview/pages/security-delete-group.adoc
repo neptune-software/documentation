@@ -26,5 +26,3 @@ image::security-group-general2.png[width=400]
 
 == Related topics
 * xref:security-group.adoc[Group]
-* xref:security-add-group.adoc[]
-* xref:security-edit-group.adoc[]

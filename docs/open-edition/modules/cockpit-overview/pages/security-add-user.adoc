@@ -34,7 +34,5 @@ This is used to access Neptune API from an external server.
 * You have added a new user to your system.
 
 == Related topics
-* xref:security-edit-user.adoc[]
-* xref:security-delete-user.adoc[]
 * xref:security-user.adoc[User]
 * xref:security-role.adoc[Role]
