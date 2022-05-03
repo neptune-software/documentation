@@ -1,0 +1,38 @@
+= Add a new user
+
+In this topic, you learn how to add a new user to your system.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. On the Cockpit, go to *Security* and click _User_.
++
+*Result*: The list of existing users opens.
+. Click *Add*.
++
+*Result*: The settings of the user open.
++
+image::security-user-general.png[width=400]
+. In the *General* tab, enter a username and a password for the user.
+. Choose the language of the user.
+//TODO Neptune: What happens if you choose another language than English?
+. You can add additional information about the user.
+. You can select a validity for the user. This is used, if you want the user to expire automatically after a certain period.
+. In the *Role* tab, you can add a role to the user.
++
+TIP: You can define roles in the _Role_ service.
+
+. In the *API token* tab, you can generate an API token for the user.
+This is used to access Neptune API from an external server.
+// TODO Hendrik: is that correct?
+// TODO Neptune: GUI for the "enable" switch is in german ("an", "aus")
+// TODO Neptune: terminology in GUI inconsistent, API token/JWT token, is that done on purpose?
+. Click *Save*.
+
+== Results
+* You have added a new user to your system.
+
+== Related topics
+* xref:security-user.adoc[User]
+* xref:security-role.adoc[Role]
