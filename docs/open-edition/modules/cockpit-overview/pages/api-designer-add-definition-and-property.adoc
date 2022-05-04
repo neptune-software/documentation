@@ -1,10 +1,11 @@
 = Add a definition and a property to an external API
 
 Definitions let you define how a response of an API looks like.
+To simplify the work when you integrate data from an API into an application, create a definition for each possible response the API gives.
 
-To simplify the work when you integrate data from an API into an application, create a definition for each possible response
+In this task, you learn how to add a definition to an external API manually.
+With many APIs, you can import definition or derive definitions from sample requests.
 
-Data Type in body is found in data definition, definitions let you define how a response looks like. Recoomend define definition for each possible response. Simplefies work in App Designer when integrateing data from api
 
 == Prerequisites
 
