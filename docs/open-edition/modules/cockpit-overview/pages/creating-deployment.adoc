@@ -10,12 +10,9 @@ You have three options to create and to deploy a deployment package:
 
 == Prerequisites
 * Before you start a deployment process, make sure that the system you want to send the deployment packages to is available.
-How to set up a remote system, see Remote System Setup.
-//Todo Gernot link page Remote System
-//todo Gernot: The system you want to send the deployment packages to is available (to you). Check the availability in xref:Remote systems.
-* Optional: You have set a deployment authentication in *Settings* > *Custom settings*.
+How to set up a remote system, see xref:setup-remote-system.adoc[Remote System Setup].
+* Optional: You have set a deployment authentication in xref:c[Custom settings].
 //Provide a link to the topic.
-//todo Gernot: can we have it in active? You have set...
 
 == Procedure
 . In the Neptune DXP - Open Edition cockpit, navigate to *Deployment*, and go to *Deployment Create*.
