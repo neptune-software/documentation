@@ -1,0 +1,3 @@
+= Pass data from an adaptive application to a low-code application
+//task information
+//TODO Leonie: fill topic

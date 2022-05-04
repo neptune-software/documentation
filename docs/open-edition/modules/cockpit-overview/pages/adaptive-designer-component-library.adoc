@@ -1,0 +1,15 @@
+= Component library
+
+The component library is a pane that offers data sources that you can use as components to create your application. Drag and drop the components you want to use in your application to the application tree.
+
+image::adaptive-designer-user-interface-component-library.png[width=800]
+
+//TODO Leonie: Create partial for upper part
+
+In the _Adaptive Designer_ the displayed data sources depend on the data source you have chosen to create your adaptive application.
+
+== Related topics
+
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]
+//TODO Leonie: link to relevant tasks

@@ -1,0 +1,19 @@
+= Adaptive list
+
+The adaptive list template provides functionalities to create an adaptive application in _Adaptive Designer_ based on the predefined data sources.
+In the resulting adaptive application, you can manage data sets in a list-like display. For example:
+
+* Display your data set.
+* Sort and filter for specific criteria.
+* Run a full text search.
+
+Optionally, you can link adaptive applications created with the adaptive list template to adaptive applications created with the adaptive edit template.
+
+image::adaptive-designer-adaptive-list.png[width=800]
+
+== Related topics
+
+* xref:adaptive-designer-adaptive-templates.adoc[]
+* xref:adaptive-designer-adaptive-edit.adoc[]
+* xref:adaptive-designer.adoc[Adaptive Designer]
+

@@ -1,0 +1,13 @@
+= Adaptive tile table
+
+The adaptive tile template table provides functionalities to create an adaptive application in _Adaptive Designer_ based on the predefined data sources that runs directly within a tile in a launchpad.
+
+The resulting adaptive application displays real-time data in a list-like display similar to adaptive applications created with the analytic list template. However, you cannot further customize or edit the data set on the tile, except from sorting it.
+
+image::adaptive-designer-adaptive-tile-table.png[width=400]
+
+== Related topics
+
+* xref:adaptive-designer-adaptive-templates.adoc[]
+* xref:adaptive-designer-adaptive-list.adoc[]
+* xref:adaptive-designer.adoc[Adaptive Designer]
