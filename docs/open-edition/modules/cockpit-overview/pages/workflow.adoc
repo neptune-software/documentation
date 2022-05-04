@@ -1,22 +1,36 @@
 = Workflow
 
-A workflow provides an infrastructure for the setup, performance and monitoring of a defined sequence of tasks.
+A workflow provides an infrastructure for the setup, performance, and monitoring of a defined sequence of tasks.
 
-With a workflow, you can design, build, run and manage workflows from simple approvals to complex processes that span across different organizations and applications. It is a tool designed to facilitate and automate processes that require tasks to be performed by people. Each step of a transaction can be easily monitored, and processes are completed from the beginning to the end. An inbox application is used to receive notifications if it is a users turn to perform a step in the workflow. In short, a workflow ensures that the right work is brought in the right sequence at the right time to the right people.
+With a workflow, you can design, build, run, and manage workflows from simple approvals to complex processes that span across different organizations and applications.
+It is a tool designed to facilitate and automate processes that require tasks to be performed by individuals.
+Each step of the workflow can be easily monitored and thereby assured that it is completed from the beginning to the end.
+An inbox application is used to receive notifications if it is a user's turn to perform a step in the workflow.
 
+In short, a workflow ensures that the right work is brought in the right sequence at the right time to the right people.
 
-== Benefits of workflow
-There are the following beneftis of using a workflow:
+== Benefits of workflows
 
-* Process improvement: Relevant information are send directly to the user, according to the predefined steps in the workflow. Nobody needs to approve a certain task for it to run
-* Process time is reduced by providing all necessary information so people can check their list of pending tasks and better plan their work
-* Using workflows, it is easy to manage task dependency and to send notifications in about pending actions.
+There are the following benefits of using a workflow:
+
+* Process improvement: Relevant information are sent directly to the user, according to the predefined steps in the workflow. Nobody needs to approve a certain task for it to run.
+* Process time is reduced by providing all necessary information so people can check their list of pending tasks and better plan their work.
+* Using workflows makes it easier to manage task dependency and send notifications about pending actions.
 
 == How does a workflow work?
 
-The workflow is started either manually or by the system at runtime. For the system to start a workflow, the workflow definition must contain a triggering event (for example the event "Address update by the employee"). When the event occurs, the relevant workflow is started automatically. Tasks or Work items describe the activities involved and can refer to automatic executable methods (i.e. Send an email to a supervisor) or they might need a user to execute them (i.e. The supervisor has to go and click on a button in his workplace to approve something).
+A workflow can be started either manually or by the system at runtime.
+For the system to start a workflow, the workflow definition must contain a triggering event, for example, the event `Address update by the employee`.
+When the event occurs, the relevant workflow starts automatically.
+Tasks or work items describe the activities involved and can refer to automatic executable methods, for example, sending an email to a supervisor, or they need a user to execute the task, for example, the supervisor has to approve something.
 
-Events are activities that trigger the workflow - one or several workflows at the time. Once the workflow is triggered, the definition flowchart determines when and in what order work happens. Work items are then received and executed in Planet 9 integrated inbox.  A work item is always assigned to one or more users. Once the task is executed, the work item vanishes from the other users' inboxes.
+Events are activities that trigger the workflow. An event can trigger one or more workflows at the same time.
+Once the workflow is triggered, the definition flowchart determines when and in what order what happens.
+Work items are received and executed in a predefined inbox application.
+A work item has to be assigned to one or more users.
+Once the task is executed, the work item vanishes from the other users' inboxes.
+
+== Related topics
 
 * xref:workflow-overview.adoc[Overview]
 * xref:workflow-definition.adoc[Definition]
