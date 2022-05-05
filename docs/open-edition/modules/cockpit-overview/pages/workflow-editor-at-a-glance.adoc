@@ -3,24 +3,29 @@
 The workflow editor interface consists of the following elements:
 
 image::workflow-editor-at-a-glance.png[width=800]
+//reusable component pane > component library?
+//and I would leave a little gap between shell bar and text box.
 
 == Task
 A task is an activity executed by a script or a user.
 
 === Script task
 
-A script task is used when you want the system to execute a server script. This could be used, for example, to process an input from the workflow context and store the output as a variable.
+A script task is used when you want the system to execute a server script.
+This could be used, for example, to process an input from the workflow context and store the output as a variable.
+//~In the component properties pane, you define the following properties for a server script:
 
 Name:: Name of the script task.
 
 Description:: Description of the script task.
 
 Server script:: Server script that is stored in the system and that should be executed during the workflow.
+//and is executed during... no need for should
 
 .Example server script
 [source,asciidoc]
 ----
-// Get Data from Workflow, object number/type, value, currency etc
+// Get Data from Workflow, object number/type, value, currency etc.
 log.info(JSON.stringify(wfData));
 
 // Set processing true/false - Use 'True' or 'False'. From 2.0.0 boolean values are supported
@@ -37,15 +42,19 @@ Name:: Name of the user task.
 Description:: Description of the user task.
 
 Max Processing time:: Maximum amount of time you allow the user to perform the task. The max processing time is measured in milliseconds.
+//What happens if time runs out?
+//you didn't use "you" in any other def. Alternative: Maximum amount of time a user needs to perform the task. ...
 
 Inbox Application:: Application where the user receives notifications to perform a task. Default is the `Universal Inbox` widget in the launchpad.
 
 Approver Determination:: Selection of the approver for the user task.
-
+// Select the approver...
 Task Action:: Selection of the task action for the user task.
 
 Custom Script Determination::
 Manual approver determination based on a server script.
+//this is unclear to me. What does the approver do here?
+//manually select/determine approver...
 
 Enable Forward::
 Allow the approver to forward the task.
@@ -55,29 +64,34 @@ Allow the approver to send a query.
 
 Enable Notification::
 Allow the approver to enable notifications.
+//notification for...?
 
 Task Notification::
-Select the notification which needed to be send with the user task.
+Select the notification which need to be sent with the user task.
 
 Sender eMail::
-Email address from which the user task is send.
+Email address from which the user task is sent.
 
 == User action
 Actions for a user to perform during a script task or a user task.
 
 Approve::
 To indicate that the user approves the task.
+//The user approves the task. ?
 
 Reject::
 To indicate that the user rejects the task.
+//The user rejects the task. ?
 
 Save::
 If the user needs to save the state of the workflow.
+//The user saves... ?
 
 == Script action
 
 Result for a server script during a script task.
 
+//Why if?
 False::
 If the server script fails.
 
