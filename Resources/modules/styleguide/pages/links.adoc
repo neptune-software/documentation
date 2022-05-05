@@ -1,0 +1,40 @@
+= Links
+
+Links from one topic to another are important to read more about a given topic that is explained in another place.
+The user should be directed to content that is related to what he just reads.
+However, he should not be overwhelmed with unnecessary information that is only marginally related to what he is working on.
+
+The following rules are used to decide which topics to link to and which not:
+
+== Concept topics
+
+Concept topics link to:
+
+* All task topics that are related to that concept topic
+* Parent or child concept topics
+* All other topics whose content is necessary to understand the content of the topic
+
+Where are links placed:
+
+* In a *Related topics* section
+
+== Links in task topics
+
+Task topics link to:
+
+* Service overview of the task (concept topic)
+* First page of the tak,k if it consists of more than one step
+* Next step
+* Previous step
+
+Task topics do NOT link to:
+
+* Every next step in the sequence
+* Every previous step in the sequence
+* Other task topics related to the same service
+
+Where are links placed:
+
+* In a *Related topics* section
+* In a *Next steps* section
+* In the *Prerequisites* section
