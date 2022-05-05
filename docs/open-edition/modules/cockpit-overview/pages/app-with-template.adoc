@@ -19,4 +19,4 @@ Creating an application with templates includes the following steps:
 == Related topics
 
 * xref:app-from-scratch.adoc[]
-* xref:appdesigner-at-a-glance.adoc[]
+* xref:app-designer-user-interface-at-a-glance.adoc[]

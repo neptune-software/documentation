@@ -45,4 +45,4 @@ There are three places your application building block might appear:
 
 == Related topics
 
-* xref:cockpit-overview:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
+* xref:cockpit-overview:app-designer-user-interface-at-a-glance.adoc[_App Designer_ interface at a glance]

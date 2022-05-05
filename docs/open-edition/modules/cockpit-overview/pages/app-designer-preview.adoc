@@ -1,0 +1,5 @@
+= Preview
+
+include::partial$preview-pane.adoc[]
+
+image::app-designer-user-interface-preview.png[width=800]

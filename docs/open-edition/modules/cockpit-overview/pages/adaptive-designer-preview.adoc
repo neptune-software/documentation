@@ -1,10 +1,8 @@
 = Preview
 
-The preview is a pane that displays the visual application preview based on the components used in the application tree when creating an application.
+include::partial$preview-pane.adoc[]
 
 image::adaptive-designer-user-interface-preview.png[width=800]
-
-//TODO Leonie: Create partial for upper part
 
 In the _Adaptive Designer_ preview, you can see the results from editing selected components in the application tree.
 

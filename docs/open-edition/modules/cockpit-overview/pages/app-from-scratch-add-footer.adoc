@@ -57,4 +57,4 @@ You have created an application to display and update information about equipmen
 
 * xref:app-from-scratch.adoc[]
 * xref:app-with-template.adoc[]
-* xref:appdesigner-at-a-glance.adoc[]
+* xref:app-designer-user-interface-at-a-glance.adoc[]

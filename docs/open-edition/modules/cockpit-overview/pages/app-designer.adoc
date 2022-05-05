@@ -23,6 +23,6 @@ You can use the following component types:
 
 == Related Topics
 
-* xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
+* xref:app-designer-user-interface-at-a-glance.adoc[_App Designer_ interface at a glance]
 * xref:ways-to-create-an-app.adoc[]
 //* xref application building blocks
