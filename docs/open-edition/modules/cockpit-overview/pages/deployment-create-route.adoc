@@ -9,17 +9,17 @@ In this topic, you learn to create a deployment route and add different target s
 // Todo Hendrik target system vs. remote system. Which term should be used?
 
 == Procedure
-. In the Cockpit, go to *Deployment*, and click *Deployment Routes*.
+. In the Cockpit, go to *Deployment* and click *Deployment Routes*.
 //On Neptune...cockpit -> In the Cockpit, navigate > go
 +
-image:deployment-routes-overview.png[,800]
+image::deployment-routes-overview.png[,800]
 //todo gernot: text needs to be light grey. Is screenshot + result necessary?
 +
 *Result*: The Deployment Routes window opens.
 //deployment routes window -> Deployment Routes window
 . Click *Add*.
 +
-image:deployment-routes-general.png[,800]
+image::deployment-routes-general.png[,800]
 //todo gernot: shell bar + side navigation not simplified. Changed size to 800.
 +
 *Result*: The Deployment Routes window opens.
