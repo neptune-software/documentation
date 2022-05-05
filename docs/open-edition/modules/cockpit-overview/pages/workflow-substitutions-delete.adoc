@@ -22,7 +22,4 @@ In this topic, you learn how to delete a subsitution.
 
 == Related topics
 
-* xref:workflow.adoc[]
 * xref:workflow-substitutions.adoc[Substitutions]
-** xref:workflow-substitutions-add.adoc[]
-** xref:workflow-substitutions-edit.adoc[]

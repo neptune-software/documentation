@@ -21,5 +21,3 @@ In this topic, you learn how to delete a task action.
 == Related topics
 
 * xref:workflow-task-action.adoc[Task Action]
-** xref:workflow-task-action-add.adoc[]
-** xref:workflow-task-action-edit.adoc[]

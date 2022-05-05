@@ -22,6 +22,5 @@ In this topic, you learn how to edit a subsitution for an approver.
 
 == Related topics
 
-* xref:workflow.adoc[]
 * xref:workflow-substitutions.adoc[Substitutions]
-** xref:workflow-substitutions-add.adoc[]
+

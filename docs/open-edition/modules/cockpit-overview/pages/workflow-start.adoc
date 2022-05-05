@@ -18,6 +18,7 @@ image::workflow-start.png[,800]
 *Result*: A new window with the server script in `json` format opens.
 
 . Copy the code and insert it where you need it.
+. Run the script.
 
 == Results
 

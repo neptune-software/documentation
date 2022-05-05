@@ -1,13 +1,11 @@
 = Workflow
 
-A workflow provides an infrastructure for the setup, performance, and monitoring of a defined sequence of tasks.
-//performance is more often used in a different context in development. Alternative: ...infrastructure to set up, perform, and monitor a defined sequence...
+A workflow provides an infrastructure to set up, perform, and monitor a defined sequence of tasks.
 
 With a workflow, you can design, build, run, and manage workflows from simple approvals to complex processes that span across different organizations and applications.
 It is a tool designed to facilitate and automate processes that require tasks to be performed by individuals.
 Each step of the workflow can be easily monitored and thereby assured that it is completed from the beginning to the end.
-An inbox application is used to receive notifications if it is a user's turn to perform a step in the workflow.
-//An inbox application notifies users/a user when it is their turn ...
+An inbox application notifies users when it is their turn to perform a step in the workflow.
 
 In short, a workflow ensures that the right work is brought in the right sequence at the right time to the right people.
 
@@ -24,18 +22,14 @@ There are the following benefits of using a workflow:
 A workflow can be started either manually or by the system at runtime.
 For the system to start a workflow, the workflow definition must contain a triggering event, for example, the event `Address update by the employee`.
 When the event occurs, the relevant workflow starts automatically.
-Tasks or work items describe the activities involved and can refer to automatic executable methods, for example, sending an email to a supervisor, or they need a user to execute the task, for example, the supervisor has to approve something.
-//long sentence.
-//Each step in a workflow is represented by a task or work item describing the activity.
-//An activity is either an automatic action, for example, the system sends an email to a supervisor, or a task manually performed by a user, for example, a supervisor approving a result.
+Each step in a workflow is represented by a task or work item describing the activity.
+An activity is either an automatic action, for example, the system sends an email to a supervisor, or a task manually performed by a user, for example, a supervisor approving a result.
 
 Events are activities that trigger the workflow.
 An event can trigger one or more workflows at the same time.
-Once the workflow is triggered, the definition flowchart determines when and in what order what happens.
-//...when and in what order tasks are performed.
+Once the workflow is triggered, the definition flowchart determines when and in what order tasks are performed.
 Work items are received and executed in a predefined inbox application.
-A work item has to be assigned to one or more users.
-//...is assigned...
+A work item is assigned to one or more users.
 Once the task is executed, the work item vanishes from the other users' inboxes.
 
 == Related topics

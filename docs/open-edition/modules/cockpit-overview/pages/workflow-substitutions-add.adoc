@@ -27,5 +27,4 @@ image::workflow-substitutions-add.png[,600]
 
 == Related topics
 
-* xref:workflow.adoc[]
 * xref:workflow-substitutions.adoc[Substitutions]
