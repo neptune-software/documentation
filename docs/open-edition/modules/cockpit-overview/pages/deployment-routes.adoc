@@ -2,11 +2,10 @@
 
 In _Deployment Routes_, you create or edit routes for your deployment packages.
 Deployment routes enable you to transfer your deployment packages to multiple target systems, with one transfer process.
-//added s to systemS
+
 When you create a deployment route, you select the desired systems you want to send your deployment packages to.
 
 image::deployment-routes-overview.png[,800]
-//todo Gernot: Text on white background needs to be light grey, see guide.
 
 == Related topics
 

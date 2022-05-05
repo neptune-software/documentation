@@ -1,56 +1,35 @@
 = Create a deployment route
 
 In this topic, you learn to create a deployment route and add different target systems.
-//we explain how you -> you learn to, and shortened
 
 == Prerequisites
-* You have access to at least one target system. You can create target systems in *Security* > *Remote Systems*.
-//Provide a link to the topic.
+* You have access to at least one target system. To create a target systems, see xref:setup-remote-system.adoc[Setting up a remote system].
 // Todo Hendrik target system vs. remote system. Which term should be used?
 
 == Procedure
 . In the Cockpit, go to *Deployment* and click *Deployment Routes*.
-//On Neptune...cockpit -> In the Cockpit, navigate > go
-+
-image::deployment-routes-overview.png[,800]
-//todo gernot: text needs to be light grey. Is screenshot + result necessary?
-+
-*Result*: The Deployment Routes window opens.
-//deployment routes window -> Deployment Routes window
 . Click *Add*.
 +
-image::deployment-routes-general.png[,800]
-//todo gernot: shell bar + side navigation not simplified. Changed size to 800.
+image::deployment-routes-overview-add.png[,800]
 +
 *Result*: The Deployment Routes window opens.
-//deployment routes window -> Deployment Routes window
 +
 . Fill in a name for your route.
-. Click the *SYSTEMS* tab.
-//todo gernot: maybe change to *Systems*, will discuss in group meeting.
-. In the *SYSTEMS* tab, click *Add*.
-//todo gernot: merge into one step? -> Navigate to the *Systems* tab and click *Add*.
-+
-image:deployment-routes-overview-systems.png[,600]
-//todo gernot: image cannot be found? Image necessary? Result necessary?
+. Click the *Systems* tab and click *Add*.
 +
 *Result*: The deployment routes window with a list of all available target systems opens.
 +
-. Click the system you want to add to your deployment route.
-//todo gernot: Select?
+. Click on the system you want to add to your deployment.
 +
-// add screenshot?
-*Result*: The system is added to your deployment route and listed in the overview in the *SYSTEMS* tab.
-//todo gernot: maybe *Systems*
+image::deployment-select-r-system.png[,800]
++
+*Result*: The system is added to your deployment route and listed in the overview in the *Systems* tabs.
 . Click *Add* again to add another system to your deployment route.
-//can you select multiple systems at once to not click add multiple times?
 . Click *Save*.
 
 == Result
 
 * You have created a deployment route. You now can select the deployment route in _Deployment create_.
-//todo gernot: ...select your deployment route in...?
-
 
 == Related topics
 

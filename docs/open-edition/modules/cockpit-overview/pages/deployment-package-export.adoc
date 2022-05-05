@@ -2,30 +2,23 @@
 
 In this topic, you learn how to export deployment packages.
 
-
 == Prerequisites
 * none
-//Provide a link to the topic.
 
 == Procedure
 . In the Cockpit, go to *Deployment*, and click *Deployment Transfer*.
-//Open Neptune DXP - Open Edition cockpit > In the Cockpit, navigate > go
 +
 image:deployment-transfer-start.png[,800]
-//todo gernot: cover text in light grey, cover dates (so that users do not questions whether it's still up to date).
 +
 *Result*: The Deployment Transfer window opens.
-//The deployment transfer window > The Deployment Transfer window
 . In the *Status* column, click the package that you want to export.
 +
 *Result*: The Deploy window opens.
-//The deploy window > The Deploy window
 +
 . Check the listed files and click *Export*.
 
 == Results
 * _Deployment Transfer_ creates a planet9 file out of the deployment package that your browser downloads automatically.
-//_Deployment transfer_ > _Deployment Transfer_
 
 == Related Topics
 

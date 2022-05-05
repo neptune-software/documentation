@@ -2,13 +2,10 @@
 
 With _Deployment Transfer_, you export deployment packages.
 To export means that these packages leave the system and are not handled anymore in the usual transfer process that needs approval.
-//...that demands approvals. > ...that needs approval.
 When you export a deployment package, _Deployment Transfer_ creates a zip file in the planet9 format out of it.
 //Todo hendrik: is it correct that you can export any deployment packages? Even the ones that are transferred to systems? And: Is planet9 a kind of zip format?
 
-
 image::deployment-transfer-start.png[,800]
-//todo gernot: cover text in light grey, cover dates
 
 == Related topics
 
