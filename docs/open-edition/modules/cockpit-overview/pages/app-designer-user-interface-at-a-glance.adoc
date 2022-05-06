@@ -2,53 +2,18 @@
 
 The _App Designer_ interface consists of the following elements:
 
-* xref:_side_navigation[]
-* xref:_shellbar[]
+//* xref:_side_navigation[]
+//* xref:_shellbar[]
 * xref:_editor_toolbar[]
 * xref:_component_library[]
 * xref:_application_tree[]
 * xref:_ui_objects_pane[]
 * xref:_properties_pane[]
-* xref:_preview_pane[]
+//* xref:_preview_pane[]
 * xref:_utility_section[]
 
 image::appdesigner-interface-clear.png[width=800]
 
-== Side navigation
-
-When you open the _App Designer_, you will only see the icons.
-Toggle the items by clicking the *Menu* icon.
-
-The *Menu* includes the following items:
-
-image::appdesigner-menu.png[width=200]
-
-Settings:: Configure the OpenUI5 version and application properties.
-Designer:: You start here when you open the _App Designer_. Develop your application.
-Translation:: Translate the text of screen objects.
-Version Management:: Manage different versions of your files.
-
-== Shellbar
-The Shellbar includes the following items:
-
-image::appdesigner-toolbar.png[width=800]
-
-Application:: Open, create, delete, or copy applications.
-Export and import applications, run a global search to find javascript code across all applications, generate a version, and refresh the master data.
-Display/Edit:: Click to toggle *Edit* or *Display* mode.
-Save:: Save your application. This saves all changes but does not apply the changes to the preview.
-Activate:: Save and activate your application. This saves changes and restarts the preview with all changes applied.
-Run:: Run the application in a separate browser tab.
-Screen views:: Switch pane views.
-The standard _App Designer_ view has four panes: The component library pane, application tree pane, preview pane, and UI objects pane.
-+
-image:appdesigner-views-stack.png[width=45] Combine the component library pane and application tree pane.
-+
-image:cockpit-overview:appdesigner-views-switch.png[width=45]
-Switch application tree pane and UI objects pane.
-+
-image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
-Hide the UI objects pane.
 
 == Editor toolbar
 The Editor toolbar include the following items:
@@ -108,12 +73,6 @@ The properties pane shows the attributes of a component.
 You can define properties or events to change the layout and behavior of a component in your application.
 
 image::appdesigner-properties-components.png[width=200]
-
-
-== Preview pane
-The preview pane shows a preview of your application. You can run a preview in this pane or on a new tab on your browser.
-
-image::appdesigner-application-preview.png[width=200]
 
 == Utility section
 *OpenUI5* opens a website providing UI5 resources, for example, a detailed documentation on Open UI5 components, API reference, and samples.

@@ -1,6 +1,6 @@
 = Preview
 
-include::partial$preview-pane.adoc[]
+include::ROOT:partial$preview-pane.adoc[]
 
 image::adaptive-designer-user-interface-preview.png[width=800]
 

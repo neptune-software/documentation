@@ -1,13 +1,8 @@
 = Side navigation
 
-The side navigation displays navigation structures with up to two levels that link to different pages. It consists of two parts:
-
-Main navigation section:: Upper part of the side navigation containing links to pages in the user's current work context.
-Utility section:: Lower part of the side navigation containing links to additional information, such as communities or documentation.
+include::ROOT:partial$side-navigation.adoc[]
 
 image::adaptive-designer-user-interface-side-navigation.png[width=800]
-
-//TODO Leonie: Create Partial for upper part
 
 == Main navigation section
 The _Adaptive Designer_ main navigation section links to the following pages:

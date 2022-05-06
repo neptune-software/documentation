@@ -1,5 +1,32 @@
 = Preview
 
-include::partial$preview-pane.adoc[]
+include::ROOT:partial$preview-pane.adoc[]
 
 image::app-designer-user-interface-preview.png[width=800]
+
+In the _App Designer_ preview, you can see a preview of your application.
+Run a preview by clicking *Run in Designer* in the preview toolbar.
+If you activated the preview and edited you application, update the preview by clicking *Activate* in the shell bar.
+//todo helle: exchange names with icons when icon font active.
+
+You can also run a preview in a new tab instead of in the preview pane.
+Run a preview in a new tab by clicking *Run* in the shell bar.
+
+== Preview settings
+
+When running a preview, you can choose between different settings to test the look of your application on different devices.
+Click *Run in Designer* > *Settings* to access the preview settings.
+
+You can select different settings from three categories:
+
+* Screen size
+* Orientation
+* Background image
+
+The preview settings only apply to the preview in the preview pane.
+
+== Related topics
+
+* xref:app-designer-user-interface-at-a-glance.adoc[]
+* xref:app-designer-application-tree.adoc[]
+
