@@ -1,4 +1,4 @@
-= image:21@neptune-dxp-open-edition:cockpit-overview:security-user-icon.png[width=100] User
+= image:security-user-icon.png[width=100] User
 
 With _User_, you can view and manage the users of your system.
 
