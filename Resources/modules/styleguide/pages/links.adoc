@@ -1,10 +1,10 @@
 = Links
 
 Links from one topic to another are important to read more about a given topic that is explained in another place.
-The user should be directed to content that is related to what he just reads.
+The user should be directed to content that is related to what he just read.
 However, he should not be overwhelmed with unnecessary information that is only marginally related to what he is working on.
 
-The following rules are used to decide which topics to link to and which not:
+The following rules for different topic types are used to decide which topics link where:
 
 == Concept topics
 
@@ -23,7 +23,7 @@ Where are links placed:
 Task topics link to:
 
 * Service overview of the task (concept topic)
-* First page of the tak,k if it consists of more than one step
+* First page of the task, if it consists of more than one step
 * Next step
 * Previous step
 

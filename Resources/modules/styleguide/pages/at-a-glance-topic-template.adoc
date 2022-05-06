@@ -1,12 +1,10 @@
 = At-a-glance topic template
 
-The general structure of an at-a-glance topic is standardized.
+There is a standardized structure of *at-a-glance* topics.
 
 * At-a-glance topics shall be used for services with two or more panes on the service page
 
-
-
-The following shows this structure in AsciiDoc.
+The following template shows this structure in AsciiDoc.
 
 [source, asciidoc]
 ----

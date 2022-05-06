@@ -7,7 +7,7 @@ Filenames have to follow certain rules:
 * Use hyphens. Do not use underscores.
 * Filenames consist of three parts:
 ** Service group
-** Service
+** Service name
 ** Which part of the service is described. This should be as meaningful as possible
 
 Example: `security-user-add.adoc` is a topic in the service group `Security`, in the service `User` and describes how to `Add` a new user.
