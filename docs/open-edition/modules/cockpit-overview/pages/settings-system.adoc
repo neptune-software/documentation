@@ -1,9 +1,41 @@
-= image:settings-icon.png[,100]System Settings
+= image:settings-icon.png[,80]System Settings
 
-In _System Settings_, you can make changes to the following core system settings.
-These changes will be applied after you restart the system.
+In _System Settings_, you make the basic settings that are required to run the system.
+Perform the following tasks that are described for each section.
 
-* General
+Any changes will be applied after you restart the system.
+
+== General
+In the *General* tab, you execute the following tasks:
+
+* Give the new system a name
+* Define the authentication method
+* Configure the output of error messages
+* Enable Firebase Push Notifications
+
+=== General
+Name:: Type in the name for you system.
+Description::
+Role:: Assign a role to your system such as *Local*, *Production*, *Sandbox*.
+Session Timeout (in minutes):: Enter the time span in minutes for a session timeout.
+Delete cookie when browser session ends (i.e. all browser windows are closed):: Checkbox: select or deselect it.
+HTTP Response Timeout (in seconds):: Enter a timeout period in minutes that defines for how long a session remains active after the last refresh or page request.
+Background Job Interval (in seconds):: Enter a value in seconds for the background job intervals.
+Number of Server Worker Processes:: Enter the number for the maximum amount of jobs that are processed simultaneously in the background.
+
+=== Logging
+Log all requests to stdout and logs/requests:: Checkbox: select or deselect it.
+
+=== Language Server
+Ceckbox: Activate it to enable the auto-completion features when you use _App Editor_.
+=== Login
+
+Disable Local authentication:: Checkbox: Activate it to disable the local authentication option from the Login options.
+For example,  if you  want to use JWT authentication as default then disable local authentication and in *Default login url* add the login URL of JW that is mentioned in defining JWT authentication
+//todo check JWT authentication process
+
+
+
 * Security
 * License
 * E-Mail functionality
