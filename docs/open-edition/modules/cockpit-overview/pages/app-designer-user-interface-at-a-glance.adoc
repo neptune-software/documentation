@@ -1,20 +1,17 @@
-= App Designer interface at a glance
+= App Designer user interface at a glance
 
 The _App Designer_ interface consists of the following elements:
 
-//* xref:_side_navigation[]
-//* xref:_shellbar[]
-* xref:_editor_toolbar[]
-* xref:_component_library[]
-* xref:_application_tree[]
-* xref:_ui_objects_pane[]
-* xref:_properties_pane[]
-//* xref:_preview_pane[]
-* xref:_utility_section[]
+image::app-designer-user-interface.png[width=800]
 
-image::appdesigner-interface-clear.png[width=800]
+* xref:app-designer-shell-bar.adoc[]
+* xref:app-designer-side-navigation.adoc[]
+* xref:app-designer-component-library.adoc[]
+* xref:app-designer-application-tree.adoc[]
+* xref:app-designer-preview.adoc[]
+* xref:app-designer-properties.adoc[]
 
-
+////
 == Editor toolbar
 The Editor toolbar include the following items:
 
@@ -41,42 +38,4 @@ Display Data Flow:: Display data flows for APIs and UI5 models.
 Easily switch between opened tabs.
 Click *Close all tabs* to close all open tabs.
 
-== Component library
-
-The component library pane shows the components that you can use for building your application.
-Components are user-interface elements that you can drag and drop into the upper application tree pane to build your application.
-
-image::appdesigner-reusable-component-panel.png[width=200]
-
-Components are divided into four sections:
-
-* Resource components, for example, to use Javascript and RestAPIs
-* Highchart components to create graphs and plots
-* Bootstrap components to design and structure your application in a non sap look and feel
-* OpenUI5 components to design and structure your application
-
-== Application tree
-
-The application tree pane shows the current state of your application.
-You use components from the component library pane to build and structure your application here.
-
-image::appdesigner-application-component-panel.png[width=200]
-
-== UI objects pane
-The UI objects pane lets you define the component name and enter a corresponding description.
-Depending on the selected component in the application tree pane, you also can enter a model source and a model path.
-
-image::appdesigner-ui-objectpanel.png[width=200]
-
-== Properties pane
-The properties pane shows the attributes of a component.
-You can define properties or events to change the layout and behavior of a component in your application.
-
-image::appdesigner-properties-components.png[width=200]
-
-== Utility section
-*OpenUI5* opens a website providing UI5 resources, for example, a detailed documentation on Open UI5 components, API reference, and samples.
-
-
-*Neptune Community* opens the community website. It gives you access to the latest product updates, the documentation, technical support, blogs, and our e-learning material.
-
+////

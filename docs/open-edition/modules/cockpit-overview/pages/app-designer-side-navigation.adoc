@@ -23,8 +23,8 @@ Version Management:: Manage different versions of your files.
 == Utility section
 The _App Designer_ utility section links to the following additional information:
 
-* Neptune community
-* Open UI5 homepage
+Neptune community:: Find the latest product updates, the documentation, technical support, blogs, and e-learning material.
+OpenUI5 homepage:: Find the documentation on OpenUI5 components, API reference, and samples.
 
 == Related topics
 

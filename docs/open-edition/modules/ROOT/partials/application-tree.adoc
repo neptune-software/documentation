@@ -1,0 +1,9 @@
+//tag::general[]
+The application tree is a pane that displays the components you used from the component library when creating your application.
+The used components are displayed hierarchically, and you can further edit them.
+//end::general[]
+
+//tag::function[]
+You can expand and collapse components in the tree to navigate the structure of your application and drag and drop components to change their place within the structure.
+When clicking a component in the application tree, you can see its properties in the properties pane.
+//end::function[]

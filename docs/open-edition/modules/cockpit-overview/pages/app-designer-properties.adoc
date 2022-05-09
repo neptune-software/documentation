@@ -1,3 +1,16 @@
-= Properties
+= Object properties
 
-//consists of Ui object pane and object properties pane
+The object properties pane consists of two stacked panes: the UI object pane and the properties pane.
+
+image::app-designer-user-interface-properties.png[width=800]
+
+In the _App Designer_ object properties, you can edit selected components in the application tree.
+The UI object pane shows basic properties, such as name, description or paths to connected resources.
+In the properties pane, you define the component in detail.
+//helle@fabian: more?
+
+== Related topics
+
+* xref:app-designer-user-interface-at-a-glance.adoc[]
+* xref:app-designer-application-tree.adoc[]
+* xref:app-designer-preview.adoc[]
