@@ -1,17 +1,18 @@
 //@Neptune. Topic not complete yet. Some of the linked topics are not written yet.
 
-= Neptune DXP - Open Edition cockpit: Service overview
+= Neptune DXP - Open Edition cockpit: service overview
 
-The Cockpit is the starting point where you create your applications.
-The different sections include the services that you need for creating, running, testing, and maintaining applications.
+The cockpit is the starting point where you create your applications.
+The different service groups include the services that you need for creating, running, testing, and maintaining applications.
 
 image::cockpit-overview.png[Cockpit Overview, 800 px]
 
 == Development
-In the *Development* service group, you find the services you need to build your own applications.
+In the xref:development-overview.adoc[Development] service group, you find the services you need to build your own applications.
 
 //image::cockpit-overv-development.png[Cockpit overview section development, 400 px]
 //Fabian@Helle: Ich würde sagen, man braucht die einzelnen Überblicksbilder nicht bei den service groups.
+//Fabian@Helle: Ich habe die Kurzbeschreibungen aus dem Cockpit so übernommen, auch wenn sie sprachlich nicht besonders gut sind
 
 The following services are available:
 
@@ -31,12 +32,12 @@ The following services are available:
 
 == Design
 //image::cockpit-overv-design.png[Cockpit overview section design, 600]
-In the *Design* service group, you find the services you need to give your application the right look.
+In the xref:design.adoc[Design] service group, you find the services you need to give your application the right look.
 
 The following services are available:
 
 * xref:pdf-designer.adoc[PDF Designer]: Design PDF templates
-* xref:theme-designer.adoc[Theme Designer]: Define custom CSS for the use in the _Launchpad_ and the _App Designer_
+* xref:theme-designer.adoc[Theme Designer]: Define custom CSS for the use in _Launchpad_ and _App Designer_
 * xref:theme-import.adoc[Theme Import]: Import themes from the SAP UI _Theme Designer_
 * xref:e-mail-template.adoc[Email Template]: Create email templates
 
@@ -55,7 +56,6 @@ The following services are available:
 * xref:swagger-ui.adoc[Swagger UI]: Test APIs via Swagger UI
 * xref:odata-source.adoc[OData Source]: Manage OData sources
 * OData Mock Data_: Manage mock metadata and datasets
-//TODO link for mock data needed.
 * xref:connectors.adoc[Connector]: Publish data sources to be used in the _Adaptive Designer_.
 
 == Administration
@@ -109,7 +109,7 @@ The following services are available:
 
 == Tools
 
-In the xref:tools.adoc[Tools] service group, you find services that contain useful tools regarding the work with the DXP - Open Edition.
+In the xref:tools.adoc[Tools] service group, you find services that contain useful tools regarding the work with your applications.
 
 The following services are available:
 
@@ -121,9 +121,10 @@ The following services are available:
 
 * Table Browser: View and maintain table data
 
-* Tracking List: ???
+//TODO Neptune: Where did the tracking topics move to?
+//* Tracking List: ???
 
-* Tracking Settings: ???
+//* Tracking Settings: ???
 
 
 == Testing
@@ -141,7 +142,7 @@ The following services are available:
 
 == Deployment
 
-In the xref:deployment.adoc[Deployment] service group, you find services that lets you deploy your Neptune DXP instance.
+In the xref:deployment.adoc[Deployment] service group, you find services that let you deploy your Neptune DXP instance to other systems.
 
 The following services are available:
 
@@ -198,7 +199,7 @@ The following services are available:
 
 == Settings
 
-In the xref:settings.adoc[Settings] service group, you configure and customize the system properties to operate in your server environment.
+In the xref:settings.adoc[Settings] service group, you configure and customize system properties to operate in your server environment.
 
 The following services are available:
 

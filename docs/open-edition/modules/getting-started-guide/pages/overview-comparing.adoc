@@ -1,0 +1,36 @@
+= Comparing Open Edition and SAP Edition
+
+Open Edition and SAP Edition are the two major product versions Neptune offers.
+
+== Hosting
+The DXP - SAP Edition uses ABAP Runtime ICF node as the runtime environment.
+Each module has its own hosting methods.
+The SAP Edition is embedded within the SAP system and runs within the NetWeaver stack.
+
+The DXP - Open Edition can be hosted on multiple platforms, for example, Google Cloud Platform, AWS or Azure.
+The Open Edition is as easy to deploy as a docker container with Cloud Foundry.
+
+== Components
+Even though the Open Edition and the SAP Edition use different foundations, they share a number of similar components:
+
+* _Launchpad_
+* _App Designer_
+* _Application building blocks_
+
+The Open Edition comes with the following additional applications:
+
+* _API Designer_
+* _Script Editor_
+* _Workflow_
+
+The SAP Edition additionally offers API Factory, which makes it possible to automate the REST API generation of the following SAP artifacts:
+
+* ABAP classes
+* Function modules
+* BAPIs
+* ALV standard and custom reports
+
+== Related topics
+* xref:overview.adoc[]
+* xref:overview-runtime.adoc[]
+* xref:overview-openui5.adoc[]
