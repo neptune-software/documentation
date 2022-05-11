@@ -1,0 +1,40 @@
+= Cockpit settings
+
+You can open the cockpit settings by clicking on your username in the top right corner of the cockpit. The view changes depending on where you click on your username. There are two different views: One in the editor windows, for example, script editor, app designer, and the other one in all other places.
+You can change the following parameters:
+
+== Cockpit
+
+Theme:: Choose between `light` and `dark` mode. Changes are applied instantly.
+
+Place Cockpit action buttons to the left:: Decide whether action buttons inside a service, for example, *add* or *start* are placed on the left side of your interface. By default, they are placed on the right side. Not available in editors.
+
+== Code Editor
+
+Font size:: Set the font size. Available sizes are 12-18 px.
+
+Font Familiy:: Only available in editors. Enter a font family.
+//TODO: There are no predefined values, what can you enter here?
+
+Word wrap:: Available properties are: `Of`, `On`, `Word wrap column`, `Bounded`.
+//TODO: What does that do?
+
+Font Ligature:: Check or uncheck.
+//TODO: What does that do?
+
+Show Folding Controls:: Available properties are: `Mouse Over`, `Always`
+//TODO: What does that do?
+
+Scroll Beyond Last Line:: Check or uncheck.
+//TODO: What does that do?
+
+Enable Minimap:: Check or uncheck.
+//TODO: What does that do?
+
+Format On Paste:: Check or uncheck.
+//TODO: What does that do?
+
+Format on Type:: Check or uncheck.
+//TODO: What does that do?
+
+Change Password:: Click to open a new window where you can set a new password.

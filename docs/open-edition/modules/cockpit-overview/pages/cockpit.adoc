@@ -1,0 +1,15 @@
+= Cockpit
+
+The cockpit is the starting point and main control element to create your applications.
+
+The cockpit is divided in eleven service groups, for example, *Development* and *Design*.
+These service groups include the services that you need for creating, running, testing, and maintaining applications.
+
+You can adjust global settings regarding the cockpit by clicking on your username in the top right corner.
+
+image::cockpit-overview.png[Cockpit Overview, 800]
+
+== Related topics
+
+* xref:cockpit-components.adoc[]
+* xref:cockpit-settings.adoc[]

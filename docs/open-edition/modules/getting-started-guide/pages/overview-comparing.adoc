@@ -3,11 +3,11 @@
 Open Edition and SAP Edition are the two major product versions Neptune offers.
 
 == Hosting
-The DXP - SAP Edition uses ABAP Runtime ICF node as the runtime environment.
+The SAP Edition uses ABAP Runtime ICF node as the runtime environment.
 Each module has its own hosting methods.
 The SAP Edition is embedded within the SAP system and runs within the NetWeaver stack.
 
-The DXP - Open Edition can be hosted on multiple platforms, for example, Google Cloud Platform, AWS or Azure.
+The Open Edition can be hosted on multiple platforms, for example, Oracle, AWS, or Azure.
 The Open Edition is as easy to deploy as a docker container with Cloud Foundry.
 
 == Components
@@ -22,6 +22,7 @@ The Open Edition comes with the following additional applications:
 * _API Designer_
 * _Script Editor_
 * _Workflow_
+//TODO Neptune: We got that from the old documentation. Is this still up to date?
 
 The SAP Edition additionally offers API Factory, which makes it possible to automate the REST API generation of the following SAP artifacts:
 

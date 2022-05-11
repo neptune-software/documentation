@@ -1,7 +1,8 @@
 =  Neptune DXP - Open Edition
+//Fabian@Helle: Ich habe das Topic in mehrere Untertopics aufgesplittet, da es ziemlich lang war
 
 ////
-- aufsplitten in mehrere Untertopics --> neue Zwischenüberschriften suchen für die Topics
+
 - was genau will man aussagen? Als Einführung für Neueinsteiger?
 - den UI5-Kram unten löschen? Oder ausgliedern?
 -

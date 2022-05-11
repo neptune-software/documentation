@@ -1,11 +1,6 @@
 //@Neptune. Topic not complete yet. Some of the linked topics are not written yet.
 
-= Neptune DXP - Open Edition cockpit: service overview
-
-The cockpit is the starting point where you create your applications.
-The different service groups include the services that you need for creating, running, testing, and maintaining applications.
-
-image::cockpit-overview.png[Cockpit Overview, 800 px]
+= DXP - Open Edition cockpit: service overview
 
 == Development
 In the xref:development-overview.adoc[Development] service group, you find the services you need to build your own applications.
