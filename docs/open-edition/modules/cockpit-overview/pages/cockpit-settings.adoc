@@ -1,13 +1,16 @@
 = Cockpit settings
 
-You can open the cockpit settings by clicking on your username in the top right corner of the cockpit. The view changes depending on where you click on your username. There are two different views: One in the editor windows, for example, script editor, app designer, and the other one in all other places.
+You can open the cockpit settings by clicking on your username in the top right corner of the cockpit.
+
+The available settings change depending on where you click on your username. There are two different views: One in the editors, for example, script editor or app designer, and the other one in all other places.
+
 You can change the following parameters:
 
 == Cockpit
 
 Theme:: Choose between `light` and `dark` mode. Changes are applied instantly.
 
-Place Cockpit action buttons to the left:: Decide whether action buttons inside a service, for example, *add* or *start* are placed on the left side of your interface. By default, they are placed on the right side. Not available in editors.
+Place Cockpit action buttons to the left:: Decide whether action buttons inside a service, for example, *add* or *start* are placed on the left side of your interface. By default, they are placed on the right side. This setting is not available in editors.
 
 == Code Editor
 
