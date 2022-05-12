@@ -1,1 +1,5 @@
 = Administration
+
+In the *Administration* service group, you can manage services related to the launchpad and tiles.
+
+https://community.neptune-software.com/documentation/application
