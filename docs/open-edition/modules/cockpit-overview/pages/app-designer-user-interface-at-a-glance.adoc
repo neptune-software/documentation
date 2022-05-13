@@ -1,4 +1,4 @@
-= App Designer user interface at a glance
+= User interface at a glance
 
 The _App Designer_ interface consists of the following elements:
 
@@ -12,6 +12,8 @@ image::app-designer-user-interface.png[width=800]
 * xref:app-designer-properties.adoc[]
 
 ////
+Maybe needed later.
+
 == Editor toolbar
 The Editor toolbar include the following items:
 
