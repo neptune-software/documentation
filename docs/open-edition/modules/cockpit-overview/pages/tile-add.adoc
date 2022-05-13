@@ -1,0 +1,31 @@
+= Add a new tile
+
+Introductory sentence, for example, In this topic, you learn how to do this and that.
+
+== Prerequisites
+
+* You have XY.
+* There are no prerequisites.
+
+== Procedure
+
+. Step one.
+. Step two.
++
+*Result*: Result of step two.
+For example, The Application Settings window opens.
+
+. Step three.
+. Step four.
+
+== Results
+
+* You have done XY.
+
+== Related topics
+
+* xref to topic
+* xref to other topic
+
+
+Kurze Task topics für die jeweilige Action, dann reference topics für die Einträge
