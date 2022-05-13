@@ -19,11 +19,10 @@ Font size:: Set the font size. Available sizes are 12-18 px.
 Font Familiy:: Only available in editors. Enter a font family.
 //TODO: There are no predefined values, what can you enter here?
 
-Word wrap:: Available properties are: `Of`, `On`, `Word wrap column`, `Bounded`.
+Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line. Available properties are: `Of`, `On`, `Word wrap column`, `Bounded`.
 //TODO: What does that do?
 
-Font Ligature:: Check or uncheck.
-//TODO: What does that do?
+Font Ligature:: Check or uncheck to enable ligatures in text.
 
 Show Folding Controls:: Available properties are: `Mouse Over`, `Always`
 //TODO: What does that do?

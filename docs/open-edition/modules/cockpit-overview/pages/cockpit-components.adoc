@@ -1,5 +1,3 @@
-//@Neptune. Topic not complete yet. Some of the linked topics are not written yet.
-
 = DXP - Open Edition cockpit: service overview
 
 == Development
