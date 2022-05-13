@@ -26,19 +26,25 @@ image:api-designer-add-properties.png[width=800]
 +
 *Result*: The _API Designer_ adds a new line to specify a property.
 
-. For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `name`, `number`, `rank`, and `squad`.
+. For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `title`, `episode_id`, `producer`, and `characters`.
 . Select the allowed *Type* for the property.
++
+TIP: If you select `Array`, go to the Actions column and click *+* to add sub-properties to the property.
+
 . Enter a *Description*.
 . If you want the property to be mandatory, check the *Required* box.
 . Click *Save*.
 
 If you used the example data in this topic, your properties look like this:
 
+image:api-designer-external-example.png[width=800]
+
 == Results
 
-* You have done XY.
+* You have created an API for an external API.
 
 == Related topics
 
-* xref to topic
-* xref to other topic
+* xref:api-designer.adoc[API Designer]
+* xref:api-designer-import.adoc[Import an API with the _API Designer_]
+//Todo Helle:* xref::export-api.adoc[] <-- task
