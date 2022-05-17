@@ -1,8 +1,10 @@
 = User interface at a glance
+//Why switching to "User interface" instead of "App Designer interface"? If we stick to this terminology, shouldn't the other "Interface at a glance" topics be called "user interface" as well (what would be quite confusing...)
 
 The _App Designer_ interface consists of the following elements:
 
 image::app-designer-user-interface.png[width=800]
+//Why switching to small letters in the labels? In the other interface-at-a-glance topics we had capital letters for the first word.
 
 * xref:app-designer-shell-bar.adoc[]
 * xref:app-designer-side-navigation.adoc[]
@@ -11,6 +13,7 @@ image::app-designer-user-interface.png[width=800]
 * xref:app-designer-preview.adoc[]
 * xref:app-designer-properties.adoc[]
 
+//Comment Fabian: Da das auskommentiert ist, hab ich es mal ignoriert.
 ////
 Maybe needed later.
 

@@ -11,6 +11,7 @@ If you activated the preview and edited you application, update the preview by c
 
 You can also run a preview in a new tab instead of in the preview pane.
 Run a preview in a new tab by clicking *Run* in the shell bar.
+//It is not a preview anymore when you click "Run", it is the "real" thing.
 
 == Preview settings
 
@@ -24,6 +25,8 @@ You can select different settings from three categories:
 * Background image
 
 The preview settings only apply to the preview in the preview pane.
+
+//What about the seven buttons next to "Run in Designer", are they described somewhere?
 
 == Related topics
 

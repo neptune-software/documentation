@@ -1,6 +1,7 @@
 = Object properties
 
 The object properties pane consists of two stacked panes: the UI object pane and the properties pane.
+//Shouldn't it be better if you see the functions mentioned below on the screenshot? I cannot see where is which pane.
 
 image::app-designer-user-interface-properties.png[width=800]
 
@@ -8,6 +9,7 @@ In the _App Designer_ object properties, you can edit selected components in the
 The UI object pane shows basic properties, such as name, description or paths to connected resources.
 In the properties pane, you define the component in detail.
 //helle@fabian: more?
+//Depends on if the functions are described elsewhere. You cannot describe each property, of course, but I would mention the general methods used here: Binding/Unbind/Concatenating data to UI objects, choosing predefined values, and showing a corresponding server script (?) I already had that issue in the PDF Designer. We should discuss that.
 
 == Related topics
 
