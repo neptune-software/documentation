@@ -3,8 +3,9 @@
 In _System Settings_, you make the basic settings that are required to run the system.
 Perform the following tasks that are described for each section.
 
-Any changes will be applied after you restart the system.
+Changes will be applied after you restart the system.
 
+image::system-settings-general.png[,800]
 == General
 In the *General* tab, you execute the following tasks:
 
@@ -14,26 +15,49 @@ In the *General* tab, you execute the following tasks:
 * Enable Firebase Push Notifications
 
 === General
-Name:: Type in the name for you system.
-Description::
+Name:: Type in the name for your system.
+Description:: Type in a short description of your system.
+
+NOTE: In the upper left of the GUI, the description is shown next to the name of the system.
+
 Role:: Assign a role to your system such as *Local*, *Production*, *Sandbox*.
-Session Timeout (in minutes):: Enter the time span in minutes for a session timeout.
+Session Timeout (in minutes):: Enter the time span in minutes for a session timeout. If the user does not refresh or request a page within this time span, the session ends.
 Delete cookie when browser session ends (i.e. all browser windows are closed):: Checkbox: select or deselect it.
-HTTP Response Timeout (in seconds):: Enter a timeout period in minutes that defines for how long a session remains active after the last refresh or page request.
+HTTP Response Timeout (in seconds):: Enter a timeout period in seconds that defines for how long a session remains active after the last refresh or page request.
 Background Job Interval (in seconds):: Enter a value in seconds for the background job intervals.
 Number of Server Worker Processes:: Enter the number for the maximum amount of jobs that are processed simultaneously in the background.
 
 === Logging
+
 Log all requests to stdout and logs/requests:: Checkbox: select or deselect it.
 
 === Language Server
-Ceckbox: Activate it to enable the auto-completion features when you use _App Editor_.
+Checkbox: Activate it to enable the auto-completion features when you use _App Editor_.
+
 === Login
 
 Disable Local authentication:: Checkbox: Activate it to disable the local authentication option from the Login options.
-For example,  if you  want to use JWT authentication as default then disable local authentication and in *Default login url* add the login URL of JW that is mentioned in defining JWT authentication
+For example,  if you  want to use JWT authentication as default then disable local authentication and in *Default login url* enter the login URL of JW that is mentioned in defining JWT authentication
 //todo check JWT authentication process
 
+=== Error notifications
+
+Select the error notifications you want to receive from various system components and enter an e-mail.
+
+=== Firebase - Push Notification
+
+Firebase Cloud Messaging (FCM) is used to deliver push notifications to Android devices, Google Chrome and Mozilla web browsers.
+With FCM credentials you can set up the Web Push Notification service for your site. The API keys that you enter here are stored securely and used by the Push Notifications service to connect to the FCM server.
+The *Message Sender ID* (project number) you enter is used by the Android SDK and JS SDK for Google Chrome and Mozilla Firefox on the client side.
+
+== Security
+
+In the *Security* tab, you execute the following tasks:
+
+*Disable Frame Guard (X-Frame-Options)*:: Checkbox: select or deselect it.
+
+*: *Accessed using HTTPS (will enable secure cookies). Remember to set 'X-Forwarded-Proto': 'https' if you are using a reverse proxy*:: Activate cookies
+* *Cookie attribute SameSite value*:: Select the cookie type.
 
 
 * Security
