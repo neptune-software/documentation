@@ -1,31 +1,66 @@
 = Add a new tile
 
-Introductory sentence, for example, In this topic, you learn how to do this and that.
+In this topic, you learn how to add a new tile.
 
 == Prerequisites
 
-* You have XY.
 * There are no prerequisites.
 
 == Procedure
 
-. Step one.
-. Step two.
+. In the cockpit, go to *Administration* and click _Tile_.
 +
-*Result*: Result of step two.
-For example, The Application Settings window opens.
+*Result*: The list of existing tiles open.
+. Click *Add*.
++
+*Result*: The settings of the new tile opens.
 
-. Step three.
-. Step four.
+=== General tab
+. In the *General* section, you define the system internal settings of the tile. *Name* refers to the name the artifact has.
+. In the *Information* section, you provide general information regarding the tile. The information given here are displayed on the tile.
+
+=== Layout tab
+. In the *Layout* section, you define the general layout of your tile, including background, width, and height.
+. In the *Tile Icon/Image* section, you can provide an icon or an appropriatly sized image for your tile. Image or icon are derived from the media library.
+. In the *Tile Background Image* section, you can choose and configure a background image for your tile.
+. In the *Hide Tile On* section, you can decide whether your tile should not be displayed on a certain output device.
+. In the *Hide Launchpad Header On* section, you can decide whether the header of the launchpad should be hidden on a certain output device.
+. In the *Open Button* section, you define what text or which icon is displayed on the start button of the tile.
+
+=== Action tab
+. In the *Action* section, you decide what basic type your tile is.
+. In the *Remote System* section, you can configure a connection of your tile to another DXP - Open Edition or SAP Edition.
+. In the *Application* section, you define what application your tile should run. Choose a stored artifact as application and define start parameters.
+. In the *How to open* section, you decide in what way your tile opens.
+
+=== Sidepanel tab
+In the *Sidepanel* section, you choose a application that is displayed on the sidepanel of your tile.
+
+=== Navigation tab
+. In the *Navigation* section, you can define semantic objects and actions that are performed on them. Semantic objects can be business entitys, for example, `customer` or `employee`.
+. In the *Limit Browser Support* section, you can select specific browser that should be supported for Windows and macOS.
+
+=== Documentation tab
+. In the *Documentation* section, you can enable documentation that has been created in the _Documentation_ service.
+. In the *Tile Help* section, you can enable and write documentation specifically for your tile.
+
+=== Role tab
+In the Role tab, you can specify that your tile should only be visible to user with the given role.
+
+=== Translation tab
+In the translation tab, you can add a translation for the title, subtitle, description, status, and open button in a language of your choice.
+You need to select the same language choosen here on the launchpad to see your translation.
+
+=== Where-used
+In the *Where-used* tab, you can see in which tile group the tile is used.
+
 
 == Results
 
-* You have done XY.
+* You have added and configured a tile.
 
 == Related topics
 
-* xref to topic
-* xref to other topic
-
-
-Kurze Task topics für die jeweilige Action, dann reference topics für die Einträge
+* Documentation service
+* Role service
+* Tile Group

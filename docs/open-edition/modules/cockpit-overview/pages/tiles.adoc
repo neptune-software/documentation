@@ -1,6 +1,6 @@
 = image:tile-icon.png[width=100] Tiles
 
-A tile is a container that represents an application on the launchpad. With _Tiles_, you can create, assing, and maintain tiles.
+A tile is a container that represents an application on the launchpad. With _Tiles_, you can create, assign, and maintain tiles.
 
 All applications on the launchpad have at least one corresponding tile. As tiles are used to display and launch apps on the launchpad, they should only be used there and nowhere else.
 You can bundle tiles in tile groups.
