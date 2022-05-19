@@ -11,7 +11,6 @@ If you activated the preview and edited you application, update the preview by c
 
 You can also run a preview in a new tab instead of in the preview pane.
 Run a preview in a new tab by clicking *Run* in the shell bar.
-//It is not a preview anymore when you click "Run", it is the "real" thing.
 
 == Preview settings
 
@@ -26,7 +25,22 @@ You can select different settings from three categories:
 
 The preview settings only apply to the preview in the preview pane.
 
-//What about the seven buttons next to "Run in Designer", are they described somewhere?
+== Preview toolbar
+
+The preview toolbar consists of the following items to adjust the preview and make global changes to the application:
+
+Run in Designer:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
+Header:: Define the html5 header for your application.
+Stylesheet:: Add custom CSS to your application.
+Script search and ToDo List:: Open the *Search and ToDo List* pane and search for scripts or todos in the code of the application.
+Display data flow:: Display data flows for APIs and UI5 models.
+See where resources are used in the application and how it is triggered.
+
+//Web App Manifest editor
+//@Neptune Input needed
+//This is an old functionality which is deprecated. We should leave it empty.
+
+//todo helle: exchange names with icons when icon font active.
 
 == Related topics
 

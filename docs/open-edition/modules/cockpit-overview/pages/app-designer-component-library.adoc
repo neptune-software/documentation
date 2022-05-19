@@ -3,12 +3,10 @@
 include::ROOT:partial$component-library.adoc[]
 
 image::app-designer-user-interface-component-library.png[width=800]
-//Shouldn't it be better if you see the functions mentioned below on the screenshot?
 
 In the _App Designer_, you can use components from four categories:
 
 Resources:: Components to integrate data from outside the _App Designer_, such as Javascript files or REST APIs, to your application.
-//JSON instead of Javascript, according to terminology list
 Highchart:: Components to create graphs and plots.
 Bootstrap:: Neptune UI components very similar to Bootstrap components to design and structure your application.
 OpenUI5:: SAP OpenUI5 components to design and structure your application.

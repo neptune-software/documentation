@@ -1,4 +1,4 @@
-= User interface at a glance
+= Adaptive Designer user interface at a glance
 
 The _Adaptive Designer_ user interface consists of the following main elements:
 

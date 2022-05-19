@@ -3,18 +3,15 @@
 include::ROOT:partial$shell-bar.adoc[]
 
 image:app-designer-user-interface-shell-bar.png[width=800]
-//Where in the screenshot do I see the shell bar? Shouldn't it be better if you see the functions mentioned below? It is quite hard to note that the black bar is the side navigation.
 
 The shell bar includes the following actions and functions:
 
 Application:: Open, create, delete, or copy an applications.
-Import data sources from MS Excel or refresh the master data.
-//Only excel files? You can import planet9 files as well, I think
-//You can also export the data as planet9 file
+Import or export applications, or refresh the master data.
 Display/Edit:: Toggle *Edit* or *Display* mode.
 Activate:: Save and activate your application. This saves changes and restarts the preview with all changes applied.
 Save:: Save your adaptive application.
-//What about the "Run" action? Should be mentioned as well, I think
+Run:: Run a preview of the application in a new browser tab.
 Screen views:: Switch pane layout.
 +
 image:appdesigner-views-stack.png[width=45] Toggle the view of the component library and the application tree. Display them stacked in one pane or display them in panes side by side.

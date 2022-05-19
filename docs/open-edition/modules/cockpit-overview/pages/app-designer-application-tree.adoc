@@ -3,7 +3,6 @@
 include::ROOT:partial$application-tree.adoc[tag=general]
 
 image::app-designer-user-interface-application-tree.png[width=800]
-//see comments in other topics
 
 include::ROOT:partial$application-tree.adoc[tag=function]
 

@@ -3,25 +3,20 @@
 include::ROOT:partial$side-navigation.adoc[]
 
 image::app-designer-user-interface-side-navigation.png[width=800]
-//Where in the screenshot do I see the side navigation? Shouldn't it be better if you see the functions mentioned below? It is not visible at first glance what the side navigation is.
 
 == Main navigation section
 The _App Designer_ main navigation section links to the following pages:
 
 //todo Helle: add icons when icon font active
 Settings:: Configure your existing applications and adjust the following application settings:
-* General application settings, such as the Description, Title, and Type.
-//GUI elements, should be bold
-* Open UI5 settings, such as Version and Theme.
-//GUI elements, should be bold
+* General application settings, such as the *Description*, *Title*, and *Type*.
+* Open UI5 settings, such as *Version* and *Theme*.
 * Code completion settings
 * Properties
 
-Designer:: Create and edit your application. This is the default page that opens when you start the _App Designer_.
-//default page? Maybe better "start page" or "landing page"?
+Designer:: Create and edit your application. This is the start page that opens when you start the _App Designer_.
 
 Translation:: Translate your applications using the integrated translation API.
-//should be mentioned it is from Google Translator
 
 Version Management:: Manage different versions of your files.
 

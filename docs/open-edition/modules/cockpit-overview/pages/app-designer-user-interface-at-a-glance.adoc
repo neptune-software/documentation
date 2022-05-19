@@ -1,7 +1,6 @@
-= User interface at a glance
-//Why switching to "User interface" instead of "App Designer interface"? If we stick to this terminology, shouldn't the other "Interface at a glance" topics be called "user interface" as well (what would be quite confusing...)
+= App Designer user interface at a glance
 
-The _App Designer_ interface consists of the following elements:
+The _App Designer_ user interface consists of the following elements:
 
 image::app-designer-user-interface.png[width=800]
 //Why switching to small letters in the labels? In the other interface-at-a-glance topics we had capital letters for the first word.
@@ -12,35 +11,3 @@ image::app-designer-user-interface.png[width=800]
 * xref:app-designer-application-tree.adoc[]
 * xref:app-designer-preview.adoc[]
 * xref:app-designer-properties.adoc[]
-
-//Comment Fabian: Da das auskommentiert ist, hab ich es mal ignoriert.
-////
-Maybe needed later.
-
-== Editor toolbar
-The Editor toolbar include the following items:
-
-image::appdesigner-editortools.png[width=800]
-
-Expand and Collapse:: Expand and collapse groups of the application tree pane.
-Undo:: Undo your last changes.
-Run:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
-Header:: Define the html5 header for your application.
-Stylesheet:: Define CSS for your application.
-//@Neptune Input needed: is this a global css sheet for my application?
-//Neptune@Parson: Yes
-
-//Web App Manifest editor
-//@Neptune Input needed
-//This is an old functionality which is deprecated. We should leave it empty.
-
-Script search:: Open the *Search and ToDo List* pane and search for scripts.
-ToDo List:: Open the *Search and ToDo List* pane.
-//@Neptune: Input needed, what do I do here?
-//Neptune@Parson: Search searches the app code for searchterm. To Do List shows all appearances of to do.
-Display Data Flow:: Display data flows for APIs and UI5 models.
-
-Easily switch between opened tabs.
-Click *Close all tabs* to close all open tabs.
-
-////
