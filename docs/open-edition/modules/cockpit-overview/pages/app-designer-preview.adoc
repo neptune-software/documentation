@@ -6,10 +6,10 @@ image::app-designer-user-interface-preview.png[width=800]
 
 In the _App Designer_ preview, you can see a preview of your application.
 Run a preview by clicking *Run in Designer* in the preview toolbar.
-If you activated the preview and edited you application, update the preview by clicking *Activate* in the shell bar.
+If you activated the preview and edited your application, update the preview by clicking *Activate* in the shell bar.
 //todo helle: exchange names with icons when icon font active.
 
-You can also run a preview in a new tab instead of in the preview pane.
+You can also run a preview in a new tab instead of the preview pane.
 Run a preview in a new tab by clicking *Run* in the shell bar.
 
 == Preview settings
@@ -34,7 +34,7 @@ Header:: Define the html5 header for your application.
 Stylesheet:: Add custom CSS to your application.
 Script search and ToDo List:: Open the *Search and ToDo List* pane and search for scripts or todos in the code of the application.
 Display data flow:: Display data flows for APIs and UI5 models.
-See where resources are used in the application and how it is triggered.
+See where resources are used in the application and how they are triggered.
 
 //Web App Manifest editor
 //@Neptune Input needed
