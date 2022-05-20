@@ -1,0 +1,34 @@
+= Add an operation to an external API
+
+In this topic, you learn how to add an operation to an API.
+
+In each operation you define a method to interact with the data of the API.
+You can define multiple operations with different methods and parameters for requests made to the API.
+
+== Prerequisites
+
+== Procedure
+
+. Navigate to the *Operations* tab and click *+* to add an operation.
++
+image:api-designer-add-operation.png[width=400]
+
+. In *Path*, enter a slash and the name for your table definition, for example, `/clonetroopers`.
+. In *Method*, select a method from the list, for example `GET`:
++
+--
+include::partial$api-methods.adoc[]
+--
+. Enter a short Summary and a longer Description to provide context information to the operation.
+. In *Tags*, enter keywords that describe the resource, for example, `clones`.
+. Activate any of the following:
++
+--
+include::partial$api-designer-operations.adoc[]
+--
+
+. Click *Save*.
+
+== Result
+
+* You have added an operation with a method.

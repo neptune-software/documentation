@@ -1,72 +1,9 @@
-//Fabian@Helle: After looking through this topic, I would split it up in three task topics. Now it is too long. It This would also give you the opportunity to add some more context information in the beginning of a topic (for example, what is an API, what is an "operation").
-
-= Create a table definition API with the _API Designer_
-
-//@Neptune: inspired by Neptune e-learning (SWAPI) and Neptune CI (more funny and geeky than serious), I used Star Wars themed sample data. Hope it's okay.
-
-In this topic, you learn how to create an API to communicate with a table definition.
+= Add a definition and property
 
 == Prerequisites
 
-* You have created a table definition, for example, in xref:table-definition-create.adoc[_Table Definition_ and _Table Browser_].
 
 == Procedure
-
-NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
-
-=== Step 1: Configure a new API
-//Fabian@Helle: s.o., kein Step1, sondern neue Untertopics
-
-. On the Cockpit, go to *Connectivity* and click _API Designer_.
-. On the _API Designer_, click *Add*.
-+
-*Result*: The API configuration dialog opens.
-You start in the *General* tab.
-+
-. In *Type*, select *Table Definition*.
-. In *API format*, Swagger 2.0 is preselected. You can select the newer version, Open API 3.0, here.
-. Enter a *Name* for your table definition, for example, `API Clones`.
-. If you created a package or group for your APIs, applications, oData, and mock data before, you can select those from the *Group* or *Package* drop-down menu.
-. Enter a short and meaningful *Description* to your API.
-. In *Version*, enter a version number, for example, `1.0`, to keep track of changes to the API.
-. In *Media Type*, define the type of content of your api. This is needed to communicate with your browser. By default, it is `application/json`.
-
-. Activate any of the following options that fit your application:
-+
---
-include::partial$api-designer-create.adoc[tags=!*]
---
-
-. Click *Save*.
-
-
-*Result*: Your API is saved with the current settings and is added to the library in the _API Designer_. The _API Designer_ adds an ID to your API and saves change dates.
-
-=== Step 2: Add an operation
-//s.o., create new topic and provide some context information about what an "operation" actually is
-
-. Navigate to the *Operations* tab and click *+* to add an operation.
-+
-image:api-designer-add-operation.png[width=400]
-
-. In *Path*, enter a slash and the name for your table definition, for example, `/clonetroopers`.
-. In *Method*, select a method from the list, for example `GET`:
-+
---
-include::partial$api-methods.adoc[]
---
-. Enter a short Summary and a longer Description to provide context information to the operation.
-. In *Tags*, enter keywords that describe the resource, for example, `clones`.
-. Activate any of the following:
-+
---
-include::partial$api-designer-operations.adoc[]
---
-
-. Click *Save*.
-
-=== Step 3: Add a definition and property
-//Fabian@Helle: s.o., new topic.
 
 . Navigate to the *Definitions* tab and click *+* to add a definition.
 +
@@ -86,8 +23,10 @@ image:api-designer-add-properties.png[width=800]
 
 . For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `name`, `number`, `rank`, and `squad`.
 . Select the allowed *Type* for the property.
++
+TIP: If you select `Array`, go to the Actions column and click *+* to add sub-properties to the property.
 . Enter a *Description*.
-. If you want the property to be mandatory, check the *Required* box.
+. If you want the property to be mandatory, activate the *Required* box.
 . Click *Save*.
 
 If you used the example data in this topic, your properties look like this:

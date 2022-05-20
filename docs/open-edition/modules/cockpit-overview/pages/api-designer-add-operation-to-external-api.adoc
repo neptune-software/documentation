@@ -39,5 +39,5 @@ include::partial$api-designer-operations.adoc[]
 
 == Related topics
 
-* xref
+* xref:api-designer-add-definition-and-property.adoc[]
 * xref:api-designer-configure-external-api.adoc[]

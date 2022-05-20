@@ -1,7 +1,8 @@
-= Add a definition and a property to an external API
+= Add a definition and properties to an external API
 
 Definitions let you define how a response of an API looks like.
 To simplify the work when you integrate data from an API into an application, create a definition for each possible response the API gives.
+//todo helle add partial to other tasks
 
 In this task, you learn how to add a definition to an external API manually.
 With many APIs, you can import definition or derive definitions from sample requests.
@@ -18,7 +19,7 @@ With many APIs, you can import definition or derive definitions from sample requ
 +
 image:api-designer-add-definition.png[width=400]
 
-. Enter a *Name*, for example, `Planets`, and *Description*.
+. Enter a *Name*, for example, `Films`, and *Description*.
 
 . Navigate to the *Properties* tab and click *+ Add*.
 +
@@ -32,7 +33,7 @@ image:api-designer-add-properties.png[width=800]
 TIP: If you select `Array`, go to the Actions column and click *+* to add sub-properties to the property.
 
 . Enter a *Description*.
-. If you want the property to be mandatory, check the *Required* box.
+. If you want the property to be mandatory, activate the *Required* box.
 . Click *Save*.
 
 If you used the example data in this topic, your properties look like this:
@@ -41,7 +42,7 @@ image:api-designer-external-example.png[width=800]
 
 == Results
 
-* You have created an API for an external API.
+* You have created added a definition and corresponding properties to an external API.
 
 == Related topics
 
