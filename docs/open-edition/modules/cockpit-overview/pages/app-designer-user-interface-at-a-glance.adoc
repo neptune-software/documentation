@@ -3,7 +3,6 @@
 The _App Designer_ user interface consists of the following elements:
 
 image::app-designer-user-interface.png[width=800]
-//Why switching to small letters in the labels? In the other interface-at-a-glance topics we had capital letters for the first word.
 
 * xref:app-designer-shell-bar.adoc[]
 * xref:app-designer-side-navigation.adoc[]
