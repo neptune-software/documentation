@@ -48,7 +48,7 @@ image::tiles_example2.png[width=400]
 You can block tiles from being used during maintenance.
 
 == Related topics
-** xref:cockpit-overview:tile-groups.adoc[Tile Groups]
-** xref:cockpit-overview:launchpad-concept.adoc[Launchpad]
-** xref:cockpit-overview:tile-blackout.adoc[Tile blackout]
-//** Add a tile
+* xref:tile-groups.adoc[Tile Groups]
+* xref:launchpad-concept.adoc[Launchpad]
+* xref:tile-blackout.adoc[Tile blackout]
+* xref:tile-add.adoc[]
