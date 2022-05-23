@@ -1,0 +1,14 @@
+= image:deployment-log-icon.png[,100]Deployment Log
+
+In _Deployment Log_, you can filter for deployment packages by their status and by date/time.
+
+* Click the column names to sort the entries.
+
+* In the column *Import Date*, click the arrow left to a date to see more details of the selected deployment package.
+
+You also can import deployment packages in the planet9 file format from other systems.
+
+image:deployment-log.png[,800]
+
+== Related Topics
+* xref:deployment-package-import.adoc[]

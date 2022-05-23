@@ -1,0 +1,68 @@
+= Create a deployment package
+
+In this topic, you learn how you create deployment packages, how you deploy them from one system to another.
+
+You have three options to create and to deploy a deployment package:
+
+* Create a deployment package and transfer it to systems in a defined order with one transfer (route).
+* Create a deployment package and transfer it to one system or to different systems simultaneously.
+* Create a deployment package only for export.
+
+== Prerequisites
+* Before you start a deployment process, make sure that the system you want to send the deployment packages to is available.
+How to set up a remote system, see xref:setup-remote-system.adoc[Setting up a remote system].
+* Optional: You have set a deployment authentication in xref:settings-custom.adoc[Custom Settings].
+//Provide a link to the topic.
+
+== Procedure
+. In the Neptune DXP - Open Edition cockpit, navigate to *Deployment*, and go to *Deployment Create*.
++
+image:create-deployment.png[,800]
++
+*Result*: The Deployment Create window opens.
+. Click *System* or *Routes*.
+. Depending on the option you selected, select one or more systems or routes from the list, and click *Start*.
++
+TIP: If you want to create a deployment package for export only, do not select a system or route, just click *Start*.
++
+*Result*: The Deployment Create dialog opens.
++
+image:deployment-create-overview.png[,600]
+
+. Click *Packages* to select already existing development packages.
++
+TIP: The number next to *Packages* indicates the number of available packages.
++
+. Select the package or packages you want to deploy.
+
+. Click the arrow next to the service group to select a service you want to deploy artifacts from.
+In the example, *Launchpad* from the *Administration* service group is selected.
++
+TIP: The number next to the service indicates the number of available artifacts.
++
+*Result* _Deployment create_ shows a list of all artifacts of the selected service.
++
+image:select-service.png[,600]
+. Select the artifacts you want to add.
+
+. Check *Include relations* to add all the links/relations to selected artifacts.
+For example, if you select *Launchpad*, and you check *Include relations*, all the artifacts connected to *Launchpad* like *Tile*, *Tile group*, *API*, etc., will be deployed as well.
+. Click *Create*.
++
+*Result*: The Deploy window opens.
++
+image:create-package-from-existing.png[,600]
+. Verify the packages you want to deploy by selecting or deselecting artifacts.
+. Click *Create*.
+//Todo Hendrik: In this view, there is a transfer button available as well. Clicking it produces an error message. Button obsolete?
+
+== Results
+* If you selected a route or system before, _Deployment Create_ creates a package that must be approved before transfer according to the deployment authentication you selected in xref:settings-custom.adoc[Custom Settings].
+* If you did not select a route or system before, _Deployment Create_ creates a package for export.
+
+== Related topics
+
+* xref:deployment-creation.adoc[Deployment Create]
+* xref:deployment-transfer.adoc[Deployment Transfer]
+* xref:deployment-package-export.adoc[]
+// no further related topics here. You don't approve your own packages
