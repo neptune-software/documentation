@@ -1,0 +1,36 @@
+= Add an operation
+
+include::ROOT:partial$api-operation-description.adoc[]
+
+== Prerequisites
+
+* You have xref:api-designer-server-script-configure.adoc[configured a server script API].
+
+== Procedure
+
+. Navigate to the *Operations* tab and click *+* to add an operation.
++
+image:api-designer-add-operation.png[width=400]
+
+. In *Path*, enter a slash and a name for this method, for example, `/getCharactersPerPlanet`.
+. In *Method*, select a method from the list, for example `GET`:
++
+--
+include::partial$api-methods.adoc[]
+--
+. Click the icon in *Server Script* and select the server script you want to call from the list.
+//todo helle: update with icon font
+. In *Restrict Access*, you can define which role or roles can access the API.
+. Enter a short *Summary* and a longer *Description* to provide context information about the operation.
+. In *Tags*, enter keywords that describe the resource.
+. Activate any of the following:
++
+--
+include::partial$api-designer-operations.adoc[]
+--
+
+. Click *Save*.
+
+== Result
+
+* You have added an operation with a method.

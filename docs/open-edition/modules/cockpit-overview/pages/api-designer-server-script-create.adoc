@@ -1,0 +1,18 @@
+= Create a server script with the API Designer
+
+In this topic, you learn how to create an API to communicate with a server script.
+
+Server scripts exist inside Neptune DXP - Open Edition.
+You add server scripts with the _Script Editor_ service.
+With _API Designer_, you can call server scripts and retrieve, delete, and add data.
+//todo Helle: true?
+
+This guide consists of the following steps:
+
+* xref:api-designer-server-script-configure.adoc[]
+* xref:api-designer-server-script-add-operation.adoc[]
+* xref:api-designer-server-script-add-definition.adoc[]
+
+== Related topics
+
+* xref:api-designer.adoc[API Designer]

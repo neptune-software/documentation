@@ -1,14 +1,14 @@
-= Configure a table definition
+= Configure a server script API
 
-In this topic, you learn how to configure an API to communicate with a table definition.
+In this topic, you learn how to configure an API to communicate with a server script.
 
 == Prerequisites
 
-* You have created a table definition, for example, in xref:table-definition-create.adoc[_Table Definition_ and _Table Browser_].
+* You have created a server script, for example, with the _Script Editor_.
 
 == Procedure
 
-NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
+//NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
 
 . On the Cockpit, go to *Connectivity* and click _API Designer_.
 . On the _API Designer_, click *Add*.
@@ -16,9 +16,9 @@ NOTE: In this procedure we use sample data from the Star Wars universe. You can 
 *Result*: The API configuration dialog opens.
 You start in the *General* tab.
 +
-. In *Type*, select *Table Definition*.
+. In *Type*, select *Server Script*.
 . In *API format*, Swagger 2.0 is preselected. You can select the newer version, Open API 3.0, here.
-. Enter a *Name* for your table definition, for example, `API Clones`.
+. Enter a *Name* for your server script.
 . If you created a package or group for your APIs, applications, oData, and mock data before, you can select those from the *Group* or *Package* drop-down menu.
 . Enter a short and meaningful *Description* to your API.
 . In *Version*, enter a version number, for example, `1.0`, to keep track of changes to the API.
@@ -27,12 +27,17 @@ You start in the *General* tab.
 . Activate any of the following options that fit your application:
 +
 --
-include::partial$api-designer-create.adoc[tags=!*]
+include::partial$api-designer-create.adoc[tags=!*;script]
 --
 
 . Click *Save*.
 
+== Results
 
-== Result
-Your API is saved with the current settings and is added to the library in the _API Designer_.
-The _API Designer_ adds an ID to your API and saves change dates.
+* Your API is saved with the current settings and is added to the library in the _API Designer_.
+* The _API Designer_ adds an ID to your API and saves change dates.
+
+== Related topics
+
+* xref to topic
+* xref to other topic

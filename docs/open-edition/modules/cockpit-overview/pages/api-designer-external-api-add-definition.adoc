@@ -1,17 +1,15 @@
 = Add a definition and properties to an external API
 
-Definitions let you define how a response of an API looks like.
-To simplify the work when you integrate data from an API into an application, create a definition for each possible response the API gives.
-//todo helle add partial to other tasks
+include::ROOT:partial$api-definition-description.adoc[]
 
 In this task, you learn how to add a definition to an external API manually.
 With many APIs, you can import definition or derive definitions from sample requests.
-
+//todo helle add link to task
 
 == Prerequisites
 
-* You have xref:api-designer-configure-external-api.adoc[configured an external API].
-* You have xref:api-designer-add-operation-to-external-api.adoc[added an operation to an external API].
+* You have xref:api-designer-external-api-configure.adoc[configured an external API].
+* You have xref:api-designer-external-api-add-operation.adoc[added an operation to an external API].
 
 == Procedure
 
@@ -30,7 +28,7 @@ image:api-designer-add-properties.png[width=800]
 . For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `title`, `episode_id`, `producer`, and `characters`.
 . Select the allowed *Type* for the property.
 +
-TIP: If you select `Array`, go to the Actions column and click *+* to add sub-properties to the property.
+TIP: If you select `Array` or `Object`, go to the Actions column and click *+* to add sub-properties to the property.
 
 . Enter a *Description*.
 . If you want the property to be mandatory, activate the *Required* box.
@@ -42,7 +40,7 @@ image:api-designer-external-example.png[width=800]
 
 == Results
 
-* You have created added a definition and corresponding properties to an external API.
+* You have created a definition and corresponding properties to an external API.
 
 == Related topics
 

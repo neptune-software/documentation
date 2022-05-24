@@ -1,11 +1,10 @@
-= Add an operation to an external API
+= Add an operation
 
-In this topic, you learn how to add an operation to an API.
-
-In each operation you define a method to interact with the data of the API.
-You can define multiple operations with different methods and parameters for requests made to the API.
+include::ROOT:partial$api-operation-description.adoc[]
 
 == Prerequisites
+
+* You have xref:api-designer-table-definition-configure.adoc[configured a table definition API].
 
 == Procedure
 
@@ -19,7 +18,7 @@ image:api-designer-add-operation.png[width=400]
 --
 include::partial$api-methods.adoc[]
 --
-. Enter a short Summary and a longer Description to provide context information to the operation.
+. Enter a short *Summary* and a longer *Description* to provide context information about the operation.
 . In *Tags*, enter keywords that describe the resource, for example, `clones`.
 . Activate any of the following:
 +

@@ -1,13 +1,10 @@
 = Add an operation to an external API
 
-In this topic, you learn how to add an operation to an API.
-
-In each operation you define a method to interact with the data of the API.
-You can define multiple operations with different methods and parameters for requests made to the API.
+include::ROOT:partial$api-operation-description.adoc[]
 
 == Prerequisites
 
-* You have xref:api-designer-configure-external-api.adoc[configured an external API with the API Designer].
+* You have xref:api-designer-external-api-configure.adoc[configured an external API].
 
 == Procedure
 
@@ -21,9 +18,9 @@ image:api-designer-add-operation.png[width=400]
 --
 include::partial$api-methods.adoc[]
 --
-. In *Endpoint Override*,
-. In *Restrict Access*,
-. Enter a short *Summary* and a longer *Description* to provide context information to the operation.
+. In *Endpoint Override*, you can define a new endpoint that overrides the system's endpoint.
+. In *Restrict Access*, you can define which role or roles can access the API.
+. Enter a short *Summary* and a longer *Description* to provide context information about the operation.
 . In *Tags*, enter keywords that describe the resource, for example, `clones`.
 . Activate any of the following:
 +
@@ -39,5 +36,5 @@ include::partial$api-designer-operations.adoc[]
 
 == Related topics
 
-* xref:api-designer-add-definition-and-property.adoc[]
-* xref:api-designer-configure-external-api.adoc[]
+* xref:api-designer-external-api-add-definition.adoc[]
+* xref:api-designer-external-api-configure.adoc[]
