@@ -3,7 +3,9 @@
 The cockpit consists of many services. To facilitate finding the correct service or artifact, you should primarily use the search function.
 There are two ways to open the window for the search:
 
-* Click the search field in the shell bar on the very top of the cockpit. It is always displayed there if you are in the cockpit. You can open the search bar from most services as well.
+* Click the search field in the shell bar on the top of the cockpit.
+It is always displayed there if you are in the cockpit.
+You can open the search bar from most services as well.
 * Click `Alt + S` in the cockpit.
 
 
@@ -13,7 +15,7 @@ Services column:: You can see a list of all services, grouped into service group
 
 Artifacts column:: You can see a list of artifacts created by the most important services.
 
-Favorites column:: You can mark services as favorites by clicking on the star in the cockpit. These favorite services are displayed here.
+Favorites column:: You can mark services as favorites by clicking on the star in their top right corner. These favorite services are displayed here.
 
 image:cockpit-favorite.png[,200]
 

@@ -1,12 +1,6 @@
 =  Neptune DXP - Open Edition
 //Fabian@Helle: Ich habe das Topic in mehrere Untertopics aufgesplittet, da es ziemlich lang war
 
-////
-
-- was genau will man aussagen? Als Einführung für Neueinsteiger?
-- den UI5-Kram unten löschen? Oder ausgliedern?
--
-////
 == Main components
 The Neptune DXP - Open Edition comprises the following main components:
 
@@ -16,7 +10,7 @@ The Neptune DXP - Open Edition comprises the following main components:
 * _Workflow Engine_
 * _Script Editor_
 * _Application Building Blocks_
-//* Adaptive Designer
+* _Adaptive Designer_
 
 
 === Launchpad
@@ -24,8 +18,8 @@ The _Launchpad_ is a shell that hosts applications and provides these applicatio
 
 The _Launchpad_ serves as the single entry point to the DXP - Open Edition.
 The _Launchpad_ consists of services, which are displayed depending on the role of the user.
-Each service represents an application that a user can open. Services can also show live data.
-//Input needed: Information about different user roles needed.
+Each service represents an application that a user can open.
+Services can also show live data.
 
 The _Launchpad_ can host the following applications, which can run in parallel:
 
@@ -50,7 +44,6 @@ With the _API Designer_, you create and configure reusable API definitions.
 
 * Comes with a graphical user interface.
 * Enables you to create API operations manually, import them from another Open Edition, or a Swagger 2.0 file.
-//Input needed: "another Open Edition", from another version of the Open Edition, from another application built with the Open Edition, or...?
 * Generates APIs for tables within the Neptune DX Platform.
 
 === Workflow

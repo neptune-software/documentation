@@ -2,7 +2,10 @@
 
 You can open the cockpit settings by clicking on your username in the top right corner of the cockpit.
 
-The available settings change depending on where you click on your username. There are two different views: One in the editors, for example, script editor or app designer, and the other one in all other places.
+The available settings change depending on where you click on your username. There are two different views:
+
+* One in the editors, for example, script editor or app designer
+* One in all other places
 
 You can change the following parameters:
 
@@ -17,26 +20,11 @@ Place Cockpit action buttons to the left:: Decide whether action buttons inside 
 Font size:: Set the font size. Available sizes are 12-18 px.
 
 Font Familiy:: Only available in editors. Enter a font family.
-//TODO: There are no predefined values, what can you enter here?
 
-Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line. Available properties are: `Of`, `On`, `Word wrap column`, `Bounded`.
-//TODO: What does that do?
+Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line.
 
 Font Ligature:: Check or uncheck to enable ligatures in text.
 
-Show Folding Controls:: Available properties are: `Mouse Over`, `Always`
-//TODO: What does that do?
+Show Folding Controls:: Check or uncheck to make the folding controls visible all the time or only when you do a mouse over.
 
-Scroll Beyond Last Line:: Check or uncheck.
-//TODO: What does that do?
-
-Enable Minimap:: Check or uncheck.
-//TODO: What does that do?
-
-Format On Paste:: Check or uncheck.
-//TODO: What does that do?
-
-Format on Type:: Check or uncheck.
-//TODO: What does that do?
-
-Change Password:: Click to open a new window where you can set a new password.
+Change Password:: Click to open a new dialog where you can set a new password.

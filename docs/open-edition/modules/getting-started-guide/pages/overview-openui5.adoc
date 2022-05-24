@@ -1,5 +1,5 @@
 = Open UI5 framework
-//Fabian@Helle: Das hier kommt offenbar aus der alten Doku, ich habe keine Ahnung, ob und wozu man das braucht. Vielleicht sollte man es an eine andere Stelle in der Doku verschieben (?).
+//Fabian@Helle: Das hier kommt offenbar aus der alten Doku, ich habe keine Ahnung, ob und wozu man das braucht. Vielleicht sollte man es an eine andere Stelle in der Doku verschieben oder ganz löschen (?).
 
 
 Open UI5 is the base for all UI artifacts and their functionalities.
