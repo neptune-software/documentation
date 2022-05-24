@@ -2,4 +2,17 @@
 
 In the *Administration* service group, you can manage services related to the launchpad and tiles.
 
-https://community.neptune-software.com/documentation/application
+//https://community.neptune-software.com/documentation/application
+
+* xref:administration-appmanagement.adoc[Application Management]
+* xref:tiles.adoc[Tiles]
+** xref:tile-add.adoc[]
+* xref:tile-groups.adoc[Tile Groups]
+* xref:launchpad-concept.adoc[Launchpad]
+** xref:launchpad.adoc[]
+** xref:launchpad-assign-objects.adoc[]
+* xref:tile-blackout.adoc[Tile blackout]
+* xref:mobile-client.adoc[Mobile client]
+* xref:mobile-debug.adoc[Mobile Debugger]
+* xref:favourite-management.adoc[Favourite Management]
+* xref:translation.adoc[Translation]

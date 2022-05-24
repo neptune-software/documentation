@@ -1,4 +1,4 @@
-= image:tile-group-icon.png[width=100]Tile groups
+= image:tile-group-icon.png[width=100] Tile groups
 
 With the _Tile group_, you can maintain groups of tiles and role-based access.
 _Tile groups_ includes several tiles and is displayed on the launchpad.

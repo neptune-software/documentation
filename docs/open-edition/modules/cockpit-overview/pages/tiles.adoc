@@ -17,16 +17,11 @@ Depending on the application, a tile can show the following content:
 The following picture shows an example of a launchpad with tiles.
 
 image::tiles_example3.png[width=400]
-//@Neptune: Can we perhaps show another example with most of the content mentioned above and explain what is shown on the tile? See also Helle's comment.
-//Neptune@Parson: Here you find other screenshots https://community.neptune-software.com/documentation/creating-and-configuring-tile#Overview
+
 Below the tile area, tiles can include a link.
 Links consist of a title and an optional subtitle.
 Most tile types can be converted to links.
 Links can be converted to tiles at any time.
-//Neptune@Parson: What is this text about? A link can be converted to a tile and vice versa? I don't understand that.
-//TODO Neptune: What are the different types of tiles?
-//Neptune@Parson: See the link above.
-
 Users can personalize their launchpad by selecting the tiles for the applications they want to use from the store.
 
 == Responsiveness
