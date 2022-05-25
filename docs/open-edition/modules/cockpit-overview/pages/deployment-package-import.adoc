@@ -3,7 +3,7 @@
 In this topic, you learn how to import deployment packages from your local system.
 
 == Prerequisites
-* none
+* There are no prerequisites.
 
 == Procedure
 . In the Cockpit, go to *Deployment*, and click *Deployment Log*.

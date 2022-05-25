@@ -15,7 +15,7 @@ How to set up a remote system, see xref:setup-remote-system.adoc[Setting up a re
 //Provide a link to the topic.
 
 == Procedure
-. In the Neptune DXP - Open Edition cockpit, navigate to *Deployment*, and go to *Deployment Create*.
+. In the cockpit, navigate to *Deployment*, and go to *Deployment Create*.
 +
 image:create-deployment.png[,800]
 +

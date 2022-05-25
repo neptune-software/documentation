@@ -2,11 +2,11 @@
 
 With _Deployment Approve_ you approve deployment packages for transfer.
 The deployment process stops at each point where approval is mandatory until the specified approver approves or rejects the packages for release.
-//You select an approval authentication in xref:settings-custom.adoc[Custom Settings].
+You select an approval authentication in xref:settings-custom.adoc[Custom Settings].
 
 image::deployment-approve-overview.png[,800]
 
 == Related topics
 * xref:deployment-approving-deployment.adoc[]
 * xref:deployment-creation.adoc[Deployment Create]
-//* xref:settings-custom.adoc[Custom Settings]
+* xref:settings-custom.adoc[Custom Settings]

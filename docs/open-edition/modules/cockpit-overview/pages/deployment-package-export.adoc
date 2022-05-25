@@ -3,7 +3,7 @@
 In this topic, you learn how to export deployment packages.
 
 == Prerequisites
-* none
+* There are no prerequisites.
 
 == Procedure
 . In the Cockpit, go to *Deployment*, and click *Deployment Transfer*.
@@ -18,7 +18,7 @@ image:deployment-transfer-start.png[,800]
 . Check the listed files and click *Export*.
 
 == Results
-* _Deployment Transfer_ creates a planet9 file out of the deployment package that your browser downloads automatically.
+* _Deployment Transfer_ creates a `planet9` file out of the deployment package that your browser downloads automatically.
 
 == Related Topics
 
