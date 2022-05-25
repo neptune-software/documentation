@@ -87,4 +87,4 @@ image::tablebrowser-sampledata.png[width=600]
 //Todo: Helle *xref Table Definition concept topic
 //Todo: Helle *xref Table Browser concept topic
 * xref:api-designer.adoc[_API Designer_]
-* xref:api-designer-create.adoc[Create a table definition API in the _API Designer_]
+* xref:api-designer-user-interface.adoc[Create a table definition API in the _API Designer_]

@@ -40,7 +40,7 @@ image:api-designer-external-example.png[width=800]
 
 == Results
 
-* You have created a definition and corresponding properties to an external API.
+* You have added a definition and corresponding properties to an external API.
 
 == Related topics
 

@@ -25,7 +25,7 @@ image:api-designer-add-properties.png[width=800]
 +
 *Result*: The _API Designer_ adds a new line to specify a property.
 
-. For each property, enter a *Name* that indicates what kind of information the property will hold, for example, numbered properties each with two sub-properties `planet`, and `characters`.
+. For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `planet`, and `characters`.
 . Select the allowed *Type* for the property.
 +
 TIP: If you select `Array` or `Object`, go to the Actions column and click *+* to add sub-properties to the property.
@@ -36,11 +36,11 @@ TIP: If you select `Array` or `Object`, go to the Actions column and click *+* t
 
 If you used the example data in this topic, your properties look like this:
 
-// todo add screenshot image:api-designer-external-example.png[width=800]
+image:api-designer-server-script-example.png[width=800]
 
 == Results
 
-* You have created a definition and corresponding properties to a server script API.
+* You have added a definition and corresponding properties to a server script API.
 
 == Related topics
 

@@ -1,0 +1,50 @@
+= Import a definition into an API
+
+In this topic, you learn how to add a definition based on a sample response of your API.
+
+We use the _API Client_ to create a response in JSON format.
+You can use a JSON or YAML response that you created another way instead.
+
+== Prerequisites
+
+* You have configured an API of any kind.
+* You have added an operation to the API.
+
+== Procedure
+
+. In the Cockpit, go to *Connectivity* and click _API Client_.
+. In the API table, go to your API and click the operation you want to add a definition to.
++
+*Result*: The test page for the selected operation opens.
+You see the endpoint, and any parameters and headers that are defined for the operation.
+
+. If you want to change the response, edit parameters, headers or the endpoint.
+. Click *Send*.
++
+*Result*: The *Response* tab opens.
+You see the type, URL, response body, and headers.
+. Copy the response body to the clipboard.
+. On the shell bar, click the Neptune icon or use the search bar to navigate to the _API Designer_.
+. In the API table, click the API.
++
+*Result*: The API configuration dialog opens.
+. Navigate to the *Definitions* tab and click *+* to add a definition.
+. Enter a *Name* and *Description*.
+. Navigate to the *Properties* tab.
+. On the toolbar, click *JSON Import*.
++
+*Result*: The *Import API* dialog opens.
+. Paste the response from the clipboard and click *Import*.
++
+*Result*: The _API Designer_ adds properties based on the response.
+You can still add, edit, or delete properties.
+. Click *Save*.
+
+== Results
+
+* You have imported a definition with properties from a sample response.
+
+== Related topics
+
+* xref:api-designer.adoc[API Designer]
+* xref:api-client.adoc[API Client]

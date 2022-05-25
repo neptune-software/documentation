@@ -43,7 +43,7 @@ If you used the example data in this topic, your properties look like this:
 image:api-designer-properties-example.png[width=800]
 
 == Results
-* You have created an API for a table definition.
+* You have added a definition and corresponding properties to a table definition.
 
 == Related topics
 * xref:api-designer.adoc[API Designer]
