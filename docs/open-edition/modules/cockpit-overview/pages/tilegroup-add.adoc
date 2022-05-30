@@ -1,0 +1,34 @@
+= Add a new tile group
+
+In this topic, you learn how to add a new tile group.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the cockpit, go to *Administration* and click _Tile Group_.
++
+*Result*: The list of existing tile groups open.
+. Click *Add*.
++
+*Result*: The settings of the new tile group opens.
+
+=== General tab
+. In the *General* section, you define the settings of the tile group with regard to system internal processes. *Name* refers to the name the artifact has in the system.
+. In the *Information* section, you provide general information about your tile group. The information given here are displayed on the tile group.
+. In the *Message* section, you can write a message that is shown to the user on the launchpad.
+
+=== Layout tab
+. In the *Tiles layout* section,
+
+== Results
+
+* You have added and configured a tile group.
+
+== Related topics
+* xref:tiles.adoc[Tiles]
+* xref:security-role.adoc[Role]
+* xref:tile-groups.adoc[Tile Groups]
+//* Documentation
