@@ -16,9 +16,9 @@ Users who are assigned to a role in a tile group have access to the applications
 They can also browse through a tile group library from their launchpad and select the applications that they want to display on the startpage of their launchpad.
 
 == Related topics
-* xref:cockpit-overview:tiles.adoc[Tiles]
+* xref:tiles.adoc[Tiles]
 * xref:tile-add.adoc[]
-//* xref:create-tile-groups.adoc[]
+* xref:tilegroup-add.adoc[]
 //* xref:configure-tile-groups.adoc[]
-* xref:cockpit-overview:tile-blackout.adoc[Tile blackout]
-* xref:cockpit-overview:launchpad-concept.adoc[Launchpad]
+* xref:tile-blackout.adoc[Tile blackout]
+* xref:launchpad-concept.adoc[Launchpad]
