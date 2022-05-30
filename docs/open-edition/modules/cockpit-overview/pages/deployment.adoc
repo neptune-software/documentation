@@ -1,1 +1,18 @@
 = Deployment
+
+Deployment is a method of distributing packages from one Neptune DXP edition to another.
+
+The deployment services allow you to create deployment packages, transfer them from one system to another, and if configured approve their transfer. Further, they enable you to define and use deployment routes.
+
+Deployment packages contain development artifacts from services such as _Launchpad_, _Tile Group_, _Tile_, _Theme_, or _OData_.
+
+image:deployment-overview.png[,600]
+//generally, we need to discuss when to use old screenshots and when to do new ones. This for example does not apply to Neptune CI.
+
+== Related Topics
+
+* xref:deployment-creation.adoc[Deployment Create]
+* xref:deployment-approve.adoc[Deployment Approve]
+* xref:deployment-transfer.adoc[Deployment Transfer]
+* xref:deployment-routes.adoc[Deployment Routes]
+* xref:deployment-log.adoc[Deployment Log]
