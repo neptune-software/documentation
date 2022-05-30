@@ -5,7 +5,5 @@ You can filter activities by date or affected service. You can also search for s
 
 Click the blue info-circle icon to see a detailed view of what a user has changed.
 
-//TODO Neptune: Fix german GUI overlay. When you click the blue info icon of an activity and try to close it, the overlay text is "ablehnen".
-
 == Related topics
 * xref:security-auditlog-export.adoc[]

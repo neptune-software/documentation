@@ -26,7 +26,6 @@ TIP: You can define roles in the _Role_ service.
 . In the *API token* tab, you can generate an API token for the user.
 This is used to access Neptune API from an external server.
 // TODO Hendrik: is that correct?
-// TODO Neptune: GUI for the "enable" switch is in german ("an", "aus")
 // TODO Neptune: terminology in GUI inconsistent, API token/JWT token, is that done on purpose?
 . Click *Save*.
 
