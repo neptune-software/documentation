@@ -89,6 +89,9 @@ Set the password properties here.
 == Authentication
 Select an authentication method and configure it.
 
+== Related Topics
+//ToDo describe the 6 different authentication methods!
+
 == Cloud Connector
 You install the cloud connector to establish a secure connection from your network to the _Neptune DXP Open Edition_.
 When you enable the Cloud Connector, _DXP Cloud_ provides a dedicated Azure Relay namespace for your account.
