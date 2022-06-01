@@ -17,7 +17,7 @@ In this topic, you learn how to add a new tile.
 
 === General tab
 . In the *General* section, you define the settings of the tile with regard to system internal processes. *Name* refers to the name the artifact has in the system.
-. In the *Information* section, you provide general information about your tile. The information given here are displayed on the tile.
+. In the *Information* section, you provide general information about your tile. The information given here are displayed on the tile on the launchpad.
 
 === Layout tab
 . In the *Layout* section, you define the general layout of your tile and how it is displayed on the launchpad, including background, width, and height.

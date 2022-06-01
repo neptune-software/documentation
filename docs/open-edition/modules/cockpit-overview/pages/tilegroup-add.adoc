@@ -1,10 +1,10 @@
 = Add a new tile group
 
-In this topic, you learn how to add a new tile group.
+In this topic, you learn how to add and configure a new tile group.
 
 == Prerequisites
 
-* There are no prerequisites.
+* You have created at least one tile in xref:tile-add.adoc[].
 
 == Procedure
 
@@ -13,15 +13,46 @@ In this topic, you learn how to add a new tile group.
 *Result*: The list of existing tile groups open.
 . Click *Add*.
 +
-*Result*: The settings of the new tile group opens.
+*Result*: The settings of your new tile group opens.
 
 === General tab
 . In the *General* section, you define the settings of the tile group with regard to system internal processes. *Name* refers to the name the artifact has in the system.
-. In the *Information* section, you provide general information about your tile group. The information given here are displayed on the tile group.
-. In the *Message* section, you can write a message that is shown to the user on the launchpad.
+. In the *Information* section, you provide general information about your tile group. The information given here are displayed on the tile group on the launchpad.
+. In the *Message* section, you can write a message of a certain information type that is shown to the user on the launchpad above your tile group.
 
 === Layout tab
-. In the *Tiles layout* section,
+. In the *Tiles Layout* section, you can configure the arrangement and general layout of tiles inside the tile group on the launchpad.
+. In the *Tile Group Layout* section, you can configure the general layout of tile groups on the launchpad.
+. In the *Tile Group Header* section, you can configure the layout of the tile group header.
+. In the sections *Desktop*, *Tablet*, and *Mobile*, you can specify the layout of the tile group depending on the output medium.
+
+=== Role tab
+In the *Role* tab, you can restrict access to your tile group to users with a specific role. You can choose as many roles as you want.
+
+. Click *Add* to open the dialog with the available roles in the system.
+. Click on a role.
+. Click *Select*.
+
+=== Tile tab
+In the *Tile* tab, you choose the tiles that should be part of your tile group. You can choose as many tiles as you want.
+
+. Click *Add* to open the dialog with the available tiles in the system.
+. Click on a tile.
+. Click *Select*.
+
+You can drag and drop tiles to change the order in which they are displayed inside the tile group on the launchpad.
+
+=== Tile group tab
+In the *Tile group* tab, you can add child tile groups to your new tile group. The hierarchy is displayed on the launchpad.
+
+. Click *Add* to open the dialog with the available tiles in the system.
+. Click on a tile.
+. Click *Select*.
+
+You can drag and drop tile groups to change the order in which they are displayed on the launchpad.
+
+=== Translation tab
+In the *Translation* tab, you can give a translation for the title and the subtitle of your tile group in a chosen language. This translation is only displayed when the user chooses this language on the launchpad.
 
 == Results
 
@@ -31,4 +62,3 @@ In this topic, you learn how to add a new tile group.
 * xref:tiles.adoc[Tiles]
 * xref:security-role.adoc[Role]
 * xref:tile-groups.adoc[Tile Groups]
-//* Documentation

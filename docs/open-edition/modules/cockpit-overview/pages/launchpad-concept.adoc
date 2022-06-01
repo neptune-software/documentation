@@ -1,21 +1,21 @@
-= image:launchpad-trace@2x.png[width=100]Launchpad
+= image:launchpad-trace@2x.png[width=100] Launchpad
 
-With the _Launchpad_, you can create, design, and maintain launchpads. It is a browser-based administration tool.
-A launchpad is the homepage for DXP - Open Edition applications on mobile and desktop devices.
+With the _Launchpad_, you can create, design, and maintain launchpads.
+A launchpad is a browser-based administration tool and the homepage for DXP - Open Edition applications on mobile and desktop devices.
 
-A launchpad displays tiles.
+A launchpad displays tiles that are part of a tile group.
 Each tile represents an application that users can launch.
 
 Tiles can display live status indicators, for example, a number of open tasks.
-Learn more about xref:tiles.adoc[Tiles] and xref:tile-groups.adoc[Tile groups].
-
 A launchpad supports role-based access and displays tiles according to user roles.
+
+The following image shows an example of how a launchpad looks like.
 
 image::launchpad_example1.png[width=800]
 
 == Download
-_Launchpad_ is not part of Neptune DXP - Open Edition installation package.
-You can download _Launchpad_ via the xref:store.adoc[_Store_].
+The launchpad is not part of DXP - Open Edition installation package.
+You can download launchpads via the xref:store.adoc[Store].
 
 == How launchpad objects are connected
 A launchpad includes the following objects:
@@ -28,20 +28,24 @@ The image shows the process of how single applications become part of a launchpa
 
 image::launchpad_connected_objects.png[width=800]
 
-* Applications are connected to tiles.
-* Tiles are bundled in a tile group. A tile should always be connected with a tile group to maintain a parent-child relationship in the launchpad.
-* Tile groups can be assigned to other tile group to maintain a multi-level hierarchy.
-* Tile groups are added to the launchpad.
+. Applications created in the _App Designer_ are connected to tiles.
+. Tiles are bundled in a tile group. A tile must always be connected to a tile group to maintain a parent-child relationship on the launchpad.
+. Tile groups can be assigned to other tile group to maintain a multi-level hierarchy.
+. Tile groups are added to the launchpad.
 
 == User roles and user groups
 
-* Users and user groups are assigned a specific role.
-* Roles are assigned to a tile or a tile group.
-* Each role can access an authorized launchpad, tiles, and tile groups.
+You can control access to specific launchpads, tiles, or tile groups by assigning roles to users or user groups.
+
+. Users and user groups are assigned a specific role.
+. Roles are assigned to a tile or a tile group.
+. Each role can access authorized launchpads, tiles, and tile groups.
 
 image::lauchpad_conected_usergroup_role.png[width=800]
 
 == Related topics
-* xref:cockpit-overview:launchpad.adoc[Getting started with the Launchpad]
-* xref:cockpit-overview:launchpad-assign-objects.adoc[Assign objects in a launchpad]
+* xref:cockpit-overview:launchpad.adoc[]
+* xref:cockpit-overview:launchpad-assign-objects.adoc[]
+* xref:tile-groups.adoc[Tile Groups]
+* xref:tiles.adoc[Tiles]
 

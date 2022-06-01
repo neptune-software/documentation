@@ -1,55 +1,64 @@
-= Getting started with the Launchpad
+= Add a new launchpad
 
-This section explains the configurations when setting up a launchpad.
+In this topic, you learn how to add a new tile.
+
+== Prerequisites
+
+* You have created at least one tile group in xref:tilegroup-add.adoc[].
 
 == Procedure
 
-. Click *Administration* > *Launchpad* to run the _Launchpad_.
+. In the cockpit, go to *Administration* and click _Launchpad_.
++
+*Result*: The list of existing launchpads open.
 . Click *Add*.
 +
-image::launchpad-overview.png[width=800]
-+
-*Result*: The configuration view opens. You start in the General tab. Here, you specify general, blackout,login and UI5 settings.
+*Result*: The settings of the launchpad open.
 
-=== General
+=== General tab
 
-Name:: Add a descriptive name for the launchpad.
-Package:: Choose a package from the drop-down list.
-Launchpad Application:: Choose the default launchpad _planet9_launchpad_standard_. Download the default launchpad from the _Store_ if it does not show up in the list.
-Title:: Add a title for the launchpad. The title is displayed as tab title in your browser.
-+
-image::launchpad-title.png[width=800]
-+
-Description:: Add a descriptive text for the launchpad.
-Custom Logo:: Add a logo from the media library. This logo will be visible on the top left of the launchpad. You can add your logos to the media library for later use.
-Show launchpad header:: Check weather the header of the launchpad shall be displayed in the browser or not.
+. In the *General* section, you define general information about your launchpad. *Name* refers to the name the launchpad artifact has in the system, while *Title* refers to the displayed name of the launchpad. A *Launchpad Application* can also be downloaded from the store.
+. In the *Blackout* section, you can enable and provide messages to the user that are displayed when a chosen application cannot be reached.
+. If you want only one app to be shown on your launchpad, you can choose thi app in the *Single App Launchpad* section. All other apps and tiles that might be selected will be hidden.
+. In the *Login* section, you can define how users can login to your launchpad. You can create login scenarios in the _System Settings_.
+. In the *UI5* section, you can choose the UI5 version your launchpad use. You can also choose a UI5 theme.
+. In the *Settings* section, you can change general settings regarding the behaviour of your launchpad.
+. In the *Main Menu Display* section, you can choose whether the menu is displayed in the header.
+. In the *Active Apps Display* section, you can change the behaviour of apps you are currently working with.
+. In the *Translation* section, you can choose in which languages user can see the launchpad.
+. In the *External Users* section, you can choose if and to what conditions external users should be able to login to your launchpad.
 
-=== Blackout
+=== Layout tab
+You can configure the layout of your launchpad and see a live preview in the right pane when clicking *Save*.
 
-Enable Blackout:: You can enable *Blackout* by checking the box.
-Title:: Assign a title to the Blackout.
-Message:: Enter a message regarding the *Blackout*.
+Click *Add* to add a new layout style to your launchpad. You can have more than one layout style.
 
+=== PWA tab
+You can declare that your launchpad should serve as a progressive web app (PWA).
 
-=== Single App Launchpad
+You can define the layout and display mode of your PWA, set an autolock when the app is not used, and enable the user to insert a pin code to restrict access to the app.
 
-If you want to use only one app inside the *Launchpad* you can set this app as StartApp.
-That means, there will be no top menu bar.
+=== Header tab
+You can define your header with javascript.
 
-=== Login
+=== Tile group tab
+In the *Tile group* tab, you can add child tile groups to your new tile group. The hierarchy is displayed on the launchpad.
 
-Default provider:: Select the default login provider. The default login providers depend on the authentications enabled in *Cockpit* > *Settings* > *System* > *Authentication*.
-Custom Login Title:: Enter a login title.
-Custom Login Sub Title:: Enter a subtitle for the login.
-Custom Login App:: Choose the app that starts automatically when launching the _Launchpad_. You can choose an app you created with _App Designer_.
-Password Reset Email:: Enter an email address with which you want to change password.
-Hide Login Selection:: Check weather to hide the login page on mobiles while accessing the launchpad.
-Enable Anonymous access:: Check weather it shall be possible for users to login anonymously to the _Launchpad_.
-+
-NOTE: You have to check _Allow Anonymous Access_ in *Settings* > *System* > *License* before.
+. Click *Add* to open the dialog with the available tiles in the system.
+. Click on a tile.
+. Click *Select*.
 
-=== UI5
-Neptune DXP supports to create and use different visual designs called themes alternatively and switching between the themes allowing for the same application to have a very different look, depending on the user’s design preference, or an accessibility requirement. These are the standard themes can be used in any application
+You can drag and drop tile groups to change the order in which they are displayed on the launchpad.
+
+=== Enhancement tab
+You can enable multiple *Enhancements* for your launchpad and adapt them with custom Javascript code.
+
+Click on an enhancement and toggle the *Activate* button to activate it.
+
+=== Chatbot tab
+You can enable a chatbot in your launchpad. This can either be a chatbot from IBM or SAP. You need to have an account there to connect to the chatbot.
+
 
 == Related topics
-* xref:cockpit-overview:launchpad-assign-objects.adoc[Assign objects in a launchpad]
+* xref:launchpad-assign-objects.adoc[]
+* xref:system-settings.adoc[]
