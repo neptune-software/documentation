@@ -1,9 +1,9 @@
 = image:mobile-client-icon.png[width=100] Mobile Client
 
-In the _Mobile Client_, you create and maintain a launchpad for mobile applications.
+A Mobile client is the mobile version of launchpad. In the _Mobile Client_, you create and maintain a launchpad for mobile applications.
 
 The _Mobile Client_ uses Apache Cordova plugins to create mobile applications.
-Apache Cordova provides a way to develop mobile applications using standard web technologies: HTML5, CSS3, and JavaScript.
+Apache Cordova provides a way to develop mobile applications using standard web technologies, for example, HTML5, CSS3, and JavaScript.
 
 Neptune DXP - Open Edition supports the following Apache Cordova plugins:
 
@@ -28,6 +28,6 @@ Neptune DXP - Open Edition supports the following Apache Cordova plugins:
 
 == Related topics
 * https://cordova.apache.org/[Apache Cordova website].
-//* Getting started with _Mobile Client_
+* xref:mobile-client-add.adoc[]
 
 

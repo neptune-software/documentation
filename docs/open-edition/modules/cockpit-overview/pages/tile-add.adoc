@@ -62,4 +62,3 @@ In the *Where-used* tab, you can see in which tile group the tile is used.
 * xref:tiles.adoc[Tiles]
 * xref:security-role.adoc[Role]
 * xref:tile-groups.adoc[Tile Groups]
-//* Documentation

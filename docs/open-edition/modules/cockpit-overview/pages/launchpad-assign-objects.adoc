@@ -1,3 +1,5 @@
+//Comment Fabian June 2022: The table is moved to to xref:launchpad-concept.adoc[Launchpad], this topic is no longer needed.
+
 = Assign objects in a launchpad
 
 A launchpad comes with an assignment mechanisms that connects objects to one another in different ways.

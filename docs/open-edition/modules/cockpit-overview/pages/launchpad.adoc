@@ -1,6 +1,6 @@
 = Add a new launchpad
 
-In this topic, you learn how to add a new tile.
+In this topic, you learn how to add a new launchpad.
 
 == Prerequisites
 
@@ -17,48 +17,51 @@ In this topic, you learn how to add a new tile.
 
 === General tab
 
-. In the *General* section, you define general information about your launchpad. *Name* refers to the name the launchpad artifact has in the system, while *Title* refers to the displayed name of the launchpad. A *Launchpad Application* can also be downloaded from the store.
-. In the *Blackout* section, you can enable and provide messages to the user that are displayed when a chosen application cannot be reached.
-. If you want only one app to be shown on your launchpad, you can choose thi app in the *Single App Launchpad* section. All other apps and tiles that might be selected will be hidden.
-. In the *Login* section, you can define how users can login to your launchpad. You can create login scenarios in the _System Settings_.
-. In the *UI5* section, you can choose the UI5 version your launchpad use. You can also choose a UI5 theme.
+. In the *General* section, you define general information about your launchpad. *Name* refers to the name the launchpad artifact has in the system, while *Title* refers to the displayed name of the launchpad. A *Launchpad Application* can also be downloaded from the store, for example, `planet9_launchpad_standard`.
+. In the *Blackout* section, you can enable messages and provide them to the user. Blackout messages are displayed on the launchpad when a chosen application cannot be reached.
+. If you want only one app to be shown on your launchpad, you can choose this app in the *Single App Launchpad* section. All other apps and tiles that might have been selected will be hidden.
+. In the *Login* section, you define methods of how users login to your launchpad. You can create login scenarios in the authentication tab of the _System Settings_.
+. In the *UI5* section, you can choose the UI5 version your launchpad uses. You can also choose a UI5 theme.
 . In the *Settings* section, you can change general settings regarding the behaviour of your launchpad.
 . In the *Main Menu Display* section, you can choose whether the menu is displayed in the header.
-. In the *Active Apps Display* section, you can change the behaviour of apps you are currently working with.
-. In the *Translation* section, you can choose in which languages user can see the launchpad.
-. In the *External Users* section, you can choose if and to what conditions external users should be able to login to your launchpad.
+. In the *Active Apps Display* section, you can change the way of how apps you are currently working with are displayed.
+. In the *Translation* section, you can choose in which languages user can see title and subtitle of the launchpad.
+. In the *External Users* section, you can specify whether and under what conditions external users can log in to your launchpad.
 
 === Layout tab
-You can configure the layout of your launchpad and see a live preview in the right pane when clicking *Save*.
+You can configure the layout of your launchpad. You can have more than one layout style.
 
-Click *Add* to add a new layout style to your launchpad. You can have more than one layout style.
+. Click *Add* to add a new layout style to your launchpad.
+. Click *Save* to see a live preview in the right pane.
 
 === PWA tab
-You can declare that your launchpad should serve as a progressive web app (PWA).
+You can specify that your launchpad should serve as a progressive web app (PWA).
 
 You can define the layout and display mode of your PWA, set an autolock when the app is not used, and enable the user to insert a pin code to restrict access to the app.
 
 === Header tab
-You can define your header with javascript.
+You can specify your header with dedicated javascript code.
 
 === Tile group tab
-In the *Tile group* tab, you can add child tile groups to your new tile group. The hierarchy is displayed on the launchpad.
+In the *Tile group* tab, you add tile groups to your new launchpad. The chosen hierarchy is reflected on the launchpad.
 
-. Click *Add* to open the dialog with the available tiles in the system.
-. Click on a tile.
+. Click *Add* to open the dialog with the available tile groups in the system.
+. Click on a tile group.
 . Click *Select*.
 
 You can drag and drop tile groups to change the order in which they are displayed on the launchpad.
 
 === Enhancement tab
-You can enable multiple *Enhancements* for your launchpad and adapt them with custom Javascript code.
+You can enable multiple *Enhancements* for your launchpad and adapt them with custom javascript code.
 
 Click on an enhancement and toggle the *Activate* button to activate it.
 
 === Chatbot tab
-You can enable a chatbot in your launchpad. This can either be a chatbot from IBM or SAP. You need to have an account there to connect to the chatbot.
+You can enable a chatbot in your launchpad. This can either be a chatbot from IBM (IBM Watson Assistant) or SAP (SAP Conversational AI). You need to have a corresponding account to connect to the chatbot.
 
 
 == Related topics
-* xref:launchpad-assign-objects.adoc[]
+* xref:launchpad-concept.adoc[Launchpad]
 * xref:system-settings.adoc[]
+* xref:tile-groups.adoc[Tile Groups]
+* xref:tiles.adoc[Tiles]

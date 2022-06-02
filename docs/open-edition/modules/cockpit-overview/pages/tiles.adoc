@@ -47,3 +47,4 @@ You can block tiles from being used during maintenance.
 * xref:launchpad-concept.adoc[Launchpad]
 * xref:tile-blackout.adoc[Tile blackout]
 * xref:tile-add.adoc[]
+* xref:administration.adoc[]

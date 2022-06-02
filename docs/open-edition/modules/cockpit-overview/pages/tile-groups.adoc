@@ -21,3 +21,4 @@ They can also browse through a tile group library from their launchpad and selec
 * xref:tilegroup-add.adoc[]
 * xref:tile-blackout.adoc[Tile blackout]
 * xref:launchpad-concept.adoc[Launchpad]
+* xref:administration.adoc[]
