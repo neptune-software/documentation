@@ -12,7 +12,7 @@
 +
 image::cloud-connector-add-azure.png[,800]
 *Result*: The Cloud Connector window opens.
-. Enter the required information.
+. Enter the required information to configure the Cloud Connector in your DXP Open Edition.
 +
 image::cloud-connector-setup.png[,800]
 +
