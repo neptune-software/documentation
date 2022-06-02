@@ -96,7 +96,7 @@ Select an authentication method and configure it.
 You install the cloud connector to establish a secure connection from your network to the _Neptune DXP Open Edition_.
 When you enable the Cloud Connector, _DXP Cloud_ provides a dedicated Azure Relay namespace for your account.
 
-For the Azure Relay namespace you receive from _DXP Cloud_ you can create one or more hybrid connections. Each hybrid connection will have the attributes *Namespace*, *Hybrid Connection Name*, *Shared Access Policy Name* and *Shared Access Policy Key* that you need to configure your _DXP Cloud_ connection.
+For the Azure Relay namespace you receive from _DXP Cloud_ you can create one or more hybrid connections. Each hybrid connection will have the attributes *Namespace*, *Hybrid Connection Name*, *Shared Access Policy Name*, and *Shared Access Policy Key* that you need to configure your _DXP Cloud_ connection.
 
 == Related Topics
-* Enable the Cloud Connector
+* Enable and configure the Cloud Connector

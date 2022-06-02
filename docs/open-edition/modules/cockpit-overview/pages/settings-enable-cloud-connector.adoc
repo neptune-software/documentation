@@ -1,0 +1,28 @@
+= Enable and configure the Cloud Connector
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. On the cockpit, go to *Settings*, and click _System Settings_.
+. Click the *Cloud Connector* tab.
+. Click *Edit*, and confirm your access.
+. Click *Add*, and select *Azure Relay*.
+//ToDo Are there other methods to choose from or is it just 'Azure Relay'?
++
+image::cloud-connector-add-azure.png[,800]
+*Result*: The Cloud Connector window opens.
+. Enter the required information.
++
+image::cloud-connector-setup.png[,800]
++
+. Click *Active* to activate the Cloud Connector.
++
+NOTE: At this point, Neptune provides an Azure Relay namespace for your account.
++
+. Click *Save*.
+
+== Result
+* You created a new project and can start adding the scripts.
+
+== Related topics
