@@ -1,11 +1,10 @@
 = Add a new mobile client
 
-In this topic, you learn how to add a new mobile client.
+In this topic, you learn how to add and configure a new mobile client.
 
 == Prerequisites
 
 * You have created a launchpad in xref:cockpit-overview:launchpad.adoc[].
-
 
 == Procedure
 
@@ -21,31 +20,37 @@ In this topic, you learn how to add a new mobile client.
 . In the *Author* section, you can provide information about the creator of the mobile client.
 
 === Security tab
-. In the *Connection* section, provide the server URL where the mobile client is hosted and an optional URL for resetting the password.
-. In the *Autolock* section, you can set a time after which the system is automatically locked.
-. In the *Pin Code* section, you can enable and configue login via pin code.
+. In the *Connection* section, you provide the server URL where the mobile client is hosted. You can also set an optional URL for resetting the password.
+. In the *Autolock* section, you can set a period of time after which the system is automatically locked.
+. In the *Pin Code* section, you can enable and configure login to the mobile client via pin code.
 . In the *Biometric Authentication* section, you can enable authentication via fingerprint on a mobile device.
 
 === Device tab
-. In the *Common* section, provide the *App ID*. The *App ID* is structured as follows: `com.company.identifier`. An example would be `com.neptune.testapp`.
+. In the *Common* section, you provide the *App ID*. The *App ID* is structured as follows: `com.company.identifier`. An example is `com.neptune.testapp`.
 . In the *Mobile Client Build* section, you can enable automatic updates for the app.
 . In the *Platforms* section, you can define on which systems your app should run. If you choose `Windows 10`, you have to make some additional settings.
+//TODO Neptune: What about special settings regarding Windows 11? Does they apply here as well?
 
 === Plugins tab
 You can add Apache Cordova plugins to your mobile client. There are three ways to add plugins:
 
-. Click *+Add*: An empty field opens. You can enter a plugin.
-. Click *Add from Library*: A new window with the list of available Cordova plugins in the system library opens. Choose the packages you want and click *Select*.
-. Click *Add from NPM*: A new window with the list of available Cordova plugins in the from the _NPM_ service opens. Choose the packages you want and click *Select*.
++Add:: An empty field opens. You can enter the name of the plugin.
+Add from Library:: A new window with the list of available Cordova plugins in the system library opens. Choose the plugins you want and click *Select*.
+Add from NPM:: A new window with the list of available Cordova plugins in the _NPM_ service opens. Choose the plugins you want and click *Select*.
+
+You can click *Reset* to return to the default set of plugins that is recommended by Neptune.
 
 === Custom Config tab
 You can use the custom config editor to add XML code to edit your mobile application.
 
 === Push IOS & Push Android tabs
-You can download the configiguration files from the firebase platform.
+You can download configuration files from the firebase platform to push your mobile client to IOS or Android devices.
 
 === Media tab
 You can enter an icon and a splashscreen for your mobile client that is derived from the media library.
+
+=== Build tab
+The build tab provides an overview of when this mobile client has been created.
 
 == Results
 

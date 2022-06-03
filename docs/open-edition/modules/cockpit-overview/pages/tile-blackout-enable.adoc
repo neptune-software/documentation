@@ -1,0 +1,29 @@
+= Enable tile blackout
+
+In this topic, you learn how to declare that a tile is under maintenance and cannot be reached in the launchpad.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the cockpit, go to *Administration* and click _Tile Blackout_.
++
+*Result*: The list of all tiles in the system opens.
+. Click on the tile you want to stop running.
+*Result*: A new window with the most important data of the tile opens.
+. Click *Edit*.
+. In the *Blackout* section, toggle the *Enable* button to `Yes`.
+. Provide an explanation for the user why the tile cannot be reached.
+. Click *Save*.
+
+== Results
+
+* The status from the tile has changed from `running` to `blackout`.
+* The tile cannot be reached anymore via the launchpad.
+
+== Related topics
+
+* xref:tile-blackout.adoc[Tile Blackout]
+* xref:tile-blackout-disable.adoc[]

@@ -1,0 +1,26 @@
+= Add a mobile debugger
+
+In this topic, you learn how to add and configure a mobile debugger.
+
+== Prerequisites
+
+* An application does not work correctly for a user.
+
+== Procedure
+
+. In the cockpit, go to *Administration* and click _Mobile Debug_.
++
+*Result*: The list of existing debugging methods opens.
+. Click *Add*.
++
+*Result*: The settings of the debugging method open.
+. Enter the *Application* you want to debug.
+. Enter the *User* whose application you want to debug.
+
+== Results
+
+* In the *Log* tab, you can view the type of error and what caused it.
+
+== Related topics
+
+* xref:mobile-debug.adoc[Mobile Debug]
