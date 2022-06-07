@@ -1,6 +1,8 @@
 = Open UI5 framework
 //Fabian@Helle: Das hier kommt offenbar aus der alten Doku, ich habe keine Ahnung, ob und wozu man das braucht. Vielleicht sollte man es an eine andere Stelle in der Doku verschieben (?).
 
+//Helle@Fabian: Die Beispiele können wir für ein Cookbook verwenden. Die konzeptuellen Infos wie Aggregations und Bindings vielleicht vorziehen. Würde ich dem App Designer zuordnen. Können wir besprechen und ne Strategie überlegen.
+
 
 Open UI5 is the base for all UI artifacts and their functionalities.
 
@@ -8,10 +10,9 @@ Open UI5 is the base for all UI artifacts and their functionalities.
 We want users to open a calendar and select a date.
 
 The name of the artifact is `sap.m.DatePicker`.
-In the _App Designer_, the default name of the is `oDatePicker`.
+In the _App Designer_, the default name of the artifact is `oDatePicker`.
 
 On the page, the `oDatePicker` artifact is an input field that opens a calendar and allows the user to select a date.
-//Input needed on "page"
 
 Building on this example, you can add a shell, app and page as parent artifacts to the `DatePicker`.
 Now you can see the date picker inside the app.
@@ -40,7 +41,7 @@ The table is built using `sap.m.table` as parent, with `sap.m.Column` artifacts 
 You can also generate these structures automatically using wizards, such as with this table.
 
 == Events
-Many of the atifacts within the UI5 library contain events.
+Many of the artifacts within the UI5 library contain events.
 
 .Example: `Button`
 A `Button` artifact has a `Press` event.

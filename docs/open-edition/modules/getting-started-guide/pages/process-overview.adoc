@@ -1,7 +1,7 @@
 //Was will man eigentlich mit diesem Process erreichen?
 //Warum werden die Bescheibungen der Services nochmal wiederholt?
 //Was steht im Mittelpunkt des Prozesses?
-
+//Helle: Siehe Kommentar overview.adoc. Sollten wir zusammenlegen.
 
 = Process overview
 

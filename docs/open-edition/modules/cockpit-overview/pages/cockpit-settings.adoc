@@ -1,37 +1,52 @@
 = Cockpit settings
 
-You can open the cockpit settings by clicking on your username in the top right corner of the cockpit.
+Open the Cockpit settings by clicking on your username in the top right corner of the Cockpit.
+//...your username (in the top right corner) in the shell bar.
 
-The available settings change depending on where you click on your username. There are two different views: One in the editors, for example, script editor or app designer, and the other one in all other places.
+The available settings change depending on where you click on your username.
+There are two different views: One in the editors, for example, script editor or app designer, and the other one in all other places.
+//Helle@Fabian: First sentence was a little confusing at first:
+//In the Cockpit and most services, you see Cockpit settings and Code Editor settings. In editor services, for example, _App Designer_ and _Script Editor_, you only see Code Editor settings.
+//I'd suggest renaming "Settings" in editors to "Code Editor". I don't see why those headlines should differ. Thoughts?
 
 You can change the following parameters:
 
 == Cockpit
 
-Theme:: Choose between `light` and `dark` mode. Changes are applied instantly.
+Theme:: Choose between `light` and `dark` mode.
+Changes are applied instantly.
 
-Place Cockpit action buttons to the left:: Decide whether action buttons inside a service, for example, *add* or *start* are placed on the left side of your interface. By default, they are placed on the right side. This setting is not available in editors.
+Place Cockpit action buttons to the left:: Decide whether action buttons inside a service, for example, *add* or *start* are placed on the left side of your interface.
+By default, they are placed on the right side.
+This setting is not available in editors.
 
 == Code Editor
 
-Font size:: Set the font size. Available sizes are 12-18 px.
+Font size:: Set the font size.
+Available sizes are 12-18 px.
 
-Font Familiy:: Only available in editors. Enter a font family.
+Font Family:: Only available in editors.
+Enter a font family.
 //TODO: There are no predefined values, what can you enter here?
 
-Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line. Available properties are: `Of`, `On`, `Word wrap column`, `Bounded`.
+Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line. Available properties are: `Off`, `On`, `Word wrap column`, `Bounded`.
 //TODO: What does that do?
+//Helle@Fabian: Did some testing: WWC has a fixed width. When active, text will only wrap when outside that width. If the editor pane width is smaller than WWC width it still wraps according to WWC width (-> text outside screen). Bounded does. So bounded seems to be a combination of On and WWC: Bounded wraps according to fixed width but if fixed width > pane width, bounded wraps according to pane width.
+// --> Off: no wrap, On: wrap depending on pane width, WWC: wrap depending on fixed column width, Bounded: wrap depending on pane width and column width, while pane width overrides column width if column width > pane width
 
 Font Ligature:: Check or uncheck to enable ligatures in text.
 
 Show Folding Controls:: Available properties are: `Mouse Over`, `Always`
 //TODO: What does that do?
+//Helle: Decide how you want to see folding controls for code sections, for example, for loops or if statements.`Always` shows them permanently, `Mouse over` shows them only when hovering over the gap between line numbers and code.
 
 Scroll Beyond Last Line:: Check or uncheck.
 //TODO: What does that do?
+//Helle: Activate to enable scrolling beyond the last line of code (without empty lines). (Only applies when code is longer than pane length)
 
 Enable Minimap:: Check or uncheck.
 //TODO: What does that do?
+//Helle: Activate to show a minimap of the code in the script editing pane. Use minimap to see where you are in code. (I guess, visual help when working on long code blocks.
 
 Format On Paste:: Check or uncheck.
 //TODO: What does that do?

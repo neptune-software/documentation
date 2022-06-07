@@ -1,11 +1,15 @@
 = DXP - Open Edition cockpit: service overview
 
+//Helle: Titel kürzen? An dieser Stelle sollte doch klar sein, dass man sich in der Open Edition Doku befindet?
+
 == Development
 In the xref:development-overview.adoc[Development] service group, you find the services you need to build your own applications.
 
 //image::cockpit-overv-development.png[Cockpit overview section development, 400 px]
 //Fabian@Helle: Ich würde sagen, man braucht die einzelnen Überblicksbilder nicht bei den service groups.
+//Helle@Fabian: Stimme zu. :D
 //Fabian@Helle: Ich habe die Kurzbeschreibungen aus dem Cockpit so übernommen, auch wenn sie sprachlich nicht besonders gut sind
+//Helle@Fabian: Da sollten wir aber eher Änderungen am Cockpit vorschlagen.
 
 The following services are available:
 
@@ -41,7 +45,7 @@ In the xref:connectivity.adoc[Connectivity] service group, you find services to 
 
 The following services are available:
 
-* xref:groups.adoc[Group]:Groups APIs
+* xref:groups.adoc[Group]: Groups APIs
 //TODO Neptune: There are two services named "Group" in the cockpit, the other one in the security service group
 * xref:api-designer.adoc[API Designer]: Create and describe APIs
 * xref:api-client.adoc[API Client]: Test APIs

@@ -2,7 +2,8 @@
 
 Neptune DX Platform is a node.js runtime environment. node.js is an open-source, cross-platform, back-end JavaScript runtime environment.
 
-With NPM, you can extend the functionality of the DXP - Open Edition with the choice of over a million different packages, ranging from managing connections over legacy databases to handling authentication tokens.
+With npm, you can extend the functionality of the DXP - Open Edition with the choice of over a million different packages, ranging from managing connections over legacy databases to handling authentication tokens.
+//Helle: sentence too long. Split in "use npm to extend functionality" and "packages, connections, databases etc."
 
 == Databases
 By default, the DXP - Open Edition comes with an embedded SQlite database, which can be used for database tables.
@@ -12,7 +13,7 @@ Alternatively, you can use the following databases:
 
 * PostgreSQL
 * Microsoft SQL Server
-* SAP Hana databases
+* SAP HANA databases
 
 == TypeORM
 All supported databases can use TypeORM. ORM (object-relational mapping) is a technique that lets you query and manipulate data from a database using an object-oriented paradigm.

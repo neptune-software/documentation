@@ -1,21 +1,35 @@
 = Cockpit search function
 
-The cockpit consists of many services. To facilitate finding the correct service or artifact, you should primarily use the search function.
+The Cockpit consists of many services. To facilitate finding the correct service or artifact, use the search function.
+//Helle: deleted ...you should primarily...
+//Helle: terminology says "Cockpit", not "cockpit"
 There are two ways to open the window for the search:
 
-* Click the search field in the shell bar on the very top of the cockpit. It is always displayed there if you are in the cockpit. You can open the search bar from most services as well.
+* Click the search field in the shell bar on the very top of the Cockpit.
+It is always displayed there if you are in the cockpit.
+You can open the search bar from most services as well.
+//Helle: The search field is available in the Cockpit and most services, excluding editor services, such as _App Designer_ and _Script Editor_.
+//Assumption, only checked for those two. Makes more sense to me to repeat the behavior that editors are different from the rest (see cockpit settings).
 * Click `Alt + S` in the cockpit.
-
+//Helle: Alt + S for Windows, Option + S for Mac
 
 image::cockpit-search.png[,800]
+//why is there a dark border around it? I'd cut it if not necessary.
 
-Services column:: You can see a list of all services, grouped into service groups. The number next to a service indicates the available artifacts per service. Click on a service to open it.
+Services column:: You can see a list of all services, grouped into service groups.
+The number next to a service indicates the available artifacts per service.
+Click a service to open it.
+//Helle: do we need "column"?
 
 Artifacts column:: You can see a list of artifacts created by the most important services.
+//Helle: ... ~organized by service they were created with?
 
-Favorites column:: You can mark services as favorites by clicking on the star in the cockpit. These favorite services are displayed here.
+Favorites column:: You can mark services as favorites by clicking on the star in the cockpit.
+//Helle: In the Cockpit, each service has star (icon) on the service tile/card (terminology not fixed yet). You can mark services as favorites by clicking the star.
+These favorite services are displayed here.
 
 image:cockpit-favorite.png[,200]
+//Helle: Border on left side, might look weird with antora border later.
 
 
 

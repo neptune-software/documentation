@@ -7,7 +7,11 @@
 - den UI5-Kram unten löschen? Oder ausgliedern?
 -
 ////
+
+//Helle: Ich bin insgesamt unzufrieden mit dem Topic. Es ist dazu da, Neueinsteigern bei der großen Auswahl an Services einen Überblick über die essenziellen Services zu verschaffen. Vorschlag: ersetzen durch Links zu den Service Doku und einer Beschreibung, wie die Services zusammenspielen? Die Inhalte, die hier zu den Services stehen, sollten in der Service Doku sein und nicht doppelt gepflegt werden, oder?
+
 == Main components
+//Helle: main services?
 The Neptune DXP - Open Edition comprises the following main components:
 
 * _Launchpad_
@@ -16,6 +20,7 @@ The Neptune DXP - Open Edition comprises the following main components:
 * _Workflow Engine_
 * _Script Editor_
 * _Application Building Blocks_
+//Helle: not a service. Either name service (store) or don't mark as service
 //* Adaptive Designer
 
 
@@ -24,7 +29,8 @@ The _Launchpad_ is a shell that hosts applications and provides these applicatio
 
 The _Launchpad_ serves as the single entry point to the DXP - Open Edition.
 The _Launchpad_ consists of services, which are displayed depending on the role of the user.
-Each service represents an application that a user can open. Services can also show live data.
+Each service represents an application that a user can open.
+Services can also show live data.
 //Input needed: Information about different user roles needed.
 
 The _Launchpad_ can host the following applications, which can run in parallel:
