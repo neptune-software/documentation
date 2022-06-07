@@ -54,6 +54,8 @@ You need to select the same language on the launchpad to see your translation.
 === Where-used
 In the *Where-used* tab, you can see in which tile group the tile is used.
 
+* Click *Save* when you finished editing.
+
 == Results
 
 * You have added and configured a tile.

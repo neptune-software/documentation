@@ -54,6 +54,8 @@ You can drag and drop tile groups to change the order in which they are displaye
 === Translation tab
 In the *Translation* tab, you can give a translation for the title and the subtitle of your tile group in a chosen language. This translation is only displayed when the user chooses this language on the launchpad.
 
+* Click *Save* when you finished editing.
+
 == Results
 
 * You have added and configured a tile group.

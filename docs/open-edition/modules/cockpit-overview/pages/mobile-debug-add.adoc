@@ -16,10 +16,11 @@ In this topic, you learn how to add and configure a mobile debugger.
 *Result*: The settings of the debugging method open.
 . Enter the *Application* you want to debug.
 . Enter the *User* whose application you want to debug.
+. Click *Save*.
 
 == Results
 
-* In the *Log* tab, you can view the type of error and what caused it.
+* In the *Log* tab, you can view the type of error and what has caused it.
 
 == Related topics
 

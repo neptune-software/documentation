@@ -1,4 +1,4 @@
-= Disable blackout
+= Disable tile blackout
 
 In this topic, you learn how to declare that a tile is not under maintenance anymore and can be reached again.
 
@@ -22,7 +22,7 @@ NOTE: You can discover tiles that are not running by the status `blackout` in th
 
 == Results
 
-* You have activated your tile so user can work with it again.
+* You have activated your tile so users can work with it via the launchpad again.
 
 == Related topics
 

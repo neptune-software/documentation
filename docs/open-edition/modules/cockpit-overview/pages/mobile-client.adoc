@@ -1,34 +1,35 @@
 = image:mobile-client-icon.png[width=100] Mobile Client
 
-A mobile client is the mobile version of a launchpad. In the _Mobile Client_, you create and maintain a launchpad for mobile applications.
+A mobile client is the mobile version of a launchpad. In the _Mobile Client_, you create and maintain a launchpad for mobile devices.
 
 The _Mobile Client_ uses Apache Cordova plugins to create mobile applications.
 Apache Cordova provides a way to develop mobile applications using standard web technologies, for example, HTML5, CSS3, and JavaScript.
 
 DXP - Open Edition supports the following Apache Cordova plugins that can be added to the mobile client:
 
-* cordova-plugin-battery-status
-* cordova-plugin-camera
-* cordova-plugin-media-capture
-* cordova-plugin-console
-* cordova-plugin-contacts
-* cordova-plugin-device
-* cordova-plugin-dialogs
-* cordova-plugin-file
-* cordova-plugin-geolocation
-* cordova-plugin-globalization
-* cordova-plugin-inappbrowser
-* cordova-plugin-network-information
-* cordova-plugin-media
-* cordova-plugin-splashscreen
-* cordova-plugin-statusbar
-* cordova-plugin-vibration
-* cordova-plugin-whitelist
-* cordova-plugin-secure-key-store.
+cordova-plugin-camera:: Take pictures with the device camera.
+cordova-plugin-cookiemaster:: Enables the management of cookies in WebViews on iOS and Android.
+cordova-plugin-device:: Get device information.
+cordova-plugin-dialogs:: Use native dialog UI elements.
+cordova-plugin-file:: Read/write files on the device.
+cordova-plugin-file-opener2:: Open a file on your device file system with its default application.
+cordova-plugin-geolocation::  Access GPS data.
+cordova-plugin-inappbrowser:: Open an in-app browser window.
+cordova-plugin-media:: Record and play audio on the device.
+cordova-plugin-media-capture:: Capture audio, video, and images.
+cordova-plugin-network-information:: Get information about wireless connectivity.
+cordova-plugin-secure-key-store:: Save keys, passwords or strings on devices.
+cordova-plugin-splashscreen:: Control the splash screen for your app.
+cordova-plugin-statusbar:: Control the device status bar.
+
+
+//TODO Neptune: I found this plugin in the GTM system but the current documentation say it is outdated (https://www.npmjs.com/package/cordova-plugin-whitelist), please check.
+//cordova-plugin-whitelist
+
 
 == Related topics
 * xref:mobile-client-add.adoc[]
-* https://cordova.apache.org/[Apache Cordova website].
+* https://cordova.apache.org/docs/en/latest/[Apache Cordova documentation].
 * xref:administration.adoc[]
 
 
