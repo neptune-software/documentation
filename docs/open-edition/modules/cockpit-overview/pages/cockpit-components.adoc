@@ -6,7 +6,7 @@
 In the xref:development-overview.adoc[Development] service group, you find the services you need to build your own applications.
 
 //image::cockpit-overv-development.png[Cockpit overview section development, 400 px]
-//Fabian@Helle: Ich würde sagen, man braucht die einzelnen Überblicksbilder nicht bei den service groups.
+//Fabian@Helle: Ich würde sagen, man braucht die einzelnen Überblicksbilder nicht bei den service groups (die waren vorher drin).
 //Helle@Fabian: Stimme zu. :D
 //Fabian@Helle: Ich habe die Kurzbeschreibungen aus dem Cockpit so übernommen, auch wenn sie sprachlich nicht besonders gut sind
 //Helle@Fabian: Da sollten wir aber eher Änderungen am Cockpit vorschlagen.
@@ -117,12 +117,6 @@ The following services are available:
 * Table Definition: Create and maintain database tables
 
 * Table Browser: View and maintain table data
-
-//TODO Neptune: Where did the tracking topics move to?
-//* Tracking List: ???
-
-//* Tracking Settings: ???
-
 
 == Testing
 
