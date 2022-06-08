@@ -1,10 +1,11 @@
-= Enable and configure the Cloud Connector
+= Enable and configure Cloud Connector
 
 == Prerequisites
+
 * There are no prerequisites.
 
 == Procedure
-. On the cockpit, go to *Settings*, and click _System Settings_.
+. In the cockpit, go to *Settings*, and click *System Settings*.
 . Click the *Cloud Connector* tab.
 . Click *Edit*, and confirm your access.
 . Click *Add*, and select *Azure Relay*.
@@ -13,6 +14,9 @@
 image::cloud-connector-add-azure.png[,800]
 *Result*: The Cloud Connector window opens.
 . Enter the required information to configure the Cloud Connector in your DXP Open Edition.
++
+NOTE: Fields marked with * are mandatory.
+//ToDo I assume
 +
 image::cloud-connector-setup.png[,800]
 +
@@ -23,6 +27,8 @@ NOTE: At this point, Neptune provides an Azure Relay namespace for your account.
 . Click *Save*.
 
 == Result
-* You created a new project and can start adding the scripts.
+* You configured and activated the _Cloud Connector_.
 
 == Related topics
+* xref:settings-system.adoc[System Settings]
+* xref:../../../../../../../

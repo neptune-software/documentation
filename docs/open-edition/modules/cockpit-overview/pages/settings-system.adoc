@@ -81,22 +81,40 @@ Allow self-signed certificates:: Check to accept untrusted emailing connections
 Username:: Enter the username of the registered user
 Password:: Enter the password
 From Address:: ?
-//ToDo Filled in automatically? Can you specify more than one e-mail-address?
+//ToDo Q: Filled in automatically? Can you specify more than one e-mail-address?
 
 == Password
 Set the password properties here.
 
 == Authentication
-Select an authentication method and configure it.
+Select an authentication protocol and configure it.
 
 == Related Topics
+* Configure Azure AD
+* Configure JWT
+* Configure LDAP
+* Configure OAuth2
+* Configure OpenID Connect
+* Configure SAML
 //ToDo describe the 6 different authentication methods!
 
 == Cloud Connector
-You install the cloud connector to establish a secure connection from your network to the _Neptune DXP Open Edition_.
-When you enable the Cloud Connector, _DXP Cloud_ provides a dedicated Azure Relay namespace for your account.
+You can install _Cloud connector_ to establish a secure connection from your network to the _Neptune DXP Open Edition_.
+When you enable _Cloud Connector_, _DXP Cloud_ provides a dedicated Azure Relay namespace for your account.
 
-For the Azure Relay namespace you receive from _DXP Cloud_ you can create one or more hybrid connections. Each hybrid connection will have the attributes *Namespace*, *Hybrid Connection Name*, *Shared Access Policy Name*, and *Shared Access Policy Key* that you need to configure your _DXP Cloud_ connection.
+Neptune Software offers via _DXP Cloud_ an easy way to use Azure Relay Hybrid Connections.
+
+For the Azure Relay namespace you receive from _DXP Cloud_ you can create one or more hybrid connections.
+For each hybrid connection you have to configure the following attributes:
+*Namespace*, *Hybrid Connection Name*, *Shared Access Policy Name*, and *Shared Access Policy Key*.
+
+You should use Azure Relay hybrid connections via _DXP Cloud_ when at least one of the following points applies:
+
+* You do not use Microsoft Azure.
+* You do not have the skills to manage Azure Relay namespaces and hybrid connections.
+* You are already a paying customer of DXP Cloud and you prefer to receive the billing from Neptune Software and not from Microsoft.
+
+If you have specific requirements for the configuration and the set-up of secure connections, you should not use Azure Relay hybrid connections via _DXP Cloud_.
 
 == Related Topics
-* Enable and configure the Cloud Connector
+* Enable and configure _Cloud Connector_
