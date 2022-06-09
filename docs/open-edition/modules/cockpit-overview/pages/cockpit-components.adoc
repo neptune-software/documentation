@@ -1,15 +1,10 @@
 = DXP - Open Edition cockpit: service overview
 
 //Helle: Titel kürzen? An dieser Stelle sollte doch klar sein, dass man sich in der Open Edition Doku befindet?
+// Fabian: Ich hatte es absichtlich drin gelassen, wenn jemand über die Suche nach "service overview" sucht und hierher springt, dann sollte er/sie wissen, dass dies nicht die SAP-Edition ist
 
 == Development
 In the xref:development-overview.adoc[Development] service group, you find the services you need to build your own applications.
-
-//image::cockpit-overv-development.png[Cockpit overview section development, 400 px]
-//Fabian@Helle: Ich würde sagen, man braucht die einzelnen Überblicksbilder nicht bei den service groups (die waren vorher drin).
-//Helle@Fabian: Stimme zu. :D
-//Fabian@Helle: Ich habe die Kurzbeschreibungen aus dem Cockpit so übernommen, auch wenn sie sprachlich nicht besonders gut sind
-//Helle@Fabian: Da sollten wir aber eher Änderungen am Cockpit vorschlagen.
 
 The following services are available:
 
@@ -23,12 +18,11 @@ The following services are available:
 * xref:code-snippets.adoc[Code Snippets]: Configure code snippets for the _App Designer_ and the _Script Editor_
 * xref:app-documentation.adoc[Documentation]: Create application documentation or context-sensitive help
 * xref:media-library.adoc[Media Library]: Store the media files you want to use within your application
-//TODO Neptune: We propose to change the current description ("Upload libraries, images, splashscreens or icons")
+//TODO Neptune: We propose to change the current description ("Upload libraries, images, splashscreens or icons") to the text above
 * xref:npm-modules.adoc[NPM Modules]: Install and update node package manager modules
 * xref:application-trashbin.adoc[Application Trashbin]: Restore or delete applications permanently
 
 == Design
-//image::cockpit-overv-design.png[Cockpit overview section design, 600]
 In the xref:design.adoc[Design] service group, you find the services you need to give your application the right look.
 
 The following services are available:
@@ -39,24 +33,22 @@ The following services are available:
 * xref:e-mail-template.adoc[Email Template]: Create email templates
 
 == Connectivity
-//image::cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
 
 In the xref:connectivity.adoc[Connectivity] service group, you find services to create, test, and maintain APIs.
 
 The following services are available:
 
 * xref:groups.adoc[Group]: Groups APIs
-//TODO Neptune: There are two services named "Group" in the cockpit, the other one in the security service group
+//TODO Neptune: There are two services named "Group" in the cockpit, the other one in the security service group, this is confusing
 * xref:api-designer.adoc[API Designer]: Create and describe APIs
 * xref:api-client.adoc[API Client]: Test APIs
 * xref:api-trace.adoc[API Trace]: View and analyze REST API performance and usage
 * xref:swagger-ui.adoc[Swagger UI]: Test APIs via Swagger UI
 * xref:odata-source.adoc[OData Source]: Manage OData sources
-* OData Mock Data_: Manage mock metadata and datasets
+* OData Mock Data: Manage mock metadata and datasets
 * xref:connectors.adoc[Connector]: Publish data sources to be used in the _Adaptive Designer_.
 
 == Administration
-//image::cockpit-overv-administration.png[Cockpit overview section administration, 600]
 
 In the xref:administration.adoc[Administration] service group, you find services to maintain and launch your applications.
 
