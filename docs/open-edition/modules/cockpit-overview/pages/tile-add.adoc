@@ -8,7 +8,7 @@ In this topic, you learn how to add a new tile.
 
 == Procedure
 
-. In the cockpit, go to *Administration* and click _Tile_.
+. In the Cockpit, go to *Administration* and click _Tile_.
 +
 *Result*: The list of existing tiles open.
 . Click *Add*.

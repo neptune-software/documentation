@@ -1,0 +1,35 @@
+= Add favourite tiles to a launchpad
+
+In this topic, you learn how to add favourite tile to the launchpad of a user.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Favourite Management_.
++
+*Result*: The selection window opens.
++
+. In *Launchpad*, choose from the drop-down menu the launchpad you want to add favourite tiles to.
+. Select a *User* from the list.
+. Click *Start*.
++
+*Result*: A new window with the favourited tiles for the launchpad opens.
++
+. In *Tiles*, select a tile from the drop-down menu
+. In *Action*, click *Add tile(s) to favourites* to add the tiles to the list below.
+. Click *Save*.
++
+NOTE: You can import a list of tiles in `csv` format.
++
+NOTE: You can export your list of favourites in `csv` format.
+
+== Results
+
+* You have added favourite tiles to a launchpad.
+
+== Related topics
+
+* xref:favourite-management.adoc[]
