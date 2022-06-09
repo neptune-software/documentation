@@ -1,16 +1,8 @@
 = Cockpit settings
 
-Open the Cockpit settings by clicking on your username in the top right corner of the Cockpit.
-//...your username (in the top right corner) in the shell bar.
+Open the Cockpit settings by clicking on your username in the top right corner in the shell bar.
 
-The available settings change depending on where you click on your username. There are two different views:
-
-* One in the editors, for example, script editor or app designer
-* One in all other places
-
-//Helle@Fabian: First sentence was a little confusing at first:
-//In the Cockpit and most services, you see Cockpit settings and Code Editor settings. In editor services, for example, _App Designer_ and _Script Editor_, you only see Code Editor settings.
-//I'd suggest renaming "Settings" in editors to "Code Editor". I don't see why those headlines should differ. Thoughts?
+In the Cockpit and most services, you see Cockpit settings and code editor settings. In editor services, for example, the _App Designer_ and the _Script Editor_, you only see code editor settings.
 
 You can change the following parameters:
 
@@ -19,10 +11,9 @@ You can change the following parameters:
 Theme:: Choose between `light` and `dark` mode.
 Changes are applied instantly.
 
-Place Cockpit action buttons to the left:: Decide whether action buttons inside a service, for example, *add* or *start* are placed on the left side of your interface.
+Place Cockpit action buttons to the left:: Activate to move action buttons, for example, *add* or *start*, to the left side of your interface.
 By default, they are placed on the right side.
 This setting is not available in editors.
-//Helle: Activate to move action buttons... to the left side...
 
 == Code Editor
 

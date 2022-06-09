@@ -1,11 +1,10 @@
 = Cockpit search function
 
 The Cockpit consists of many services. To facilitate finding the correct service or artifact, use the search function.
-//Helle: terminology says "Cockpit", not "cockpit"
 There are two ways to open the window for the search:
 
-* Click the search field in the shell bar on the top of the cockpit.
-The search field is available in the cockpit and most services.
+* Click the search field in the shell bar on the top of the Cockpit.
+The search field is available in the Cockpit and most services.
 It is not available in editor services that had to be opened in a new window or new tab, for example, the _App Designer_ or the _Script Editor_.
 * Click `Alt + S` for Windows and `Option + S` for Mac in the cockpit.
 
@@ -19,12 +18,11 @@ Artifacts:: You can see a list of artifacts created by the most important servic
 The artifacts are organized by the service they were created with.
 
 
-Favorites:: You can mark services as favorites by clicking on the star in the cockpit.
-//Helle: In the Cockpit, each service has star (icon) on the service tile/card (terminology not fixed yet). You can mark services as favorites by clicking the star.
+Favorites:: In the Cockpit, each service has a star on its service card. You can mark services as favorites by clicking the star.
 These favorite services are displayed here.
 
 image:cockpit-favorite.png[,200]
-//Helle: Border on left side, might look weird with antora border later.
+
 
 
 
