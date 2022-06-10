@@ -1,0 +1,27 @@
+= Translate the title of a tile or tile group
+
+In this topic, you learn how to add a translation of a tile or tile group. The languages to which you want to translate had to be selected in the launchpad.
+
+== Prerequisites
+
+* You have enabled the respective languages in xref:launchpad.adoc[].
+
+== Procedure
+
+. Step one.
+. Step two.
++
+*Result*: Result of step two.
+For example, The Application Settings window opens.
+
+. Step three.
+. Step four.
+
+== Results
+
+* You have done XY.
+
+== Related topics
+
+* xref to topic
+* xref to other topic
