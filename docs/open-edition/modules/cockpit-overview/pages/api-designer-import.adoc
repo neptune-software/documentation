@@ -1,4 +1,4 @@
-= Import an API with the _API Designer_
+= Import an API with the API Designer
 
 You use APIs to communicate with data formats.
 In this topic, you learn how to import different files that you want to connect an API to.
@@ -111,4 +111,4 @@ You still can add, change and delete settings that were made by the _API Designe
 * xref:api-designer.adoc[API Designer]
 //Todo Helle:* xref:export-api.adoc[]
 //Todo Helle:* xref:table-definition.adoc[]
-* xref:table-definition-create.adoc[Create a database table in _Table Definition_ and _Table Browser_]
+* xref:table-definition-create.adoc[Create a database table in Table Definition and Table Browser]

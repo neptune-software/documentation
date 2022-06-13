@@ -38,7 +38,11 @@ include::partial$api-designer-create.adoc[tags=!*]
 * Your API is saved with the current settings and is added to the library in the _API Designer_.
 * The _API Designer_ adds an ID to your API and saves change dates.
 
+== Next steps
+
+* xref:api-designer-table-definition-add-operation.adoc[]
+
 == Related topics
 
-*
-//todo helle add steps
+* xref:api-designer-table-definition-create.adoc[]
+* xref:api-designer.adoc[API Designer]

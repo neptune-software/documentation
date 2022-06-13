@@ -4,7 +4,7 @@ In this topic, you learn how to create an API to communicate with a table defini
 
 Table definitions exist inside Neptune DXP - Open Edition.
 You add table definitions with the _Table Definition_ service.
-With _API Designer_, you can call table definitions and retrieve, delete, and add data.
+With _API Designer_, you can call table definitions and add operations to retrieve, delete, and add data.
 
 This guide consists of the following steps:
 
@@ -15,5 +15,3 @@ This guide consists of the following steps:
 == Related topics
 
 * xref:api-designer.adoc[API Designer]
-//Todo Helle:* xref::export-api.adoc[] <-- task
-//Todo Helle:* xref::search-api.adoc[] <-- might not be task

@@ -34,7 +34,11 @@ include::partial$api-designer-operations.adoc[]
 
 * You have added an operation with a method.
 
-== Related topics
+== Next steps
 
 * xref:api-designer-external-api-add-definition.adoc[]
-* xref:api-designer-external-api-configure.adoc[]
+
+== Related topics
+
+* xref:api-designer-external-api-create.adoc[]
+* xref:api-designer.adoc[API Designer]

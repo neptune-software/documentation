@@ -31,3 +31,12 @@ include::partial$api-designer-operations.adoc[]
 == Result
 
 * You have added an operation with a method.
+
+== Next steps
+
+* xref:api-designer-table-definition-add-definition.adoc[]
+
+== Related topics
+
+* xref:api-designer-table-definition-create.adoc[]
+* xref:api-designer.adoc[API Designer]

@@ -11,9 +11,9 @@ You can create new APIs, update existing APIs, or import and export APIs from an
 == API types
 The _API Designer_ shows all available types of APIs. There are three types of APIs you can create with the _API Designer_:
 
-* *External APIs*: To reach web services outside the DXP - Open Edition.
-* *Table Definitions*: To reach a data table through an API.
-* *Server Scripts*: To access one of your server scripts on DXP - Open Edition.
+* *External APIs*: Reach web services outside the DXP - Open Edition.
+* *Table Definitions*: Reach a data table through an API.
+* *Server Scripts*: Access one of your server scripts in DXP - Open Edition.
 
 
 == Related topics
@@ -21,6 +21,5 @@ The _API Designer_ shows all available types of APIs. There are three types of A
 * xref:api-designer-external-api-create.adoc[]
 * xref:api-designer-server-script-create.adoc[]
 * xref:api-designer-table-definition-create.adoc[]
-* xref:api-designer-import.adoc[Import an API with the _API Designer_]
-//Todo Helle: * xref:export-api.adoc[] <-- task
-//* xref:search-api.adoc[] <-- might not be task
+* xref:api-designer-import.adoc[]
+* xref:api-designer-export.adoc[]
