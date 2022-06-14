@@ -91,7 +91,7 @@ Set the password properties here.
 Select an authentication protocol and configure it.
 
 == Related Topics
-* Configure Azure AD
+* xref:settings-azure-ad-config.adoc[]
 * Configure JWT
 * Configure LDAP
 * Configure OAuth2
@@ -118,4 +118,4 @@ You should use Azure Relay hybrid connections via _DXP Cloud_ when at least one 
 If you have specific requirements for the configuration and the set-up of secure connections, you should not use Azure Relay hybrid connections via _DXP Cloud_.
 
 == Related Topics
-* Enable and configure _Cloud Connector_
+* xref:settings-enable-cloud-connector.adoc[]

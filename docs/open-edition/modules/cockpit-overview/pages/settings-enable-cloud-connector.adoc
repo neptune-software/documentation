@@ -17,7 +17,7 @@ image::cloud-connector-add-azure.png[,800]
 +
 NOTE: Fields marked with ***** are mandatory.
 //ToDo I assume
-// Formatting of "*" is correct like it is
+// Formatting of "*" is correct
 +
 image::cloud-connector-setup.png[,800]
 +

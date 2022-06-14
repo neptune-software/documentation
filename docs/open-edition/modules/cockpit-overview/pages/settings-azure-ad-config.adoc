@@ -1,0 +1,27 @@
+= Configure Azure AD authentication
+
+In this topic you learn how to set up an authentication via Azure AD. You have to accomplish different tasks to enable the connection.
+
+== Prerequisites
+
+* You have registered the _DXP Open Edition_ in your Azure AD.
+Find more information about how to register an app on Azure Portal https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[here].
+
+== Procedure
+=== Add a redirect URI
+. In the Azure Portal, go to *Authentication*.
+. In *Redirect URI* add one or more URIs. These URIs will be accepted as destinations when returning authentication responses (tokens) after authenticating users.
+
+NOTE: The redirect URI should have the following format:
+`https:// <Planet 9 URL>/public/azure_redirect.html`
+
+
+
+
+
+
+
+
+== Result
+
+== Related topics
