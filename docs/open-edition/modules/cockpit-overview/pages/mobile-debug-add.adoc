@@ -8,7 +8,7 @@ In this topic, you learn how to add and configure a mobile debugger.
 
 == Procedure
 
-. In the cockpit, go to *Administration* and click _Mobile Debug_.
+. In the Cockpit, go to *Administration* and click _Mobile Debug_.
 +
 *Result*: The list of existing debugging methods opens.
 . Click *Add*.

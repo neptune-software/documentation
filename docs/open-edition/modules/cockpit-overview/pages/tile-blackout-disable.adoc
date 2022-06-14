@@ -8,7 +8,7 @@ In this topic, you learn how to declare that a tile is not under maintenance any
 
 == Procedure
 
-. In the cockpit, go to *Administration* and click _Tile Blackout_.
+. In the Cockpit, go to *Administration* and click _Tile Blackout_.
 +
 *Result*: The list of all tiles in the system opens.
 . Click on the tile you want to continue running.

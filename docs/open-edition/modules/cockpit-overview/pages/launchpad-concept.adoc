@@ -34,7 +34,7 @@ image::launchpad_connected_objects.png[width=800]
 
 == User roles and user groups
 
-You can control access to specific launchpads, tiles, or tile groups by assigning roles to users or user groups.
+You can control access to launchpads, tiles, or tile groups by assigning roles to users or user groups.
 
 . Users or user groups are assigned a specific role.
 . Roles are assigned to a tile or a tile group.
@@ -46,8 +46,6 @@ image::lauchpad_conected_usergroup_role.png[width=800]
 
 A launchpad comes with an assignment mechanisms that connects objects to one another in different ways.
 
-Assign objects as follows:
-
 [%header, frame=sides, frame=ends]
 |===
 |Assignment task                      |Assign why               |Assign where
@@ -58,11 +56,11 @@ Assign objects as follows:
 
 |Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role     |Go to *Administration* > xref:tile-groups.adoc[Tile Groups].
 
-|Assign a tile and its intent to a tile group    |When users click the tile on the _Launchpad_, the intent resolves into a URL and navigates to the app     |Go to *Administration* > xref:tiles.adoc[Tiles].
+|Assign a tile and its intent to a tile group    |When users click the tile on the launchpad, the intent resolves into a URL and navigates to the app     |Go to *Administration* > xref:tiles.adoc[Tiles].
 |===
 
 == Related topics
-* xref:cockpit-overview:launchpad.adoc[]
+* xref:launchpad.adoc[]
 * xref:tile-groups.adoc[Tile Groups]
 * xref:tiles.adoc[Tiles]
 * xref:administration.adoc[]

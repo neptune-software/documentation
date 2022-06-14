@@ -8,7 +8,7 @@ In this topic, you learn how to add and configure a mobile client.
 
 == Procedure
 
-. In the cockpit, go to *Administration* and click _Mobile Client_.
+. In the Cockpit, go to *Administration* and click _Mobile Client_.
 +
 *Result*: The list of existing mobile clients open.
 . Click *Add*.
@@ -36,7 +36,7 @@ You can add Apache Cordova plugins to your mobile client. There are three ways t
 
 +Add:: An empty field opens. You can enter the name of the plugin.
 Add from Library:: A new window with the list of available Cordova plugins in the system library opens. Choose the plugin you want and click *Select*.
-Add from NPM:: A new window with the list of available Cordova plugins in the _NPM_ service opens. Choose the plugins you want and click *Select*.
+Add from NPM:: A new window with the list of available Cordova plugins from the _NPM_ service opens. Choose the plugins you want and click *Select*.
 
 You can click *Reset* to return to the default set of plugins that is recommended.
 

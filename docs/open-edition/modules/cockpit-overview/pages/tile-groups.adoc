@@ -6,19 +6,17 @@ You have to bundle tiles into tile groups to make them appear on the launchpad.
 Tiles can only appear on the launchpad if they are part of a tile group.
 
 == Role-based tile groups
-A user must have the same role as the tile group to see the group.
+A user must have the same role as the tile group to see it.
 You can assign one or more roles to each tile group.
 In this way, you do not need to assign a role to each tile.
 
 image::tile-group-role-tile.png[width=400]
 
-Users who are assigned to a role in a tile group have access to the applications of that tile group.
+Users who have assigned a role in a tile group have access to the applications of that tile group.
 They can also browse through a tile group library from their launchpad and select the applications that they want to display on the startpage of their launchpad.
 
 == Related topics
-* xref:tiles.adoc[Tiles]
-* xref:tile-add.adoc[]
 * xref:tilegroup-add.adoc[]
-* xref:tile-blackout.adoc[Tile blackout]
+* xref:tiles.adoc[Tiles]
 * xref:launchpad-concept.adoc[Launchpad]
 * xref:administration.adoc[]

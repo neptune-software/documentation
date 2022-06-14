@@ -13,9 +13,10 @@ In this topic, you learn how to add a new tile.
 *Result*: The list of existing tiles open.
 . Click *Add*.
 +
-*Result*: The settings of the new tile opens.
+*Result*: The settings of the new tile open.
 
 === General tab
+//Fabian@Helle: Not sure if to write "tab" in the title (and in all other titles here). It contradicts to the GUI but it is necessary to distinguish it from the "general" SECTION right below.
 . In the *General* section, you define the settings of the tile with regard to system internal processes. *Name* refers to the name the artifact has in the system.
 . In the *Information* section, you provide general information about your tile. The information given here are displayed on the tile on the launchpad.
 
@@ -28,9 +29,9 @@ In this topic, you learn how to add a new tile.
 . In the *Open Button* section, you define what text or which icon is displayed on the start button of the tile.
 
 === Action tab
-. In the *Action* section, you decide what basic type your tile is. Default is application.
-. In the *Remote System* section, you can configure a connection of your tile to another DXP - Open Edition or SAP Edition.
-. In the *Application* section, you define what application your tile should run. Choose a stored artifact from the _App Designer_ and define start parameters.
+. In the *Action* section, you decide what basic type your tile is. Default is `application`.
+. In the *Remote System* section, you can configure a connection of your tile to another instance of the DXP - Open Edition or SAP Edition.
+. In the *Application* section, you define what application(s) your tile should run. Choose a stored artifact from the _App Designer_ and define start parameters.
 . In the *How to open* section, you decide how your tile opens when started.
 
 === Sidepanel tab
@@ -38,14 +39,14 @@ In the *Sidepanel* section, you choose an application that is displayed on the s
 
 === Navigation tab
 . In the *Navigation* section, you can define semantic objects and actions that are performed on these objects. Semantic objects can be business entitys, for example, `customer` or `employee`.
-. In the *Limit Browser Support* section, you can select specific browser that should be supported.
+. In the *Limit Browser Support* section, you can select specific browsers that should be supported.
 
 === Documentation tab
 . In the *Documentation* section, you can enable documentation for this tile that has been created in the _Documentation_ service.
 . In the *Tile Help* section, you can enable and write documentation specifically for your tile.
 
 === Role tab
-In the Role tab, you can specify that your tile should only be visible to user with a specific role.
+In the Role tab, you can specify that your tile should only be visible to users with a specific role.
 
 === Translation tab
 In the translation tab, you can add a translation for the title, subtitle, description, status, and open button in a language of your choice.

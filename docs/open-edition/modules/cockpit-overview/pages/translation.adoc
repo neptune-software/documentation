@@ -1,7 +1,7 @@
 = image:translation.png[width=100] Translation
 
 You can translate different parts of tiles and tile groups in _Translation_.
-You have to choose the corresponding language in the launchpad to enable it for translation.
+You have to choose the corresponding language in the launchpad to be able to translate it in that language.
 You can translate components of tiles and tile groups manually or use the Google Translator.
 
 == Related topics

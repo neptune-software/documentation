@@ -8,7 +8,7 @@ In this topic, you learn how to add and configure a new tile group.
 
 == Procedure
 
-. In the cockpit, go to *Administration* and click _Tile Group_.
+. In the Cockpit, go to *Administration* and click _Tile Group_.
 +
 *Result*: The list of existing tile groups open.
 . Click *Add*.
@@ -16,13 +16,14 @@ In this topic, you learn how to add and configure a new tile group.
 *Result*: The settings of your new tile group opens.
 
 === General tab
+//Fabian@Helle: Same question here about "tab" in the title.
 . In the *General* section, you define the settings of the tile group with regard to system internal processes. *Name* refers to the name the artifact has in the system.
 . In the *Information* section, you provide general information about your tile group. The information given here are displayed on the tile group on the launchpad.
 . In the *Message* section, you can write a message of a certain information type that is shown to the user on the launchpad above your tile group.
 
 === Layout tab
-. In the *Tiles Layout* section, you can configure the arrangement and general layout of tiles inside the tile group on the launchpad.
-. In the *Tile Group Layout* section, you can configure the general layout of tile groups on the launchpad.
+. In the *Tiles Layout* section, you can configure the arrangement and general layout of tiles inside your tile group on the launchpad.
+. In the *Tile Group Layout* section, you can configure the general layout of your tile group on the launchpad.
 . In the *Tile Group Header* section, you can configure the layout of the tile group header.
 . In the sections *Desktop*, *Tablet*, and *Mobile*, you can specify the layout of the tile group depending on the output medium.
 
@@ -52,7 +53,7 @@ In the *Tile group* tab, you can add child tile groups to your new tile group. T
 You can drag and drop tile groups to change the order in which they are displayed on the launchpad.
 
 === Translation tab
-In the *Translation* tab, you can give a translation for the title and the subtitle of your tile group in a chosen language. This translation is only displayed when the user chooses this language on the launchpad.
+In the *Translation* tab, you can provide a translation for the title and subtitle of your tile group in a chosen language. This translation is only displayed when the user chooses this language on the launchpad.
 
 * Click *Save* when you finished editing.
 

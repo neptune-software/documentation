@@ -1,8 +1,7 @@
 = Administration
 
-In the *Administration* service group, you can manage services related to the launchpad and tiles.
+In the *Administration* service group, you manage services related to the launchpad, tiles, and tile groups.
 
-//https://community.neptune-software.com/documentation/application
 
 * xref:administration-appmanagement.adoc[Application Management]
 * xref:tiles.adoc[Tiles]
@@ -10,9 +9,14 @@ In the *Administration* service group, you can manage services related to the la
 * xref:tile-groups.adoc[Tile Groups]
 * xref:launchpad-concept.adoc[Launchpad]
 ** xref:launchpad.adoc[]
-** xref:launchpad-assign-objects.adoc[]
 * xref:tile-blackout.adoc[Tile blackout]
+** xref:tile-blackout-enable.adoc[]
+** xref:tile-blackout-disable.adoc[]
 * xref:mobile-client.adoc[Mobile client]
+** xref:mobile-client-add.adoc[]
 * xref:mobile-debug.adoc[Mobile Debugger]
+** xref:mobile-debug-add.adoc[]
 * xref:favourite-management.adoc[Favourite Management]
+** xref:favorite-add.adoc[]
 * xref:translation.adoc[Translation]
+** xref:translation-add.adoc[]

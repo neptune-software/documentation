@@ -1,9 +1,9 @@
 = image:tile-icon.png[width=100] Tiles
 
-A tile is a container that represents an application on the launchpad. With _Tiles_, you can create, assign, and maintain tiles.
-
-All applications on the launchpad have at least one corresponding tile. As tiles are used to display and launch apps on the launchpad, they should only be used there and nowhere else.
-You can bundle tiles in tile groups.
+A tile is a container that represents an application on the launchpad.
+With _Tiles_, you can create, assign, and maintain tiles.
+All applications on the launchpad have at least one corresponding tile.
+To be displayed on the launchpad, tiles must be grouped in tile groups.
 
 Depending on the application, a tile can show the following content:
 
@@ -14,24 +14,22 @@ Depending on the application, a tile can show the following content:
 * Charts
 * Links
 
-The following picture shows an example of a launchpad with tiles.
+The following image shows an example of a launchpad with tiles.
 
 image::tiles_example3.png[width=400]
 
 Below the tile area, tiles can include a link.
 Links consist of a title and an optional subtitle.
-Most tile types can be converted to links.
-Links can be converted to tiles at any time.
+Most tile types can be converted to links while links can be converted to tiles at any time.
 Users can personalize their launchpad by selecting the tiles for the applications they want to use from the store.
 
 == Responsiveness
 The number of tiles that a launchpad shows depends on the screen resolution.
 If tiles in a group do not fit next to each other, the launchpad moves them to the next row.
-Tiles also appear smaller on smartphones.
 
 Tiles are not responsive.
-For smartphones, Neptune provides a different tile size.
-The _Launchpad_ automatically renders the tile size for smartphones.
+For mobile devices, Neptune provides a different tile size.
+The _Launchpad_ automatically renders the tile size for mobile devices.
 Tiles for smartphones do not need to be adjusted by the application.
 The tile size for tablets and desktop devices is the same.
 
@@ -39,12 +37,9 @@ The example below shows how the tiles rendered for smaller screen size.
 
 image::tiles_example2.png[width=400]
 
-== Tile blackout
-You can block tiles from being used during maintenance.
-
 == Related topics
+* xref:tile-add.adoc[]
 * xref:tile-groups.adoc[Tile Groups]
 * xref:launchpad-concept.adoc[Launchpad]
-* xref:tile-blackout.adoc[Tile blackout]
-* xref:tile-add.adoc[]
+* xref:store.adoc[]
 * xref:administration.adoc[]
