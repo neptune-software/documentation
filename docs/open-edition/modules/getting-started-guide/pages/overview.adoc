@@ -1,28 +1,18 @@
 =  Neptune DXP - Open Edition
-//Fabian@Helle: Ich habe das Topic in mehrere Untertopics aufgesplittet, da es ziemlich lang war
 
-////
+== Main services and components
 
-- was genau will man aussagen? Als Einführung für Neueinsteiger?
-- den UI5-Kram unten löschen? Oder ausgliedern?
--
-////
-
-//Helle: Ich bin insgesamt unzufrieden mit dem Topic. Es ist dazu da, Neueinsteigern bei der großen Auswahl an Services einen Überblick über die essenziellen Services zu verschaffen. Vorschlag: ersetzen durch Links zu den Service Doku und einer Beschreibung, wie die Services zusammenspielen? Die Inhalte, die hier zu den Services stehen, sollten in der Service Doku sein und nicht doppelt gepflegt werden, oder?
-
-== Main components
-//Helle: main services?
 The Neptune DXP - Open Edition comprises the following main components:
 
 * _Launchpad_
 * _App Designer_
 * _API Designer_
-* _Workflow Engine_
 * _Script Editor_
-* _Application Building Blocks_
-//Helle: not a service. Either name service (store) or don't mark as service
 * _Adaptive Designer_
+* _Workflow_
+* _Application Building Blocks_
 
+//TODO: Insert image for process overview when available.
 
 === Launchpad
 The _Launchpad_ is a shell that hosts applications and provides these applications with services, such as navigation, personalization, and embedded support.
@@ -40,6 +30,8 @@ The _Launchpad_ can host the following applications, which can run in parallel:
 * React applications
 * SAP WebDynpro applications
 
+For more information, see xref:cockpit-overview:launchpad-concept.adoc[Launchpad].
+
 === App Designer
 Use the _App Designer_ to create HTML5-based applications.
 
@@ -50,12 +42,25 @@ Use the _App Designer_ to create HTML5-based applications.
 * Application building blocks speed up development by combining modular groups of elements.
 * Offers a built-in version management. A UI sample library review enables the testing of interfaces and functionalities before implementation.
 
+For more information, see xref:cockpit-overview:app-designer.adoc[App Designer].
+
 === API Designer
 With the _API Designer_, you create and configure reusable API definitions.
 
 * Comes with a graphical user interface.
 * Enables you to create API operations manually, import them from another Open Edition, or a Swagger 2.0 file.
 * Generates APIs for tables within the Neptune DX Platform.
+
+For more information, see xref:cockpit-overview:app-designer.adoc[API Designer].
+
+=== Script Editor
+With the _Script Editor_, you create server-side scripts that run in their own separate process on the server.
+You can use APIs, tables, global scripts, and NPM modules.
+Scripts are used to extend your instance beyond standard configurations.
+
+With a script, you can automate processes, add functionalities, and integrate your instance with outside applications.
+
+For more information, see xref:cockpit-overview:script-editor.adoc[Script Editor].
 
 === Workflow
 With workflows, you design, build, run, and manage workflows, starting from simple approvals to entire end-to-end processes that span across different organizations and applications.
@@ -64,12 +69,7 @@ Workflows facilitates and automates processes that require tasks to be performed
 Each step of a transaction can be easily monitored.
 Processes are completed from the beginning to the end.
 
-=== Script Editor
-With the _Script Editor_, you create server-side scripts that run in their own separate process on the server.
-You can use APIs, tables, global scripts, and NPM modules.
-Scripts are used to extend your instance beyond standard configurations.
-
-With a script, you can automate processes, add functionalities, and integrate your instance with outside applications.
+For more information, see xref:cockpit-overview:workflow.adoc[Workflow].
 
 === Application Building Blocks
 Application building blocks are modular and reusable development components that vary in size from small code snippets and connectors to larger groups of user interface components and entire application templates.
@@ -79,4 +79,3 @@ Neptune provides a library of these application building blocks. You can downloa
 == Related topics
 * xref:overview-runtime.adoc[]
 * xref:overview-comparing.adoc[]
-* xref:overview-openui5.adoc[]

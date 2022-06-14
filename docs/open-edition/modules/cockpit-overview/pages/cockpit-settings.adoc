@@ -22,42 +22,22 @@ Available sizes are 12-18 px.
 
 Font Family:: Only available in editors.
 Enter a font family.
-
-Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line.
-
-////
-Old version vor context
-Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line. Available properties are: `Off`, `On`, `Word wrap column`, `Bounded`.
-//TODO: What does that do?
-////
-
-//Helle@Fabian: Did some testing: WWC has a fixed width. When active, text will only wrap when outside that width. If the editor pane width is smaller than WWC width it still wraps according to WWC width (-> text outside screen). Bounded does. So bounded seems to be a combination of On and WWC: Bounded wraps according to fixed width but if fixed width > pane width, bounded wraps according to pane width.
-// --> Off: no wrap, On: wrap depending on pane width, WWC: wrap depending on fixed column width, Bounded: wrap depending on pane width and column width, while pane width overrides column width if column width > pane width
-
 Font Ligature:: Check or uncheck to enable ligatures in text.
 
-Show Folding Controls:: Check or uncheck to make the folding controls visible all the time or only when you do a mouse over.
+Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line. Available properties are:
+* `Off`: There is no word wrap. The scroll bar adjusts to your screen size.
+* `On`: There is no scroll bar. Wrap depends on the pane width.
+* `Word wrap column`: There is a fixed width. If the length of the text exceed your screen size, a scroll bar appears.
+* `Bounded`: There is the same width as with `Word wrap column` but the text wraps when the pane width of your screen size fall below this width.
 
-////
-Helle@Fabian: Learned a few things about these options. Maybe it's worth documenting after all?
+Show Folding Controls:: Decide how you want to see folding controls for code sections, for example, for loops or if statements.`Always` shows them permanently, `Mouse over` shows them only when hovering over the gap between line numbers and code.
 
-Show Folding Controls:: Available properties are: `Mouse Over`, `Always`
-//TODO: What does that do?
-//Helle: Decide how you want to see folding controls for code sections, for example, for loops or if statements.`Always` shows them permanently, `Mouse over` shows them only when hovering over the gap between line numbers and code.
+Scroll Beyond Last Line:: Activate to enable scrolling beyond the last line of code, without empty lines. This only applies when the code is longer than the pane length.
 
-Scroll Beyond Last Line:: Check or uncheck.
-//TODO: What does that do?
-//Helle: Activate to enable scrolling beyond the last line of code (without empty lines). (Only applies when code is longer than pane length)
-
-Enable Minimap:: Check or uncheck.
-//TODO: What does that do?
-//Helle: Activate to show a minimap of the code in the script editing pane. Use minimap to see where you are in code. (I guess, visual help when working on long code blocks.
+Enable Minimap:: Activate to show a miniature version of the code in the script editing pane. Use the minimap to see where you are in the code.
 
 Format On Paste:: Check or uncheck.
-//TODO: What does that do?
 
 Format on Type:: Check or uncheck.
-//TODO: What does that do?
-////
 
 Change Password:: Click to open a new dialog where you can set a new password.

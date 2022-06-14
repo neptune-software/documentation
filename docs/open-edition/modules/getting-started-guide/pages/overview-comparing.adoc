@@ -1,6 +1,8 @@
 = Comparing Open Edition and SAP Edition
+//TODO: Shift this topic one level higher to a more general overview of the DXP-Editions (when it is available)
 
 Open Edition and SAP Edition are the two major product versions Neptune offers.
+You can exchange artifacts from services that are used in both editions.
 
 == Hosting
 The SAP Edition uses ABAP Runtime ICF node as the runtime environment.
@@ -11,20 +13,18 @@ The SAP Edition is embedded within the SAP system and runs within the NetWeaver 
 The Open Edition can be hosted on multiple platforms, for example, Oracle, AWS, or Azure.
 The Open Edition is as easy to deploy as a docker container with Cloud Foundry.
 
-== Components
+== Services and components
 Even though the Open Edition and the SAP Edition use different foundations, they share a number of similar components:
 
 * _Launchpad_
 * _App Designer_
 * _Application building blocks_
-//not a service?
 
 The Open Edition comes with the following additional applications:
 
 * _API Designer_
 * _Script Editor_
 * _Workflow_
-//TODO Neptune: We got that from the old documentation. Is this still up to date?
 
 The SAP Edition additionally offers API Factory, which makes it possible to automate the REST API generation of the following SAP artifacts:
 
@@ -33,10 +33,7 @@ The SAP Edition additionally offers API Factory, which makes it possible to auto
 * BAPIs
 * ALV standard and custom reports
 
-//Helle: needed here? If I'm using Open Edition, why should I care for SAP artifacts?
-//Helle: Add that you can send artifacts from one edition to the other?
 
 == Related topics
 * xref:overview.adoc[]
 * xref:overview-runtime.adoc[]
-* xref:overview-openui5.adoc[]
