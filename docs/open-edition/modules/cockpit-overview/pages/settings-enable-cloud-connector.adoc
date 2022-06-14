@@ -12,7 +12,7 @@
 //ToDo Are there other methods to choose from or is it just 'Azure Relay'?
 +
 image::cloud-connector-add-azure.png[,800]
-*Result*: The Cloud Connector window opens.
+*Result*: The _Cloud Connector_ window opens.
 . Enter the required information to configure _Cloud Connector_ in your DXP Open Edition.
 +
 NOTE: Fields marked with ***** are mandatory.
@@ -21,7 +21,7 @@ NOTE: Fields marked with ***** are mandatory.
 +
 image::cloud-connector-setup.png[,800]
 +
-. Click *Active* to activate Cloud Connector.
+. Click *Active* to activate _Cloud Connector_.
 +
 NOTE: At this point, Neptune provides an Azure Relay namespace for your account.
 +

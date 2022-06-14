@@ -36,7 +36,7 @@ Check it to enable the auto-completion features when you use _App Editor_.
 
 === Login
 
-Disable Local authentication:: Check to disable the local authentication option from the Login options.
+Disable Local authentication:: Check to disable the local authentication option from the login options.
 For example, if you want to use JWT authentication as default then disable local authentication. In *Default login url* enter the login URL that is mentioned in defining JWT authentication.
 //todo check JWT authentication process
 
@@ -47,8 +47,9 @@ Select the error notifications you want to receive from various system component
 === Firebase - Push Notification
 
 Firebase Cloud Messaging (FCM) is used to deliver push notifications to Android devices, Google Chrome and Mozilla web browsers.
-With FCM credentials, you can set up the Web Push Notification service for your site. The API keys that you enter here are stored securely and are used by the Web Push Notifications service to connect to the FCM server.
-The *Message Sender ID* (project number) you enter is used by the Android SDK and JS SDK for Google Chrome and Mozilla Firefox on client side.
+With FCM credentials, you can set up the Web Push Notification service for your site.
+The API keys that you enter here are stored securely and are used by the Web Push Notifications service to connect to the FCM server.
+The *Message Sender ID* (project number) you enter here, is used by the Android SDK and JS SDK for Google Chrome and Mozilla Firefox on client side.
 
 == Security
 
@@ -64,10 +65,10 @@ In the following sections you can enter URLs to whitelists for *Proxy*, *CORS*, 
 == License
 To activate your license, enter the license key that you received from Neptune. All fields will be filled in automatically.
 
-Allow Anonymous access:
+Allow Anonymous access::
 Check to enable launchpad anonymous access. You also must check *Enable Anonymous access* in the Launchpad settings.
 
-NOTE: If you cannot enable anonymous access, contact the Neptune sales department for a new license to enable anonymous access .
+NOTE: If you cannot enable anonymous access, contact the Neptune sales department for a new license to enable anonymous access.
 
 == E-Mail functionality
 To get notification e-mails, make the following entries.
