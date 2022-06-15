@@ -1,25 +1,64 @@
 = Configure Azure AD authentication
 
-In this topic you learn how to set up an authentication via Azure AD. You have to accomplish different tasks to enable the connection.
+In this topic you learn how to set up an authentication via Azure AD and how to configure it in your cockpit. You have to accomplish different tasks to enable the connection.
 
 == Prerequisites
 
-* You have registered the _DXP Open Edition_ in your Azure AD.
-Find more information about how to register an app on Azure Portal https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[here].
+* You have registered the _DXP - Open Edition_ in your Azure AD.
+Find more information about how to register an app on https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[microsoft.com].
+* You have created a xref:security-certificates-generate.adoc[self-signed certificate].
 
 == Procedure
 === Add a redirect URI
 . In the Azure Portal, go to *Authentication*.
 . In *Redirect URI* add one or more URIs. These URIs will be accepted as destinations when returning authentication responses (tokens) after authenticating users.
++
+[NOTE]
+====
+The redirect URI must have the following format:
 
-NOTE: The redirect URI should have the following format:
-`https:// <Planet 9 URL>/public/azure_redirect.html`
+`\https://<Planet 9 URL>/public/azure_redirect.html`
+
+For example
+
+`\https://planet9explored.neptune-software.com:8081/public/redirect.html`
+====
+// Replace Planet 9 with something else?
+//ToDo rethink formatting
++
+image::settings-azure-add-uri.png[,800]
 
 
+=== Add a certificate and get a password
 
+. In the Azure Portal, go to *Certificates & secrets*.
+. Click *Upload certificates* to upload the self-signed certificate you created in the _DXP - Open Edition_ Cockpit.
+. Click *New client secret* to generate an application password. Copy this password and save it for later use.
++
+image::settings-add-certificate.png[,800]
 
+=== Add API Permissions
+. In the Azure Portal, go to *API permissions*.
+. Click *Add a permission* to configure a permission.
+// Input needed
++
+image::settings-set-api-permission.png[,800]
+//ToDo make sure that the shown azure ad gui is up to date
 
+== Add Azure AD authentication provider in the DXP Open Edition
 
+. In the cockpit, go to *Settings*, and click *System Settings*.
+. Click the *Authentication* tab.
++
+NOTE
+====
+Hoer geht's weiter
+
+add image
+result
+====
++
+Add new authentication by selecting authentication type : Azure AD
 
 
 == Result
