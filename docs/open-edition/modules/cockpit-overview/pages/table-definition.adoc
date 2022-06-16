@@ -18,7 +18,7 @@ Neptune DXP - Open Edition supports both unique and foreign keys, and the use of
 When you create a table definition, you can add foreign keys from other table definitions and mark individual columns as `Unique` if you want to disallow duplicate values in that column.
 
 When you create a table definition, you can add indices to individual columns.
-Assigning indices to columns makes searching for data records in that column faster when you work with large tables.
+When you work with large tables, assigning indices to columns makes searching for data records in that column faster.
 
 == Related topics
 * xref:table-definition-create.adoc[]

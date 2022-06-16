@@ -1,90 +1,15 @@
 = Create a database table in Table Definition and Table Browser
 
-In this topic, you learn how to create a database table and fill it with data.
+In this guide, you learn how to create a table definition for a database table and how to fill it with data manually.
 
-== Prerequisites
-* There are no prerequisites.
 
-== Procedure
+This guide consists of the following steps:
 
-NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
-
-=== Step 1: Create a new database table in _Table Definition_
-//Fabian@Helle: I wouldn't number the steps in the heading.
-. Open the Cockpit of Neptune DXP - Open Edition.
-. Go to *Tools* and click *Table Definition*.
-. Click *Add* to create a new database table.
-+
-*Result*: The Table Definition configuration dialog opens. You start in the General tab.
-. In *Name*, enter a meaningful name that describes the data you will add to the table, for example, `clonetroopers`.
-. In *Description*, add additional information. This information is displayed in the _Table Browser_.
-. If you created a package for your APIs, applications, oData, and mock data before, select the package from the *Package* drop-down menu.
-//todo helle. Enable Table Audit, added when consequences are clear
-. Click *Save*.
-+
-*Result*: You have added an empty database table. You now can see a number in *ID*.
-
-=== Step 2: Add properties to the database table
-//s.o., no numbering
-
-. Navigate to the *Properties* tab.
-. Click *+ Add* to add a new column to the table.
-. Enter a column name to each column, for example, `name`, `number`, `rank`, and `squad`.
-
-. In *Type*, select a data type for the column.
-//todo Helle: write reference topic on data types and add link here.
-. You can enter a *Description* and *Default value*.
-//Helle@Neptune: Where does Description appear?
-//Neptune@Helle: The description only appears in the table definition
-//todo helle: check
-. For columns that can only have unique values, activate *Unique*.
-. For columns that can have no value, activate *Nullable*.
-+
-image::tabledefinition-properties.png[width=800]
-+
-*Result*: You have added properties to the database table.
-
-=== Step 3: Add data to the database table in _Table Browser_
-//Fabian@Helle: I would put this section into a new topic as it deals with a new tile (and the topic is becoming too long)
-
-. Open the Cockpit of your Neptune DXP - Open Edition.
-. Go to *Tools* and click *Table Definition*.
-+
-*Result*: The _Table Browser_ opens. You see a list of all table definitions sorted by name.
-+
-[TIP]
-====
-You can hide all table definitions created by others to find your table definition easier. To do that, change the *Updated By* filter to *Me*.
-
-image::updated-by-me.png[width=200]
-
-====
-. Click on your table definition.
-+
-*Result*: You see the properties you added to your database table.
-
-. Check all rows you want to add data to and click *Run*.
-+
-image::tablebrowser-run.png[width=800]
-
-. Click *Edit* to activate edit mode.
-+
-*Result*: A new toolbar appears.
-
-. On the toolbar, click *Add* to add rows to your table.
-. Enter data to all rows, for example, a *name*, *number*, *rank*, and *squad* for each row.
-. Click *Save* and *Display* to exit edit mode.
-+
-image::tablebrowser-sampledata.png[width=600]
-
-== Results
-
-* You have created a database table in _Table Definition_.
-* You have added data to the database table in _Table Browser_.
+* xref:table-definition-configure.adoc[]
+* xref:table-definition-add-properties.adoc[]
+* xref:table-browser-add-data.adoc[]
 
 == Related topics
 
-//Todo: Helle *xref Table Definition concept topic
-//Todo: Helle *xref Table Browser concept topic
-* xref:api-designer.adoc[_API Designer_]
-* xref:api-designer-create.adoc[Create a table definition API in the _API Designer_]
+* xref:table-definition.adoc[Table Definition]
+* xref:table-browser.adoc[Table Browser]

@@ -4,3 +4,8 @@ With _Table Browser_, you can view and maintain data of database tables.
 The _Table Browser_ service shows both publicly available database tables and those you created with _Table Definition_.
 
 You can open a database table, view its metadata and add, edit, or delete data records.
+In your database, you can run a number of columns to test your definition and see data records.
+
+== Related topics
+* xref:table-browser-add-data.adoc[Add data records with Table Browser]
+* xref:table-definition.adoc[Table Definition]

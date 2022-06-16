@@ -1,0 +1,26 @@
+= Add a foreign key to a database table
+
+//@Fabian: step does not really belong to complex task. Like, it's not needed. I linked to complex task prereq, but I'm not sure where to put it in nav later. Open for ideas. :D
+
+Intro
+
+== Prerequisites
+
+* xref:table-definition-configure.adoc[]
+* xref:table-definition-add-properties.adoc[]
+
+== Procedure
+
+in properties, click Foreign Keys
++ Add Foreign Key
+select other table
+dropdown in toolbar, select column from current table
++ Add Column
+in Referenced Columns, select column from other table you want to link to
+click apply
+
+== Result
+
+added foreign key
+see number of foreign key added in toolbar
+

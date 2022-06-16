@@ -1,0 +1,35 @@
+= Add properties to a table definition
+
+Learn how to add properties to your database table and make custom settings.
+
+== Prerequisites
+
+* You have xref:table-definition-configure.adoc[configured a table definition].
+
+== Procedure
+
+. Navigate to the *Properties* tab.
+. Click *+ Add* to add a new column to the table.
+. Enter a column name to each column, for example, `name`, `number`, `rank`, and `squad`.
+. In *Type*, select a data type for the column.
+//todo Helle: write reference topic on data types and add link here.
+. You can enter a *Description* and *Default value*.
+. For columns that can only have unique values, activate *Unique*.
+. For columns that can have no value, activate *Nullable*.
+
+If you used the example data in this topic, your properties look like this:
+
+image::tabledefinition-properties.png[width=800]
+
+== Results
+
+* You have added properties to your database table.
+
+== Next steps
+
+* xref:table-browser-add-data.adoc[]
+
+== Related topics
+
+* xref:table-definition-create.adoc[]
+* xref:table-definition.adoc[Table Definition]
