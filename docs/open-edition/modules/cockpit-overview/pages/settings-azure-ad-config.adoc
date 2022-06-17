@@ -1,3 +1,4 @@
+//Do not review now, work still in progress, Fabian!
 = Configure Azure AD authentication
 
 In this topic you learn how to set up an authentication via Azure AD and how to configure it in your cockpit. You have to accomplish different tasks to enable the connection.
