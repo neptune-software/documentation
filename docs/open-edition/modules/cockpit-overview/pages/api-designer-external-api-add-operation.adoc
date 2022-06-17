@@ -12,7 +12,7 @@ include::ROOT:partial$api-operation-description.adoc[]
 +
 image:api-designer-add-operation.png[width=400]
 
-. In *Path*, enter a slash and the name of an end path fo the external API, for example, `/planets`.
+. In *Path*, enter a slash and the name of an end path for the external API, for example, `/planets`.
 . In *Method*, select a method from the list, for example `GET`:
 +
 --
@@ -20,6 +20,7 @@ include::partial$api-methods.adoc[]
 --
 . In *Endpoint Override*, you can define a new endpoint that overrides the system's endpoint.
 . In *Restrict Access*, you can define which role or roles can access the API.
+//There are no roles available when I tried to choose one. What do I have to do for them to show up?
 . Enter a short *Summary* and a longer *Description* to provide context information about the operation.
 . In *Tags*, enter keywords that describe the resource, for example, `clones`.
 . Activate any of the following:

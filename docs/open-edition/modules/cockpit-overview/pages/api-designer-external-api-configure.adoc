@@ -1,16 +1,20 @@
 = Configure an external API
+//Title does not match the content, see topic before
 
-In this topic, you learn how to configure an API to communicate with an API outside Neptune DXP - Open Edition.
+In this topic, you learn how to configure an API to communicate with an API outside DXP - Open Edition.
+
+//Prerequisites section missing. Should always be included, even if there are no prerequisites
 
 == Procedure
 
 NOTE: In this procedure we use sample data from the Star Wars universe.
 You can exchange our data with your data in the procedure.
 
-. On the Cockpit, go to *Connectivity* and click _API Designer_.
-. On the _API Designer_, click *Add*.
+. In the Cockpit, go to *Connectivity* and click _API Designer_.
+. In the _API Designer_, click *Add*.
 +
 *Result*: The API configuration dialog opens.
+//Not a "dialog" according to our terminology list but a "window".
 You start in the *General* tab.
 +
 . In *Type*, select *External*.
@@ -23,7 +27,7 @@ You start in the *General* tab.
 +
 IMPORTANT: Do not put a slash `/` at the end of the endpoint.
 
-. In *Media Type*, define the type of content of your api. This is needed to communicate with your browser. By default, it is `application/json`.
+. In *Media Type*, define the type of content of your API. This is needed to communicate with your browser. By default, it is `application/json`.
 
 . Activate any of the following options that fit your application:
 +
@@ -40,6 +44,7 @@ The _API Designer_ adds an ID to your API and saves change dates.
 
 * Your API is saved with the current settings and is added to the library in the _API Designer_.
 * The _API Designer_ adds an ID to your API and saves change dates.
+//Do not repeat step results here. Have them at one place only.
 
 == Next steps
 

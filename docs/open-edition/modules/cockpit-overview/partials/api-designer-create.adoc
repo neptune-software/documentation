@@ -1,4 +1,4 @@
-* Allow Untrusted Certificates: Allow self-signed certificates that were added in Authentication.
+* Allow Untrusted Certificates: Allow self-signed certificates that were added in _Authentication_.
 //Todo:xref::authentication.adoc[]
 
 // tag::script[]
