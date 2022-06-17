@@ -7,7 +7,7 @@ In this topic you learn how to set up an authentication via Azure AD and how to 
 * You have registered the _DXP - Open Edition_ in your Azure AD.
 Find more information about how to register an app on https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[microsoft.com].
 * You have created a xref:security-certificates-generate.adoc[self-signed certificate].
-
+//links into another repository
 == Procedure
 === Add a redirect URI
 . In the Azure Portal, go to *Authentication*.

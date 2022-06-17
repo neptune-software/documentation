@@ -3,9 +3,8 @@
 In _System Settings_, you make the basic settings that are required to run the system.
 Perform the following tasks that are described for each section.
 
-Changes will be applied after you restart the system.
+NOTE: Changes will be applied after you restart the system.
 
-image::system-settings-general.png[,800]
 == General
 In the *General* tab, you execute the following tasks:
 
@@ -15,6 +14,8 @@ In the *General* tab, you execute the following tasks:
 * Enable Firebase Push Notifications
 
 === General
+
+image::system-settings-general.png[,800]
 Name:: Enter the name for your system.
 Description:: Enter a short description of your system.
 
@@ -49,7 +50,7 @@ Select the error notifications you want to receive from various system component
 Firebase Cloud Messaging (FCM) is used to deliver push notifications to Android devices, Google Chrome and Mozilla web browsers.
 With FCM credentials, you can set up the Web Push Notification service for your site.
 The API keys that you enter here are stored securely and are used by the Web Push Notifications service to connect to the FCM server.
-The *Message Sender ID* (project number) you enter here, is used by the Android SDK and JS SDK for Google Chrome and Mozilla Firefox on client side.
+The *Message Sender ID* (project number) that you enter here, is used by the Android SDK and JS SDK for Google Chrome and Mozilla Firefox on client side.
 
 == Security
 
@@ -63,12 +64,12 @@ Cookie attribute SameSite value:: Select the cookie type.
 In the following sections you can enter URLs to whitelists for *Proxy*, *CORS*, and *CSP*.
 
 == License
-To activate your license, enter the license key that you received from Neptune. All fields will be filled in automatically.
+To activate your license, enter the license key that you received from Neptune. After you have entered the license key, all fields will be filled in automatically.
 
 Allow Anonymous access::
-Check to enable launchpad anonymous access. You also must check *Enable Anonymous access* in the Launchpad settings.
+Check to enable Launchpad anonymous access. You also must check *Enable Anonymous access* in the Launchpad settings.
 
-NOTE: If you cannot enable anonymous access, contact the Neptune sales department for a new license to enable anonymous access.
+NOTE: If you cannot enable anonymous access, contact the Neptune sales department for a new license.
 
 == E-Mail functionality
 To get notification e-mails, make the following entries.
@@ -101,11 +102,11 @@ Select an authentication protocol and configure it.
 
 == Cloud Connector
 You can install _Cloud connector_ to establish a secure connection from your network to the _Neptune DXP - Open Edition_.
-When you enable _Cloud Connector_, _DXP Cloud_ provides a dedicated Azure Relay namespace for your account.
+When you enable _Cloud Connector_, _DXP - Open Edition_ provides a dedicated Azure Relay namespace for your account.
 
-Via _:DXP Cloud_, Neptune Software offers an easy way to use Azure Relay hybrid connections.
+Via _:DXP - Open Edition_, Neptune Software offers an easy way to use Azure Relay hybrid connections.
 
-For the Azure Relay namespace you receive from _DXP Cloud_ you can create one or more hybrid connections.
+For the Azure Relay namespace you have received you can create one or more hybrid connections.
 For each hybrid connection you have to configure the following attributes:
 *Namespace*, *Hybrid Connection Name*, *Shared Access Policy Name*, and *Shared Access Policy Key*.
 
@@ -116,6 +117,7 @@ You should use Azure Relay hybrid connections via _DXP Cloud_ when at least one 
 * You are already a paying customer of _DXP Cloud_ and you prefer to receive the billing from Neptune Software and not from Microsoft.
 
 If you have specific requirements for the configuration and the set-up of secure connections, you should not use Azure Relay hybrid connections via _DXP Cloud_.
+// ToDo check process with Hendrik again
 
 == Related Topics
 * xref:settings-enable-cloud-connector.adoc[]
