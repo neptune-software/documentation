@@ -8,6 +8,8 @@ Learn how to add properties to your database table and make custom settings.
 
 == Procedure
 
+. In the Cockpit, go to Tools and click *Table Definition*.
+. Open your database table.
 . Navigate to the *Properties* tab.
 . Click *+ Add* to add a new column to the table.
 . Enter a column name to each column, for example, `name`, `number`, `rank`, and `squad`.
