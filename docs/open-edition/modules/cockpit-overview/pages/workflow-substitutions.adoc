@@ -1,0 +1,10 @@
+= image:workflow-substitution.png[width=100] Substitutions
+
+With _Substitutions_, you can create a substitution for an approver. This is used, if an approver of a workflow is temporarily unavailable.
+
+== Related topics
+
+* xref:workflow.adoc[]
+* xref:workflow-substitutions-add.adoc[]
+* xref:workflow-substitutions-edit.adoc[]
+* xref:workflow-substitutions-delete.adoc[]
