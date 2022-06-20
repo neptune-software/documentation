@@ -6,10 +6,9 @@ A table definition contains a table schema definition and metadata describing th
 Metadata are, for example, data types and data properties.
 You can add new table definitions or import them from outside Neptune DXP.
 
-After you created a table definition, you can use the _API Designer_ to create a table definition API.
+After you created a table definition, you can use the _Table Browser_ to add data, or the _API Designer_ to create a table definition API.
 With the table definition API, you can integrate data from the table into an application and use API methods to interact with it.
 
-//connection to table browser
 == Keys and indices
 
 Neptune DXP - Open Edition supports both unique and foreign keys, and the use of indices in database tables.
@@ -22,5 +21,5 @@ When you work with large tables, assigning indices to columns makes searching fo
 
 == Related topics
 * xref:table-definition-create.adoc[]
-//* xref: add foreign keys
-//* xref: use indices
+* xref:table-browser.adoc[Table Browser]
+* xref:api-designer.adoc[API Designer]

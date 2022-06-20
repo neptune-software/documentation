@@ -1,8 +1,11 @@
 = Add a foreign key to a database table
 
-//@Fabian: step does not really belong to complex task. Like, it's not needed. I linked to complex task prereq, but I'm not sure where to put it in nav later. Open for ideas. :D
+//@Fabian: step does not really belong to complex task, it's optional. I linked to complex task prereq and put next steps here, but I'm not sure where to put it in nav later. Open for ideas. :D
+//So general question would be, where to optional tasks. Will put it on agenda.
 
-Intro
+Learn how to integrate a key to your database table from another database table.
+
+You add foreign keys to link multiple database tables by using a shared key.
 
 == Prerequisites
 
@@ -14,9 +17,14 @@ Intro
 . In the Cockpit, go to Tools and click *Table Definition*.
 . Open your database table.
 . Navigate to the *Properties* tab and, on the toolbar, click *Foreign Keys*.
+//todo Helle: add icon when active, two keys
++
+image:table-definition-foreign-key.png[width=800]
 +
 *Result*: The *Foreign Keys* dialog opens.
 . On the dialog toolbar, click *+ Add Foreign Key*.
++
+image:table-definition-foreign-key-add.png[width=600]
 +
 *Result*: The *Table Definition* dialog opens.
 . Click the table you want to take the keys from.
@@ -25,11 +33,16 @@ Intro
 *Result*: The *Foreign Keys* dialog reopens.
 . From the dropdown menu on the toolbar, select the column from your current table that you want to bind the keys to.
 . Click *+ Add Column*.
++
+image:table-definition-foreign-key-add-column.png[width=600]
+
 . In Referenced Columns, select the column from the other table you want to get the keys from.
 . Click *Apply*.
 
 == Result
 
-added foreign key
-see number of foreign key added in toolbar
+* You have added a foreign key to the database table.
+* You can see the number of foreign keys added next to *Foreign Keys* on the table toolbar.
 
+== Next steps
+* xref:table-browser-add-data.adoc[]
