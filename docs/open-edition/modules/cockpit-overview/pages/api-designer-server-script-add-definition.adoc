@@ -1,9 +1,10 @@
-= Add a definition and properties
+= Add a definitions and properties
 
 include::ROOT:partial$api-definition-description.adoc[]
 
 In this task, you learn how to add a definition to a server script API manually.
 With many APIs, you can import definitions or derive definitions from sample requests instead. xref:api-designer-definition-import.adoc[Learn more].
+//There should be no links in the introduction, only in Prerequisites and related topics
 
 == Prerequisites
 
@@ -18,6 +19,7 @@ image:api-designer-add-definition.png[width=400]
 
 . Enter a *Name*, for example, `charactersPerPlanet`, and *Description*.
 . In *Type*, select the type of data that the server script returns.
+//There is no type to be selected, is there? (See table-definition topic about that)
 . Navigate to the *Properties* tab and click *+ Add*.
 +
 image:api-designer-add-properties.png[width=800]

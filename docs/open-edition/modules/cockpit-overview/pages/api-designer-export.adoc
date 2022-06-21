@@ -1,8 +1,9 @@
 = Export an API from the API Designer
 
 Learn how to export an API that you have created with the _API Designer_.
+//In this topic, you learn how to...
 
-You can export all types of APIs. The procedure is the same for table definition, server script and external APIs.
+You can export all types of APIs. The procedure is the same for table definition, server script, and external APIs.
 
 == Prerequisites
 * You have created an API of any type.
@@ -18,7 +19,7 @@ You can export all types of APIs. The procedure is the same for table definition
 
 == Results
 
-* The API is exported to your local computer and saved as a planet9 file.
+* The API is exported to your local computer and saved as a `planet9` file.
 
 == Related topics
 

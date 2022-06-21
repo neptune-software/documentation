@@ -1,11 +1,13 @@
+//There is no link to this topic, should be inserted somewhere for now (API Designer or API Client)
 = Import a definition into an API
 
 In this topic, you learn how to add a definition based on a sample response of your API.
 In many cases, importing a definition is faster than adding one manually.
-After importing a definition you can still make changes manually.
+After importing a definition you can still make changes.
 
 We use the _API Client_ to create a response in JSON format.
 You can use a JSON or YAML response that you created another way instead, that is, outside Neptune DXP.
+//You can instead use a JSON or YAML response that you created in some other way, that is, outside of Neptune DXP.
 
 == Prerequisites
 

@@ -1,4 +1,4 @@
-= Add a definition and properties
+= Add a definitions and properties
 
 include::ROOT:partial$api-definition-description.adoc[]
 

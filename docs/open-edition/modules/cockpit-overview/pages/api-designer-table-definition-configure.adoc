@@ -4,14 +4,15 @@ In this topic, you learn how to configure an API to communicate with a table def
 
 == Prerequisites
 
-* You have created a table definition, for example, in xref:table-definition-create.adoc[_Table Definition_ and _Table Browser_].
+* You have created a table definition, for example, in xref:table-definition-create.adoc[Table Definition and Table Browser].
 
 == Procedure
 
 NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
 
-. On the Cockpit, go to *Connectivity* and click _API Designer_.
-. On the _API Designer_, click *Add*.
+. In the Cockpit, go to *Connectivity* and click _API Designer_.
+. In the _API Designer_, click *Add*.
+//Replaced "On the Cockpit" and "On the API Designer" in all three "configure"-topics with "In..."
 +
 *Result*: The API configuration dialog opens.
 You start in the *General* tab.

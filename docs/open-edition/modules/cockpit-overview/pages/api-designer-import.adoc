@@ -11,10 +11,11 @@ You can import files from inside and outside Neptune DXP - Open Edition.
 * There are no prerequisites.
 
 == Procedure
-. On the Cockpit, go to *Connectivity* and click _API Designer_.
-. On the _API Designer_, click *Add*.
+. In the Cockpit, go to *Connectivity* and click _API Designer_.
+. In the _API Designer_, click *Add*.
 +
 *Result*: The API configuration dialog opens.
+//window, no dialog
 You start in the *General* tab.
 
 . Depending on the type of data you want to connect to your API, continue with the steps in one of the sections below.

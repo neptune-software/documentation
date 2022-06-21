@@ -1,4 +1,5 @@
 = Add an operation
+//harmonize title
 
 include::ROOT:partial$api-operation-description.adoc[]
 
@@ -21,6 +22,7 @@ include::partial$api-methods.adoc[]
 . Click the icon in *Server Script* and select the server script you want to call from the list.
 //todo helle: update with icon font
 . In *Restrict Access*, you can define which role or roles can access the API.
+//There are no roles available when I tried to choose one. What do I have to do for them to show up?
 . Enter a short *Summary* and a longer *Description* to provide context information about the operation.
 . In *Tags*, enter keywords that describe the resource.
 . Activate any of the following:

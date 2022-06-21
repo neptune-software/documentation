@@ -1,5 +1,4 @@
 = Configure an external API
-//Title does not match the content, see topic before
 
 In this topic, you learn how to configure an API to communicate with an API outside DXP - Open Edition.
 

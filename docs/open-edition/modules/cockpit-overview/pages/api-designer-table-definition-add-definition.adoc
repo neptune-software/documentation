@@ -1,9 +1,10 @@
-= Add a definition and properties
+= Add a definitions and properties
 
 include::ROOT:partial$api-definition-description.adoc[]
 
 In this task, you learn how to add a definition to a table definition API manually.
 With many APIs, you can import definitions or derive definitions from sample requests instead. xref:api-designer-definition-import.adoc[Learn more].
+//There should be no links in the introduction, only in Prerequisites and related topics
 
 == Prerequisites
 

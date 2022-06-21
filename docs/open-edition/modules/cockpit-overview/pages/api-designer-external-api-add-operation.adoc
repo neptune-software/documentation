@@ -1,4 +1,5 @@
 = Add an operation to an external API
+//The other two "Add an operation" topics are only called "Add an operation" with the "to an external API", should be harmonized
 
 include::ROOT:partial$api-operation-description.adoc[]
 
@@ -9,6 +10,7 @@ include::ROOT:partial$api-operation-description.adoc[]
 == Procedure
 
 . In the _API Designer_, open your external API, navigate to the *Operations* tab, and click *+* to add an operation.
+//Harmonize with sibling topics
 +
 image:api-designer-add-operation.png[width=400]
 
