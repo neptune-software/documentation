@@ -1,0 +1,49 @@
+= Naming of files and links to files and images
+
+== Filenames
+
+Filenames have to follow certain rules:
+
+* Use hyphens. Do not use underscores.
+* Filenames consist of three parts:
+** Service group
+** Service name
+** Which part of the service is described. This should be as meaningful as possible
+
+Example: `security-user-add.adoc` is a topic in the service group `Security`, in the service `User` and describes how to `Add` a new user.
+
+* File names do not have to contain three parts, for example, high-level concept topics.
+* File names shall not have more than three parts.
+
+== Image paths and links to images
+
+Images are stored in PNG format. There are two ways to store images in AsciiDoc:
+
+* Inline images: These images are part of a text. Inline images cannot be enlarged in the HTML output when clicking on them.
+** Inline images are referenced as follows: `image:<image.png>`
+* Outline images: These images stand for themselves. Outline images can be enlarged in the HTML output when clicking on them.
+** Outline images are referenced as follows: `image::<image.png>`
+
+*Rule:*
+
+* Inline images shall only be used for icons in service overview topics.
+* Outline images shall be used for every screenshot and other images.
+
+== Links to files
+
+* The `include` mechanism is used to insert reusable content, that is, partials.
+* Links to files are created using the `xref` mechanism in Asciidoc.
+** Use a single colon
+** You may write attributes relating to the link in the square brackets, although this is normally not necessary. Opening and closing brackets are needed, however, for the link to work.
+
+Example:
+----
+xref:pdf-designer-settings.adoc[]
+----
+
+* Links assume that topics are stored in the same module in Antora. It is, however, possible to link to topics in other module by giving the name of the module in the link:
+
+Example:
+----
+xref:cockpit-overview:pdf-designer-settings.adoc[]
+----

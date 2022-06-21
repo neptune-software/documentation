@@ -1,0 +1,11 @@
+= image:security-role-icon.png[width=100] Role
+
+With _Role_, you can assign roles to users or groups. Roles are used to give users or groups of users specific permissions to perform certain actions within your system. Assigning a role allows you to provide the same permissions to a large group of users rather than setting them manually.
+
+== Related topics
+
+* xref:security-role-add.adoc[]
+* xref:security-edit-role.adoc[]
+* xref:security-delete-role.adoc[]
+* xref:security-user.adoc[User]
+* xref:security-group.adoc[Group]

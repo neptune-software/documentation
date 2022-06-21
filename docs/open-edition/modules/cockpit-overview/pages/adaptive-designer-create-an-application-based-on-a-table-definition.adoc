@@ -1,0 +1,26 @@
+= Create an adaptive application based on a table definition
+
+Using table definitions as data source in _Adaptive Designer_ requires no code for you to get started.
+The table metadata such as heading, columns, and so on is automatically imported into the component library.
+
+== Prerequisites
+
+* You have created a table definition in the _Table Definition_ service.
+* You have published the table definition in the _Connector_ service.
+
+== Procedure
+
+. In the shell bar, open the *Application* drop-down menu.
+. Go to *Create*.
+. Name your adaptive application.
+. Choose the adaptive template for your adaptive application.
+. In the field *Connector*, choose your table definition.
+
+== Result
+
+* You have created an adaptive application based on a table definition.
+
+== Related topics
+//TODO Leonie: consider links to Table Definition service and to Connector service or directly to the respective task topics
+* xref:adaptive-designer-data-sources.adoc[]
+* xref:connectors.adoc[Connector]

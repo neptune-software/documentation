@@ -18,7 +18,7 @@ image:pdf-designer-toggle-edit.png[width=300]
 == Add an interface
 . In the *PDF Document Settings* tab, click *Add*.
 +
-image:pdf-designer-interface-add.png[width=500]
+image::pdf-designer-interface-add.png[width=500]
 . Enter a name and a description for the interface.
 . Select a type for the interface.
 +
@@ -27,7 +27,7 @@ image:pdf-designer-interface-add.png[width=500]
 == Import an interface
 . In the *PDF Document Settings* tab, click *JSON Import*.
 +
-image:pdf-designer-interface-import.png[width=500]
+image::pdf-designer-interface-import.png[width=500]
 . Enter the JSON data you want to import.
 . Click  *Import*.
 

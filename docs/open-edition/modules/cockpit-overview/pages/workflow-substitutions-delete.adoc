@@ -1,0 +1,25 @@
+= Delete a substitution
+
+In this topic, you learn how to delete a subsitution.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Workflow* and click _Substitutions_.
++
+*Result*: A list of all existing substitutions is shown.
+. Click on the substitution you want to delete.
+. Click *Edit*.
+. Click the delete icon.
+. Confirm you want to delete the substitution.
+
+== Results
+
+* You have deleted a substitution.
+
+== Related topics
+
+* xref:workflow-substitutions.adoc[Substitutions]

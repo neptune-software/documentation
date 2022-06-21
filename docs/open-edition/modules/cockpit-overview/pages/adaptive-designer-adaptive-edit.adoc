@@ -1,0 +1,15 @@
+= Adaptive edit
+
+The adaptive edit template provides functionalities to create an adaptive application in _Adaptive Designer_ based on the predefined data sources.
+
+In the resulting adaptive application, you can create and update data sets in a form-like display.
+
+Optionally, you can link adaptive applications created with the adaptive edit template to adaptive applications created with the adaptive list template.
+
+image::adaptive-designer-adaptive-edit.png[width=800]
+
+== Related topics
+
+* xref:adaptive-designer-adaptive-templates.adoc[]
+* xref:adaptive-designer-adaptive-list.adoc[]
+* xref:adaptive-designer.adoc[Adaptive Designer]

@@ -1,0 +1,28 @@
+= Import a deployment package
+
+In this topic, you learn how to import deployment packages from your local system.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. In the Cockpit, go to *Deployment*, and click *Deployment Log*.
+. Click *Import*.
++
+image::deployment-log-start-import.png[,800]
++
+*Result*: The file explorer opens.
++
+. Navigate to the deployment package, and click *Open*.
+
+== Results
+
+* The files are added to your system, and the package is shown in the overview.
++
+image::deployment-package-import-success.png[,800]
+
+== Related Topics
+
+* xref:deployment-transfer.adoc[Deployment Transfer]
+* xref:deployment-creation.adoc[Deployment Create]
+* xref:deployment-package-export.adoc[]

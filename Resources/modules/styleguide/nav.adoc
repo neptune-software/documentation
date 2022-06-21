@@ -6,6 +6,7 @@
 ** xref:adressing-the-reader.adoc[]
 ** xref:active-voice.adoc[]
 ** xref:biased-language.adoc[]
+** xref:filenames.adoc[]
 * Topic-based approach
 ** xref:topic-based-approach.adoc[]
 ** Topic types and examples
@@ -17,6 +18,7 @@
 **** xref:concept-topic-example.adoc[Concept topic example]
 *** xref:reference-topic.adoc[Reference topic]
 **** xref:reference-topic-example.adoc[Reference topic example]
+*** xref:at-a-glance-topic-template.adoc[]
 * Sentence and word rules
 ** xref:relative-clauses-who-that-which.adoc[]
 ** xref:tenses.adoc[]
@@ -29,6 +31,7 @@
 ** xref:modal-verbs.adoc[]
 ** xref:contractions.adoc[]
 ** xref:punctuation.adoc[]
+** xref:links.adoc[]
 * Pictures
 ** xref:captions.adoc[]
 * Special notices

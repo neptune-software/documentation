@@ -1,0 +1,38 @@
+= Generate a new certificate
+
+In this topic, you learn how to generate a new authentication certificate.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Security* and click _Certificates_.
++
+*Result*: A list with all existing authentication certificates is shown.
++
+image::security-certificate.png[,600]
+. Click *Add*.
+. In the *General* tab, enter a name for the certificate.
+. You can enter a description and choose a package for the certificate.
+. In the *Attributes* tab, enter specific values for the certificate.
++
+image::security-certificate-settings.png[,600]
++
+.. *Sign with*: Self-signed is default. You can choose another predefined certificate as well.
+.. *Bit Size*: `2048` bit is default. You can choose `1024` and `4096` as well.
+.. *Serial Number*: `01` is default. You can choose another number.
+.. Click *Use encyption (sha-256)* if you use a server-side certificate or *Client Certificate* if the certificate should be used on the client side.
+.. Customize the validity. The default is one year.
+.. Enter a *Common Name (CN)* for the certificate and fill in the other data.
+. Click *Generate New Certificate*.
++
+*Result*: The generated keys are shown in the *Keys* tab.
++
+TIP: Click *Download* to download the keys as `txt` file.
+
+== Results
+* You have generated a new certificate and the corresponding keys.
+
+== Related topics
+* xref:security-certificates.adoc[Certificates]

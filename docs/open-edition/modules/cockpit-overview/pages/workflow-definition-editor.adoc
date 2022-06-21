@@ -1,0 +1,112 @@
+//Topic is obsolete, content is stored in workflow-editor-at-a-glance
+
+= Workflow editor
+
+With the workflow editor, you actually create your workflows.
+
+In this topic, you get an overview of all elements available in the workflow editor.
+
+[TIP]
+====
+To add elements to your workflow, drag them from the component library pane to the workflow editor pane.
+====
+
+[TIP]
+====
+You can connect elements by connecting their nodes.
+====
+
+== Task
+
+A task is defined as an activity executed by a script or user. Task contains the script task and the user task objects to add to the workflow.
+
+=== Script task
+
+A script task is used when you want the system to execute a server script. This could be used for example to process an input from the workflow context
+and store the output as a variable.
+
+Name::
+Name for the script task.
+
+Description::
+Description for the script task.
+
+Server script::
+Server script to be executed during the workflow.
+
+=== User task
+
+A user task is used when you want you want a user of your system to execute a certain activity.
+This could be used for example to approve an order or invoice.
+
+Name::
+Name for the user task.
+
+Description::
+Description for the user task.
+
+Max Processing time::
+Maximum amount of time you allow the user to perform the task. The max processing time is measured in milliseconds.
+
+Inbox application::
+Application in which the user will be notified to perform it's task.
+
+Approver Determination::
+Selection of the approver for the user task. To configure an approver or a list of approvers, see xref:workflow-approvers.adoc[Approvers].
+
+Task Action::
+Selection of the task action for the user task. To configure a task action, see xref:workflow-task-action.adoc[Task Action].
+
+Custom Script Determination::
+Manual approver determination based on a server script.
+
+Enable Forward::
+Allow the approver to forward the task.
+
+Enable Query::
+Allow the approver to send a query.
+
+Enable Notification::
+Allow the approver to enable notifications.
+
+Task Notification::
+Select the notification which needed to be send with the user task.
+
+Sender eMail::
+Email adress from which the user task is send.
+
+== User action
+Actions for a user to perform during a user task.
+
+=== Approve
+If the user approves the request raised in the user task.
+
+=== Reject
+If the user rejects the request raised in the user task.
+
+=== Save
+If the user needs to save the state of the workflow.
+
+== Script action
+
+Result for a server script during a sript task.
+
+=== False
+If the server script fails.
+
+=== True
+If the server script succeeds.
+
+== Event
+Events to mark the end of a workflow.
+
+=== Cancel
+Event to cancel the workflow if it has failed.
+
+=== Complete
+Event to complete and close the workflow if it has succeeded.
+
+== Related topics
+
+* xref:workflow.adoc[]
+* xref:workflow-definition.adoc[Definition]

@@ -1,0 +1,12 @@
+= Ways to create adaptive applications
+
+You can create adaptive applications using different adaptive templates for your use case. All adaptive applications base on predefined data sources providing the configuration data for your adaptive application.
+
+You can choose the following ways to create an adaptive application, depending on the data source that is used:
+
+* xref:adaptive-designer-create-an-application-based-on-a-table-definition.adoc[]
+* xref:adaptive-designer-create-an-adaptive-application-based-on-a-server-script.adoc[]
+
+== Related topics
+* xref:adaptive-designer.adoc[Adaptive Designer]
+* xref:adaptive-designer-data-sources.adoc[]

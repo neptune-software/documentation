@@ -1,0 +1,10 @@
+= image:security-group-icon.png[width=100] Group
+
+With _Group_, you can group a collection of users. This is useful to grant permissions for multiple users at a time.
+A user can be assigned to multiple groups. A group cannot contain another group.
+
+== Related topics
+
+* xref:security-add-group.adoc[]
+* xref:security-edit-group.adoc[]
+* xref:security-delete-group.adoc[]

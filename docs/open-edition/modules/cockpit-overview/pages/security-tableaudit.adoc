@@ -1,0 +1,8 @@
+= image:security-tableaudit-icon.png[width=100] Table Audit
+
+With _Table Audit_, you can view the table audit log.
+//TODO @Neptune: What is the table audit log for? What can you do with this tool? The list of table audits in the service is completely empty.
+
+== Related topics
+
+* xref:security-tableaudit-export.adoc[]
