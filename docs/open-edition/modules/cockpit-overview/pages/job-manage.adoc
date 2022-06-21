@@ -1,0 +1,6 @@
+= Job Manage
+
+With _Job Manage_, you create and manage background jobs that run server scripts.
+
+Many applications use background jobs that run independently of the user interface and need little to no interaction from the user.
+Background jobs help to minimize
