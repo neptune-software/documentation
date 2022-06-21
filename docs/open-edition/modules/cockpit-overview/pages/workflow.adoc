@@ -1,1 +1,42 @@
 = Workflow
+
+A workflow provides an infrastructure to set up, perform, and monitor a defined sequence of tasks.
+
+With a workflow, you can design, build, run, and manage workflows from simple approvals to complex processes that span across different organizations and applications.
+It is a tool designed to facilitate and automate processes that require tasks to be performed by individuals.
+Each step of the workflow can be easily monitored and thereby assured that it is completed from the beginning to the end.
+An inbox application notifies users when it is their turn to perform a step in the workflow.
+
+In short, a workflow ensures that the right work is brought in the right sequence at the right time to the right people.
+
+== Benefits of workflows
+
+There are the following benefits of using a workflow:
+
+* Process improvement: Relevant information are sent directly to the user, according to the predefined steps in the workflow. Nobody needs to approve a certain task for it to run.
+* Process time is reduced by providing all necessary information so people can check their list of pending tasks and better plan their work.
+* Using workflows makes it easier to manage task dependency and send notifications about pending actions.
+
+== How does a workflow work?
+
+A workflow can be started either manually or by the system at runtime.
+For the system to start a workflow, the workflow definition must contain a triggering event, for example, the event `Address update by the employee`.
+When the event occurs, the relevant workflow starts automatically.
+Each step in a workflow is represented by a task or work item describing the activity.
+An activity is either an automatic action, for example, the system sends an email to a supervisor, or a task manually performed by a user, for example, a supervisor approving a result.
+
+Events are activities that trigger the workflow.
+An event can trigger one or more workflows at the same time.
+Once the workflow is triggered, the definition flowchart determines when and in what order tasks are performed.
+Work items are received and executed in a predefined inbox application.
+A work item is assigned to one or more users.
+Once the task is executed, the work item vanishes from the other users' inboxes.
+
+== Related topics
+
+* xref:workflow-overview.adoc[Overview]
+* xref:workflow-definition.adoc[Definition]
+** xref:workflow-start.adoc[]
+* xref:workflow-task-action.adoc[Task Action]
+* xref:workflow-approvers.adoc[Approvers]
+* xref:workflow-substitutions.adoc[Substitutions]

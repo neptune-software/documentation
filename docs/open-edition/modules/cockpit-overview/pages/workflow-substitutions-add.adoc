@@ -1,0 +1,30 @@
+= Add a new substitution
+
+In this topic, you learn how to add a new subsitution for an approver.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Workflow* and click _Substitutions_.
+. Click *Add*.
++
+*Result:* A new window opens.
++
+image::workflow-substitutions-add.png[,600]
+. In *Username*, select the user you want to use as a substitution.
+. In *Substitute*, select the username you want to substitute.
+. In *From-to*, select the timespan for the substitution.
+. Toggle the *Activate* switch.
+// TODO Neptune: UI is in german: "AN" and "AUS".
+. Click *Save*.
+
+== Results
+
+* You have added a new substitution.
+
+== Related topics
+
+* xref:workflow-substitutions.adoc[Substitutions]
