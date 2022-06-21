@@ -1,0 +1,6 @@
+[TIP]
+====
+You can hide all artifacts created by others to find your artifacts easier. To do that, change the *Updated By* filter to *Me*.
+
+image:cockpit-overview:updated-by-me.png[width=200]
+====

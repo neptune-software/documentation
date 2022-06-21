@@ -1,6 +1,14 @@
-= Job Manage
+= image:job-manage-icon.png[width=100]Job Manage
 
 With _Job Manage_, you create and manage background jobs that run server scripts.
 
 Many applications use background jobs that run independently of the user interface and need little to no interaction from the user.
-Background jobs help to minimize
+Background jobs help to minimize the load on the user interface and reduce the response time of the application.
+
+With the _Job Manage_ service, you create background jobs for one or multiple server scripts.
+You define in which order and when server scripts are executed.
+
+== Related topics
+
+* xref:job-manage-create-job.adoc[]
+//* xref:job-log

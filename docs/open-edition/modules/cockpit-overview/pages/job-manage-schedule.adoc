@@ -1,0 +1,32 @@
+= Define schedule of a job
+
+Introductory sentence, for example, In this topic, you learn how to do this and that.
+
+== Prerequisites
+
+* You have xref:job-manage-create-job.adoc[configured a job].
+
+== Procedure
+
+. In the Cockpit, go to Tools and click *Job Manage*.
+. From the job table, click your job to open it.
++
+include::ROOT:partial$tip-filter-by-me.adoc[]
++
+. Navigate to the *Schedule* tab.
+. In the Schedule section, define a start and end date for the job in *Start* and *No run after*.
+// todo Neptune: is there a reason, why it has to be "No run after" instead of "End" or "Stop"?
+. In *Interval*, define how much time passes between two runs of the job.
+You can use the signs *+* and *-* or your number keys to enter intervals.
+//todo Neptune: there is a space between "Interval" and ":" in the UI.
+. In *Maximum runtime*, enter the maximum amount of seconds the jobs can run before it is canceled.
+. Click *Save*.
+
+== Results
+* You have done XY.
+
+== Next steps
+* xref:job-manage-add-steps.adoc[]
+
+== Related topics
+* xref:job-manage.adoc[Job Manage]
