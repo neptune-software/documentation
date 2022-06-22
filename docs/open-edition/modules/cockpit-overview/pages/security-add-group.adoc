@@ -1,0 +1,33 @@
+= Add a new group
+
+In this topic, you learn how to add a new group to your system.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. On the Cockpit, go to *Security* and click _Group_.
++
+*Result*: The list of existing groups opens.
+. Click *Add*.
++
+*Result*: The settings of the group open.
++
+image::security-group-general.png[width=500]
+. In the *General* tab, enter a name for the group.
+. You can enter a description and choose a package for the group.
+. In the *Role* tab, you can add a role that is valid for the group.
++
+TIP: You can define roles in the _Role_ service.
+. In the *User* tab, you can assign users to the group.
++
+TIP: You can add users in the _User_ service.
+. Click *Save*.
+
+== Results
+* You have added a new group to your system.
+
+== Related topics
+* xref:security-group.adoc[Group]
+* xref:security-role.adoc[Role]
+* xref:security-user.adoc[User]

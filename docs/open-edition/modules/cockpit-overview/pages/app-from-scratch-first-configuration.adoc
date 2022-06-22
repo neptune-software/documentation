@@ -1,0 +1,44 @@
+= Configure an application
+
+In this step, you set up an application and make general settings, such as choosing a name, theme, and language.
+
+include::partial$designer-toggle-edit-mode.adoc[]
+
+== Prerequisites
+
+* You have the developer role assigned.
+
+== Procedure
+
+. In the Cockpit, go to *Development* and click _App Designer_.
+. In the _App Designer_, open the *Application* drop-down menu and click *Create*.
+. In the *New App* window, enter a *Name* for your application.
+. In *Type*, select *Application* and click *Save*.
++
+*Result*: You see the main designer environment, now with an empty HTML document.
+Here, you perform front-end coding.
+. On the side menu, click the *Settings* icon.
++
+image::getting-started-guide:appdesigner-side-menu-settings.png[width=400]
+*Result*: The *Application Settings* window opens.
+
+. In *General*, enter a *Description* for your application and a *Title* to use as the name of the browser tab you will run the application in.
++
+
+. In *OpenUI5*, select an Open UI5 *Version*, *Theme*, and *Language* for your application.
++
+TIP: The preselected Belize theme gives you the most popular look and feel.
+. On the top menu, click *Save*.
++
+image::getting-started-guide:appdesigner-top-side-menu-save.png[width=400]
+
+TIP: You create your new application in the _App Designer_.
+To learn more about the panes and functionalities of the _App Designer_, go to xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance].
+
+== Results
+
+* You have done the first configuration of your application.
+
+== Next steps
+
+* xref:app-from-scratch-general-structure.adoc[]

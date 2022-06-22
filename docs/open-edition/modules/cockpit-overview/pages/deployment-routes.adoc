@@ -1,0 +1,15 @@
+= image:deployment-routes.png[,80]Deployment Routes
+
+In _Deployment Routes_, you create or edit routes for your deployment packages.
+Deployment routes enable you to transfer your deployment packages to multiple target systems, with one transfer process.
+
+When you create a deployment route, you select the desired systems you want to send your deployment packages to.
+
+image::deployment-routes-overview.png[,800]
+
+== Related topics
+
+* xref:deployment-create-route.adoc[]
+* xref:deployment-transfer.adoc[Deployment Transfer]
+
+

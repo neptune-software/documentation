@@ -1,0 +1,30 @@
+= Start a workflow
+
+In this topic, you learn how to start a workflow.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Workflow* and click _Overview_.
+. Click *Add*.
++
+*Result*: A new dialog opens.
++
+image::workflow-new.png[,400]
+. In *Definition*, select a workflow definition.
+. You can enter an object type, object key, amount or currency.
+. You can assign one or more *Approver* to your workflow. An approver can be every user.
+. Click *Start*.
+
+== Results
+
+* You have started a workflow.
+
+== Related topics
+
+* xref:workflow-definition.adoc[Definition]
+* xref:workflow-overview.adoc[Overview]
+* xref:workflow-overview-rerun.adoc[]

@@ -1,0 +1,23 @@
+= Export a table audit log
+
+In this topic, you learn how to export a table audit log to a `csv` file.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+
+. In the cockpit, go to *Security* and click _Table Audit_.
++
+*Result*: The table audit log is shown.
+. Click the *excel-attachment* icon.
++
+image::security-auditlog-export.png[width=250]
++
+*Result*: The `csv` file is downloaded to your computer.
+
+== Results
+* You have exported a table audit log.
+
+== Related topics
+* xref:security-tableaudit.adoc[Table audit]

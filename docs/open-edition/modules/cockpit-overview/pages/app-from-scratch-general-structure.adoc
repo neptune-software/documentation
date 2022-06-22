@@ -1,0 +1,45 @@
+= Create general structure
+
+In this step, you create a general structure for your application and add  a *Shell*, *App*, and other components.
+The *Shell* provides functionality and allows for visual adaptation of your application.
+The *App* provides a more detailed graphical user interface.
+
+*Shell* and *App* build the base of any Open UI5 application you create with the DXP - Open Edition.
+
+
+== Prerequisites
+
+* You have done the xref:app-from-scratch-first-configuration.adoc[first configuration of your application].
+
+== Procedure
+
+include::partial$use-component-search.adoc[]
+
+. On the side menu, click *Designer*.
+. On the component library, open *sap.m* > *Application*.
+. Drag and drop the *Shell* component onto the *HTML5 Document* in the application tree.
+. Drag and drop the *App* component onto the *Shell* component in the application tree.
+. Drag and drop the *Page* component onto the *App* component in the application tree.
++
+image::appdesigner-shell-app-page.png[width=800]
+*Result*: You have created the general structure of your application.
+Each component is automatically renamed to `oShell`, `oApp`, or `oPage`.
++
+. Select the *oPage* component and, on the *UI object* pane, change the *Name* to `oPageStart`.
+. On the properties pane, scroll to the *title* attribute and enter `Start Page`.
+. On the shell bar, click *Save* and *Activate*.
+
++
+image::getting-started-guide:appdesigner-top-side-menu-save-activate.png[width=400]
+
+
+== Results
+
+* You have created a general structure for your application.
+* You have added a shell, an app, and a page to your application.
++
+To preview your application, see xref:app-from-scratch-preview.adoc[].
+
+== Next steps
+
+* xref:app-from-scratch-integrate-data.adoc[]

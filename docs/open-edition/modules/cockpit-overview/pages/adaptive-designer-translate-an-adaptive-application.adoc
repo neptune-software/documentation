@@ -1,0 +1,3 @@
+= Translate an adaptive application
+//task information on translation
+//TODO Leonie: fill topic

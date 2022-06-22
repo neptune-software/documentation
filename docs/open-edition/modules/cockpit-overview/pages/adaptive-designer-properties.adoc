@@ -1,0 +1,14 @@
+= Settings/Properties
+
+The settings/properties is a pane that displays settings and properties of a selected component in the application tree when creating an application.
+
+image::adaptive-designer-user-interface-settings-properties.png[width=800]
+
+In the _Adaptive Designer_ settings/properties, you can edit selected components in the application tree and see the results of your edited components in the preview.
+
+== Related topics
+
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]
+* xref:adaptive-designer-preview.adoc[]
+//TODO Leonie: link to relevant tasks

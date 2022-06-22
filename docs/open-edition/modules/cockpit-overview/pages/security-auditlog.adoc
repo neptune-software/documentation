@@ -1,0 +1,9 @@
+= image:security-auditlog-icon.png[width=100] Audit Log
+
+With the _Audit Log_, you can monitor all Cockpit activities.
+You can filter activities by date or affected service. You can also search for specific object IDs or users.
+
+Click the blue info-circle icon to see a detailed view of what a user has changed.
+
+== Related topics
+* xref:security-auditlog-export.adoc[]

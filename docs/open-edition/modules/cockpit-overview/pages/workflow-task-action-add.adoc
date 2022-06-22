@@ -1,0 +1,24 @@
+= Add a new task action
+
+In this topic, you learn how to add a new task action.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Workflow* and click _Task Action_.
+. Click *Add*.
+*Result*: A new window opens.
+. Enter a name for the task action.
+. You can enter a description for the task action.
+. Click *Save*.
+
+== Results
+
+* You have added a new task action.
+
+== Related topics
+
+* xref:workflow-task-action.adoc[Task Action]
