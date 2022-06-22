@@ -1,9 +1,11 @@
 = image:settings-icon.png[,80]System Settings
 
-In _System Settings_, you make the basic settings that are required to run the system.
+In the _System Settings_, you make the basic settings that are required to run the system.
 Perform the following tasks that are described for each section.
 
 NOTE: Changes will be applied after you restart the system.
+
+//First step missing, in the Cockpit, click _System Settings_
 
 == General
 In the *General* tab, you execute the following tasks:
