@@ -26,7 +26,6 @@ image::pdf-designer-at-a-glance.png[width=800]
 === Side navigation
 
 When you open the _PDF Designer_, you will only see the icons. Toggle the items by clicking the *Menu* icon.
-// TODO Neptune: The icon is called "menu2" when hovering over it, that should be corrected.
 The side navigation includes the following items:
 
 image::pdf-designer-glance-menu-toggle.png[width=200]

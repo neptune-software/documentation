@@ -1,0 +1,51 @@
+= Create a list on the Master Page
+
+In this step, you bind data from the resources to a list from the Master Page.
+
+== Prerequisites
+
+* You have xref:app-with-template-configure-splitapp.adoc[configured your application with *SplitApp* template].
+* You have xref:app-with-template-add-resources.adoc[added data resources to the Master Page].
+
+== Procedure
+
+. On the application tree, expand *oPageMaster* and click the *oList* component.
+. On the UI object pane, click the icon in the *Model Path* field.
+. On the *Binding* pop-up window, open *oMultiModel* > *getCustomerListResponse* > *result* and select *IT_CUSTOMERS*.
+. On the application tree, open *oList* and click the *oObjectListItem*.
+. On the properties pane, open *Properties*, go to *title* and click the *connected* icon.
++
+image::getting-started-guide:appdesigner-componentproperties-binding.png[width=400]
++
+//todo Neptune: Hovering over the icon shows the text "connected" even for empty fields (which are not connected to anything yet, as I understand it). More fitting would be "Bind". This is also reflected in the pop-up window "Binding" when clicking the icon. I suggest renaming the text to "Bind" here.
+//Neptune@Parson: Good point. Feature request created
+. On the *Binding* pop-up window, open *IT_CUSTOMERS* and click the *NAME1* property.
+. On the application tree, open *oObjectListItem* and click on the *oObjectAttribute* component.
+. On the properties pane, open *Properties*.
+. Go to *text* and click the *connected* icon.
+. On the *Binding* pop-up window, open *IT_CUSTOMERS* and select the *ORTO1* property.
+. Go to *title* and enter `City`.
+. On the application tree, click the *oObjectStatus* component.
+. On the properties pane, open *Properties*, go to *text* and click the *connected* icon.
+. On the *Binding* pop-up window, select the *LAND1* property.
+. Go to *title* and enter `Country`.
+. On the shell bar, click *Save* and *Activate*.
++
+image::getting-started-guide:appdesigner-top-side-menu-save-activate.png[width=400]
+
+
+== Results
+
+You have created an application to display customer information:
+
+* You have created an application with the *SplitApp* template.
+* You have integrated data from an API.
+* You have bound specific properties from the API to the Master Page of your application.
++
+To preview your application, see xref:app-from-scratch-preview.adoc[].
+
+== Related topics
+
+* xref:app-with-template.adoc[]
+* xref:app-from-scratch.adoc[Create an app from scratch]
+* xref:appdesigner-at-a-glance.adoc[App Designer interface at a glance]

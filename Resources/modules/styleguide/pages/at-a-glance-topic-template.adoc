@@ -1,0 +1,24 @@
+= At-a-glance topic template
+
+There is a standardized structure of *at-a-glance* topics.
+
+* At-a-glance topics shall be used for services with two or more panes on the service page
+
+The following template shows this structure in AsciiDoc.
+
+[source, asciidoc]
+----
+= image:<image_path.png>[width=100] <User interface at a glance>
+
+
+<First sentence>: The <service name> user interface consists of the following main elements:
+
+<Following paragraph>: Labeled screenshot of the default page that opens when the service is launched.
+
+<Following paragraph>: List mit the main parts of the user interface, containing links to the corresponding topics.
+
+
+== Related topics
+
+
+----

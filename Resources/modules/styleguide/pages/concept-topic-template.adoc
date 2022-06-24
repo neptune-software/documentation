@@ -7,7 +7,7 @@ The following shows this structure in AsciiDoc.
 ----
 = image:<image_path.png>[width=100] <Heading>
 
-<First sentence>: Short service description
+<First sentence>: Repeat service short description for service tile
 
 <Following paragraph>: Provide more details about the service in general.
 Create a section with section title per main concept, if it is a larger service.

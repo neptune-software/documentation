@@ -1,0 +1,28 @@
+= Work with the workflow editor
+
+In this topic, you learn how to work with the workflow editor.
+
+== Add elements to the editor
+
+. Drag and drop an action, task, or event from the reusable component pane on the left onto the editing pane.
+. Make sure actions, tasks, or events are stored in the correct order. The workflow starts in the top.
+
+== Connect elements
+
+. You can insert a connection between action, task, or events by clicking on the grey output connector below an element.
++
+*Result:* A blue line is attached to your cursor.
+. Move your cursor to a grey input connector above an element. Connections can only start at the output connector
+of an element
++
+*Result:* A connection is created between two elements.
+
+== Fill in data for the elements
+
+. Click on the element you want to change.
+. Change the data in the component properties pane on the right.
+
+
+== Related topics
+* xref:workflow-definition.adoc[Definition]
+* xref:workflow-editor-at-a-glance.adoc[]

@@ -24,5 +24,5 @@ You can use the following component types:
 == Related Topics
 
 * xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
-* xref:getting-started-guide:ways-to-create-an-app.adoc[]
+* xref:ways-to-create-an-app.adoc[]
 //* xref application building blocks

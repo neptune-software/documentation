@@ -1,0 +1,5 @@
+= Translation
+
+Provide your adaptive applications in multiple machine-translated languages using the Google Translate API.
+
+//TODO Neptune: Does the API have to be activated in the custom settings of the Cockpit? What are the main features of this API?

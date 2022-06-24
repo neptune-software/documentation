@@ -1,0 +1,21 @@
+= Preview your application
+
+You can preview your application in the preview pane in the _App Designer_ or in a new browser tab.
+
+* To preview the application in the preview pane, click *Run in Designer* and select *Run in Designer*.
+
++
+image::getting-started-guide:appdasigner-run-preview.png[width=400]
++
+*Result*: The preview pane shows the current version of your application.
++
+* To preview the application in a new browser tab, click *Run* on the top menu.
++
+image::getting-started-guide:appdesigner-top-menu-run.png[width=400]
++
+*Result*: A new tab opens in your browser and shows the current version of your application.
+
+== Related topics
+
+* xref:app-from-scratch.adoc[]
+* xref:app-with-template.adoc[]

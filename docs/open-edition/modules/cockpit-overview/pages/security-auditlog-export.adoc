@@ -1,0 +1,23 @@
+= Export an audit log
+
+In this topic, you learn how to export an audit log to a `csv` file.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. In the Cockpit, go to *Security* and click _Audit Log_.
++
+*Result*: The audit log is shown.
+. In *Date Start* and *Date End*, enter a time range of the audit logs you want to display.
+. Click the *excel-attachment* icon in the top-right corner.
++
+image::security-auditlog-export.png[width=250]
++
+*Result*: The `csv` file is downloaded to your computer.
+
+== Results
+* You have exported an audit log.
+
+== Related topics
+* xref:security-auditlog.adoc[Audit log]

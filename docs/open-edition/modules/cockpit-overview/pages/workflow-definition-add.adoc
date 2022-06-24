@@ -1,0 +1,29 @@
+= Add a new workflow
+
+In this topic, you learn how to add a new workflow.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+. In the Cockpit, go to *Workflow* and click _Definition_.
+. Click *Add*.
++
+*Result*: A new window opens.
+. Enter a title for the workflow.
+. You can enter a subtitle for the workflow.
+//TODO Neptune: Change GUI from "Sub Title" to "Subtitle".
+. You can choose a package and an icon for the workflow.
+. In the *Editor* tab, you can create the workflow.
+. Click *Save*.
+
+== Results
+
+* You have added a new workflow.
+
+== Related topics
+
+* xref:workflow-definition.adoc[Definition]
+* xref:workflow-editor-at-a-glance.adoc[]
+* xref:workflow-work-editor.adoc[]

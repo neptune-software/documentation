@@ -1,0 +1,38 @@
+= Create a deployment route
+
+In this topic, you learn to create a deployment route and add different target systems.
+
+== Prerequisites
+* You have access to at least one target system. To create a target systems, see xref:setup-remote-system.adoc[Setting up a remote system].
+// Todo Hendrik target system vs. remote system. Which term should be used?
+
+== Procedure
+. In the Cockpit, go to *Deployment* and click *Deployment Routes*.
+. Click *Add*.
++
+image::deployment-routes-overview-add.png[,800]
++
+*Result*: The Deployment Routes window opens.
++
+. Fill in a name for your route.
+. Click the *Systems* tab and click *Add*.
++
+*Result*: The deployment routes window with a list of all available target systems opens.
++
+. Click on the system you want to add to your deployment.
++
+image::deployment-select-r-system.png[,800]
++
+*Result*: The system is added to your deployment route and listed in the overview in the *Systems* tabs.
+. Click *Add* again to add another system to your deployment route.
+. Click *Save*.
+
+== Result
+
+* You have created a deployment route. You now can select the deployment route in _Deployment create_.
+
+== Related topics
+
+* xref:deployment-routes.adoc[Deployment Routes]
+* xref:deployment-creation.adoc[Deployment Create]
+* xref:deployment-transfer.adoc[Deployment Transfer]

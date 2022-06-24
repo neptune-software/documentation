@@ -1,0 +1,28 @@
+= Edit a workflow
+
+In this topic, you learn how to add an existing workflow.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Workflow* and click _Definition_.
+. Click on the workflow you want to edit.
++
+*Result*: A new window opens.
+. Click *Edit*.
+. You can change title, subtitle, icon, and package for the workflow.
+. In the *Editor* tab, you can edit the workflow.
+. Click *Save*.
+
+== Results
+
+* You have edited an existing workflow.
+
+== Related topics
+
+* xref:workflow-definition.adoc[Definition]
+* xref:workflow-editor-at-a-glance.adoc[]
+* xref:workflow-work-editor.adoc[]
