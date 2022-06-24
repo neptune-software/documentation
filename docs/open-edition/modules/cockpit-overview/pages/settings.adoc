@@ -13,6 +13,8 @@ For example, you can customize the layout of the login screen or the homepage.
 //developer or better user?
 //??
 
+// I do not quite understand the difference between "system" and "custom" settings. Why is this split up at all?
+
 NOTE: Settings you make here do not require a restart of the system.
 
 == Related topics
