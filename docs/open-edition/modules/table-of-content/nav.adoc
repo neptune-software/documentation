@@ -76,7 +76,6 @@
 * xref:cockpit-overview:development-overview.adoc[Development]
 //** xref:cockpit-overview:store.adoc[Store]
 //** xref:cockpit-overview:development-package.adoc[Development package]
-** xref:cockpit-overview:connectors.adoc[Connectors]
 ** xref:cockpit-overview:adaptive-designer.adoc[Adaptive designer]
 //*** xref:cockpit-overview:adaptive-designer-user-interface-at-a-glance.adoc[]
 //**** xref:cockpit-overview:adaptive-designer-shell-bar.adoc[]
@@ -145,6 +144,7 @@
 ** xref:cockpit-overview:api-trace.adoc[API Trace]
 ** xref:cockpit-overview:swagger-ui.adoc[Swagger UI]
 *** xref:cockpit-overview:swagger-ui-test-calls.adoc[]
+** xref:cockpit-overview:connectors.adoc[Connectors]
 //Administration
 * xref:cockpit-overview:administration.adoc[Administration]
 ** xref:cockpit-overview:tiles.adoc[Tiles]
