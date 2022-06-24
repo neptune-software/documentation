@@ -1,6 +1,6 @@
 = Add steps to a job
 
-Introductory sentence, for example, In this topic, you learn how to do this and that.
+Learn how to add one or more server scripts as steps to a job and define how and in which order server scripts are executed when the job is triggered.
 
 == Prerequisites
 
@@ -27,7 +27,7 @@ include::ROOT:partial$tip-filter-by-me.adoc[]
 . Click *Save*.
 
 == Results
-* You have done XY.
+* You have added one or more steps to a job.
 
 
 == Related topics

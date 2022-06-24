@@ -1,6 +1,6 @@
 = Define schedule of a job
 
-Introductory sentence, for example, In this topic, you learn how to do this and that.
+Learn how to define the schedule and run intervals of a job.
 
 == Prerequisites
 
@@ -15,7 +15,7 @@ include::ROOT:partial$tip-filter-by-me.adoc[]
 +
 . Navigate to the *Schedule* tab.
 . In the Schedule section, define a start and end date for the job in *Start* and *No run after*.
-// todo Neptune: is there a reason, why it has to be "No run after" instead of "End" or "Stop"?
+//todo Neptune: is there a reason, why it has to be "No run after" instead of "End" or "Stop"?
 . In *Interval*, define how much time passes between two runs of the job.
 You can use the signs *+* and *-* or your number keys to enter intervals.
 //todo Neptune: there is a space between "Interval" and ":" in the UI.
@@ -23,7 +23,7 @@ You can use the signs *+* and *-* or your number keys to enter intervals.
 . Click *Save*.
 
 == Results
-* You have done XY.
+* You have defined the schedule for a job.
 
 == Next steps
 * xref:job-manage-add-steps.adoc[]

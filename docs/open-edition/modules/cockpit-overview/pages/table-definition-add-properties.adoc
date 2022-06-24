@@ -28,7 +28,8 @@ image::tabledefinition-properties.png[width=800]
 * You have added properties to your database table.
 
 == Next steps
-
+* Optional: xref:table-definition-add-foreign-key.adoc[]
+* Optional: xref:table-definition-add-indices.adoc[]
 * xref:table-browser-add-data.adoc[]
 
 == Related topics

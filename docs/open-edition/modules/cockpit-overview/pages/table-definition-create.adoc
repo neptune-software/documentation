@@ -7,6 +7,8 @@ This guide consists of the following steps:
 
 * xref:table-definition-configure.adoc[]
 * xref:table-definition-add-properties.adoc[]
+* Optional: xref:table-definition-add-foreign-key.adoc[]
+* Optional: xref:table-definition-add-indices.adoc[]
 * xref:table-browser-add-data.adoc[]
 
 == Related topics

@@ -1,28 +1,14 @@
-= Configure a job
+= Create a background job
 
-Introductory sentence, for example, In this topic, you learn how to do this and that.
+In this guide, you learn how to create a background job with one or more sever scripts that you can integrate in an application.
 
-== Procedure
+//Helle@Neptune: I didn't find anything on how to integrate a job. That is worth a topic. I guess, you do it in App Designer when creating an application?
 
-. In the Cockpit, navigate to Tools and click *Job Manage*.
-. Click *Add* to add a new job.
-+
-*Result*: The Job Manage configuration dialog opens.
-+
-include::ROOT:partial$name-description-package.adoc[tags=*;!package]
-. Assign the job to a package of artifacts in *Package*.
-. If you want to start the job now, activate *Active*.
-. In *Error Notification*, add email addresses that you want to notify in case of a job error.
-. Click *Save*.
+This guide consists of the following steps:
 
-== Results
-
-* You have added an empty job.
-_Job Manage_ adds an ID and saves change dates.
-
-== Next steps
-
+* xref:job-manage-configure.adoc[]
 * xref:job-manage-schedule.adoc[]
+* xref:job-manage-add-steps.adoc[]
 
 == Related topics
 
