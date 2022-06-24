@@ -1,1 +1,23 @@
 = Settings
+
+The service group _Settings_ provides two services that you use to make or to adjust settings.
+//The _Settings_ service group provides two services that allow you to make or adjust general settings for the entire system.
+
+* In _General Settings_, you configure Planet 9 System properties to operate in your server environment.
+// Planet 9 is the old name, use "DXP - Open Edition"
+
+NOTE: Settings you make here require a restart of the system.
+
+* In _customize Settings_  you can further customize the system to fit your requirements.
+For example, you can customize the layout of the login screen or the homepage.
+//developer or better user?
+//??
+
+// I do not quite understand the difference between "system" and "custom" settings. Why is this split up at all?
+
+NOTE: Settings you make here do not require a restart of the system.
+
+== Related topics
+
+* xref:settings-system.adoc[System Settings]
+* xref:settings-custom.adoc[Custom Settings]

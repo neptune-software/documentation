@@ -30,13 +30,3 @@ In the *Security* service group, you can manage users, groups, roles, authentica
 ** xref:security-certificates-delete.adoc[]
 * xref:security-tableaudit.adoc[Table audit]
 ** xref:security-tableaudit-export.adoc[]
-
-xref:All@neptune-dxp-cloud:connectivity:cloud-connector.adoc[]
-
-xref:All@neptune-dxp-cloud-edition:connectivity:cloud-connector.adoc[]
-
-xref:all@neptune-dxp-cloud:connectivity:cloud-connector.adoc[]
-
-xref:all@neptune-dxp-cloud-edition:connectivity:cloud-connector.adoc[]
-
-xref:21@neptune-dxp-open-edition:getting-started-guide:export-apps.adoc[]
