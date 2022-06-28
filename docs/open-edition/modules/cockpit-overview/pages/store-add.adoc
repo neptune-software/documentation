@@ -1,0 +1,6 @@
+= Add an application to the store
+
+You want to add a new application to the store.
+
+//I cannot sign in to the store. There is an activation code demanded by mail and I did not receive it.
+//https://gtmdemosystem.neptune-software.cloud/cockpit.html#development-store

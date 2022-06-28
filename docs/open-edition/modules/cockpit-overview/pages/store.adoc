@@ -1,7 +1,9 @@
-= Store
+= image:store-icon.png[width=100] Store
 
-The _Store_ is a portal to download or publish applications.
+The _Store_ is the Neptune portal to download and publish application building blocks.
+
 The _Store_ provides free building blocks, templates, and APIs for your instance.
 Any item you download is ready to use or modify in your instance.
-You can publish new applications to the store, or you can use the available applications from the _Store_.
+
+You can publish new application building blocks to the store, or you can use the available applications from the _Store_.
 The tools _API Designer_ and _App Designer_ use the _Store_ to publish or download APIs or applications.

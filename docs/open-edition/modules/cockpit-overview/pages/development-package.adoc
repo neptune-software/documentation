@@ -1,7 +1,7 @@
 = image:development-package.png[width=100, link=development-package.png] Development Package
 
 In _Development Package_, you organize and group artifacts.
-These artifacts can be assigned to a package.
+These artifacts, for example, API, Apps, or Themes, can be assigned to a package.
 Also, you can do the following:
 
 * Create new packages, see (...)
