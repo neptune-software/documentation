@@ -17,4 +17,4 @@ Creating an application from scratch includes the following steps:
 
 == Related topics
 * xref:app-with-template.adoc[]
-* xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
+* xref:app-designer-user-interface-at-a-glance.adoc[_App Designer_ interface at a glance]

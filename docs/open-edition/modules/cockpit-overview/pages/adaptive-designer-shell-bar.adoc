@@ -1,10 +1,8 @@
 = Shell bar
 
-The shell bar is the uppermost part of the user interface. It is always visible and gives access to various actions and functions.
+include::ROOT:partial$shell-bar.adoc[]
 
 image::adaptive-designer-user-interface-shell-bar.png[width=800]
-
-//TODO Leonie: Create Partial for upper part
 
 The shell bar includes the following actions and functions:
 

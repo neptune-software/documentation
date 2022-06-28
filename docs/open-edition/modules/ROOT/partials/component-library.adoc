@@ -1,0 +1,1 @@
+The component library is a pane that offers data sources that you can use as components to create your application. Drag and drop the components you want to use in your application to the application tree.

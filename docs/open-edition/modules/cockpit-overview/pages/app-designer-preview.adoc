@@ -1,0 +1,49 @@
+= Preview
+
+include::ROOT:partial$preview-pane.adoc[]
+
+image::app-designer-user-interface-preview.png[width=800]
+
+In the _App Designer_ preview, you can see a preview of your application.
+Run a preview by clicking *Run in Designer* in the preview toolbar.
+If you activated the preview and edited your application, update the preview by clicking *Activate* in the shell bar.
+//todo helle: exchange names with icons when icon font active.
+
+You can also run a preview in a new tab instead of the preview pane.
+Run a preview in a new tab by clicking *Run* in the shell bar.
+
+== Preview settings
+
+When running a preview, you can choose between different settings to test the look of your application on different devices.
+Click *Run in Designer* > *Settings* to access the preview settings.
+
+You can select different settings from three categories:
+
+* Screen size
+* Orientation
+* Background image
+
+The preview settings only apply to the preview in the preview pane.
+
+== Preview toolbar
+
+The preview toolbar consists of the following items to adjust the preview and make global changes to the application:
+
+Run in Designer:: Run a preview of the application in the _App Designer_ and edit settings for the preview.
+Header:: Define the html5 header for your application.
+Stylesheet:: Add custom CSS to your application.
+Script search and ToDo List:: Open the *Search and ToDo List* pane and search for scripts or todos in the code of the application.
+Display data flow:: Display data flows for APIs and UI5 models.
+See where resources are used in the application and how they are triggered.
+
+//Web App Manifest editor
+//@Neptune Input needed
+//This is an old functionality which is deprecated. We should leave it empty.
+
+//todo helle: exchange names with icons when icon font active.
+
+== Related topics
+
+* xref:app-designer-user-interface-at-a-glance.adoc[]
+* xref:app-designer-application-tree.adoc[]
+

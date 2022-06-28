@@ -48,4 +48,4 @@ To preview your application, see xref:app-from-scratch-preview.adoc[].
 
 * xref:app-with-template.adoc[]
 * xref:app-from-scratch.adoc[Create an app from scratch]
-* xref:appdesigner-at-a-glance.adoc[App Designer interface at a glance]
+* xref:app-designer-user-interface-at-a-glance.adoc[App Designer interface at a glance]

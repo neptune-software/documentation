@@ -1,0 +1,12 @@
+= App Designer user interface at a glance
+
+The _App Designer_ user interface consists of the following elements:
+
+image::app-designer-user-interface.png[width=800]
+
+* xref:app-designer-shell-bar.adoc[]
+* xref:app-designer-side-navigation.adoc[]
+* xref:app-designer-component-library.adoc[]
+* xref:app-designer-application-tree.adoc[]
+* xref:app-designer-preview.adoc[]
+* xref:app-designer-properties.adoc[]

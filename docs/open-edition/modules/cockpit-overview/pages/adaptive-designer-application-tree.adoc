@@ -1,10 +1,10 @@
 = Application tree
 
-The application tree is a pane that displays the components you used from the component library when creating your application. The used components are displayed hierarchically, and you can further edit them.
+include::ROOT:partial$application-tree.adoc[tag=general]
 
 image::adaptive-designer-user-interface-application-tree.png[width=800]
 
-//TODO Leonie: Create partial for upper part
+include::ROOT:partial$application-tree.adoc[tag=function]
 
 == Related topics
 

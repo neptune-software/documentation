@@ -1,0 +1,19 @@
+= Application tree
+
+include::ROOT:partial$application-tree.adoc[tag=general]
+
+image::app-designer-user-interface-application-tree.png[width=800]
+
+include::ROOT:partial$application-tree.adoc[tag=function]
+
+The application tree always shows the current state of your application.
+To see how that version looks like to the user, start a preview in the preview pane or in a new tab.
+A preview shows the state of your application when you started the preview.
+If you edit your application, activate your changes to update the preview.
+
+== Related topics
+
+* xref:app-designer-user-interface-at-a-glance.adoc[]
+* xref:app-designer-component-library.adoc[]
+* xref:app-designer-properties.adoc[]
+* xref:app-designer-preview.adoc[]

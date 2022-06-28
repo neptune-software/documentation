@@ -1,6 +1,6 @@
 = image:appdesigner-icon.png[width=100]App Designer
 
-The _App Designer_ is the central starting point for application development.
+The _App Designer_ is the central starting point for low-code application development.
 This is where you design the interface of your application, implement functionalities, and integrate data from resources.
 
 The _App Designer_ is the starting point for the following actions:
@@ -10,8 +10,6 @@ The _App Designer_ is the starting point for the following actions:
 * Updating the existing UI
 
 The _App Designer_ is a low code building environment that meets the requirements for programming apps of almost any level of complexity.
-//@Neptune: Input needed - does it mean: _App Designer_ is a low code building environment that meets the requirements for programming apps of almost any level of complexity?
-//Neptune@Parson: Yes that sounds great.
 
 In the _App Designer_, you drag and drop components to build an application.
 You can use the following component types:
@@ -23,6 +21,6 @@ You can use the following component types:
 
 == Related Topics
 
-* xref:appdesigner-at-a-glance.adoc[_App Designer_ interface at a glance]
+* xref:app-designer-user-interface-at-a-glance.adoc[_App Designer_ interface at a glance]
 * xref:ways-to-create-an-app.adoc[]
 //* xref application building blocks

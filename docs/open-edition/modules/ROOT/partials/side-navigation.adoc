@@ -1,0 +1,5 @@
+The side navigation displays navigation structures with up to two levels that link to different pages. It consists of two parts:
+//Two levels? Not clear to me what this means. The two parts mentioned below?
+
+Main navigation section:: Upper part of the side navigation containing links to pages in the user's current work context.
+Utility section:: Lower part of the side navigation containing links to additional information, such as communities or documentation.

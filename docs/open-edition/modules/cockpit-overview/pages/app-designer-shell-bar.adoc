@@ -1,0 +1,31 @@
+= Shell bar
+
+include::ROOT:partial$shell-bar.adoc[]
+
+image:app-designer-user-interface-shell-bar.png[width=800]
+
+The shell bar includes the following actions and functions:
+
+Application:: Open, create, delete, or copy an applications.
+Import or export applications, or refresh the master data.
+Display/Edit:: Toggle *Edit* or *Display* mode.
+Activate:: Save and activate your application. This saves changes and restarts the preview with all changes applied.
+Save:: Save your adaptive application.
+Run:: Run a preview of the application in a new browser tab.
+Screen views:: Switch pane layout.
++
+image:appdesigner-views-stack.png[width=45] Toggle the view of the component library and the application tree. Display them stacked in one pane or display them in panes side by side.
++
+image:appdesigner-views-switch.png[width=45]
+Switch the preview pane with the properties pane.
++
+image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
+Hide the properties pane.
+
+== Related topics
+
+* xref:app-designer-user-interface-at-a-glance.adoc[]
+* xref:app-designer-component-library.adoc[]
+* xref:app-designer-application-tree.adoc[]
+* xref:app-designer-preview.adoc[]
+* xref:app-designer-properties.adoc[]
