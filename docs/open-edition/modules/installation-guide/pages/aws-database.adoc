@@ -42,6 +42,8 @@ Easy creation does not show the *Estimated monthly costs*.
 .. Under *Resources*, click *DB Instances*.
 .. To see the details of your database, click on the *DB identifier* of your database.
 
+NOTE: Information about the deployment options (Multi-AZ, LB) can be found https://aws.amazon.com/rds/features/multi-az/?nc1=h_ls[here].
+
 NOTE: Do not close this tab. You need this information in the next steps.
 
 == Results
