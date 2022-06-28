@@ -1,0 +1,19 @@
+= Cockpit perspectives
+
+As there are many services on divergent topics in the Cockpit, you can filter which services you see, dependent on your role and what you want to see.
+
+To change perspectives, click *All Services* in the top right corner of the shell bar in the Cockpit.
+
+image::cockpit-perspectives.png[,200]
+//Helle: Necessary?
+
+The following perspectives are available:
+
+All Services:: Shows all services available in the Cockpit.
+Developer:: Shows only the services that you need for developing and testing apps.
+No-Code Composition:: Shows only the services that you need when you want to create an app without writing any code.
+//Helle: ...you need to create...? Makes it shorter.
+Designer:: Shows only the services that you need when you want to change the design and layout of your app.
+//Helle: ...you need to change...?
+DevOps:: Shows only the services that you need when you want to manage and monitor apps.
+//Helle: ...you need to manage and monitor...?

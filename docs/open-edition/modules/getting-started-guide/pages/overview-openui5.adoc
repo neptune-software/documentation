@@ -1,0 +1,79 @@
+= Open UI5 framework
+
+//TODO: Move this topic to the App Designer
+
+
+Open UI5 is the base for all UI artifacts and their functionalities.
+
+.Example: `Date picker`
+We want users to open a calendar and select a date.
+
+The name of the artifact is `sap.m.DatePicker`.
+In the _App Designer_, the default name of the artifact is `oDatePicker`.
+
+On the page, the `oDatePicker` artifact is an input field that opens a calendar and allows the user to select a date.
+
+Building on this example, you can add a shell, app and page as parent artifacts to the `DatePicker`.
+Now you can see the date picker inside the app.
+
+This shell–app–page structure is the most common foundation for apps within the _App Designer_ and represents an aggregation.
+
+== Aggregations
+An aggregation is a parent-child relationship between two UI elements.
+
+The shell-app–page structure is an aggregation where you can put as many child artifacts within the page as you want.
+
+IMPORTANT: There are aggregations that do not work and cause errors. *Example*: Inserting a Slider component directly in a list cause an error stating that a Slider is not a valid aggregation for a list. However, a list can contain a number of children, such as a `StandardListItem`. This will not cause problems.
+
+.Example: `IconTabBar`
+There is an `IconTabBar` artifact with three `IconTabFilters`, of which one contains a text component.
+
+//screenshot to be added
+In this example, there is a `MenuButton` parent which contains a `Menu` artifact as child.
+Within that child, there are five `MenuItem` children artifacts, with two of them as sub-children to a parent's `MenuItem`.
+
+This produces the `Menu` button that reflects the same structure.
+
+.Example: `Table`
+The table is built using `sap.m.table` as parent, with `sap.m.Column` artifacts as children alongside a `ColumnListItem`. It contains five `Text` artifacts.
+
+You can also generate these structures automatically using wizards, such as with this table.
+
+== Events
+Many of the artifacts within the UI5 library contain events.
+
+.Example: `Button`
+A `Button` artifact has a `Press` event.
+Within the event, you can write any JavaScript functionality you want.
+The event runs every time the button is pressed.
+In this example, the button sends the app to the `nextPage`, sets a `Lists` visibility property to `True` and shows a message on the screen.
+//screenshot to be added
+
+.Example: `SearchField`
+The `SearchField` component has a `LiveChange` event.
+The `LiveChange` event is triggered everytime a change is made in the field, such as a key being pressed.
+In this event, we have implemented a search on a list, so each key press updates the list with the search results based on what is typed.
+
+You can always click on the properties of the components to view information about them.
+Here you can see a description of each event and when it is triggered.
+//screenshot to be added
+
+== Bindings
+Binding is the ability to link data to specific parts of the UI components.
+
+.Example
+There is a list with an `ObjectListItem` child artifact.
+You can send an array of objects to the underlying data model of the list.
+
+Within the `ObjectListItem` child component, you can bind properties.
+Here we have bound the `Intro` and `Title` properties to the `Name` and `CustomerNumber` keys of our data set.
+
+This results in a list that automatically generates the same number of rows as there are objects in the array, with each row showing the values based on the bounded keys.
+
+After these bindings are set up, your components will always reflect the data automatically.
+That means, only two objects are returned instead.
+You can see that the list reflects only these two rows.
+//screenshot to be added
+
+== Related topics
+* xref:cockpit-overview:app-designer.adoc[App Designer]

@@ -1,0 +1,43 @@
+= Cockpit settings
+
+Open the Cockpit settings by clicking on your username in the top right corner in the shell bar.
+
+In the Cockpit and most services, you see Cockpit settings and code editor settings. In editor services, for example, the _App Designer_ and the _Script Editor_, you only see code editor settings.
+
+You can change the following parameters:
+
+== Cockpit
+
+Theme:: Choose between `light` and `dark` mode.
+Changes are applied instantly.
+
+Place Cockpit action buttons to the left:: Activate to move action buttons, for example, *add* or *start*, to the left side of your interface.
+By default, they are placed on the right side.
+This setting is not available in editors.
+
+== Code Editor
+
+Font size:: Set the font size.
+Available sizes are 12-18 px.
+
+Font Family:: Only available in editors.
+Enter a font family.
+Font Ligature:: Check or uncheck to enable ligatures in text.
+
+Word wrap:: Decide if there is a scroll bar in editors when a code line gets too long or if it stops at a predefined line. Available properties are:
+* `Off`: There is no word wrap. The scroll bar adjusts to your screen size.
+* `On`: There is no scroll bar. Wrap depends on the pane width.
+* `Word wrap column`: There is a fixed width. If the length of the text exceed your screen size, a scroll bar appears.
+* `Bounded`: There is the same width as with `Word wrap column` but the text wraps when the pane width of your screen size fall below this width.
+
+Show Folding Controls:: Decide how you want to see folding controls for code sections, for example, for loops or if statements.`Always` shows them permanently, `Mouse over` shows them only when hovering over the gap between line numbers and code.
+
+Scroll Beyond Last Line:: Activate to enable scrolling beyond the last line of code, without empty lines. This only applies when the code is longer than the pane length.
+
+Enable Minimap:: Activate to show a miniature version of the code in the script editing pane. Use the minimap to see where you are in the code.
+
+Format On Paste:: Check or uncheck.
+
+Format on Type:: Check or uncheck.
+
+Change Password:: Click to open a new dialog where you can set a new password.
