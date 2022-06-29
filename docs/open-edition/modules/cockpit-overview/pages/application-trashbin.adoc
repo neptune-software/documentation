@@ -1,3 +1,4 @@
+////
 = Application Trashbin
 
 _Application Trashbin_ provides an overview of your deleted applications.
