@@ -12,7 +12,7 @@ In this topic, you learn how to configure the connection to GitHub.
 image::development-package-git.png[,800]
 +
 NOTE: This tab only shows app if you have configured a connection to GitHub in the *General* tab.
-+
+
 
 === Settings
 
