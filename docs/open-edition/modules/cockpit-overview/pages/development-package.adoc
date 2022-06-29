@@ -1,12 +1,12 @@
 = image:development-package.png[width=100, link=development-package.png] Development Package
 
 In _Development Package_, you organize and group artifacts.
-These artifacts, for example, API, Apps, or Themes, can be assigned to a package.
-Also, you can do the following:
+These artifacts, for example, API, Apps, or Themes, can be assigned to a package for better handling.
 
-* Create new packages, see (...)
-//See package-create-new.adoc[]
-* Import packages from a remote Git repository, see (...)
-//See package-import-git.adoc[]
+When setting up new artifacts in other services, for example, the _App Designer_, the _Adaptive Designer_, or the _API Designer_, you can often choose to have that artifact become part of a specific package.
+Packaging facilitates the handling of multiple artifacts that behave in a similar way.
+
+* xref:package-create-new.adoc[]
+* xref:package-import-git.adoc[]
 * Configure your CI/CD using _Development Packages_, see (...)
 //See package-configure-cicd.adoc[], content from https://community.neptune-software.com/blogs/using-development-package

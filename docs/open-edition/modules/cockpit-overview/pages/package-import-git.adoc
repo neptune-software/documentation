@@ -1,6 +1,6 @@
-= Add a new development package
+= Import a development package from Git
 
-In this topic, you learn how to create a new development package.
+In this topic, you learn how to clone a new development package from git.
 
 == Prerequisites
 * There are no prerequisites
@@ -10,17 +10,10 @@ In this topic, you learn how to create a new development package.
 +
 *Result*: The list of packages opens.
 +
-. Click *Add*.
-+
-*Result*: A new window opens.
-+
-. Enter a *Name* and a *Description* for the package.
-. Click *Enable* in the *Git and CI/CD* section to configure the connection to a remote git repository.
-+
-image::development-package-add.png[,800]
-. Click *Update*.
+. Click *Import*.
 +
 *Result*: A new dialog opens.
++
 . Enter the URL of the repository.
 . Click *Configure authentication* to set your personal authentication to the remote repository.
 +
@@ -31,9 +24,9 @@ image::development-package-add.png[,800]
 . Close both dialogs with *Ok*.
 . Click *Save*.
 
-
 == Results
-* You have added a new development package.
+* You have imported and cloned a development package from a remote git repository.
+
 
 == Next steps
 * Configure a connection to GitHub in xref:package-git-configure.adoc[]
