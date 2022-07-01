@@ -1,5 +1,5 @@
 .Overview of Neptune DXP - Open Edition
-* xref:overview:overview-openedition.adoc[Overview of Neptune DXP - Open Edition]
+* xref:overview:overview.adoc[]
 * xref:overview:development-process-overview.adoc[]
 * xref:overview:security-overview.adoc[]
 ** xref:overview:security-features-overview.adoc[]
@@ -50,10 +50,18 @@
 *** xref:installation-guide:kubernetes.adoc[]
 * xref:getting-started-guide:where-is-everything.adoc[Where is everything and how is it all connected]
 ** xref:getting-started-guide:overview.adoc[]
-** xref:getting-started-guide:process-overview.adoc[]
-//** xref:cockpit-overview:cockpit-components.adoc[Cockpit components overview]
+*** xref:getting-started-guide:overview-runtime.adoc[]
+*** xref:getting-started-guide:overview-comparing.adoc[]
+*** xref:getting-started-guide:process-overview.adoc[]
+** xref:cockpit-overview:cockpit.adoc[]
+*** xref:cockpit-overview:cockpit-settings.adoc.adoc[]
+*** xref:cockpit-overview:cockpit-search.adoc[]
+*** xref:cockpit-overview:cockpit-perspectives.adoc[]
+
+
+
 * xref:getting-started-guide:first-steps.adoc[First steps]
-** xref:cockpit-overview:appdesigner-at-a-glance.adoc[]
+** xref:cockpit-overview:appdesigner-user-interface-at-a-glance.adoc[]
 ** xref:getting-started-guide:ways-to-create-an-app.adoc[]
 *** xref:getting-started-guide:app-from-scratch.adoc[]
 *** xref:getting-started-guide:app-with-template.adoc[]
@@ -68,7 +76,7 @@
 .Cockpit documentation
 * xref:cockpit-overview:cockpit-components.adoc[]
 //Development
-* xref:cockpit-overview:development-overview.adoc[Development]
+* xref:cockpit-overview:development.adoc[Development]
 ** xref:cockpit-overview:store.adoc[Store]
 ** xref:cockpit-overview:development-package.adoc[Development package]
 ** xref:cockpit-overview:adaptive-designer.adoc[Adaptive designer]
