@@ -33,7 +33,7 @@ cf login -a API Endpoint
 +
 [source,asciidoc]
 ----
-cf push App Name -m 4096 --docker-image docker.io/neptunesoftware/planet9:latest
+cf push App Name -m 4096M --docker-image docker.io/neptunesoftware/planet9:latest
 ----
 +
 NOTE: While deploying, your command prompt or terminal shows an error message. You can ignore this error and continue following the steps. If your command prompt or terminal stays in a loop, press Ctrl+C to break it.
