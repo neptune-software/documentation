@@ -1,6 +1,6 @@
 = Create a background job
 
-In this guide, you learn how to create a background job with one or more sever scripts that you can integrate in an application.
+In this guide, you learn how to create a background job with one or more server scripts that you can integrate in an application.
 
 //Helle@Neptune: I didn't find anything on how to integrate a job. That is worth a topic. I guess, you do it in App Designer when creating an application?
 
