@@ -11,6 +11,9 @@
 ////
 
 .Getting Started Guide
+* xref:getting-started-guide:overview.adoc[]
+** xref:getting-started-guide:overview-runtime.adoc[]
+** xref:getting-started-guide:overview-comparing.adoc[]
 * xref:installation-guide:installation.adoc[]
 ** xref:installation-guide:installation-overview.adoc[]
 ** xref:installation-guide:system-requirements.adoc[]
@@ -55,6 +58,10 @@
 ** xref:getting-started-guide:overview.adoc[]
 ** xref:getting-started-guide:process-overview.adoc[]
 //** xref:cockpit-overview:cockpit-components.adoc[Cockpit components overview]
+* xref:cockpit-overview:cockpit.adoc[]
+** xref:cockpit-overview:cockpit-settings.adoc[]
+** xref:cockpit-overview:cockpit-search.adoc[]
+** xref:cockpit-overview:cockpit-perspectives.adoc[]
 * xref:getting-started-guide:first-steps.adoc[First steps]
 ** xref:cockpit-overview:appdesigner-at-a-glance.adoc[]
 ** xref:getting-started-guide:ways-to-create-an-app.adoc[]
@@ -73,7 +80,7 @@
 .Cockpit documentation
 * xref:cockpit-overview:cockpit-components.adoc[Cockpit components overview]
 //Development
-* xref:cockpit-overview:development-overview.adoc[Development]
+* xref:cockpit-overview:cockpit-development.adoc[Development]
 //** xref:cockpit-overview:store.adoc[Store]
 //** xref:cockpit-overview:development-package.adoc[Development package]
 ** xref:cockpit-overview:adaptive-designer.adoc[Adaptive designer]
