@@ -1,0 +1,29 @@
+= Shell bar
+
+include::ROOT:partial$shell-bar.adoc[]
+
+image::adaptive-designer-user-interface-shell-bar.png[width=800]
+
+The shell bar includes the following actions and functions:
+
+Application:: Open, create, delete, or copy adaptive applications.
+Import data sources from MS Excel or refresh the master data.
+Display/Edit:: Toggle *Edit* or *Display* mode.
+Save:: Save your adaptive application.
+Screen views:: Switch pane layout.
++
+image:appdesigner-views-stack.png[width=45] Toggle the view of the component library and the application tree. Display them stacked in one pane or display them in panes side by side.
++
+image:cockpit-overview:appdesigner-views-switch.png[width=45]
+Switch the preview pane with the settings/properties pane.
++
+image:cockpit-overview:appdesigner-views-hideUI.png[width=45]
+Hide the settings/properties pane.
+
+== Related topics
+
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-component-library.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]
+* xref:adaptive-designer-preview.adoc[]
+* xref:adaptive-designer-properties.adoc[]

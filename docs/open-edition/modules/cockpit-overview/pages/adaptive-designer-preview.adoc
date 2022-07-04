@@ -1,0 +1,13 @@
+= Preview
+
+include::ROOT:partial$preview-pane.adoc[]
+
+image::adaptive-designer-user-interface-preview.png[width=800]
+
+In the _Adaptive Designer_ preview, you can see the results from editing selected components in the application tree.
+
+== Related topics
+
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]
+//TODO Leonie: link to relevant tasks
