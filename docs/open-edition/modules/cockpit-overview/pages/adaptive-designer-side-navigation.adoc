@@ -25,7 +25,7 @@ The _Adaptive Designer_ utility section links to the following additional inform
 == Related topics
 
 * xref:adaptive-designer-user-interface-at-a-glance.adoc[]
-* xref:adaptive-designer-translation.adoc[]
+//* xref:adaptive-designer-translation.adoc[]
 
 //TODO Leonie: fill with links to pages
 
