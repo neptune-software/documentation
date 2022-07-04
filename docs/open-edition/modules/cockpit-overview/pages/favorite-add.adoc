@@ -1,6 +1,8 @@
-= Add favourite tiles to a launchpad
+= Add favorite tiles to a launchpad
+//@Fabian and @Neptune: we have a general issue with this service. Its name is Favorite Management, its description says favourite. We need to discuss spelling and change UI. Since the styleguide suggests AE, I changed it accordingly below.
+//Addition after team meeting: add to Jira
 
-In this topic, you learn how to add favourite tiles to the launchpads of users.
+In this topic, you learn how to add favorite tiles to the launchpads of users.
 
 == Prerequisites
 
@@ -8,28 +10,34 @@ In this topic, you learn how to add favourite tiles to the launchpads of users.
 
 == Procedure
 
-. In the Cockpit, go to *Administration* and click _Favourite Management_.
+. In the Cockpit, go to *Administration* and click _Favorite Management_.
 +
 *Result*: The selection window opens.
+//@Fabian: i'd say Favorite Management is the title of this page rather than selection. If there were more tabs as there are in other services, selection would be a tab's name. Favorite Management dialog?
 +
-. In *Launchpad*, choose from the drop-down menu the launchpad you want to add favourite tiles to.
+. In *Launchpad*, choose from the drop-down menu the launchpad you want to add favorite tiles to.
+//@Fabian: you do not have to use the drop-down, as I see it. In *Launchpad*, select the launchpad you want to...
 . Select a *User* from the list.
+//@Fabian: I can start without selecting a user. And more than one. Consequences?
 . Click *Start*.
 +
-*Result*: A new window with the favoured tiles for the launchpad opens.
+*Result*: A new window with the favored tiles for the launchpad opens.
+//not a window but a page. We could also refer to the content -> You see a table with favored tiles per user fo the launchpad.
 +
-. In *Tiles*, select a tile from the drop-down menu
-. In *Action*, click *Add tile(s) to favourites* to add the tiles to the list below.
+. In *Tiles*, select a tile from the drop-down menu.
+//select one or more tiles?
+. In *Action*, click *Add tile(s) to favorites* to add the tiles to the list below.
 . Click *Save*.
 +
 NOTE: You can import a list of tiles in `csv` format and use them here.
 +
-NOTE: You can export your list of favoured tiles in `csv` format.
+NOTE: You can export your list of favored tiles in `csv` format.
+//@Fabian: Notes not relevant for task. info already in concept, i think that's enough.
 
 == Results
 
-* You have added favourite tiles to a launchpad.
+* You have added favorite tiles to a launchpad.
 
 == Related topics
 
-* xref:favourite-management.adoc[Favourite Management]
+* xref:favourite-management.adoc[Favorite Management]

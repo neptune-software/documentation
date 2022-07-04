@@ -1,6 +1,7 @@
-= image:favourites-management.png[width=100] Favourite Management
+= image:favourites-management.png[width=100] Favorite Management
+//@Fabian: changed spelling to AE
 
-The _Favourite Management_ lets you add tiles as favourites to the launchpads of other users.
+The _Favorite Management_ lets you add tiles as favorites to the launchpads of other users.
 You can import and export `csv` lists of users, tiles, and tile groups.
 
 == Related topics

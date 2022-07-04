@@ -1,6 +1,7 @@
 = image:launchpad-trace@2x.png[width=100] Launchpad
 
-With the _Launchpad_, you can create, design, and maintain launchpads.
+With the _Launchpad_ service, you create, design, and maintain launchpads.
+
 A launchpad is a browser-based administration tool and the homepage for DXP - Open Edition applications on mobile and desktop devices.
 
 A launchpad displays tiles that are part of a tile group.
@@ -10,14 +11,17 @@ Tiles can display live status indicators, for example, a number of open tasks.
 A launchpad supports role-based access and displays tiles according to user roles.
 
 The following image shows an example of how a launchpad looks like.
+//@Fabian:...example of a launchpad.?
 
 image::launchpad_example1.png[width=800]
 
 == Download
-The launchpad is not part of the DXP - Open Edition installation package.
-You can download launchpads via the xref:store.adoc[Store].
+Launchpads are not part of the DXP - Open Edition installation package.
+You can download launchpads from the xref:store.adoc[Store].
 
 == How launchpad objects are connected
+//Reduce to Launchpad objects? Or maybe Launchpad framework?
+
 A launchpad includes the following objects:
 
 * Applications
@@ -27,9 +31,12 @@ A launchpad includes the following objects:
 The following image shows the process of how single applications become part of a launchpad.
 
 image::launchpad_connected_objects.png[width=800]
+//@Fabian: I'd redo the image: "cockpit" is irrelevant and confusing (why no cockpit in front of App Designer?) General idea is good though.
 
 . Applications created in the _App Designer_ are connected to tiles.
-. Tiles are bundled in a tile group. A tile must always be connected to a tile group to maintain a parent-child relationship on the launchpad. Tile groups can be assigned to other tile groups to maintain a multi-level hierarchy.
+. Tiles are bundled in a tile group.
+A tile must always be assigned to a tile group to maintain a parent-child relationship on the launchpad.
+Tile groups can be assigned to other tile groups to maintain a multi-level hierarchy.
 . Tile groups are added to the launchpad.
 
 == User roles and user groups
@@ -58,6 +65,7 @@ A launchpad comes with an assignment mechanisms that connects objects to one ano
 
 |Assign a tile and its intent to a tile group    |When users click the tile on the launchpad, the intent resolves into a URL and navigates to the app     |Go to *Administration* > xref:tiles.adoc[Tiles].
 |===
+//@Fabian: no fullstops after sentences in "Assign why"?
 
 == Related topics
 * xref:launchpad.adoc[]
