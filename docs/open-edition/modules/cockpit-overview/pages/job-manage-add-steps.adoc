@@ -1,6 +1,7 @@
 = Add steps to a job
 
-Learn how to add one or more server scripts as steps to a job and define how and in which order server scripts are executed when the job is triggered.
+Learn how to add one or more server scripts as steps to a job and define how and in which order these server scripts are executed when the job is triggered.
+//In this topic, you learn how...
 
 == Prerequisites
 
@@ -25,6 +26,7 @@ include::ROOT:partial$tip-filter-by-me.adoc[]
 . In *Error Handling*, define the next action in case of a server script error.
 . Repeat for each server script you want to include in the job.
 . Click *Save*.
+//Fabian: What about the "Run" button next to the "Add"-Button?
 
 == Results
 * You have added one or more steps to a job.

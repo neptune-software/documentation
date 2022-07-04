@@ -1,17 +1,25 @@
 = Configure a job
 
 Learn how to configure a job and define error notifications.
+//In this topic, you learn how...
+//You do not define error notifications here, do you? It is only about setting up mail addresses.
+
+//Prerequisite section missing (even if there are no)
 
 == Procedure
 
 . In the Cockpit, navigate to Tools and click *Job Manage*.
+//Service names in italics
 . Click *Add* to add a new job.
 +
 *Result*: The Job Manage configuration dialog opens.
+//I would call it a "window", according to the terminology list
 +
 include::ROOT:partial$name-description-package.adoc[tags=*;!package]
+//Why not including the "Package" step from the partial here?
 . Assign the job to a package of artifacts in *Package*.
 . If you want to start the job now, activate *Active*.
+//I would not say "now", but "after you created it"
 . In *Error Notification*, add email addresses that you want to notify in case of a job error.
 . Click *Save*.
 

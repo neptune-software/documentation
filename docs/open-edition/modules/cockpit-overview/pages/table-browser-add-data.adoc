@@ -1,6 +1,7 @@
 = Add data records to a database table
 
 Learn how to add data records manually to a database table that you defined before in _Table Definition_.
+//In this topic, you learn how...
 
 NOTE: You can import data from your local computer instead of adding it manually.
 Follow the steps, *Run* the database table and click *Import* on the toolbar.

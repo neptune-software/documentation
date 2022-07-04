@@ -1,4 +1,4 @@
-= image:table-browser-icon.png[width:100]Table Browser
+= image:table-browser-icon.png[width:100] Table Browser
 
 With _Table Browser_, you can view and maintain data of database tables.
 The _Table Browser_ service shows both publicly available database tables and those you created with _Table Definition_.

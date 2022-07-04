@@ -1,10 +1,11 @@
 = Define schedule of a job
 
 Learn how to define the schedule and run intervals of a job.
+//In this topic, you learn how...
 
 == Prerequisites
 
-* You have xref:job-manage-create-job.adoc[configured a job].
+* You have xref:job-manage-create-job.adoc[configured a job]
 
 == Procedure
 
