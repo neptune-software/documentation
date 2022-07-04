@@ -1,0 +1,1 @@
+The shell bar is the uppermost part of the user interface. It is always visible and gives access to various actions and functions.

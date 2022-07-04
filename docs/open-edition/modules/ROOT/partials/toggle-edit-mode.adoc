@@ -1,0 +1,7 @@
+[TIP]
+====
+You can save your changes any time in the process and return later.
+To continue your task, click *Edit* on the top of the page.
+====
+
+//wording fitting?
