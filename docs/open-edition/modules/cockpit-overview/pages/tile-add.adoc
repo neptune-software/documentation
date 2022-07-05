@@ -10,19 +10,23 @@ In this topic, you learn how to add a new tile.
 
 . In the Cockpit, go to *Administration* and click _Tile_.
 +
-*Result*: The list of existing tiles open.
+*Result*: The table of existing tiles open.
 . Click *Add*.
 +
 *Result*: The settings of the new tile open.
+//see comment mobile-client-add
 
 === General tab
 //Fabian@Helle: Not sure if to write "tab" in the title (and in all other titles here). It contradicts to the GUI but it is necessary to distinguish it from the "general" SECTION right below.
+//@Fabian: I see what you mean. I added a general note on the structure of these tasks in mobile-client-add. But for this in general I'd say it's fine. I avoided mentioning the sections but still referred to the tabs as tabs in the sense of "You start in the General tab" or "Navigate to the Security tab".
 . In the *General* section, you define the settings of the tile with regard to system internal processes. *Name* refers to the name the artifact has in the system.
 . In the *Information* section, you provide general information about your tile. The information given here are displayed on the tile on the launchpad.
 
 === Layout tab
+//@Fabian: When everything is optional, I'd not use "can". Maybe have an introductory sentence, if anything at all. With this many modal verbs, it becomes rather long and repetitive.
 . In the *Layout* section, you define the general layout of your tile and how it is displayed on the launchpad, including background, width, and height.
-. In the *Tile Icon/Image* section, you can provide an icon for your tile. Icons can also be appropriately sized images. Image or icon are derived from the media library.
+. In the *Tile Icon/Image* section, you can provide an icon for your tile. Icons can also be appropriately sized images.
+Image or icon are derived from the media library.
 . In the *Tile Background Image* section, you can choose and configure a background image for your tile.
 . In the *Hide Tile On* section, you can decide whether your tile should not be displayed on a certain device.
 . In the *Hide Launchpad Header On* section, you can decide whether the header of the launchpad should be hidden on a certain device.
@@ -38,7 +42,8 @@ In this topic, you learn how to add a new tile.
 In the *Sidepanel* section, you choose an application that is displayed on the sidepanel of your tile.
 
 === Navigation tab
-. In the *Navigation* section, you can define semantic objects and actions that are performed on these objects. Semantic objects can be business entitys, for example, `customer` or `employee`.
+. In the *Navigation* section, you can define semantic objects and actions that are performed on these objects.
+Semantic objects can be business entities, for example, `customer` or `employee`.
 . In the *Limit Browser Support* section, you can select specific browsers that should be supported.
 
 === Documentation tab

@@ -1,28 +1,30 @@
 = Disable tile blackout
 
-In this topic, you learn how to declare that a tile is not under maintenance anymore and can be reached again.
+In this topic, you learn how to declare that a tile is no longer under maintenance and can be reached again.
 
 == Prerequisites
 
-* You have enabled tile blackout and stop a tile from running in xref:tile-blackout-enable.adoc[].
+* You have enabled tile blackout and stopped a tile from running in xref:tile-blackout-enable.adoc[].
+//Either: You have xref:tile-blackout-enable.adoc[enabled tile blackout and stopped a tile from running].
+//Or: You have enabled tile blackout and stopped a tile from running with xref:tile-blackout.adoc[].
 
 == Procedure
 
 . In the Cockpit, go to *Administration* and click _Tile Blackout_.
 +
-*Result*: The list of all tiles in the system opens.
-. Click on the tile you want to continue running.
+*Result*: The table of all tiles in the system opens.
+. Click on the tile you want to restart.
 +
-NOTE: You can discover tiles that are not running by the status `blackout` in the list.
+NOTE: You can discover tiles that are not running by the status `blackout` in the table.
 +
-*Result*: A new window with the most important data of the tile opens.
+*Result*: A new window with general data about the tile opens.
 . Click *Edit*.
 . In the *Blackout* section, toggle the *Enable* button to `No`.
 . Click *Save*.
 
 == Results
 
-* You have activated your tile so users can work with it via the launchpad again.
+* You have activated your tile so users can use it via the launchpad again.
 
 == Related topics
 

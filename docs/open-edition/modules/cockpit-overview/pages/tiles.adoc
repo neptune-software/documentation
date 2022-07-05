@@ -22,6 +22,7 @@ Below the tile area, tiles can include a link.
 Links consist of a title and an optional subtitle.
 Most tile types can be converted to links while links can be converted to tiles at any time.
 Users can personalize their launchpad by selecting the tiles for the applications they want to use from the store.
+//@Fabian: what do I use links for in this context? Is that visible in the screenshot?
 
 == Responsiveness
 The number of tiles that a launchpad shows depends on the screen resolution.
@@ -36,6 +37,7 @@ The tile size for tablets and desktop devices is the same.
 The example below shows how the tiles rendered for smaller screen size.
 
 image::tiles_example2.png[width=400]
+//@Fabian: I'd like a side by side comparison, but it's not necessary.
 
 == Related topics
 * xref:tile-add.adoc[]

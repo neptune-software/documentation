@@ -8,20 +8,28 @@ In this topic, you learn how to add a new launchpad.
 
 == Procedure
 
-. In the cockpit, go to *Administration* and click _Launchpad_.
+. In the Cockpit, go to *Administration* and click _Launchpad_.
 +
-*Result*: The list of existing launchpads open.
+*Result*: The table of existing launchpads open.
 . Click *Add*.
 +
 *Result*: The settings of the launchpad open.
+//see comment in other tasks
 
 === General tab
 //Fabian@Helle: Same question here about "tab" in the title.
-. In the *General* section, you define general information about your launchpad. *Name* refers to the name the launchpad artifact has in the system, while *Title* refers to the displayed name of the launchpad. A *Launchpad Application* can also be downloaded from the store, for example, `planet9_launchpad_standard`.
-. In the *Blackout* section, you can enable messages and provide them to the user. Blackout messages are displayed on the launchpad when a chosen application cannot be reached.
-. If you want only one app to be shown on your launchpad, you can choose this app in the *Single App Launchpad* section. All other apps and tiles that might have been selected will be hidden.
-. In the *Login* section, you define methods of how users login to your launchpad. You can create login scenarios in the authentication tab of the _System Settings_.
-. In the *UI5* section, you can choose the UI5 version your launchpad uses. You can also choose a UI5 theme.
+//see comment in mobile-client-add
+. In the *General* section, you define general information about your launchpad.
+*Name* refers to the name the launchpad artifact has in the system, while *Title* refers to the displayed name of the launchpad.
+A *Launchpad Application* can also be downloaded from the store, for example, `planet9_launchpad_standard`.
+. In the *Blackout* section, you can enable messages and provide them to the user.
+Blackout messages are displayed on the launchpad when a chosen application cannot be reached.
+. If you want only one app to be shown on your launchpad, you can choose this app in the *Single App Launchpad* section.
+All other apps and tiles that might have been selected will be hidden.
+. In the *Login* section, you define methods of how users login to your launchpad.
+You can create login scenarios in the authentication tab of the _System Settings_.
+. In the *UI5* section, you can choose the UI5 version your launchpad uses.
+You can also choose a UI5 theme.
 . In the *Settings* section, you can change general settings regarding the behaviour of your launchpad.
 . In the *Main Menu Display* section, you can choose whether the menu is displayed in the header.
 . In the *Active Apps Display* section, you can change the way of how apps you are currently working with are displayed.
@@ -29,7 +37,8 @@ In this topic, you learn how to add a new launchpad.
 . In the *External Users* section, you can specify whether and under what conditions external users can log in to your launchpad.
 
 === Layout tab
-You can configure the layout of your launchpad. You can have more than one layout style.
+You can configure the layout of your launchpad.
+You can have more than one layout style.
 
 . Click *Add* to add a new layout style to your launchpad.
 . Click *Save* to see a live preview in the right pane.
@@ -43,7 +52,8 @@ You can define the layout and display mode of your PWA, set an autolock when the
 You can specifically describe your header with dedicated javascript code.
 
 === Tile group tab
-In the *Tile group* tab, you add tile groups to your launchpad. The chosen hierarchy is reflected on the launchpad.
+In the *Tile group* tab, you add tile groups to your launchpad.
+The chosen hierarchy is reflected on the launchpad.
 
 . Click *Add* to open the dialog with the available tile groups in the system.
 . Click on a tile group.
@@ -57,7 +67,9 @@ You can enable multiple *Enhancements* for your launchpad and adapt them with cu
 Click on an enhancement and toggle the *Activate* button to activate it.
 
 === Chatbot tab
-You can enable a chatbot in your launchpad. This can either be a chatbot from IBM (IBM Watson Assistant) or SAP (SAP Conversational AI). You need to have a corresponding account to connect to the chatbot.
+You can enable a chatbot in your launchpad.
+This can either be a chatbot from IBM (IBM Watson Assistant) or SAP (SAP Conversational AI).
+You need to have a corresponding account to connect to the chatbot.
 
 
 == Related topics

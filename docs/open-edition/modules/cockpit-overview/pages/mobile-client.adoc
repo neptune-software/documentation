@@ -1,6 +1,6 @@
 = image:mobile-client-icon.png[width=100] Mobile Client
 
-A mobile client is the mobile version of a launchpad. In the _Mobile Client_, you create and maintain a launchpad for mobile devices.
+A mobile client is the mobile version of a launchpad. With _Mobile Client_, you create and maintain a launchpad for mobile devices.
 
 The _Mobile Client_ uses Apache Cordova plugins to create mobile applications.
 Apache Cordova provides a way to develop mobile applications using standard web technologies, for example, HTML5, CSS3, and JavaScript.
@@ -13,7 +13,7 @@ cordova-plugin-device:: Get device information.
 cordova-plugin-dialogs:: Use native dialog UI elements.
 cordova-plugin-file:: Read/write files on the device.
 cordova-plugin-file-opener2:: Open a file on your device file system with its default application.
-cordova-plugin-geolocation::  Access GPS data.
+cordova-plugin-geolocation:: Access GPS data.
 cordova-plugin-inappbrowser:: Open an in-app browser window.
 cordova-plugin-media:: Record and play audio on the device.
 cordova-plugin-media-capture:: Capture audio, video, and images.
@@ -29,7 +29,7 @@ cordova-plugin-statusbar:: Control the device status bar.
 
 == Related topics
 * xref:mobile-client-add.adoc[]
-* https://cordova.apache.org/docs/en/latest/[Apache Cordova documentation].
+* https://cordova.apache.org/docs/en/latest/[Apache Cordova documentation]
 * xref:administration.adoc[]
 
 

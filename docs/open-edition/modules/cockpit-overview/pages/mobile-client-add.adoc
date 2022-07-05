@@ -5,17 +5,32 @@ In this topic, you learn how to add and configure a mobile client.
 == Prerequisites
 
 * You have created a launchpad in xref:cockpit-overview:launchpad.adoc[].
+//@Fabian: Did you want to link to the Launchpad service?
+//Either: You have xref:cockpit-overview:launchpad.adoc[created a launchpad].
+//Or: You have created a launchpad with xref:launchpad-concept.adoc[Launchpad].
 
 == Procedure
 
 . In the Cockpit, go to *Administration* and click _Mobile Client_.
 +
-*Result*: The list of existing mobile clients open.
+*Result*: The table of existing mobile clients open.
 . Click *Add*.
 +
 *Result*: The settings of the mobile client open.
+//@Fabian: we should talk about style and terminology here. Our list doesn't help, guidelines don't help. We differ when describing this page though it is always the same. I'll add it to agenda.
 
 === General tab
+//@Fabian: to me this has a concept/reference character rather than task. Maybe like this:
+////
+In the *General* section, you define general information about your mobile client.
+
+. Enter a *Name* for your mobile client.
+. In *Launchpad*, select the launchpad you want to create a mobile client for.
+
+. In the *Author* section, provide information about the creator of the mobile client.
+//Where do name, email etc. appear?
+////
+
 . In the *General* section, you define general information about your mobile client. *Name* refers to the name the mobile client artifact has in the system. You also set the *Launchpad* you want to use with your mobile client.
 . In the *Author* section, you can provide information about the creator of the mobile client.
 
@@ -29,7 +44,7 @@ In this topic, you learn how to add and configure a mobile client.
 . In the *Common* section, you provide the *App ID*. The *App ID* is structured as follows: `com.company.identifier`. An example is `com.neptune.testapp`.
 . In the *Mobile Client Build* section, you can enable automatic updates for your app.
 . In the *Platforms* section, you can define on which systems your app should run. If you choose `Windows 10`, you have to make some additional settings.
-//TODO Neptune: What about special settings regarding Windows 11? Does they apply here as well?
+//TODO Neptune: What about special settings regarding Windows 11? Do they apply here as well?
 
 === Plugins tab
 You can add Apache Cordova plugins to your mobile client. There are three ways to add plugins:
@@ -53,6 +68,8 @@ You can enter an icon and a splashscreen for your mobile client that is derived 
 The build tab provides an overview of when this mobile client has been created.
 
 * Click *Save* when you finished editing.
+
+//@Fabian: This is quite a long topic. Having in mind what you said about the long topic with multiple sections that I had for App Designer, I suggest we do the same here and make workflow oriented rather than GUI oriented splits. We can establish a complex task with necessary steps and add optional steps.
 
 == Results
 

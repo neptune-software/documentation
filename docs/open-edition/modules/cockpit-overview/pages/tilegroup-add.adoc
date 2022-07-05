@@ -5,18 +5,21 @@ In this topic, you learn how to add and configure a new tile group.
 == Prerequisites
 
 * You have created at least one tile in xref:tile-add.adoc[].
+//see comments in other tasks
 
 == Procedure
 
 . In the Cockpit, go to *Administration* and click _Tile Group_.
 +
-*Result*: The list of existing tile groups open.
+*Result*: The table of existing tile groups opens.
 . Click *Add*.
 +
 *Result*: The settings of your new tile group opens.
+//see comments in other tasks
 
 === General tab
 //Fabian@Helle: Same question here about "tab" in the title.
+//see comments in other tasks
 . In the *General* section, you define the settings of the tile group with regard to system internal processes. *Name* refers to the name the artifact has in the system.
 . In the *Information* section, you provide general information about your tile group. The information given here are displayed on the tile group on the launchpad.
 . In the *Message* section, you can write a message of a certain information type that is shown to the user on the launchpad above your tile group.

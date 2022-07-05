@@ -1,7 +1,7 @@
 = image:mobile-debug.png[width=100, link=mobile-debug.png] Mobile Debug
 
 _Mobile Debug_ lets you debug mobile applications and trace logs generated from mobile applications.
-
+//@Fabian: all logs? Might be quite a lot for high traffic apps. Can I use filters?
 
 == Related topics
 * xref:mobile-debug-add.adoc[]
