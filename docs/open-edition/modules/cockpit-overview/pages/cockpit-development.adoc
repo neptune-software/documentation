@@ -1,5 +1,8 @@
-== Cockpit overview - Development
-image::cockpit-overv-development.png[Cockpit overview section development]
+= Cockpit overview - Development
+
+image::cockpit-overv-development.png[Cockpit overview section development, 800]
+//Helle: User icon in side navigation
+
 In the *Development* section, you find the tools you need to build your own applications.
 
 The following tools are available:
@@ -12,7 +15,7 @@ The following tools are available:
 * _Script Editor_: Code server-side scripts and use them as microservices. xref:script-editor.adoc[Learn more].
 * _Code Snippets_: Configure code snippets for _App Designer_ and _Script Editor_. xref:code-snippets.adoc[Learn more].
 * _Documentation_: Create application documentation or context-sensitive help. xref:app-documentation.adoc[Learn more].
-* _Media Library_: Store the media files you want to use within your application. xref:media-libary.adoc[Learn more].
+* _Media Library_: Store the media files you want to use within your application. xref:media-library.adoc[Learn more].
 * _NPM Modules_: Install and update node package manager modules. xref:npm-modules.adoc[Learn more].
 * _Application Trashbin_: Restore or delete applications permanently. xref:application-trashbin.adoc[Learn more].
 

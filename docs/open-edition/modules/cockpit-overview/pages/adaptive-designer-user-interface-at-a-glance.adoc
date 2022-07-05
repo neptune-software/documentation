@@ -1,0 +1,13 @@
+= Adaptive Designer user interface at a glance
+
+The _Adaptive Designer_ user interface consists of the following main elements:
+
+
+image::adaptive-designer-user-interface.png[width=800]
+
+* xref:adaptive-designer-shell-bar.adoc[]
+* xref:adaptive-designer-side-navigation.adoc[]
+* xref:adaptive-designer-component-library.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]
+* xref:adaptive-designer-preview.adoc[]
+* xref:adaptive-designer-properties.adoc[]

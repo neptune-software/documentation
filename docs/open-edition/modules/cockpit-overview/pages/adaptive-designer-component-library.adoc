@@ -1,0 +1,13 @@
+= Component library
+
+include::ROOT:partial$component-library.adoc[]
+
+image::adaptive-designer-user-interface-component-library.png[width=800]
+
+In the _Adaptive Designer_ the displayed data sources depend on the data source you have chosen to create your adaptive application.
+
+== Related topics
+
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-application-tree.adoc[]
+//TODO Leonie: link to relevant tasks

@@ -1,183 +1,191 @@
-//@Neptune. Topic not complete yet. Some of the linked topics are not written yet.
+= DXP - Open Edition cockpit: service overview
 
-= Neptune DXP - Open Edition Cockpit: Tool overview
-
-The Cockpit is the starting point where you create your applications.
-The different sections include the tools and services that you need for creating, running, testing, and maintaining applications.
-
-image::cockpit-overview.png[Cockpit Overview, 800 px]
+//Helle: Titel kürzen? An dieser Stelle sollte doch klar sein, dass man sich in der Open Edition Doku befindet?
+// Fabian: Ich hatte es absichtlich drin gelassen, wenn jemand über die Suche nach "service overview" sucht und hierher springt, dann sollte er/sie wissen, dass dies nicht die SAP-Edition ist
 
 == Development
-In the *Development* section, you find the tools you need to build your own applications.
+In the xref:development-overview.adoc[Development] service group, you find the services you need to build your own applications.
 
-image::cockpit-overv-development.png[Cockpit overview section development, 400 px]
+The following services are available:
 
-The following tools are available:
-
-* xref:store.adoc[_Store_]: Download and share application building blocks.
-* xref:development-package.adoc[_Development Package_]: Organize and group artifacts.
-* xref:connectors.adoc[_Connectors]: Publish data sources your use in the Adaptive Designer_.
-* xref:adaptive-designer.adoc[_Adaptive Designer_]: Create adaptive applications.
-* xref:app-designer.adoc[_App Designer_]: Create UI5 applications with low-code designer.
-* xref:app-editor.adoc[_App Editor_]: Create fully customizable applications.
-* xref:script-editor.adoc[_Script Editor_]: Code server-side scripts and use them as microservices.
-* xref:code-snippets.adoc[_Code Snippets_]: Configure code snippets for _App Designer_ and _Script Editor_.
-* xref:app-documentation.adoc[_Documentation_]: Create application documentation or context-sensitive help.
-* xref:media-library.adoc[_Media Library_]: Store the media files you want to use within your application.
-* xref:npm-modules.adoc[_NPM Modules_]: Install and update node package manager modules.
-* xref:application-trashbin.adoc[_Application Trashbin_]: Restore or delete applications permanently.
+* xref:store.adoc[Store]: Download and share application building blocks
+* xref:development-package.adoc[Development Package]: Organize and group artifacts
+* xref:adaptive-designer.adoc[Adaptive Designer]: Create adaptive applications
+* xref:app-designer.adoc[App Designer]: Create UI5 applications with low-code designer
+* xref:app-editor.adoc[App Editor]: Create React and Vue based applications
+* xref:script-editor.adoc[Script Editor]: Code server-side scripts and use them as microservices
+* xref:rules-engine.adoc[Rules Engine]: Define business logic with rules engine
+* xref:code-snippets.adoc[Code Snippets]: Configure code snippets for the _App Designer_ and the _Script Editor_
+* xref:app-documentation.adoc[Documentation]: Create application documentation or context-sensitive help
+* xref:media-library.adoc[Media Library]: Store the media files you want to use within your application
+//TODO Neptune: We propose to change the current description ("Upload libraries, images, splashscreens or icons") to the text above
+* xref:npm-modules.adoc[NPM Modules]: Install and update node package manager modules
+* xref:application-trashbin.adoc[Application Trashbin]: Restore or delete applications permanently
 
 == Design
-image::cockpit-overv-design.png[Cockpit overview section design, 600]
-In the *Design* section, you find the tools you need to give your application the right look.
+In the xref:design.adoc[Design] service group, you find the services you need to give your application the right look.
 
-The following tools are available:
+The following services are available:
 
-* xref:pdf-designer.adoc[_PDF Designer_]: Create templates for custom PDFs.
-* xref:theme-designer.adoc[_Theme Designer_]: Define custom CSS for the use in the Launchpad and the _App Designer_.
-* xref:theme-import.adoc[_Theme Import_]: Import themes from SAP UI Theme Designer.
-* xref:e-mail-template.adoc[_Email Template_]: Create e-mail templates.
+* xref:pdf-designer.adoc[PDF Designer]: Design PDF templates
+* xref:theme-designer.adoc[Theme Designer]: Define custom CSS for the use in _Launchpad_ and _App Designer_
+* xref:theme-import.adoc[Theme Import]: Import themes from the SAP UI _Theme Designer_
+* xref:e-mail-template.adoc[Email Template]: Create email templates
 
 == Connectivity
-image::cockpit-overv-connectivity.png[Cockpit overview section connectivity, 600]
 
-In the *Connectivity* section, you group your APIs and OData (Open Data Protocol) according to their usage.
+In the xref:connectivity.adoc[Connectivity] service group, you find services to create, test, and maintain APIs.
 
-The following tools are available:
+The following services are available:
 
-* xref:groups.adoc[_Group_]:Groups help you maintain an overview of APIs and the OData for a solution.
-* xref:api-designer.adoc[_API Designer_]: A graphical user interface to create and configure Rest API definitions.
-* xref:api-client.adoc[_API Client_]: Test the response of APIs that you created in the API Designer.
-* xref:api-trace.adoc[_API Trace_]: Shows how many API calls have been made by applications to the server.
-* xref:swagger-ui.adoc[_Swagger UI_]: Visualizes an API that you created in the _API Designer_.
-* xref:odata-source.adoc[_OData Source_]: Lets you new OData sources to a coordination package.
-* OData Mock Data_: Add and update mock data.
+* xref:groups.adoc[Group]: Groups APIs
+//TODO Neptune: There are two services named "Group" in the cockpit, the other one in the security service group, this is confusing
+* xref:api-designer.adoc[API Designer]: Create and describe APIs
+* xref:api-client.adoc[API Client]: Test APIs
+* xref:api-trace.adoc[API Trace]: View and analyze REST API performance and usage
+* xref:swagger-ui.adoc[Swagger UI]: Test APIs via Swagger UI
+* xref:odata-source.adoc[OData Source]: Manage OData sources
+* OData Mock Data: Manage mock metadata and datasets
+* xref:connectors.adoc[Connector]: Publish data sources to be used in the _Adaptive Designer_.
 
 == Administration
-image::cockpit-overv-administration.png[Cockpit overview section administration, 600]
 
-In the *Administration* section, you ...
+In the xref:administration.adoc[Administration] service group, you find services to maintain and launch your applications.
 
-The following tools are available:
+The following services are available:
 
-* xref:application-management.adoc[_Application Management_]: Overview of available applications in your system.
-* xref:tiles.adoc[_Tile_]: Create and configure tiles and allocate them to launchpads.
-* xref:tile-groups.adoc[_Tile Group_]: Create and configure tile groups to organize apps and make them visible to users in Neptune NXP Open - Edition launchpads.
-* xref:launchpad.adoc[_Launchpad_]: Create, configure, and maintain launchpads.
-* xref:mobile-client.adoc[_Mobile Client_]: Create, configure, and download a Cordova Mobile Client zip build.
-* xref:mobile-debug.adoc[_Mobile Debug_]: Enable mobile debugging and view logs for applications and users.
-* xref:tile-blackout.adoc[_Tile Blackout_]: Informs users that the underlying app or URL on the tile is under maintenance or unreachable.
-* _Favorite Management_: Add tiles to the users' launchpad favorite tiles.
-* _Translation_: Translate artifacts, tiles, and tile groups.
+* xref:application-management.adoc[Application Management]: Available applications in the system
+* xref:tiles.adoc[Tile]: Maintain tiles and assign actions and role-based access
+* xref:tile-groups.adoc[Tile Group]: Maintain groups of tiles and role-based access
+* xref:launchpad.adoc[Launchpad]: Create, configure, and maintain launchpads
+* xref:mobile-client.adoc[Mobile Client]: Create, configure, and download a Cordova Mobile Client zip build
+* xref:mobile-debug.adoc[Mobile Debug]: Enable mobile debugging and view logs for applications and users
+* xref:tile-blackout.adoc[Tile Blackout]: Block tiles from being used during maintenance
+* xref:favourite-management.adoc[Favorite Management]: Manage favourite tiles of users
+* xref:translation.adoc[Translation]: Translate artifacts, tiles, and tile groups
 
 
 == Monitoring
 
-* _System Processes_:
+In the xref:monitoring.adoc[Monitoring] service group, you find services to maintain and monitor locks and logs generated by the system or by the users.
 
-* _Lock Entries_: Overview of active locks in the system.
+The following services are available:
 
-* _Housekeeping_: Delete logs from across the system and define the retention time for different log types.
+* System Processes: Monitor all system processes for the current server
 
-* _SMTP Log_: View a log of all e-mails and their sent status. You can filter for time and status.
+* xref:lock-entries.adoc[Lock Entries]: List of active locks in the system
 
-* _System Logs_:
+* Housekeeping: Delete logs from across the system
 
-* _System Reports_:
+* SMTP Log: View a log of all emails and their sent status
 
-* _User Sessions_:
+* System Logs: View the system and server script logs for the current server
 
-* _PDF Archive_:
+* System Reports: View reports for system information
 
-* _Application Log_:
+* xref:user-sessions.adoc[User Sessions]: List of active user sessions in the system
 
-* _Launchpad Trace_:
+* PDF Archive: View all generated PDF documents
 
-* _Push Notification Users_:
+* Application Log: Analyze usage of applications
 
-* _Load Test_:
+* Launchpad Trace: Analyze usage of launchpad & tiles
+
+* Push Notification Users: Overview of registered users and launchpads with push notifications
+
+* Load Test: Test your API performance with load testing
 
 
 == Tools
 
-* _Job Manage_
+In the xref:tools.adoc[Tools] service group, you find services that contain useful tools regarding the work with your applications.
 
+The following services are available:
 
-* _Job Log_
+* Job Manage: Create and manage background jobs that run server scripts
 
-* _Table Definition_: With the Table Definition tool you create and maintain the databases for you apps.
-The Table Definition tool provides a schema definition and metadata for the databases.
-You can import schemas and automatically or manually define them with the Table Definition tool.
+* Job Log: View background job history and status
 
-* _Table Browser_: The Table Browser tool shows the table data.
-You can add, delete, and update data records here.
-To connect the data to your application, use the API Designer.
+* Table Definition: Create and maintain database tables
 
-* _Tracking List_:
-
-
-* _Tracking Settings_:
-
+* Table Browser: View and maintain table data
 
 == Testing
 
-* _Test Unit_
+In the xref:testing.adoc[Testing] service group, you find services that check if your code is working as expected.
 
-* _Test Plan_
+The following services are available:
 
-* _Test Run_
+* Test Unit: Create unit tests to be used in test plans
+
+* Test Plan: Manage and schedule test plans
+
+* Test Run: Take snapshot of the _Test Plan_ and run all test units
 
 
 == Deployment
 
-* _Deployment Create_
+In the xref:deployment.adoc[Deployment] service group, you find services that let you deploy your Neptune DXP instance to other systems.
 
-* _Deployment Approve_
+The following services are available:
 
-* _Deployment Transfer_
+* Deployment Create: Create a bundle of system artifacts to transfer to other systems
 
-* _Deployment Routes_
+* Deployment Approve: Transfer a bundle to another system
 
-* _Deployment Log_
+* Deployment Transfer: Approve and send system artifacts to other systems
+
+* Deployment Routes: Create and manage deployment routes to multiple systems
+
+* Deployment Log: Check changes received from other systems
 
 
 == Security
 
-* _User_: In User, you find the system users with their roles.
-Roles determine which Tiles or Tile Groups are visible to users.
+In the xref:security.adoc[Security] service group, you manage users, groups, roles, authentications, certificates, and monitor activities.
 
-* _Group_: Group shows groups of users with their roles.
-Here, you can adjust roles for all users in a group.
+The following services are available:
 
-* _Role_: Here, you can adjust the roles for single users.
-If you want to adjust the roles of more users at once, go to the Group tool.
+* xref:security-user.adoc[User]: Manage system users
 
-* _Audit Log_
+* xref:security-group.adoc[Group]: Manage user groups
 
-* _Remote Systems_
+* xref:security-role.adoc[Role]: Control end user access to system artifacts
 
-* _Import LDAP_
+* xref:security-auditlog.adoc[Audit Log]: Monitor all cockpit activities
 
-* _Proxy Authentication_
+* Remote Systems: Connect to other Neptune DXP instances
 
-* _Certificates_
+* xref:security-import-ldap.adoc[Import LDAP]: Import group/users from LDAP
 
-* _Table Audit_
+* xref:security-proxy-auth.adoc[Proxy authentication]: Manage authentication methods for APIs, OData and remote systems
+
+* xref:security-certificates.adoc[Certificates]:: Create or import certificates
+
+* xref:security-tableaudit.adoc[Table Audit]: View table audit log
 
 == Workflow
 
-* _Overview_
+In the xref:workflow.adoc[Security] service group, you provide an infrastructure to set up, perform, and monitor a defined sequence of tasks.
 
-* _Definition_
+The following services are available:
 
-* _Task Action_
+* Overview: View workflow status and re-run approver determination
 
-* _Approvers_
+* Definition: Define your workflow processes
 
-* _Substitution_
+* Task Action: Create action flags for user tasks
+
+* Approvers: Create and manage lists of approvers and workflow action flags
+
+* Substitution: Create a substitution for an approver for a given time period
 
 == Settings
 
-* _System Settings_
+In the xref:settings.adoc[Settings] service group, you configure and customize system properties to operate in your server environment.
 
-* _Custom Settings_
+The following services are available:
+
+* System Settings: Core system settings, changes will be applied with next system restart
+
+* Custom Settings: Custom system settings, no restart required

@@ -1,0 +1,26 @@
+// tag::name[]
+. Enter a meaningful *Name*.
+// end::name[]
+// tag::package[]
+. Assign this artifact to a package of artifacts in *Package*.
+// end::package[]
+// tag::description[]
+. Enter a short and meaningful *Description* to your API.
+// end::description[]
+
+//artifact as placeholder ok?
+
+
+////
+quick guide include:
+
+include everything:
+include::ROOT:partial$name-description-package.adoc[]
+
+include only name:
+include::ROOT:partial$name-description-package.adoc[tag=name]
+
+include everything but name:
+include::ROOT:partial$name-description-package.adoc[tags=*;!name]
+IMPORTANT: tags (plural) not tag (singular). You can always use plural form, even for one argument. For more than one argument you MUST use plural form.
+////

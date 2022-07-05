@@ -1,3 +1,4 @@
+////
 = image::odata-icon.png[width=100,link="swagger-odata-icon.png"] OData Source
 
 With __OData Source__, you manage all your OData sources.

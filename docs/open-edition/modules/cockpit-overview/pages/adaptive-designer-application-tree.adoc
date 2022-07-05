@@ -1,0 +1,15 @@
+= Application tree
+
+include::ROOT:partial$application-tree.adoc[tag=general]
+
+image::adaptive-designer-user-interface-application-tree.png[width=800]
+
+include::ROOT:partial$application-tree.adoc[tag=function]
+
+== Related topics
+
+* xref:adaptive-designer-user-interface-at-a-glance.adoc[]
+* xref:adaptive-designer-component-library.adoc[]
+* xref:adaptive-designer-properties.adoc[]
+* xref:adaptive-designer-preview.adoc[]
+//TODO Leonie: link to relevant tasks
