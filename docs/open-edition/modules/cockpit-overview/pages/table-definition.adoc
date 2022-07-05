@@ -4,9 +4,9 @@ With _Table Definition_, you create and maintain database tables.
 
 A table definition contains a table schema definition and metadata describing the table.
 Metadata are, for example, data types and data properties.
-You can add new table definitions or import them from outside Neptune DXP.
+You can add new table definitions or import them.
 
-After you created a table definition, you can use the _Table Browser_ to add data, or the _API Designer_ to create a table definition API.
+After you created a table definition, you can use the _Table Browser_ to add data or the _API Designer_ to create a table definition API.
 With the table definition API, you can integrate data from the table into an application and use API methods to interact with it.
 
 == Keys and indices
