@@ -1,0 +1,46 @@
+= Add a definitions and properties
+
+include::ROOT:partial$api-definition-description.adoc[]
+
+In this task, you learn how to add a definition to an external API manually.
+With many APIs, you can import definitions or derive definitions from sample requests instead. xref:api-designer-definition-import.adoc[Learn more].
+
+== Prerequisites
+
+* You have xref:api-designer-external-api-configure.adoc[configured an external API].
+* You have xref:api-designer-external-api-add-operation.adoc[added an operation to an external API].
+
+== Procedure
+
+. Navigate to the *Definitions* tab and click *+* to add a definition.
++
+image:api-designer-add-definition.png[width=400]
+
+. Enter a *Name*, for example, `Films`, and *Description*.
+
+. Navigate to the *Properties* tab and click *+ Add*.
++
+image:api-designer-add-properties.png[width=800]
++
+*Result*: The _API Designer_ adds a new line to specify a property.
+
+. For each property, enter a *Name* that indicates what kind of information the property holds, for example, `title`, `episode_id`, `producer`, and `characters`.
+. Select the allowed *Type* for the property.
++
+TIP: If you select `Array` or `Object`, go to the Actions column and click *+* to add sub-properties to the property.
+
+. Enter a *Description*.
+. If you want the property to be mandatory, activate the *Required* box.
+. Click *Save*.
+
+If you used the example data in this topic, your properties look like this:
+
+image:api-designer-external-example.png[width=800]
+
+== Results
+
+* You have added a definition and corresponding properties to an external API.
+
+== Related topics
+
+* xref:api-designer.adoc[API Designer]

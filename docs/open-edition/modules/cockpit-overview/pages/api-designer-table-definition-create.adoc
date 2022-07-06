@@ -1,0 +1,18 @@
+= Create a table definition API with the API Designer
+
+In this guide, you learn how to create an API to communicate with a table definition.
+
+Table definitions exist inside DXP - Open Edition.
+You add table definitions with the _Table Definition_ service.
+With _API Designer_, you can call table definitions and add operations to retrieve, delete, and add data.
+
+This guide consists of the following steps:
+
+* xref:api-designer-table-definition-configure.adoc[]
+* xref:api-designer-table-definition-add-operation.adoc[]
+* xref:api-designer-table-definition-add-definition.adoc[]
+
+== Related topics
+
+* xref:api-designer.adoc[API Designer]
+* xref:table-definition.adoc[]

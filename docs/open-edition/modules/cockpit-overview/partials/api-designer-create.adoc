@@ -1,20 +1,22 @@
-//FaKo@Helle: Typographische Auszeichnungen nicht vergessen.
-
-* Allow Untrusted Certificates: Allow self-signed certificates that were added in Authentication.
+* Allow Untrusted Certificates: Allow self-signed certificates that were added in _Authentication_.
 //Todo:xref::authentication.adoc[]
 
 // tag::script[]
-* Enable Anonymous Access
+* Enable Anonymous Access: Allow anonymous access to server scripts API.
 // end::script[]
 
 // tag::external[]
 * Enable Proxy: Allow proxy to reach external servers to prevent CORS issues.
+* Restrict Access: Allow only users with a specific role to use the API.
 // end::external[]
 
-* Enable Trace: Allow tracing activities of your API. You can see activities in the xref:api-client.adoc[_API Client_].
+* Enable Trace: Allow tracing activities of your API.
+You can see activities in the xref:api-client.adoc[API Client].
 
 // tag::script[]
-* Run server script in own process
+* Run server script in own process: Activate for server scripts with slow performance.
+The server script starts a new process and does not slow down the main process of your application.
+//Todo Neptune: assumption, please check.
 // end::script[]
 
 * Use in App Designer & App Editor: Allow this API to be used in the App Designer or App Editor.

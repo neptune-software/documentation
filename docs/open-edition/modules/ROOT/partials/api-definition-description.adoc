@@ -1,0 +1,2 @@
+Definitions let you define how an API response looks like.
+To simplify the work when you integrate data from an API into an application, create a definition for each possible response the API gives.

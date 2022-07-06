@@ -1,0 +1,48 @@
+= Add an operation
+
+include::ROOT:partial$api-operation-description.adoc[]
+
+== Prerequisites
+
+* You have xref:api-designer-external-api-configure.adoc[configured an external API].
+
+== Procedure
+
+. Navigate to the *Operations* tab and click *+* to add an operation.
+//Harmonize with sibling topics
++
+image:api-designer-add-operation.png[width=400]
+
+. In *Path*, enter a slash and the name of an end path for the external API, for example, `/planets`.
+. In *Method*, select a method from the list, for example `GET`:
++
+--
+include::partial$api-methods.adoc[]
+--
+. In *Endpoint Override*, you can define a new endpoint that overrides the system's endpoint.
+. In *Restrict Access*, you can define which role or roles can access the API.
++
+NOTE: You can only restrict access if you have defined roles before with the _Role_ service.
+
+. Enter a short *Summary* and a longer *Description* to provide context information about the operation.
+. In *Tags*, enter keywords that describe the resource, for example, `clones`.
+. Activate any of the following:
++
+--
+include::partial$api-designer-operations.adoc[]
+--
+
+. Click *Save*.
+
+== Results
+
+* You have added an operation with a method.
+
+== Next steps
+
+* xref:api-designer-external-api-add-definition.adoc[]
+
+== Related topics
+
+* xref:api-designer-external-api-create.adoc[]
+* xref:api-designer.adoc[API Designer]

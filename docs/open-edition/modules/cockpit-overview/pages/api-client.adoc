@@ -1,6 +1,6 @@
 = image:api-client-icon.png[width=100] API Client
 
-With the _API Client_, you send API requests to test the response from the REST API.
+With the _API Client_, you send requests to test the response of a REST API.
 
 == Features of the _API Client_
 * Lets you check the response from APIs in the _API Designer_.
@@ -10,15 +10,17 @@ With the _API Client_, you send API requests to test the response from the REST 
 * Shows the list of APIs with their operations to test the API response.
 * Quickly ensures that all your services are running as expected.
 
-== _API Client_ view
 
-The main view of the _API Client_ shows a list of both publicly available APIs and your APIs, with search options to sort and filter the list.
+The _API Client_ shows a list of both publicly available APIs and your APIs, with search options to sort and filter the list.
 
 image::api-client-base.png[width=800]
 
-You can select an API from the list to make test requests and see responses.
-If you have not defined headers or parameters for requests in the _API Designer_
+Select an API from the table to make test requests and see responses.
+
+When making requests, you can use all operations defined for the API and test additional endpoints.
+If you have not defined headers or parameters for requests in the _API Designer_, you can define and test them here.
 
 == Related topics
-* xref:api-designer.adoc[_API Designer_]
-* xref:api-trace.adoc[_API Trace_]
+* xref:api-designer.adoc[API Designer]
+* xref:api-trace.adoc[API Trace]
+* xref:api-designer-definition-import.adoc[]

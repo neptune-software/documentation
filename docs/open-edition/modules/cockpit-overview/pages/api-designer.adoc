@@ -11,22 +11,16 @@ You can create new APIs, update existing APIs, or import and export APIs from an
 == API types
 The _API Designer_ shows all available types of APIs. There are three types of APIs you can create with the _API Designer_:
 
-* *External APIs*: To reach web services outside the DXP - Open Edition.
-* *Table Definitions*: To reach a data table through an api.
-* *Server Scripts*: To access one of your server scripts on DXP - Open Edition.
+* *External APIs*: Reach web services outside the DXP - Open Edition.
+* *Table Definitions*: Reach a data table through an API.
+* *Server Scripts*: Access one of your server scripts in DXP - Open Edition.
 
-== _API Designer_ view
-The main view of the _API Designer_ shows a list of both publicly available APIs and your APIs with search options to sort and filter the list.
-
-image::api-designer-base.png[width=800]
-
-You can search for an existing API, look at its configurations, and save it as a Planet 9 file to your local disk.
-//Todo Neptune: does the file extension change? Currently, it's still .planet9
-//Neptune@Parson: No it doesn't change.
-Starting from this view, you can add or import APIs in different file formats and from remote servers.
 
 == Related topics
-* xref:api-designer-create.adoc[Create a table definition with the _API Designer_]
-* xref:api-designer-import.adoc[Import an API with the _API Designer_]
-//Todo Helle: * xref:export-api.adoc[] <-- task
-//* xref:search-api.adoc[] <-- might not be task
+* xref:api-designer-user-interface.adoc[]
+* xref:api-designer-external-api-create.adoc[]
+* xref:api-designer-server-script-create.adoc[]
+* xref:api-designer-table-definition-create.adoc[]
+* xref:api-designer-import.adoc[]
+* xref:api-designer-export.adoc[]
+* xref:api-designer-definition-import.adoc[]

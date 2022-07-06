@@ -1,0 +1,25 @@
+= Export an API from the API Designer
+
+In this topic, you learn how to export an API that you have created with the _API Designer_.
+
+You can export all types of APIs. The procedure is the same for table definition, server script, and external APIs.
+
+== Prerequisites
+* You have created an API of any type.
+
+== Procedure
+
+. In the Cockpit, go to *Connectivity* and open the _API Designer_.
+. From the API table, select the API you want to export.
++
+*Result*: The API configuration dialog opens.
+
+. Click *Export*.
+
+== Results
+
+* The API is exported to your local computer and saved as a `planet9` file.
+
+== Related topics
+
+* xref:api-designer.adoc[API Designer]

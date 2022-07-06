@@ -1,0 +1,4 @@
+Trace Operations:: Trace request you or others make to the API in _API Trace_.
+Save Request Body:: When you trace operations, the request details are traced, too.
+Send Credentials (cookie):: Use credentials for cookie-based authorization.
+Use Example Data:: Use example data to run an unfinished API in the _App Designer_. Example data is not traced in _API Trace_ or _API Client_.

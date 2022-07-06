@@ -1,0 +1,57 @@
+= Add a definitions and properties
+
+include::ROOT:partial$api-definition-description.adoc[]
+
+In this task, you learn how to add a definition to a table definition API manually.
+With many APIs, you can import definitions or derive definitions from sample requests instead. xref:api-designer-definition-import.adoc[Learn more].
+
+== Prerequisites
+
+* You have xref:api-designer-table-definition-configure.adoc[configured a table definition API].
+* You have xref:api-designer-table-definition-add-operation.adoc[added an operation to a table definition].
+
+== Procedure
+
+. Navigate to the *Definitions* tab and click *+* to add a definition.
++
+image:api-designer-add-definition.png[width=400]
+
+. Enter a *Name*, for example, `clones`, and *Description*.
+//. Select a *Type*.
+//Helle@Neptune: What does the type do?
+//Fabian@Helle: Funny again, I cannot select a "type" at all, has something changed in between?
+//Neptune@Helle: I don´t know :D Seems to be removed.
+//Helle: It is still active in my Clones table but does not appear in newly created table def APIs. Commented out for now. Reconsider when dealing with legacy content.
+
+. Navigate to the *Properties* tab and click *+ Add*.
++
+image:api-designer-add-properties.png[width=800]
++
+*Result*: The _API Designer_ adds a new line to specify a property.
+
+. For each property, enter a *Name* that indicates what kind of information the property will hold, for example, `name`, `number`, `rank`, and `squad`.
+. Select the allowed *Type* for the property.
++
+TIP: If you select `Array`, go to the Actions column and click *+* to add sub-properties to the property.
+. Enter a *Description*.
+. If you want the property to be mandatory, activate the *Required* box.
+. Click *Save*.
+
+If you used the example data in this topic, your properties look like this:
+
+image:api-designer-properties-example.png[width=800]
+
+== Results
+* You have added a definition and corresponding properties to a table definition.
+
+== Related topics
+* xref:api-designer.adoc[API Designer]
+
+
+////
+Object: anything non-trivial e.g. image, audio
+Array: a number of other categories e.g. multiple booleans
+String: mostly for text, can include numbers
+Number: any +/- number, including decimals
+Boolean: True or False
+////

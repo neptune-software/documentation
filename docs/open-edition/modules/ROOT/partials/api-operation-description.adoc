@@ -1,0 +1,4 @@
+In this topic, you learn how to add an operation to an API.
+
+In each operation you define a method to interact with the data of the API.
+You can define multiple operations with different methods and parameters for requests.

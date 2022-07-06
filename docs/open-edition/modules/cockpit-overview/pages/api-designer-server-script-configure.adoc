@@ -1,0 +1,45 @@
+= Configure a server script API
+
+In this topic, you learn how to configure an API to communicate with a server script.
+
+== Prerequisites
+
+* You have created a server script, for example, with the _Script Editor_.
+
+== Procedure
+
+. In the Cockpit, go to *Connectivity* and click _API Designer_.
+. In the _API Designer_, click *Add*.
++
+*Result*: The API configuration window opens.
+You start in the *General* tab.
++
+. In *Type*, select *Server Script*.
+. In *API format*, Swagger 2.0 is preselected. You can select the newer version, Open API 3.0, here.
+. Enter a *Name* for your server script.
+. If you created a package or group for your APIs, applications, oData, and mock data before, you can select those from the *Group* or *Package* drop-down menu.
+. Enter a short and meaningful *Description* to your API.
+. In *Version*, enter a version number, for example, `1.0`, to keep track of changes to the API.
+. In *Media Type*, define the type of content of your API. This is needed to communicate with your browser. By default, it is `application/json`.
+
+. Activate any of the following options that fit your application:
++
+--
+include::partial$api-designer-create.adoc[tags=!*;script]
+--
+
+. Click *Save*.
+
+== Results
+
+* Your API is saved with the current settings and is added to the library in the _API Designer_.
+* The _API Designer_ adds an ID to your API and saves change dates.
+
+== Next steps
+
+* xref:api-designer-server-script-add-operation.adoc[]
+
+== Related topics
+
+* xref:api-designer-server-script-create.adoc[]
+* xref:api-designer.adoc[API Designer]

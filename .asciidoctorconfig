@@ -1,7 +1,6 @@
 // .asciidoctorconfig
 // Source: https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/features/advanced/stylesheets.html
 //:stylesdir: {asciidoctorconfigdir}/.asciidoctor
-//:stylesheet: neptune-preview.css
 
 :docinfodir: {asciidoctorconfigdir}/.asciidoctor
 :docinfo: shared

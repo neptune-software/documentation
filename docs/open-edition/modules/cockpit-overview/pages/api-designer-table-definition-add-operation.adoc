@@ -1,0 +1,42 @@
+= Add an operation
+
+include::ROOT:partial$api-operation-description.adoc[]
+
+== Prerequisites
+
+* You have xref:api-designer-table-definition-configure.adoc[configured a table definition API].
+
+== Procedure
+
+. Navigate to the *Operations* tab and click *+* to add an operation.
++
+image:api-designer-add-operation.png[width=400]
+
+. In *Path*, enter a slash and the name for your table definition, for example, `/clonetroopers`.
+. In *Method*, select a method from the list, for example `GET`:
++
+--
+include::partial$api-methods.adoc[]
+--
+. Enter a short *Summary* and a longer *Description* to provide context information about the operation.
+. In *Tags*, enter keywords that describe the resource, for example, `clones`.
+. Activate any of the following:
++
+--
+include::partial$api-designer-operations.adoc[]
+--
+
+. Click *Save*.
+
+== Result
+
+* You have added an operation with a method.
+
+== Next steps
+
+* xref:api-designer-table-definition-add-definition.adoc[]
+
+== Related topics
+
+* xref:api-designer-table-definition-create.adoc[]
+* xref:api-designer.adoc[API Designer]
