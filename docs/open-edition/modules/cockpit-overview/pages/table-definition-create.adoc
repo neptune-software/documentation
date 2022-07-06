@@ -1,5 +1,4 @@
 = Create a database table in Table Definition and Table Browser
-//Fabian: I would not mention "Table Browser" here, you create the table only with "Table Definition"
 
 In this guide, you learn how to create a table definition for a database table and how to fill it with data manually.
 //No need to mention you do it manually
@@ -11,6 +10,7 @@ This guide consists of the following steps:
 * Optional: xref:table-definition-add-foreign-key.adoc[]
 * Optional: xref:table-definition-add-indices.adoc[]
 * xref:table-browser-add-data.adoc[]
+//What about the tabs "Role Read" and "Role Write", it is nowhere explained what you do there
 
 == Related topics
 

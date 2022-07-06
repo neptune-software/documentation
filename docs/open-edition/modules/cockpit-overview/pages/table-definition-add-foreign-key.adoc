@@ -2,8 +2,10 @@
 
 //@Fabian: step does not really belong to complex task, it's optional. I linked to complex task prereq and put next steps here, but I'm not sure where to put it in nav later. Open for ideas. :D
 //So general question would be, where to optional tasks. Will put it on agenda.
+//Fabian: Man könnte es in der Navigation eine Ebene weiter einrücken, um das optionale deutlich zu machen
 
-Learn how to integrate a key to your database table from another database table.
+Learn how to integrate a key from another database table to your database table.
+//In this topic, you learn...
 
 You add foreign keys to link multiple database tables by using a shared key.
 
@@ -15,8 +17,10 @@ You add foreign keys to link multiple database tables by using a shared key.
 == Procedure
 
 . In the Cockpit, go to Tools and click *Table Definition*.
+//Richtige Auszeichnungen beachten
 . Open your database table.
 . Navigate to the *Properties* tab and, on the toolbar, click *Foreign Keys*.
+//Keine eingeschobenen Sätze, liest sich nicht so gut: "Navigate to the *Properties* tab and click *Foreign Keys* on the toolbar.
 //todo Helle: add icon when active, two keys
 +
 image:table-definition-foreign-key.png[width=800]
@@ -25,18 +29,21 @@ image:table-definition-foreign-key.png[width=800]
 . On the dialog toolbar, click *+ Add Foreign Key*.
 +
 image:table-definition-foreign-key-add.png[width=600]
+//Screenshot really needed? It should be clear what to click.
 +
 *Result*: The *Table Definition* dialog opens.
 . Click the table you want to take the keys from.
 //@Fabian: clear?
+//Not really :-) The sequence is clear, but I would add a longer explanation in the introduction to state what you actually do here and why you need to pick a table to take foreign keys.
 +
 *Result*: The *Foreign Keys* dialog reopens.
+// It does not reopen, you get back to the dialog.
 . From the dropdown menu on the toolbar, select the column from your current table that you want to bind the keys to.
 . Click *+ Add Column*.
 +
 image:table-definition-foreign-key-add-column.png[width=600]
 
-. In Referenced Columns, select the column from the other table you want to get the keys from.
+. In *Referenced Columns*, select the column from the other table you want to get the keys from.
 . Click *Apply*.
 
 == Result
@@ -46,3 +53,4 @@ image:table-definition-foreign-key-add-column.png[width=600]
 
 == Next steps
 * xref:table-browser-add-data.adoc[]
+//I would add a xref to the "indices" topic

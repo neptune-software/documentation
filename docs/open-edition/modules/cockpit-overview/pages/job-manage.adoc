@@ -6,6 +6,7 @@ Many applications use background jobs that run independently of the user interfa
 Background jobs help to minimize the load on the user interface and reduce the response time of the application.
 
 With the _Job Manage_ service, you create background jobs for one or multiple server scripts.
+//...you create jobs for one or more server scripts that run in the background.
 You define in which order and when server scripts are executed.
 
 When you use background jobs in an application, you can investigate its logs in _Job Log_.

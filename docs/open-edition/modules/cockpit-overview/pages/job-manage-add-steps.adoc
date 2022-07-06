@@ -11,6 +11,7 @@ Learn how to add one or more server scripts as steps to a job and define how and
 == Procedure
 
 . In the Cockpit, go to Tools and click *Job Manage*.
+//Service names in italics, service groups in bold
 . From the job table, click your job to open it.
 +
 include::ROOT:partial$tip-filter-by-me.adoc[]
@@ -18,7 +19,7 @@ include::ROOT:partial$tip-filter-by-me.adoc[]
 . Navigate to the *Steps* tab.
 . In the table toolbar, click *+Add* to add a new server script.
 +
-*Result*: The Server Script dialog opens.
+*Result*: The *Server Script* dialog opens.
 . Go to your server script project, expand the project and click the server script.
 +
 *Result*: The table adds a row with the details of the server script.

@@ -1,19 +1,24 @@
 = Configure a table definition
 
 Learn how to configure a table definition for a database table in _Table Definition_.
+//In this topic, you learn...
 
 NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
 
+//Prerequisites missing
+
 == Procedure
 . In the Cockpit, go to *Tools* and click *Table Definition*.
+//Service names in italics
 . Click *Add* to create a new database table.
 +
 *Result*: The Table Definition configuration dialog opens.
+//Mot a dialog but a window, according to our terminology list
 You start in the *General* tab.
 . Enter a meaningful *Name*, for example, `clonetroopers`.
 . Enter a short and meaningful *Description*.
 . If you created a package for your APIs, applications, oData, and mock data before, select the package from the *Package* drop-down menu.
-. If you want to track logs of your database table in _Table Audit_, activate *Enable Table Audit*.
+. If you want to track logs of your database table in the _Table Audit_, activate *Enable Table Audit*.
 . Click *Save*.
 
 == Results

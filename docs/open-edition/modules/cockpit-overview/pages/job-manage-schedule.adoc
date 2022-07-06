@@ -10,12 +10,15 @@ Learn how to define the schedule and run intervals of a job.
 == Procedure
 
 . In the Cockpit, go to Tools and click *Job Manage*.
+//Service names in italics, service groups in bold
 . From the job table, click your job to open it.
+//Click your job in the job table to open it.
 +
 include::ROOT:partial$tip-filter-by-me.adoc[]
 +
 . Navigate to the *Schedule* tab.
 . In the Schedule section, define a start and end date for the job in *Start* and *No run after*.
+//GUI elements bold (*Schedule*)
 //todo Neptune: is there a reason, why it has to be "No run after" instead of "End" or "Stop"?
 . In *Interval*, define how much time passes between two runs of the job.
 You can use the signs *+* and *-* or your number keys to enter intervals.

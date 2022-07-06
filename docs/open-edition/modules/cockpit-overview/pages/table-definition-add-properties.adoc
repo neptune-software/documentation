@@ -1,6 +1,7 @@
 = Add properties to a table definition
 
 Learn how to add properties to your database table and make custom settings.
+//In this topic, you learn...
 
 == Prerequisites
 
@@ -8,13 +9,14 @@ Learn how to add properties to your database table and make custom settings.
 
 == Procedure
 
-. In the Cockpit, go to Tools and click *Table Definition*.
+. In the Cockpit, go to Tools and click _Table Definition_.
 . Open your database table.
 . Navigate to the *Properties* tab.
 . Click *+ Add* to add a new column to the table.
 . Enter a column name to each column, for example, `name`, `number`, `rank`, and `squad`.
 . In *Type*, select a data type for the column.
 //todo Helle: write reference topic on data types and add link here.
+//Fabian: Do we really need such a reference topic? This is the only time I saw these data types before and most of them are self-explanatory.
 . You can enter a *Description* and *Default value*.
 . For columns that can only have unique values, activate *Unique*.
 . For columns that can have no value, activate *Nullable*.
