@@ -1,5 +1,4 @@
 = Add an operation
-//harmonize title
 
 include::ROOT:partial$api-operation-description.adoc[]
 

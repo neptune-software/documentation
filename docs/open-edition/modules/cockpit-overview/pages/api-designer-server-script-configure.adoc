@@ -11,8 +11,7 @@ In this topic, you learn how to configure an API to communicate with a server sc
 . In the Cockpit, go to *Connectivity* and click _API Designer_.
 . In the _API Designer_, click *Add*.
 +
-*Result*: The API configuration dialog opens.
-//Not a "dialog" according to our terminology list but a "window".
+*Result*: The API configuration window opens.
 You start in the *General* tab.
 +
 . In *Type*, select *Server Script*.

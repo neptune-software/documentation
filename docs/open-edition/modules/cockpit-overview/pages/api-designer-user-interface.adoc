@@ -3,10 +3,9 @@
 The start page of the _API Designer_ shows a list of both publicly available APIs and your APIs with search options to sort and filter the list.
 
 image::api-designer-base.png[width=800]
-//Fabian: Maybe insert another callout to the button on the top right where you can show more data columns regarding the API?
 
-You can search for an existing API, look at its configurations, apply changes, and save it as a Planet 9 file to your local disk.
+
+You can search for an existing API, look at its configurations, apply changes, and save it as a `.planet9` file to your local disk.
 //@Neptune: does the file extension change? Currently, it's still .planet9
 //Neptune@Parson: No it doesn't change.
-//Fabian: We should write names of file as code, according to the style guide (`planet9`)
 Starting from this view, you can add or import APIs in different file formats and from remote servers.

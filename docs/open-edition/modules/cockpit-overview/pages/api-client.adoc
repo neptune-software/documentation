@@ -23,3 +23,4 @@ If you have not defined headers or parameters for requests in the _API Designer_
 == Related topics
 * xref:api-designer.adoc[API Designer]
 * xref:api-trace.adoc[API Trace]
+* xref:api-designer-definition-import.adoc[]

@@ -2,7 +2,8 @@
 
 In this topic, you learn how to configure an API to communicate with an API outside DXP - Open Edition.
 
-//Prerequisites section missing. Should always be included, even if there are no prerequisites
+== Prerequisites
+* There are no prerequisites.
 
 == Procedure
 
@@ -12,8 +13,7 @@ You can exchange our data with your data in the procedure.
 . In the Cockpit, go to *Connectivity* and click _API Designer_.
 . In the _API Designer_, click *Add*.
 +
-*Result*: The API configuration dialog opens.
-//Not a "dialog" according to our terminology list but a "window".
+*Result*: The API configuration window opens.
 You start in the *General* tab.
 +
 . In *Type*, select *External*.
@@ -36,14 +36,10 @@ include::partial$api-designer-create.adoc[tags=!*;external]
 
 . Click *Save*.
 
-*Result*: Your API is saved with the current settings and is added to the library in the _API Designer_.
-The _API Designer_ adds an ID to your API and saves change dates.
-
 == Results
 
 * Your API is saved with the current settings and is added to the library in the _API Designer_.
 * The _API Designer_ adds an ID to your API and saves change dates.
-//Do not repeat step results here. Have them at one place only.
 
 == Next steps
 

@@ -1,12 +1,9 @@
 = Create an external API with the API Designer
 
-In this topic, you learn how to create an API to communicate with an external API.
-//Maybe: "In the following topics, you learn..."
+In this guide, you learn how to create an API to communicate with an external API.
 
-External APIs exist outside Neptune DXP - Open Edition.
-//External APIs are created to communicate with APIs outside Neptune DXP - Open Edition.
-//There are two different "external" APIs if I understand that correctly: 1, The "external" API created in the API Designer to communicate with APIs; 2, APIs that exist outside the DXP edition. Should not be mixed here.
-With _API Designer_, you can call external APIs and retrieve, delete, and add data.
+External APIs are APIs that exist outside Neptune DXP - Open Edition.
+With the _API Designer_, you can call external APIs and use their defined endpoints and methods to integrate data in your applications.
 
 This guide consists of the following steps:
 

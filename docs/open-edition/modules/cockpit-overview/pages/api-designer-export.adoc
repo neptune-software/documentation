@@ -1,7 +1,6 @@
 = Export an API from the API Designer
 
-Learn how to export an API that you have created with the _API Designer_.
-//In this topic, you learn how to...
+In this topic, you learn how to export an API that you have created with the _API Designer_.
 
 You can export all types of APIs. The procedure is the same for table definition, server script, and external APIs.
 

@@ -1,5 +1,4 @@
-= Add an operation to an external API
-//The other two "Add an operation" topics are only called "Add an operation" with the "to an external API", should be harmonized
+= Add an operation
 
 include::ROOT:partial$api-operation-description.adoc[]
 
@@ -9,7 +8,7 @@ include::ROOT:partial$api-operation-description.adoc[]
 
 == Procedure
 
-. In the _API Designer_, open your external API, navigate to the *Operations* tab, and click *+* to add an operation.
+. Navigate to the *Operations* tab and click *+* to add an operation.
 //Harmonize with sibling topics
 +
 image:api-designer-add-operation.png[width=400]
@@ -22,7 +21,9 @@ include::partial$api-methods.adoc[]
 --
 . In *Endpoint Override*, you can define a new endpoint that overrides the system's endpoint.
 . In *Restrict Access*, you can define which role or roles can access the API.
-//There are no roles available when I tried to choose one. What do I have to do for them to show up?
++
+NOTE: You can only restrict access if you have defined roles before with the _Role_ service.
+
 . Enter a short *Summary* and a longer *Description* to provide context information about the operation.
 . In *Tags*, enter keywords that describe the resource, for example, `clones`.
 . Activate any of the following:

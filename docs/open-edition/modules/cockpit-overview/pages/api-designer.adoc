@@ -23,3 +23,4 @@ The _API Designer_ shows all available types of APIs. There are three types of A
 * xref:api-designer-table-definition-create.adoc[]
 * xref:api-designer-import.adoc[]
 * xref:api-designer-export.adoc[]
+* xref:api-designer-definition-import.adoc[]

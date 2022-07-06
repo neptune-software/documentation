@@ -1,7 +1,6 @@
 = Create a server script API with the API Designer
 
-In this topic, you learn how to create an API to communicate with a server script.
-//Maybe: "In the following topics, you learn..."
+In this guide, you learn how to create an API to communicate with a server script.
 
 Server scripts exist inside DXP - Open Edition.
 You add server scripts with the _Script Editor_ service.

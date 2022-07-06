@@ -12,7 +12,6 @@ NOTE: In this procedure we use sample data from the Star Wars universe. You can 
 
 . In the Cockpit, go to *Connectivity* and click _API Designer_.
 . In the _API Designer_, click *Add*.
-//Replaced "On the Cockpit" and "On the API Designer" in all three "configure"-topics with "In..."
 +
 *Result*: The API configuration dialog opens.
 You start in the *General* tab.
