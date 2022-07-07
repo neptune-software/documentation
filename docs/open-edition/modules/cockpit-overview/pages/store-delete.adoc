@@ -1,6 +1,6 @@
-= Add an application to the store
+= Delete an application from the store
 
-You want to add a new application to the store.
+You want to delete an application from the store.
 
 == Prerequisites
 * There are no prerequisites

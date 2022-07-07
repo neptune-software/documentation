@@ -26,16 +26,15 @@ image::development-package-add.png[,800]
 +
 *Result*: A new dialog opens.
 +
-.. For *Basic* authentication type, enter your *Username* and *Password*.
-.. For *GitHub*, *BitBucket*, and *GitLab*, enter your personal access *Token*.
+.. For authentication type *Basic*, enter your *Username* and *Password*.
+.. For authentication types *GitHub*, *BitBucket*, and *GitLab*, enter your personal access *Token*.
 . Close both dialogs with *Ok*.
 . Click *Save*.
-
 
 == Results
 * You have added a new development package.
 
-== Next steps
+== Next step
 * Configure a connection to GitHub in xref:package-git-configure.adoc[]
 
 == Related topics

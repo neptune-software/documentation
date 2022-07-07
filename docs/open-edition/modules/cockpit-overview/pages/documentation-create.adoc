@@ -1,0 +1,16 @@
+= Create a documentation for an application
+
+In this topic, you learn how to create a documentation for an application.
+
+== Prerequisites
+* You have created an application with the xref:app-designer.adoc[App Designer]
+
+== Procedure
+
+. In the Cockpit, go to *Development* and click _Documentation_.
++
+*Result*: A list with all documentations for apps appears.
+. Click *Add*.
+*Restult*: A new window opens.
+. Choose the *Application* from the dialog for which you want to write a documentation.
+.

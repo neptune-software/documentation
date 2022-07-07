@@ -1,5 +1,8 @@
-= Application Trashbin
+= image:application-trashbin-icon.png[width=100] Application Trashbin
 
-_Application Trashbin_ provides an overview of your deleted applications.
-In the overview, you can click the application to restore it or to delete it permanently.
-//screenshot
+The _Application Trashbin_ provides an overview of all applications that were deleted in other services.
+
+You can restore the applications or delete them permanently.
+
+== Related topics
+*

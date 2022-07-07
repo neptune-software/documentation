@@ -1,6 +1,6 @@
 = Import a development package from Git
 
-In this topic, you learn how to clone a new development package from git.
+In this topic, you learn how to clone a new development package from a remote git repository.
 
 == Prerequisites
 * There are no prerequisites
@@ -19,14 +19,13 @@ In this topic, you learn how to clone a new development package from git.
 +
 *Result*: A new dialog opens.
 +
-.. For *Basic* authentication type, enter your *Username* and *Password*.
-.. For *GitHub*, *BitBucket*, and *GitLab*, enter your personal access *Token*.
+.. For authentication type *Basic*, enter your *Username* and *Password*.
+.. For authentication types *GitHub*, *BitBucket*, and *GitLab*, enter your personal access *Token*.
 . Close both dialogs with *Ok*.
 . Click *Save*.
 
 == Results
 * You have imported and cloned a development package from a remote git repository.
-
 
 == Next steps
 * Configure a connection to GitHub in xref:package-git-configure.adoc[]

@@ -1,6 +1,6 @@
 = Use an application from the Store
 
-Neptune _Store_ is a portal to publish or download applications.
+The _Store_ is a portal to publish or download applications.
 Neptune provides a collection of applications that can be downloaded by users.
 
 == Prerequisites
@@ -9,9 +9,9 @@ Neptune provides a collection of applications that can be downloaded by users.
 
 == Procedure
 
-. On the *Cockpit*, go to *Development* and click _Store_.
+. In the *Cockpit*, go to *Development* and click _Store_.
 +
-*Result* The Store opens in a new window.
+*Result*: The store opens in a new window.
 . A list with all available applications opens. You have the following options to structure the list.
 .. Change *Display* mode.
 List:: List all apps.
@@ -25,19 +25,11 @@ Private:: Show applications uploaded from your user account that are not flagged
 . Click the application you want to install.
 +
 *Result* The application opens in a new window.
-. Click *Download* to download the app.
+. Click *Download* to download the application.
 +
 image::store-download.png[width=800]
 
 *Result*: You downloaded your application and can use it now.
-
-== Next steps
-
-There are three places your app might appear:
-
-* Application list: *Run* > *Applications*
-* API’s list: *Connectivity* > *API Designer*
-* Themes list: *Development* > *Theme Designer*
 
 == Related topics
 * xref:cockpit-overview:store.adoc[Store].

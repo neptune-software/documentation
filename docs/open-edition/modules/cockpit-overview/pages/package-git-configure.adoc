@@ -1,9 +1,9 @@
-= Configure the connection to GitHub
+= Configure a connection to GitHub
 
-In this topic, you learn how to configure the connection to GitHub.
+In this topic, you learn how to configure a connection from your development package to GitHub.
 
 == Prerequisites
-* You have configured a connection for your package to a remote git repository in xref:package-create-new.adoc[] or xref:package-import-git.adoc[]
+* You have created a new development package and set up a connection to a remote git repository in xref:package-create-new.adoc[] or xref:package-import-git.adoc[]
 
 == Procedure
 . In _Development Package_, click on the package you configured a git connection to.
@@ -11,18 +11,17 @@ In this topic, you learn how to configure the connection to GitHub.
 +
 image::development-package-git.png[,800]
 +
-NOTE: This tab only shows app if you have configured a connection to GitHub in the *General* tab.
-
+NOTE: This tab only appears if you have configured a connection to GitHub before.
 
 === Settings
 
-In *Settings*, you have the following options.
+In *Settings*, you have the following options to configure your GitHub repository.
 
-Choose a branch:: Fron the drop-down menu, choose a branch that exist in the repository.
-View modified files:: Have a look at the files you changed and that could be staged to git.
-Commit changes and push to remote repository:: Commit and push the staged files to the the indicated branch in git.
+Choose a branch:: From the drop-down menu, choose a branch from the repository that you want to work on.
+View modified files:: View the files you changed and that could be staged to git.
+Commit changes and push to remote repository:: Commit and push the staged files to the indicated branch in git.
 Update database from repository:: Update your repository.
-Force Update:: Force an update if you do not want that at least one branch is up to date with your current changes, what is however recommended to have a backup version available.
+Force Update:: Activate if you do not want that at least one branch is up to date with your current changes, what is however recommended to have a backup version available.
 Configure Authentication:: View and reconfigure the authentication settings you set up before.
 npm run test:: Run the tests you configured in *Test URLs* and *Test Script API*.
 Path to local git repository:: Local repository where the files you created with *npm run test* are copied to.
@@ -40,12 +39,11 @@ In *Test Script API*, you can add tests that become part of the GitHub workflow.
 
 === ReadMe and package.json
 
-In the *Read Me* and *package.json* sections, you can edit these data that are added to your local repository.
-
+In the *Read Me* and *package.json* sections, you can edit these files, which are added to your local repository.
 
 
 == Results
-* You have imported and cloned a development package from a remote git repository.
+* You have set up a connection to a remote git repository and can work on it.
 
 == Related topics
 * xref:development-package.adoc[Development Package]

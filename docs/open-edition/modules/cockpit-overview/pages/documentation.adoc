@@ -1,1 +1,7 @@
-= Documentation
+= image:documentation-icon.png[width=100] Documentation
+//https://community.neptune-software.com/documentation/resources/documentation/documentation
+
+The _Documentation_ allows you to write documentation for an application.
+
+== Related topics
+* xref:documentation-create.adoc[]

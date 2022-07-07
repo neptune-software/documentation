@@ -1,0 +1,25 @@
+= Delete or restore an application from the trashbin
+
+In this topics, you learn how to permanently delete  an application or restore it to the service where it originates.
+
+== Prerequisites
+
+* There are no prerequisites
+
+== Procedure
+
+. In the *Cockpit*, go to *Development* and click _Application Trashbin_.
++
+*Result*: A list of all deleted applications opens.
+. Click on an application.
+*Result*: A new dialog opens.
+. Type one of the following:
+.. DELETE: Permanently deletes the application.
+.. RESTORE: Restore the application.
+. Press ENTER to confirm.
+
+== Result
+You have restored or deleted your application.
+
+== Related topics
+* xref:application-trashbin.adoc[Application Trashbin].
