@@ -3,13 +3,14 @@
 In this guide, you learn how to create a background job with one or more server scripts that you can integrate in an application.
 
 //Helle@Neptune: I didn't find anything on how to integrate a job. That is worth a topic. I guess, you do it in App Designer when creating an application?
-//Fabian: As far as I understand it, "Jobs" run independent from apps. They are scripts (or batch files) that are started at a certain time and run for a certain time.
+//Fabian: As far as I understand it, "Jobs" run independent of apps. They are scripts (or batch files) that are started at a certain time and run for a certain time.
 
 This guide consists of the following steps:
-//Fabian: guide (sic!) :-)
 
 * xref:job-manage-configure.adoc[]
 * xref:job-manage-schedule.adoc[]
+* Optional: xref:table-definition-add-foreign-key.adoc[]
+* Optional: xref:table-definition-add-indices.adoc[]
 * xref:job-manage-add-steps.adoc[]
 
 == Related topics

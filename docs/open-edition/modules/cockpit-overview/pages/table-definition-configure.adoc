@@ -1,19 +1,17 @@
 = Configure a table definition
 
-Learn how to configure a table definition for a database table in _Table Definition_.
-//In this topic, you learn...
+In this topic, you learn how to configure a table definition for a database table in _Table Definition_.
 
 NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
 
-//Prerequisites missing
+== Prerequisites
+* There are no prerequisites.
 
 == Procedure
-. In the Cockpit, go to *Tools* and click *Table Definition*.
-//Service names in italics
+. In the Cockpit, go to *Tools* and click _Table Definition_.
 . Click *Add* to create a new database table.
 +
-*Result*: The Table Definition configuration dialog opens.
-//Mot a dialog but a window, according to our terminology list
+*Result*: The Table Definition configuration window opens.
 You start in the *General* tab.
 . Enter a meaningful *Name*, for example, `clonetroopers`.
 . Enter a short and meaningful *Description*.

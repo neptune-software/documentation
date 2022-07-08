@@ -1,0 +1,42 @@
+= Define reading and writing rights for a database table
+
+//todo Fabian: new topic.
+//I went back to the architecture we discussed in March. Maybe we should not add all optional topics to the complex task but have one complex task with the necessary steps and some optional steps that make sense in the context. Other optional tasks you really do not have to perform (especially when you create an artifact for testing) can than be added to the related topics in the service concept topic. In this case, Roles are not necessary. We link it in table-definition.adoc but not in table-definition-create.adoc. What do you think?
+//Rule would be: If optional steps are performed between mandatory steps, or if optional steps are performed in tabs of mandatory steps, add them to complex task, else link in concept only. We can discuss with table definition topics.
+
+In this topic, you learn how to use roles to define reading and writing rights for a database table.
+
+== Prerequisites
+
+* You have xref:security-role-add.adoc[added a role].
+* You have xref:table-definition-create.adoc[created a database table].
+
+== Procedure
+
+. In the Cockpit, go to *Tools* and click _Table Definition_.
+. Click the database table for which you want to define reading and writing rights.
++
+*Result*: The Table Definition configuration window opens.
+
+. Navigate to one of two tabs:
+.. If you want to add a role with reading rights, navigate to the *Role Read* tab.
+.. If you want to add a role with writing rights, navigate to the *Role Write* tab.
+. If you are in display mode, click *Edit*.
+. Click *+ Add* on the table toolbar.
++
+*Result*: The Role dialog opens.
+
+. Select one or more roles that you want to give reading or writing rights to.
+. Click *Select*.
++
+*Result*: The roles you selected are added to the table.
+. Click *Save*.
+
+== Results
+
+* You have defined reading or writing rights for a database table.
+
+== Related topics
+
+* xref:table-definition.adoc[Table Definition]
+* xref:security-role.adoc[Role]

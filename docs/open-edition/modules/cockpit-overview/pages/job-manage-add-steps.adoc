@@ -1,7 +1,6 @@
 = Add steps to a job
 
-Learn how to add one or more server scripts as steps to a job and define how and in which order these server scripts are executed when the job is triggered.
-//In this topic, you learn how...
+In this topic, you learn how to add one or more server scripts as steps to a job and define how and in which order these server scripts are executed when the job is triggered.
 
 == Prerequisites
 
@@ -10,8 +9,7 @@ Learn how to add one or more server scripts as steps to a job and define how and
 
 == Procedure
 
-. In the Cockpit, go to Tools and click *Job Manage*.
-//Service names in italics, service groups in bold
+. In the Cockpit, go to *Tools* and click _Job Manage_.
 . From the job table, click your job to open it.
 +
 include::ROOT:partial$tip-filter-by-me.adoc[]
@@ -27,7 +25,7 @@ include::ROOT:partial$tip-filter-by-me.adoc[]
 . In *Error Handling*, define the next action in case of a server script error.
 . Repeat for each server script you want to include in the job.
 . Click *Save*.
-//Fabian: What about the "Run" button next to the "Add"-Button?
+//@Neptune: I do not have to press "Run" (next to +Add in the Steps tab) to make it work, correct? When I press Run, it says "job already running". I assume, I don't have to press it here?
 
 == Results
 * You have added one or more steps to a job.

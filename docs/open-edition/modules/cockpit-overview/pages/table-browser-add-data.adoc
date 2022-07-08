@@ -1,13 +1,7 @@
 = Add data records to a database table
 
-Learn how to add data records manually to a database table that you defined before in _Table Definition_.
-//In this topic, you learn how...
+In this topic, you learn how to add data records manually to a database table that you defined before in _Table Definition_.
 
-NOTE: You can import data from your local system instead of adding it manually.
-Follow the steps, *Run* the database table and click *Import* on the toolbar.
-//@Neptune: which formats are allowed for imports?
-//Fabian: Seem to be only json
-//Fabian: I would move that note behind the last point in the "procedure" section and add that you can also export the data.
 
 == Prerequisites
 
@@ -18,15 +12,10 @@ Follow the steps, *Run* the database table and click *Import* on the toolbar.
 
 . In the Cockpit, go to *Tools* and click _Table Browser_.
 +
-*Result*: The _Table Browser_ opens. You see a list of all table definitions sorted by name.
+*Result*: The _Table Browser_ opens.
+You see a list of all table definitions sorted by name.
 +
-[TIP]
-====
-You can hide all table definitions created by others to find your table definition easier. To do that, change the *Updated By* filter to *Me*.
-
-image::updated-by-me.png[width=200]
-====
-//Fabian: Do we really need that screenshot?
+include::ROOT:partial$tip-filter-by-me.adoc[]
 . Click on your table definition.
 +
 *Result*: You see the properties you added to your database table.
@@ -37,8 +26,11 @@ image::tablebrowser-run.png[width=800]
 
 . Click *Edit* to activate the edit mode.
 +
-*Result*: A new toolbar appears.
-//Also existing data become editable now
+*Result*: Existing data records become editable.
++
+NOTE: You can import data from your local system instead of adding it manually.
+Click *Import* on the toolbar, select a file from your local system, and go to the last step of this task.
+//todo Fabian: please check position of infobox. procedure clear now?
 
 . On the toolbar, click *Add* to add rows to your table.
 . Enter data to all rows, for example, a *name*, *number*, *rank*, and *squad* for each row.
