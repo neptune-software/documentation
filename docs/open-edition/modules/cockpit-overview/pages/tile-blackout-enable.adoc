@@ -4,8 +4,7 @@ In this topic, you learn how to declare that a tile is under maintenance and can
 
 == Prerequisites
 
-* There are no prerequisites.
-//You have created a tile?
+* You have created a tile in xref:tile-add.adoc[]
 
 == Procedure
 
@@ -16,15 +15,13 @@ In this topic, you learn how to declare that a tile is under maintenance and can
 *Result*: A new window with general data about the tile opens.
 . Click *Edit*.
 . In the *Blackout* section, toggle the *Enable* button to `Yes`.
-. Provide an explanation for the users why the tile cannot be reached.
-//@Fabian: What do I put in Button Text? Where does this Button appear? Is it a Title and explanation follows in Description?
+. In *Button Text* and *Descriptiopn*, provide an explanation for the users why the tile cannot be reached.
 . Click *Save*.
 
 == Results
 
 * The status from the tile has changed from `running` to `blackout`.
-* The tile cannot be reached anymore via the launchpad.
-//Active: Users can no longer reach the tile via the launchpad.
+* Users can no longer reach the tile via the launchpad.
 
 == Related topics
 

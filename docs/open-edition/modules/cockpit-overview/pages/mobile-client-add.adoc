@@ -18,7 +18,7 @@ In this topic, you learn how to add and configure a mobile client.
 +
 *Result*: The settings of the mobile client open.
 //@Fabian: we should talk about style and terminology here. Our list doesn't help, guidelines don't help. We differ when describing this page though it is always the same. I'll add it to agenda.
-
+//Better: the mobile client configuration window opens?
 === General tab
 //@Fabian: to me this has a concept/reference character rather than task. Maybe like this:
 ////

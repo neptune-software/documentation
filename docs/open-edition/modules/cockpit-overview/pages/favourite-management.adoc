@@ -1,10 +1,9 @@
 = image:favourites-management.png[width=100] Favorite Management
-//@Fabian: changed spelling to AE
 
 The _Favorite Management_ lets you add tiles as favorites to the launchpads of other users.
 You can import and export `csv` lists of users, tiles, and tile groups.
 
 == Related topics
-* xref:cockpit-overview:tile-groups.adoc[Tile Groups]
+* xref:tile-groups.adoc[Tile Groups]
 * xref:favorite-add.adoc[]
 * xref:administration.adoc[]

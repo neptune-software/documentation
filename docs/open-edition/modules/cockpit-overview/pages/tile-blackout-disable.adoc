@@ -4,9 +4,7 @@ In this topic, you learn how to declare that a tile is no longer under maintenan
 
 == Prerequisites
 
-* You have enabled tile blackout and stopped a tile from running in xref:tile-blackout-enable.adoc[].
-//Either: You have xref:tile-blackout-enable.adoc[enabled tile blackout and stopped a tile from running].
-//Or: You have enabled tile blackout and stopped a tile from running with xref:tile-blackout.adoc[].
+* You have enabled tile blackout and stopped a tile from running with xref:tile-blackout.adoc[].
 
 == Procedure
 

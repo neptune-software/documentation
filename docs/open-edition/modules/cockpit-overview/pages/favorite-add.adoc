@@ -1,6 +1,4 @@
 = Add favorite tiles to a launchpad
-//@Fabian and @Neptune: we have a general issue with this service. Its name is Favorite Management, its description says favourite. We need to discuss spelling and change UI. Since the styleguide suggests AE, I changed it accordingly below.
-//Addition after team meeting: add to Jira
 
 In this topic, you learn how to add favorite tiles to the launchpads of users.
 
@@ -12,27 +10,19 @@ In this topic, you learn how to add favorite tiles to the launchpads of users.
 
 . In the Cockpit, go to *Administration* and click _Favorite Management_.
 +
-*Result*: The selection window opens.
-//@Fabian: i'd say Favorite Management is the title of this page rather than selection. If there were more tabs as there are in other services, selection would be a tab's name. Favorite Management dialog?
+*Result*: The _Favorite Management_ opens in the selection window.
 +
-. In *Launchpad*, choose from the drop-down menu the launchpad you want to add favorite tiles to.
-//@Fabian: you do not have to use the drop-down, as I see it. In *Launchpad*, select the launchpad you want to...
+. In *Launchpad*, select the launchpad you want to add favorite tiles to.
 . Select a *User* from the list.
-//@Fabian: I can start without selecting a user. And more than one. Consequences?
++
+NOTE: If you do not select a specific user, all users of the launchpad are displayed in the next step.
 . Click *Start*.
 +
-*Result*: A new window with the favored tiles for the launchpad opens.
-//not a window but a page. We could also refer to the content -> You see a table with favored tiles per user fo the launchpad.
+*Result*: You see a table with favored tiles per user for the launchpad.
 +
-. In *Tiles*, select a tile from the drop-down menu.
-//select one or more tiles?
+. In *Tiles*, select one or more tiles from the drop-down menu.
 . In *Action*, click *Add tile(s) to favorites* to add the tiles to the list below.
 . Click *Save*.
-+
-NOTE: You can import a list of tiles in `csv` format and use them here.
-+
-NOTE: You can export your list of favored tiles in `csv` format.
-//@Fabian: Notes not relevant for task. info already in concept, i think that's enough.
 
 == Results
 

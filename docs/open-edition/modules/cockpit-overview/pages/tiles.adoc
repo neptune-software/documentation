@@ -1,7 +1,7 @@
-= image:tile-icon.png[width=100] Tiles
+= image:tile-icon.png[width=100] Tile
 
 A tile is a container that represents an application on the launchpad.
-With _Tiles_, you can create, assign, and maintain tiles.
+With _Tile_, you can create, assign, and maintain tiles.
 All applications on the launchpad have at least one corresponding tile.
 To be displayed on the launchpad, tiles must be grouped in tile groups.
 
@@ -18,11 +18,10 @@ The following image shows an example of a launchpad with tiles.
 
 image::tiles_example3.png[width=400]
 
-Below the tile area, tiles can include a link.
-Links consist of a title and an optional subtitle.
+Below the tile area, tiles can include a link to other tiles.
+Links consist of a title and an optional subtitle and are displayed below the tile are.
 Most tile types can be converted to links while links can be converted to tiles at any time.
 Users can personalize their launchpad by selecting the tiles for the applications they want to use from the store.
-//@Fabian: what do I use links for in this context? Is that visible in the screenshot?
 
 == Responsiveness
 The number of tiles that a launchpad shows depends on the screen resolution.

@@ -1,8 +1,7 @@
 = image:the-blackout@2x.png[width=100] Tile Blackout
 
-With the _Tile Blackout_, you can inform users that a tile on the launchpad is unreachable, for example, when it is under maintenance.
-//@Fabian: ...a tile (...) is currently not available? Seems more familiar to me.
-//@Fabian: Add this?: ~When you finished working on the tile, you can also use _Tile Blackout_ to restart the tile.
+With the _Tile Blackout_, you can inform users that a tile on the launchpad is currently not available, for example, when it is under maintenance.
+When you finished working on the tile, you can also use the _Tile Blackout_ to restart the tile.
 
 == Related topics
 * xref:tile-blackout-enable.adoc[]

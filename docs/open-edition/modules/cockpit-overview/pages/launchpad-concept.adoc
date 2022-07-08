@@ -1,6 +1,6 @@
 = image:launchpad-trace@2x.png[width=100] Launchpad
 
-With the _Launchpad_ service, you create, design, and maintain launchpads.
+With the _Launchpad_, you create, design, and maintain launchpads.
 
 A launchpad is a browser-based administration tool and the homepage for DXP - Open Edition applications on mobile and desktop devices.
 
@@ -10,7 +10,7 @@ Each tile represents an application that users can launch.
 Tiles can display live status indicators, for example, a number of open tasks.
 A launchpad supports role-based access and displays tiles according to user roles.
 
-The following image shows an example of how a launchpad looks like.
+The following image shows an example of a launchpad.
 //@Fabian:...example of a launchpad.?
 
 image::launchpad_example1.png[width=800]
@@ -19,8 +19,7 @@ image::launchpad_example1.png[width=800]
 Launchpads are not part of the DXP - Open Edition installation package.
 You can download launchpads from the xref:store.adoc[Store].
 
-== How launchpad objects are connected
-//Reduce to Launchpad objects? Or maybe Launchpad framework?
+== Launchpad objects
 
 A launchpad includes the following objects:
 
@@ -56,14 +55,14 @@ A launchpad comes with an assignment mechanisms that connects objects to one ano
 [%header, frame=sides, frame=ends]
 |===
 |Assignment task                      |Assign why               |Assign where
-|Assign a user or a group to a role     |All users with a specific role can access apps that are assigned to that role     |Go to *Security* > xref:security-user.adoc[User].
-|Assign a user to a group    |All users in a specific group can access apps that are assigned to that group     |Go to *Security* > xref:security-user.adoc[User].
+|Assign a user or a group to a role     |All users with a specific role can access apps that are assigned to that role.     |Go to *Security* > xref:security-user.adoc[User].
+|Assign a user to a group    |All users in a specific group can access apps that are assigned to that group.     |Go to *Security* > xref:security-user.adoc[User].
 
-|Assign a tile to a role    |Users can access apps in their launchpad. The role of the user must be assigned to the tile  |Go to *Administration* > xref:tiles.adoc[Tiles].
+|Assign a tile to a role    |Users can access apps in their launchpad. The role of the user must be assigned to the tile.  |Go to *Administration* > xref:tiles.adoc[Tiles].
 
-|Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role     |Go to *Administration* > xref:tile-groups.adoc[Tile Groups].
+|Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role.     |Go to *Administration* > xref:tile-groups.adoc[Tile Groups].
 
-|Assign a tile and its intent to a tile group    |When users click the tile on the launchpad, the intent resolves into a URL and navigates to the app     |Go to *Administration* > xref:tiles.adoc[Tiles].
+|Assign a tile and its intent to a tile group    |When users click the tile on the launchpad, the intent resolves into a URL and navigates to the app.     |Go to *Administration* > xref:tiles.adoc[Tiles].
 |===
 //@Fabian: no fullstops after sentences in "Assign why"?
 

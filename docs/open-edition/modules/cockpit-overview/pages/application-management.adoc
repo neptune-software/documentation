@@ -1,6 +1,0 @@
-= image::application-management-icon.png[width=100,link="application-management-icon.png"] Application Management
-
-__Application Management__ shows the list and the status of all  applications in the Neptune DXP - Open Edition.
-
-== Related topics
-* https://community.neptune-software.com/documentation/applications[Applications]
