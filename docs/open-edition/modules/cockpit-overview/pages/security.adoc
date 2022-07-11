@@ -31,12 +31,22 @@ In the *Security* service group, you can manage users, groups, roles, authentica
 * xref:security-tableaudit.adoc[Table audit]
 ** xref:security-tableaudit-export.adoc[]
 
-xref:All@neptune-dxp-cloud:connectivity:cloud-connector.adoc[]
+xref:all@neptune-dxp-cloud:connectivity:cloud-connector.adoc[]
 
-xref:All@neptune-dxp-cloud-edition:connectivity:cloud-connector.adoc[]
+xref:master@neptune-dxp-cloud:connectivity:cloud-connector.adoc[]
+
+xref:master@neptune-dxp-cloud:managed-environements:features.adoc[]
+
+xref:@neptune-dxp-cloud:connectivity:cloud-connector-how-to.adoc[]
+
+xref:master@neptune-dxp-cloud:connectivity:cloud-connector-how-to.adoc[]
 
 xref:all@neptune-dxp-cloud:connectivity:cloud-connector.adoc[]
 
 xref:all@neptune-dxp-cloud-edition:connectivity:cloud-connector.adoc[]
 
 xref:21@neptune-dxp-open-edition:getting-started-guide:export-apps.adoc[]
+
+xref:22@neptune-sap-edition:getting-started-guide:sap-cloud-integration.adoc[]
+
+xref:21@neptune-sap-edition:getting-started-guide:sap-cloud-integration.adoc[]
