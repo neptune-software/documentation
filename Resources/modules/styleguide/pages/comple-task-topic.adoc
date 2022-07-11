@@ -1,0 +1,19 @@
+= Create a complex task
+
+There are tasks that are too complex to be described in one topic. These tasks usually consist of a number of steps that must be completed in a specific order. These complex tasks are called *guide*.
+
+The introductory topic of a guide is structured as follows.
+
+[source, asciidoc]
+----
+= Title
+
+In this guide, you learn how to...
+
+This guide consists of the following steps:
+
+* xref to task topic 1
+* xref to task topic 2
+* xref to task topic 3
+* (...)
+----
