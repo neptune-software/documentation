@@ -13,6 +13,7 @@
 *** xref:task-topic.adoc[Task topic]
 **** xref:tasc-topic-template.adoc[Task topic template]
 **** xref:task-topic-example.adoc[Task topic example]
+*** xref:complex-task-topic.adoc[Complex task topic]
 *** xref:concept-topic.adoc[Concept topic]
 **** xref:concept-topic-template.adoc[Concept topic template]
 **** xref:concept-topic-example.adoc[Concept topic example]
