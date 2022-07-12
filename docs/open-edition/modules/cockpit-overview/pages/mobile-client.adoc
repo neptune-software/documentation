@@ -28,7 +28,7 @@ cordova-plugin-statusbar:: Control the device status bar.
 
 
 == Related topics
-* xref:mobile-client-add.adoc[]
+* xref:mobile-client-task.adoc[]
 * https://cordova.apache.org/docs/en/latest/[Apache Cordova documentation]
 * xref:administration.adoc[]
 

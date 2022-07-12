@@ -1,0 +1,38 @@
+= Configure the device settings of your mobile client
+
+In this topic, you learn how to configure the device your mobile client runs on.
+
+== Prerequisites
+
+* You have configured the general information of your mobile client in xref:mobile-client-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Mobile Client_.
++
+*Result*: The table of existing mobile clients open.
+. Click your mobile client.
++
+*Result*: The settings of the mobile client open in the general tab.
+. Navigate to the *Device* tab.
+. Provide the *App ID*. The *App ID* is structured as follows: `com.company.identifier`. An example is `com.neptune.testapp`.
+. Decide, whether the orientation is `landscape` or `portrait`. Default is `portrait`.
+. Decide, whether the mobile client should be opened in fullscreen mode.
+. In the *Mobile Client Build* section, you can enable automatic updates for your app.
+. In the *Platforms* section, you can define on which systems your app should run.
+. If you choose `Windows 10`, you have to make some additional settings.
+//TODO Neptune: What about special settings regarding Windows 11? Do they apply here as well?
+. Click *Save*.
+
+== Results
+
+* You have configured the device settings of your mobile client.
+
+== Next steps
+
+* Configure the plugins you use for your mobile client in xref:mobile-client-plugins.adoc[].
+
+== Related topics
+
+* xref:mobile-client.adoc[Mobile Client]
+

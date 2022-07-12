@@ -1,0 +1,32 @@
+= Configure general information about your tile
+
+In this topic, you learn how to set general information about your tile.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile_.
++
+*Result*: The table of existing tiles open.
+. Click *Add*.
++
+*Result*: The settings of the mobile client open in the general tab.
+
+
+
+. Click *Save*.
+
+== Results
+
+* You have added and configured the general settings of your tile.
+
+== Next steps
+
+* Configure
+
+== Related topics
+
+* xref:mobile-client.adoc[Mobile Client]

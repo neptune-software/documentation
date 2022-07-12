@@ -1,0 +1,34 @@
+= Configure general information about your mobile client
+
+In this topic, you learn how to set general information about your mobile client.
+
+== Prerequisites
+
+* You have created a launchpad in xref:launchpad.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Mobile Client_.
++
+*Result*: The table of existing mobile clients open.
+. Click *Add*.
++
+*Result*: The settings of the mobile client open in the general tab.
+. Enter a *Name* for your mobile client. It refers to the name the mobile client artifact has in the system.
+. You can enter a *Description* of your mobile client.
+. In *Launchpad*, select the launchpad you want to create a mobile client for.
+. In the *Author* section, provide information about the creator of the mobile client.
+. Click *Save*.
+
+== Results
+
+* You have added and configured the general settings of your mobile client.
+
+== Next steps
+
+* Configure the security settings of the mobile client in xref:mobile-client-security.adoc[].
+
+== Related topics
+
+* xref:mobile-client.adoc[Mobile Client]
+

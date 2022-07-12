@@ -1,0 +1,39 @@
+= Configure the plugins of your mobile client
+
+In this topic, you learn how to add Apache Cordova plugins to your mobile client.
+The plugins you see after first opening are the recommended set of plugins.
+
+== Prerequisites
+
+* You have configured the general information of your mobile client in xref:mobile-client-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Mobile Client_.
++
+*Result*: The table of existing mobile clients open.
+. Click your mobile client.
++
+*Result*: The settings of the mobile client open in the general tab.
+. Navigate to the *Plugins* tab. There are three ways to add plugins:
+.. Click *+Add*: An empty field opens. You can enter the name of the plugin.
+.. Click *Add from Library*: A new window with the list of available Cordova plugins in the system library opens. Choose the plugin you want and click *Select*.
+.. Click *Add from NPM*: A new window with the list of available Cordova plugins from the _NPM_ service opens. Choose the plugins you want and click *Select*.
++
+NOTE: You can click *Reset* to return to the default set of plugins that is recommended.
++
+. Click *Save*.
+
+
+== Results
+
+* You have configured the device settings of your mobile client.
+
+== Next steps
+
+* Further configure your mobile client in xref:mobile-client-optional.adoc[].
+
+== Related topics
+
+* xref:mobile-client.adoc[Mobile Client]
+
