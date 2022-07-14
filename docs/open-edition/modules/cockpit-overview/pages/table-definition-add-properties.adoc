@@ -17,6 +17,7 @@ In this topic, you learn how to add properties to your database table and make c
 //todo Helle: write reference topic on data types and add link here.
 //Fabian: Do we really need such a reference topic? This is the only time I saw these data types before and most of them are self-explanatory.
 //but there are special types. Limits might be interesting in some cases. ;)
+//Fabian: that is true, but how do you know what all these types are exactly about? Would require a lot of testing.
 . You can enter a *Description* and *Default value*.
 . For columns that can only have unique values, activate *Unique*.
 . For columns that can have no value, activate *Nullable*.

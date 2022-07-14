@@ -31,6 +31,7 @@ image::tablebrowser-run.png[width=800]
 NOTE: You can import data from your local system instead of adding it manually.
 Click *Import* on the toolbar, select a file from your local system, and go to the last step of this task.
 //todo Fabian: please check position of infobox. procedure clear now?
+//Looks good
 
 . On the toolbar, click *Add* to add rows to your table.
 . Enter data to all rows, for example, a *name*, *number*, *rank*, and *squad* for each row.

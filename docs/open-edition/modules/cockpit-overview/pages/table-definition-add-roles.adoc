@@ -3,8 +3,15 @@
 //todo Fabian: new topic.
 //I went back to the architecture we discussed in March. Maybe we should not add all optional topics to the complex task but have one complex task with the necessary steps and some optional steps that make sense in the context. Other optional tasks you really do not have to perform (especially when you create an artifact for testing only) can than be added to the related topics in the service's concept topic. In this case, Roles are not necessary. We link it in table-definition.adoc but not in table-definition-create.adoc. What do you think?
 //Rule would be: If optional steps are performed between mandatory steps, or if optional steps are performed in tabs of mandatory steps, add them to complex task, else link in concept only. We can discuss with table definition topics. I can prepare a little visualization, for our team meeting. Would that be helpful?
+//Fabian: I am uncertain about that as well. I just try to recreate the "Administration" topics where there are quite a lot of optional topics as well. Maybe we can split the complex task overview in a mandatory and optional topics section and not stick to the GUI? But we should discuss this.
 
 In this topic, you learn how to use roles to define reading and writing rights for a database table.
+//In this topic, you learn how to assign the right to read and edit database tables to certain roles.
+
+//Fabian: I think we need a bit more explanation how this works and what the roles mean (the following is my interpretation according to the old documentation):
+//Role Read: Users with this role can view the table content in display mode only. Every other user cannot view the content at all, unless the role has writing role.
+//Role Write: Only users with writing role can edit or delete the table content. [Maybe: All other users can only view the content?]
+//No roles specified: Everybody can do everything
 
 == Prerequisites
 
@@ -14,7 +21,7 @@ In this topic, you learn how to use roles to define reading and writing rights f
 == Procedure
 
 . In the Cockpit, go to *Tools* and click _Table Definition_.
-. Click the database table for which you want to define reading and writing rights.
+. Click the database table for which you want to define reading and/or writing rights.
 +
 *Result*: The Table Definition configuration window opens.
 
