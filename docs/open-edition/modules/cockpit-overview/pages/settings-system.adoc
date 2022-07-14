@@ -5,16 +5,11 @@ Perform the following tasks that are described for each section.
 
 NOTE: Changes will be applied after you restart the system.
 
-//First step missing, in the Cockpit, click _System Settings_
+. In the Cockpit, click _System Settings_.
++
+*Result*: The System Settings window opens. Here, you can make changes in different tabs.
 
 == General
-In the *General* tab, you perform the following tasks:
-
-* Give the new system a name
-* Define the authentication method
-* Configure the output of error messages
-* Enable Firebase Push Notifications
-//Do we really need an overview of what you can do?
 
 === General
 
@@ -22,11 +17,18 @@ image::system-settings-general.png[,800]
 Name:: Enter a name for your system.
 Description:: Enter a short description of your system.
 
-NOTE: In the upper left of the GUI, the description is shown next to the name of the system.
-//We should not use abbreviations users might not understand.
+NOTE: In the upper left of the user interface, the description is shown next to the name of the system.
 
-Role:: Assign a role to your system such as *Local*, *Production*, *Sandbox*.
-//There are seven roles available here that define what the whole system is about. This is important, we should list them here.
+Role:: Assign one of the following roles to your system:
+. *Local*
+. *Development*
+. *Integration*
+. *Test*
+. *Quality Assurance*
+. *Staging*
+. *Production*
+. *Sandbox*
+
 Session Timeout (in minutes):: Enter the time span in minutes for a session timeout. If the user does not refresh or request a page within this time span, the session ends and the user has to login again.
 Delete cookie when browser session ends (i.e. all browser windows are closed):: Check or uncheck.
 HTTP Response Timeout (in seconds):: Enter a timeout period in seconds that defines for how long a session remains active after the last refresh or page request.
@@ -35,8 +37,7 @@ Number of Server Worker Processes:: Enter a number for the maximum amount of job
 
 === Logging
 
-Log all requests to stdout and logs/requests:: Check or uncheck.
-//I don't understand, what does that do?
+Log all requests to stdout (standard output) and logs/requests:: Check or uncheck.
 
 === Language Server
 Check it to enable auto-completion features when you use the _App Editor_.
@@ -44,23 +45,18 @@ Check it to enable auto-completion features when you use the _App Editor_.
 === Login
 
 Disable Local authentication:: Check to disable the local authentication option from the login options.
-For example, if you want to use JWT authentication as default then disable local authentication. In *Default login url* enter the login URL that is mentioned in defining JWT authentication.
+For example, if you want to use Jason Web Token (JWT) authentication as default then disable local authentication. In *Default login url*, enter the login URL that is mentioned in defining JWT authentication.
 //todo check JWT authentication process
-//We should not use abbreviations users might not understand.
-//Does this only apply for JWT login?
 
 === Error notifications
 
-Select the error notifications you want to receive from various system components and enter an email.
-// Select the system components you want to receive error notifications from. Enter email addresses these notifications should be sent to.
+Select the system components you want to receive error notifications from. Enter email addresses to receive these notifications.
 
 === Firebase - Push Notification
 
 Firebase Cloud Messaging (FCM) is used to deliver push notifications to Android devices, Google Chrome and Mozilla Firefox.
-With FCM credentials, you can set up the Web Push Notification service for your site.
-// You can use your FCM credentials to set up web push notifications for your site.
-The API keys that you enter here are stored securely and are used by the Web Push Notifications service to connect to the FCM server.
-//Be careful with big/small letters when copying text from the old website.
+Use your FCM credentials to set up web push notifications for your site.
+The API keys that you enter here are stored securely and are used by the web push notifications service to connect to the FCM server.
 The *Message Sender ID* (project number) that you enter here is used by the Android SDK and JS SDK for Google Chrome and Mozilla Firefox on client side.
 //What is JS SDK?
 
@@ -82,14 +78,13 @@ In the following sections you can enter URLs to whitelists for *Proxy*, *CORS*, 
 To activate your license, enter the license key that you received from Neptune. After you have entered the license key, all fields will be filled in automatically.
 
 Allow Anonymous access::
-Check to enable Launchpad anonymous access. You also must check *Enable Anonymous access* in the Launchpad settings.
-//Have a look at upper/lower case
+Check to enable launchpad anonymous access. You also must check *Enable Anonymous access* in the launchpad settings.
 
 NOTE: If you cannot enable anonymous access, contact the Neptune sales department for a new license.
 
 == E-Mail functionality
-To get notification e-mails, make the following entries.
-//Use "email" instead of "e-mail"
+To get notification emails, make the following entries.
+
 
 SMTP Host:: Enter the hostname of the SMTP server.
 Port:: Enter the port of the SMTP server.
@@ -101,7 +96,7 @@ Username:: Enter the username of the registered user
 Password:: Enter the password
 From Address:: ?
 //ToDo Q: Filled in automatically? Can you specify more than one e-mail-address?
-//Fabian: I think this is the address the emails come from.
+//Fabian: I think this is the address the emails come from. Sänkju
 
 == Password
 Set the password properties here.
