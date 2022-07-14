@@ -1,12 +1,12 @@
 = Tools
 
-//todo fabian: new topic
+//todo fabian: new topic. Also do we want to add a template for service group topics to the style guide? Even if we don't need it that often, it might help other editions and future work.
 In the *Tools* service group, you can create database tables and background job.
 You can fill database tables with data records and monitor logs of background jobs.
 
 * xref:job-manage.adoc[Job Manage]
 ** xref:job-manage-create-job.adoc[]
-//also add steps from complex task?
+//We don't add steps from complex task here, correct? It could work here, but it would make other service group topics with more services very long.
 * xref:job-log.adoc[Job Log]
 * xref:table-definition.adoc[Table Definition]
 ** xref:table-definition-create.adoc[]

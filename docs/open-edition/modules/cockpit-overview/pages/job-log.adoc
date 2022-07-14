@@ -1,5 +1,3 @@
-//General comment from Fabian: You should also write the service overview topic "tools.adoc" and give an overview about the four services
-
 = image:job-log-icon.png[width=70] Job Log
 
 With _Job Log_, you can view the history and status of background jobs.

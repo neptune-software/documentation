@@ -1,8 +1,8 @@
 = Define reading and writing rights for a database table
 
 //todo Fabian: new topic.
-//I went back to the architecture we discussed in March. Maybe we should not add all optional topics to the complex task but have one complex task with the necessary steps and some optional steps that make sense in the context. Other optional tasks you really do not have to perform (especially when you create an artifact for testing) can than be added to the related topics in the service concept topic. In this case, Roles are not necessary. We link it in table-definition.adoc but not in table-definition-create.adoc. What do you think?
-//Rule would be: If optional steps are performed between mandatory steps, or if optional steps are performed in tabs of mandatory steps, add them to complex task, else link in concept only. We can discuss with table definition topics.
+//I went back to the architecture we discussed in March. Maybe we should not add all optional topics to the complex task but have one complex task with the necessary steps and some optional steps that make sense in the context. Other optional tasks you really do not have to perform (especially when you create an artifact for testing only) can than be added to the related topics in the service's concept topic. In this case, Roles are not necessary. We link it in table-definition.adoc but not in table-definition-create.adoc. What do you think?
+//Rule would be: If optional steps are performed between mandatory steps, or if optional steps are performed in tabs of mandatory steps, add them to complex task, else link in concept only. We can discuss with table definition topics. I can prepare a little visualization, for our team meeting. Would that be helpful?
 
 In this topic, you learn how to use roles to define reading and writing rights for a database table.
 

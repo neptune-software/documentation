@@ -1,9 +1,10 @@
 = Create a background job
 
-In this guide, you learn how to create a background job with one or more server scripts that you can integrate in an application.
+In this guide, you learn how to create a background job with one or more server scripts.
 
 //Helle@Neptune: I didn't find anything on how to integrate a job. That is worth a topic. I guess, you do it in App Designer when creating an application?
 //Fabian: As far as I understand it, "Jobs" run independent of apps. They are scripts (or batch files) that are started at a certain time and run for a certain time.
+//todo fabian: I deleted "...that you can integrate in your applications." from the introductory sentence since Hendrik said that it's not the intended use. If you agree, you can delete the conversation here. :)
 
 This guide consists of the following steps:
 

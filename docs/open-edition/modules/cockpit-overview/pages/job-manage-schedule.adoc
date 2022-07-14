@@ -17,7 +17,7 @@ include::ROOT:partial$tip-filter-by-me.adoc[]
 . In the Schedule section, define a start and end date for the job in *Start* and *No run after*.
 . In *Interval*, define how much time passes between two runs of the job.
 You can use the signs *+* and *-* or your number keys to enter intervals.
-//@Neptune: there two terminology/spelling issues in this tab. I added both the Jira ticket "Modify GUI"
+//@Neptune: there two terminology/spelling issues in this tab. I added both to Jira ticket "Modify GUI"
 . In *Maximum runtime*, enter the maximum amount of seconds the jobs can run before it is canceled.
 . Click *Save*.
 
