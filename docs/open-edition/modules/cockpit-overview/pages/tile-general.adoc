@@ -15,8 +15,6 @@ In this topic, you learn how to set general information about your tile.
 +
 *Result*: The settings of the mobile client open in the general tab.
 
-
-
 . Click *Save*.
 
 == Results
