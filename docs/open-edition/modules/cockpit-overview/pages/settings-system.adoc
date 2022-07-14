@@ -94,9 +94,8 @@ Allow self-signed certificates:: Check to accept untrusted emailing connections
 //ToDo explanations needed for the last three fields
 Username:: Enter the username of the registered user
 Password:: Enter the password
-From Address:: ?
-//ToDo Q: Filled in automatically? Can you specify more than one e-mail-address?
-//Fabian: I think this is the address the emails come from. Sänkju
+From Address:: Enter the email-address you want to use to sent notifications
+
 
 == Password
 Set the password properties here.

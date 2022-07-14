@@ -50,17 +50,43 @@ image::settings-set-api-permission.png[,800]
 
 . In the cockpit, go to *Settings*, and click *System Settings*.
 . Click the *Authentication* tab.
+. Click *Edit*.
+. Click *Add*, and select *Azure AD*.
 +
-NOTE
-====
-Hoer geht's weiter
+image::settings-auth-azure-ad.png[,800]
+*Result*: The Authentication window opens.
 
-add image
-result
-====
-+
-Add new authentication by selecting authentication type : Azure AD
+=== Azure ID barer
+Fill in or check the following fields:
 
+Name:: Enter a name for the authentication
+Active:: Check to activate this authentication method
+Show on Login page:: Check to show it on the _DXP Open Edition_ Session Login Page
+// "it" means Login screen?
+Description:: Enter a supporting description
+Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, planet9-ad-bearer).
+Identity Metadata:: Enter a link to a metadata document that contains information required for an app to do sign-in.
+//input needed
+Tenant ID:: Enter your tenant ID
+Client ID:: Enter your application's client ID from the Azure portal
+Client Secret:: : enter the client secret key that you generated in *New client secret* in the Azure Portal
+Additional Scopes (Login request will use profile, openid, offline_access and User.Read)::
+Use silent signout in PWA::
+Use MSAl v2. Can be accessed in Launchpad with APPCacheLogonAzure.msalObj:: bla
+
+=== Claims assignment
+. Click *Add* to add a claims assignment
+
+=== Auto assignment
+Assign Role:: Select the  roles that you want to assign ...
+//where do you create these roles?
+Assign Departments:: Select departments that you want to assign ...
+//see above. Input needed
+
+=== Custom Script
+Enter your code here.
+
+. Click *OK* to save your input.
 
 == Result
 
