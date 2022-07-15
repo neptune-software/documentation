@@ -1,0 +1,38 @@
+= Add an index to a database table
+
+In this topic, you learn how to add an index to a column of a database table.
+
+You add indices to a column to make searching that column faster.
+Adding indices is especially useful when working with large tables.
+
+== Prerequisites
+
+* You have xref:table-definition-configure.adoc[configured a table definition].
+* You have xref:table-definition-add-properties.adoc[added properties to the table definition].
+
+== Procedure
+
+. In the Cockpit, go to *Tools* and click _Table Definition_.
+. Open your database table.
+. Navigate to the *Properties* tab and click *Indices* on the toolbar.
+//todo helle: add icon when active, tree
++
+*Result*: The *Indices* dialog opens.
+. On the dialog toolbar, click *+ Add Index*.
++
+image:table-definition-indices-add.png[width=600]
+. From the dropdown menu on the toolbar, select the column from your table that you want to add an index to.
+. Click *+ Add Column*.
++
+image:table-definition-indices-add-column.png[width=600]
+
+. Click *Apply*.
+
+== Result
+
+* You have added an index to a column of the database table.
+* You can see the number of indices added next to *Indices* on the table toolbar.
+
+== Next steps
+* Optional: xref:table-definition-add-foreign-key.adoc[]
+* xref:table-browser-add-data.adoc[]

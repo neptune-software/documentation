@@ -5,7 +5,7 @@
 . Assign this artifact to a package of artifacts in *Package*.
 // end::package[]
 // tag::description[]
-. Enter a short and meaningful *Description* to your API.
+. Enter a short and meaningful *Description*.
 // end::description[]
 
 //artifact as placeholder ok?

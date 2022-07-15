@@ -1,0 +1,42 @@
+= Define reading and writing rights for a database table
+
+In this topic, you learn how to assign the right to read and edit database tables to certain roles.
+
+Role Read:: Users with the role `Read` can retrieve the data from the database table but not edit it.
+Role Write:: Users with the role `Write` can both retrieve and edit data from the database table.
+//@Neptune: what if I don't specify anything at all? Is that table then removed from all lists? Do I still see them but cannot use them?
+
+== Prerequisites
+
+* You have xref:security-role-add.adoc[added a role].
+* You have xref:table-definition-create.adoc[created a database table].
+
+== Procedure
+
+. In the Cockpit, go to *Tools* and click _Table Definition_.
+. Click the database table for which you want to define reading and/or writing rights.
++
+*Result*: The Table Definition configuration window opens.
+
+. Navigate to one of two tabs:
+.. If you want to add a role with reading rights, navigate to the *Role Read* tab.
+.. If you want to add a role with writing rights, navigate to the *Role Write* tab.
+. If you are in display mode, click *Edit*.
+. Click *+ Add* on the table toolbar.
++
+*Result*: The Role dialog opens.
+
+. Select one or more roles that you want to give reading or writing rights to.
+. Click *Select*.
++
+*Result*: The roles you selected are added to the table.
+. Click *Save*.
+
+== Results
+
+* You have defined reading or writing rights for a database table.
+
+== Related topics
+
+* xref:table-definition.adoc[Table Definition]
+* xref:security-role.adoc[Role]

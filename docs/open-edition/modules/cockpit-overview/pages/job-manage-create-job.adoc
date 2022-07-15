@@ -1,0 +1,15 @@
+= Create a background job
+
+In this guide, you learn how to create a background job with one or more server scripts.
+
+This guide consists of the following steps:
+
+* xref:job-manage-configure.adoc[]
+* xref:job-manage-schedule.adoc[]
+* Optional: xref:table-definition-add-foreign-key.adoc[]
+* Optional: xref:table-definition-add-indices.adoc[]
+* xref:job-manage-add-steps.adoc[]
+
+== Related topics
+
+* xref:job-manage.adoc[Job Manage]

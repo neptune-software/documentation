@@ -1,0 +1,49 @@
+= Add data records to a database table
+
+In this topic, you learn how to add data records manually to a database table that you defined before in _Table Definition_.
+
+
+== Prerequisites
+
+* You have xref:table-definition-configure.adoc[configured a table definition].
+* You have xref:table-definition-add-properties.adoc[added properties to the table definition].
+
+== Procedure
+
+. In the Cockpit, go to *Tools* and click _Table Browser_.
++
+*Result*: The _Table Browser_ opens.
+You see a list of all table definitions sorted by name.
++
+include::ROOT:partial$tip-filter-by-me.adoc[]
+. Click on your table definition.
++
+*Result*: You see the properties you added to your database table.
+
+. Check all rows you want to add data to and click *Run*.
++
+image::tablebrowser-run.png[width=800]
+
+. Click *Edit* to activate the edit mode.
++
+*Result*: Existing data records become editable.
++
+NOTE: You can import data from your local system instead of adding it manually.
+Click *Import* on the toolbar, select a file from your local system, and go to the last step of this task.
+
+. On the toolbar, click *Add* to add rows to your table.
+. Enter data to all rows, for example, a *name*, *number*, *rank*, and *squad* for each row.
+. Click *Save* and *Display* to exit edit mode.
+
+If you used the example data in this topic, your table looks like this:
+
+image::tablebrowser-sampledata.png[width=600]
+
+== Results
+
+* You have added data to the database table with _Table Browser_.
+
+== Related topics
+
+* xref:table-browser.adoc[Table Browser]
+* xref:table-definition.adoc[Table Definition]

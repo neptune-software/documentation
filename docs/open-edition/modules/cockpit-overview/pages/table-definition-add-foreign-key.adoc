@@ -1,0 +1,43 @@
+= Add a foreign key to a database table
+
+In this topic, you learn how to integrate a key from another database table to your database table.
+
+You add foreign keys to link multiple database tables by using a shared key.
+
+== Prerequisites
+
+* You have xref:table-definition-configure.adoc[configured a table definition].
+* You have xref:table-definition-add-properties.adoc[added properties to the table definition].
+
+== Procedure
+
+. In the Cockpit, go to *Tools* and click _Table Definition_.
+. Open your database table.
+. Navigate to the *Properties* tab and click *Foreign Keys* on the toolbar.
+//todo Helle: add icon when active, two keys
++
+*Result*: The *Foreign Keys* dialog opens.
+. On the dialog toolbar, click *+ Add Foreign Key*.
++
+image:table-definition-foreign-key-add.png[width=600]
++
+*Result*: The *Table Definition* dialog opens.
+. Click the table you want to take the keys from.
++
+*Result*: You return to the *Foreign Keys* dialog.
+. From the dropdown menu on the toolbar, select the column from your current table that you want to bind the keys to.
+. Click *+ Add Column*.
++
+image:table-definition-foreign-key-add-column.png[width=600]
+
+. In *Referenced Columns*, select the column from the other table you want to get the keys from.
+. Click *Apply*.
+
+== Result
+
+* You have added a foreign key to the database table.
+* You can see the number of foreign keys added next to *Foreign Keys* on the table toolbar.
+
+== Next steps
+* Optional: xref:table-definition-add-indices.adoc[]
+* xref:table-browser-add-data.adoc[]

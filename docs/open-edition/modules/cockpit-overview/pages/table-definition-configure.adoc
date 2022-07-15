@@ -1,0 +1,34 @@
+= Configure a table definition
+
+In this topic, you learn how to configure a table definition for a database table in _Table Definition_.
+
+NOTE: In this procedure we use sample data from the Star Wars universe. You can exchange our data with your data in the procedure.
+
+== Prerequisites
+* There are no prerequisites.
+
+== Procedure
+. In the Cockpit, go to *Tools* and click _Table Definition_.
+. Click *Add* to create a new database table.
++
+*Result*: The Table Definition configuration window opens.
+You start in the *General* tab.
+. Enter a meaningful *Name*, for example, `clonetroopers`.
+. Enter a short and meaningful *Description*.
+. If you created a package for your APIs, applications, oData, and mock data before, select the package from the *Package* drop-down menu.
+. If you want to track logs of your database table in the _Table Audit_, activate *Enable Table Audit*.
+. Click *Save*.
+
+== Results
+
+* You have added an empty database table.
+_Table Definition_ adds an ID and saves change dates.
+
+== Next steps
+
+* xref:table-definition-add-properties.adoc[]
+
+== Related topics
+
+* xref:table-definition-create.adoc[]
+* xref:table-definition.adoc[Table Definition]

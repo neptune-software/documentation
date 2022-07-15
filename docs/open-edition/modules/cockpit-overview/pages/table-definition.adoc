@@ -1,0 +1,31 @@
+= image:table-definition-icon.png[width=100]Table Definition
+
+With _Table Definition_, you create and maintain database tables.
+
+A table definition contains a table schema definition and metadata describing the table.
+Metadata are, for example, data types and data properties.
+You can add new table definitions or import them.
+
+After you created a table definition, you can use the _Table Browser_ to add data or the _API Designer_ to create a table definition API.
+With the table definition API, you can integrate data from the table into an application and use API methods to interact with it.
+
+== Keys and indices
+
+Neptune DXP - Open Edition supports both unique and foreign keys, and the use of indices in database tables.
+
+//@Neptune: foreign keys und indices haben Schaltflächen über den Properties der table definition. Werden unique keys nur über das Anhaken der "Unique"-Checkbox je Column festgelegt? Oder gibt es da noch mehr zu tun? Siehe Erklärung unten.
+When you create a table definition, you can add foreign keys from other table definitions and mark individual columns as `Unique` if you want to disallow duplicate values in that column.
+
+When you create a table definition, you can add indices to individual columns.
+When you work with large tables, assigning indices to columns makes searching for data records in that column faster.
+
+== Related topics
+* xref:table-definition-create.adoc[]
+* xref:table-definition-add-foreign-key.adoc[]
+* xref:table-definition-add-indices.adoc[]
+* xref:table-definition-add-roles.adoc[]
+
+[%heardbreaks]
+
+* xref:table-browser.adoc[Table Browser]
+* xref:api-designer.adoc[API Designer]

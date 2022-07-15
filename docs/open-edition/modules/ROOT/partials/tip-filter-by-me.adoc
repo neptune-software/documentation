@@ -1,0 +1,5 @@
+[TIP]
+====
+You can hide all artifacts created by others to find your artifacts easier. To do that, change the *Updated By* filter to *Me*.
+
+====
