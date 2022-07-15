@@ -1,12 +1,12 @@
 = Launch the AWS instance
 
-In this topic, you create and launch an instance in the AWS console and connect it to your Neptune DXP - Open Edition.
+In this topic, you create and launch an instance in the AWS console and connect it to your DXP - Open Edition.
 An instance is a virtual server in the AWS cloud that runs the application you create with DXP - Open Edition.
 
 == Prerequisites
 
 * You have an account at the AWS platform.
-* You have created a key pair in the AWS console.
+* You have created a key pair in the AWS console in xref:aws-instance.adoc[].
 
 == Procedure
 
@@ -62,7 +62,7 @@ image::aws-connect.png[width=800]
 
 == Results
 * You have created and launched an instance on the AWS console.
-* You have connected your instance to Neptune DXP - Open Edition.
+* You have connected your instance to DXP - Open Edition.
 
 == Next steps
-* xref:installation-guide:aws-database.adoc[Set up a database in the AWS instance]
+* xref:installation-guide:aws-database.adoc[]

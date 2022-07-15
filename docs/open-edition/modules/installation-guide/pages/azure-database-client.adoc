@@ -1,7 +1,6 @@
-= Create a database schema with SQL client
+= Create a database schema
 
-You need a database to work with your virtual machine.
-This topic explains how you create a database schema with SQL client.
+In this topic, you learn how you create a database schema with SQL client as you need a database to work with your virtual machine.
 
 == Prerequisites
 
@@ -12,34 +11,35 @@ This topic explains how you create a database schema with SQL client.
 == Procedure
 
 . Open your Postgres database.
-. Click *Connection Security* > *Add client IP*. Add your public IP address here.
+. Click *Connection Security* > *Add client IP*.
+. Add your public IP address.
 +
 NOTE: Disable *Enforce SSL connection* in case your SQL client does not support this.
 +
 . Start an SQL client. The following steps base on https://www.adminer.org/[Adminer] but other SQL clients work similarly.
-.. Open a console and type:
+. Open a console and type the following to start Docker and the Adminer client.:
 +
 [source,asciidoc]
 ----
 docker run -p 9000:8080 adminer
 ----
-to start Docker and the Adminer client.
-.. Type in your browser:
+
+. Type in your browser:
 +
 [source,asciidoc]
 ----
 localhost:9000
 ----
-Press *Enter*.
-.. Click *System* > *PostgreSQL*.
-... Enter a *server name*. This must be the server name specified in the Azure portal.
-... Enter an *admin username*. This must be the one specified in the Azure portal.
-... Enter a password. This must be the password you used when creating the database.
+. Press *Enter*.
+. Click *System* > *PostgreSQL*.
+.. Enter a *server name*. This must be the server name specified in the Azure portal.
+.. Enter an *admin username*. This must be the username specified in the Azure portal.
+.. Enter a password. This must be the password you used when creating the database.
 +
 NOTE: You do not need to specify a database.
-.. Click *Login*.
-.. Select the target database.
-.. Run the following SQL script against that target database:
+. Click *Login*.
+. Select the target database.
+. Run the following SQL script against that target database:
 //TODO: Is that still up to date?
 +
 [source,asciidoc]
@@ -47,13 +47,13 @@ NOTE: You do not need to specify a database.
 create schema planet9
 ----
 +
-.. Stop the Docker image.
+. Stop the Docker image.
 . Click *Connection Security* > *Enforce SSL connection*.
 
 == Result
 
-You have created a database schema with SQL client.
+* You have created a database schema with SQL client.
 
 == Next steps
 
-* xref:azure-connection-cockpit.adoc[Connect the database to Neptune DXP - Open Edition]
+* xref:azure-connection-cockpit.adoc[]

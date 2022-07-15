@@ -1,4 +1,5 @@
-= Download Neptune DXP - Open Edition to the instance
+//Obsolete topic
+= Download DXP - Open Edition to the instance
 
 == Prerequisites
 * You have created an instance on the AWS console.

@@ -1,13 +1,13 @@
-= Deploy your application to the SAP Cloud Foundry Space with Docker Image
+= Connect your account
 
-You have defined all configurations on the SAP Business Technology Platform (BTP). Now you connect the subaccount you created with Neptune DXP - Open Edition.
+In this topic, you learn how to connect the subaccount you created with DXP - Open Edition.
 
 == Prerequisites
-* You have created a trial account on the SAP BTP.
-* You have created a subaccount on the SAP BTP with four memory units assigned.
-* You have enabled Cloud Foundry.
-* You have created a space in your subaccount.
-* You have added a quota plan to the space of your subaccount.
+* You have created a trial account on the SAP Business Technology Platform (BTP) in xref:sap-trial-account.adoc[].
+* You have created a subaccount on the SAP BTP with four memory units assigned in xref:sap-subaccount.adoc[].
+* You have enabled Cloud Foundry in xref:sap-cloud-foundry.adoc[].
+* You have added organizational Space to your subaccount in xref:sap-space.adoc[].
+* You have added a quota plan to the space of your subaccount in xref:sap-quota-plan.adoc[].
 
 == Procedure
 . Install the Command Line Interface (CLI) for Cloud Foundry (cf).
@@ -15,12 +15,12 @@ You have defined all configurations on the SAP Business Technology Platform (BTP
 NOTE: You can find the installation file for macOS, Windows, and Linux here: https://github.com/cloudfoundry/cli#downloads[Downloads].
 . Follow the installation guide https://docs.cloudfoundry.org/cf-cli/install-go-cli.html[here].
 //TODO: Helle@Neptune: New version available since December 2020. Can version v7 and v6 be used?
-. Go to the SAP BTP.
+. Go to the  Business Technology Platform (BTP.
 . Click *Quota Plans* of your subaccount.
 . Copy the *API Endpoint* link.
 +
 image::sap-cloud-foundry-api-endpoint.png[width=600]
-. Open the command prompt (Windows) or terminal (macOS or Linux). Enter the following command and replace `API Endpoint` with the link you copied:
+. Open a terminal. Enter the following command and replace `API Endpoint` with the link you copied:
 +
 [source,asciidoc]
 ----
@@ -28,7 +28,7 @@ cf login -a API Endpoint
 ----
 
 . Enter your login credentials to the SAP BTP. Check if the `Org name` and `Space name` match with the details of your SAP subaccount.
-. Enter the following command and replace `App Name` with the name of your app in Neptune DXP - Open Edition:
+. Enter the following command and replace `App Name` with the name of your app in DXP - Open Edition:
 //Helle@Neptune: documentation says: "cf push <any app name>  -m 4096M --docker-image ...", does "any app name" refer to an app already built in Open Edition by the user?
 +
 [source,asciidoc]
@@ -59,8 +59,8 @@ APP_NAME ENV_VAR_NAME ENV_VAR_VALUE
 ----
 //TODO: Helle@Neptune: Do you execute the commands separately?
 . Click *Overview* > *Restart* (or *Start*). After a few minutes, the indicator above the *Restart* button switches from `Starting` to `Started`.
-. In *Application Routes*, click on the link. You are forwarded to the login page of Neptune DXP - Open Edition.
+. In *Application Routes*, click on the link. You are forwarded to the login page of DXP - Open Edition.
 . Sign in with the *Username* `admin` and the *Password* `admin`.
 
 == Result
-* You have set up the SAP BTP subaccount and connected to Neptune DXP - Open Edition.
+* You have set up the SAP BTP subaccount and connected to DXP - Open Edition.

@@ -1,14 +1,14 @@
-= Connect the AWS database to your Neptune DXP - Open Edition
+= Connect the AWS database
+
+In this topic, you learn how to connect a AWS database to your DXP - Open Edition.
 
 == Prerequisites
-* You have created an instance on the AWS console.
-* You have launched the AWS instance.
-* You have connected your AWS instance to Neptune DXP - Open Edition.
-* You have created your database on the AWS console.
+* You have created an instance on the AWS console in xref:aws-instance.adoc[].
+* You have launched the AWS instance in xref:aws-launch.adoc[]..
+* You have created your database on the AWS console in xref:aws-database.adoc[].
 
 == Procedure
-. Open Neptune DXP - Open Edition cockpit.
-. Go to *Settings* and click *System Settings*.
+. In the Cockpit, go to *Settings* and click _System Settings_.
 +
 image::cockpit-settings-systemsettings.png[width=800]
 . Navigate to the *Database* tab and click *Edit*.

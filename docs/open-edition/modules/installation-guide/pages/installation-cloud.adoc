@@ -1,6 +1,6 @@
-= Install Neptune DXP - Open Edition on several cloud platforms
+= Install DXP - Open Edition on cloud platforms
 
-You can install Neptune DXP - Open Edition on the following platforms:
+You can install DXP - Open Edition on the following platforms:
 
 * xref:installation-guide:aws-ec2.adoc[AWS EC2]
 * xref:installation-guide:azure-vm.adoc[Azure VM]

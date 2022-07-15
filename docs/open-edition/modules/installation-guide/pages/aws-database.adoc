@@ -1,9 +1,10 @@
-= Set up a database in the AWS instance
+= Set up a database
+
+In this topic, you learn how to set up a database in the AWS instance.
 
 == Prerequisites
-* You have created an instance on the AWS console.
-* You have launched the AWS instance.
-* You have connected your AWS instance to Neptune DXP - Open Edition.
+* You have created an instance on the AWS console in xref:aws-instance.adoc[]
+* You have launched the AWS instance in xref:aws-launch.adoc[].
 
 == Procedure
 . In your browser, go to the AWS Console and sign in.
@@ -12,7 +13,7 @@
 +
 image::aws-database-rds.png[width=400]
 
-. Under *Resources*, click *DB Instances*.
+. In *Resources*, click *DB Instances*.
 +
 image::aws-database-resources.png[width=400]
 +
@@ -48,4 +49,4 @@ NOTE: Do not close this tab. You need this information in the next steps.
 * You have created your database. Once AWS have launched your database, its *Status* switches from `in Progress` to `Available`.
 
 == Next steps
-* xref:installation-guide:aws-connection.adoc[Connect the AWS database to your Neptune DXP - Open Edition]
+* xref:installation-guide:aws-connection.adoc[]

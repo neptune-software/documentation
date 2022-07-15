@@ -1,6 +1,6 @@
-= Start Neptune DXP - Open Edition with tmux
+= Start DXP - Open Edition with tmux
 
-The SSH session of Neptune DXP - Open Edition stops as soon as you close the window. Therefore, it is necessary to start it with a session manager like tmux.
+The SSH session of DXP - Open Edition stops as soon as you close the window. In this topic, you learn how to start it with a session manager like tmux.
 
 == Prerequisites
 
@@ -13,23 +13,21 @@ yum install tmux
 
 == Procedure
 
-. Open a console in Neptune DXP - Open Edition directory.
+. Open a console in the DXP - Open Edition directory.
 . Type the following to start tmux:
 +
 [source,asciidoc]
 ----
 tmux new -s planet9
 ----
-//TODO: Needs to be updated according to new Neptune DXP - Open Edition command
-Where planet9 is the session name
+Where `planet9` is the session name.
 +
-. Start Neptune DXP - Open Edition by typing the following:
+. Start DXP - Open Edition by typing the following:
 +
 [source,asciidoc]
 ----
 ./planet9-linux
 ----
-//TODO: Needs to be updated according to new Neptune DXP - Open Edition command
 
 == Result
-Neptune DXP - Open Edition runs using tmux.
+* The instance of DXP - Open Edition runs with using tmux.
