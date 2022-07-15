@@ -1,18 +1,12 @@
 = Tools
 
-//todo fabian: new topic. Also do we want to add a template for service group topics to the style guide? Even if we don't need it that often, it might help other editions and future work.
-//Fabian: I can add this, although the template will not be very long
 In the *Tools* service group, you can create database tables and background job.
 You can fill database tables with data records and monitor logs of background jobs.
 
 * xref:job-manage.adoc[Job Manage]
 ** xref:job-manage-create-job.adoc[]
-//We don't add steps from complex task here, correct? It could work here, but it would make other service group topics with more services very long.
-//Fabian: Not so easy to decide. Principally, I would agree, but then we need to discuss if these steps from the complex task shouldn't show up in the ToC as well. Also: This is an overview topics, so I think it could be quite long...
 * xref:job-log.adoc[Job Log]
 * xref:table-definition.adoc[Table Definition]
 ** xref:table-definition-create.adoc[]
 * xref:table-browser.adoc[Table Browser]
 ** xref:table-browser-add-data.adoc[]
-//is step from complex task. This step is performed in Table Browser, rest of complex task in Table Definition. Makes sense to me to mention it here since users might search for this task only.
-//yes, should be added

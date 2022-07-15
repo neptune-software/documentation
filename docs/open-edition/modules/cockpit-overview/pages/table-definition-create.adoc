@@ -1,16 +1,18 @@
 = Create a database table in Table Definition and Table Browser
 
-In this guide, you learn how to create a table definition for a database table and how to fill it with data manually.
+In this guide, you learn how to create a table definition for a database table and how to fill it with data.
 
 This guide consists of the following steps:
 
 * xref:table-definition-configure.adoc[]
 * xref:table-definition-add-properties.adoc[]
-* Optional: xref:table-definition-add-foreign-key.adoc[]
-* Optional: xref:table-definition-add-indices.adoc[]
 * xref:table-browser-add-data.adoc[]
 
 == Related topics
+* Optional: xref:table-definition-add-foreign-key.adoc[]
+* Optional: xref:table-definition-add-indices.adoc[]
+
+[%hardbreaks]
 
 * xref:table-definition.adoc[Table Definition]
 * xref:table-browser.adoc[Table Browser]

@@ -21,5 +21,11 @@ When you work with large tables, assigning indices to columns makes searching fo
 
 == Related topics
 * xref:table-definition-create.adoc[]
+* xref:table-definition-add-foreign-key.adoc[]
+* xref:table-definition-add-indices.adoc[]
+* xref:table-definition-add-roles.adoc[]
+
+[%heardbreaks]
+
 * xref:table-browser.adoc[Table Browser]
 * xref:api-designer.adoc[API Designer]
