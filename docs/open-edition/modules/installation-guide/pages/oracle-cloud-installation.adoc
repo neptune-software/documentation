@@ -47,4 +47,4 @@ chmod +x planet9-linux
 == Next steps
 IMPORTANT: As soon as you disconnect from your SSH session the instance stops because the parent that started it no longer exists.
 
-Run DXP - Open Edition with a session manager like xref:oracle-cloud-tmux.adoc[tmux].
+xref:oracle-cloud-tmux.adoc[Run DXP - Open Edition with a session manager like tmux].

@@ -2,9 +2,9 @@
 
 You can install DXP - Open Edition on the following platforms:
 
+* xref:installation-guide:sap-platform.adoc[SAP BTP]
 * xref:installation-guide:aws-ec2.adoc[AWS EC2]
 * xref:installation-guide:azure-vm.adoc[Azure VM]
 * xref:installation-guide:oracle-cloud.adoc[Oracle Cloud]
-* xref:installation-guide:sap-platform.adoc[SAP BTP]
 * xref:installation-guide:cloud-docker.adoc[Docker]
 * xref:installation-guide:kubernetes.adoc[Kubernetes]
