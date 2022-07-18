@@ -99,7 +99,7 @@ Select an authentication protocol and configure it.
 
 === Related Topics
 * xref:settings-azure-ad-config.adoc[]
-* Configure JWT
+* Configure API authentication (JWT)
 * Configure LDAP
 * Configure OAuth2
 * Configure OpenID Connect

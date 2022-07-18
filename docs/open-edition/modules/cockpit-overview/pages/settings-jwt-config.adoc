@@ -1,0 +1,65 @@
+= Configure API authentication
+
+In this topic you learn how to set up an authentication via a Jason web token (JWT) and how to configure it in your cockpit. You have to accomplish different tasks to enable the connection.
+
+== Prerequisites
+
+* You have registered the _DXP - Open Edition_ in the Azure portal.
+Find more information about how to register an app on https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[microsoft.com].
+
+== Procedure
+. In the _DXP - Open edition_ cockpit, go to *Settings*, and click *System Settings*.
+. Click the *Authentication* tab.
+. Click *Edit*.
+. Click *Add*, and select *JWT*.
++
+image::settings-auth-azure-ad.png[,800]
+*Result*: The Authentication window opens.
+
+=== Azure ID bearer
+Fill in or check the following fields:
+
+Name:: Enter a name for the authentication.
+Active:: Check to activate this authentication method.
+Description:: Enter a supporting description.
+Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, /user/logon/jwt/(path). You can add any string as a path.
+//What does it mean?
+Issuer:: You can add an issuer validation.
+
+Audience:: You can add an audience validation.
+
+Secret:: Add a secret key for the validation if no jwks url is provided.
+
+Jwks Url:: Add the jwks url. For example:
+----
+https://login.microsoftonline.com/<tenantid>/discovery/v2.0/keys
+----
+Change <tenantid> to your app's tenant ID. To find your tenant ID, refer to *Add Link*.
+
+Proxy for jwks url:: Enter the proxy server for the jwks URL.
+
+Override default Jwt Extraction Method - From Authorization Header as Bearer Token:: Add a proxy for your jwks url, you can add any string.
+//Input needed
+
+=== Claims assignment
+. Click *Add* to add a claims assignment <- *Hier geht's weiter!*
+
+
+=== Auto assignment
+Assign Role:: Select the  roles that you want to assign ...
+//where do you create these roles?
+Assign Departments:: Select departments that you want to assign ...
+//see above. Input needed
+
+=== Custom Script
+Enter your code here.
+
+. Click *OK* to save your input.
+*Result*: The Authentication window closes.
+. In *System Settings*, click *Restart* to activate Azure AD authentication
+
+== Result
+You have configured Azure AD authentication, and you have activated it.
+
+== Related topics
+* xref:settings-system.adoc[System Settings]

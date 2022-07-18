@@ -1,17 +1,17 @@
-= Configure Azure AD authentication
+= Configure Azure AD bearer authentication
 
 In this topic you learn how to set up an authentication via Azure AD and how to configure it in your cockpit. You have to accomplish different tasks to enable the connection.
 
 == Prerequisites
 
-* You have registered the _DXP - Open Edition_ in your Azure AD.
+* You have registered the _DXP - Open Edition_ in the Azure portal.
 Find more information about how to register an app on https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[microsoft.com].
 * You have created a xref:security-certificates-generate.adoc[self-signed certificate].
 //links into another repository
 
 == Procedure
 === Add a redirect URI
-. In the Azure Portal, go to *Authentication*.
+. In the Azure portal, go to *Authentication*.
 . In *Redirect URI*, add one or more URIs. These URIs will be accepted as destinations when returning authentication responses (tokens) after authenticating users.
 +
 [NOTE]
@@ -32,14 +32,14 @@ image::settings-azure-add-uri.png[,800]
 
 === Add a certificate and get a password
 
-. In the Azure Portal, go to *Certificates & secrets*.
+. In the Azure portal, go to *Certificates & secrets*.
 . Click *Upload certificates* to upload the self-signed certificate you created in the _DXP - Open Edition_ Cockpit.
 . Click *New client secret* to generate an application password. Copy this password and save it for later use.
 +
 image::settings-add-certificate.png[,800]
 
 === Add API Permissions
-. In the Azure Portal, go to *API permissions*.
+. In the Azure portal, go to *API permissions*.
 . Click *Add a permission* to configure a permission.
 // Input needed
 +
@@ -48,7 +48,7 @@ image::settings-set-api-permission.png[,800]
 
 == Add Azure AD authentication provider in the DXP Open Edition
 
-. In the cockpit, go to *Settings*, and click *System Settings*.
+. In the _DXP - Open edition_ cockpit, go to *Settings*, and click *System Settings*.
 . Click the *Authentication* tab.
 . Click *Edit*.
 . Click *Add*, and select *Azure AD*.
@@ -59,23 +59,27 @@ image::settings-auth-azure-ad.png[,800]
 === Azure ID bearer
 Fill in or check the following fields:
 
-Name:: Enter a name for the authentication
-Active:: Check to activate this authentication method
-Show on Login page:: Check to show it on the _DXP Open Edition_ Session Login Page
+Name:: Enter a name for the authentication.
+Active:: Check to activate this authentication method.
+Show on Login page:: Check to show it on the _DXP Open Edition_ Session Login Page.
 // "it" means Login screen?
-Description:: Enter a supporting description
-Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, planet9-ad-bearer).
-Identity Metadata:: Enter a link to a metadata document that contains information required for an app to do sign-in.
+Description:: Enter a supporting description.
+Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, open-edition-ad-bearer). You can add any string as a path.
+//What does it mean?
+Identity Metadata:: Enter a link to a metadata document that contains information required for an app to sign-in.
+----
+https://login.microsoftonline.com/<tenantid>/v2.0/.well-known/openid-configuration
+----
 //input needed
-Tenant ID:: Enter your tenant ID
-Client ID:: Enter your application's client ID from the Azure portal
-Client Secret:: Enter the client secret key that you generated in *New client secret* in the Azure Portal
+Tenant ID:: Enter your tenant ID. To find your tenant ID, refer to *Add Link*
+Client ID:: Enter your application's client ID from the Azure portal.
+Client Secret:: Enter the client secret key that you generated in *New client secret* in the Azure portal.
 Additional Scopes (Login request will use profile, openid, offline_access and User.Read)::
 Use silent signout in PWA::
 Use MSAl v2. Can be accessed in Launchpad with APPCacheLogonAzure.msalObj:: tba
 
 === Claims assignment
-. Click *Add* to add a claims assignment
+. Click *Add* to add a claims assignment.
 
 === Auto assignment
 Assign Role:: Select the  roles that you want to assign ...
@@ -88,10 +92,10 @@ Enter your code here.
 
 . Click *OK* to save your input.
 *Result*: The Authentication window closes.
-. In *System Settings*, click *Restart* to activate Azure AD authentication
+. In *System Settings*, click *Restart* to activate Azure AD authentication.
 
 == Result
-You have configured Azure AD authentication and you have activated it.
+You have configured Azure AD authentication, and you have activated it.
 
 == Related topics
 * xref:settings-system.adoc[System Settings]
