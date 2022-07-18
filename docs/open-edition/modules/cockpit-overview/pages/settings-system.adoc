@@ -57,11 +57,7 @@ Select the system components you want to receive error notifications from. Enter
 Firebase Cloud Messaging (FCM) is used to deliver push notifications to Android devices, Google Chrome and Mozilla Firefox.
 Use your FCM credentials to set up web push notifications for your site.
 The API keys that you enter here are stored securely and are used by the web push notifications service to connect to the FCM server.
-The *Message Sender ID* (project number) that you enter here is used by the Android SDK and JS SDK for Google Chrome and Mozilla Firefox on client side.
-//What is JS SDK?
-
-//What is meant by "Private API Key" and "Public API Key"?
-
+The *Message Sender ID* (project number) that you enter here is used by the Android SDK and JS SDK for Google
 
 == Security
 
@@ -85,7 +81,6 @@ NOTE: If you cannot enable anonymous access, contact the Neptune sales departmen
 == E-Mail functionality
 To get notification emails, make the following entries.
 
-
 SMTP Host:: Enter the hostname of the SMTP server.
 Port:: Enter the port of the SMTP server.
 Use pool:: Check to use the pool for connections.
@@ -96,14 +91,13 @@ Username:: Enter the username of the registered user
 Password:: Enter the password
 From Address:: Enter the email-address you want to use to sent notifications
 
-
 == Password
 Set the password properties here.
 
 == Authentication
 Select an authentication protocol and configure it.
 
-== Related Topics
+=== Related Topics
 * xref:settings-azure-ad-config.adoc[]
 * Configure JWT
 * Configure LDAP

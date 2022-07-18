@@ -1,4 +1,3 @@
-//Do not review now, work still in progress, Fabian!
 = Configure Azure AD authentication
 
 In this topic you learn how to set up an authentication via Azure AD and how to configure it in your cockpit. You have to accomplish different tasks to enable the connection.
@@ -9,10 +8,11 @@ In this topic you learn how to set up an authentication via Azure AD and how to 
 Find more information about how to register an app on https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[microsoft.com].
 * You have created a xref:security-certificates-generate.adoc[self-signed certificate].
 //links into another repository
+
 == Procedure
 === Add a redirect URI
 . In the Azure Portal, go to *Authentication*.
-. In *Redirect URI* add one or more URIs. These URIs will be accepted as destinations when returning authentication responses (tokens) after authenticating users.
+. In *Redirect URI*, add one or more URIs. These URIs will be accepted as destinations when returning authentication responses (tokens) after authenticating users.
 +
 [NOTE]
 ====
@@ -56,7 +56,7 @@ image::settings-set-api-permission.png[,800]
 image::settings-auth-azure-ad.png[,800]
 *Result*: The Authentication window opens.
 
-=== Azure ID barer
+=== Azure ID bearer
 Fill in or check the following fields:
 
 Name:: Enter a name for the authentication
@@ -69,10 +69,10 @@ Identity Metadata:: Enter a link to a metadata document that contains informatio
 //input needed
 Tenant ID:: Enter your tenant ID
 Client ID:: Enter your application's client ID from the Azure portal
-Client Secret:: : enter the client secret key that you generated in *New client secret* in the Azure Portal
+Client Secret:: Enter the client secret key that you generated in *New client secret* in the Azure Portal
 Additional Scopes (Login request will use profile, openid, offline_access and User.Read)::
 Use silent signout in PWA::
-Use MSAl v2. Can be accessed in Launchpad with APPCacheLogonAzure.msalObj:: bla
+Use MSAl v2. Can be accessed in Launchpad with APPCacheLogonAzure.msalObj:: tba
 
 === Claims assignment
 . Click *Add* to add a claims assignment
@@ -87,7 +87,12 @@ Assign Departments:: Select departments that you want to assign ...
 Enter your code here.
 
 . Click *OK* to save your input.
+*Result*: The Authentication window closes.
+. In *System Settings*, click *Restart* to activate Azure AD authentication
 
 == Result
+You have configured Azure AD authentication and you have activated it.
 
 == Related topics
+* xref:settings-system.adoc[System Settings]
+
