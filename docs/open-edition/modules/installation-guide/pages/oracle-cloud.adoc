@@ -1,5 +1,10 @@
-= Install Neptune DXP - Open Edition on the Oracle Cloud platform
+= Install DXP - Open Edition on the Oracle Cloud platform
 
-This guide explains how you check for the availability of Neptune DXP - Open Edition in the Neptune Oracle Cloud. If you need additional help after the initial set-up, please contact Oracle Cloud support.
+This guide explains how you check for the availability of DXP - Open Edition in the Oracle Cloud.
+If you need additional help after the initial set-up, please contact Oracle Cloud support.
+
+* xref:oracle-cloud-check.adoc[]
+* xref:oracle-cloud-installation.adoc[]
+* xref:oracle-cloud-tmux.adoc[]
 
 

@@ -1,3 +1,3 @@
-= Install Neptune DXP - Open Edition using DXP Cloud Managed Environments
+= Install DXP - Open Edition using DXP cloud managed environments
 
-You can deploy and run Neptune DXP - Open Edition using Neptune's own, specialized https://docs.neptune-software.com/neptune-dxp-cloud/all/index.html[DXP Cloud Managed Environments] with minimal effort.
+You can deploy and run Neptune DXP - Open Edition using Neptune's own, specialized https://docs.neptune-software.com/neptune-dxp-cloud/index.html[DXP Cloud Managed Environments] with minimal effort.

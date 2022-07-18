@@ -1,4 +1,6 @@
-= Connect to the virtual machine and install Neptune DXP - Open Edition
+= Connect to the virtual machine
+
+In this topic, you learn how to connect to the Azure virtual machine and install DXP - Open Edition
 
 == Prerequisites
 
@@ -13,7 +15,7 @@
 NOTE: Neptune DXP - Open Edition runs on port 8080 by default. This means that the virtual machine should be configured on port 80.
 
 == Result
-You have installed Neptune DXP - Open Edition on your Azure virtual machine.
+* You have installed DXP - Open Edition on your Azure virtual machine.
 
 == Next steps
-* xref:azure-create-database.adoc[Create an Azure Database resource]
+* xref:azure-create-database.adoc[]

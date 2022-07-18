@@ -1,6 +1,6 @@
-= Create Azure virtual machines on the Azure portal
+= Create a virtual machine
 
-This section describes how you create a virtual machine in Azure.
+In this topic, you learn how to create a virtual machine on the Azure portal.
 
 == Prerequisites
 
@@ -15,15 +15,18 @@ This section describes how you create a virtual machine in Azure.
 +
 image::azure_vm_resource.png[width=800]
 +
-. Click *Ubuntu Server*. The free trial page opens. You can select a free trial for 30 days or a subscription.
+. Click *Ubuntu Server*.
++
+*Result*: The free trial page opens. You can select a free trial for 30 days or a subscription.
++
 . Click *Project details* > *Basics*. Make sure to select the correct subscription.
 +
 image::azure_resource_group.png[width=400]
-. Click *Resource group* > *Create new*. A new window opens.
+. Click *Resource group* > *Create new*.
 +
-. Configure the virtual machine.
-Add a name for the resource group.
-Click *OK*.
+*Result*: A new window opens.
++
+. Add a name for the resource group and Click *OK*.
 . Click *Instance details*.
 .. Add the name for the virtual machine.
 .. Select the region closest to your users.
@@ -56,6 +59,4 @@ Click  *Review + create*  at the bottom of the page.
 This process may take a few minutes.
 
 == Next steps
-* xref:azure_connect.adoc[Configure a connection to the virtual machine]
-//Uta: Made it bullet list and deleted full stop
-//FaKo: Layout of "next steps" section has to be discussed and specified in the style guide
+* xref:azure_connect.adoc[]

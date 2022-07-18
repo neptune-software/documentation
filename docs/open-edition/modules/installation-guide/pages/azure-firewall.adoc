@@ -1,6 +1,6 @@
 = Configure a server-level firewall rule
 
-Azure Database for PostgreSQL creates a firewall at server level.
+In this topic, you learn how to configure the firewall at server level that Azure Database creates for PostgreSQL.
 Azure Database prevents external applications and tools from connecting to the server and any databases on the server.
 This means that you have to create a rule to open the firewall for specific IP addresses.
 
@@ -12,7 +12,7 @@ This means that you have to create a rule to open the firewall for specific IP a
 
 Follow the steps in the https://docs.microsoft.com/en-us/azure/sql-database/sql-database-server-level-firewall-rule[Microsoft documentation].
 
-NOTE: We recommend that you only whitelist the public IP address of your virtual machine that runs Neptune DXP - Open Edition.
+NOTE: We recommend that you only whitelist the public IP address of your virtual machine that runs DXP - Open Edition.
 
 WARNING: Connections to your Azure database for PostgreSQL server communicate over port `5432`.
 When you try to connect from a corporate network, your network firewall may not allow outbound traffic over port `5432`.
@@ -20,8 +20,8 @@ If this is the case, you will not be able to connect to your server unless your 
 
 == Result
 
-You have configured a firewall for your server.
+* You have configured a firewall for your server.
 
 == Next steps
 
-* xref:azure-database-client.adoc[Create a database schema with SQL client]
+* xref:azure-database-client.adoc[]
