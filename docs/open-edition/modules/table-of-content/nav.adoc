@@ -26,6 +26,7 @@
 ** xref:installation-guide:load-balancing.adoc[]
 //** xref:download-package.adoc[Download Package]
 ** xref:installation-guide:installation-cloud.adoc[]
+*** xref:installation-guide:dxp-cloud-managed-environment-installation.adoc[]
 *** xref:installation-guide:sap-platform.adoc[]
 **** xref:installation-guide:sap-trial-account.adoc[]
 **** xref:installation-guide:sap-subaccount.adoc[]

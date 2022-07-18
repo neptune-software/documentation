@@ -2,6 +2,7 @@
 
 This guide explains how to install Neptune DXP - Open Edition on the AWS cloud (Amazon EC2).
 With Amazon EC2, you can set up and configure the operating system and the applications that run on your instance.
+This will take about 1-2 hours.
 
 . xref:installation-guide:aws-instance.adoc[]
 . xref:installation-guide:aws-launch.adoc[]
