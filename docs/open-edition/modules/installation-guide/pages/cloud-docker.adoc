@@ -1,6 +1,6 @@
-= Install Neptune DXP - Open Edition using Docker
+= Install DXP - Open Edition using Docker
 
-You can deploy and run Neptune DXP - Open Edition using a Docker image.
+In this topic, you learn how to deploy and run DXP - Open Edition using a Docker image.
 
 == Prerequisites
 
@@ -8,7 +8,7 @@ You can deploy and run Neptune DXP - Open Edition using a Docker image.
 
 == Procedure
 
-. You can find the image on Neptunes  https://hub.docker.com/r/neptunesoftware/planet9[official Docker hub repository].
+. You can find the image on Neptunes https://hub.docker.com/r/neptunesoftware/planet9[official Docker hub repository].
 +
 image::docker.png[width=400]
 +
@@ -21,6 +21,6 @@ docker pull neptunesoftware/planet9
 . Read the documentation that is provided on the page. It guides you through the installation and configuration.
 
 == Result
-You installed Neptune DXP - Open Edition using Docker.
+* You have installed DXP - Open Edition using Docker.
 
 

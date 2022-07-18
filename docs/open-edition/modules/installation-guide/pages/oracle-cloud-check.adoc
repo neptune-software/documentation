@@ -1,8 +1,10 @@
-= Check for Neptune DXP - Open Edition on the Oracle Cloud platform
+= Check for DXP - Open Edition on Oracle Cloud
+
+In this topic, you learn how to check if there is a Neptune DXP - Open Edition instance available on the Oracle Cloud platform.
 
 == Prerequisites
 
-* You have access to the Oracle Cloud platform of Neptune under the following URL: https://myservices-neptune.console.oraclecloud.com
+* You have access to the Oracle Cloud platform of Neptune under the following URL: `https://myservices-neptune.console.oraclecloud.com`
 
 == Procedure
 
@@ -15,7 +17,7 @@ image::oracle_cloud_dashboard.png[]
 +
 image::oracle_service_console.png[]
 +
-A new window opens.
+*Result:* A new window opens.
 +
 . Click *Compute* > *Instances*.
 +
@@ -27,4 +29,10 @@ A list with the currently available instances opens.
 +
 image::oracle_neptune_instance.png[]
 //TODO: screenshot says "Planet_9", needs to be updated
+
+== Result
+* You checked for the existence of a Neptune DXP instance on the Oracle Cloud platform.
+
+== Next steps
+* xref:oracle-cloud-installation.adoc[]
 

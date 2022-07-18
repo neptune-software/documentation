@@ -1,23 +1,23 @@
-= Create a key pair for an instance on the AWS console
+= Create a key pair
 
-//TODO: Fabian: How do we call sections? "Topic" (like here), "Section", "Chapter"? Do we have a rule for that? If not, we need one.
 In this topic, you create a key pair to launch an instance on the AWS console in later steps.
 
 == Prerequisites
 
 * You have an account at the AWS platform.
-* Find EC2 and LB pricing information under: https://aws.amazon.com/ec2/pricing/?trk=adf88fbf-e631-4352-979f-e3812ceb7322&sc_channel=ps&sc_campaign=acquisition&sc_medium=ACQ-P%7CPS-GO%7CBrand%7CDesktop%7CSU%7CCompute%7CEC2%7CGB%7CEN%7CText&s_kwcid=AL!4422!3!536451532736!e!!g!!amazon%20ec2%20instance%20pricing&ef_id=Cj0KCQjw-daUBhCIARIsALbkjSYXwBkmkNlZ_FstKB5ypiS76OSU2FglwThXLR4o6CTNehIwaS-fZLMaAoxJEALw_wcB:G:s&s_kwcid=AL!4422!3!536451532736!e!!g!!amazon%20ec2%20instance%20pricing[EC2] and https://www.amazonaws.cn/en/elasticloadbalancing/pricing/[LB]
 
 == Procedure
 
-. Type the following URL: https://console.aws.amazon.com.
+. Type the following URL: `https://console.aws.amazon.com.`
 . Sign in to the AWS console.
 . On the top menu, open *Services*.
-. Go to the *Compute* section and click *EC2*. A new window opens.
+. Go to the *Compute* section and click *EC2*.
++
+*Result*: A new window opens.
 +
 image::aws-console-ec2.png[width=400]
 +
-. On the *Resources* panel, click *Key pairs*.
+. On the *Resources* pane, click *Key pairs*.
 +
 image::aws-key-pairs.png[width=400]
 
@@ -27,16 +27,14 @@ image::aws-key-pair-2.png[width=400]
 +
 . Enter a name for the key pair.
 . Make sure that *RSA* is selected as the key pair type and *.ppk* as the private key file format.
-//TODO: Helle@parson: both preselected by default.
-//TODO: Fabian: Insert a screenshot here?
 . Click *Create key pair*.
 
 *Result*: The newly created key pair appears in the key pairs overview with the name, type, fingerprint, and ID.
 
 == Results
-You have created a key pair for an AWS instance.
+* You have created a key pair for an AWS instance.
 
 == Next steps
-* xref:installation-guide:aws-launch.adoc[Launch an instance on the AWS console]
+* xref:installation-guide:aws-launch.adoc[]
 
 
