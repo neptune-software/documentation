@@ -46,7 +46,6 @@ Check it to enable auto-completion features when you use the _App Editor_.
 
 Disable Local authentication:: Check to disable the local authentication option from the login options.
 For example, if you want to use Jason Web Token (JWT) authentication as default then disable local authentication. In *Default login url*, enter the login URL that is mentioned in defining JWT authentication.
-//todo check JWT authentication process
 
 === Error notifications
 
@@ -99,7 +98,8 @@ Select an authentication protocol and configure it.
 
 === Related Topics
 * xref:settings-azure-ad-config.adoc[]
-* Configure API authentication (JWT)
+* xref:settings-jwt-config.adoc[]
+// In the headline, mention JWT or API?
 * Configure LDAP
 * Configure OAuth2
 * Configure OpenID Connect

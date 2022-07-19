@@ -1,6 +1,7 @@
 = Configure Azure AD bearer authentication
 
-In this topic you learn how to set up an authentication via Azure AD and how to configure it in your cockpit. You have to accomplish different tasks to enable the connection.
+In this topic you learn how to set up an authentication via Azure AD and how to configure it in your cockpit.
+You have to accomplish different tasks to enable the connection.
 
 == Prerequisites
 
@@ -12,7 +13,8 @@ Find more information about how to register an app on https://docs.microsoft.com
 == Procedure
 === Add a redirect URI
 . In the Azure portal, go to *Authentication*.
-. In *Redirect URI*, add one or more URIs. These URIs will be accepted as destinations when returning authentication responses (tokens) after authenticating users.
+. In *Redirect URI*, add one or more URIs.
+These URIs will be accepted as destinations when returning authentication responses (tokens) after authenticating users.
 +
 [NOTE]
 ====
@@ -34,7 +36,8 @@ image::settings-azure-add-uri.png[,800]
 
 . In the Azure portal, go to *Certificates & secrets*.
 . Click *Upload certificates* to upload the self-signed certificate you created in the _DXP - Open Edition_ Cockpit.
-. Click *New client secret* to generate an application password. Copy this password and save it for later use.
+. Click *New client secret* to generate an application password.
+Copy this password and save it for later use.
 +
 image::settings-add-certificate.png[,800]
 
@@ -63,7 +66,7 @@ Name:: Enter a name for the authentication.
 Active:: Check to activate this authentication method.
 Show on Login page:: Check to show it on the _DXP Open Edition_ Session Login Page.
 // "it" means Login screen?
-Description:: Enter a supporting description.
+Description:: Enter a description.
 Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, open-edition-ad-bearer). You can add any string as a path.
 //What does it mean?
 Identity Metadata:: Enter a link to a metadata document that contains information required for an app to sign-in.
