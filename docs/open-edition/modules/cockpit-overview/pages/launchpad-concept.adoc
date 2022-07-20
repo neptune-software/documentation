@@ -11,7 +11,6 @@ Tiles can display live status indicators, for example, a number of open tasks.
 A launchpad supports role-based access and displays tiles according to user roles.
 
 The following image shows an example of a launchpad.
-//@Fabian:...example of a launchpad.?
 
 image::launchpad_example1.png[width=800]
 
@@ -31,6 +30,7 @@ The following image shows the process of how single applications become part of 
 
 image::launchpad_connected_objects.png[width=800]
 //@Fabian: I'd redo the image: "cockpit" is irrelevant and confusing (why no cockpit in front of App Designer?) General idea is good though.
+//Fabian: We only have a png of the image, I would redraw it when I have time for that.
 
 . Applications created in the _App Designer_ are connected to tiles.
 . Tiles are bundled in a tile group.
@@ -64,10 +64,10 @@ A launchpad comes with an assignment mechanisms that connects objects to one ano
 
 |Assign a tile and its intent to a tile group    |When users click the tile on the launchpad, the intent resolves into a URL and navigates to the app.     |Go to *Administration* > xref:tiles.adoc[Tiles].
 |===
-//@Fabian: no fullstops after sentences in "Assign why"?
+
 
 == Related topics
-* xref:launchpad.adoc[]
+* xref:launchpad-task.adoc[]
 * xref:tile-groups.adoc[Tile Groups]
 * xref:tiles.adoc[Tiles]
 * xref:administration.adoc[]

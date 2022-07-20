@@ -1,3 +1,4 @@
+//Obsolete topic
 = Add a new tile
 
 In this topic, you learn how to add a new tile.

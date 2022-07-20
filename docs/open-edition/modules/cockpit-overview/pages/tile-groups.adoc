@@ -3,20 +3,14 @@
 With _Tile Group_, you can maintain groups of tiles and define role-based access.
 Tile groups include several tiles and are displayed on the launchpad.
 You have to bundle tiles into tile groups to make them appear on the launchpad.
-//Meaning you can only use tiles in a launchpad that are assigned to a group, or you can only use multiple tiles in a launchpad if they are assigned to the same group?
 Tiles can only appear on the launchpad if they are part of a tile group.
 
 == Role-based tile groups
 
-//You can assign one or more roles to a tile group to restrict access to specific user groups. Only users with the same role can see tiles that belong to this tile group. Roles assigned to a tile group also apply to its tiles. You do not need to assign roles to individual tiles.
-A user must have the same role as the tile group to see it.
-You can assign one or more roles to each tile group.
-In this way, you do not need to assign a role to each tile.
+You can assign one or more roles to a tile group to restrict access to specific user groups. Only users with the same role can see tiles that belong to this tile group. Roles assigned to a tile group also apply to its tiles. You do not need to assign roles to individual tiles.
 
 image::tile-group-role-tile.png[width=400]
-//necessary? I think your text explains it well enough.
-Users who have assigned a role in a tile group have access to the applications of that tile group.
-//Users who share a role with the tile group...?
+Users who share a role with the tile group have access to the applications of that tile group.
 They can also browse through a tile group library from their launchpad and select the applications that they want to display on the start page of their launchpad.
 
 == Related topics

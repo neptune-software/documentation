@@ -1,0 +1,33 @@
+= Add a tile group to your launchpad
+
+In this topic, you learn how to add tile groups to your launchpad. The chosen hierarchy is reflected on the launchpad. You can drag and drop tile groups to change the order in which they are displayed on the launchpad.
+
+== Prerequisites
+
+* You have created at least one tile group in xref:tilegroup-add.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Launchpad_.
++
+*Result*: The table of existing launchpads open.
+. Click *Add*.
++
+*Result*: The settings of the launchpad open in the *General* tab.
+. Got to the *Tile Group* tab.
+. Click *Add* to open the dialog with the available tile groups in the system.
+. Click on a tile group.
+. Click *Select*.
+. Click *Save*.
+
+== Results
+
+* You have added one or more tile groups to your launchpad.
+
+
+== Related topics
+
+* xref:launchpad-task.adoc[]
+* optional: xref:launchpad-layout.adoc[]
+* optional: xref:launchpad-optional.adoc[]
+* xref:launchpad-concept.adoc[]

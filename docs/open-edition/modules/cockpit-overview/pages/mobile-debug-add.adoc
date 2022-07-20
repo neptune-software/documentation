@@ -4,29 +4,23 @@ In this topic, you learn how to add and configure a mobile debugger.
 
 == Prerequisites
 
-* An application does not work correctly for a user.
-//@Fabian: Technically I could also see logs of an app that is running properly. :D
-//* You have created an application with active users or test users?
+* You have created an application with active users or test users?
 
 == Procedure
 
 . In the Cockpit, go to *Administration* and click _Mobile Debug_.
 +
-*Result*: The table of existing debugging methods opens.
-//@Fabian: methods?
+*Result*: The table of existing mobile debuggers opens.
 . Click *Add*.
 +
-*Result*: The settings of the debugging method open.
-//see comment mobile-client-add
+*Result*: The settings of the mobile debugger open.
 . Enter the *Application* you want to debug.
 . Enter the *User* whose application you want to debug.
-//@Fabian: does debugging only affect single users? Or is this a filter for logs of a specific user?
 . Click *Save*.
 
 == Results
 
-* In the *Log* tab, you see the type of error and what has caused it.
-//...you see past logs with timestamp and error message?
+* In the *Log* tab, you see past logs with timestamp and error message.
 
 == Related topics
 

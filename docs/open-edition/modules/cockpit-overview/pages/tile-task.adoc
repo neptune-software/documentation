@@ -5,4 +5,7 @@ In this guide, you learn how to add and configure a tile.
 This guide consists of the following steps:
 
 * xref:tile-general.adoc[]
-* Optional: xref:mobile-client-optional.adoc[]
+* Optional: xref:tile-layout.adoc[]
+* Optional: xref:tile-action.adoc[]
+* Optional: xref:tile-optional.adoc[]
+* xref:tiles.adoc[]

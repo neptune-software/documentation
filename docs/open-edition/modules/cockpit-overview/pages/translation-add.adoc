@@ -6,20 +6,16 @@ The language(s) into which you want to translate have to be selected in the laun
 == Prerequisites
 
 * You have enabled the respective language(s) in xref:launchpad.adoc[].
-//see comment in other tasks
 
 == Procedure
 
 . In the Cockpit, go to *Administration* and click _Translation_.
 +
 *Result*: The table of available launchpads opens.
-. Click on the launchpad you want to translate.
-//launchpad that includes artifacts you want to translate?
+. Click on the launchpad that includes artifacts you want to translate.
 +
-*Result*: The translation settings open in a new window.
-// "settings" misleading here -> The table of translatable artifacts opens?
-. In *Language*, select the language you want to translate into.
-//one or more languages?
+*Result*: The table of translatable artifacts opens
+. In *Language*, select one or more languages you want to translate into.
 +
 *Result*: All artifacts in the launchpad that can be translated are displayed.
 +

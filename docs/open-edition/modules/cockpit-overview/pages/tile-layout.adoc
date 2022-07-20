@@ -1,0 +1,35 @@
+= Configure the layout of your tile
+
+In this topic, you learn how to configure the layout of your tile.
+
+== Prerequisites
+
+* You have configured the general settings of your tile in xref:tile-add.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile_.
++
+*Result*: The table of existing tiles open.
+. Click *Add*.
++
+*Result*: The settings of the tile open in the general tab.
+. Go to the *Layout* tab.
++
+. In the *Layout* section, you define the general layout of your tile and how it is displayed on the launchpad, including background, width, and height.
+. In the *Tile Icon/Image* section, you can provide an icon for your tile. Icons can also be appropriately sized images.
+Image or icon are derived from the media library.
+. In the *Tile Background Image* section, you can choose and configure a background image for your tile.
+. In the *Hide Tile On* section, you can decide whether your tile should not be displayed on a certain device.
+. In the *Hide Launchpad Header On* section, you can decide whether the header of the launchpad should be hidden on a certain device.
+. In the *Open Button* section, you define what text or which icon is displayed on the start button of the tile.
+. Click *Save*.
+
+== Results
+
+* You have configured the layout of your tile.
+
+== Related topics
+
+* xref:tile-task.adoc[]
+* xref:tiles.adoc[Tiles]

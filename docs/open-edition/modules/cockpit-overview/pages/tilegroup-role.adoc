@@ -1,0 +1,34 @@
+= Restrict access to your tile group by using roles
+
+In this topic, you learn how to restrict access to your tile group to users with a specific role. You can choose as many roles as you want.
+
+== Prerequisites
+
+* You have configured the general settings of your tile in xref:tile-add.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile Group_.
++
+*Result*: The table of existing tile groups open.
+. Click *Add*.
++
+*Result*: The settings of the tile group open in the general tab.
+. Go to the *Role* tab.
+. Click *Add* to open the dialog with the available roles in the system.
+. Click on a role.
+. Click *Select*.
+. Click *Save*.
+
+== Results
+
+* You have restricted access to your tile group by assigning special roles to users.
+
+== Next steps
+
+* Further configure your tile group.
+
+== Related topics
+
+* xref:tile-groups.adoc[]
+* xref:tilegroup-task.adoc[]

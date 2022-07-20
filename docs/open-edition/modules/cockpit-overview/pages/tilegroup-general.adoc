@@ -1,0 +1,38 @@
+= Configure general information about your tile group
+
+In this topic, you learn how to set general information about your tile group.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile Group_.
++
+*Result*: The table of existing tile groups open.
+. Click *Add*.
++
+*Result*: The settings of the tile group open in the general tab.
+. Enter a *Name* for your tile. This name refers to the name the artifact has in the system.
+. Assign the tile group to a package of artifacts in *Package*.
+. In the *Information* section, you provide general information about your tile group. The information given here are displayed on the tile group on the launchpad.
+. In the *Message* section, you can write a message of a certain information type that is shown to the user on the launchpad above your tile group.
+. Click *Save*.
+
+== Results
+
+* You have added and configured the general settings of your tile group.
+
+== Next steps
+
+* xref:tilegroup-tile.adoc[]
+
+== Related topics
+
+* xref:tilegroup-task.adoc[]
+* optional xref:tilegroup-layout.adoc[]
+* optional xref:tilegroup-role.adoc[]
+* optional xref:tilegroup-tilegroup.adoc[]
+* optional xref:tilegroup-translation.adoc[]
+* xref:tile-groups.adoc[]
