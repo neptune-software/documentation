@@ -39,7 +39,7 @@ image::tiles_example2.png[width=400]
 //@Fabian: I'd like a side by side comparison, but it's not necessary.
 
 == Related topics
-* xref:tile-add.adoc[]
+* xref:tile-task.adoc[]
 * xref:tile-groups.adoc[Tile Groups]
 * xref:launchpad-concept.adoc[Launchpad]
 * xref:store.adoc[]

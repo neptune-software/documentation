@@ -14,8 +14,8 @@ The plugins you see after first opening are the recommended set of plugins.
 *Result*: The table of existing mobile clients open.
 . Click your mobile client.
 +
-*Result*: The settings of the mobile client open in the general tab.
-. Navigate to the *Plugins* tab. There are three ways to add plugins:
+*Result*: The settings of the mobile client open in the *General* tab.
+. Go to the *Plugins* tab. There are three ways to add plugins:
 .. Click *+Add*: An empty field opens. You can enter the name of the plugin.
 .. Click *Add from Library*: A new window with the list of available Cordova plugins in the system library opens. Choose the plugin you want and click *Select*.
 .. Click *Add from NPM*: A new window with the list of available Cordova plugins from the _NPM_ service opens. Choose the plugins you want and click *Select*.
@@ -24,16 +24,17 @@ NOTE: You can click *Reset* to return to the default set of plugins that is reco
 +
 . Click *Save*.
 
-
 == Results
 
 * You have configured the device settings of your mobile client.
 
 == Next steps
 
-* Further configure your mobile client in xref:mobile-client-optional.adoc[].
+* Optional: xref:mobile-client-optional.adoc[]
 
 == Related topics
 
+* xref:mobile-client-task.adoc[]
 * xref:mobile-client.adoc[Mobile Client]
+
 

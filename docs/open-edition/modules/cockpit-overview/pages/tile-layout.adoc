@@ -4,7 +4,7 @@ In this topic, you learn how to configure the layout of your tile.
 
 == Prerequisites
 
-* You have configured the general settings of your tile in xref:tile-add.adoc[].
+* You have configured the general settings of your tile in xref:tile-general.adoc[].
 
 == Procedure
 
@@ -13,7 +13,7 @@ In this topic, you learn how to configure the layout of your tile.
 *Result*: The table of existing tiles open.
 . Click *Add*.
 +
-*Result*: The settings of the tile open in the general tab.
+*Result*: The settings of the tile open in the *General* tab.
 . Go to the *Layout* tab.
 +
 . In the *Layout* section, you define the general layout of your tile and how it is displayed on the launchpad, including background, width, and height.
@@ -29,7 +29,12 @@ Image or icon are derived from the media library.
 
 * You have configured the layout of your tile.
 
+== Next steps
+
+* Optional: xref:tile-action.adoc[]
+* Optional: xref:tile-optional.adoc[]
+
 == Related topics
 
 * xref:tile-task.adoc[]
-* xref:tiles.adoc[Tiles]
+* xref:tiles.adoc[Tile]

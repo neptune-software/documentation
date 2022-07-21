@@ -1,10 +1,10 @@
 = Configure general information about your mobile client
 
-In this topic, you learn how to set general information about your mobile client.
+In this topic, you learn how to configure general information about your mobile client.
 
 == Prerequisites
 
-* You have created a launchpad in xref:launchpad.adoc[].
+* You have created a launchpad in xref:launchpad-task.adoc[].
 
 == Procedure
 
@@ -13,7 +13,7 @@ In this topic, you learn how to set general information about your mobile client
 *Result*: The table of existing mobile clients open.
 . Click *Add*.
 +
-*Result*: The settings of the mobile client open in the general tab.
+*Result*: The settings of the mobile client open in the *General* tab.
 . Enter a *Name* for your mobile client. It refers to the name the mobile client artifact has in the system.
 . You can enter a *Description* of your mobile client.
 . In *Launchpad*, select the launchpad you want to create a mobile client for.
@@ -26,9 +26,13 @@ In this topic, you learn how to set general information about your mobile client
 
 == Next steps
 
-* Configure the security settings of the mobile client in xref:mobile-client-security.adoc[].
+* xref:mobile-client-security.adoc[]
+* xref:mobile-client-device.adoc[]
+* xref:mobile-client-plugins.adoc[]
+* Optional: xref:mobile-client-optional.adoc[]
 
 == Related topics
 
+* xref:mobile-client-task.adoc[]
 * xref:mobile-client.adoc[Mobile Client]
 

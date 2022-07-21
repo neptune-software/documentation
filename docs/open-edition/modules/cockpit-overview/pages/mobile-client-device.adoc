@@ -13,8 +13,8 @@ In this topic, you learn how to configure the device your mobile client runs on.
 *Result*: The table of existing mobile clients open.
 . Click your mobile client.
 +
-*Result*: The settings of the mobile client open in the general tab.
-. Navigate to the *Device* tab.
+*Result*: The settings of the mobile client open in the *General* tab.
+. Go to the *Device* tab.
 . Provide the *App ID*. The *App ID* is structured as follows: `com.company.identifier`. An example is `com.neptune.testapp`.
 . Decide, whether the orientation is `landscape` or `portrait`. Default is `portrait`.
 . Decide, whether the mobile client should be opened in fullscreen mode.
@@ -30,9 +30,10 @@ In this topic, you learn how to configure the device your mobile client runs on.
 
 == Next steps
 
-* Configure the plugins you use for your mobile client in xref:mobile-client-plugins.adoc[].
+* xref:mobile-client-plugins.adoc[]
+* Optional: xref:mobile-client-optional.adoc[]
 
 == Related topics
 
+* xref:mobile-client-task.adoc[]
 * xref:mobile-client.adoc[Mobile Client]
-

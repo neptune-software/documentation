@@ -4,7 +4,7 @@ In this topic, you learn how to restrict access to your tile group to users with
 
 == Prerequisites
 
-* You have configured the general settings of your tile in xref:tile-add.adoc[].
+* You have configured the general settings of your tile in xref:tile-general.adoc[].
 
 == Procedure
 
@@ -13,10 +13,10 @@ In this topic, you learn how to restrict access to your tile group to users with
 *Result*: The table of existing tile groups open.
 . Click *Add*.
 +
-*Result*: The settings of the tile group open in the general tab.
+*Result*: The settings of the tile group open in the *General* tab.
 . Go to the *Role* tab.
 . Click *Add* to open the dialog with the available roles in the system.
-. Click on a role.
+. Select one or more role.
 . Click *Select*.
 . Click *Save*.
 
@@ -26,7 +26,9 @@ In this topic, you learn how to restrict access to your tile group to users with
 
 == Next steps
 
-* Further configure your tile group.
+* optional xref:tilegroup-layout.adoc[]
+* optional xref:tilegroup-tilegroup.adoc[]
+* optional xref:tilegroup-translation.adoc[]
 
 == Related topics
 

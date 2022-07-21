@@ -1,6 +1,6 @@
 = Further configure your mobile client
 
-In this topic, you learn how to further configure your mobile client. The steps described here are optional.
+In this topic, you learn how to further configure your mobile client.
 
 == Prerequisites
 
@@ -13,8 +13,7 @@ In this topic, you learn how to further configure your mobile client. The steps 
 *Result*: The table of existing mobile clients open.
 . Click your mobile client.
 +
-*Result*: The settings of the mobile client open in the general tab.
-
+*Result*: The settings of the mobile client open in the *General* tab.
 . You can use the *Custom Config* editor to add XML code to edit your mobile application.
 . In *Push:IOS*, you can download configuration files from the firebase platform to push your mobile client to IOS devices.
 . In *Push:Android*, you can download configuration files from the firebase platform to push your mobile client to Android devices.
@@ -27,5 +26,6 @@ In this topic, you learn how to further configure your mobile client. The steps 
 
 == Related topics
 
+* xref:mobile-client-task.adoc[]
 * xref:mobile-client.adoc[Mobile Client]
 

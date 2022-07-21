@@ -58,17 +58,17 @@ A launchpad comes with an assignment mechanisms that connects objects to one ano
 |Assign a user or a group to a role     |All users with a specific role can access apps that are assigned to that role.     |Go to *Security* > xref:security-user.adoc[User].
 |Assign a user to a group    |All users in a specific group can access apps that are assigned to that group.     |Go to *Security* > xref:security-user.adoc[User].
 
-|Assign a tile to a role    |Users can access apps in their launchpad. The role of the user must be assigned to the tile.  |Go to *Administration* > xref:tiles.adoc[Tiles].
+|Assign a tile to a role    |Users can access apps in their launchpad. The role of the user must be assigned to the tile.  |Go to *Administration* > xref:tiles.adoc[Tile].
 
-|Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role.     |Go to *Administration* > xref:tile-groups.adoc[Tile Groups].
+|Assign a tile group to a role    |Users with this role can view the tile group on their launchpad. Users will only see  tiles that have been assigned to a group with the same role.     |Go to *Administration* > xref:tile-groups.adoc[Tile Group].
 
-|Assign a tile and its intent to a tile group    |When users click the tile on the launchpad, the intent resolves into a URL and navigates to the app.     |Go to *Administration* > xref:tiles.adoc[Tiles].
+|Assign a tile and its intent to a tile group    |When users click the tile on the launchpad, the intent resolves into a URL and navigates to the app.     |Go to *Administration* > xref:tiles.adoc[Tile].
 |===
 
 
 == Related topics
 * xref:launchpad-task.adoc[]
-* xref:tile-groups.adoc[Tile Groups]
-* xref:tiles.adoc[Tiles]
+* xref:tile-groups.adoc[Tile Group]
+* xref:tiles.adoc[Tile]
 * xref:administration.adoc[]
 

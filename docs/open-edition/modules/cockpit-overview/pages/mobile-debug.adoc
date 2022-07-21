@@ -3,5 +3,6 @@
 _Mobile Debug_ lets you debug mobile applications and trace logs generated from mobile applications.
 
 == Related topics
+
 * xref:mobile-debug-add.adoc[]
 * xref:administration.adoc[]

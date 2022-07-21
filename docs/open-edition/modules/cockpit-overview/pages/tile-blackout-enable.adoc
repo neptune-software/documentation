@@ -4,7 +4,7 @@ In this topic, you learn how to declare that a tile is under maintenance and can
 
 == Prerequisites
 
-* You have created a tile in xref:tile-add.adoc[]
+* You have created a tile in xref:tile-task.adoc[]
 
 == Procedure
 
@@ -15,7 +15,7 @@ In this topic, you learn how to declare that a tile is under maintenance and can
 *Result*: A new window with general data about the tile opens.
 . Click *Edit*.
 . In the *Blackout* section, toggle the *Enable* button to `Yes`.
-. In *Button Text* and *Descriptiopn*, provide an explanation for the users why the tile cannot be reached.
+. In *Button Text* and *Description*, provide an explanation for the users why the tile cannot be reached.
 . Click *Save*.
 
 == Results

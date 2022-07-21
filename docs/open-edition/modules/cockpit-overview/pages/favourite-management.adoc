@@ -4,6 +4,7 @@ The _Favorite Management_ lets you add tiles as favorites to the launchpads of o
 You can import and export `csv` lists of users, tiles, and tile groups.
 
 == Related topics
-* xref:tile-groups.adoc[Tile Groups]
+
 * xref:favorite-add.adoc[]
+* xref:tile-groups.adoc[Tile Groups]
 * xref:administration.adoc[]

@@ -13,7 +13,7 @@ In this topic, you learn how to set general information about your tile.
 *Result*: The table of existing tiles open.
 . Click *Add*.
 +
-*Result*: The settings of the tile open in the general tab.
+*Result*: The settings of the tile open in the *General* tab.
 . Enter a *Name* for your tile.
 . Assign the tile to a package of artifacts in *Package*.
 . Decide what *Type* your tile is. The default is `application` but you can also choose the following:
@@ -28,10 +28,13 @@ Highchart & Highstock:: Runs a highchart or highstock graph inside a tile.
 
 * You have added and configured the general settings of your tile.
 
-== Related topics
+== Next steps
 
-* xref:tile-task.adoc[]
 * Optional: xref:tile-layout.adoc[]
 * Optional: xref:tile-action.adoc[]
 * Optional: xref:tile-optional.adoc[]
-* xref:tiles.adoc[Tiles]
+
+== Related topics
+
+* xref:tile-task.adoc[]
+* xref:tiles.adoc[Tile]

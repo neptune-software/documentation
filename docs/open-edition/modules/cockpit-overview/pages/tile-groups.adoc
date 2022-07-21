@@ -10,11 +10,12 @@ Tiles can only appear on the launchpad if they are part of a tile group.
 You can assign one or more roles to a tile group to restrict access to specific user groups. Only users with the same role can see tiles that belong to this tile group. Roles assigned to a tile group also apply to its tiles. You do not need to assign roles to individual tiles.
 
 image::tile-group-role-tile.png[width=400]
+
 Users who share a role with the tile group have access to the applications of that tile group.
 They can also browse through a tile group library from their launchpad and select the applications that they want to display on the start page of their launchpad.
 
 == Related topics
-* xref:tilegroup-add.adoc[]
+* xref:tilegroup-task.adoc[]
 * xref:tiles.adoc[Tiles]
 * xref:launchpad-concept.adoc[Launchpad]
 * xref:administration.adoc[]

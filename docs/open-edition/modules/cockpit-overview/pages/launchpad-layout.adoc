@@ -4,7 +4,7 @@ In this topic, you learn how to configure the layout of your launchpad. You can 
 
 == Prerequisites
 
-* You have created at least one tile group in xref:tilegroup-add.adoc[].
+* You have created a launchpad in xref:launchpad-general.adoc[].
 
 == Procedure
 
@@ -14,8 +14,9 @@ In this topic, you learn how to configure the layout of your launchpad. You can 
 . Click *Add*.
 +
 *Result*: The settings of the launchpad open in the *General* tab.
-. Got to the *Layout* tab.
+. Go to the *Layout* tab.
 . Click *Add* to add a new layout style to your launchpad.
+. Configure the layout style.
 . Click *Save* to see a live preview in the right pane.
 //Has to be described in more detail
 
@@ -23,7 +24,11 @@ In this topic, you learn how to configure the layout of your launchpad. You can 
 
 * You have configured the layout of your launchpad.
 
+== Next steps
+
+* optional: xref:launchpad-optional.adoc[]
+
 == Related topics
 
 * xref:launchpad-task.adoc[]
-* xref:launchpad-concept.adoc[]
+* xref:launchpad-concept.adoc[Launchpad]

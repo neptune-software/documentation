@@ -13,8 +13,8 @@ In this topic, you learn how to configure the security settings of your mobile c
 *Result*: The table of existing mobile clients open.
 . Click your mobile client.
 +
-*Result*: The settings of the mobile client open in the general tab.
-. Navigate to the *Security* tab.
+*Result*: The settings of the mobile client open in the *General* tab.
+. Go to the *Security* tab.
 . Provide the *Server URL* where the mobile client is hosted.
 . Optionally, you can set a URL for resetting the password.
 . In the *Autolock* section, you can set a period of time after which the system is automatically locked.
@@ -28,9 +28,12 @@ In this topic, you learn how to configure the security settings of your mobile c
 
 == Next steps
 
-* Configure the device settings of the mobile client in xref:mobile-client-device.adoc[].
+* xref:mobile-client-device.adoc[]
+* xref:mobile-client-plugins.adoc[]
+* Optional: xref:mobile-client-optional.adoc[]
 
 == Related topics
 
+* xref:mobile-client-task.adoc[]
 * xref:mobile-client.adoc[Mobile Client]
 

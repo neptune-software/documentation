@@ -6,7 +6,7 @@ When you finished working on the tile, you can also use the _Tile Blackout_ to r
 == Related topics
 * xref:tile-blackout-enable.adoc[]
 * xref:tile-blackout-disable.adoc[]
-* xref:tiles.adoc[Tiles]
+* xref:tiles.adoc[Tile]
 * xref:administration.adoc[]
 
 

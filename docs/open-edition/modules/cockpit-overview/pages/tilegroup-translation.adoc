@@ -4,7 +4,7 @@ In this topic, you learn how to provide a translation for the title and subtitle
 
 == Prerequisites
 
-* You have configured the general settings of your tile in xref:tile-add.adoc[].
+* You have configured the general settings of your tile in xref:tile-general.adoc[].
 
 == Procedure
 
@@ -13,7 +13,7 @@ In this topic, you learn how to provide a translation for the title and subtitle
 *Result*: The table of existing tile groups open.
 . Click *Add*.
 +
-*Result*: The settings of the tile group open in the general tab.
+*Result*: The settings of the tile group open in the *General* tab.
 . Go to the *Translation* tab.
 . Click *Add* to display a new row.
 . Choose a *Language*.
@@ -22,7 +22,13 @@ In this topic, you learn how to provide a translation for the title and subtitle
 
 == Results
 
-* You have added a translation for the title and subtitle of your tile group in a choosen language.
+* You have added a translation for the title and subtitle of your tile group in a chosen language.
+
+== Next steps
+
+* optional xref:tilegroup-layout.adoc[]
+* optional xref:tilegroup-role.adoc[]
+* optional xref:tilegroup-tilegroup.adoc[]
 
 == Related topics
 
