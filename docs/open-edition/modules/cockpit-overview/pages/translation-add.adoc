@@ -1,0 +1,37 @@
+= Translate artifacts in a tile or tile group
+
+In this topic, you learn how to add a translation of an artifact in a tile or tile group.
+The language(s) into which you want to translate have to be selected in the launchpad.
+
+== Prerequisites
+
+* You have enabled the respective language(s) in xref:launchpad.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Translation_.
++
+*Result*: The table of available launchpads opens.
+. Click on the launchpad that includes artifacts you want to translate.
++
+*Result*: The table of translatable artifacts opens
+. In *Language*, select one or more languages you want to translate into.
++
+*Result*: All artifacts in the launchpad that can be translated are displayed.
++
+NOTE: If the desired language does not show up here, you have to enable it in the settings of your launchpad.
+. Translate the artifact.
+.. Enter your translation manually in the *Translate to* field.
+.. Select the artifact you want to translate and click *Google Translate* to generate an automatic translation.
+. Click *Save* to save your translations.
+
+== Results
+
+* You have translated artifacts of your launchpad.
+
+== Related topics
+
+* xref:translation.adoc[Translation]
+* xref:launchpad.adoc[]
+* xref:tiles.adoc[Tile]
+* xref:tile-groups.adoc[Tile Group]

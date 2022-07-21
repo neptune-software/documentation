@@ -1,0 +1,20 @@
+= image:application-management-icon.png[width=100] Application Management
+
+With the _Application Management_, you can monitor all applications in the system.
+
+You can see which application is running and which has stopped.
+You can also run and stop applications or edit them in the _App Designer_.
+
+image::application-management-overview.png[,800]
+
+There are three action buttons:
+
+* image:application-management-edit.png[,40] Click to edit the application in the _App Designer_.
+* image:application-management-play.png[,40] Click to run an application if it has stopped.
+* image:application-management-stop.png[,40] Click to stop a running application.
+
+//Reminder for future: add icons when icon font active
+
+== Related topics
+* xref:administration.adoc[]
+* xref:app-designer.adoc[App Designer]

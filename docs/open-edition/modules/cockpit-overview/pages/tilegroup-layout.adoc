@@ -1,0 +1,37 @@
+= Configure the layout of your tile group
+
+In this topic, you learn how to configure the layout of your tile group
+
+== Prerequisites
+
+* You have configured the general settings of your tile in xref:tile-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile Group_.
++
+*Result*: The table of existing tile groups open.
+. Click *Add*.
++
+*Result*: The settings of the tile group open in the *General* tab.
+. Go to the *Layout* tab.
+. In the *Tiles Layout* section, you can configure the arrangement and general layout of tiles inside your tile group on the launchpad.
+. In the *Tile Group Layout* section, you can configure the general layout of your tile group on the launchpad.
+. In the *Tile Group Header* section, you can configure the layout of the tile group header.
+. In the sections *Desktop*, *Tablet*, and *Mobile*, you can specify the layout of the tile group depending on the output medium.
+. Click *Save*.
+
+== Results
+
+* You have configured the layout of your tile group.
+
+== Next steps
+
+* optional xref:tilegroup-role.adoc[]
+* optional xref:tilegroup-tilegroup.adoc[]
+* optional xref:tilegroup-translation.adoc[]
+
+== Related topics
+
+* xref:tilegroup-task.adoc[]
+* xref:tile-groups.adoc[Tile Group]

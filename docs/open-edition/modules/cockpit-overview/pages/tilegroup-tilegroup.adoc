@@ -1,0 +1,37 @@
+= Add child tile groups to your tile group
+
+In this topic, you learn how to add child tile groups to your new tile group. The hierarchy is displayed on the launchpad.
+You can drag and drop tile groups to change the order in which they are displayed on the launchpad.
+
+== Prerequisites
+
+* You have configured the general settings of your tile in xref:tile-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile Group_.
++
+*Result*: The table of existing tile groups open.
+. Click *Add*.
++
+*Result*: The settings of the tile group open in the *General* tab.
+. Go to the *Tile Group* tab.
+. Click *Add* to open the dialog with the available tiles in the system.
+. Select one or more tile group.
+. Click *Select*.
+. Click *Save*.
+
+== Results
+
+* You have added child tile groups to your tile group.
+
+== Next steps
+
+* optional xref:tilegroup-layout.adoc[]
+* optional xref:tilegroup-role.adoc[]
+* optional xref:tilegroup-translation.adoc[]
+
+== Related topics
+
+* xref:tile-groups.adoc[]
+* xref:tilegroup-task.adoc[]

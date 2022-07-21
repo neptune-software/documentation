@@ -1,0 +1,38 @@
+= Add tiles to your tile group
+
+In this topic, you learn how to add tiles to your tile group. You can choose as many tiles as you want.
+You can drag and drop tiles to change the order in which they are displayed inside the tile group on the launchpad.
+
+== Prerequisites
+
+* You have configured the general settings of your tile in xref:tile-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile Group_.
++
+*Result*: The table of existing tile groups open.
+. Click *Add*.
++
+*Result*: The settings of the tile group open in the *General* tab.
+. Go to the *Tile* tab.
+. Click *Add* to open the dialog with the available tiles in the system.
+. Select one or more tile.
+. Click *Select*.
+. Click *Save*.
+
+== Results
+
+* You have added one or more tiles to your tile group.
+
+== Next steps
+
+* optional xref:tilegroup-layout.adoc[]
+* optional xref:tilegroup-role.adoc[]
+* optional xref:tilegroup-tilegroup.adoc[]
+* optional xref:tilegroup-translation.adoc[]
+
+== Related topics
+
+* xref:tilegroup-task.adoc[]
+* xref:tile-groups.adoc[Tile Group]

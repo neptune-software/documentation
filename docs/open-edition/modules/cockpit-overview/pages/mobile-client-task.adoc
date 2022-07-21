@@ -1,0 +1,15 @@
+= Add a new mobile client
+
+In this guide, you learn how to add and configure a mobile client.
+
+This guide consists of the following steps:
+
+* xref:mobile-client-general.adoc[]
+* xref:mobile-client-security.adoc[]
+* xref:mobile-client-device.adoc[]
+* xref:mobile-client-plugins.adoc[]
+* Optional: xref:mobile-client-optional.adoc[]
+
+== Related topics
+
+* xref:mobile-client.adoc[Mobile Client]

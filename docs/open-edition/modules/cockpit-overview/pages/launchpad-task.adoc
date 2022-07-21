@@ -1,0 +1,14 @@
+= Add a new launchpad
+
+In this guide, you learn how to add and configure a launchpad.
+
+This guide consists of the following steps:
+
+* xref:launchpad-general.adoc[]
+* xref:launchpad-tilegroup.adoc[]
+* optional: xref:launchpad-layout.adoc[]
+* optional: xref:launchpad-optional.adoc[]
+
+== Related topics
+
+* xref:launchpad-concept.adoc[Launchpad]

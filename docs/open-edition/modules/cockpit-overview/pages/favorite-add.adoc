@@ -1,0 +1,33 @@
+= Add favorite tiles to a launchpad
+
+In this topic, you learn how to add favorite tiles to the launchpads of users.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Favorite Management_.
++
+*Result*: The _Favorite Management_ opens in the selection window.
++
+. In *Launchpad*, select the launchpad you want to add favorite tiles to.
+. Select a *User* from the list.
++
+NOTE: If you do not select a specific user, all users of the launchpad are displayed in the next step.
+. Click *Start*.
++
+*Result*: You see a table with favored tiles per user for the launchpad.
++
+. In *Tiles*, select one or more tiles from the drop-down menu.
+. In *Action*, click *Add tile(s) to favorites* to add the tiles to the list below.
+. Click *Save*.
+
+== Results
+
+* You have added favorite tiles to a launchpad.
+
+== Related topics
+
+* xref:favourite-management.adoc[Favorite Management]

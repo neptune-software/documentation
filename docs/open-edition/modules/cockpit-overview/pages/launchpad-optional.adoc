@@ -1,0 +1,34 @@
+= Further configure your launchpad
+
+In this topic, you learn how to further configure your launchpad, including the behaviour as progressive web app, the header, enhancements, and the use of chatbots.
+
+== Prerequisites
+
+* You have created a launchpad in xref:launchpad-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Launchpad_.
++
+*Result*: The table of existing launchpads open.
+. Click *Add*.
++
+*Result*: The settings of the launchpad open in the *General* tab.
+. Go to the *PWA* tab. You can specify that your launchpad should serve as a progressive web app (PWA).
+You can define the layout and display mode of your PWA, set an autolock when the app is not used, and enable the user to insert a pin code to restrict access to the app.
+. Go to the *Header* tab. You can specifically describe your header with dedicated javascript code.
+. Go to the *Enhancements* tab. You can enable multiple *Enhancements* for your launchpad and adapt them with custom javascript code.
+Click on an enhancement and toggle the *Activate* button to activate it.
+. Go to the *Chatbot* tab. You can enable a chatbot in your launchpad.
+This can either be a chatbot from IBM (IBM Watson Assistant) or SAP (SAP Conversational AI).
+You need to have a corresponding account to connect to the chatbot.
+
+== Next steps
+
+* optional: xref:launchpad-optional.adoc[]
+
+== Related topics
+
+* xref:launchpad-task.adoc[]
+* xref:launchpad-concept.adoc[Launchpad]
+

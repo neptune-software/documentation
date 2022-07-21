@@ -1,0 +1,16 @@
+= Add a new tile group
+
+In this guide, you learn how to add and configure a tile group.
+
+This guide consists of the following steps:
+
+* xref:tilegroup-general.adoc[]
+* xref:tilegroup-tile.adoc[]
+* optional xref:tilegroup-layout.adoc[]
+* optional xref:tilegroup-role.adoc[]
+* optional xref:tilegroup-tilegroup.adoc[]
+* optional xref:tilegroup-translation.adoc[]
+
+== Related topics
+
+* xref:tile-groups.adoc[Tile Group]

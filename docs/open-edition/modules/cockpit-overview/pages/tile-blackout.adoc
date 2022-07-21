@@ -1,10 +1,12 @@
-= image:the-blackout@2x.png[width=100]Tile Blackout
+= image:the-blackout@2x.png[width=100] Tile Blackout
 
-With the _Tile Blackout_, you can inform users that an application or URL on a tile is under maintenance or unreachable.
+With the _Tile Blackout_, you can inform users that a tile on the launchpad is currently not available, for example, when it is under maintenance.
+When you finished working on the tile, you can also use the _Tile Blackout_ to restart the tile.
 
 == Related topics
-//* Black out tiles
-* xref:cockpit-overview:tiles.adoc[Tiles]
-* xref:cockpit-overview:tile-groups.adoc[Tile Groups]
+* xref:tile-blackout-enable.adoc[]
+* xref:tile-blackout-disable.adoc[]
+* xref:tiles.adoc[Tile]
+* xref:administration.adoc[]
 
 

@@ -1,0 +1,39 @@
+= Configure the security settings of your mobile client
+
+In this topic, you learn how to configure the security settings of your mobile client.
+
+== Prerequisites
+
+* You have configured the general information of your mobile client in xref:mobile-client-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Mobile Client_.
++
+*Result*: The table of existing mobile clients open.
+. Click your mobile client.
++
+*Result*: The settings of the mobile client open in the *General* tab.
+. Go to the *Security* tab.
+. Provide the *Server URL* where the mobile client is hosted.
+. Optionally, you can set a URL for resetting the password.
+. In the *Autolock* section, you can set a period of time after which the system is automatically locked.
+. In the *Pin Code* section, you can enable and configure login to the mobile client via pin code.
+. In the *Biometric Authentication* section, you can enable authentication via fingerprint on a mobile device.
+. Click *Save*.
+
+== Results
+
+* You have configured the security settings of your mobile client.
+
+== Next steps
+
+* xref:mobile-client-device.adoc[]
+* xref:mobile-client-plugins.adoc[]
+* Optional: xref:mobile-client-optional.adoc[]
+
+== Related topics
+
+* xref:mobile-client-task.adoc[]
+* xref:mobile-client.adoc[Mobile Client]
+

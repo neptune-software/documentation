@@ -1,0 +1,40 @@
+= Add actions to your tile
+
+In this topic, you learn how to add further actions to your tile.
+
+== Prerequisites
+
+* You have configured the general settings of your tile in xref:tile-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile_.
++
+*Result*: The table of existing tiles open.
+. Click *Add*.
++
+*Result*: The settings of the tile open in the *General* tab.
+. Go to the *Action* tab.
++
+NOTE: The configuration options depend on the *Type* you choose.
+. In the *Action* section, you decide what type the additional action on your tile is.
+Adaptive Framework:: Choose an adaptive framework that is stored in the system.
+Application:: Select a *Remote system* to which you want to log in. Choose an *Application* you want to run there.
+Tile Group:: Enter a tile group that should be launched.
+URL:: Enter a URL that can be clicked.
+Web application:: Select a *Remote system* to which you want to log in. Choose a *Web Application* you want to run there.
+. Click *Save*.
+
+== Results
+
+* You have configured further actions of your tile.
+
+== Next steps
+
+* Optional: xref:tile-layout.adoc[]
+* Optional: xref:tile-optional.adoc[]
+
+== Related topics
+
+* xref:tile-task.adoc[]
+* xref:tiles.adoc[Tile]

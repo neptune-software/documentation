@@ -1,0 +1,48 @@
+= Configure general information about your launchpad
+
+In this topic, you learn how to configure general information about your launchpad.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Launchpad_.
++
+*Result*: The table of existing launchpads open.
+. Click *Add*.
++
+*Result*: The settings of the launchpad open in the *General* tab.
+. In the *General* section, you define general information about your launchpad.
+*Name* refers to the name the launchpad artifact has in the system. *Title* refers to the displayed name of the launchpad.
+A *Launchpad Application* can also be downloaded from the store, for example, `planet9_launchpad_standard`.
+. In the *Blackout* section, you can enable messages and provide them to the user.
+Blackout messages are displayed on the launchpad when a chosen application cannot be reached.
+. If you want only one app to be shown on your launchpad, you can choose this app in the *Single App Launchpad* section.
+All other apps and tiles that might have been selected will be hidden.
+. In the *Login* section, you define methods of how users login to your launchpad.
+You can create login scenarios in the authentication tab of the _System Settings_.
+. In the *UI5* section, you can choose the UI5 version your launchpad uses.
+You can also choose a UI5 theme.
+. In the *Settings* section, you can change general settings regarding the behaviour of your launchpad.
+. In the *Main Menu Display* section, you can choose whether the menu is displayed in the header.
+. In the *Active Apps Display* section, you can change the way of how apps you are currently working with are displayed.
+. In the *Translation* section, you can choose in which languages users can see title and subtitle of the launchpad.
+. In the *External Users* section, you can specify whether and under what conditions external users can log in to your launchpad.
+. Click *Save*.
+
+== Results
+
+* You have configured the general settings of your launchpad.
+
+== Next steps
+
+* xref:launchpad-tilegroup.adoc[]
+* optional: xref:launchpad-layout.adoc[]
+* optional: xref:launchpad-optional.adoc[]
+
+== Related topics
+
+* xref:launchpad-task.adoc[]
+* xref:launchpad-concept.adoc[Launchpad]

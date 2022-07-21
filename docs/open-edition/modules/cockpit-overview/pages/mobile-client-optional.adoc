@@ -1,0 +1,31 @@
+= Further configure your mobile client
+
+In this topic, you learn how to further configure your mobile client.
+
+== Prerequisites
+
+* You have configured the general information of your mobile client in xref:mobile-client-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Mobile Client_.
++
+*Result*: The table of existing mobile clients open.
+. Click your mobile client.
++
+*Result*: The settings of the mobile client open in the *General* tab.
+. You can use the *Custom Config* editor to add XML code to edit your mobile application.
+. In *Push:IOS*, you can download configuration files from the firebase platform to push your mobile client to IOS devices.
+. In *Push:Android*, you can download configuration files from the firebase platform to push your mobile client to Android devices.
+. In *Media*, you can enter an icon and a splashscreen for your mobile client that is derived from the media library.
+. Click *Save*.
+
+== Results
+
+* You have further configured your mobile client.
+
+== Related topics
+
+* xref:mobile-client-task.adoc[]
+* xref:mobile-client.adoc[Mobile Client]
+

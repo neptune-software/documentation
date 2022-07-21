@@ -1,0 +1,34 @@
+= Configure the layout of your launchpad
+
+In this topic, you learn how to configure the layout of your launchpad. You can have more than one layout style.
+
+== Prerequisites
+
+* You have created a launchpad in xref:launchpad-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Launchpad_.
++
+*Result*: The table of existing launchpads open.
+. Click *Add*.
++
+*Result*: The settings of the launchpad open in the *General* tab.
+. Go to the *Layout* tab.
+. Click *Add* to add a new layout style to your launchpad.
+. Configure the layout style.
+. Click *Save* to see a live preview in the right pane.
+//Has to be described in more detail
+
+== Results
+
+* You have configured the layout of your launchpad.
+
+== Next steps
+
+* optional: xref:launchpad-optional.adoc[]
+
+== Related topics
+
+* xref:launchpad-task.adoc[]
+* xref:launchpad-concept.adoc[Launchpad]

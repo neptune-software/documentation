@@ -1,0 +1,40 @@
+= Further configure your tile
+
+In this topic, you learn how to further configure your tile, including the sidepanel, navigation, documentation, role, and translation.
+
+== Prerequisites
+
+* You have configured the general settings of your tile in xref:tile-general.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile_.
++
+*Result*: The table of existing tiles open.
+. Click *Add*.
++
+*Result*: The settings of the tile open in the *General* tab.
+. In the *Sidepanel* tab, you choose an application that is displayed on the sidepanel of your tile.
+. In the *Navigation* section of the *Navigation* tab, you can define semantic objects and actions that are performed on these objects.
+Semantic objects can be business entities, for example, `customer` or `employee`.
+. In the *Limit Browser Support* section of the *Navigation* tab, you can select specific browsers that should be supported.
+. In the *Documentation* section of the *Documentation tab*, you can enable documentation for this tile that has been created in the _Documentation_ service.
+. In the *Tile Help* section of the *Documentation tab*, you can enable and write documentation specifically for your tile.
+. In the Role tab, you can specify that your tile should only be visible to users with a specific role.
+. In the translation tab, you can add a translation for the title, subtitle, description, status, and open button in a language of your choice. You need to select the same language on the launchpad to see your translation.
+. In the *Where-used* tab, you can see in which tile group the tile is used.
+. Click *Save*.
+
+== Results
+
+* You have further configured your tile.
+
+== Next steps
+
+* Optional: xref:tile-layout.adoc[]
+* Optional: xref:tile-action.adoc[]
+
+== Related topics
+
+* xref:tile-task.adoc[]
+* xref:tiles.adoc[Tile]

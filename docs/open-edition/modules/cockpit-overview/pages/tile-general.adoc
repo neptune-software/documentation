@@ -1,0 +1,40 @@
+= Configure general information about your tile
+
+In this topic, you learn how to set general information about your tile.
+
+== Prerequisites
+
+* There are no prerequisites.
+
+== Procedure
+
+. In the Cockpit, go to *Administration* and click _Tile_.
++
+*Result*: The table of existing tiles open.
+. Click *Add*.
++
+*Result*: The settings of the tile open in the *General* tab.
+. Enter a *Name* for your tile.
+. Assign the tile to a package of artifacts in *Package*.
+. Decide what *Type* your tile is. The default is `application` but you can also choose the following:
+Adaptive framework:: An application created in the _Adaptive Designer_.
+Client installation:: A client installation acts like an internal app store. You can use it to distribute mobile clients to the end user.
+Integration card:: Can be sustained by a server script.
+Highchart & Highstock:: Runs a highchart or highstock graph inside a tile.
+. In the *Information* section, you provide general information about your tile. The information given here are displayed on the tile on the launchpad.
+. Click *Save*.
+
+== Results
+
+* You have added and configured the general settings of your tile.
+
+== Next steps
+
+* Optional: xref:tile-layout.adoc[]
+* Optional: xref:tile-action.adoc[]
+* Optional: xref:tile-optional.adoc[]
+
+== Related topics
+
+* xref:tile-task.adoc[]
+* xref:tiles.adoc[Tile]

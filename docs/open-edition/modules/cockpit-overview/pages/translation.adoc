@@ -1,9 +1,11 @@
 = image:translation.png[width=100] Translation
 
-After you have added tiles and tile groups on a launchpad to be translated, you can translate them in _Translation_.
+You can translate different parts of tiles and tile groups in _Translation_.
+You have to choose a language in the launchpad to be able to translate it in that language.
+You can translate components of tiles and tile groups manually or use the integrated Google Translator.
 
-You can also enable Google Translate in _Translation_, which can be used by customers.
-Enabling Google Translate requires an API token that can be stored in _System Settings_.
+== Related topics
+* xref:translation-add.adoc[]
+* xref:launchpad-concept.adoc[Launchpad]
+* xref:administration.adoc[]
 
-//== Related topics
-//* Translate tiles and tile groups
