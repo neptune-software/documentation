@@ -12,8 +12,23 @@ In this guide, you learn how to...
 
 This guide consists of the following steps:
 
-* xref to task topic 1
-* xref to task topic 2
-* xref to task topic 3
+* Task topic 1
+* Task topic 2
+* Task topic 3
+* optional: Task topic 4
 * (...)
 ----
+
+
+== Optional tasks
+
+Optional tasks in complex tasks are tasks that are not strictly necessary to fulfill the primary task of a topic.
+However, optional tasks provide users with helpful tasks that support that primary use.
+For example, in order to create a tile, you do not need to know how to configure the layout, but it helps you a lot.
+
+=== How to label optional topics
+
+* In a complex task topic: Optional tasks are marked with "optional"
+* In the table of content: Optional tasks are marked with "optional". All available topic shall appear in the table of content.
+* In the concept topic of a service: Optional tasks are NOT marked with "optional"
+

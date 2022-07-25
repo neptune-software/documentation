@@ -5,13 +5,13 @@ Apply the following conventions when creating documentation for Neptune:
 == Product names
 * Treat as proper noun.
 * Do not highlight in bold or italics.
-* Do not use an article before "Neptune DXP - Open Edition".
+* Do not use an article before "Neptune DXP - Open Edition" or "DXP - Open Edition"
 
 //necessary comment to render description list.
 
 Examples::
 * Neptune DX Platform
-* Neptune DXP - Open Edition or the short form DXP - Open Edition (until further notice)
+* Neptune DXP - Open Edition or the short form DXP - Open Edition
 * Linux
 * Windows
 * Oracle
