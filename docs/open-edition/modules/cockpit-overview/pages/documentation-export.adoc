@@ -1,0 +1,24 @@
+= Export a documentation for an application
+
+In this topic, you learn how to export a documentation artifact for an application.
+
+== Prerequisites
+* You have created a documentation in xref:documentation-create.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Development* and click _Documentation_.
++
+*Result*: A list with all documentations appears.
+. Click on the documentation you want to export.
+*Result*: The documentation opens in a new window.
+. Click *Edit* and confirm it is you.
+. Click *Export*.
+*Result:* The documentation is downloaded as `planet9` file to your computer.
+
+== Results
+* You have exported a documentation artifact.
+
+== Related topics
+* xref:documentation.adoc[Documentation]
+* xref:documentation-create.adoc[]

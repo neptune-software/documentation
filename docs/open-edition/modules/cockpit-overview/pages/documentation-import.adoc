@@ -1,0 +1,26 @@
+= Import a documentation artifact
+
+In this topic, you learn how to import a documentation artifact in `planet9` format.
+
+== Prerequisites
+* You have created a documentation in xref:documentation-create.adoc[].
+
+== Procedure
+
+. In the Cockpit, go to *Development* and click _Documentation_.
++
+*Result*: A list with all documentations for apps appears.
+. Click on the documentation you want to import an artifact for.
+*Result*: The documentation opens in a new window.
+. Click *Edit* and confirm it is you.
+. Click *Import*.
+*Result:* The file browser of your computer opens.
+. Choose the file you want to import and confirm your choice.
+*Result:* The new artifact is displayed on your documentation
+
+== Results
+* You have imported a documentation artifact.
+
+== Related topics
+* xref:documentation.adoc[Documentation]
+* xref:documentation-create.adoc[]

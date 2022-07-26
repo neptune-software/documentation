@@ -2,6 +2,10 @@
 //https://community.neptune-software.com/documentation/resources/documentation/documentation
 
 The _Documentation_ allows you to write documentation for an application.
+You can decide whether you write a documentation for the whole service or for one part of the service only. In this case, the documentation appears as context-sensitive help next to the element.
 
 == Related topics
 * xref:documentation-create.adoc[]
+* xref:documentation-export.adoc[]
+* xref:documentation-import.adoc[]
+* xref:cockpit-development.adoc[]

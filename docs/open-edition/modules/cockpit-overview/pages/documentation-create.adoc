@@ -1,9 +1,9 @@
 = Create a documentation for an application
 
-In this topic, you learn how to create a documentation for an application.
+In this topic, you learn how to add and create a documentation for an application.
 
 == Prerequisites
-* You have created an application with the xref:app-designer.adoc[App Designer]
+* You have created an application with the xref:app-designer.adoc[_App Designer_].
 
 == Procedure
 
@@ -11,6 +11,26 @@ In this topic, you learn how to create a documentation for an application.
 +
 *Result*: A list with all documentations for apps appears.
 . Click *Add*.
-*Restult*: A new window opens.
+*Result*: A new window opens.
 . Choose the *Application* from the dialog for which you want to write a documentation.
-.
+. Choose a package.
+. Navigate to the *Content* tab.
++
+*Result:* You see the documentation editor.
++
+image::documentation-editor-at-a-glance.png[,800]
+. Click *+* in the *documentation overview pane* to add a new documentation for your complete application or context help for one element in your application.
+. In the *documentation details pane*, enter a *Title* and an *Introduction* for your documentation.
+. In *Context Aware Help*, you can decide if your documentation shall only be visible for one part of your application.
+.. Click the icon in *Context Aware Help*.
+*Result*: A new dialog with the structure of your application opens.
+.. Choose the element that you want to active the context aware help for. Only elements marked are green can be assigned a context aware help.
+.. Close the window.
+. You can choose an *Icon* from the media library that serves as icon for your documentation.
+. In *Dialog*, you can adjust the size of the dialog in which the documentation appears.
+. In the *Documentation editing pane*, you can write and edit the text of your documentation.
+. Click *Save*.
+
+== Results
+. You have added the documentation for your application or parts of your application.
+
