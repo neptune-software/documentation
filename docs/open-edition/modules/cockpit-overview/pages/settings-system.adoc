@@ -86,22 +86,22 @@ Use pool:: Check to use the pool for connections.
 Use TLS:: Check to protect the content accessible by the other entities.
 Allow self-signed certificates:: Check to accept untrusted emailing connections
 //ToDo explanations needed for the last three fields
-Username:: Enter the username of the registered user
-Password:: Enter the password
-From Address:: Enter the email-address you want to use to sent notifications
+Username:: Enter the username of the registered user.
+Password:: Enter the password.
+From Address:: Enter the email-address you want to use to sent notifications.
 
 == Password
 Set the password properties here.
 
 == Authentication
 Select an authentication protocol and configure it.
+//give more info about the different authentication methods? Yes https://community.neptune-software.com/documentation/lauchpad/documentation/enable-default-login-providers
 
-=== Related Topics
-* xref:settings-azure-ad-config.adoc[]
-* xref:settings-jwt-config.adoc[]
+* xref:settings-azure-ad-config.adoc[Azure AD Bearer authentication]
+* xref:settings-jwt-config.adoc[API authentication (JWT)]
 // In the headline, mention JWT or API?
-* Configure LDAP
-* Configure OAuth2
+* xref:settings-ldap-config.adoc[Lightweight Directory Access Protocol (LDAP) authentication]
+*  xref:settings-oauth2-config.adoc[OAuth2 authentication]
 * Configure OpenID Connect
 * Configure SAML
 //ToDo describe the 6 different authentication methods!

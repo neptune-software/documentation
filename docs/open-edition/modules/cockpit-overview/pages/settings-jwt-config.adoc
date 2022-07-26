@@ -1,7 +1,7 @@
 = Configure API authentication (JWT)
 
-In this topic you learn how to set up an authentication via a Jason web token (JWT) and how to configure it in your cockpit.
-You have to accomplish different tasks to enable the connection.
+In this topic you learn how to set up authentication via a Jason web token (JWT) and how to configure it in your cockpit.
+You must accomplish different tasks to enable the connection.
 
 == Prerequisites
 
@@ -36,7 +36,9 @@ Jwks Url:: Add the URL that leads to the JWKS. For example:
 ----
 https://login.microsoftonline.com/<tenantid>/discovery/v2.0/keys
 ----
-Change <tenantid> to your app's tenant ID. To find your tenant ID, refer to *Add Link*.
+Change <tenantid> to your app's tenant ID. To find your tenant ID, refer to
+
+//do not explain that step, just enter the field description for tenant ID: "Enter the tenant ID from you Azure AD account." Add prerequisite: Have the tenant ID from the Azure Portal for your _Neptune DXP - Open Edition_ ready
 
 Proxy for jwks url:: Add a proxy for your jwks url, you can add any string.
 

@@ -1,7 +1,7 @@
 = Configure Azure AD bearer authentication
 
-In this topic you learn how to set up an authentication via Azure AD and how to configure it in your cockpit.
-You have to accomplish different tasks to enable the connection.
+In this topic you learn how to set up authentication via Azure AD and how to configure it in your cockpit.
+You must accomplish different tasks to enable the connection.
 
 == Prerequisites
 
@@ -51,7 +51,7 @@ image::settings-set-api-permission.png[,800]
 
 == Add Azure AD authentication provider in the DXP Open Edition
 
-. In the _DXP - Open edition_ cockpit, go to *Settings*, and click *System Settings*.
+. In the _DXP - Open Edition_ cockpit, go to *Settings*, and click *System Settings*.
 . Click the *Authentication* tab.
 . Click *Edit*.
 . Click *Add*, and select *Azure AD*.
@@ -74,7 +74,8 @@ Identity Metadata:: Enter a link to a metadata document that contains informatio
 https://login.microsoftonline.com/<tenantid>/v2.0/.well-known/openid-configuration
 ----
 //input needed
-Tenant ID:: Enter your tenant ID. To find your tenant ID, refer to *Add Link*
+Tenant ID:: From your Azure AD account, enter the tenant ID for your _Neptune DXP - Open Edition_.
+// Add prerequisite: Have the tenant ID from the Azure Portal for your _Neptune DXP - Open Edition_ ready
 Client ID:: Enter your application's client ID from the Azure portal.
 Client Secret:: Enter the client secret key that you generated in *New client secret* in the Azure portal.
 Additional Scopes (Login request will use profile, openid, offline_access and User.Read)::

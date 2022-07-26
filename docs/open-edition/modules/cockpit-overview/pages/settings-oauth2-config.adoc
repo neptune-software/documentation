@@ -1,0 +1,16 @@
+= Configure an OAuth2 authentication
+
+In this topic you learn how to set up an authentication via LDAP and how to configure it in your cockpit.
+You must accomplish different tasks to enable the connection.
+
+== Procedure
+. In the _DXP - Open Edition_ cockpit, go to *Settings*, and click *System Settings*.
+. Click the *Authentication* tab.
+. Click *Edit*.
+. Click *Add*, and select *LDAP*.
++
+image::settings-auth-oauth2.png[,800]
+*Result*: The Authentication window opens.
+
+=== LDAP
+Fill in or check the following fields:

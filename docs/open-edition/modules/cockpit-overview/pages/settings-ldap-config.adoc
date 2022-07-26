@@ -1,10 +1,10 @@
 = Configure a Lightweight Directory Access Protocol (LDAP) authentication
 
-In this topic you learn how to set up an authentication via LDAP and how to configure it in your cockpit.
-You have to accomplish different tasks to enable the connection.
+In this topic you learn how to set up authentication via LDAP and how to configure it in your cockpit.
+You must accomplish different tasks to enable the connection.
 
 == Procedure
-. In the _DXP - Open edition_ cockpit, go to *Settings*, and click *System Settings*.
+. In the _DXP - Open Edition_ cockpit, go to *Settings*, and click *System Settings*.
 . Click the *Authentication* tab.
 . Click *Edit*.
 . Click *Add*, and select *LDAP*.
@@ -19,30 +19,39 @@ Name:: Enter a name for the authentication.
 Active:: Check to activate this authentication method.
 Show on login page:: Check to display the authentication method on the login page.
 Description:: Enter a description.
-Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, /user/logon/jwt/(path). You can add any string as a path. Enter a path to post login data. (Not relevant when login screen is used but must be set to something). e.g., If myldap then full is  http://planet9server/user/logon/ldap/myldap
+Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, /user/logon/jwt/(path). You can add any string as a path.
+Enter a path to post login data. (Not relevant when login screen is used but must be set to something). e.g., If myldap then full is  http://planet9server/user/logon/ldap/myldap
 //What does it mean?
-URL: Enter the URI to the LDAP server.
-Issuer:: You can add an issuer validation.
+Url:: Enter the URI to the LDAP server.
+Bind DN::
+Bind Credentials::
+Search Base::
+Filter for user login::
+Filter for groups on user login::
 
-Audience:: You can add an audience validation.
+=== Filter search
 
-Secret:: Add a secret key for the validation if no jason web key set (JWKS) url is provided.
+User Filter::
+Group Filter::
 
-Jwks Url:: Add the URL that leads to the JWKS. For example:
+=== Filter User
 
-----
-https://login.microsoftonline.com/<tenantid>/discovery/v2.0/keys
-----
-Change <tenantid> to your app's tenant ID. To find your tenant ID, refer to *Add Link*.
+User Filter::
+Unique Identifier::
 
-Proxy for jwks url:: Add a proxy for your jwks url, you can add any string.
+=== User Mapping
 
-Override default Jwt Extraction Method - From Authorization Header as Bearer Token::
-//Input needed
+Enter information about the user and to which group they belong.
 
-=== Claims assignment
-. Click *Add* to add a claims assignment
-//input
+=== Filter Group
+
+Group filter::
+Unique Identifier::
+
+=== Group mapping
+
+Name::
+Description::
 
 === Auto assignment
 Assign Role:: Select the  roles that you want to assign ...
@@ -51,7 +60,7 @@ Assign Departments:: Select departments that you want to assign ...
 //see above. Input needed
 
 == Result
-You have configured an API authentication, and you have activated it.
+You have configured an LDAP authentication, and you have activated it.
 
 == Related topics
 * xref:settings-system.adoc[System Settings]
