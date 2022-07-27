@@ -4,6 +4,8 @@ Links from one topic to another are important to read more about a given topic t
 The user should be directed to content that is related to what he just read.
 However, he should not be overwhelmed with unnecessary information that is only marginally related to what he is working on.
 
+Also, the reader should not be interrupted in his reading of the current topic. Therefore, links should only be placed at some places in the topic.
+
 The following rules for different topic types are used to decide which topics link where:
 
 == Concept topics
@@ -38,3 +40,39 @@ Where are links placed:
 * In a *Related topics* section
 * In a *Next steps* section
 * In the *Prerequisites* section
+
+== Links in complex tasks
+
+Complex tasks contain a concept topics, two or more mandatory task topic, and may contain optional topics.
+They link to each other in the following way:
+
+|===
+|Topic type |Link to
+
+|Service group overview
+|Service concept
+
+|Service concept topic
+|Link to service group, Complex task, task, optional task
+
+|Complex task
+|Link to concept, task, optional task
+
+|(Mandatory) Task
+|
+
+|In Next Steps
+|Next mandatory task in sequence, all optional topics
+
+|In Related Topics
+|Complex task, Service concept
+
+|Optional Task
+|
+
+|In Next Steps
+|other optional topics
+
+|In Related Topics
+|Complex task, Service concept
+|===

@@ -42,7 +42,7 @@ IMPORTANT: Warn readers about possible damage to equipment or data, about potent
 
 == Next steps
 * List next steps, if any.
-* This section is optional and shall only be used if there are next steps.
+* This section is optional and shall only be used if there are next steps, for example, in a guide.
 
 == Related topics
 * This section is mandatory for each topic.
