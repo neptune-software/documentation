@@ -11,53 +11,46 @@ You must accomplish different tasks to enable the connection.
 +
 image::settings-auth-jwt.png[,800]
 *Result*: The Authentication window opens.
-
-=== LDAP
-Fill in or check the following fields:
-
+. In *LDAP*, fill in or check the following fields:
 Name:: Enter a name for the authentication.
 Active:: Check to activate this authentication method.
 Show on login page:: Check to display the authentication method on the login page.
 Description:: Enter a description.
-Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, /user/logon/jwt/(path). You can add any string as a path.
-Enter a path to post login data. (Not relevant when login screen is used but must be set to something). e.g., If myldap then full is  http://planet9server/user/logon/ldap/myldap
+Path:: Enter a path to post login data. (Not relevant when login screen is used but must be set to something). e.g., If myldap then full is
++
+----
+http://planet9server/user/logon/ldap/myldap
+----
 //What does it mean?
 Url:: Enter the URI to the LDAP server.
 Bind DN::
 Bind Credentials::
 Search Base::
-Filter for user login::
-Filter for groups on user login::
-
-=== Filter search
-
-User Filter::
-Group Filter::
-
-=== Filter User
-
-User Filter::
-Unique Identifier::
-
-=== User Mapping
-
-Enter information about the user and to which group they belong.
-
-=== Filter Group
-
-Group filter::
-Unique Identifier::
-
-=== Group mapping
-
-Name::
-Description::
-
-=== Auto assignment
-Assign Role:: Select the  roles that you want to assign ...
+Filter for user login:: tba
+Filter for groups on user login:: tba
++
+. In *Filter Search*, enter filters for users or groups.
++
+. In *Filter User*, enter filters for users and a unique identifier.
+//User Filter::
+//Unique Identifier::
++
+. In *User Mapping*, enter information about the user and the group they belong to.
++
+. In *Filter Group*, enter filters for groups and a unique identifier.
+//Group filter::
+//Unique Identifier::
++
+. In *Group Mapping*, enter a name and a description for the group that you defined before.
+// need input
++
+. In *Auto Assignment*, assign roles and the departments.
 //where do you create these roles?
-Assign Departments:: Select departments that you want to assign ...
-//see above. Input needed
+. Click *OK* to save your input.
++
+*Result*: The Authentication window closes.
+. In *System Settings*, click *Restart* to activate Azure AD authentication.
+
 
 == Result
 You have configured an LDAP authentication, and you have activated it.

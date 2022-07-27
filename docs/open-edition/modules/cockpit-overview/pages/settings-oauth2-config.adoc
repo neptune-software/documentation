@@ -7,10 +7,38 @@ You must accomplish different tasks to enable the connection.
 . In the _DXP - Open Edition_ cockpit, go to *Settings*, and click *System Settings*.
 . Click the *Authentication* tab.
 . Click *Edit*.
-. Click *Add*, and select *LDAP*.
+. Click *Add*, and select *OAuth2*.
 +
 image::settings-auth-oauth2.png[,800]
 *Result*: The Authentication window opens.
+. In *OAuth2*, fill in or check the following fields:
+Name:: Enter a name for the authentication.
+Active:: Check to activate this authentication method.
+Show on login page:: Check to display the authentication method on the login page.
+Description:: Enter a description.
+Path:: Enter a path to post login data.
+Authorisation URL::
+Token URL::
+Callback URL::
+Redirect URL::
+Client ID::
+Client Secret::
+Scope::
+ProfileScript (accessToken, done)::
++
+. In *Claims Assignment*, click *Add* to add claims assignments.
++
+. In *Auto Assignment*, assign roles and the departments.
+//where do you create these roles?
++ In *Custom Script*, you can enter your code.
+//ToDo check what custom script code is
+. Click *OK* to save your input.
++
+*Result*: The Authentication window closes.
+. In *System Settings*, click *Restart* to activate Azure AD authentication.
 
-=== LDAP
-Fill in or check the following fields:
+== Result
+You have configured an OAuthentication authentication.
+
+== Related topics
+* xref:settings-system.adoc[System Settings]

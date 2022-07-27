@@ -8,6 +8,7 @@ You must accomplish different tasks to enable the connection.
 * You have registered the _DXP - Open Edition_ in the Azure portal.
 Find more information about how to register an app on https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[microsoft.com].
 * You have created a xref:security-certificates-generate.adoc[self-signed certificate].
+* You have the tenant ID from the Azure portal for your _Neptune DXP - Open Edition_ ready.
 //links into another repository
 
 == Procedure
@@ -59,42 +60,36 @@ image::settings-set-api-permission.png[,800]
 image::settings-auth-azure-ad.png[,800]
 *Result*: The Authentication window opens.
 
-=== Azure ID bearer
-Fill in or check the following fields:
-
+. In *Azure ID bearer*, fill in or check the following fields:
++
 Name:: Enter a name for the authentication.
 Active:: Check to activate this authentication method.
 Show on Login page:: Check to show it on the _DXP Open Edition_ Session Login Page.
 // "it" means Login screen?
 Description:: Enter a description.
-Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, open-edition-ad-bearer). You can add any string as a path.
+Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, open-edition-ad-bearer).
+You can add any string as a path.
 //What does it mean?
 Identity Metadata:: Enter a link to a metadata document that contains information required for an app to sign-in.
-----
-https://login.microsoftonline.com/<tenantid>/v2.0/.well-known/openid-configuration
-----
-//input needed
-Tenant ID:: From your Azure AD account, enter the tenant ID for your _Neptune DXP - Open Edition_.
+Tenant ID:: From your Azure AD account, enter the tenant ID of your _Neptune DXP - Open Edition_.
 // Add prerequisite: Have the tenant ID from the Azure Portal for your _Neptune DXP - Open Edition_ ready
 Client ID:: Enter your application's client ID from the Azure portal.
 Client Secret:: Enter the client secret key that you generated in *New client secret* in the Azure portal.
 Additional Scopes (Login request will use profile, openid, offline_access and User.Read)::
-Use silent signout in PWA::
+Use silent signout in PWA:: tba
 Use MSAl v2. Can be accessed in Launchpad with APPCacheLogonAzure.msalObj:: tba
-
-=== Claims assignment
-. Click *Add* to add a claims assignment.
-
-=== Auto assignment
-Assign Role:: Select the  roles that you want to assign ...
++
+. *In Claims Assignment*, click *Add* to add claims assignments.
++
+. In *Auto Assignment*, assign roles and departments.
+//Assign Role:: Select the  roles that you want to assign ...
 //where do you create these roles?
-Assign Departments:: Select departments that you want to assign ...
+//Assign Departments:: Select departments that you want to assign ...
 //see above. Input needed
-
-=== Custom Script
-Enter your code here.
-
++ In *Custom Script*, you can enter your code.
+//ToDo check what custom script code is
 . Click *OK* to save your input.
++
 *Result*: The Authentication window closes.
 . In *System Settings*, click *Restart* to activate Azure AD authentication.
 

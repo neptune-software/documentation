@@ -1,4 +1,5 @@
 = Configure API authentication (JWT)
+//API or better JWT authentication?
 
 In this topic you learn how to set up authentication via a Jason web token (JWT) and how to configure it in your cockpit.
 You must accomplish different tasks to enable the connection.
@@ -7,6 +8,7 @@ You must accomplish different tasks to enable the connection.
 
 * You have registered the _DXP - Open Edition_ in the Azure portal.
 Find more information about how to register an app on https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app[microsoft.com].
+* You have the tenant ID from the Azure Portal for your _Neptune DXP - Open Edition_ ready.
 
 == Procedure
 . In the _DXP - Open edition_ cockpit, go to *Settings*, and click *System Settings*.
@@ -16,47 +18,45 @@ Find more information about how to register an app on https://docs.microsoft.com
 +
 image::settings-auth-jwt.png[,800]
 *Result*: The Authentication window opens.
-
-=== JWT authentication
-Fill in or check the following fields:
-
++
+. In *JWT authentication*, fill in or check the following fields:
++
 Name:: Enter a name for the authentication.
 Active:: Check to activate this authentication method.
 Description:: Enter a description.
-Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, /user/logon/jwt/(path). You can add any string as a path.
+Path:: Enter a path to retrieve a _DXP Open Edition_ session (for example, /user/logon/jwt/(path).
+You can add any string as a path.
 //What does it mean?
 Issuer:: You can add an issuer validation.
-
 Audience:: You can add an audience validation.
-
-Secret:: Add a secret key for the validation if no jason web key set (JWKS) url is provided.
-
+Secret:: Add a secret key for the validation if no jason web key set (JWKS) URL is provided.
 Jwks Url:: Add the URL that leads to the JWKS. For example:
-
++
 ----
-https://login.microsoftonline.com/<tenantid>/discovery/v2.0/keys
+`https://login.microsoftonline.com/<tenantid>/discovery/v2.0/keys`
 ----
-Change <tenantid> to your app's tenant ID. To find your tenant ID, refer to
-
-//do not explain that step, just enter the field description for tenant ID: "Enter the tenant ID from you Azure AD account." Add prerequisite: Have the tenant ID from the Azure Portal for your _Neptune DXP - Open Edition_ ready
-
+Change `<tenantid>` to your app's tenant ID.
++
 Proxy for jwks url:: Add a proxy for your jwks url, you can add any string.
-
+//what does that mean?
 Override default Jwt Extraction Method - From Authorization Header as Bearer Token::
 //Input needed
-
-=== Claims assignment
-. Click *Add* to add a claims assignment
++
+. In *Claims Assignment*, click *Add* to add claims assignments.
 //input
-
-=== Auto assignment
-Assign Role:: Select the  roles that you want to assign ...
+. In *Auto Assignment*, assign roles and departments.
+//Assign Role:: Select the  roles that you want to assign ...
 //where do you create these roles?
-Assign Departments:: Select departments that you want to assign ...
+//Assign Departments:: Select departments that you want to assign ...
 //see above. Input needed
+. Click *OK* to save your input.
++
+*Result*: The Authentication window closes.
+. In *System Settings*, click *Restart* to activate Azure AD authentication.
 
 == Result
 You have configured an API authentication, and you have activated it.
+//see the comment for headline
 
 == Related topics
 * xref:settings-system.adoc[System Settings]
