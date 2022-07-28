@@ -43,9 +43,10 @@ Where are links placed:
 
 == Links in complex tasks
 
-Complex tasks contain a concept topics, two or more mandatory task topic, and may contain optional topics.
+Complex tasks contain a concept topics, two or more mandatory task topics, and may contain optional task topics.
 They link to each other in the following way:
 
+[%header, frame=sides, frame=ends]
 |===
 |Topic type |Link to
 
