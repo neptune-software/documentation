@@ -1,1 +1,33 @@
 = Load balancing
+
+To improve load balancing, the following actions are recommended:
+
+* In a production environment, you should you run DXP - Open Edition behind a proxy, for example, `nginx` or `HAProxy`, as binding to the default HTTPS port requires root permissions.
+That way, you do not have to run DXP - Open Edition with a privileged account.
+* You should switch from the default SQLite database to a specialised external database, for example, PostgreSQL.
+This database should preferably not be accessible to the general internet but only to your DXP - Open Edition instance.
+
+== Scaling within one server
+
+To take advantage of the many processing cores that computers have, DXP - Open Edition has a master/worker architecture where you can spawn many DXP - Open Edition workers.
+They all share the same TCP port and are stateless, so scaling these up and down is possible.
+If a worker process should abort, it responds immediately.
+
+== Scaling across servers
+
+In a high volume environment, more than one server could be needed.
+From the point of view of DXP - Open Edition, this is possible because the nodes themselves do not need to be synchronized with each other.
+
+DXP - Open Edition runs fine in docker and can be set up by an appropriate tool, for example, Kubernetes.
+In this case, pods can be set up to run DXP - Open Edition. Pods can be scaled up and down, depending on the load.
+For security, it is recommended that they run on an internal network and only communicate with the load balancer.
+To make sure that the node is actually up, you can add a health check to the `/healthz` endpoint.
+
+== App servers and system logs
+
+* You can add systems in the _System Settings_ service.
+* You can monitor logs in the _Monitor Logs_ service.
+
+
+
+https://community.neptune-software.com/documentation/add-on-guides/documentation/monitor-load-balancing-in-planet-9

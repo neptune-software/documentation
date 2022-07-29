@@ -1,1 +1,10 @@
 = User authentication
+
+By default, a user will have its credentials stored in Neptune DXP - Open Edition itself (using bcrypt). There are a number of password policies that can be configured, such as minimum password length or time-based expiration. This is convenient if you don't have a lot of users.
+
+However, for large organisations, Neptune DXP - Open Edition supports multiples Users Security and Authentication Processes, including certification-based authentication like X.509 certification, cloud-based authentication like Azure AD and SAML based authorisation and authorisation.
+
+image::userauthentication.png[]
+
+
+https://community.neptune-software.com/documentation/getting-started-with-planet-9-focvf1kb/documentation/security-overview

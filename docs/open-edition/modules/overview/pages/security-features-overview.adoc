@@ -1,1 +1,27 @@
 = Security features overview
+
+Neptune DXP - Open Edition is a self-contained stateless Node.js server, which listens to a pre-configured network interface.
+It supports Linux, macOS, Windows, and Raspberry Pi.
+It can be thought of as both an app development platform and an app runtime.
+When a user creates an app, that app is sustained by the DXP - Open Edition server.
+That means, the app does not run as a separate process bu all apps are running through the same DXP - Open Edition runtime.
+
+== Server port
+
+In a new installation, DXP - Open Edition starts with a local internal database and no other external dependencies.
+By default, it binds to port 8080.
+This can be changed in three ways:
+
+* In the _System Settings_ service in DXP - Open Edition
+* By manually changing the config file
+* By starting DXP - Open Edition with the environment variable PORT set to the desired port (Example for Linux: `PORT=3000 ./planet9-linux`).
+
+== Run in HTTPS mode
+
+It is possible to configure DXP - Open Edition to run in HTTPS mode.
+
+In the _System Settings_ service, you can add certificates and configure the desired port. By default, this is port 8081 but can be overridden with an SSL_PORT environment variable.
+
+If DXP - Open Edition is running in HTTPS mode, an internal process still binds to the configured HTTP port, but only listen to the loopback interface (127.0.0.1).
+This is used to run internal server script processes.
+
